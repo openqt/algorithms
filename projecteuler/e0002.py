@@ -15,19 +15,20 @@ four million, find the sum of the even-valued terms.
 def fibonacci(length=-1, stop=None):
     """
     generating fibonacci sequence
-    :param length: the length of fibonacci
-    :param stop: the maximum value
+    :param length: length of fibonacci
+    :param stop: maximum value
     :return: fibonacci sequence
     """
     a, b = 1, 1
     while length != 0:
         yield b
-        a, b = b, a+b
+        a, b = b, a + b
 
         if length > 0:
             length -= 1
 
         if stop and b > stop:
             break
+
 
 print(sum(i for i in fibonacci(stop=4000000) if i % 2 == 0))  # 4613732

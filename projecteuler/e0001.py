@@ -17,4 +17,5 @@ def sum_by(step, stop=1000):
     """
     return sum(range(step, stop, step))
 
+
 print sum_by(3) + sum_by(5) - sum_by(15)  # 233168
