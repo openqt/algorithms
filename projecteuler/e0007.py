@@ -48,7 +48,8 @@ def prime(stop=None):
                 raise StopIteration()
 
 
-for i in prime(10001):
-    pass
-else:
-    print(i)  # 104743
+if __name__ == '__main__':
+    for i in prime(10001):
+        pass
+    else:
+        print(i)  # 104743

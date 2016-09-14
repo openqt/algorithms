@@ -13,9 +13,11 @@ def sum_by(step, stop=1000):
     """
     sum up arithmetic progression by step
     :param step: arithmetic progression step
+    :param stop: the maximum value
     :return: sum of arithmetic progression
     """
     return sum(range(step, stop, step))
 
 
-print sum_by(3) + sum_by(5) - sum_by(15)  # 233168
+if __name__ == '__main__':
+    print sum_by(3) + sum_by(5) - sum_by(15)  # 233168

@@ -35,5 +35,6 @@ def LCM(a, b):
     return a * b / GCD(a, b)
 
 
-print reduce(LCM, range(1, 11))  # 2520
-print reduce(LCM, range(1, 21))  # 232792560
+if __name__ == '__main__':
+    print reduce(LCM, range(1, 11))  # 2520
+    print reduce(LCM, range(1, 21))  # 232792560

@@ -28,8 +28,9 @@ def prime_by(n, reverse=False):
             yield i
 
 
-val = 600851475143
-for i in prime_by(int(math.sqrt(val)), True):
-    if val % i == 0:
-        print(i)
-        break
+if __name__ == '__main__':
+    val = 600851475143
+    for i in prime_by(int(math.sqrt(val)), True):
+        if val % i == 0:
+            print(i)  # 6857
+            break

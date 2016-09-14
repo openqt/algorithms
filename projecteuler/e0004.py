@@ -12,6 +12,11 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 
 def reverse(n):
+    """
+    reverse a number
+    :param n: number
+    :return: reversed number
+    """
     val = 0
     while n > 0:
         val = val * 10 + n % 10
@@ -28,13 +33,15 @@ def is_palindrome(n):
     return n == reverse(n)
 
 
-a = b = c = 0
-for i in range(999, 99, -1):
-    for j in range(999, i, -1):
-        val = i * j
-        if val < c:
-            break
-        if is_palindrome(val):
-            a, b, c = i, j, val
+if __name__ == '__main__':
+    a = b = c = 0
+    for i in range(999, 99, -1):
+        for j in range(999, i, -1):
+            val = i * j
+            if val < c:
+                break
+            if is_palindrome(val):
+                a, b, c = i, j, val
 
-print '%d x %d = %d' % (a, b, c)
+    # 913 x 993 = 906609
+    print '%d x %d = %d' % (a, b, c)

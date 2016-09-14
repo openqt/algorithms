@@ -60,23 +60,24 @@ def data():
         yield int(i)
 
 
-RANGE = 13
+if __name__ == '__main__':
+    RANGE = 13
 
-calc = []
-vals = None
-val = 0
+    calc = []
+    vals = None
+    val = 0
 
-for i in data():
-    if i == 0:
-        calc = []
-    elif len(calc) < RANGE:
-        calc.append(i)
-    else:
-        calc.pop(0)
-        calc.append(i)
-        n = multiply(calc)
-        if val < n:
-            val = n
-            vals = calc[:]
+    for i in data():
+        if i == 0:
+            calc = []
+        elif len(calc) < RANGE:
+            calc.append(i)
+        else:
+            calc.pop(0)
+            calc.append(i)
+            n = multiply(calc)
+            if val < n:
+                val = n
+                vals = calc[:]
 
-print vals, val  # 23514624000
+    print vals, val  # 23514624000

@@ -31,4 +31,5 @@ def fibonacci(length=-1, stop=None):
             break
 
 
-print(sum(i for i in fibonacci(stop=4000000) if i % 2 == 0))  # 4613732
+if __name__ == '__main__':
+    print(sum(i for i in fibonacci(stop=4000000) if i % 2 == 0))  # 4613732

@@ -34,4 +34,5 @@ def square_sum(n):
     return sum(range(1, n+1))**2
 
 
-print square_sum(100) - sum_square(100)  # 25164150
+if __name__ == '__main__':
+    print square_sum(100) - sum_square(100)  # 25164150
