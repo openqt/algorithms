@@ -30,6 +30,7 @@ product are 9 × 9 × 8 × 9 = 5832.
 Find the thirteen adjacent digits in the 1000-digit number that have the
 greatest product. What is the value of this product?
 """
+from __future__ import print_function
 
 
 def multiply(sequence, start=0):
@@ -80,4 +81,4 @@ if __name__ == '__main__':
                 val = n
                 vals = calc[:]
 
-    print vals, val  # 23514624000
+    print(vals, val)  # 23514624000

@@ -14,11 +14,12 @@ numbers and the square of the sum is 3025 - 385 = 2640.
 Find the difference between the sum of the squares of the first one hundred
 natural numbers and the square of the sum.
 """
+from __future__ import print_function
 
 
 def sum_square(n):
-    """
-    sum of the squares of numbers
+    """sum of the squares of numbers
+
     :param n: number
     :return: um of the squares
     """
@@ -26,8 +27,8 @@ def sum_square(n):
 
 
 def square_sum(n):
-    """
-    square of the sum of numbers
+    """square of the sum of numbers
+
     :param n: number
     :return: square of the sum
     """
@@ -35,4 +36,4 @@ def square_sum(n):
 
 
 if __name__ == '__main__':
-    print square_sum(100) - sum_square(100)  # 25164150
+    print(square_sum(100) - sum_square(100))  # 25164150

@@ -1,10 +1,13 @@
 # coding=utf-8
+from __future__ import print_function
+
+
 # Definition for singly-linked node
 
 
-class ListNode:
-    """
-    OJ singly-linked list
+class ListNode(object):
+    """OJ singly-linked list
+
     默认头节点即第一个元素节点
     """
 
@@ -16,8 +19,8 @@ class ListNode:
 
     @staticmethod
     def build(seq):
-        """
-        从可遍历对象构造单链表结构
+        """从可遍历对象构造单链表结构
+
         :param seq: 壳遍历对象
         :return: 单链表头节点
         """
@@ -28,9 +31,9 @@ class ListNode:
         return head.next
 
     def __str__(self):
-        """
-        当前链表转为字符串表示：
-            a > b > c > d > e > f > g > END
+        """当前链表转为字符串表示
+
+        a > b > c > d > e > f > g > END
         :return:
         """
         p = self
@@ -42,8 +45,8 @@ class ListNode:
         return s
 
     def copy(self):
-        """
-        复制链表，从当前节点开始复制
+        """复制链表，从当前节点开始复制
+
         :return: 新链表的头节点
         """
         node1 = self
@@ -55,8 +58,8 @@ class ListNode:
         return head.next
 
     def __reversed__(self):
-        """
-        逆序链表，返回新的头节点，之前链表会被破坏
+        """逆序链表，返回新的头节点，之前链表会被破坏
+
         :return: 新的逆序后的头节点
         """
         head = ListNode(0)
@@ -71,7 +74,6 @@ class ListNode:
 
 if __name__ == '__main__':
     node = ListNode.build('abcdefg')
-    print node
-    print reversed(node.copy())
-    print node
-
+    print(node)
+    print(reversed(node.copy()))
+    print(node)

@@ -7,12 +7,13 @@ we can see that the 6th prime is 13.
 
 What is the 10 001st prime number?
 """
+from __future__ import print_function
 import math
 
 
 def is_prime(n):
-    """
-    check a number is a prime
+    """check a number is a prime
+
     :return: True for prime
     """
     if n == 2:
@@ -27,8 +28,8 @@ def is_prime(n):
 
 
 def prime(stop=None):
-    """
-    generating prime
+    """generating prime
+
     :param stop: iteration
     :return: prime
     """

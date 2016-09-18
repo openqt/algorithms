@@ -1,9 +1,10 @@
 # coding=utf-8
+from __future__ import print_function
 
 
 class RPN(object):
-    """
-    Definition for reverse polish notation
+    """Definition for reverse polish notation
+
     """
     PRIORITY = {
         '+': 10,
@@ -83,4 +84,4 @@ class RPN(object):
 
 
 if __name__ == '__main__':
-    assert RPN()('2 + 3 * 4 - (7 - 2) * 3') == -1
+    print(RPN()('2 + 3 * 4 - (7 - 2) * 3'))  # -1

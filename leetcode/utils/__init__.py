@@ -1,1 +1,1 @@
-"""Data Structure Definition"""
+"""Data Structure and Common Algorithms Definition"""

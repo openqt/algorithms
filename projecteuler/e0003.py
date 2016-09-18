@@ -6,12 +6,13 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 
 What is the largest prime factor of the number 600851475143 ?
 """
+from __future__ import print_function
 import math
 
 
 def prime_by_1(n, reverse=False):
-    """
-    prime sequence to n
+    """prime sequence to n
+
     :param n: the maximum range
     :param reverse: reverse prime sequence
     :return: prime sequence between [2, n]
@@ -32,8 +33,8 @@ def prime_by_1(n, reverse=False):
 
 
 def prime_by(n, reverse=False):
-    """
-    prime sequence to n
+    """prime sequence to n
+
     :param n: the maximum range
     :param reverse: reverse prime sequence
     :return: prime sequence between [2, n]

@@ -1,1 +1,1 @@
-__version__ = "2015.1214.2"  # year.day.revision
+__version__ = "2016.0918.1"  # year.day.revision

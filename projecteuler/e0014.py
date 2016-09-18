@@ -20,11 +20,12 @@ Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million.
 """
+from __future__ import print_function
 
 
 def collatz(n):
-    """
-    generating Collatz sequence by starting number
+    """generating Collatz sequence by starting number
+
     :param n: start number
     :return: Collatz sequence
     """
@@ -39,8 +40,8 @@ def collatz(n):
 
 
 def _len_collatz(n, cache):
-    """
-    length of generator
+    """length of generator
+
     :param gen: generator
     :return: length
     """

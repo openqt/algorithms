@@ -1,10 +1,13 @@
 # coding=utf-8
+from __future__ import print_function
+
+
 # Definition for a binary tree node.
 
 
-class TreeNode:
-    """
-    OJ's Binary Tree Serialization:
+class TreeNode(object):
+    """OJ's Binary Tree Serialization:
+
     The serialization of a binary tree follows a level order traversal,
     where '#' signifies a path terminator where no node exists below.
 
@@ -17,6 +20,7 @@ class TreeNode:
         \
          5
     The above binary tree is serialized as "{1,2,3,#,#,4,#,#,5}".
+
     """
 
     def __init__(self, x):
@@ -29,8 +33,8 @@ class TreeNode:
 
     @staticmethod
     def build(seq):
-        """
-        从列表形成一个二叉树，此节点作为根节点
+        """从列表形成一个二叉树，此节点作为根节点
+
         列表构造实际上是一颗满二叉树
         :param seq: binary tree serialization
         :return: tree root node
@@ -43,8 +47,8 @@ class TreeNode:
         for i in range(2, len(seq), 2):  # 步长是2
             node = Q.pop(0)
 
-            if seq[i-1] != '#':
-                node.left = TreeNode(seq[i-1])
+            if seq[i - 1] != '#':
+                node.left = TreeNode(seq[i - 1])
                 Q.append(node.left)
 
             if seq[i] != '#':
@@ -53,9 +57,9 @@ class TreeNode:
         return root
 
     def __str__(self):
-        """
-        书结构转为字符串表示法
-        :return: 字符串表示书结构
+        """书结构转为字符串表示法
+
+        :return: 字符串表示树结构
         """
         val = []
 
@@ -78,20 +82,20 @@ class TreeNode:
         return str(val)
 
     def copy(self):
-        """
-        复制二叉树，从当前节点开始复制
+        """复制二叉树，从当前节点开始复制
+
         :return:
         """
 
     def __reversed__(self):
-        """
-        二叉树逆序
+        """二叉树逆序
+
         :return: 当前节点
         """
 
     def preorder(self, node=None, seq=None):
-        """
-        前序遍历
+        """前序遍历
+
         :param node: 当前树节点
         :param seq: 存储遍历后的结果
         :return: seq
@@ -107,8 +111,8 @@ class TreeNode:
         return seq
 
     def inorder(self, node=None, seq=None):
-        """
-        中序遍历
+        """中序遍历
+
         :param node: 当前树节点
         :param seq: 存储遍历后的结果
         :return: seq
@@ -124,8 +128,8 @@ class TreeNode:
         return seq
 
     def postorder(self, node=None, seq=None):
-        """
-        后序遍历
+        """后序遍历
+
         :param node: 当前树节点
         :param seq: 存储遍历后的结果
         :return: seq
@@ -143,10 +147,10 @@ class TreeNode:
 
 if __name__ == '__main__':
     root = TreeNode.build([1, 2, 3, '#', '#', 4, '#', '#', 5])
-    print root
+    print(root)
 
     root = TreeNode.build('1234567')
-    print root
-    print root.preorder()
-    print root.inorder()
-    print root.postorder()
+    print(root)
+    print(root.preorder())
+    print(root.inorder())
+    print(root.postorder())

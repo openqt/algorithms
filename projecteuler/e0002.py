@@ -10,11 +10,12 @@ two terms. By starting with 1 and 2, the first 10 terms will be:
 By considering the terms in the Fibonacci sequence whose values do not exceed
 four million, find the sum of the even-valued terms.
 """
+from __future__ import print_function
 
 
 def fibonacci(length=-1, stop=None):
-    """
-    generating fibonacci sequence
+    """generating fibonacci sequence
+
     :param length: length of fibonacci
     :param stop: maximum value
     :return: fibonacci sequence

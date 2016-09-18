@@ -9,11 +9,12 @@ The largest palindrome made from the product of two 2-digit numbers is
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
+from __future__ import print_function
 
 
 def reverse(n):
-    """
-    reverse a number
+    """reverse a number
+
     :param n: number
     :return: reversed number
     """
@@ -25,8 +26,8 @@ def reverse(n):
 
 
 def is_palindrome(n):
-    """
-    n is palindrome
+    """n is palindrome
+
     :param n: the number
     :return: True for palindrome
     """
@@ -43,5 +44,4 @@ if __name__ == '__main__':
             if is_palindrome(val):
                 a, b, c = i, j, val
 
-    # 913 x 993 = 906609
-    print '%d x %d = %d' % (a, b, c)
+    print('%d x %d = %d' % (a, b, c))  # 913 x 993 = 906609

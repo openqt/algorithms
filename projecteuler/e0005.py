@@ -8,11 +8,12 @@ to 10 without any remainder.
 What is the smallest positive number that is evenly divisible by all of the
 numbers from 1 to 20?
 """
+from __future__ import print_function
 
 
 def GCD(a, b):
-    """
-    greatest common divisor (G.C.D.)
+    """greatest common divisor (G.C.D.)
+
     :param a: a
     :param b: b
     :return: GCD
@@ -26,8 +27,8 @@ def GCD(a, b):
 
 
 def LCM(a, b):
-    """
-    lowest common multiple (L.C.M.)
+    """lowest common multiple (L.C.M.)
+
     :param a: a
     :param b: b
     :return: LCM
@@ -36,5 +37,5 @@ def LCM(a, b):
 
 
 if __name__ == '__main__':
-    print reduce(LCM, range(1, 11))  # 2520
-    print reduce(LCM, range(1, 21))  # 232792560
+    print(reduce(LCM, range(1, 11)))  # 2520
+    print(reduce(LCM, range(1, 21)))  # 232792560
