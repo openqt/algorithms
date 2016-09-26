@@ -12,7 +12,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 from __future__ import print_function
 
 
-def reverse(n):
+def reverse_int(n):
     """reverse a number
 
     :param n: number
@@ -31,7 +31,7 @@ def is_palindrome(n):
     :param n: the number
     :return: True for palindrome
     """
-    return n == reverse(n)
+    return n == reverse_int(n)
 
 
 if __name__ == '__main__':

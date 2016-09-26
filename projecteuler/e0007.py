@@ -8,7 +8,6 @@ we can see that the 6th prime is 13.
 What is the 10 001st prime number?
 """
 from __future__ import print_function
-import math
 
 
 def is_prime(n):
@@ -21,7 +20,7 @@ def is_prime(n):
     if n < 2 or n % 2 == 0:
         return False
 
-    for i in range(3, int(math.sqrt(n) + 1), 2):
+    for i in range(3, int(n ** .5 + 1), 2):
         if n % i == 0:
             return False
     return True
