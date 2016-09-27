@@ -16,12 +16,12 @@ def prime_sieve(n, reverse=False):
     :param reverse: reverse prime sequence
     :return: prime sequence between [2, n]
     """
-    marker = bytearray(n / 2)
+    marker = bytearray(n >> 1)
 
     for i in range(3, int(n ** .5 + 1), 2):
-        if marker[i / 2] == 0:  # prime
+        if marker[i >> 1] == 0:  # prime
             for j in range(i * i, n, 2 * i):
-                marker[j / 2] = 1
+                marker[j >> 1] = 1
 
     if not reverse:
         yield 2

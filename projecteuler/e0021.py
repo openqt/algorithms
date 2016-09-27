@@ -15,6 +15,7 @@ The proper divisors of 284 are 1, 2, 4, 71 and 142; so d(284) = 220.
 Evaluate the sum of all the amicable numbers under 10000.
 """
 from __future__ import print_function
+from e0012 import prime_factors
 
 
 def proper_divisors(n):
@@ -43,6 +44,14 @@ def proper_divisors(n):
         yield i
 
 
+def sum_proper_divisors(n):
+    factors = prime_factors(n)
+    total = 1
+    for x, y in factors.items():
+        total *= (x ** (y + 1) - 1) / (x - 1)
+    return total - n
+
+
 def amicable_number(stop=None):
     """amicable number sequence
 
@@ -58,11 +67,11 @@ def amicable_number(stop=None):
             break
 
         b = caches[a] if a in caches else caches.setdefault(
-            a, sum(proper_divisors(a)))  # d(a) = b
+            a, sum_proper_divisors(a))  # d(a) = b
 
         if a < b:  # a != b and make sure a is lower
             aa = caches[b] if b in caches else caches.setdefault(
-                b, sum(proper_divisors(b)))  # d(b) = a
+                b, sum_proper_divisors(b))  # d(b) = a
 
             if aa == a:
                 yield a, b
