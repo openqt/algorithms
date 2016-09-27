@@ -25,5 +25,4 @@ def factorial(n):
     return reduce(lambda x, y: x * y, range(2, n+1))
 
 if __name__ == '__main__':
-    print(factorial(100))
     print(sum_digits(factorial(100)))  # 648

@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Highly divisible triangular number
 Problem 12
@@ -51,35 +52,39 @@ def len_factors_brute_force(n):
 
 
 def prime_factors(n):
-    """generate prime factors of number
+    """prime factors of number
 
     :param n: number
-    :return: prime factors sequence
+    :return: prime factors
     """
+    factors = {}
+
     if n < 2:
-        return
+        return factors
 
     for i in prime_sieve(int(n ** .5)):
         if i * i > n:
             break
 
         while n % i == 0:
-            yield i
+            factors[i] = factors.setdefault(i, 0) + 1
             n /= i
 
     if n > 1:
-        yield n
+        factors[n] = factors.setdefault(n, 0) + 1
+
+    return factors
 
 
 def len_factors_by_prime(n):
-    caches = {}
-    for i in prime_factors(n):
-        caches[i] = caches.setdefault(i, 0) + 1
+    """σ(a×b×...)=σ(a)×σ(b)×..., where a, b, ..., are relatively prime.
+    http://mathschallenge.net/index.php?section=faq&ref=number/sum_of_divisors
 
-    count = 1
-    for v in caches.values():
-        count *= v + 1
-    return count
+    :param n: number
+    :return: prime factors
+    """
+    factors = prime_factors(n)
+    return reduce(lambda x, y: x * y, [i + 1 for i in factors.values()], 1)
 
 
 def triangle_number(stop=None):
