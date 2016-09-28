@@ -45,14 +45,6 @@ minimizing the expected loss, instead of the worst-case loss?
 """
 from __future__ import print_function
 
-_NUMBER = 3
-
-
-def guess(num):
-    if num == _NUMBER:
-        return 0
-    return -1 if _NUMBER < num else 1
-
 
 class Solution(object):
     def getMoneyAmount(self, n):
@@ -60,12 +52,17 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        total = 0
-        low, high = 0, n
-        while low < high:
-            n /= 2
-            total += n
-        return total
+        return self._solve(1, n, {})
+
+    def _solve(self, a, b, caches):
+        if a >= b:
+            return 0
+
+        if (a, b) not in caches:
+            caches[(a, b)] = min(i + max(self._solve(a, i - 1, caches),
+                                         self._solve(i + 1, b, caches))
+                                 for i in range(a, b+1))
+        return caches[(a, b)]
 
 
 if __name__ == '__main__':
@@ -73,3 +70,5 @@ if __name__ == '__main__':
     print(so.getMoneyAmount(1))  # 0
     print(so.getMoneyAmount(2))  # 1
     print(so.getMoneyAmount(3))  # 2
+    print(so.getMoneyAmount(5))  # 6
+    print(so.getMoneyAmount(20))  # 49
