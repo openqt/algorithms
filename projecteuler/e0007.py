@@ -45,11 +45,10 @@ def prime(stop=None):
 
             count += 1
             if stop and count >= stop:
-                raise StopIteration()
+                break
 
 
 if __name__ == '__main__':
     for i in prime(10001):
         pass
-    else:
-        print(i)  # 104743
+    print(i)  # 104743

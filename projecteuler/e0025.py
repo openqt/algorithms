@@ -34,7 +34,7 @@ if __name__ == '__main__':
     for i in fibonacci():
         n += 1
         if len(str(i)) >= 1000:
-            print(n, i)
+            print(n, i)  # 4782
             break
 
 # The Journey Begins: Progress to Level 1 by solving twenty-five problems

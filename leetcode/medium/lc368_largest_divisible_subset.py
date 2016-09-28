@@ -29,6 +29,12 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        nums = sorted(nums)
+        subset = []
+        for i in nums:
+            if subset and i % subset[-1] ==
+
+
 
 
 

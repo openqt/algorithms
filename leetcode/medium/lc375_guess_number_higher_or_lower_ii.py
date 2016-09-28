@@ -58,7 +58,7 @@ class Solution(object):
         if a >= b:
             return 0
 
-        if (a, b) not in caches:
+        if (a, b) not in caches:  # 记录所有初始选择下最坏情况中需要的最小数
             caches[(a, b)] = min(i + max(self._solve(a, i - 1, caches),
                                          self._solve(i + 1, b, caches))
                                  for i in range(a, b+1))
