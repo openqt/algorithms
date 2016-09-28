@@ -26,6 +26,7 @@ starting with n=0.
 """
 from __future__ import print_function
 from e0007 import is_prime
+from e0003 import prime_sieve
 
 
 def prime_quadratic_formula(a, b):
@@ -40,14 +41,16 @@ def _len_primes(a, b):
         if not is_prime(i):
             return n
 
+
 if __name__ == '__main__':
     max_val = max_len = 0
     for a in range(-999, 1000):
-        for b in range(-999, 1000):
-            _len = _len_primes(a, b)
-            if max_len < _len:
-                max_len = _len
-                max_val = (a, b)
+        for b in prime_sieve(1000):  # b must be prime for n = 0
+            for i in (b, -b):
+                _len = _len_primes(a, i)
+                if max_len < _len:
+                    max_len = _len
+                    max_val = (a, i)
 
     print(max_val, max_len)
     print(max_val[0] * max_val[1])  # -59231
