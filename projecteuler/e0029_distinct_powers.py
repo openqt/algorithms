@@ -21,10 +21,10 @@ from __future__ import print_function
 
 
 def power_combinations(a, b):
-    for i in range(2, a + 1):
-        for j in range(2, b + 1):
+    for i in range(2, a):
+        for j in range(2, b):
             yield i ** j
 
 
 if __name__ == '__main__':
-    print(len(set(power_combinations(100, 100))))  # 9183
+    print(len(set(power_combinations(101, 101))))  # 9183
