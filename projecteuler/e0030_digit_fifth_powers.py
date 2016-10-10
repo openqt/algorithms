@@ -19,7 +19,7 @@ of their digits.
 from __future__ import print_function
 
 
-def sum_digit_with(n, func):
+def sum_digit_by(n, func):
     """sum digits of a number with function
 
     :param n:
@@ -36,7 +36,7 @@ def sum_digit_with(n, func):
 if __name__ == '__main__':
     total = 0
     for i in range(2, 400000):
-        if i == sum_digit_with(i, lambda n: n ** 5):
-            # print('>', i)
+        if i == sum_digit_by(i, lambda n: n ** 5):
+            print('>', i)
             total += i
     print(total)  # 443839
