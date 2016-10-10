@@ -8,7 +8,7 @@ The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 Find the sum of all the primes below two million.
 """
 from __future__ import print_function
-from e0003 import prime_sieve
+from e0003_largest_prime_factor import prime_sieve
 
 
 if __name__ == '__main__':

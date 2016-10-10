@@ -22,7 +22,7 @@ Find the sum of all the positive integers which cannot be written as the sum of
 two abundant numbers.
 """
 from __future__ import print_function
-from e0021 import sum_proper_divisors
+from e0021_amicable_numbers import sum_proper_divisors
 
 
 def perfect_number(stop=None):

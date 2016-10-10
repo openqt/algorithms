@@ -15,7 +15,7 @@ The proper divisors of 284 are 1, 2, 4, 71 and 142; so d(284) = 220.
 Evaluate the sum of all the amicable numbers under 10000.
 """
 from __future__ import print_function
-from e0012 import prime_factors
+from e0012_highly_divisible_triangular_number import prime_factors
 
 
 def proper_divisors(n):

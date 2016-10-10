@@ -26,7 +26,7 @@ What is the index of the first term in the Fibonacci sequence to contain 1000
 digits?
 """
 from __future__ import print_function
-from e0002 import fibonacci
+from e0002_even_fibonacci_numbers import fibonacci
 
 
 if __name__ == '__main__':

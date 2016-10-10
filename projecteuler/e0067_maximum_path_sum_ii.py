@@ -24,7 +24,7 @@ twenty billion years to check them all. There is an efficient algorithm to
 solve it. ;o)
 """
 from __future__ import print_function
-from e0018 import merge_triangle_down_by_max
+from e0018_maximum_path_sum_i import merge_triangle_down_by_max
 
 
 def read_triangle_data(filename):

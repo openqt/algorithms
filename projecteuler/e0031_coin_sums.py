@@ -26,18 +26,5 @@ def combations_by(number, choices):
                for n, i in enumerate(choices))
 
 
-def Sol(money, coinlist):
-    if len(coinlist) == 1:
-        return 1
-    sum = 0
-    for i in range(len(coinlist)):
-        if money - coinlist[i] == 0:
-            sum += 1
-        elif money - coinlist[i] > 0:
-            sum += Sol(money - coinlist[i], coinlist[:i + 1])
-    return sum
-
-
 if __name__ == '__main__':
     print(combations_by(200, [1, 2, 5, 10, 20, 50, 100, 200]))  # 73682
-    print(Sol(200, [1, 2, 5, 10, 20, 50, 100, 200]))

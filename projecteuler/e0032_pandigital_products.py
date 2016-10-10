@@ -1,43 +1,50 @@
 # coding=utf-8
 """
-Coin sums
-Problem 31
+Pandigital products
+Problem 32
 
-In England the currency is made up of pound, £, and pence, p, and there are
-eight coins in general circulation:
+We shall say that an n-digit number is pandigital if it makes use of all the
+digits 1 to n exactly once; for example, the 5-digit number, 15234, is 1
+through 5 pandigital.
 
-    1p, 2p, 5p, 10p, 20p, 50p, £1 (100p) and £2 (200p).
-It is possible to make £2 in the following way:
+The product 7254 is unusual, as the identity, 39 × 186 = 7254, containing
+multiplicand, multiplier, and product is 1 through 9 pandigital.
 
-    1×£1 + 1×50p + 2×20p + 1×5p + 1×2p + 3×1p
-How many different ways can £2 be made using any number of coins?
+Find the sum of all products whose multiplicand/multiplier/product identity can
+be written as a 1 through 9 pandigital.
+
+HINT: Some products can be obtained in more than one way so be sure to only
+include it once in your sum.
 """
 from __future__ import print_function
+from e0024_lexicographic_permutations import next_permutation
 
 
-def combations_by(number, choices):
-    if len(choices) <= 1:
-        return 1
+def _int(seq):
+    """convert sequence to int
 
-    if number < 0:
-        return 0
-
-    return sum(combations_by(number - i, choices[:n+1])
-               for n, i in enumerate(choices))
+    :param seq: sequence
+    :return: int
+    """
+    return reduce(lambda x, y: x * 10 + int(y), seq)
 
 
-def Sol(money, coinlist):
-    if len(coinlist) == 1:
-        return 1
-    sum = 0
-    for i in range(len(coinlist)):
-        if money - coinlist[i] == 0:
-            sum += 1
-        elif money - coinlist[i] > 0:
-            sum += Sol(money - coinlist[i], coinlist[:i + 1])
-    return sum
+def _pandigital(seq):
+    """
+        a × bcde = fghi
+        ab × cde = fghi
+    :param seq:
+    :return:
+    """
+    stop = seq[:]
+    while next_permutation(seq) != stop:
+        val = _int(seq[5:])
+        if _int(seq[:1]) * _int(seq[1:5]) == val or \
+           _int(seq[:2]) * _int(seq[2:5]) == val:
+            yield val
 
 
 if __name__ == '__main__':
-    print(combations_by(200, [1, 2, 5, 10, 20, 50, 100, 200]))  # 73682
-    print(Sol(200, [1, 2, 5, 10, 20, 50, 100, 200]))
+    total = set(i for i in _pandigital([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+    print(total)
+    print(sum(total))  # 45228
