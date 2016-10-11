@@ -33,6 +33,11 @@ def circular_int(n):
 
 
 def circular_prime(stop):
+    """circular prime in a range
+
+    :param stop:
+    :return:
+    """
     for i in prime_sieve(stop):
         for n in circular_int(i):
             if not is_prime(n):
