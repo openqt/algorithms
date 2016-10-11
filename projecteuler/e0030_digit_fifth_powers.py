@@ -29,7 +29,7 @@ def sum_digit_by(n, func):
     val = 0
     while n > 0:
         val += func(n % 10)
-        n /= 10
+        n //= 10
     return val
 
 

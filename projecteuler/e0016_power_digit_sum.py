@@ -19,7 +19,7 @@ def sum_digit(n):
     val = 0
     while n > 0:
         val += n % 10
-        n /= 10
+        n //= 10
     return val
 
 

@@ -68,7 +68,7 @@ def prime_factors(n):
 
         while n % i == 0:
             factors[i] = factors.setdefault(i, 0) + 1
-            n /= i
+            n //= i
 
     if n > 1:
         factors[n] = factors.setdefault(n, 0) + 1

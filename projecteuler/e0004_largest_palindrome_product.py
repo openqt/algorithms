@@ -22,7 +22,7 @@ def reverse_int(n, base=10):
     val = 0
     while n > 0:
         val = val * base + n % base
-        n /= base
+        n //= base
     return val
 
 

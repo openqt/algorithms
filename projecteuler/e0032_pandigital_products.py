@@ -20,7 +20,7 @@ from __future__ import print_function
 from e0024_lexicographic_permutations import next_permutation
 
 
-def _int(seq):
+def int_seq(seq):
     """convert sequence to int
 
     :param seq: sequence
@@ -38,9 +38,9 @@ def _pandigital(seq):
     """
     stop = seq[:]
     while next_permutation(seq) != stop:
-        val = _int(seq[5:])
-        if _int(seq[:1]) * _int(seq[1:5]) == val or \
-           _int(seq[:2]) * _int(seq[2:5]) == val:
+        val = int_seq(seq[5:])
+        if int_seq(seq[:1]) * int_seq(seq[1:5]) == val or \
+           int_seq(seq[:2]) * int_seq(seq[2:5]) == val:
             yield val
 
 
