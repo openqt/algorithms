@@ -18,22 +18,16 @@ containing nearly two-thousand common English words, how many are triangle
 words?
 """
 from __future__ import print_function
+from e0012_highly_divisible_triangular_number import triangle_number
 from e0022_names_scores import read_words, alphabetical_value
-
-
-def triangle_number(stop=-1):
-    n = 1
-    while stop != 0:
-        yield n * (n + 1) / 2
-        n += 1
-
-        stop -= 1
 
 
 if __name__ == '__main__':
     words = read_words('data/p042_words.txt')
+    caches = set(i for i in triangle_number(100))
 
-    for i in triangle_number(10):
-        print(i,)
-
-    print(alphabetical_value('SKY'))
+    total = 0
+    for word in words:
+        if alphabetical_value(word) in caches:
+            total += 1
+    print(total)  # 162

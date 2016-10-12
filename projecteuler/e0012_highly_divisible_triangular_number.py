@@ -93,16 +93,22 @@ def triangle_number(stop=-1):
     :param stop: the maximum number
     :return: triangle sequence
     """
-    number = 1
-    step = 1
-    while True:
-        yield number
+    n = step = 1
+    while stop != 0:
+        stop -= 1
+        yield n
 
         step += 1
-        number += step
+        n += step
 
-        if 0 < stop < number:
-            break
+
+# def triangle_number(stop=-1):
+#     n = 1
+#     while stop != 0:
+#         yield n * (n + 1) / 2
+#         n += 1
+#
+#         stop -= 1
 
 
 if __name__ == '__main__':
