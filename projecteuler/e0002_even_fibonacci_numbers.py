@@ -13,7 +13,7 @@ four million, find the sum of the even-valued terms.
 from __future__ import print_function
 
 
-def fibonacci(stop=None):
+def fibonacci(stop=-1):
     """generating fibonacci sequence
 
     :param length: length of fibonacci
@@ -27,9 +27,9 @@ def fibonacci(stop=None):
         yield b
         a, b = b, a + b
 
-        if stop and b > stop:
+        if 0 < stop < b:
             break
 
 
 if __name__ == '__main__':
-    print(sum(i for i in fibonacci(stop=4000000) if i % 2 == 0))  # 4613732
+    print(sum(i for i in fibonacci(4000000) if i % 2 == 0))  # 4613732

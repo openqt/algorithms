@@ -87,7 +87,7 @@ def len_factors_by_prime(n):
     return reduce(lambda x, y: x * y, [i + 1 for i in factors.values()], 1)
 
 
-def triangle_number(stop=None):
+def triangle_number(stop=-1):
     """generate triangle sequence
 
     :param stop: the maximum number
@@ -100,7 +100,8 @@ def triangle_number(stop=None):
 
         step += 1
         number += step
-        if stop and number > stop:
+
+        if 0 < stop < number:
             break
 
 

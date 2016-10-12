@@ -52,7 +52,7 @@ def sum_proper_divisors(n):
     return total - n
 
 
-def amicable_number(stop=None):
+def amicable_number(stop=-1):
     """amicable number sequence
 
     :param stop: the maximum number
@@ -63,7 +63,7 @@ def amicable_number(stop=None):
     a = 1
     while True:
         a += 1
-        if stop and a > stop:
+        if 0 < stop < a:
             break
 
         b = caches[a] if a in caches else caches.setdefault(

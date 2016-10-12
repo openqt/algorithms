@@ -26,11 +26,11 @@ def is_prime(n):
     return True
 
 
-def prime(start=1, stop=-1):
+def prime(start=1, count=-1):
     """generating prime
 
     :param start: start
-    :param stop: the maximum primes
+    :param count: the maximum primes
     :return: prime
     """
     yield 2
@@ -43,12 +43,12 @@ def prime(start=1, stop=-1):
         if is_prime(start):
             yield start
 
-            stop -= 1
-            if stop == 1:
+            count -= 1
+            if count == 1:
                 break
 
 
 if __name__ == '__main__':
-    for i in prime(stop=10001):
+    for i in prime(count=10001):
         pass
     print(i)  # 104743

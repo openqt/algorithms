@@ -25,22 +25,22 @@ from __future__ import print_function
 from e0021_amicable_numbers import sum_proper_divisors
 
 
-def perfect_number(stop=None):
+def perfect_number(stop=-1):
     n = 5
     while True:
         n += 1
-        if stop and n >= stop:
+        if 0 < stop <= n:
             break
 
         if sum_proper_divisors(n) == n:
             yield n
 
 
-def abundant_number(stop=None):
+def abundant_number(stop=-1):
     n = 11
     while True:
         n += 1
-        if stop and n >= stop:
+        if 0< stop <= n:
             break
 
         if sum_proper_divisors(n) > n:

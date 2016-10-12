@@ -22,12 +22,15 @@ def alphabetical_value(s):
     return sum(ord(i) + 1 for i in s) - (ord('A') * len(s))
 
 
+def read_words(filename):
+    with open(filename) as f:
+        return [i.strip('"') for i in f.read().split(',')]
+
+
 if __name__ == '__main__':
-    names = None
-    with open('data/p022_names.txt') as f:
-        names = sorted([i.strip('"') for i in f.read().split(',')])
+    names = sorted(read_words('data/p022_names.txt'))
 
     total = 0
     for n, i in enumerate(names, 1):
         total += alphabetical_value(i) * n
-    print(total)
+    print(total)  # 871198282

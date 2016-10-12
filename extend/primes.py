@@ -21,7 +21,7 @@ if __name__ == '__main__':
         logging.info('start from {}'.format(n))
 
         while True:
-            for i in prime(start=n, stop=100):
+            for i in prime(start=n, count=100):
                 cursor.execute('INSERT OR IGNORE INTO primes VALUES (?);', (i,))
             n = i
             conn.commit()
