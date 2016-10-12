@@ -16,18 +16,19 @@ def prime_sieve(n, reverse=False):
     :param reverse: reverse prime sequence
     :return: prime sequence between [2, n]
     """
+    n = int(n)
     marker = bytearray(n >> 1)
 
-    for i in range(3, int(n ** .5 + 1), 2):
+    for i in xrange(3, int(n ** .5 + 1), 2):
         if marker[i >> 1] == 0:  # prime
-            for j in range(i * i, n, 2 * i):
+            for j in xrange(i * i, n, 2 * i):
                 marker[j >> 1] = 1
 
     if not reverse:
         yield 2
-        _range = range(1, len(marker))
+        _range = xrange(1, len(marker))
     else:
-        _range = range(len(marker) - 1, 0, -1)
+        _range = xrange(len(marker) - 1, 0, -1)
 
     for i in _range:
         if marker[i] == 0:

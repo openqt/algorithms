@@ -42,6 +42,40 @@ def next_permutation(seq):
     return seq
 
 
+def permutations(seq):
+    """permutations by lexicographic order
+
+    :param _seq: sequence
+    :return: next permutation
+    """
+    _seq = list(seq)
+    _stp = _seq[:]
+
+    yield _seq
+
+    while True:
+        i = len(_seq) - 2
+        while i >= 0 and _seq[i] >= _seq[i + 1]:
+            i -= 1
+
+        if i >= 0:
+            j = -1
+            while _seq[j] < _seq[i]:
+                j -= 1
+            _seq[i], _seq[j] = _seq[j], _seq[i]  # switch ...
+
+        i += 1
+        j = len(_seq) - 1
+        while i < j:
+            _seq[i], _seq[j] = _seq[j], _seq[i]
+            i += 1
+            j -= 1
+
+        if _seq == _stp:
+            break
+        yield _seq
+
+
 if __name__ == '__main__':
     seq = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     n = 1
@@ -49,3 +83,8 @@ if __name__ == '__main__':
         n += 1
         next_permutation(seq)
     print(seq)  # 2783915460
+
+    for n, i in enumerate(permutations('0123456789'), 1):
+        if n == 1000000:
+            print(''.join(i))
+            break

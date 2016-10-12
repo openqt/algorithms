@@ -17,7 +17,7 @@ HINT: Some products can be obtained in more than one way so be sure to only
 include it once in your sum.
 """
 from __future__ import print_function
-from e0024_lexicographic_permutations import next_permutation
+from e0024_lexicographic_permutations import permutations
 
 
 def int_seq(seq):
@@ -26,25 +26,29 @@ def int_seq(seq):
     :param seq: sequence
     :return: int
     """
-    return reduce(lambda x, y: x * 10 + int(y), seq)
+    n = 0
+    for i in seq:
+        n = n * 10 + int(i)
+    return n
+    # return int(''.join(seq))  # not for special cases
+    # return reduce(lambda x, y: int(x) * 10 + int(y), seq)  # buggy
 
 
 def _pandigital(seq):
     """
         a × bcde = fghi
         ab × cde = fghi
-    :param seq:
+    :param i:
     :return:
     """
-    stop = seq[:]
-    while next_permutation(seq) != stop:
-        val = int_seq(seq[5:])
-        if int_seq(seq[:1]) * int_seq(seq[1:5]) == val or \
-           int_seq(seq[:2]) * int_seq(seq[2:5]) == val:
+    for i in permutations(seq):
+        val = int_seq(i[5:])
+        if int_seq(i[:1]) * int_seq(i[1:5]) == val or \
+           int_seq(i[:2]) * int_seq(i[2:5]) == val:
             yield val
 
 
 if __name__ == '__main__':
-    total = set(i for i in _pandigital([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+    total = set(i for i in _pandigital('123456789'))
     print(total)
     print(sum(total))  # 45228

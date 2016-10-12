@@ -20,35 +20,35 @@ def is_prime(n):
     if n < 2 or n % 2 == 0:
         return False
 
-    for i in range(3, int(n ** .5 + 1), 2):
+    for i in xrange(3, int(n ** .5 + 1), 2):
         if n % i == 0:
             return False
     return True
 
 
-def prime(stop=None):
+def prime(start=1, stop=-1):
     """generating prime
 
-    :param stop: iteration
+    :param start: start
+    :param stop: the maximum primes
     :return: prime
     """
     yield 2
-    if stop == 1:
-        return
 
-    val = 1
-    count = 1
+    if start % 2 == 0:
+        start -= 1  # ensure odd
+
     while True:
-        val += 2
-        if is_prime(val):
-            yield val
+        start += 2
+        if is_prime(start):
+            yield start
 
-            count += 1
-            if stop and count >= stop:
+            stop -= 1
+            if stop == 1:
                 break
 
 
 if __name__ == '__main__':
-    for i in prime(10001):
+    for i in prime(stop=10001):
         pass
     print(i)  # 104743
