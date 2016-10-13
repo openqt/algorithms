@@ -18,21 +18,22 @@ D?
 from __future__ import print_function
 
 
-def pentagonal_number(stop=-1):
+def pentagonal_number(start=1, count=-1):
     """pentagonal sequence
 
-    :param stop:
+    :param count:
     :return:
     """
-    n = 1
-    while stop != 0:
-        stop -= 1
-        yield n * (3 * n - 1) / 2
-        n += 1
+    while count != 0:
+        pentagonal_number.func_dict['n'] = start
+
+        count -= 1
+        yield start * (3 * start - 1) / 2
+        start += 1
 
 
 if __name__ == '__main__':
-    pentagonal = list(i for i in pentagonal_number(10000))
+    pentagonal = list(i for i in pentagonal_number(count=10000))
     caches = set(pentagonal)
 
     for i in pentagonal:

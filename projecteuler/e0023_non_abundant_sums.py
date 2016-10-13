@@ -40,7 +40,7 @@ def abundant_number(stop=-1):
     n = 11
     while True:
         n += 1
-        if 0< stop <= n:
+        if 0 < stop <= n:
             break
 
         if sum_proper_divisors(n) > n:

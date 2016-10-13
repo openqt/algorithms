@@ -87,28 +87,35 @@ def len_factors_by_prime(n):
     return reduce(lambda x, y: x * y, [i + 1 for i in factors.values()], 1)
 
 
-def triangle_number(stop=-1):
-    """generate triangle sequence
-
-    :param stop: the maximum number
-    :return: triangle sequence
-    """
-    n = step = 1
-    while stop != 0:
-        stop -= 1
-        yield n
-
-        step += 1
-        n += step
-
-
-# def triangle_number(stop=-1):
-#     n = 1
-#     while stop != 0:
-#         yield n * (n + 1) / 2
-#         n += 1
+# def triangle_number(start=1, count=-1):
+#     """generate triangle sequence
 #
-#         stop -= 1
+#     :param start: start
+#     :param count: as range
+#     :return: triangle sequence
+#     """
+#     step = 1
+#     while count != 0:
+#         count -= 1
+#         yield start
+#
+#         step += 1
+#         start += step
+
+
+def triangle_number(start=1, count=-1):
+    """triangle sequence
+
+    :param start:
+    :param count:
+    :return:
+    """
+    while count != 0:
+        triangle_number.func_dict['n'] = start
+
+        count -= 1
+        yield start * (start + 1) / 2
+        start += 1
 
 
 if __name__ == '__main__':

@@ -24,7 +24,7 @@ from e0022_names_scores import read_words, alphabetical_value
 
 if __name__ == '__main__':
     words = read_words('data/p042_words.txt')
-    caches = set(i for i in triangle_number(100))
+    caches = set(i for i in triangle_number(count=100))
 
     total = 0
     for word in words:
