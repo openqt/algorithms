@@ -9,19 +9,19 @@ What is the largest prime factor of the number 600851475143 ?
 from __future__ import print_function
 
 
-def prime_sieve(n, reverse=False):
+def prime_sieve(stop, reverse=False):
     """prime sequence to n
 
-    :param n: the maximum range
+    :param stop: the maximum range
     :param reverse: reverse prime sequence
-    :return: prime sequence between [2, n]
+    :return: prime sequence between [2, stop]
     """
-    n = int(n)
-    marker = bytearray(n >> 1)
+    stop = int(stop)
+    marker = bytearray(stop >> 1)
 
-    for i in xrange(3, int(n ** .5 + 1), 2):
+    for i in xrange(3, int(stop ** .5 + 1), 2):
         if marker[i >> 1] == 0:  # prime
-            for j in xrange(i * i, n, 2 * i):
+            for j in xrange(i * i, stop, 2 * i):
                 marker[j >> 1] = 1
 
     if not reverse:

@@ -52,17 +52,17 @@ def len_factors_brute_force(n):
 
 
 def prime_factors(n):
-    """prime factors of number
+    """prime factors of number (Pollard Rho)
 
     :param n: number
     :return: prime factors
     """
     factors = {}
 
-    if n < 2:
+    if n <= 1:  # 1没有质因数
         return factors
 
-    for i in prime_sieve(int(n ** .5)):
+    for i in prime_sieve(int(n ** .5) + 1):
         if i * i > n:
             break
 
