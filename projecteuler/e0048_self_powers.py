@@ -13,7 +13,7 @@ if __name__ == '__main__':
     n = 1
     last = 0
     while n <= 1000:
-        last += n**n % 10000000000
+        last += n ** n % 10000000000
         n += 1
 
     print(last % 10000000000, last)  # 9110846700
