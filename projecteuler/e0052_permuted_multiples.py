@@ -10,19 +10,7 @@ Find the smallest positive integer, x, such that 2x, 3x, 4x, 5x, and 6x, contain
 the same digits.
 """
 from __future__ import print_function
-
-
-def seq_int(n):
-    """int to sequence
-
-    :param n: number
-    :return: digit sequence
-    """
-    seq = []
-    while n > 0:
-        seq.append(n % 10)
-        n /= 10
-    return seq
+from e0049_prime_permutations import seq_int
 
 
 if __name__ == '__main__':

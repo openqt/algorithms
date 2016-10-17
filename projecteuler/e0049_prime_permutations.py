@@ -18,17 +18,49 @@ from __future__ import print_function
 from e0003_largest_prime_factor import prime_sieve
 
 
+def seq_int(n):
+    """int to sequence
+
+    :param n: number
+    :return: digit sequence
+    """
+    seq = []
+    while n > 0:
+        seq.append(n % 10)
+        n /= 10
+    return seq
+
+
+def longest_ap(seq):
+    """calculate the longest arithmetic progression from given sequence
+
+    :param seq: sequence
+    :return: the longest arithmetic progression
+    """
+    val = (0, 0, 0)  # first number, step, length
+    seq = sorted(seq)
+    for n, i in enumerate(seq):
+        for j in seq[:n]:
+            n = 0
+            while 2 * i - j in seq:
+                n += 1
+                i, j = 2 * i - j, i
+
+            if n > val[0]:
+                val = (j - (i - j) * n, i - j, n + 2)
+
+    return [val[0] + val[1] * i for i in range(val[2])]
+
+
 if __name__ == '__main__':
     caches = {}
     for i in prime_sieve(10000):
-        if i > 1000 and len(set(str(i))) == 4:  # 四位质数并且各位数字不重复
-            key = ''.join(sorted(str(i)))
-            caches.setdefault(key, []).append(i)  # 按排序分组，默认即升序
+        if i > 1000:
+            seq = tuple(sorted(seq_int(i)))
+            caches.setdefault(seq, []).append(i)  # 按排序分组，默认即升序
 
     for v in caches.values():
         if len(v) >= 3:  # 需要满足最少有3个质数
-            diff = [v[i] - v[i-1] for i in range(1, len(v))]  # 先计算数字之差
-            for i in range(1, len(diff)):
-                if diff[i] == diff[i-1]:  # 如果有连续的差值相等，则是要找的序列
-                    print(v)
-                    break
+            ap = longest_ap(v)
+            if ap:
+                print(v, '=>', ap)  # 296962999629
