@@ -22,9 +22,10 @@ def sum_digits(n):
 
 
 def factorial(n):
-    if n < 1:
+    if n < 1:  # 0! = 1
         return 1
-    return reduce(lambda x, y: x * y, range(1, n+1))
+    return reduce(lambda x, y: x * y, range(1, n + 1))
+
 
 if __name__ == '__main__':
     print(sum_digits(factorial(100)))  # 648

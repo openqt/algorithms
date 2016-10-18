@@ -19,6 +19,5 @@ if __name__ == '__main__':
         if sorted(seq_int(n)) == sorted(seq_int(2 * n)) \
                 == sorted(seq_int(3 * n)) == sorted(seq_int(5 * n)) \
                 == sorted(seq_int(6 * n)) == sorted(seq_int(4 * n)):
-            print(n, 2 * n, 3 * n, 4 * n, 5 * n, 6 * n)
-            # 142857 285714 428571 571428 714285 857142
+            print(n, 2 * n, 3 * n, 4 * n, 5 * n, 6 * n)  # 142857
             break
