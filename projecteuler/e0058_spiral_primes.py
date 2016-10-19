@@ -30,12 +30,15 @@ if __name__ == '__main__':
     n, step = 1, 2
     total, primes = 1, 0
     while True:
-        for i in range(4):
+        for i in range(3):  # 2222, 4444, 6666, 8888, ...
             n += step
             total += 1
             primes += 1 if is_prime(n) else 0
+        # the last one in each loop is not a prime, its n * n
+        n += step
+        total += 1
         step += 2
 
         if primes / total < 0.1:
-            print(int(n ** .5))
+            print(int(n ** .5))  # 26241
             break
