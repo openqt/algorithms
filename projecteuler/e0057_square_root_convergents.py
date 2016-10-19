@@ -22,7 +22,7 @@ numerator exceeds the number of digits in the denominator.
 In the first one-thousand expansions, how many fractions contain a numerator
 with more digits than denominator?
 """
-from __future__ import print_function, division
+from __future__ import print_function
 
 
 def int_len(n):

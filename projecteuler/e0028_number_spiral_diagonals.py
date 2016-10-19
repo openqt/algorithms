@@ -20,11 +20,18 @@ in the same way?
 from __future__ import print_function
 
 
-def spiral_grid(n):
+def spiral_grid(n, clockwise=True):
+    """build spiral gird clockwise or anticlockwise
+
+    :param n: dimension
+    :param clockwise: True for clockwise and False for anticlockwise
+    :return: spiral gird
+    """
     grid = [[1] * n for _ in range(n)]
 
-    row = 0
+    row = 0 if clockwise else n - 1
     col = n - 1
+
     val = n ** 2
     while val > 1:
         for i in range(4):  # direction
@@ -35,14 +42,15 @@ def spiral_grid(n):
                 if i == 0:  # up
                     col -= 1
                 elif i == 1:  # left
-                    row += 1
+                    row += 1 if clockwise else -1
                 elif i == 2:  # down
                     col += 1
                 elif i == 3:  # right
-                    row -= 1
+                    row += -1 if clockwise else 1
                 else:
                     raise ValueError()
-        row += 1
+
+        row += 1 if clockwise else -1
         col -= 1
         n -= 2  # n仅作计数用
     return grid
