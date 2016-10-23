@@ -22,13 +22,16 @@ from __future__ import print_function
 from e0003_largest_prime_factor import prime_sieve
 
 
+def sqrt_is_int(n):
+    return int(n ** .5) ** 2 == n
+
+
 def _goldbach_conjecture_2(n, primes):
     for p in primes:
         if p >= n:
             break
 
-        i = (n - p) // 2
-        if int(int(i ** .5) ** 2) == i:
+        if sqrt_is_int((n - p) // 2):
             return True
     return False
 
