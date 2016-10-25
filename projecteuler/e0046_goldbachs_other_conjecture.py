@@ -22,8 +22,16 @@ from __future__ import print_function
 from e0003_largest_prime_factor import prime_sieve
 
 
-def sqrt_is_int(n):
-    return int(n ** .5) ** 2 == n
+def is_square_number(n):
+    """whether a number is a perfect square
+
+    :param n:
+    :return:
+    """
+    # the last hex digit of a perfect square must be 0, 1, 4 or 9
+    if n < 0 or n & 0xF not in (0, 1, 4, 9):
+        return False
+    return int(n ** .5 + .5) ** 2 == n
 
 
 def _goldbach_conjecture_2(n, primes):
@@ -31,7 +39,7 @@ def _goldbach_conjecture_2(n, primes):
         if p >= n:
             break
 
-        if sqrt_is_int((n - p) // 2):
+        if is_square_number((n - p) // 2):
             return True
     return False
 

@@ -6,7 +6,7 @@ Problem 57
 It is possible to show that the square root of two can be expressed as an
 infinite continued fraction.
 
-√ 2 = 1 + 1/(2 + 1/(2 + 1/(2 + ... ))) = 1.414213...
+    √ 2 = 1 + 1/(2 + 1/(2 + 1/(2 + ... ))) = 1.414213...
 
 By expanding this for the first four iterations, we get:
 
@@ -25,20 +25,20 @@ with more digits than denominator?
 from __future__ import print_function
 
 
-def int_len(n):
-    i = 0
-    while n > 0:
-        i += 1
-        n //= 10
-    return i
-
-
 def square_two_fraction(count=-1):
     a, b = 3, 2
     while count != 0:
         yield a, b
         a, b = a + 2 * b, a + b
         count -= 1
+
+
+def int_len(n):
+    i = 0
+    while n > 0:
+        i += 1
+        n //= 10
+    return i
 
 
 if __name__ == '__main__':
