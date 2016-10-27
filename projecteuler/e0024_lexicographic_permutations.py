@@ -45,7 +45,7 @@ def next_permutation(seq):
 def permutations(seq):
     """permutations by lexicographic order
 
-    :param _seq: sequence
+    :param seq: sequence
     :return: next permutation
     """
     _seq = list(seq)

@@ -22,7 +22,7 @@ from __future__ import print_function
 from e0020_factorial_digit_sum import factorial
 
 
-def combination(n, r):
+def calc_combination(n, r):
     return factorial(n) / (factorial(r) * factorial(n - r))
 
 
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     total = 0
     for n in range(20, 101):
         for r in range(1, n // 2):
-            if combination(n, r) > 1000000:
+            if calc_combination(n, r) > 1000000:
                 total += n - 2 * r + 1
                 break
-    print(total)
+    print(total)  # 4075

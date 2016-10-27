@@ -28,6 +28,7 @@ def seq_int(n):
     while n > 0:
         seq.append(n % 10)
         n /= 10
+    seq.reverse()
     return seq
 
 
