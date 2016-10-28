@@ -69,6 +69,27 @@ def mask_same_digits(n, count=2):
             yield _mask(seq[:], mask)
 
 
+# def combine(self, NN, K):
+#     """Iterative 8-line solution using C(n, k) = C(n-1, k) + C(n-1, k-1)
+#
+#     https://discuss.leetcode.com/topic/40827/iterative-8-line-solution-using-c-n-k-c-n-1-k-c-n-1-k-1
+#     :param self:
+#     :param NN:
+#     :param K:
+#     :return:
+#     """
+#     result = [[[]]]
+#     for n in range(1, NN + 1):
+#         newRes = [[[]]]  # C(n, 0) = 0
+#         for k in range(1, n):
+#             # C(n, k) = C(n-1, k) + C(n-1, k-1)
+#             newRes.append(result[k] + [_ + [n] for _ in result[k - 1]])
+#             # C(n, n) = C(n-1, n-1) = 1
+#         newRes.append([result[n - 1][0] + [n]])
+#         result = newRes
+#     return result[K]
+
+
 if __name__ == '__main__':
     # test only
     print([i for i in mask_same_digits(222323, 3)])
