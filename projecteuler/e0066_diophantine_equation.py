@@ -29,6 +29,7 @@ of x is obtained.
 """
 from __future__ import print_function
 from e0046_goldbachs_other_conjecture import is_square_number
+from e0064_odd_period_square_roots import sqrt_cf
 
 
 # def continued_fraction(a, b):
@@ -51,6 +52,9 @@ def converget_cf(cf, count=-1):
     :param count:
     :return:
     """
+    if len(cf) < 2:
+        return
+
     p, q = [1, cf[0]], [0, 1]
     while True:
         for i in cf[1:]:
@@ -63,23 +67,6 @@ def converget_cf(cf, count=-1):
             q[0], q[1] = q[1], i * q[1] + q[0]
 
 
-def sqrt_cf(n):
-    """sauare root presents by continued fraction expression
-
-    :param n: the number
-    :return:
-    """
-    vals = [int(n ** .5)]
-    m, a, b = vals[0], 0, 1
-
-    while m != vals[0] * 2:
-        a = m * b - a
-        b = (n - a * a) // b
-        m = (vals[0] + a) // b
-        vals.append(m)
-    return vals
-
-
 def pell(D):
     for x, y in converget_cf(sqrt_cf(D)):
         if x * x - D * y * y == 1:
@@ -87,4 +74,4 @@ def pell(D):
 
 
 if __name__ == '__main__':
-    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D)))  # 661
+    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D))) # 661
