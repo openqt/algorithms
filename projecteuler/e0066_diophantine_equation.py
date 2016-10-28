@@ -30,6 +30,7 @@ of x is obtained.
 from __future__ import print_function
 from e0046_goldbachs_other_conjecture import is_square_number
 from e0064_odd_period_square_roots import sqrt_cf
+from e0065_convergents_of_e import converget_cf
 
 
 # def continued_fraction(a, b):
@@ -43,28 +44,6 @@ from e0064_odd_period_square_roots import sqrt_cf
 #         r, a = divmod(a, b)
 #         yield int(r)
 #         a, b = b, int(a)
-
-
-def converget_cf(cf, count=-1):
-    """get value from continued fraction
-
-    :param cf: continued fraction expression
-    :param count:
-    :return:
-    """
-    if len(cf) < 2:
-        return
-
-    p, q = [1, cf[0]], [0, 1]
-    while True:
-        for i in cf[1:]:
-            if count == 0:
-                return
-            count -= 1
-
-            yield p[1], q[1]
-            p[0], p[1] = p[1], i * p[1] + p[0]
-            q[0], q[1] = q[1], i * q[1] + q[0]
 
 
 def pell(D):

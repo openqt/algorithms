@@ -16,6 +16,8 @@ def sum_digit(n):
     :param n:
     :return:
     """
+    n = max(n, -n)
+
     val = 0
     while n > 0:
         val += n % 10
