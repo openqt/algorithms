@@ -207,3 +207,5 @@ if __name__ == '__main__':
             if data and rank(FiveCard(data[:5]), FiveCard(data[5:])) > 0:
                 count += 1
     print(count)  # 376
+
+    # Another way is give a score for each hand then simply compare the values
