@@ -33,17 +33,19 @@ from e0064_odd_period_square_roots import sqrt_cf
 from e0065_convergents_of_e import converget_cf
 
 
-# def continued_fraction(a, b):
-#     """to continued fraction expression
-#
-#     :param a:
-#     :param b:
-#     :return:
-#     """
-#     while b > 0:
-#         r, a = divmod(a, b)
-#         yield int(r)
-#         a, b = b, int(a)
+def continued_fraction(p, q):
+    """to continued fraction expression
+
+    :param p:
+    :param q:
+    :return: fraction expression
+    """
+    vals = []
+    while q > 0:
+        r, p = divmod(p, q)
+        vals.append(r)
+        p, q = q, p
+    return vals
 
 
 def pell(D):
@@ -53,4 +55,4 @@ def pell(D):
 
 
 if __name__ == '__main__':
-    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D))) # 661
+    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D)))  # 661
