@@ -18,16 +18,12 @@ def GCD(a, b):
     :param b: b
     :return: GCD
     """
-    # while a != b:
-    #     if a > b:
-    #         a -= b
-    #     else:
-    #         b -= a
-    # return a
-    a, b = max(a, b), min(a, b)
-    while b > 0:
+    while b:
         a, b = b, a % b
     return a
+
+
+HCF = GCD
 
 
 def LCM(a, b):
