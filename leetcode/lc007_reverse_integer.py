@@ -5,7 +5,7 @@ INT_MAX = 2147483647
 
 class Solution(unittest.TestCase):
     """
-    Reverse Integer
+    7. Reverse Integer
 
     Reverse digits of an integer.
 

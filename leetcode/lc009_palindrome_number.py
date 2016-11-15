@@ -4,7 +4,7 @@ import unittest
 
 class Solution(unittest.TestCase):
     """
-    009. Palindrome Number
+    9. Palindrome Number
 
     Determine whether an integer is a palindrome. Do this without extra space.
 
@@ -30,21 +30,26 @@ class Solution(unittest.TestCase):
         if x < 0:  # 负数不是回文数
             return False
 
-        len = 1  # 找到最高位
-        while x // len >= 10:
-            len *= 10
+        # len = 1  # 找到最高位
+        # while x // len >= 10:
+        #     len *= 10
+        #
+        # while x:
+        #     if x // len != x % 10:  # high != low
+        #         return False
+        #
+        #     x = (x % len) // 10
+        #     len //= 100
+        # return True
 
-        while x:
-            if x // len != x % 10:  # high != low
-                return False
-
-            x = (x % len) // 10
-            len //= 100
-
-        return True
+        n, y = x, 0
+        while n:
+            y = y * 10 + n % 10
+            n //= 10
+        return x == y
 
     def test(self):
-        self.assertTrue(self.isPalindrome(10))
+        self.assertFalse(self.isPalindrome(10))
         self.assertTrue(self.isPalindrome(1001))
         self.assertFalse(self.isPalindrome(123312))
 

@@ -33,7 +33,8 @@ class BinaryTree(object):
     The above binary tree is serialized as "{1,2,3,#,#,4,#,#,5}".
     """
     def __init__(self, seq=None):
-        self.root = self.set(seq)
+        self.root = None
+        self.set(seq)
 
     def set(self, seq):
         """从列表形成一个二叉树，此节点作为根节点
@@ -60,7 +61,7 @@ class BinaryTree(object):
                     x.right = Q[-1]
             left = not left
 
-        return self.root
+        return self
 
     def level_order(self):
         """树结构转为list表示法"""
