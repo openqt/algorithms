@@ -1,7 +1,5 @@
 import unittest
 
-INT_MAX = 2147483647
-
 
 class Solution(unittest.TestCase):
     """
@@ -13,6 +11,7 @@ class Solution(unittest.TestCase):
         Example2: x = -123, return -321
 
     Have you thought about this?
+
     Here are some good questions to ask before coding. Bonus points for you if
     you have already thought through this!
 
@@ -39,11 +38,11 @@ class Solution(unittest.TestCase):
         x = max(x, -x)
 
         val = 0
-        while x != 0:
+        while x:
             val = val * 10 + x % 10
             x //= 10
 
-        if val >= INT_MAX:
+        if val >= 2147483647:
             return 0
 
         return val if positive else -val

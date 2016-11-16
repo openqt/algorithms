@@ -29,22 +29,22 @@ class Solution(unittest.TestCase):
         :rtype: str
         """
         zigzag = []  # save by column
-        SPACE = ' '
+        _sp = ' '
 
         col = n = 0
         while n < len(s):
             col += 1
             if col % 2 == 1:
-                zigzag.append(s[n: n + numRows].ljust(numRows, SPACE))
+                zigzag.append(s[n: n + numRows].ljust(numRows, _sp))
                 n += numRows
             elif numRows > 2:
-                t = (SPACE + s[n:n + numRows - 2]).ljust(numRows, SPACE)
+                t = (_sp + s[n:n + numRows - 2]).ljust(numRows, _sp)
                 zigzag.append(t[::-1])
                 n += numRows - 2
 
         val = ''
         for zig in zip(*zigzag):
-            val += ''.join(i for i in zig if i != SPACE)
+            val += ''.join(i for i in zig if i != _sp)
 
         return val
 
