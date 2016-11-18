@@ -34,8 +34,8 @@ that allows you to undertake a previously inaccessible problem. So the
 determined participant will slowly but surely work his/her way through every
 problem.
 
-
-  "Project Euler exists to encourage, challenge, and develop the skills and
-  enjoyment of anyone with an interest in the fascinating world of mathematics."
+    "Project Euler exists to encourage, challenge, and develop the skills and
+    enjoyment of anyone with an interest in the fascinating world of
+    mathematics."
 
 """

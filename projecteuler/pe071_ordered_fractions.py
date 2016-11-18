@@ -22,10 +22,10 @@ from __future__ import print_function, division
 from pe005_smallest_multiple import HCF
 
 if __name__ == '__main__':
-    STAKE = 3 / 7
+    CEIL = 3 / 7
     val = (0, 0, 0)
     for d in range(2, 1000001):
-        n = int(d * STAKE)
-        if HCF(n, d) == 1 and val[0] < n / d < STAKE:
+        n = int(d * CEIL)
+        if HCF(n, d) == 1 and val[0] < n / d < CEIL:
             val = (n / d, n, d)
     print(val)  # 428570

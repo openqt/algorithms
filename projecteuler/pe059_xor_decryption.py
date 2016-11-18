@@ -17,17 +17,17 @@ message, and the key is made up of random bytes. The user would keep the
 encrypted message and the encryption key in different locations, and without
 both "halves", it is impossible to decrypt the message.
 
-Unfortunately, this method is impractical for most users, so the modified method
-is to use a password as a key. If the password is shorter than the message,
-which is likely, the key is repeated cyclically throughout the message. The
-balance for this method is using a sufficiently long password key for security,
-but short enough to be memorable.
+Unfortunately, this method is impractical for most users, so the modified
+method is to use a password as a key. If the password is shorter than the
+message, which is likely, the key is repeated cyclically throughout the
+message. The balance for this method is using a sufficiently long password key
+for security, but short enough to be memorable.
 
-Your task has been made easy, as the encryption key consists of three lower case
-characters. Using cipher.txt (right click and 'Save Link/Target As...'), a file
-containing the encrypted ASCII codes, and the knowledge that the plain text must
-contain common English words, decrypt the message and find the sum of the ASCII
-values in the original text.
+Your task has been made easy, as the encryption key consists of three lower
+case characters. Using cipher.txt (right click and 'Save Link/Target As...'),
+a file containing the encrypted ASCII codes, and the knowledge that the plain
+text must contain common English words, decrypt the message and find the sum of
+the ASCII values in the original text.
 """
 from __future__ import print_function, division
 
@@ -63,12 +63,13 @@ if __name__ == '__main__':
         plain = it.next()
         try:
             while True:
-                i = it.next()
-                if not (i.isalnum() or i.isspace()) and not plain[-1].isalnum():
+                ch = it.next()
+                if not (ch.isalnum() or ch.isspace()) and \
+                        not plain[-1].isalnum():
                     # if the char is not alphanumeric or space, then previous
                     # must be alphanumeric
                     break
-                plain += i
+                plain += ch
         except StopIteration:
             print(key)
             print(plain)

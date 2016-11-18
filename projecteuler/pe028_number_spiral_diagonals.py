@@ -59,4 +59,5 @@ def spiral_grid(n, clockwise=True):
 if __name__ == '__main__':
     n = 1001
     grid = spiral_grid(n)
-    print(sum(grid[i][i] + grid[i][n - i - 1] for i in range(n)) - 1)  # 669171001
+    # 669171001
+    print(sum(grid[i][i] + grid[i][n - i - 1] for i in range(n)) - 1)

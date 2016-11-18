@@ -24,8 +24,8 @@ exists, has managed so far to map it to a palindrome. In fact, 10677 is the
 first number to be shown to require over fifty iterations before producing a
 palindrome: 4668731596684224866951378664 (53 iterations, 28-digits).
 
-Surprisingly, there are palindromic numbers that are themselves Lychrel numbers;
-the first example is 4994.
+Surprisingly, there are palindromic numbers that are themselves Lychrel
+numbers; the first example is 4994.
 
 How many Lychrel numbers are there below ten-thousand?
 

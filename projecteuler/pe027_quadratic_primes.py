@@ -54,4 +54,3 @@ if __name__ == '__main__':
 
     print(max_val, max_len)
     print(max_val[0] * max_val[1])  # -59231
-

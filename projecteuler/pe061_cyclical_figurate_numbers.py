@@ -120,7 +120,6 @@ if __name__ == '__main__':
                     m.setdefault(a, []).append(b)
         return m
 
-
     caches = [
         scope(triangle_number),
         scope(square_number),
@@ -133,4 +132,5 @@ if __name__ == '__main__':
     for i in caches[-1]:
         for n in _dfs(i, caches):
             print(n)
-            print(sum(n[j - 1] * 100 + n[j] for j in range(1, len(n))))  # 28684
+            # 28684
+            print(sum(n[j - 1] * 100 + n[j] for j in range(1, len(n))))

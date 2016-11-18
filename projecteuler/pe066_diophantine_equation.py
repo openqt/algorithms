@@ -24,8 +24,8 @@ following:
 Hence, by considering minimal solutions in x for D ≤ 7, the largest x is
 obtained when D=5.
 
-Find the value of D ≤ 1000 in minimal solutions of x for which the largest value
-of x is obtained.
+Find the value of D ≤ 1000 in minimal solutions of x for which the largest
+value of x is obtained.
 """
 from __future__ import print_function
 from pe046_goldbachs_other_conjecture import is_square_number
@@ -55,4 +55,5 @@ def pell(D):
 
 
 if __name__ == '__main__':
-    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D)))  # 661
+    # 661
+    print(max(pell(D) for D in range(2, 1001) if not is_square_number(D)))
