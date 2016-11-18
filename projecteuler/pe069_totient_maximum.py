@@ -24,23 +24,43 @@ It can be seen that n=6 produces a maximum n/φ(n) for n ≤ 10.
 Find the value of n ≤ 1,000,000 for which n/φ(n) is a maximum.
 """
 from __future__ import print_function, division
-from pe003_largest_prime_factor import prime_sieve
+# from pe003_largest_prime_factor import prime_sieve
 from pe007_10001st_primes import prime
 
 
 def totient(n, *args):
     """relatively prime to n
 
-    欧拉函数有这么一个简单的计算公式: ϕ(n)=n∏p|n (1−1/p)
-    一句话说，就是找出所有能被n整除的质数p，然后计算出1−1/p的连乘，再乘以n就可以了
+    欧拉函数有一个简单的计算公式: 找出所有能被n整除的质数p，然后计算出1−1/p的连乘，再乘以n
+        ϕ(n)=n∏p|n (1−1/p)
     :param n: the number
     :return: phi
     """
     if n <= 1:
         return 1
 
-    vals = args if args else [i for i in prime_sieve(n) if n % i == 0]
-    return int(reduce(lambda x, y: x - x / y, vals, n)) if vals else n - 1
+    # vals = args if args else [i for i in prime_sieve(n) if n % i == 0]
+    # return int(reduce(lambda x, y: x - x / y, vals, n)) if vals else n - 1
+
+    m, p = n, 2
+    while p * p <= n:
+        k = 0
+
+        while n % p == 0:
+            k += 1
+            n /= p
+
+        if k > 0:
+            m *= (p - 1) / p
+            # m *= p ** (k - 1) * (p - 1)
+
+        p += 1
+
+    if n > 1:
+        m *= (n - 1) / n
+        # m *= n - 1
+
+    return int(m)
 
 
 if __name__ == '__main__':
@@ -48,7 +68,9 @@ if __name__ == '__main__':
     # exit(0)
 
     """
-    事实上，这道题有一个很容易想到的纯手算方法，从上面计算ϕ(n)的公式我们就可以得到:
+    http://www.kylen314.com/archives/4943
+
+    这道题有一个很容易想到的纯手算方法，从上面计算ϕ(n)的公式我们就可以得到:
         n/ϕ(n)=∏p|n p/(p−1)
 
     注意这里p是质数，而p/(p−1)>1，所以一个数n，含有的可以整除的质数越多，那么这个数的的

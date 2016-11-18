@@ -18,7 +18,7 @@ How many elements would be contained in the set of reduced proper fractions for
 d ≤ 1,000,000?
 """
 from __future__ import print_function, division
-from pe005_smallest_multiple import HCF
+from pe069_totient_maximum import totient
 
 if __name__ == '__main__':
-    pass
+    print(sum(totient(i) for i in range(2, 1000001)))  # 303963552391
