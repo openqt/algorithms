@@ -14,19 +14,12 @@ from __future__ import print_function
 from pe020_factorial_digit_sum import factorial
 from pe030_digit_fifth_powers import sum_digit_by
 
-
-def _factorial_index(n):
-    d = _factorial_index.__dict__
-    if not d:
-        for i in range(10):
-            d[i] = factorial(i)
-    return d[n]
-
-
 if __name__ == '__main__':
+    caches = {i: factorial(i) for i in range(10)}
+
     total = 0
     for i in range(3, 2500000):
-        if i == sum_digit_by(i, _factorial_index):
+        if i == sum_digit_by(i, lambda n: caches[n]):
             print('>', i)
             total += i
     print(total)  # 40730

@@ -35,15 +35,21 @@ from pe030_digit_fifth_powers import sum_digit_by
 
 
 def longest_factorial_chain(n, caches):
-    x = n
+    """cached longest chain of numbers in each step
 
-    vals, val_set = [], set()
+    :param n: the number
+    :param caches:
+    :return:
+    """
+    x = n  # save original number
+
+    vals, val_set = [], set()  # vals for sequence, val_set for fast indexing
     while (n not in caches) and (n not in val_set):
         vals.append(n)
         val_set.add(n)
         n = sum_digit_by(n, factorial)
 
-    n = len(vals) + caches.get(n, 0)
+    n = len(vals) + caches.get(n, 0)  # anyway do the calculation
     for i in vals:
         caches[i] = n
         n -= 1
@@ -53,7 +59,7 @@ def longest_factorial_chain(n, caches):
 
 if __name__ == '__main__':
     caches = {}
-    count = sum(1 if longest_factorial_chain(i, caches) == 60 else 0
-                for i in range(1000000))
-    print('length of caches:', len(caches))
+    count = sum(1 for i in range(1000000) if
+                longest_factorial_chain(i, caches) == 60)
+    print('caches:', len(caches))
     print(count)  # 402

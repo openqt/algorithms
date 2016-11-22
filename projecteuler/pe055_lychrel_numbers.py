@@ -51,7 +51,4 @@ def is_lychrel_number(n):
 
 
 if __name__ == '__main__':
-    count = 0
-    for i in range(1, 10000):
-        count += 1 if is_lychrel_number(i) else 0
-    print(count)  # 249
+    print(sum(1 for i in range(1, 10000) if is_lychrel_number(i)))  # 249

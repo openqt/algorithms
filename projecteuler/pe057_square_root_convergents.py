@@ -34,15 +34,16 @@ def square_two_fraction(count=-1):
 
 
 def int_len(n):
-    i = 0
-    while n > 0:
-        i += 1
+    if n < 0:
+        n = -n
+
+    length = 0
+    while n:
+        length += 1
         n //= 10
-    return i
+    return length
 
 
 if __name__ == '__main__':
-    count = 0
-    for a, b in square_two_fraction(1000):
-        count += 1 if int_len(a) > int_len(b) else 0
-    print(count)  # 153
+    print(sum(1 for a, b in square_two_fraction(1000)
+              if int_len(a) > int_len(b)))  # 153
