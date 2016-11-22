@@ -38,4 +38,13 @@ problem.
     enjoyment of anyone with an interest in the fascinating world of
     mathematics."
 
+
+Contributors:
+
+    * [比特之理](http://www.kylen314.com/?s=euler)
+        とある東雲研究所の分所
+
+    * [MathBlog](http://www.mathblog.dk/project-euler-prolog/)
+        A man's journey through the wonderful world of Math and Programming
+
 """
