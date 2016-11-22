@@ -28,41 +28,16 @@ from __future__ import print_function
 from pe005_smallest_multiple import GCD
 
 
-# def pythagorean_triplet(n):
-#     """Generating right angle triangle which a + b + c = n
-#
-#     :param n:
-#     :return:
-#     """
-#     n2 = n / 2
-#     for m in range(2, int(n2 ** .5) + 1):
-#         if n2 % m == 0:
-#             sm = n2 / m
-#             while sm % 2 == 0:  # removing all factors 2
-#                 sm /= 2
-#
-#             for k in range(m + 1 + m % 2, min(2 * m, sm) + 1, 2):
-#                 if sm % k == 0 and GCD(k, m) == 1:
-#                     n = k - m
-#                     d = n2 / (k * m)
-#
-#                     a = d * (m * m - n * n)
-#                     b = 2 * d * m * n
-#                     c = d * (m * m + n * n)
-#                     yield a, b, c
-
-
-def pythagorean_triplet_by(n):
-    """Generating right angle triangles by n
+def pythagorean_triplet_by(p):
+    """Generating right angle triangles by perimeter
         a = k(m^2 – n^2)
         b = 2kmn
         c = k(m^2 + n^2)
 
-    :param n:
+    :param p: perimeter
     :return:
     """
-    _n = n
-    for m in range(2, int(_n ** .5)):
+    for m in range(2, int(p ** .5)):
         for n in range(1, m):  # m > n > 0
             # gcd(m, n) = 1 and exactly one of m, n even
             if (m + n) % 2 == 1 and GCD(m, n) == 1:
@@ -71,7 +46,7 @@ def pythagorean_triplet_by(n):
                     a = k * (m * m - n * n)
                     b = k * (2 * m * n)
                     c = k * (m * m + n * n)
-                    if a + b + c >= _n:
+                    if a + b + c >= p:
                         break
                     k += 1
                     yield a, b, c
