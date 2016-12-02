@@ -2,8 +2,7 @@ import unittest
 
 
 class Solution(unittest.TestCase):
-    """
-    7. Reverse Integer
+    """7. Reverse Integer
 
     Reverse digits of an integer.
 

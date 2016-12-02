@@ -3,8 +3,7 @@ import unittest
 
 
 class Solution(unittest.TestCase):
-    """
-    4. Median of Two Sorted Arrays
+    """4. Median of Two Sorted Arrays
 
     There are two sorted arrays nums1 and nums2 of size m and n respectively.
 

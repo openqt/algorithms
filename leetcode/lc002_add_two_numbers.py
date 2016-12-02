@@ -3,8 +3,7 @@ from utils.link import ListNode, to_node
 
 
 class Solution(unittest.TestCase):
-    """
-    2. Add Two Numbers
+    """2. Add Two Numbers
 
     You are given two linked lists representing two non-negative numbers. The
     digits are stored in reverse order and each of their nodes contain a single

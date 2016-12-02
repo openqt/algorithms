@@ -5,8 +5,7 @@ INT_MIN = -2147483648
 
 
 class Solution(unittest.TestCase):
-    """
-    8. String to Integer (atoi)
+    """8. String to Integer (atoi)
 
     Implement atoi to convert a string to an integer.
 
