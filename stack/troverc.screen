@@ -1,0 +1,17 @@
+sessionname trove
+hardstatus alwayslastline '%{= .} %-Lw%{= .}%> %n%f %t*%{= .}%+Lw%< %-=%{g}(%{d}%H/%l%{g})'
+setenv PROMPT_COMMAND /bin/true
+chdir /opt/stack
+
+screen -t horizon bash
+stuff "uwsgi horizon/horizon.ini"
+
+screen -t trove-api bash
+stuff "trove-api --config-file=/etc/trove/trove.conf"
+
+screen -t trove-taskmanager bash
+stuff "trove-taskmanager --config-file=/etc/trove/trove-taskmanager.conf"
+
+screen -t trove-conductor bash
+stuff "trove-conductor --config-file=/etc/trove/trove-conductor.conf"
+
