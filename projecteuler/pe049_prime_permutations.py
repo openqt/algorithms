@@ -15,7 +15,7 @@ What 12-digit number do you form by concatenating the three terms in this
 sequence?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 
 
 def seq_int(n):

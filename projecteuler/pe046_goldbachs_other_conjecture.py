@@ -19,7 +19,7 @@ What is the smallest odd composite that cannot be written as the sum of a prime
 and twice a square?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 
 
 def is_square_number(n):

@@ -16,7 +16,7 @@ Find the smallest prime which, by replacing part of the number (not necessarily
 adjacent digits) with the same digit, is part of an eight prime value family.
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 from pe049_prime_permutations import seq_int
 
 

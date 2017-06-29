@@ -16,7 +16,7 @@ Which prime, below one-million, can be written as the sum of the most
 consecutive primes?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 from pe007_10001st_primes import is_prime
 
 

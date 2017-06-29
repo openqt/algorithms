@@ -15,13 +15,12 @@ What is the first value which can be written as the sum of primes in over five
 thousand different ways?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
-from pe031_coin_sums import different_ways
+from utils import prime_sieve, different_ways
 
-
-if __name__  == '__main__':
-    primes = list(prime_sieve(1000))
-    for n in range(10, 1000):
+if __name__ == '__main__':
+    primes, n = list(prime_sieve(1000)), 10
+    while True:
         if different_ways(n, primes) > 5000:
-            print(n, different_ways(n, primes))  # 71, 5007
+            print(n, different_ways(n, primes))  # 71 5007
             break
+        n += 1

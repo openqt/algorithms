@@ -12,7 +12,7 @@ There are thirteen such primes below 100:
 How many circular primes are there below one million?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 from pe007_10001st_primes import is_prime
 
 

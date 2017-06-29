@@ -20,9 +20,8 @@ def fibonacci(stop=-1):
     :param stop: maximum value
     :return: fibonacci sequence
     """
-    yield 1
-
     a, b = 1, 1
+    yield a
     while True:
         yield b
         a, b = b, a + b

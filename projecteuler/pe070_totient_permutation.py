@@ -18,7 +18,7 @@ Find the value of n, 1 < n < 10^7, for which φ(n) is a permutation of n and the
 ratio n/φ(n) produces a minimum.
 """
 from __future__ import print_function, division
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 from pe049_prime_permutations import seq_int
 from pe069_totient_maximum import totient
 

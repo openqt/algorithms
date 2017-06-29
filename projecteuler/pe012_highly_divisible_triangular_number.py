@@ -24,7 +24,7 @@ What is the value of the first triangle number to have over five hundred
 divisors?
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 
 
 def len_factors_brute_force(n):

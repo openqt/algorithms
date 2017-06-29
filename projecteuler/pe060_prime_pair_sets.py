@@ -13,7 +13,7 @@ Find the lowest sum for a set of five primes for which any two primes
 concatenate to produce another prime.
 """
 from __future__ import print_function
-from pe003_largest_prime_factor import prime_sieve
+from utils import prime_sieve
 from pe007_10001st_primes import is_prime
 from pe057_square_root_convergents import int_len
 

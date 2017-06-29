@@ -16,8 +16,7 @@ How many different ways can one hundred be written as a sum of at least two
 positive integers?
 """
 from __future__ import print_function
-from pe031_coin_sums import different_ways
-
+from utils import different_ways
 
 if __name__ == '__main__':
     print(different_ways(100, range(1, 100)))  # 190569291
