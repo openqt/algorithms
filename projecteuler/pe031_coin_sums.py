@@ -37,15 +37,17 @@ from __future__ import print_function
 def different_ways(n, seq):
     """return the number of different combination ways by n,k
 
+    refer to: http://www.mathblog.dk/project-euler-31-combinations-english-currency-denominations/
+
     :param n: total
     :param seq: choices
     :return: how many different ways
     """
     ways = [0] * (n + 1)
     ways[0] = 1
-    for i in range(len(seq)):
-        for j in range(seq[i], n + 1):
-            ways[j] += ways[j - seq[i]]
+    for val in seq:
+        for i in range(val, n + 1):
+            ways[i] += ways[i - val]
     return ways[n]
 
 
