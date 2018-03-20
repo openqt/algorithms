@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding=utf-8
 """
 Ordered fractions
@@ -19,7 +20,7 @@ order of size, find the numerator of the fraction immediately to the left of
 3/7.
 """
 from __future__ import print_function, division
-from pe005_smallest_multiple import HCF
+from utils import HCF
 
 if __name__ == '__main__':
     CEIL = 3 / 7

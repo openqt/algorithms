@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding=utf-8
 """
 1000-digit Fibonacci number

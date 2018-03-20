@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding=utf-8
 """
 Singular integer right triangles
