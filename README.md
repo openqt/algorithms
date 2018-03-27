@@ -1,4 +1,4 @@
-# algorithms
+# 计算
 
-Algorithms implemented in the Python language.
+[LeetCode](https://leetcode.com/problems), [Project Euler](https://projecteuler.net/progress)题解。
 
