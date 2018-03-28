@@ -5,6 +5,8 @@ import (
 )
 
 /* 502. IPO
+https://leetcode.com/problems/ipo/description/
+
 Suppose LeetCode will start its IPO soon.
 In order to sell a good price of its shares to Venture Capital,
 LeetCode would like to work on some projects to increase its capital before the IPO.
