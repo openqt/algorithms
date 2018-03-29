@@ -36,59 +36,96 @@ Note:
 	The length of Profits array and Capital array will not exceed 50,000.
 	The answer is guaranteed to fit in a 32-bit signed integer.
 */
-func max(a, b complex128) complex128 {
-	if real(a) > real(b) {
-		return a
-	}
-	return b
+
+// An Item is something we manage in a priority queue.
+type Item struct {
+	value    int // The value of the item; arbitrary.
+	priority int // The priority of the item in the queue.
+	index    int // The index of the item in the heap.
 }
 
-type Cell struct {
-	Max, Cap int
+// A PriorityQueue implements heap.Interface and holds Items.
+type PriorityQueue struct {
+	Q     []*Item
+	Count int
+	Inc   bool // increase
 }
 
-func findMaximizedCapital(k int, W int, Profits []int, Capital []int) int {
-	memo := make([][]Cell, len(Profits))
-	for i := 0; i < len(memo); i++ {
-		memo[i] = make([]Cell, k+1)
+func (pq PriorityQueue) Len() int { return pq.Count }
+
+func (pq *PriorityQueue) Push(x *Item) {
+	if x.index > 0 {
+		pq.Q[x.index] = x
+	} else {
+		pq.Q = append(pq.Q, x)
+		x.index = len(pq.Q) - 1
 	}
-	for row := 0; row < len(memo); row++ {
-		memo[row][0] = Cell{0, W}
-	}
-	for col := 1; col <= k; col++ {
-		if W >= Capital[0] {
-			memo[0][col] = Cell{Profits[0], Profits[0]+W-Capital[0]}
-		} else {
-			memo[0][col] = Cell{0, W}
-		}
+	pq.Count += 1
+}
+
+func (pq *PriorityQueue) Top() *Item {
+	if pq.Count <= 0 {
+		pq.Q = nil
+		return nil
 	}
 
-	for col := 1; col <= k; col++ {
-		for row := 1; row < len(memo); row++ {
-			up := memo[row-1][col]
-			if row < col {
-				if up.Cap >= Capital[row] {
-					memo[row][col] = Cell{up.Max + Profits[row], up.Cap - Capital[row] + Profits[row]}
-				} else {
-					memo[row][col] = up
+	var val *Item
+	for _, i := range pq.Q {
+		if i != nil {
+			if val == nil {
+				val = i
+			}
+
+			if pq.Inc {
+				if i.priority < val.priority {
+					val = i
 				}
 			} else {
-
-
+				if i.priority > val.priority {
+					val = i
+				}
 			}
 		}
 	}
-
-	for i := 0; i < len(memo); i++ {
-		fmt.Println(memo[i])
-	}
-	fmt.Println(memo[len(memo)-1][k])
-
-	return memo[len(memo)-1][k].Max
+	return val
 }
 
-// 参考：http://blog.csdn.net/makuiyu/article/details/43698963
+func (pq *PriorityQueue) Pop() *Item {
+	val := pq.Top()
+	if val != nil {
+		pq.Q[val.index] = nil
+		pq.Count -= 1
+	}
+	return val
+}
+
+func findMaximizedCapital(k int, W int, Profits []int, Capital []int) int {
+	oriq := PriorityQueue{Inc: true}
+	valq := PriorityQueue{Inc: false}
+
+	for n, c := range Capital {
+		oriq.Push(&Item{value: Profits[n], priority: c})
+	}
+
+	for ; k > 0; k-- {
+		for oriq.Len() > 0 && oriq.Top().priority <= W {
+			val := oriq.Pop()
+			valq.Push(&Item{value: val.value, priority: val.value})
+		}
+
+		if valq.Len() == 0 {
+			break
+		}
+		W += valq.Pop().value
+	}
+
+	return W
+}
+
 func main() {
 	fmt.Println(findMaximizedCapital(2, 0, []int{1, 2, 3}, []int{0, 1, 1}) == 4)
-	//fmt.Println(findMaximizedCapital(3, 0, []int{1, 2, 3}, []int{0, 1, 2}) == 6)
+	fmt.Println(findMaximizedCapital(3, 0, []int{1, 2, 3}, []int{0, 1, 2}) == 6)
+	fmt.Println(findMaximizedCapital(1, 0, []int{1, 2, 3}, []int{0, 1, 2}) == 1)
+	fmt.Println(findMaximizedCapital(1, 0, []int{1, 2, 3}, []int{1, 1, 2}) == 0)
+	fmt.Println(findMaximizedCapital(1, 2, []int{1, 2, 3}, []int{1, 1, 2}) == 5)
 }
