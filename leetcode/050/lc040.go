@@ -36,7 +36,7 @@ func combinationSum2(candidates []int, target int) [][]int {
 	for i := range book {
 		data = append(data, val(i))
 	}
-	fmt.Println(data)
+	//fmt.Println(data)
 	return data
 }
 
