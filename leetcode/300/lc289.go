@@ -83,7 +83,7 @@ const (
 	LL = 11 // LIVE->LIVE
 )
 
-// http://www.cnblogs.com/lupx/p/leetcode-73.html
+// https://blog.csdn.net/xudli/article/details/48896549
 func main() {
 	m := [][]int{
 		{1, 1, 0, 1},
