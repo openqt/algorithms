@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-/* 4503. Next Greater Element II
+/* 503. Next Greater Element II
 https://leetcode.com/problems/next-greater-element-ii/description/
 
 Given a circular array (the next element of the last element is the first element of the array),
@@ -42,7 +42,7 @@ func find(nums []int, pos, n int) int {
 }
 
 func comp(a, b []int) bool {
-	fmt.Println(a, b)
+	//fmt.Println(a, b)
 	if len(a) != len(b) {
 		return false
 	}
