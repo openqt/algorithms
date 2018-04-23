@@ -28,7 +28,6 @@ func findKthNumber(n int, k int) int {
 	}
 }
 
-func check(n int, n)
 // 参考：http://blog.csdn.net/makuiyu/article/details/43698963
 func main() {
 	fmt.Println(findKthNumber(13, 2) == 10)
