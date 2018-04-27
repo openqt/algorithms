@@ -1,0 +1,12 @@
+{
+  "event_type": "websocket.send",
+  "priority": "info",
+  "payload": {
+    "toid": "ws_msg.info",
+    "message_event": "STATES",
+    "message_type": "message_type",
+    "message": {
+      "name": "unknown"
+    }
+  }
+}
