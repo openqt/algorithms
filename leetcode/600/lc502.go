@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-/* 502. IPO
+/*502. IPO
 https://leetcode.com/problems/ipo/description/
 
 Suppose LeetCode will start its IPO soon.
