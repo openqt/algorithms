@@ -4,7 +4,7 @@ import json
 import logging
 import time
 from string import Template
-
+import os, sys
 import prettytable
 import requests
 
@@ -97,6 +97,12 @@ class Question(object):
         difficulty = kwargs.get("difficulty")
         self.level = difficulty.get("level", 0)
 
+    def name(self):
+        return "lc%03d-%s" % (self.qid, self.slug)
+
+    def metaname(self):
+        return self.name() + ".json"
+
     def code(self, language="python"):
         if language not in self.codes:
             print("Supported language: {}".format(self.codes.keys()))
@@ -108,19 +114,33 @@ class Question(object):
             text=self.content,
             code=self.codes[language]).encode("utf-8")
 
-        name = "lc%03d-%s" % (self.qid, self.slug)
-        with open(name + ".py", "w") as f:
-            f.write(text)
-
-        with open(name + ".json", "w") as f:
+        with open(self.metaname(), "w") as f:
             json.dump(self.data, f, indent=2)
+
+        filename = ""
+        if language == "python":
+            filename = self.name() + ".py"
+            with open(filename, "w") as f:
+                f.write(text)
+        else:
+            print("Not supported language: {}".format(language))
+            return
+        logging.info("{} generated".format(filename))
 
     def sort(self, data):
         self.data = data
-        question = self.data["question"]
-        for code in json.loads(question["codeDefinition"]):
-            self.codes[code["value"]] = code["defaultCode"]
-        self.content = question["content"]
+        try:
+            question = self.data["question"]
+            for code in json.loads(question["codeDefinition"]):
+                self.codes[code["value"]] = code["defaultCode"]
+            self.content = question["content"]
+        except:
+            logging.error("{}, {}".format(self.title, self.url))
+
+    def load(self, filename):
+        with open(filename) as f:
+            self.sort(json.load(f))
+        logging.info("Load {} OK".format(filename))
 
 
 class LC(object):
@@ -172,6 +192,8 @@ class LC(object):
         self.__sort_data()
 
     def detail(self, q):
+        if q.paid:
+            print("Ignoring paid question {}({})".format(q.title, q.slug))
         print("Pulling {}: {}".format(q.qid, q.title))
 
         if not self.sess.cookies.get("csrftoken"):
@@ -198,14 +220,17 @@ def main():
     # lc.show()
     # lc.save("leetcode.json")
 
-    # q = lc.qm["exam-room"]
-    # lc.detail(q)
-    # q.code()
+    q = lc.qm["path-sum"]
+    q.load(q.metaname())
+    q.code()
 
-    for q in lc.qa:
-        lc.detail(q)
-        q.code()
-        time.sleep(1)
+    # for q in lc.qa:
+    #     if not os.path.exists(q.metaname()):
+    #         lc.detail(q)
+    #         q.code()
+    #         time.sleep(1)
+    #     else:
+    #         print("Ignore existed {}({})".format(q.metaname(), q.slug))
 
 
 if __name__ == "__main__":
