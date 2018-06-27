@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2],[2,3],[5],[0],[5],[],[]]", 
     "questionFrontendId": "802", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"eventualSafeNodes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"graph\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-eventual-safe-states/", 
     "stats": "{\"totalAccepted\": \"5.4K\", \"totalSubmission\": \"14.1K\", \"acRate\": \"38.0%\"}", 
     "interpretUrl": "/problems/find-eventual-safe-states/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Graph", 
-        "slug": "graph"
+        "slug": "graph", 
+        "name": "Graph"
       }
     ], 
     "content": "<p>In a directed graph, we start at some node and every turn, walk along a directed edge of the graph.&nbsp; If we reach a node that is terminal (that is, it has no outgoing directed edges), we stop.</p>\r\n\r\n<p>Now, say our starting node is <em>eventually safe&nbsp;</em>if and only if we must eventually walk to a terminal node.&nbsp; More specifically, there exists a natural number <code>K</code> so that for any choice of where to walk, we must have stopped at a terminal node in less than <code>K</code> steps.</p>\r\n\r\n<p>Which nodes are eventually safe?&nbsp; Return them as an array in sorted order.</p>\r\n\r\n<p>The directed graph has <code>N</code> nodes with labels <code>0, 1, ..., N-1</code>, where <code>N</code> is the length of <code>graph</code>.&nbsp; The&nbsp;graph is given in the following form: <code>graph[i]</code> is a list of labels <code>j</code> such that <code>(i, j)</code> is a directed edge of the graph.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> graph = [[1,2],[2,3],[5],[0],[5],[],[]]\r\n<strong>Output:</strong> [2,4,5,6]\r\nHere is a diagram of the above graph.\r\n\r\n</pre>\r\n\r\n<p><img alt=\"Illustration of graph\" src=\"https://s3-lc-upload.s3.amazonaws.com/uploads/2018/03/17/picture1.png\" style=\"height:86px; width:300px\" /></p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>graph</code> will have length at most <code>10000</code>.</li>\r\n\t<li>The number of edges in the graph will not exceed <code>32000</code>.</li>\r\n\t<li>Each <code>graph[i]</code> will be a sorted list of different integers, chosen within the range <code>[0, graph.length - 1]</code>.</li>\r\n</ul>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "find-eventual-safe-states", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Eventual Safe States", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

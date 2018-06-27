@@ -19,6 +19,10 @@ https://leetcode.com/problems/shortest-palindrome/description/
 <strong>Input: </strong><code>&quot;abcd&quot;</code>
 <strong>Output:</strong> <code>&quot;dcbabcd&quot;</code></pre>
 
+Similar Questions:
+  Longest Palindromic Substring (longest-palindromic-substring)
+  Implement strStr() (implement-strstr)
+  Palindrome Pairs (palindrome-pairs)
 """
 
 

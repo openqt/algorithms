@@ -19,6 +19,8 @@ https://leetcode.com/problems/move-zeroes/description/
 	<li>Minimize the total number of operations.</li>
 </ol>
 
+Similar Questions:
+  Remove Element (remove-element)
 """
 
 

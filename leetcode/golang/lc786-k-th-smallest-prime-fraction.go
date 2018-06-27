@@ -31,6 +31,10 @@ The third fraction is 2/5.
 	<li>Each <code>A[i]</code> will be between <code>1</code> and <code>30000</code>.</li>
 	<li><code>K</code> will be between <code>1</code> and <code>A.length * (A.length - 1) / 2</code>.</li>
 </ul>
+Similar Questions:
+  Kth Smallest Element in a Sorted Matrix (kth-smallest-element-in-a-sorted-matrix)
+  Kth Smallest Number in Multiplication Table (kth-smallest-number-in-multiplication-table)
+  Find K-th Smallest Pair Distance (find-k-th-smallest-pair-distance)
 */
 func kthSmallestPrimeFraction(A []int, K int) []int {
     

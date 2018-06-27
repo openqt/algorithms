@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,1,0],[1,1,0],[0,0,1]]", 
     "questionFrontendId": "547", 
     "contributors": "[{\"username\": \"lkpunisher\", \"profileUrl\": \"/lkpunisher/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findCircleNum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"M\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/friend-circles/", 
     "stats": "{\"totalAccepted\": \"40.6K\", \"totalSubmission\": \"82.3K\", \"acRate\": \"49.4%\"}", 
     "interpretUrl": "/problems/friend-circles/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Union Find", 
-        "slug": "union-find"
+        "slug": "union-find", 
+        "name": "Union Find"
       }
     ], 
     "content": "<p>\r\nThere are <b>N</b> students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a <b>direct</b> friend of B, and B is a <b>direct</b> friend of C, then A is an <b>indirect</b> friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.\r\n</p>\r\n\r\n<p>\r\nGiven a <b>N*N</b> matrix <b>M</b> representing the friend relationship between students in the class. If M[i][j] = 1, then the i<sub>th</sub> and j<sub>th</sub> students are <b>direct</b> friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n[[1,1,0],\r\n [1,1,0],\r\n [0,0,1]]\r\n<b>Output:</b> 2\r\n<b>Explanation:</b>The 0<sub>th</sub> and 1<sub>st</sub> students are direct friends, so they are in a friend circle. <br/>The 2<sub>nd</sub> student himself is in a friend circle. So return 2.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n[[1,1,0],\r\n [1,1,1],\r\n [0,1,1]]\r\n<b>Output:</b> 1\r\n<b>Explanation:</b>The 0<sub>th</sub> and 1<sub>st</sub> students are direct friends, the 1<sub>st</sub> and 2<sub>nd</sub> students are direct friends, <br/>so the 0<sub>th</sub> and 2<sub>nd</sub> students are indirect friends. All of them are in the same friend circle, so return 1.\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>N is in range [1,200].</li>\r\n<li>M[i][i] = 1 for all students.</li>\r\n<li>If M[i][j] = 1, then M[j][i] = 1.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "friend-circles", 
     "similarQuestions": "[{\"title\": \"Number of Connected Components in an Undirected Graph\", \"titleSlug\": \"number-of-connected-components-in-an-undirected-graph\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Judge Route Circle\", \"titleSlug\": \"judge-route-circle\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Sentence Similarity\", \"titleSlug\": \"sentence-similarity\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Sentence Similarity II\", \"titleSlug\": \"sentence-similarity-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Friend Circles", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

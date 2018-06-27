@@ -76,6 +76,9 @@ source = ["a/*comment", "line", "more_comment*/b"]
 <li>Every open block comment is eventually closed.</li>
 <li>There are no single-quote, double-quote, or control characters in the source code.</li>
 </p>
+Similar Questions:
+  Mini Parser (mini-parser)
+  Ternary Expression Parser (ternary-expression-parser)
 */
 func removeComments(source []string) []string {
     

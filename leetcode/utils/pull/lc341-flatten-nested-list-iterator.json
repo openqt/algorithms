@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,1],2,[1,1]]", 
     "questionFrontendId": "341", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nestedList\",\r\n      \"type\": \"list<NestedInteger>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/flatten-nested-list-iterator/", 
     "stats": "{\"totalAccepted\": \"68.1K\", \"totalSubmission\": \"155.8K\", \"acRate\": \"43.7%\"}", 
     "interpretUrl": "/problems/flatten-nested-list-iterator/interpret_solution/", 
@@ -17,15 +17,15 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "stack", 
-        "name": "Stack", 
-        "__typename": "TopicTagNode"
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "design", 
-        "name": "Design", 
-        "__typename": "TopicTagNode"
+        "name": "Design"
       }
     ], 
     "content": "<p>Given a nested list of integers, implement an iterator to flatten it.</p>\r\n\r\n<p>Each element is either an integer, or a list -- whose elements may also be integers or other lists.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\nGiven the list <code>[[1,1],2,[1,1]]</code>,\r\n<p>\r\nBy calling <i>next</i> repeatedly until <i>hasNext</i> returns false, the order of elements returned by <i>next</i> should be: <code>[1,1,2,1,1]</code>.\r\n</p>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\nGiven the list <code>[1,[4,[6]]]</code>,\r\n<p>\r\nBy calling <i>next</i> repeatedly until <i>hasNext</i> returns false, the order of elements returned by <i>next</i> should be: <code>[1,4,6]</code>.\r\n</p>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "flatten-nested-list-iterator", 
     "similarQuestions": "[{\"title\": \"Flatten 2D Vector\", \"titleSlug\": \"flatten-2d-vector\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Zigzag Iterator\", \"titleSlug\": \"zigzag-iterator\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Mini Parser\", \"titleSlug\": \"mini-parser\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Array Nesting\", \"titleSlug\": \"array-nesting\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Flatten Nested List Iterator", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

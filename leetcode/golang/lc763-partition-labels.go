@@ -26,6 +26,8 @@ A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits 
 <li><code>S</code> will have length in range <code>[1, 500]</code>.</li>
 <li><code>S</code> will consist of lowercase letters (<code>'a'</code> to <code>'z'</code>) only.</li>
 </ol></p>
+Similar Questions:
+  Merge Intervals (merge-intervals)
 */
 func partitionLabels(S string) []int {
     

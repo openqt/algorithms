@@ -19,6 +19,9 @@ https://leetcode.com/problems/maximal-rectangle/description/
 <strong>Output:</strong> 6
 </pre>
 
+Similar Questions:
+  Largest Rectangle in Histogram (largest-rectangle-in-histogram)
+  Maximal Square (maximal-square)
 """
 
 

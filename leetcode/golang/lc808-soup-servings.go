@@ -39,6 +39,8 @@ If we choose the first two operations, A will become empty first. For the third 
 	<li><code>0 &lt;= N &lt;= 10^9</code>.&nbsp;</li>
 	<li>Answers within&nbsp;<code>10^-6</code>&nbsp;of the true value will be accepted as correct.</li>
 </ul>
+Similar Questions:
+
 */
 func soupServings(N int) float64 {
     

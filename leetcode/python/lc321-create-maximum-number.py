@@ -39,6 +39,9 @@ k = <code>3</code>
 <code>[9, 8, 9]</code>
 </pre>
 
+Similar Questions:
+  Remove K Digits (remove-k-digits)
+  Maximum Swap (maximum-swap)
 """
 
 

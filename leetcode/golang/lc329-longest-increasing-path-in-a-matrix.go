@@ -37,6 +37,8 @@ https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/
 <strong>Explanation: </strong>The longest increasing path is <code>[3, 4, 5, 6]</code>. Moving diagonally is not allowed.
 </pre>
 
+Similar Questions:
+
 */
 func longestIncreasingPath(matrix [][]int) int {
     

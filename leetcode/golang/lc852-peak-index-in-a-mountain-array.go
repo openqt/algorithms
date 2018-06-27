@@ -39,6 +39,8 @@ https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 	<li>A&nbsp;is a mountain, as defined above.</li>
 </ol>
 
+Similar Questions:
+  Find Peak Element (find-peak-element)
 */
 func peakIndexInMountainArray(A []int) int {
     

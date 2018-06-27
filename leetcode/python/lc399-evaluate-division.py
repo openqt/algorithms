@@ -23,6 +23,8 @@ queries = [ ["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"] ]. </pre>
 <p>
 The input is always valid. You may assume that evaluating the queries will result in no division by zero and there is no contradiction.
 </p>
+Similar Questions:
+
 """
 
 

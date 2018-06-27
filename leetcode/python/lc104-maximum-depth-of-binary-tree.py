@@ -23,6 +23,9 @@ https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 
 <p>return its depth = 3.</p>
 
+Similar Questions:
+  Balanced Binary Tree (balanced-binary-tree)
+  Minimum Depth of Binary Tree (minimum-depth-of-binary-tree)
 """
 
 

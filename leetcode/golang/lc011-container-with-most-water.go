@@ -11,6 +11,8 @@ https://leetcode.com/problems/container-with-most-water/description/
 </p>
 <p>Note: You may not slant the container and <i>n</i> is at least 2.
 </p>
+Similar Questions:
+  Trapping Rain Water (trapping-rain-water)
 */
 func maxArea(height []int) int {
     

@@ -23,6 +23,8 @@ After third round, the three bulbs are <b>[on, off, off]</b>.
 So you should return 1, because there is only one bulb is on.
 </pre>
 
+Similar Questions:
+  Bulb Switcher II (bulb-switcher-ii)
 */
 func bulbSwitch(n int) int {
     

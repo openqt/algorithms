@@ -45,6 +45,8 @@ At the stage of rotating the ring to spell the key character <b>key[i]</b>:
 <li>It's guaranteed that string <b>key</b> could always be spelled by rotating the string <b>ring</b>.</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func findRotateSteps(ring string, key string) int {
     

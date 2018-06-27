@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2,3],[0,0,4],[7,6,5]]", 
     "questionFrontendId": "675", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"cutOffTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"forest\",\r\n      \"type\": \"list<list<integer>>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/cut-off-trees-for-golf-event/", 
     "stats": "{\"totalAccepted\": \"6.8K\", \"totalSubmission\": \"25.2K\", \"acRate\": \"26.9%\"}", 
     "interpretUrl": "/problems/cut-off-trees-for-golf-event/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>\r\nYou are asked to cut off trees in a forest for a golf event. The forest is represented as a non-negative 2D map, in this map:\r\n<ol>\r\n<li><code>0</code> represents the <code>obstacle</code> can't be reached.</li>\r\n<li><code>1</code> represents the <code>ground</code> can be walked through.</li>\r\n<li><code>The place with number bigger than 1</code> represents a <code>tree</code> can be walked through, and this positive number represents the tree's height.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nYou are asked to cut off <b>all</b> the trees in this forest in the order of tree's height - always cut off the tree with lowest height first. And after cutting, the original place has the tree will become a grass (value 1). \r\n</p>\r\n\r\n<p>\r\nYou will start from the point (0, 0) and you should output the minimum steps <b>you need to walk</b> to cut off all the trees. If you can't cut off all the trees, output -1 in that situation.\r\n</p>\r\n\r\n<p>\r\nYou are guaranteed that no two <code>trees</code> have the same height and there is at least one tree needs to be cut off.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n[\r\n [1,2,3],\r\n [0,0,4],\r\n [7,6,5]\r\n]\r\n<b>Output:</b> 6\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n[\r\n [1,2,3],\r\n [0,0,0],\r\n [7,6,5]\r\n]\r\n<b>Output:</b> -1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n[\r\n [2,3,4],\r\n [0,0,5],\r\n [8,7,6]\r\n]\r\n<b>Output:</b> 6\r\n<b>Explanation:</b> You started from the point (0,0) and you can cut off the tree in (0,0) directly without walking.\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Hint</b>: size of the given matrix will not exceed 50x50.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "cut-off-trees-for-golf-event", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Cut Off Trees for Golf Event", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

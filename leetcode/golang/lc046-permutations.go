@@ -24,6 +24,11 @@ https://leetcode.com/problems/permutations/description/
 ]
 </pre>
 
+Similar Questions:
+  Next Permutation (next-permutation)
+  Permutations II (permutations-ii)
+  Permutation Sequence (permutation-sequence)
+  Combinations (combinations)
 */
 func permute(nums []int) [][]int {
     

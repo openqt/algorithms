@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2", 
     "questionFrontendId": "89", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"grayCode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/gray-code/", 
     "stats": "{\"totalAccepted\": \"110.2K\", \"totalSubmission\": \"257K\", \"acRate\": \"42.9%\"}", 
     "interpretUrl": "/problems/gray-code/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>The gray code is a binary numeral system where two successive values differ in only one bit.</p>\r\n\r\n<p>Given a non-negative integer <em>n</em> representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;2\r\n<strong>Output:</strong>&nbsp;<code>[0,1,3,2]</code>\r\n<strong>Explanation:</strong>\r\n00 - 0\r\n01 - 1\r\n11 - 3\r\n10 - 2\r\n\r\nFor a given&nbsp;<em>n</em>, a gray code sequence may not be uniquely defined.\r\nFor example, [0,2,3,1] is also a valid gray code sequence.\r\n\r\n00 - 0\r\n10 - 2\r\n11 - 3\r\n01 - 1\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;0\r\n<strong>Output:</strong>&nbsp;<code>[0]\r\n<strong>Explanation:</strong> We define the gray code sequence to begin with 0.\r\n&nbsp;            A gray code sequence of <em>n</em> has size = 2<sup>n</sup>, which for <em>n</em> = 0 the size is 2<sup>0</sup> = 1.\r\n&nbsp;            Therefore, for <em>n</em> = 0 the gray code sequence is [0].</code>\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "gray-code", 
     "similarQuestions": "[{\"title\": \"1-bit and 2-bit Characters\", \"titleSlug\": \"1-bit-and-2-bit-characters\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Gray Code", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

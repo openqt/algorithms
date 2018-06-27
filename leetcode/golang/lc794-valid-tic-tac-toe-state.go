@@ -48,6 +48,8 @@ https://leetcode.com/problems/valid-tic-tac-toe-state/description/
 	<li><code>board</code> is a length-3 array of strings, where each string <code>board[i]</code> has length 3.</li>
 	<li>Each <code>board[i][j]</code> is a character in the set <code>{&quot; &quot;, &quot;X&quot;, &quot;O&quot;}</code>.</li>
 </ul>
+Similar Questions:
+  Design Tic-Tac-Toe (design-tic-tac-toe)
 */
 func validTicTacToe(board []string) bool {
     

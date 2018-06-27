@@ -31,6 +31,11 @@ Output: 1
 
 <p>Your algorithm should run in <em>O</em>(<em>n</em>) time and uses constant extra space.</p>
 
+Similar Questions:
+  Missing Number (missing-number)
+  Find the Duplicate Number (find-the-duplicate-number)
+  Find All Numbers Disappeared in an Array (find-all-numbers-disappeared-in-an-array)
+  Couples Holding Hands (couples-holding-hands)
 """
 
 

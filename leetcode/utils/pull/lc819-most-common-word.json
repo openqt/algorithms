@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"Bob hit a ball, the hit BALL flew far after it was hit.\"\n[\"hit\"]", 
     "questionFrontendId": "819", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"mostCommonWord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"paragraph\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"banned\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/most-common-word/", 
     "stats": "{\"totalAccepted\": \"10.8K\", \"totalSubmission\": \"22.2K\", \"acRate\": \"48.7%\"}", 
     "interpretUrl": "/problems/most-common-word/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given a paragraph&nbsp;and a list of banned words, return the most frequent word that is not in the list of banned words.&nbsp; It is guaranteed there is at least one word that isn&#39;t banned, and that the answer is unique.</p>\r\n\r\n<p>Words in the list of banned words are given in lowercase, and free of punctuation.&nbsp; Words in the paragraph are not case sensitive.&nbsp; The answer is in lowercase.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> \r\nparagraph = &quot;Bob hit a ball, the hit BALL flew far after it was hit.&quot;\r\nbanned = [&quot;hit&quot;]\r\n<strong>Output:</strong> &quot;ball&quot;\r\n<strong>Explanation:</strong> \r\n&quot;hit&quot; occurs 3 times, but it is a banned word.\r\n&quot;ball&quot; occurs twice (and no other word does), so it is the most frequent non-banned word in the paragraph. \r\nNote that words in the paragraph are not case sensitive,\r\nthat punctuation is ignored (even if adjacent to words, such as &quot;ball,&quot;), \r\nand that &quot;hit&quot; isn&#39;t the answer even though it occurs more because it is banned.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= paragraph.length &lt;= 1000</code>.</li>\r\n\t<li><code>1 &lt;= banned.length &lt;= 100</code>.</li>\r\n\t<li><code>1 &lt;= banned[i].length &lt;= 10</code>.</li>\r\n\t<li>The answer is unique, and written in lowercase (even if its occurrences in <code>paragraph</code>&nbsp;may have&nbsp;uppercase symbols, and even if it is a proper noun.)</li>\r\n\t<li><code>paragraph</code> only consists of letters, spaces, or the punctuation symbols <code>!?&#39;,;.</code></li>\r\n\t<li>Different words in&nbsp;<code>paragraph</code>&nbsp;are always separated by a space.</li>\r\n\t<li>There are no hyphens or hyphenated words.</li>\r\n\t<li>Words only consist of letters, never apostrophes or other punctuation symbols.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "most-common-word", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Most Common Word", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

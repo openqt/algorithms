@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"catsanddog\"\n[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]", 
     "questionFrontendId": "140", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"wordBreak\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"wordDict\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/word-break-ii/", 
     "stats": "{\"totalAccepted\": \"118.4K\", \"totalSubmission\": \"476K\", \"acRate\": \"24.9%\"}", 
     "interpretUrl": "/problems/word-break-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given a <strong>non-empty</strong> string <em>s</em> and a dictionary <em>wordDict</em> containing a list of <strong>non-empty</strong> words, add spaces in <em>s</em> to construct a sentence where each word is a valid dictionary word.&nbsp;Return all such possible sentences.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The same word in the dictionary may be reused multiple times in the segmentation.</li>\r\n\t<li>You may assume the dictionary does not contain duplicate words.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>s = &quot;<code>catsanddog</code>&quot;\r\nwordDict = <code>[&quot;cat&quot;, &quot;cats&quot;, &quot;and&quot;, &quot;sand&quot;, &quot;dog&quot;]</code>\r\n<strong>Output:\r\n</strong><code>[\r\n&nbsp; &quot;cats and dog&quot;,\r\n&nbsp; &quot;cat sand dog&quot;\r\n]</code>\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>s = &quot;pineapplepenapple&quot;\r\nwordDict = [&quot;apple&quot;, &quot;pen&quot;, &quot;applepen&quot;, &quot;pine&quot;, &quot;pineapple&quot;]\r\n<strong>Output:\r\n</strong>[\r\n&nbsp; &quot;pine apple pen apple&quot;,\r\n&nbsp; &quot;pineapple pen apple&quot;,\r\n&nbsp; &quot;pine applepen apple&quot;\r\n]\r\n<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>s = &quot;catsandog&quot;\r\nwordDict = [&quot;cats&quot;, &quot;dog&quot;, &quot;sand&quot;, &quot;and&quot;, &quot;cat&quot;]\r\n<strong>Output:\r\n</strong>[]</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "word-break-ii", 
     "similarQuestions": "[{\"title\": \"Word Break\", \"titleSlug\": \"word-break\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Concatenated Words\", \"titleSlug\": \"concatenated-words\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Word Break II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

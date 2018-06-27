@@ -21,6 +21,8 @@ https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/
 <li><code>1 <= k <= len(nums) <= 16</code>.</li>
 <li><code>0 < nums[i] < 10000</code>.</li>
 </p>
+Similar Questions:
+  Partition Equal Subset Sum (partition-equal-subset-sum)
 */
 func canPartitionKSubsets(nums []int, k int) bool {
     

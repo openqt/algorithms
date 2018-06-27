@@ -53,6 +53,8 @@ Suppose <code>n</code> lights are labeled as number [1, 2, 3 ..., n], function o
 <code>n</code> and <code>m</code> both fit in range [0, 1000].
 </p>
 
+Similar Questions:
+  Bulb Switcher (bulb-switcher)
 */
 func flipLights(n int, m int) int {
     

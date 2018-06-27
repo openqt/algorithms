@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[4,3,2,7,8,2,3,1]", 
     "questionFrontendId": "448", 
     "contributors": "[{\"username\": \"yuhaowang001\", \"profileUrl\": \"/yuhaowang001/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findDisappearedNumbers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-all-numbers-disappeared-in-an-array/", 
     "stats": "{\"totalAccepted\": \"96K\", \"totalSubmission\": \"187.6K\", \"acRate\": \"51.2%\"}", 
     "interpretUrl": "/problems/find-all-numbers-disappeared-in-an-array/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given an array of integers where 1 &le; a[i] &le; <i>n</i> (<i>n</i> = size of array), some elements appear twice and others appear once.</p>\r\n\r\n<p>Find all the elements of [1, <i>n</i>] inclusive that do not appear in this array.</p>\r\n\r\n<p>Could you do it without extra space and in O(<i>n</i>) runtime? You may assume the returned list does not count as extra space.</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n<b>Input:</b>\r\n[4,3,2,7,8,2,3,1]\r\n\r\n<b>Output:</b>\r\n[5,6]\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-all-numbers-disappeared-in-an-array", 
     "similarQuestions": "[{\"title\": \"First Missing Positive\", \"titleSlug\": \"first-missing-positive\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Find All Duplicates in an Array\", \"titleSlug\": \"find-all-duplicates-in-an-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find All Numbers Disappeared in an Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

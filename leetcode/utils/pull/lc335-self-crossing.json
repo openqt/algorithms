@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,1,1,2]", 
     "questionFrontendId": "335", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isSelfCrossing\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/self-crossing/", 
     "stats": "{\"totalAccepted\": \"16.9K\", \"totalSubmission\": \"64K\", \"acRate\": \"26.3%\"}", 
     "interpretUrl": "/problems/self-crossing/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>\r\n    You are given an array <i>x</i> of <code>n</code> positive numbers. You start at point <code>(0,0)</code> and moves <code>x[0]</code> metres to the north, then <code>x[1]</code> metres to the west,\r\n    <code>x[2]</code> metres to the south,\r\n    <code>x[3]</code> metres to the east and so on. In other words, after each move your direction changes\r\n    counter-clockwise.\r\n</p>\r\n<p>\r\n    Write a one-pass algorithm with <code>O(1)</code> extra space to determine, if your path crosses itself, or not.\r\n</p>\r\n\r\n<p>\r\n<b>Example 1:</b><br/>\r\n<pre>\r\nGiven <i>x</i> = <code>[2, 1, 1, 2]</code>,\r\n?????\r\n?   ?\r\n???????>\r\n    ?\r\n\r\nReturn <b>true</b> (self crossing)\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Example 2:</b><br/>\r\n<pre>\r\nGiven <i>x</i> = <code>[1, 2, 3, 4]</code>,\r\n????????\r\n?      ?\r\n?\r\n?\r\n?????????????>\r\n\r\nReturn <b>false</b> (not self crossing)\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Example 3:</b><br/>\r\n<pre>\r\nGiven <i>x</i> = <code>[1, 1, 1, 1]</code>,\r\n?????\r\n?   ?\r\n?????>\r\n\r\nReturn <b>true</b> (self crossing)\r\n</pre>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/dietpepsi\">@dietpepsi</a> for adding this problem and creating all test cases.</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "self-crossing", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Self Crossing", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

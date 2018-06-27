@@ -29,6 +29,8 @@ Given an array <code>nums</code> representing the data status of this set after 
 <li>The given array's numbers won't have any order.</li>
 </ol>
 </p>
+Similar Questions:
+  Find the Duplicate Number (find-the-duplicate-number)
 */
 func findErrorNums(nums []int) []int {
     

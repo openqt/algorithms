@@ -26,6 +26,10 @@ https://leetcode.com/problems/plus-one/description/
 <strong>Explanation:</strong> The array represents the integer 4321.
 </pre>
 
+Similar Questions:
+  Multiply Strings (multiply-strings)
+  Add Binary (add-binary)
+  Plus One Linked List (plus-one-linked-list)
 """
 
 

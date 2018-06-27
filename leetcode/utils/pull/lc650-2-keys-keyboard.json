@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "650", 
     "contributors": "[{\"username\": \"apoorv_vikram\", \"profileUrl\": \"/apoorv_vikram/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minSteps\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/2-keys-keyboard/", 
     "stats": "{\"totalAccepted\": \"20.6K\", \"totalSubmission\": \"45.4K\", \"acRate\": \"45.3%\"}", 
     "interpretUrl": "/problems/2-keys-keyboard/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nInitially on a notepad only one character 'A' is present. You can perform two operations on this notepad for each step: \r\n<ol>\r\n<li><code>Copy All</code>: You can copy all the characters present on the notepad (partial copy is not allowed).</li>\r\n<li><code>Paste</code>: You can paste the characters which are copied <b>last time</b>.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nGiven a number <code>n</code>. You have to get <b>exactly</b> <code>n</code> 'A' on the notepad by performing the minimum number of steps permitted. Output the minimum number of steps to get <code>n</code> 'A'. \r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> 3\r\n<b>Output:</b> 3\r\n<b>Explanation:</b>\r\nIntitally, we have one character 'A'.\r\nIn step 1, we use <b>Copy All</b> operation.\r\nIn step 2, we use <b>Paste</b> operation to get 'AA'.\r\nIn step 3, we use <b>Paste</b> operation to get 'AAA'.\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The <code>n</code> will be in the range [1, 1000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "2-keys-keyboard", 
     "similarQuestions": "[{\"title\": \"4 Keys Keyboard\", \"titleSlug\": \"4-keys-keyboard\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "2 Keys Keyboard", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

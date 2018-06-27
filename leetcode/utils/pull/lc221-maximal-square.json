@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]", 
     "questionFrontendId": "221", 
     "contributors": "[{\"username\": \"Freezen\", \"profileUrl\": \"/freezen/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maximalSquare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximal-square/", 
     "stats": "{\"totalAccepted\": \"92.1K\", \"totalSubmission\": \"299.9K\", \"acRate\": \"30.7%\"}", 
     "interpretUrl": "/problems/maximal-square/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given a 2D binary matrix filled with 0&#39;s and 1&#39;s, find the largest square containing only 1&#39;s and return its area.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: \r\n</strong>\r\n1 0 1 0 0\r\n1 0 <font color=\"red\">1</font> <font color=\"red\">1</font> 1\r\n1 1 <font color=\"red\">1</font> <font color=\"red\">1</font> 1\r\n1 0 0 1 0\r\n\r\n<strong>Output: </strong>4\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximal-square", 
     "similarQuestions": "[{\"title\": \"Maximal Rectangle\", \"titleSlug\": \"maximal-rectangle\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Largest Plus Sign\", \"titleSlug\": \"largest-plus-sign\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximal Square", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

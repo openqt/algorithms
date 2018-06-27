@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]", 
     "questionFrontendId": "406", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reconstructQueue\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"people\",\r\n      \"type\": \"pair<integer,integer>[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"pair<integer,integer>[]\",\r\n    \"colsize\": \"2\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/queue-reconstruction-by-height/", 
     "stats": "{\"totalAccepted\": \"49.1K\", \"totalSubmission\": \"86.7K\", \"acRate\": \"56.7%\"}", 
     "interpretUrl": "/problems/queue-reconstruction-by-height/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>Suppose you have a random list of people standing in a queue. Each person is described by a pair of integers <code>(h, k)</code>, where <code>h</code> is the height of the person and <code>k</code> is the number of people in front of this person who have a height greater than or equal to <code>h</code>. Write an algorithm to reconstruct the queue.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\nThe number of people is less than 1,100.\r\n</p>\r\n\r\n<br />\r\n\r\n<p><b>Example</b>\r\n<pre>\r\nInput:\r\n[[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]\r\n\r\nOutput:\r\n[[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "queue-reconstruction-by-height", 
     "similarQuestions": "[{\"title\": \"Count of Smaller Numbers After Self\", \"titleSlug\": \"count-of-smaller-numbers-after-self\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Queue Reconstruction by Height", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

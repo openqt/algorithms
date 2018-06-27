@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"hit\"\n\"cog\"\n[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]", 
     "questionFrontendId": "126", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findLadders\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"beginWord\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"endWord\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"wordList\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/word-ladder-ii/", 
     "stats": "{\"totalAccepted\": \"86K\", \"totalSubmission\": \"568.5K\", \"acRate\": \"15.1%\"}", 
     "interpretUrl": "/problems/word-ladder-ii/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given two words (<em>beginWord</em> and <em>endWord</em>), and a dictionary&#39;s word list, find all shortest transformation sequence(s) from <em>beginWord</em> to <em>endWord</em>, such that:</p>\r\n\r\n<ol>\r\n\t<li>Only one letter can be changed at a time</li>\r\n\t<li>Each transformed word must exist in the word list. Note that <em>beginWord</em> is <em>not</em> a transformed word.</li>\r\n</ol>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Return an empty list if there is no such transformation sequence.</li>\r\n\t<li>All words have the same length.</li>\r\n\t<li>All words contain only lowercase alphabetic characters.</li>\r\n\t<li>You may assume no duplicates in the word list.</li>\r\n\t<li>You may assume <em>beginWord</em> and <em>endWord</em> are non-empty and are not the same.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\nbeginWord = &quot;hit&quot;,\r\nendWord = &quot;cog&quot;,\r\nwordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]\r\n\r\n<strong>Output:</strong>\r\n[\r\n  [&quot;hit&quot;,&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;cog&quot;],\r\n&nbsp; [&quot;hit&quot;,&quot;hot&quot;,&quot;lot&quot;,&quot;log&quot;,&quot;cog&quot;]\r\n]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\nbeginWord = &quot;hit&quot;\r\nendWord = &quot;cog&quot;\r\nwordList = [&quot;hot&quot;,&quot;dot&quot;,&quot;dog&quot;,&quot;lot&quot;,&quot;log&quot;]\r\n\r\n<strong>Output: </strong>[]\r\n\r\n<strong>Explanation:</strong>&nbsp;The endWord &quot;cog&quot; is not in wordList, therefore no possible<strong>&nbsp;</strong>transformation.\r\n</pre>\r\n\r\n<ul>\r\n</ul>\r\n", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "word-ladder-ii", 
     "similarQuestions": "[{\"title\": \"Word Ladder\", \"titleSlug\": \"word-ladder\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Word Ladder II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

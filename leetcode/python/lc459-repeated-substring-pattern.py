@@ -33,6 +33,9 @@ Given a non-empty string check if it can be constructed by taking a substring of
 <b>Explanation:</b> It's the substring "abc" four times. (And the substring "abcabc" twice.)
 </pre>
 </p>
+Similar Questions:
+  Implement strStr() (implement-strstr)
+  Repeated String Match (repeated-string-match)
 """
 
 

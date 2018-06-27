@@ -20,6 +20,9 @@ https://leetcode.com/problems/perfect-squares/description/
 <b>Output:</b> 2
 <strong>Explanation: </strong><code>13 = 4 + 9.</code></pre>
 
+Similar Questions:
+  Count Primes (count-primes)
+  Ugly Number II (ugly-number-ii)
 """
 
 

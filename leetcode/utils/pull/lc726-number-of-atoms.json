@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"H2O\"", 
     "questionFrontendId": "726", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countOfAtoms\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"formula\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/number-of-atoms/", 
     "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"13.2K\", \"acRate\": \"43.5%\"}", 
     "interpretUrl": "/problems/number-of-atoms/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Recursion", 
-        "slug": "recursion"
+        "slug": "recursion", 
+        "name": "Recursion"
       }
     ], 
     "content": "<p>Given a chemical <code>formula</code> (given as a string), return the count of each atom.\r\n</p><p>\r\nAn atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.\r\n</p><p>\r\n1 or more digits representing the count of that element may follow if the count is greater than 1.  If the count is 1, no digits will follow.  For example, H2O and H2O2 are possible, but H1O2 is impossible.\r\n</p><p>\r\nTwo formulas concatenated together produce another formula.  For example, H2O2He3Mg4 is also a formula.  \r\n</p><p>\r\nA formula placed in parentheses, and a count (optionally added) is also a formula.  For example, (H2O2) and (H2O2)3 are formulas.\r\n</p><p>\r\nGiven a formula, output the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than 1), followed by the second name (in sorted order), followed by its count (if that count is more than 1), and so on.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nformula = \"H2O\"\r\n<b>Output:</b> \"H2O\"\r\n<b>Explanation:</b> \r\nThe count of elements are {'H': 2, 'O': 1}.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nformula = \"Mg(OH)2\"\r\n<b>Output:</b> \"H2MgO2\"\r\n<b>Explanation:</b> \r\nThe count of elements are {'H': 2, 'Mg': 1, 'O': 2}.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nformula = \"K4(ON(SO3)2)2\"\r\n<b>Output:</b> \"K4N2O14S4\"\r\n<b>Explanation:</b> \r\nThe count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>All atom names consist of lowercase letters, except for the first character which is uppercase.</li>\r\n<li>The length of <code>formula</code> will be in the range <code>[1, 1000]</code>.</li>\r\n<li><code>formula</code> will only consist of letters, digits, and round parentheses, and is a valid formula as defined in the problem.</li>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "number-of-atoms", 
     "similarQuestions": "[{\"title\": \"Decode String\", \"titleSlug\": \"decode-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Encode String with Shortest Length\", \"titleSlug\": \"encode-string-with-shortest-length\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Parse Lisp Expression\", \"titleSlug\": \"parse-lisp-expression\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Number of Atoms", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

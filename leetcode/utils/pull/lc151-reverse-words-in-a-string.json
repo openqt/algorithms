@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"the sky is blue\"", 
     "questionFrontendId": "151", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{}", 
-    "enableRunCode": false, 
     "questionDetailUrl": "/problems/reverse-words-in-a-string/", 
     "stats": "{\"totalAccepted\": \"205.2K\", \"totalSubmission\": \"1.3M\", \"acRate\": \"15.7%\"}", 
     "interpretUrl": "/problems/reverse-words-in-a-string/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "string", 
-        "name": "String", 
-        "__typename": "TopicTagNode"
+        "name": "String"
       }
     ], 
     "content": "<p>Given an input string, reverse the string word by word.</p>\r\n\r\n<p><strong>Example:&nbsp;&nbsp;</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;<code>the sky is blue</code>&quot;,\r\n<strong>Output:&nbsp;</strong>&quot;<code>blue is sky the</code>&quot;.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>A word is defined as a sequence of non-space characters.</li>\r\n\t<li>Input string may contain leading or trailing spaces. However, your reversed string should not contain leading or trailing spaces.</li>\r\n\t<li>You need to reduce multiple spaces between two words to a single space in the reversed string.</li>\r\n</ul>\r\n\r\n<p><strong>Follow up:&nbsp;</strong>For C programmers, try to solve it <em>in-place</em> in <em>O</em>(1) space.</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reverse-words-in-a-string", 
     "similarQuestions": "[{\"title\": \"Reverse Words in a String II\", \"titleSlug\": \"reverse-words-in-a-string-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": false, 
     "questionTitle": "Reverse Words in a String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

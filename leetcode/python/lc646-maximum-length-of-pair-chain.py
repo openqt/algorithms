@@ -30,6 +30,9 @@ Given a set of pairs, find the length longest chain which can be formed. You nee
 <li>The number of given pairs will be in the range [1, 1000].</li>
 </ol>
 </p>
+Similar Questions:
+  Longest Increasing Subsequence (longest-increasing-subsequence)
+  Increasing Subsequences (increasing-subsequences)
 """
 
 

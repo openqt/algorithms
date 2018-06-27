@@ -21,6 +21,10 @@ https://leetcode.com/problems/maximum-subarray/description/
 
 <p>If you have figured out the O(<em>n</em>) solution, try coding another solution using the divide and conquer approach, which is more subtle.</p>
 
+Similar Questions:
+  Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)
+  Maximum Product Subarray (maximum-product-subarray)
+  Degree of an Array (degree-of-an-array)
 */
 func maxSubArray(nums []int) int {
     

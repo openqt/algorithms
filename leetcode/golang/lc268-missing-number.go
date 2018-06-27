@@ -26,6 +26,11 @@ https://leetcode.com/problems/missing-number/description/
 <p><b>Note</b>:<br />
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?</p>
 
+Similar Questions:
+  First Missing Positive (first-missing-positive)
+  Single Number (single-number)
+  Find the Duplicate Number (find-the-duplicate-number)
+  Couples Holding Hands (couples-holding-hands)
 */
 func missingNumber(nums []int) int {
     

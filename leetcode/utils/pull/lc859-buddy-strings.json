@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"ab\"\n\"ba\"", 
     "questionFrontendId": "859", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"buddyStrings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"B\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/buddy-strings/", 
     "stats": "{\"totalAccepted\": \"3.8K\", \"totalSubmission\": \"14.6K\", \"acRate\": \"26.3%\"}", 
     "interpretUrl": "/problems/buddy-strings/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given two strings <code>A</code> and <code>B</code>&nbsp;of lowercase letters, return <code>true</code> if and only if we&nbsp;can swap two letters in <code>A</code> so that the result equals <code>B</code>.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<div>\r\n<pre>\r\n<strong>Input: </strong>A = <span id=\"example-input-1-1\">&quot;ab&quot;</span>, B = <span id=\"example-input-1-2\">&quot;ba&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">true</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>A = <span id=\"example-input-2-1\">&quot;ab&quot;</span>, B = <span id=\"example-input-2-2\">&quot;ab&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-2\">false</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>A = <span id=\"example-input-3-1\">&quot;aa&quot;</span>, B = <span id=\"example-input-3-2\">&quot;aa&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-3\">true</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>A = <span id=\"example-input-4-1\">&quot;aaaaaaabc&quot;</span>, B = <span id=\"example-input-4-2\">&quot;aaaaaaacb&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-4\">true</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>A = <span id=\"example-input-5-1\">&quot;&quot;</span>, B = <span id=\"example-input-5-2\">&quot;aa&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-5\">false</span>\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong><span>Note:</span></strong></p>\r\n\r\n<ol>\r\n\t<li><code>0 &lt;= A.length &lt;= 20000</code></li>\r\n\t<li><code>0 &lt;= B.length &lt;= 20000</code></li>\r\n\t<li><code>A</code> and&nbsp;<code>B</code> consist only of lowercase letters.</li>\r\n</ol>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "buddy-strings", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Buddy Strings", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

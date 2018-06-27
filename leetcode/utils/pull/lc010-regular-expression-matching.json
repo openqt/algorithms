@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"aa\"\n\"a\"", 
     "questionFrontendId": "10", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"isMatch\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"p\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/regular-expression-matching/", 
     "stats": "{\"totalAccepted\": \"207.6K\", \"totalSubmission\": \"852.6K\", \"acRate\": \"24.3%\"}", 
     "interpretUrl": "/problems/regular-expression-matching/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement regular expression matching with support for <code>&#39;.&#39;</code> and <code>&#39;*&#39;</code>.</p>\r\n\r\n<pre>\r\n&#39;.&#39; Matches any single character.\r\n&#39;*&#39; Matches zero or more of the preceding element.\r\n</pre>\r\n\r\n<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>s</code>&nbsp;could be empty and contains only lowercase letters <code>a-z</code>.</li>\r\n\t<li><code>p</code> could be empty and contains only lowercase letters <code>a-z</code>, and characters like&nbsp;<code>.</code>&nbsp;or&nbsp;<code>*</code>.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\ns = &quot;aa&quot;\r\np = &quot;a&quot;\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\ns = &quot;aa&quot;\r\np = &quot;a*&quot;\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong>&nbsp;&#39;*&#39; means zero or more of the precedeng&nbsp;element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes &quot;aa&quot;.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\ns = &quot;ab&quot;\r\np = &quot;.*&quot;\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong>&nbsp;&quot;.*&quot; means &quot;zero or more (*) of any character (.)&quot;.\r\n</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\ns = &quot;aab&quot;\r\np = &quot;c*a*b&quot;\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong>&nbsp;c can be repeated 0 times, a can be repeated 1 time. Therefore it matches &quot;aab&quot;.\r\n</pre>\r\n\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\ns = &quot;mississippi&quot;\r\np = &quot;mis*is*p*.&quot;\r\n<strong>Output:</strong> false\r\n</pre>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "regular-expression-matching", 
     "similarQuestions": "[{\"title\": \"Wildcard Matching\", \"titleSlug\": \"wildcard-matching\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Regular Expression Matching", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

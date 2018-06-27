@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MapSum\", \"insert\", \"sum\", \"insert\", \"sum\"]\n[[], [\"apple\",3], [\"ap\"], [\"app\",2], [\"ap\"]]", 
     "questionFrontendId": "677", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"MapSum\",\r\n    \"maxbytesperline\": 210000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"insert\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"key\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"sum\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"prefix\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/map-sum-pairs/", 
     "stats": "{\"totalAccepted\": \"13.8K\", \"totalSubmission\": \"27K\", \"acRate\": \"51.1%\"}", 
     "interpretUrl": "/problems/map-sum-pairs/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>\r\nImplement a MapSum class with <code>insert</code>, and <code>sum</code> methods.\r\n</p>\r\n\r\n<p>\r\nFor the method <code>insert</code>, you'll be given a pair of (string, integer). The string represents the key and the integer represents the value. If the key already existed, then the original key-value pair will be overridden to the new one.\r\n</p>\r\n\r\n<p>\r\nFor the method <code>sum</code>, you'll be given a string representing the prefix, and you need to return the sum of all the pairs' value whose key starts with the prefix.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\nInput: insert(\"apple\", 3), Output: Null\r\nInput: sum(\"ap\"), Output: 3\r\nInput: insert(\"app\", 2), Output: Null\r\nInput: sum(\"ap\"), Output: 5\r\n</pre>\r\n</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "map-sum-pairs", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Map Sum Pairs", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

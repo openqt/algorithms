@@ -34,6 +34,8 @@ Other cases:
 <li>There is only one optimal division for each test case.</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func optimalDivision(nums []int) string {
     

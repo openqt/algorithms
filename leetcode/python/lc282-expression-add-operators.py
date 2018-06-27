@@ -39,6 +39,12 @@ https://leetcode.com/problems/expression-add-operators/description/
 <b>Output: </b>[]
 </pre>
 
+Similar Questions:
+  Evaluate Reverse Polish Notation (evaluate-reverse-polish-notation)
+  Basic Calculator (basic-calculator)
+  Basic Calculator II (basic-calculator-ii)
+  Different Ways to Add Parentheses (different-ways-to-add-parentheses)
+  Target Sum (target-sum)
 """
 
 

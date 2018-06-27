@@ -19,6 +19,8 @@ https://leetcode.com/problems/longest-consecutive-sequence/description/
 <strong>Explanation:</strong> The longest consecutive elements sequence is <code>[1, 2, 3, 4]</code>. Therefore its length is 4.
 </pre>
 
+Similar Questions:
+  Binary Tree Longest Consecutive Sequence (binary-tree-longest-consecutive-sequence)
 */
 func longestConsecutive(nums []int) int {
     

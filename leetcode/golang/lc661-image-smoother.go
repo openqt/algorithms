@@ -32,6 +32,8 @@ For the point (1,1): floor(8/9) = floor(0.88888889) = 0
 <li>The length and width of the given matrix are in the range of [1, 150].</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func imageSmoother(M [][]int) [][]int {
     

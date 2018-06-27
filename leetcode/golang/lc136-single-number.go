@@ -27,6 +27,12 @@ https://leetcode.com/problems/single-number/description/
 <strong>Output:</strong> 4
 </pre>
 
+Similar Questions:
+  Single Number II (single-number-ii)
+  Single Number III (single-number-iii)
+  Missing Number (missing-number)
+  Find the Duplicate Number (find-the-duplicate-number)
+  Find the Difference (find-the-difference)
 */
 func singleNumber(nums []int) int {
     

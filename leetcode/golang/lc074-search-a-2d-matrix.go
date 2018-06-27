@@ -39,6 +39,8 @@ matrix = [
 target = 13
 <strong>Output:</strong> false</pre>
 
+Similar Questions:
+  Search a 2D Matrix II (search-a-2d-matrix-ii)
 */
 func searchMatrix(matrix [][]int, target int) bool {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,1,1],[1,1,0],[1,0,1]]\n1\n1\n2", 
     "questionFrontendId": "733", 
     "contributors": "[{\"username\": \"jatermelon\", \"profileUrl\": \"/jatermelon/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"floodFill\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"image\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"sr\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"sc\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"newColor\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[][]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/flood-fill/", 
     "stats": "{\"totalAccepted\": \"16.4K\", \"totalSubmission\": \"34.3K\", \"acRate\": \"47.9%\"}", 
     "interpretUrl": "/problems/flood-fill/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>\r\nAn <code>image</code> is represented by a 2-D array of integers, each integer representing the pixel value of the image (from 0 to 65535).\r\n</p><p>\r\nGiven a coordinate <code>(sr, sc)</code> representing the starting pixel (row and column) of the flood fill, and a pixel value <code>newColor</code>, \"flood fill\" the image.\r\n</p><p>\r\nTo perform a \"flood fill\", consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same color as the starting pixel), and so on.  Replace the color of all of the aforementioned pixels with the newColor.\r\n</p><p>\r\nAt the end, return the modified image.\r\n</p>\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nimage = [[1,1,1],[1,1,0],[1,0,1]]\r\nsr = 1, sc = 1, newColor = 2\r\n<b>Output:</b> [[2,2,2],[2,2,0],[2,0,1]]\r\n<b>Explanation:</b> \r\nFrom the center of the image (with position (sr, sc) = (1, 1)), all pixels connected \r\nby a path of the same color as the starting pixel are colored with the new color.\r\nNote the bottom corner is not colored 2, because it is not 4-directionally connected\r\nto the starting pixel.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>The length of <code>image</code> and <code>image[0]</code> will be in the range <code>[1, 50]</code>.</li>\r\n<li>The given starting pixel will satisfy <code>0 <= sr < image.length</code> and <code>0 <= sc < image[0].length</code>.</li>\r\n<li>The value of each color in <code>image[i][j]</code> and <code>newColor</code> will be an integer in <code>[0, 65535]</code>.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "flood-fill", 
     "similarQuestions": "[{\"title\": \"Island Perimeter\", \"titleSlug\": \"island-perimeter\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Flood Fill", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

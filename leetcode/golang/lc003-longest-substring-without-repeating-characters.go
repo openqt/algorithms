@@ -16,6 +16,8 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/des
 <p>Given <code>"bbbbb"</code>, the answer is <code>"b"</code>, with the length of 1.</p>
 
 <p>Given <code>"pwwkew"</code>, the answer is <code>"wke"</code>, with the length of 3. Note that the answer must be a <b>substring</b>, <code>"pwke"</code> is a <i>subsequence</i> and not a substring.</p>
+Similar Questions:
+  Longest Substring with At Most Two Distinct Characters (longest-substring-with-at-most-two-distinct-characters)
 */
 func lengthOfLongestSubstring(s string) int {
     

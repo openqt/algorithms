@@ -17,6 +17,10 @@ https://leetcode.com/problems/count-primes/description/
 <strong>Explanation:</strong> There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
 </pre>
 
+Similar Questions:
+  Ugly Number (ugly-number)
+  Ugly Number II (ugly-number-ii)
+  Perfect Squares (perfect-squares)
 */
 func countPrimes(n int) int {
     

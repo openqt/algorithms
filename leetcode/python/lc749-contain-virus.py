@@ -66,6 +66,8 @@ Notice that walls are only built on the shared boundary of two different cells.
 <li>Throughout the described process, there is always a contiguous viral region that will infect <b>strictly more</b> uncontaminated squares in the next round.</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

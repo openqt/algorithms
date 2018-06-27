@@ -23,6 +23,13 @@ https://leetcode.com/problems/minimum-window-substring/description/
 	<li>If there is such window, you are guaranteed that there will always be only one unique minimum window in S.</li>
 </ul>
 
+Similar Questions:
+  Substring with Concatenation of All Words (substring-with-concatenation-of-all-words)
+  Minimum Size Subarray Sum (minimum-size-subarray-sum)
+  Sliding Window Maximum (sliding-window-maximum)
+  Permutation in String (permutation-in-string)
+  Smallest Range (smallest-range)
+  Minimum Window Subsequence (minimum-window-subsequence)
 */
 func minWindow(s string, t string) string {
     

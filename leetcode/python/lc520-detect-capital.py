@@ -36,6 +36,8 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 <p><b>Note:</b>
 The input will be a non-empty word consisting of uppercase and lowercase latin letters.
 </p>
+Similar Questions:
+
 """
 
 

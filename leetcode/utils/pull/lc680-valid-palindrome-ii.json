@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"aba\"", 
     "questionFrontendId": "680", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"validPalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-palindrome-ii/", 
     "stats": "{\"totalAccepted\": \"33K\", \"totalSubmission\": \"102.1K\", \"acRate\": \"32.3%\"}", 
     "interpretUrl": "/problems/valid-palindrome-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>\r\nGiven a non-empty string <code>s</code>, you may delete <b>at most</b> one character.  Judge whether you can make it a palindrome.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"aba\"\r\n<b>Output:</b> True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"abca\"\r\n<b>Output:</b> True\r\n<b>Explanation:</b> You could delete the character 'c'.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The string will only contain lowercase characters a-z.\r\nThe maximum length of the string is 50000.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "valid-palindrome-ii", 
     "similarQuestions": "[{\"title\": \"Valid Palindrome\", \"titleSlug\": \"valid-palindrome\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Palindrome II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -26,6 +26,8 @@ B:     b1 → b2 → b3
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://oj.leetcode.com/discuss/user/stellari">@stellari</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Minimum Index Sum of Two Lists (minimum-index-sum-of-two-lists)
 """
 
 

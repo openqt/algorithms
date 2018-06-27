@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]", 
     "questionFrontendId": "407", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"trapRainWater\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"heightMap\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/trapping-rain-water-ii/", 
     "stats": "{\"totalAccepted\": \"18.2K\", \"totalSubmission\": \"48.2K\", \"acRate\": \"37.7%\"}", 
     "interpretUrl": "/problems/trapping-rain-water-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given an <code>m x n</code> matrix of positive integers representing the height of each unit cell in a 2D elevation map, compute the volume of water it is able to trap after raining.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\nBoth <i>m</i> and <i>n</i> are less than 110. The height of each unit cell is greater than 0 and is less than 20,000.\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nGiven the following 3x6 height map:\r\n[\r\n  [1,4,3,1,3,2],\r\n  [3,2,1,3,2,4],\r\n  [2,3,3,2,3,1]\r\n]\r\n\r\nReturn 4.\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<img src=\"/static/images/problemset/rainwater_empty.png\" /><br />\r\nThe above image represents the elevation map <code>[[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]</code> before the rain.\r\n</p>\r\n\r\n<p>\r\n<img src=\"/static/images/problemset/rainwater_fill.png\" /><br />\r\nAfter the rain, water is trapped between the blocks. The total volume of water trapped is 4.\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "trapping-rain-water-ii", 
     "similarQuestions": "[{\"title\": \"Trapping Rain Water\", \"titleSlug\": \"trapping-rain-water\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Trapping Rain Water II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

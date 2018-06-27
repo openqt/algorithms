@@ -21,6 +21,8 @@ https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 <b>Output:</b>
 [2,3]
 </pre>
+Similar Questions:
+  Find All Numbers Disappeared in an Array (find-all-numbers-disappeared-in-an-array)
 */
 func findDuplicates(nums []int) []int {
     

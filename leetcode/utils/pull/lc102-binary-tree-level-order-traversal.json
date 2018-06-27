@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,9,20,null,null,15,7]", 
     "questionFrontendId": "102", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"levelOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-level-order-traversal/", 
     "stats": "{\"totalAccepted\": \"252.3K\", \"totalSubmission\": \"580.5K\", \"acRate\": \"43.5%\"}", 
     "interpretUrl": "/problems/binary-tree-level-order-traversal/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree, return the <i>level order</i> traversal of its nodes' values. (ie, from left to right, level by level).</p>\r\n\r\n<p>\r\nFor example:<br />\r\nGiven binary tree <code>[3,9,20,null,null,15,7]</code>,<br />\r\n<pre>\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n</pre>\r\n</p>\r\n<p>\r\nreturn its level order traversal as:<br />\r\n<pre>\r\n[\r\n  [3],\r\n  [9,20],\r\n  [15,7]\r\n]\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "binary-tree-level-order-traversal", 
     "similarQuestions": "[{\"title\": \"Binary Tree Zigzag Level Order Traversal\", \"titleSlug\": \"binary-tree-zigzag-level-order-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Level Order Traversal II\", \"titleSlug\": \"binary-tree-level-order-traversal-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Minimum Depth of Binary Tree\", \"titleSlug\": \"minimum-depth-of-binary-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Vertical Order Traversal\", \"titleSlug\": \"binary-tree-vertical-order-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Average of Levels in Binary Tree\", \"titleSlug\": \"average-of-levels-in-binary-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Level Order Traversal", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

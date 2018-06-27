@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "790", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numTilings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/domino-and-tromino-tiling/", 
     "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"11.2K\", \"acRate\": \"32.9%\"}", 
     "interpretUrl": "/problems/domino-and-tromino-tiling/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>We have two types of tiles: a 2x1 domino shape, and an &quot;L&quot; tromino shape. These shapes may be rotated.</p>\r\n\r\n<pre>\r\nXX  &lt;- domino\r\n\r\nXX  &lt;- &quot;L&quot; tromino\r\nX\r\n</pre>\r\n\r\n<p>Given N, how many ways are there to tile a 2 x N board? <strong>Return your answer modulo 10^9 + 7</strong>.</p>\r\n\r\n<p>(In a tiling, every square must be covered by a tile. Two tilings are different if and only if there are two 4-directionally adjacent cells on the board such that exactly one of the tilings has both squares occupied by a tile.)</p>\r\n\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> 3\r\n<strong>Output:</strong> 5\r\n<strong>Explanation:</strong> \r\nThe five different ways are listed below, different letters indicates different tiles:\r\nXYZ XXZ XYY XXY XYY\r\nXYZ YYZ XZZ XYY XXY</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>N&nbsp; will be in range <code>[1, 1000]</code>.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "domino-and-tromino-tiling", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Domino and Tromino Tiling", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

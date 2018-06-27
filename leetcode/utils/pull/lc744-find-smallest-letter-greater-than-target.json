@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"c\",\"f\",\"j\"]\n\"a\"", 
     "questionFrontendId": "744", 
     "contributors": "[{\"username\": \"imsure\", \"profileUrl\": \"/imsure/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"nextGreatestLetter\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"letters\",\r\n      \"type\": \"character[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"character\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"character\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-smallest-letter-greater-than-target/", 
     "stats": "{\"totalAccepted\": \"18.9K\", \"totalSubmission\": \"43.6K\", \"acRate\": \"43.5%\"}", 
     "interpretUrl": "/problems/find-smallest-letter-greater-than-target/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>\r\nGiven a list of sorted characters <code>letters</code> containing only lowercase letters, and given a target letter <code>target</code>, find the smallest element in the list that is larger than the given target.\r\n</p><p>\r\nLetters also wrap around.  For example, if the target is <code>target = 'z'</code> and <code>letters = ['a', 'b']</code>, the answer is <code>'a'</code>.\r\n</p>\r\n\r\n<p><b>Examples:</b><br />\r\n<pre>\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"a\"\r\n<b>Output:</b> \"c\"\r\n\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"c\"\r\n<b>Output:</b> \"f\"\r\n\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"d\"\r\n<b>Output:</b> \"f\"\r\n\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"g\"\r\n<b>Output:</b> \"j\"\r\n\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"j\"\r\n<b>Output:</b> \"c\"\r\n\r\n<b>Input:</b>\r\nletters = [\"c\", \"f\", \"j\"]\r\ntarget = \"k\"\r\n<b>Output:</b> \"c\"\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li><code>letters</code> has a length in range <code>[2, 10000]</code>.</li>\r\n<li><code>letters</code> consists of lowercase letters, and contains at least 2 unique letters.</li>\r\n<li><code>target</code> is a lowercase letter.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-smallest-letter-greater-than-target", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Smallest Letter Greater Than Target", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

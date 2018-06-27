@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "818", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"racecar\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/race-car/", 
     "stats": "{\"totalAccepted\": \"2.7K\", \"totalSubmission\": \"10.1K\", \"acRate\": \"27.2%\"}", 
     "interpretUrl": "/problems/race-car/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }
     ], 
     "content": "<p>Your car starts at position 0 and speed +1 on an infinite number line.&nbsp; (Your car can go into negative positions.)</p>\r\n\r\n<p>Your car drives automatically according to a sequence of instructions A (accelerate) and R (reverse).</p>\r\n\r\n<p>When you get an instruction &quot;A&quot;, your car does the following:&nbsp;<code>position += speed, speed *= 2</code>.</p>\r\n\r\n<p>When you get an instruction &quot;R&quot;, your car does the following: if your speed is positive then&nbsp;<code>speed = -1</code>&nbsp;, otherwise&nbsp;<code>speed = 1</code>.&nbsp; (Your position stays the same.)</p>\r\n\r\n<p>For example, after commands &quot;AAR&quot;, your car goes to positions 0-&gt;1-&gt;3-&gt;3, and your speed goes to 1-&gt;2-&gt;4-&gt;-1.</p>\r\n\r\n<p>Now for some target position, say the <strong>length</strong> of the shortest sequence of instructions to get there.</p>\r\n\r\n<pre>\r\n<strong>Example 1:</strong>\r\n<strong>Input:</strong> \r\ntarget = 3\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> \r\nThe shortest instruction sequence is &quot;AA&quot;.\r\nYour position goes from 0-&gt;1-&gt;3.\r\n</pre>\r\n\r\n<pre>\r\n<strong>Example 2:</strong>\r\n<strong>Input:</strong> \r\ntarget = 6\r\n<strong>Output:</strong> 5\r\n<strong>Explanation:</strong> \r\nThe shortest instruction sequence is &quot;AAARA&quot;.\r\nYour position goes from 0-&gt;1-&gt;3-&gt;7-&gt;7-&gt;6.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= target &lt;= 10000</code>.</li>\r\n</ul>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "race-car", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Race Car", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

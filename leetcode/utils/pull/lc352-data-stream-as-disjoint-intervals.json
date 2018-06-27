@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"SummaryRanges\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\",\"addNum\",\"getIntervals\"]\n[[],[1],[],[3],[],[7],[],[2],[],[6],[]]", 
     "questionFrontendId": "352", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"SummaryRanges\",\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"addNum\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"getIntervals\",\r\n            \"params\": [],\r\n            \"return\": {\r\n                \"type\": \"list<Interval>\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/data-stream-as-disjoint-intervals/", 
     "stats": "{\"totalAccepted\": \"17.9K\", \"totalSubmission\": \"43.4K\", \"acRate\": \"41.2%\"}", 
     "interpretUrl": "/problems/data-stream-as-disjoint-intervals/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>Given a data stream input of non-negative integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, ..., summarize the numbers seen so far as a list of disjoint intervals.</p>\r\n\r\n<p>For example, suppose the integers from the data stream are 1, 3, 7, 2, 6, ..., then the summary will be:</p>\r\n<pre>\r\n[1, 1]\r\n[1, 1], [3, 3]\r\n[1, 1], [3, 3], [7, 7]\r\n[1, 3], [7, 7]\r\n[1, 3], [6, 7]\r\n</pre>\r\n\r\n<p><b>Follow up:</b><br />\r\nWhat if there are lots of merges and the number of disjoint intervals are small compared to the data stream's size?\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://discuss.leetcode.com/user/yunhong\">@yunhong</a> for adding this problem and creating most of the test cases.</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "data-stream-as-disjoint-intervals", 
     "similarQuestions": "[{\"title\": \"Summary Ranges\", \"titleSlug\": \"summary-ranges\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find Right Interval\", \"titleSlug\": \"find-right-interval\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Range Module\", \"titleSlug\": \"range-module\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Data Stream as Disjoint Intervals", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

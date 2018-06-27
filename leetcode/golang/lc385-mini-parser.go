@@ -41,6 +41,10 @@ Return a NestedInteger object containing a nested list with 2 elements:
          a. An integer containing value 789.
 </pre>
 </p>
+Similar Questions:
+  Flatten Nested List Iterator (flatten-nested-list-iterator)
+  Ternary Expression Parser (ternary-expression-parser)
+  Remove Comments (remove-comments)
 */
 /**
  * // This is the interface that allows for creating nested lists.

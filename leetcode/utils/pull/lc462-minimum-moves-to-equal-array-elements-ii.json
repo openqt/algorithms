@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]", 
     "questionFrontendId": "462", 
     "contributors": "[{\"username\": \"andrew56\", \"profileUrl\": \"/andrew56/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minMoves2\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-moves-to-equal-array-elements-ii/", 
     "stats": "{\"totalAccepted\": \"25.9K\", \"totalSubmission\": \"50.1K\", \"acRate\": \"51.7%\"}", 
     "interpretUrl": "/problems/minimum-moves-to-equal-array-elements-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p><p>Given a <b>non-empty</b> integer array, find the minimum number of moves required to make all array elements equal, where a move is incrementing a selected element by 1 or decrementing a selected element by 1.</p>\r\n\r\n<p>You may assume the array's length is at most 10,000.</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n<b>Input:</b>\r\n[1,2,3]\r\n\r\n<b>Output:</b>\r\n2\r\n\r\n<b>Explanation:</b>\r\nOnly two moves are needed (remember each move increments or decrements one element):\r\n\r\n[1,2,3]  =>  [2,2,3]  =>  [2,2,2]\r\n</pre>\r\n</p></p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-moves-to-equal-array-elements-ii", 
     "similarQuestions": "[{\"title\": \"Best Meeting Point\", \"titleSlug\": \"best-meeting-point\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Minimum Moves to Equal Array Elements\", \"titleSlug\": \"minimum-moves-to-equal-array-elements\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Moves to Equal Array Elements II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

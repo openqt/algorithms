@@ -41,6 +41,9 @@ Output: "0"
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.
 </pre>
 </p>
+Similar Questions:
+  Create Maximum Number (create-maximum-number)
+  Monotone Increasing Digits (monotone-increasing-digits)
 */
 func removeKdigits(num string, k int) string {
     

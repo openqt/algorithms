@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]", 
     "questionFrontendId": "85", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maximalRectangle\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximal-rectangle/", 
     "stats": "{\"totalAccepted\": \"89.6K\", \"totalSubmission\": \"297.7K\", \"acRate\": \"30.1%\"}", 
     "interpretUrl": "/problems/maximal-rectangle/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given a 2D binary matrix filled with 0&#39;s and 1&#39;s, find the largest rectangle containing only 1&#39;s and return its area.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\n[\r\n  [&quot;1&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;,&quot;0&quot;],\r\n  [&quot;1&quot;,&quot;0&quot;,&quot;<strong>1</strong>&quot;,&quot;<strong>1</strong>&quot;,&quot;<strong>1</strong>&quot;],\r\n  [&quot;1&quot;,&quot;1&quot;,&quot;<strong>1</strong>&quot;,&quot;<strong>1</strong>&quot;,&quot;<strong>1</strong>&quot;],\r\n  [&quot;1&quot;,&quot;0&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;]\r\n]\r\n<strong>Output:</strong> 6\r\n</pre>\r\n", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "maximal-rectangle", 
     "similarQuestions": "[{\"title\": \"Largest Rectangle in Histogram\", \"titleSlug\": \"largest-rectangle-in-histogram\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Maximal Square\", \"titleSlug\": \"maximal-square\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximal Rectangle", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

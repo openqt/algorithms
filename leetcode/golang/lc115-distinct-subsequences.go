@@ -51,6 +51,8 @@ As shown below, there are 5 ways you can generate &quot;bag&quot; from S.
     ^^^
 </pre>
 
+Similar Questions:
+
 */
 func numDistinct(s string, t string) int {
     

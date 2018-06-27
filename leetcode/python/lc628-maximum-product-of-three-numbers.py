@@ -26,6 +26,8 @@ https://leetcode.com/problems/maximum-product-of-three-numbers/description/
 <li>Multiplication of any three numbers in the input won't exceed the range of 32-bit signed integer.</li>
 </ol>
 </p>
+Similar Questions:
+  Maximum Product Subarray (maximum-product-subarray)
 """
 
 

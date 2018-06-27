@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,2,3,null,3,null,1]", 
     "questionFrontendId": "337", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"rob\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/house-robber-iii/", 
     "stats": "{\"totalAccepted\": \"68.8K\", \"totalSubmission\": \"152.5K\", \"acRate\": \"45.1%\"}", 
     "interpretUrl": "/problems/house-robber-iii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>\r\nThe thief has found himself a new place for his thievery again. There is only one entrance to this area, called the \"root.\" Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that \"all houses in this place forms a binary tree\". It will automatically contact the police if two directly-linked houses were broken into on the same night.\r\n</p>\r\n\r\n<p>\r\nDetermine the maximum amount of money the thief can rob tonight without alerting the police.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n     <font color=\"red\">3</font>\r\n    / \\\r\n   2   3\r\n    \\   \\ \r\n     <font color=\"red\">3   1</font>\r\n</pre>\r\nMaximum amount of money the thief can rob = <font color=\"red\">3</font> + <font color=\"red\">3</font> + <font color=\"red\">1</font> = <b>7</b>.\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n     3\r\n    / \\\r\n   <font color=\"red\">4</font>   <font color=\"red\">5</font>\r\n  / \\   \\ \r\n 1   3   1\r\n</pre>\r\nMaximum amount of money the thief can rob = <font color=\"red\">4</font> + <font color=\"red\">5</font> = <b>9</b>.\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/dietpepsi\">@dietpepsi</a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "house-robber-iii", 
     "similarQuestions": "[{\"title\": \"House Robber\", \"titleSlug\": \"house-robber\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"House Robber II\", \"titleSlug\": \"house-robber-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "House Robber III", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

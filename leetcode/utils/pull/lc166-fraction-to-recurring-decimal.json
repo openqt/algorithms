@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1\n2", 
     "questionFrontendId": "166", 
     "contributors": "[{\"username\": \"Shangrila\", \"profileUrl\": \"/shangrila/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"fractionToDecimal\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"numerator\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"denominator\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/fraction-to-recurring-decimal/", 
     "stats": "{\"totalAccepted\": \"67.3K\", \"totalSubmission\": \"368.5K\", \"acRate\": \"18.3%\"}", 
     "interpretUrl": "/problems/fraction-to-recurring-decimal/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.</p>\r\n\r\n<p>If the fractional part is repeating, enclose the repeating part in parentheses.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> numerator = 1, denominator = 2\r\n<strong>Output:</strong> &quot;0.5&quot;\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> numerator = 2, denominator = 1\r\n<strong>Output:</strong> &quot;2&quot;</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> numerator = 2, denominator = 3\r\n<strong>Output: </strong>&quot;0.(6)&quot;\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "fraction-to-recurring-decimal", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Fraction to Recurring Decimal", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

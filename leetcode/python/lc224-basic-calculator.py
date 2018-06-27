@@ -33,6 +33,12 @@ https://leetcode.com/problems/basic-calculator/description/
 	<li><b>Do not</b> use the <code>eval</code> built-in library function.</li>
 </ul>
 
+Similar Questions:
+  Evaluate Reverse Polish Notation (evaluate-reverse-polish-notation)
+  Basic Calculator II (basic-calculator-ii)
+  Different Ways to Add Parentheses (different-ways-to-add-parentheses)
+  Expression Add Operators (expression-add-operators)
+  Basic Calculator III (basic-calculator-iii)
 """
 
 

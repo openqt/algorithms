@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"RD\"", 
     "questionFrontendId": "649", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"predictPartyVictory\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"senate\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/dota2-senate/", 
     "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"15.1K\", \"acRate\": \"36.9%\"}", 
     "interpretUrl": "/problems/dota2-senate/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>\r\nIn the world of Dota2, there are two parties: the <code>Radiant</code> and the <code>Dire</code>.\r\n</p>\r\n\r\n<p>\r\nThe Dota2 senate consists of senators coming from two parties. Now the senate wants to make a decision about a change in the Dota2 game. The voting for this change is a round-based procedure. In each round, each senator can exercise <code>one</code> of the two rights:\r\n<ol>\r\n<li><code>Ban one senator's right</code>: <br/>A senator can make another senator lose <b>all his rights</b> in this and all the following rounds.</li>\r\n<li><code>Announce the victory</code>: <br/>If this senator found the senators who still have rights to vote are all from <b>the same party</b>, he can announce the victory and make the decision about the change in the game.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nGiven a string representing each senator's party belonging. The character 'R' and 'D' represent the <code>Radiant</code> party and the <code>Dire</code> party respectively. Then if there are <code>n</code> senators, the size of the given string will be <code>n</code>.\r\n</p>\r\n\r\n<p>\r\nThe round-based procedure starts from the first senator to the last senator in the given order. This procedure will last until the end of voting. All the senators who have lost their rights will be skipped during the procedure.\r\n</p>\r\n\r\n<p>\r\nSuppose every senator is smart enough and will play the best strategy for his own party, you need to predict which party will finally announce the victory and make the change in the Dota2 game. The output should be <code>Radiant</code> or <code>Dire</code>.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"RD\"\r\n<b>Output:</b> \"Radiant\"\r\n<b>Explanation:</b> The first senator comes from Radiant and he can just ban the next senator's right in the round 1. <br/>And the second senator can't exercise any rights any more since his right has been banned. <br/>And in the round 2, the first senator can just announce the victory since he is the only guy in the senate who can vote.\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"RDD\"\r\n<b>Output:</b> \"Dire\"\r\n<b>Explanation:</b> \r\nThe first senator comes from Radiant and he can just ban the next senator's right in the round 1. <br/>And the second senator can't exercise any rights anymore since his right has been banned. <br/>And the third senator comes from Dire and he can ban the first senator's right in the round 1. <br/>And in the round 2, the third senator can just announce the victory since he is the only guy in the senate who can vote.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The length of the given string will in the range [1, 10,000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "dota2-senate", 
     "similarQuestions": "[{\"title\": \"Teemo Attacking\", \"titleSlug\": \"teemo-attacking\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Dota2 Senate", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

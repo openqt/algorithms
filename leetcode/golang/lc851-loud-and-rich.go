@@ -51,6 +51,8 @@ The other answers can be filled out with similar reasoning.
 	<li><code>richer[i]</code>&#39;s are all different.</li>
 	<li>The&nbsp;observations in <code>richer</code> are all logically consistent.</li>
 </ol>
+Similar Questions:
+
 */
 func loudAndRich(richer [][]int, quiet []int) []int {
     

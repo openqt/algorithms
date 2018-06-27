@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "10\n11", 
     "questionFrontendId": "464", 
     "contributors": "[{\"username\": \"reputation21\", \"profileUrl\": \"/reputation21/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"canIWin\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"maxChoosableInteger\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"desiredTotal\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/can-i-win/", 
     "stats": "{\"totalAccepted\": \"23.1K\", \"totalSubmission\": \"89.4K\", \"acRate\": \"25.9%\"}", 
     "interpretUrl": "/problems/can-i-win/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Minimax", 
-        "slug": "minimax"
+        "slug": "minimax", 
+        "name": "Minimax"
       }
     ], 
     "content": "<p>In the \"100 game,\" two players take turns adding, to a running total, any integer from 1..10. The player who first causes the running total to reach or exceed 100 wins. </p>\r\n\r\n<p>What if we change the game so that players cannot re-use integers? </p>\r\n\r\n<p>For example, two players might take turns drawing from a common pool of numbers of 1..15 without replacement until they reach a total >= 100.</p>\r\n\r\n<p>Given an integer <code>maxChoosableInteger</code> and another integer <code>desiredTotal</code>, determine if the first player to move can force a win, assuming both players play optimally. </p>\r\n\r\n<p>You can always assume that <code>maxChoosableInteger</code> will not be larger than 20 and <code>desiredTotal</code> will not be larger than 300.\r\n</p>\r\n\r\n<p><b>Example</b>\r\n<pre>\r\n<b>Input:</b>\r\nmaxChoosableInteger = 10\r\ndesiredTotal = 11\r\n\r\n<b>Output:</b>\r\nfalse\r\n\r\n<b>Explanation:</b>\r\nNo matter which integer the first player choose, the first player will lose.\r\nThe first player can choose an integer from 1 up to 10.\r\nIf the first player choose 1, the second player can only choose integers from 2 up to 10.\r\nThe second player will win by choosing 10 and get a total = 11, which is >= desiredTotal.\r\nSame with other integers chosen by the first player, the second player will always win.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "can-i-win", 
     "similarQuestions": "[{\"title\": \"Flip Game II\", \"titleSlug\": \"flip-game-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Guess Number Higher or Lower II\", \"titleSlug\": \"guess-number-higher-or-lower-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Predict the Winner\", \"titleSlug\": \"predict-the-winner\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Can I Win", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

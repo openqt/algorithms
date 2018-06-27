@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "4", 
     "questionFrontendId": "52", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"totalNQueens\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/n-queens-ii/", 
     "stats": "{\"totalAccepted\": \"77.9K\", \"totalSubmission\": \"163.9K\", \"acRate\": \"47.5%\"}", 
     "interpretUrl": "/problems/n-queens-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>The <em>n</em>-queens puzzle is the problem of placing <em>n</em> queens on an <em>n</em>&times;<em>n</em> chessboard such that no two queens attack each other.</p>\r\n\r\n<p><img src=\"https://leetcode.com/static/images/problemset/8-queens.png\" /></p>\r\n\r\n<p>Given an integer&nbsp;<em>n</em>, return the number of&nbsp;distinct solutions to the&nbsp;<em>n</em>-queens puzzle.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 4\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> There are two distinct solutions to the 4-queens puzzle as shown below.\r\n[\r\n&nbsp;[&quot;.Q..&quot;, &nbsp;// Solution 1\r\n&nbsp; &quot;...Q&quot;,\r\n&nbsp; &quot;Q...&quot;,\r\n&nbsp; &quot;..Q.&quot;],\r\n\r\n&nbsp;[&quot;..Q.&quot;, &nbsp;// Solution 2\r\n&nbsp; &quot;Q...&quot;,\r\n&nbsp; &quot;...Q&quot;,\r\n&nbsp; &quot;.Q..&quot;]\r\n]\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "n-queens-ii", 
     "similarQuestions": "[{\"title\": \"N-Queens\", \"titleSlug\": \"n-queens\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "N-Queens II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

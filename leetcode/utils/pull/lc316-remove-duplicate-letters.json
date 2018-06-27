@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"bcabc\"", 
     "questionFrontendId": "316", 
     "contributors": "[{\"username\": \"dietpepsi\", \"profileUrl\": \"/dietpepsi/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"removeDuplicateLetters\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-duplicate-letters/", 
     "stats": "{\"totalAccepted\": \"42.2K\", \"totalSubmission\": \"137.7K\", \"acRate\": \"30.7%\"}", 
     "interpretUrl": "/problems/remove-duplicate-letters/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>Given a string which contains only lowercase letters, remove duplicate letters so that every letter appear once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>&quot;bcabc&quot;</code>\r\n<b>Output:</b> <code>&quot;abc&quot;</code>\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>&quot;cbacdcbc&quot;</code>\r\n<b>Output:</b> <code>&quot;acdb&quot;</code>\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "remove-duplicate-letters", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove Duplicate Letters", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

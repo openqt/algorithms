@@ -40,6 +40,8 @@ If a tree has more than one mode, you can return them in any order.
 <p><b>Follow up:</b>
 Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).
 </p>
+Similar Questions:
+  Validate Binary Search Tree (validate-binary-search-tree)
 */
 /**
  * Definition for a binary tree node.

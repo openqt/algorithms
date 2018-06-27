@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2]\n[-2,-1]\n[-1,2]\n[0,2]", 
     "questionFrontendId": "454", 
     "contributors": "[{\"username\": \"Samuri\", \"profileUrl\": \"/samuri/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"fourSumCount\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"B\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"C\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"D\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/4sum-ii/", 
     "stats": "{\"totalAccepted\": \"35.6K\", \"totalSubmission\": \"74.8K\", \"acRate\": \"47.7%\"}", 
     "interpretUrl": "/problems/4sum-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Given four lists A, B, C, D of integer values, compute how many tuples <code>(i, j, k, l)</code> there are such that <code>A[i] + B[j] + C[k] + D[l]</code> is zero.</p>\r\n\r\n<p>To make problem a bit easier, all A, B, C, D have same length of N where 0 &le; N &le; 500. All integers are in the range of -2<sup>28</sup> to 2<sup>28</sup> - 1 and the result is guaranteed to be at most 2<sup>31</sup> - 1.</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n<b>Input:</b>\r\nA = [ 1, 2]\r\nB = [-2,-1]\r\nC = [-1, 2]\r\nD = [ 0, 2]\r\n\r\n<b>Output:</b>\r\n2\r\n\r\n<b>Explanation:</b>\r\nThe two tuples are:\r\n1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0\r\n2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "4sum-ii", 
     "similarQuestions": "[{\"title\": \"4Sum\", \"titleSlug\": \"4sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "4Sum II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

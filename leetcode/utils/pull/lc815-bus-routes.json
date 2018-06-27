@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2,7],[3,6,7]]\n1\n6", 
     "questionFrontendId": "815", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numBusesToDestination\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"routes\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"T\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/bus-routes/", 
     "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"13.7K\", \"acRate\": \"32.5%\"}", 
     "interpretUrl": "/problems/bus-routes/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>We have a list of bus routes. Each <code>routes[i]</code> is a bus route that the i-th bus&nbsp;repeats forever. For example if <code>routes[0] = [1, 5, 7]</code>, this means that the first&nbsp;bus (0-th indexed) travels in the sequence 1-&gt;5-&gt;7-&gt;1-&gt;5-&gt;7-&gt;1-&gt;... forever.</p>\r\n\r\n<p>We start at bus stop <code>S</code> (initially not on a bus), and we want to go to bus stop <code>T</code>. Travelling by buses only, what is the least number of buses we must take to reach our destination? Return -1 if it is not possible.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> \r\nroutes = [[1, 2, 7], [3, 6, 7]]\r\nS = 1\r\nT = 6\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> \r\nThe best strategy is take the first bus to the bus stop 7, then take the second bus to the bus stop 6.\r\n</pre>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= routes.length &lt;= 500</code>.</li>\r\n\t<li><code>1 &lt;= routes[i].length &lt;= 500</code>.</li>\r\n\t<li><code>0 &lt;= routes[i][j] &lt; 10 ^ 6</code>.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "bus-routes", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Bus Routes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

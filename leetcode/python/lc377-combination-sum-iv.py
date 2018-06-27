@@ -32,6 +32,8 @@ How does it change the problem?<br />
 What limitation we need to add to the question to allow negative numbers? </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Combination Sum (combination-sum)
 """
 
 

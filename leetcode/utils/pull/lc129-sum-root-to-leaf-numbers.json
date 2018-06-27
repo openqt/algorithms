@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]", 
     "questionFrontendId": "129", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"sumNumbers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/sum-root-to-leaf-numbers/", 
     "stats": "{\"totalAccepted\": \"141.1K\", \"totalSubmission\": \"366.9K\", \"acRate\": \"38.5%\"}", 
     "interpretUrl": "/problems/sum-root-to-leaf-numbers/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree containing digits from <code>0-9</code> only, each root-to-leaf path could represent a number.</p>\r\n\r\n<p>An example is the root-to-leaf path <code>1-&gt;2-&gt;3</code> which represents the number <code>123</code>.</p>\r\n\r\n<p>Find the total sum of all root-to-leaf numbers.</p>\r\n\r\n<p><strong>Note:</strong>&nbsp;A leaf is a node with no children.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,2,3]\r\n    1\r\n   / \\\r\n  2   3\r\n<strong>Output:</strong> 25\r\n<strong>Explanation:</strong>\r\nThe root-to-leaf path <code>1-&gt;2</code> represents the number <code>12</code>.\r\nThe root-to-leaf path <code>1-&gt;3</code> represents the number <code>13</code>.\r\nTherefore, sum = 12 + 13 = <code>25</code>.</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [4,9,0,5,1]\r\n    4\r\n   / \\\r\n  9   0\r\n&nbsp;/ \\\r\n5   1\r\n<strong>Output:</strong> 1026\r\n<strong>Explanation:</strong>\r\nThe root-to-leaf path <code>4-&gt;9-&gt;5</code> represents the number 495.\r\nThe root-to-leaf path <code>4-&gt;9-&gt;1</code> represents the number 491.\r\nThe root-to-leaf path <code>4-&gt;0</code> represents the number 40.\r\nTherefore, sum = 495 + 491 + 40 = <code>1026</code>.</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "sum-root-to-leaf-numbers", 
     "similarQuestions": "[{\"title\": \"Path Sum\", \"titleSlug\": \"path-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Maximum Path Sum\", \"titleSlug\": \"binary-tree-maximum-path-sum\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Sum Root to Leaf Numbers", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

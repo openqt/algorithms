@@ -31,6 +31,8 @@ https://leetcode.com/problems/fraction-to-recurring-decimal/description/
 <strong>Output: </strong>&quot;0.(6)&quot;
 </pre>
 
+Similar Questions:
+
 */
 func fractionToDecimal(numerator int, denominator int) string {
     

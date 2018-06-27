@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"godding\"\n\"gd\"", 
     "questionFrontendId": "514", 
     "contributors": "[{\"username\": \"Rabby250\", \"profileUrl\": \"/rabby250/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findRotateSteps\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"ring\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"key\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/freedom-trail/", 
     "stats": "{\"totalAccepted\": \"9.3K\", \"totalSubmission\": \"23.6K\", \"acRate\": \"39.4%\"}", 
     "interpretUrl": "/problems/freedom-trail/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Divide and Conquer", 
-        "slug": "divide-and-conquer"
+        "slug": "divide-and-conquer", 
+        "name": "Divide and Conquer"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>\r\nIn the video game Fallout 4, the quest \"Road to Freedom\" requires players to reach a metal dial called the \"Freedom Trail Ring\", and use the dial to spell a specific keyword in order to open the door. \r\n</p>\r\n\r\n<p>\r\nGiven a string <b>ring</b>, which represents the code engraved on the outer ring and another string <b>key</b>, which represents the keyword needs to be spelled. You need to find the <b>minimum</b> number of steps in order to spell all the characters in the keyword.\r\n</p>\r\nInitially, the first character of the <b>ring</b> is aligned at 12:00 direction. You need to spell all the characters in the string <b>key</b> one by one by rotating the ring clockwise or anticlockwise to make each character of the string <b>key</b> aligned at 12:00 direction and then by pressing the center button.\r\n<br>\r\n\r\nAt the stage of rotating the ring to spell the key character <b>key[i]</b>:\r\n<ol>\r\n<li>You can rotate the <b>ring</b> clockwise or anticlockwise <b>one place</b>, which counts as 1 step. The final purpose of the rotation is to align one of the string <b>ring's</b> characters at the 12:00 direction, where this character must equal to the character <b>key[i]</b>.\r\n\r\n<li>If the character <b>key[i]</b> has been aligned at the 12:00 direction, you need to press the center button to spell, which also counts as 1 step. After the pressing, you could begin to spell the next character in the key (next stage), otherwise, you've finished all the spelling.</li>\r\n</ol>\r\n\r\n</p>\r\n\r\n<p><b>Example:</b><br />\r\n<center>\r\n<img src=\"/static/images/problemset/ring.jpg\" width = \"26%\" />\r\n</center>\r\n</br>\r\n<pre>\r\n<b>Input:</b> ring = \"godding\", key = \"gd\"\r\n<b>Output:</b> 4\r\n<b>Explanation:</b></br> For the first key character 'g', since it is already in place, we just need 1 step to spell this character. </br> For the second key character 'd', we need to rotate the ring \"godding\" anticlockwise by two steps to make it become \"ddinggo\".</br> Also, we need 1 more step for spelling.</br> So the final output is 4.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>Length of both ring and <b>key</b> will be in range 1 to 100.</li>\r\n<li>There are only lowercase letters in both strings and might be some duplcate characters in both strings.</li>\r\n<li>It's guaranteed that string <b>key</b> could always be spelled by rotating the string <b>ring</b>.</li>\r\n</ol>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "freedom-trail", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Freedom Trail", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

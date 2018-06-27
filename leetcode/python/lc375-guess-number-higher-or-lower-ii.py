@@ -30,6 +30,11 @@ You end up paying $5 + $7 + $9 = $21.
 <p>Given a particular <strong>n &ge; 1</strong>, find out how much money you need to have to guarantee a <b>win</b>.</p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/agave/">@agave</a> and <a href="https://leetcode.com/stefanpochmann/">@StefanPochmann</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Flip Game II (flip-game-ii)
+  Guess Number Higher or Lower (guess-number-higher-or-lower)
+  Can I Win (can-i-win)
+  Find K Closest Elements (find-k-closest-elements)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"leetcode\"", 
     "questionFrontendId": "387", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"firstUniqChar\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/first-unique-character-in-a-string/", 
     "stats": "{\"totalAccepted\": \"136.1K\", \"totalSubmission\": \"287.7K\", \"acRate\": \"47.3%\"}", 
     "interpretUrl": "/problems/first-unique-character-in-a-string/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>\r\nGiven a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.\r\n</p>\r\n<p><b>Examples:</b>\r\n<pre>\r\ns = \"leetcode\"\r\nreturn 0.\r\n\r\ns = \"loveleetcode\",\r\nreturn 2.\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Note:</b> You may assume the string contain only lowercase letters.\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "first-unique-character-in-a-string", 
     "similarQuestions": "[{\"title\": \"Sort Characters By Frequency\", \"titleSlug\": \"sort-characters-by-frequency\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "First Unique Character in a String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

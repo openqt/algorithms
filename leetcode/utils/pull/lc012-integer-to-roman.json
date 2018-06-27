@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "12", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"intToRoman\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/integer-to-roman/", 
     "stats": "{\"totalAccepted\": \"149.7K\", \"totalSubmission\": \"319.8K\", \"acRate\": \"46.8%\"}", 
     "interpretUrl": "/problems/integer-to-roman/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>\r\n\r\n<pre>\r\n<strong>Symbol</strong>       <strong>Value</strong>\r\nI             1\r\nV             5\r\nX             10\r\nL             50\r\nC             100\r\nD             500\r\nM             1000</pre>\r\n\r\n<p>For example,&nbsp;two is written as <code>II</code>&nbsp;in Roman numeral, just two one&#39;s added together. Twelve is written as, <code>XII</code>, which is simply <code>X</code> + <code>II</code>. The number twenty seven is written as <code>XXVII</code>, which is <code>XX</code> + <code>V</code> + <code>II</code>.</p>\r\n\r\n<p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not <code>IIII</code>. Instead, the number four is written as <code>IV</code>. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as <code>IX</code>. There are six instances where subtraction is used:</p>\r\n\r\n<ul>\r\n\t<li><code>I</code> can be placed before <code>V</code> (5) and <code>X</code> (10) to make 4 and 9.&nbsp;</li>\r\n\t<li><code>X</code> can be placed before <code>L</code> (50) and <code>C</code> (100) to make 40 and 90.&nbsp;</li>\r\n\t<li><code>C</code> can be placed before <code>D</code> (500) and <code>M</code> (1000) to make 400 and 900.</li>\r\n</ul>\r\n\r\n<p>Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;3\r\n<strong>Output:</strong> &quot;III&quot;</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;4\r\n<strong>Output:</strong> &quot;IV&quot;</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;9\r\n<strong>Output:</strong> &quot;IX&quot;</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;58\r\n<strong>Output:</strong> &quot;LVIII&quot;\r\n<strong>Explanation:</strong> C = 100, L = 50, XXX = 30 and III = 3.\r\n</pre>\r\n\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;1994\r\n<strong>Output:</strong> &quot;MCMXCIV&quot;\r\n<strong>Explanation:</strong> M = 1000, CM = 900, XC = 90 and IV = 4.</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "integer-to-roman", 
     "similarQuestions": "[{\"title\": \"Roman to Integer\", \"titleSlug\": \"roman-to-integer\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Integer to English Words\", \"titleSlug\": \"integer-to-english-words\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Integer to Roman", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

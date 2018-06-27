@@ -21,6 +21,10 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 <li><code>0 < nums[i] < 1000</code>.</li>
 <li><code>0 <= k < 10^6</code>.</li>
 </p>
+Similar Questions:
+  Maximum Product Subarray (maximum-product-subarray)
+  Maximum Size Subarray Sum Equals k (maximum-size-subarray-sum-equals-k)
+  Subarray Sum Equals K (subarray-sum-equals-k)
 """
 
 

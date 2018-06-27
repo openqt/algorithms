@@ -34,6 +34,8 @@ https://leetcode.com/problems/climbing-stairs/description/
 3. 2 steps + 1 step
 </pre>
 
+Similar Questions:
+  Min Cost Climbing Stairs (min-cost-climbing-stairs)
 */
 func climbStairs(n int) int {
     

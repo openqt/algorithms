@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"M\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"]]\n[3,0]", 
     "questionFrontendId": "529", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"updateBoard\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n        \"name\":\"click\",\r\n        \"type\":\"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"character[][]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minesweeper/", 
     "stats": "{\"totalAccepted\": \"18.9K\", \"totalSubmission\": \"38.2K\", \"acRate\": \"49.5%\"}", 
     "interpretUrl": "/problems/minesweeper/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Let's play the minesweeper game (<a href=\"https://en.wikipedia.org/wiki/Minesweeper_(video_game)\">Wikipedia</a>, <a href=\"http://minesweeperonline.com\">online game</a>)! </p>\r\n\r\n<p>You are given a 2D char matrix representing the game board. <b>'M'</b> represents an <b>unrevealed</b> mine, <b>'E'</b> represents an <b>unrevealed</b> empty square, <b>'B'</b> represents a <b>revealed</b> blank square that has no adjacent (above, below, left, right, and all 4 diagonals) mines, <b>digit</b> ('1' to '8') represents how many mines are adjacent to this <b>revealed</b> square, and finally <b>'X'</b> represents a <b>revealed</b> mine.</p>\r\n\r\n<p>Now given the next click position (row and column indices) among all the <b>unrevealed</b> squares ('M' or 'E'), return the board after revealing this position according to the following rules:</p> \r\n\r\n<p>\r\n<ol>\r\n<li>If a mine ('M') is revealed, then the game is over - change it to <b>'X'</b>.</li>\r\n<li>If an empty square ('E') with <b>no adjacent mines</b> is revealed, then change it to revealed blank ('B') and all of its adjacent <b>unrevealed</b> squares should be revealed recursively.</li>\r\n<li>If an empty square ('E') with <b>at least one adjacent mine</b> is revealed, then change it to a digit ('1' to '8') representing the number of adjacent mines.</li>\r\n<li>Return the board when no more squares will be revealed.</li>\r\n</ol>\r\n\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n\r\n[['E', 'E', 'E', 'E', 'E'],\r\n ['E', 'E', 'M', 'E', 'E'],\r\n ['E', 'E', 'E', 'E', 'E'],\r\n ['E', 'E', 'E', 'E', 'E']]\r\n\r\nClick : [3,0]\r\n\r\n<b>Output:</b> \r\n\r\n[['B', '1', 'E', '1', 'B'],\r\n ['B', '1', 'M', '1', 'B'],\r\n ['B', '1', '1', '1', 'B'],\r\n ['B', 'B', 'B', 'B', 'B']]\r\n\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/minesweeper_example_1.png\" width = \"40%\" />\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n\r\n[['B', '1', 'E', '1', 'B'],\r\n ['B', '1', 'M', '1', 'B'],\r\n ['B', '1', '1', '1', 'B'],\r\n ['B', 'B', 'B', 'B', 'B']]\r\n\r\nClick : [1,2]\r\n\r\n<b>Output:</b> \r\n\r\n[['B', '1', 'E', '1', 'B'],\r\n ['B', '1', 'X', '1', 'B'],\r\n ['B', '1', '1', '1', 'B'],\r\n ['B', 'B', 'B', 'B', 'B']]\r\n\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/minesweeper_example_2.png\" width = \"40%\" />\r\n</pre>\r\n</p>\r\n\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The range of the input matrix's height and width is [1,50].</li>\r\n<li>The click position will only be an unrevealed square ('M' or 'E'), which also means the input board contains at least one clickable square.</li>\r\n<li>The input board won't be a stage when game is over (some mines have been revealed).</li>\r\n<li>For simplicity, not mentioned rules should be ignored in this problem. For example, you <b>don't</b> need to reveal all the unrevealed mines when the game is over, consider any cases that you will win the game or flag any squares.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "minesweeper", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minesweeper", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

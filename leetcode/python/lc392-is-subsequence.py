@@ -34,6 +34,8 @@ Return <code>false</code>.
 If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?</p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Number of Matching Subsequences (number-of-matching-subsequences)
 """
 
 

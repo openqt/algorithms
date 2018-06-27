@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"a1b2\"", 
     "questionFrontendId": "784", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"letterCasePermutation\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/letter-case-permutation/", 
     "stats": "{\"totalAccepted\": \"16.3K\", \"totalSubmission\": \"30.8K\", \"acRate\": \"53.1%\"}", 
     "interpretUrl": "/problems/letter-case-permutation/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Given a string S, we can transform every letter individually&nbsp;to be lowercase or uppercase to create another string.&nbsp; Return a list of all possible strings we could create.</p>\r\n\r\n<pre>\r\n<strong>Examples:</strong>\r\n<strong>Input:</strong> S = &quot;a1b2&quot;\r\n<strong>Output:</strong> [&quot;a1b2&quot;, &quot;a1B2&quot;, &quot;A1b2&quot;, &quot;A1B2&quot;]\r\n\r\n<strong>Input:</strong> S = &quot;3z4&quot;\r\n<strong>Output:</strong> [&quot;3z4&quot;, &quot;3Z4&quot;]\r\n\r\n<strong>Input:</strong> S = &quot;12345&quot;\r\n<strong>Output:</strong> [&quot;12345&quot;]\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>S</code> will be a string with length at most <code>12</code>.</li>\r\n\t<li><code>S</code> will consist only of letters or digits.</li>\r\n</ul>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "letter-case-permutation", 
     "similarQuestions": "[{\"title\": \"Subsets\", \"titleSlug\": \"subsets\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Letter Case Permutation", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

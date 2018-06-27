@@ -27,6 +27,8 @@ https://leetcode.com/problems/burst-balloons/description/
 &nbsp;            coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 </pre>
 
+Similar Questions:
+
 */
 func maxCoins(nums []int) int {
     

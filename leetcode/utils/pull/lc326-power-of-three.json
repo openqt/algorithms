@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "27", 
     "questionFrontendId": "326", 
     "contributors": "[{\"username\": \"dietpepsi\", \"profileUrl\": \"/dietpepsi/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isPowerOfThree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/power-of-three/", 
     "stats": "{\"totalAccepted\": \"133.5K\", \"totalSubmission\": \"326.4K\", \"acRate\": \"40.9%\"}", 
     "interpretUrl": "/problems/power-of-three/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given an integer, write a function to determine if it is a power of three.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 27\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 0\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><b>Example 3:</b></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 9\r\n<strong>Output:</strong> true</pre>\r\n\r\n<p><b>Example 4:</b></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 45\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><b>Follow up:</b><br />\r\nCould you do it without using any loop / recursion?</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "power-of-three", 
     "similarQuestions": "[{\"title\": \"Power of Two\", \"titleSlug\": \"power-of-two\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Power of Four\", \"titleSlug\": \"power-of-four\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Power of Three", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

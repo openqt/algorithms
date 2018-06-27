@@ -42,6 +42,8 @@ In total, there is only one magic square inside the given grid.
 	<li><code>0 &lt;= grid[i][j] &lt;= 15</code></li>
 </ol>
 
+Similar Questions:
+
 */
 func numMagicSquaresInside(grid [][]int) int {
     

@@ -20,6 +20,10 @@ https://leetcode.com/problems/reverse-linked-list/description/
 
 <p>A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
 
+Similar Questions:
+  Reverse Linked List II (reverse-linked-list-ii)
+  Binary Tree Upside Down (binary-tree-upside-down)
+  Palindrome Linked List (palindrome-linked-list)
 */
 /**
  * Definition for singly-linked list.

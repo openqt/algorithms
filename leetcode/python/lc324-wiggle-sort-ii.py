@@ -24,6 +24,10 @@ You may assume all input has valid answer.</p>
 <p><b>Follow Up:</b><br />
 Can you do it in O(n) time and/or in-place with O(1) extra space?</p>
 
+Similar Questions:
+  Sort Colors (sort-colors)
+  Kth Largest Element in an Array (kth-largest-element-in-an-array)
+  Wiggle Sort (wiggle-sort)
 """
 
 

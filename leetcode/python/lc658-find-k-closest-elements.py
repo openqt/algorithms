@@ -38,6 +38,10 @@ If there is a tie,  the smaller elements are always preferred.
 <b><font color="red">UPDATE (2017/9/19):</font></b><br />
 The <i>arr</i> parameter had been changed to an <b>array of integers</b> (instead of a list of integers). <b><i>Please reload the code definition to get the latest changes</i></b>.
 </p>
+Similar Questions:
+  Guess Number Higher or Lower (guess-number-higher-or-lower)
+  Guess Number Higher or Lower II (guess-number-higher-or-lower-ii)
+  Find K-th Smallest Pair Distance (find-k-th-smallest-pair-distance)
 """
 
 

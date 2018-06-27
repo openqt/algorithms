@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abcdefg\"\n2", 
     "questionFrontendId": "541", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reverseStr\",\r\n  \"params\": [\r\n      {\r\n        \"name\": \"s\",\r\n        \"type\": \"string\"\r\n      },\r\n      \r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-string-ii/", 
     "stats": "{\"totalAccepted\": \"41.3K\", \"totalSubmission\": \"94K\", \"acRate\": \"44.0%\"}", 
     "interpretUrl": "/problems/reverse-string-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "</p>\r\nGiven a string and an integer k, you need to reverse the first k characters for every 2k characters counting from the start of the string. If there are less than k characters left, reverse all of them. If there are less than 2k but greater than or equal to k characters, then reverse the first k characters and left the other as original.\r\n</p>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\n<b>Input:</b> s = \"abcdefg\", k = 2\r\n<b>Output:</b> \"bacdfeg\"\r\n</pre>\r\n</p>\r\n\r\n<b>Restrictions:</b> </b>\r\n<ol>\r\n<li> The string consists of lower English letters only.</li>\r\n<li> Length of the given string and k will in the range [1, 10000]</li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reverse-string-ii", 
     "similarQuestions": "[{\"title\": \"Reverse String\", \"titleSlug\": \"reverse-string\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Reverse Words in a String III\", \"titleSlug\": \"reverse-words-in-a-string-iii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse String II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

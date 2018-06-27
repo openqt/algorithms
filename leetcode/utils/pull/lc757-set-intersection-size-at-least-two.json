@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,3],[1,4],[2,5],[3,5]]", 
     "questionFrontendId": "757", 
     "contributors": "[{\"username\": \"zhuofuch@usc.edu\", \"profileUrl\": \"/zhuofuchuscedu/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"intersectionSizeTwo\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"intervals\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/set-intersection-size-at-least-two/", 
     "stats": "{\"totalAccepted\": \"2.3K\", \"totalSubmission\": \"6.6K\", \"acRate\": \"34.9%\"}", 
     "interpretUrl": "/problems/set-intersection-size-at-least-two/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>\r\nAn integer interval <code>[a, b]</code> (for integers <code>a < b</code>) is a set of all consecutive integers from <code>a</code> to <code>b</code>, including <code>a</code> and <code>b</code>.\r\n</p><p>\r\nFind the minimum size of a set S such that for every integer interval A in <code>intervals</code>, the intersection of S with A has size at least 2.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> intervals = [[1, 3], [1, 4], [2, 5], [3, 5]]\r\n<b>Output:</b> 3\r\n<b>Explanation:</b>\r\nConsider the set S = {2, 3, 4}.  For each interval, there are at least 2 elements from S in the interval.\r\nAlso, there isn't a smaller size set that fulfills the above condition.\r\nThus, we output the size of this set, which is 3.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> intervals = [[1, 2], [2, 3], [2, 4], [4, 5]]\r\n<b>Output:</b> 5\r\n<b>Explanation:</b>\r\nAn example of a minimum sized set is {1, 2, 3, 4, 5}.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br><ol>\r\n<li><code>intervals</code> will have length in range <code>[1, 3000]</code>.</li>\r\n<li><code>intervals[i]</code> will have length <code>2</code>, representing some integer interval.</li>\r\n<li><code>intervals[i][j]</code> will be an integer in <code>[0, 10^8]</code>.</li>\r\n</ol></p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "set-intersection-size-at-least-two", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Set Intersection Size At Least Two", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

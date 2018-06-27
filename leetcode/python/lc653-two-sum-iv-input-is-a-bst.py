@@ -38,6 +38,10 @@ Target = 28
 </p>
 
 
+Similar Questions:
+  Two Sum (two-sum)
+  Two Sum II - Input array is sorted (two-sum-ii-input-array-is-sorted)
+  Two Sum III - Data structure design (two-sum-iii-data-structure-design)
 """
 
 

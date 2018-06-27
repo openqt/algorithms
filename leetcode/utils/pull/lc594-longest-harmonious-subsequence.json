@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,3,2,2,5,2,3,7]", 
     "questionFrontendId": "594", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findLHS\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-harmonious-subsequence/", 
     "stats": "{\"totalAccepted\": \"23.2K\", \"totalSubmission\": \"56.1K\", \"acRate\": \"41.3%\"}", 
     "interpretUrl": "/problems/longest-harmonious-subsequence/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "<p>We define a harmonious array is an array where the difference between its maximum value and its minimum value is <b>exactly</b> 1.</p>\r\n\r\n<p>Now, given an integer array, you need to find the length of its longest harmonious subsequence among all its possible <a href=\"https://en.wikipedia.org/wiki/Subsequence\">subsequences</a>.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,3,2,2,5,2,3,7]\r\n<b>Output:</b> 5\r\n<b>Explanation:</b> The longest harmonious subsequence is [3,2,2,2,3].\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe length of the input array will not exceed 20,000.\r\n</p>\r\n\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "longest-harmonious-subsequence", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Harmonious Subsequence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

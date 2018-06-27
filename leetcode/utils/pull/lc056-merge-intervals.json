@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,3],[2,6],[8,10],[15,18]]", 
     "questionFrontendId": "56", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"merge\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"intervals\",\r\n      \"type\": \"list<Interval>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<Interval>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/merge-intervals/", 
     "stats": "{\"totalAccepted\": \"210.9K\", \"totalSubmission\": \"650.4K\", \"acRate\": \"32.4%\"}", 
     "interpretUrl": "/problems/merge-intervals/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Sort", 
-        "slug": "sort"
+        "slug": "sort", 
+        "name": "Sort"
       }
     ], 
     "content": "<p>Given a collection of intervals, merge all overlapping intervals.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [[1,3],[2,6],[8,10],[15,18]]\r\n<strong>Output:</strong> [[1,6],[8,10],[15,18]]\r\n<strong>Explanation:</strong> Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [[1,4],[4,5]]\r\n<strong>Output:</strong> [[1,5]]\r\n<strong>Explanation:</strong> Intervals [1,4] and [4,5] are considerred overlapping.</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "merge-intervals", 
     "similarQuestions": "[{\"title\": \"Insert Interval\", \"titleSlug\": \"insert-interval\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Meeting Rooms\", \"titleSlug\": \"meeting-rooms\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Meeting Rooms II\", \"titleSlug\": \"meeting-rooms-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Teemo Attacking\", \"titleSlug\": \"teemo-attacking\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Add Bold Tag in String\", \"titleSlug\": \"add-bold-tag-in-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Range Module\", \"titleSlug\": \"range-module\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Employee Free Time\", \"titleSlug\": \"employee-free-time\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Partition Labels\", \"titleSlug\": \"partition-labels\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Merge Intervals", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -57,6 +57,8 @@ Return <b>true</b> (self crossing)
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/dietpepsi">@dietpepsi</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+
 */
 func isSelfCrossing(x []int) bool {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"5\",\"3\",\".\",\".\",\"7\",\".\",\".\",\".\",\".\"],[\"6\",\".\",\".\",\"1\",\"9\",\"5\",\".\",\".\",\".\"],[\".\",\"9\",\"8\",\".\",\".\",\".\",\".\",\"6\",\".\"],[\"8\",\".\",\".\",\".\",\"6\",\".\",\".\",\".\",\"3\"],[\"4\",\".\",\".\",\"8\",\".\",\"3\",\".\",\".\",\"1\"],[\"7\",\".\",\".\",\".\",\"2\",\".\",\".\",\".\",\"6\"],[\".\",\"6\",\".\",\".\",\".\",\".\",\"2\",\"8\",\".\"],[\".\",\".\",\".\",\"4\",\"1\",\"9\",\".\",\".\",\"5\"],[\".\",\".\",\".\",\".\",\"8\",\".\",\".\",\"7\",\"9\"]]", 
     "questionFrontendId": "37", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"solveSudoku\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/sudoku-solver/", 
     "stats": "{\"totalAccepted\": \"95.7K\", \"totalSubmission\": \"293K\", \"acRate\": \"32.7%\"}", 
     "interpretUrl": "/problems/sudoku-solver/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Write a program to solve a Sudoku puzzle by filling the empty cells.</p>\r\n\r\n<p>A&nbsp;sudoku solution must satisfy <strong>all of&nbsp;the following rules</strong>:</p>\r\n\r\n<ol>\r\n\t<li>Each of the digits&nbsp;<code>1-9</code> must occur exactly&nbsp;once in each row.</li>\r\n\t<li>Each of the digits&nbsp;<code>1-9</code>&nbsp;must occur&nbsp;exactly once in each column.</li>\r\n\t<li>Each of the the digits&nbsp;<code>1-9</code> must occur exactly once in each of the 9 <code>3x3</code> sub-boxes of the grid.</li>\r\n</ol>\r\n\r\n<p>Empty cells are indicated by the character <code>&#39;.&#39;</code>.</p>\r\n\r\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png\" style=\"height:250px; width:250px\" /><br />\r\n<small>A sudoku puzzle...</small></p>\r\n\r\n<p><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png\" style=\"height:250px; width:250px\" /><br />\r\n<small>...and its solution numbers marked in red.</small></p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The given board&nbsp;contain only digits <code>1-9</code> and the character <code>&#39;.&#39;</code>.</li>\r\n\t<li>You may assume that the given Sudoku puzzle will have a single unique solution.</li>\r\n\t<li>The given board size is always <code>9x9</code>.</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "sudoku-solver", 
     "similarQuestions": "[{\"title\": \"Valid Sudoku\", \"titleSlug\": \"valid-sudoku\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Sudoku Solver", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

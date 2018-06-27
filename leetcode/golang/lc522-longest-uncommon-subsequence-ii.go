@@ -32,6 +32,8 @@ The input will be a list of strings, and the output needs to be the length of th
 <li>The length of the given list will be in the range of [2, 50].</li>
 </ol>
 </p>
+Similar Questions:
+  Longest Uncommon Subsequence I  (longest-uncommon-subsequence-i)
 */
 func findLUSlength(strs []string) int {
     

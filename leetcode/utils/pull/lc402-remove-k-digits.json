@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"1432219\"\n3", 
     "questionFrontendId": "402", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"removeKdigits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n        \"name\": \"k\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-k-digits/", 
     "stats": "{\"totalAccepted\": \"33.6K\", \"totalSubmission\": \"130.3K\", \"acRate\": \"25.8%\"}", 
     "interpretUrl": "/problems/remove-k-digits/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>Given a non-negative integer <i>num</i> represented as a string, remove <i>k</i> digits from the number so that the new number is the smallest possible.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\n<ul>\r\n<li>The length of <i>num</i> is less than 10002 and will be &ge; <i>k</i>.</li>\r\n<li>The given <i>num</i> does not contain any leading zero.</li>\r\n</ul>\r\n</b>\r\n</p>\r\n\r\n<p><b>Example 1:</b>\r\n<pre>\r\nInput: num = \"1432219\", k = 3\r\nOutput: \"1219\"\r\nExplanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\nInput: num = \"10200\", k = 1\r\nOutput: \"200\"\r\nExplanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b>\r\n<pre>\r\nInput: num = \"10\", k = 2\r\nOutput: \"0\"\r\nExplanation: Remove all the digits from the number and it is left with nothing which is 0.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "remove-k-digits", 
     "similarQuestions": "[{\"title\": \"Create Maximum Number\", \"titleSlug\": \"create-maximum-number\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Monotone Increasing Digits\", \"titleSlug\": \"monotone-increasing-digits\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove K Digits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

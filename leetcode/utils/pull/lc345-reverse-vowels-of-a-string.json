@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"hello\"", 
     "questionFrontendId": "345", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"reverseVowels\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-vowels-of-a-string/", 
     "stats": "{\"totalAccepted\": \"113.4K\", \"totalSubmission\": \"287.1K\", \"acRate\": \"39.5%\"}", 
     "interpretUrl": "/problems/reverse-vowels-of-a-string/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Write a function that takes a string as input and reverse only the vowels of a string.</p>\r\n\r\n<p>\r\n<b>Example 1:</b><br />\r\nGiven s = \"hello\", return \"holle\".\r\n</p>\r\n\r\n<p>\r\n<b>Example 2:</b><br />\r\nGiven s = \"leetcode\", return \"leotcede\".\r\n</p>\r\n\r\n<p>\r\n<b>Note:</b><br />\r\nThe vowels does not include the letter \"y\".\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "reverse-vowels-of-a-string", 
     "similarQuestions": "[{\"title\": \"Reverse String\", \"titleSlug\": \"reverse-string\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse Vowels of a String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"acb\"\n4\n\"ab\"\n2", 
     "questionFrontendId": "466", 
     "contributors": "[{\"username\": \"wq1992\", \"profileUrl\": \"/wq1992/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"getMaxRepetitions\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s1\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"n1\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"s2\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"n2\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/count-the-repetitions/", 
     "stats": "{\"totalAccepted\": \"6.1K\", \"totalSubmission\": \"22.4K\", \"acRate\": \"27.2%\"}", 
     "interpretUrl": "/problems/count-the-repetitions/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Define <code>S = [s,n]</code> as the string S which consists of n connected strings s. For example, <code>[\"abc\", 3]</code> =\"abcabcabc\". </p>\r\n<p>On the other hand, we define that string s1 can be obtained from string s2 if we can remove some characters from s2 such that it becomes s1. For example, \u201cabc\u201d  can be obtained from \u201cabdbec\u201d based on our definition, but it can not be obtained from \u201cacbbe\u201d.</p>\r\n<p>You are given two non-empty strings s1 and s2 (each at most 100 characters long) and two integers 0 &le; n1 &le; 10<sup>6</sup> and 1 &le; n2 &le; 10<sup>6</sup>. Now consider the strings S1 and S2, where <code>S1=[s1,n1]</code> and <code>S2=[s2,n2]</code>. Find the maximum integer M such that <code>[S2,M]</code> can be obtained from <code>S1</code>.</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nInput:\r\ns1=\"acb\", n1=4\r\ns2=\"ab\", n2=2\r\n\r\nReturn:\r\n2\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "count-the-repetitions", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Count The Repetitions", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

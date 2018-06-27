@@ -23,6 +23,9 @@ For example, given <i>n</i> = 3, a solution set is:
   "()()()"
 ]
 </pre>
+Similar Questions:
+  Letter Combinations of a Phone Number (letter-combinations-of-a-phone-number)
+  Valid Parentheses (valid-parentheses)
 */
 func generateParenthesis(n int) []string {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"RandomizedCollection\",\"insert\",\"insert\",\"insert\",\"getRandom\",\"remove\",\"getRandom\"]\n[[],[1],[1],[2],[],[1],[]]", 
     "questionFrontendId": "381", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"RandomizedCollection\",\r\n    \"maxbytesperline\": 121000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"insert\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Inserts a value to the collection. Returns true if the collection did not already contain the specified element.\"\r\n        },\r\n        {\r\n            \"name\" : \"remove\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Removes a value from the collection. Returns true if the collection contained the specified element.\"\r\n        },\r\n        {\r\n            \"name\" : \"getRandom\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Get a random element from the collection.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/insert-delete-getrandom-o1-duplicates-allowed/", 
     "stats": "{\"totalAccepted\": \"26K\", \"totalSubmission\": \"87.3K\", \"acRate\": \"29.8%\"}", 
     "interpretUrl": "/problems/insert-delete-getrandom-o1-duplicates-allowed/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Design a data structure that supports all following operations in <i>average</i> <b>O(1)</b> time.</p>\r\n<b>Note: Duplicate elements are allowed.</b>\r\n<p>\r\n<ol>\r\n<li><code>insert(val)</code>: Inserts an item val to the collection.</li>\r\n<li><code>remove(val)</code>: Removes an item val from the collection if present.</li>\r\n<li><code>getRandom</code>: Returns a random element from current collection of elements. The probability of each element being returned is <b>linearly related</b> to the number of same value the collection contains.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n// Init an empty collection.\r\nRandomizedCollection collection = new RandomizedCollection();\r\n\r\n// Inserts 1 to the collection. Returns true as the collection did not contain 1.\r\ncollection.insert(1);\r\n\r\n// Inserts another 1 to the collection. Returns false as the collection contained 1. Collection now contains [1,1].\r\ncollection.insert(1);\r\n\r\n// Inserts 2 to the collection, returns true. Collection now contains [1,1,2].\r\ncollection.insert(2);\r\n\r\n// getRandom should return 1 with the probability 2/3, and returns 2 with the probability 1/3.\r\ncollection.getRandom();\r\n\r\n// Removes 1 from the collection, returns true. Collection now contains [1,2].\r\ncollection.remove(1);\r\n\r\n// getRandom should return 1 and 2 both equally likely.\r\ncollection.getRandom();\r\n</pre>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "insert-delete-getrandom-o1-duplicates-allowed", 
     "similarQuestions": "[{\"title\": \"Insert Delete GetRandom O(1)\", \"titleSlug\": \"insert-delete-getrandom-o1\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Insert Delete GetRandom O(1) - Duplicates allowed", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

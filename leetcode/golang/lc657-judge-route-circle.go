@@ -28,6 +28,8 @@ The move sequence is represented by a string. And each move is represent by a ch
 <b>Output:</b> false
 </pre>
 </p>
+Similar Questions:
+  Friend Circles (friend-circles)
 */
 func judgeCircle(moves string) bool {
     

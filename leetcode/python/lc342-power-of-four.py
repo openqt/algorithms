@@ -15,6 +15,9 @@ Given num = 5, return false.
 <b>Follow up</b>: Could you solve it without loops/recursion?
 </p>
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/yukuairoy">@yukuairoy </a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Power of Two (power-of-two)
+  Power of Three (power-of-three)
 """
 
 

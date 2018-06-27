@@ -21,6 +21,11 @@ Given the list <code>[1,[4,[6]]]</code>,
 By calling <i>next</i> repeatedly until <i>hasNext</i> returns false, the order of elements returned by <i>next</i> should be: <code>[1,4,6]</code>.
 </p>
 </p>
+Similar Questions:
+  Flatten 2D Vector (flatten-2d-vector)
+  Zigzag Iterator (zigzag-iterator)
+  Mini Parser (mini-parser)
+  Array Nesting (array-nesting)
 """
 
 

@@ -28,6 +28,8 @@ WordFilter.f("b", "") // returns -1
 <li><code>words[i]</code> and <code>prefix, suffix</code> queries consist of lowercase letters only.</li>
 </ol>
 </p>
+Similar Questions:
+  Add and Search Word - Data structure design (add-and-search-word-data-structure-design)
 """
 
 

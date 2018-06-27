@@ -25,6 +25,9 @@ https://leetcode.com/problems/binary-watch/description/
 <li>The minute must be consist of two digits and may contain a leading zero, for example "10:2" is not valid, it should be "10:02".</li>
 </ul>
 </p>
+Similar Questions:
+  Letter Combinations of a Phone Number (letter-combinations-of-a-phone-number)
+  Number of 1 Bits (number-of-1-bits)
 */
 func readBinaryWatch(num int) []string {
     

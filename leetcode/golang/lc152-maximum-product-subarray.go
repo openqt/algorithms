@@ -24,6 +24,12 @@ https://leetcode.com/problems/maximum-product-subarray/description/
 <strong>Output:</strong> 0
 <strong>Explanation:</strong>&nbsp;The result cannot be 2, because [-2,-1] is not a subarray.</pre>
 
+Similar Questions:
+  Maximum Subarray (maximum-subarray)
+  House Robber (house-robber)
+  Product of Array Except Self (product-of-array-except-self)
+  Maximum Product of Three Numbers (maximum-product-of-three-numbers)
+  Subarray Product Less Than K (subarray-product-less-than-k)
 */
 func maxProduct(nums []int) int {
     

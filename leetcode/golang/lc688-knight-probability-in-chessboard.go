@@ -40,6 +40,8 @@ The total probability the knight stays on the board is 0.0625.
 <li><code>K</code> will be between 0 and 100.</li>
 <li>The knight always initially starts on the board.</li>
 </p>
+Similar Questions:
+  Out of Boundary Paths (out-of-boundary-paths)
 */
 func knightProbability(N int, K int, r int, c int) float64 {
     

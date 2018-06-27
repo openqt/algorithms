@@ -33,6 +33,8 @@ If Alice erases 2 first, now nums becomes [1, 1]. The bitwise XOR of all the ele
 
 <p>&nbsp;</p>
 
+Similar Questions:
+
 */
 func xorGame(nums []int) bool {
     

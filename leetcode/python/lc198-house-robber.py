@@ -25,6 +25,15 @@ https://leetcode.com/problems/house-robber/description/
 &nbsp;            Total amount you can rob = 2 + 9 + 1 = 12.
 </pre>
 
+Similar Questions:
+  Maximum Product Subarray (maximum-product-subarray)
+  House Robber II (house-robber-ii)
+  Paint House (paint-house)
+  Paint Fence (paint-fence)
+  House Robber III (house-robber-iii)
+  Non-negative Integers without Consecutive Ones (non-negative-integers-without-consecutive-ones)
+  Coin Path (coin-path)
+  Delete and Earn (delete-and-earn)
 """
 
 

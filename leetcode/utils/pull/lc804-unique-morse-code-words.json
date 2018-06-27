@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"gin\", \"zen\", \"gig\", \"msg\"]", 
     "questionFrontendId": "804", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"uniqueMorseRepresentations\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/unique-morse-code-words/", 
     "stats": "{\"totalAccepted\": \"22.9K\", \"totalSubmission\": \"31.7K\", \"acRate\": \"72.4%\"}", 
     "interpretUrl": "/problems/unique-morse-code-words/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows: <code>&quot;a&quot;</code> maps to <code>&quot;.-&quot;</code>, <code>&quot;b&quot;</code> maps to <code>&quot;-...&quot;</code>, <code>&quot;c&quot;</code> maps to <code>&quot;-.-.&quot;</code>, and so on.</p>\r\n\r\n<p>For convenience, the full table for the 26 letters of the English alphabet is given below:</p>\r\n\r\n<pre>\r\n[&quot;.-&quot;,&quot;-...&quot;,&quot;-.-.&quot;,&quot;-..&quot;,&quot;.&quot;,&quot;..-.&quot;,&quot;--.&quot;,&quot;....&quot;,&quot;..&quot;,&quot;.---&quot;,&quot;-.-&quot;,&quot;.-..&quot;,&quot;--&quot;,&quot;-.&quot;,&quot;---&quot;,&quot;.--.&quot;,&quot;--.-&quot;,&quot;.-.&quot;,&quot;...&quot;,&quot;-&quot;,&quot;..-&quot;,&quot;...-&quot;,&quot;.--&quot;,&quot;-..-&quot;,&quot;-.--&quot;,&quot;--..&quot;]</pre>\r\n\r\n<p>Now, given a list of words, each word can be written as a concatenation of the Morse code of each letter. For example, &quot;cab&quot; can be written as &quot;-.-.-....-&quot;, (which is the concatenation &quot;-.-.&quot; + &quot;-...&quot; + &quot;.-&quot;). We&#39;ll call such a concatenation, the transformation&nbsp;of a word.</p>\r\n\r\n<p>Return the number of different transformations among all words we have.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> words = [\"gin\", \"zen\", \"gig\", \"msg\"]\r\n<strong>Output:</strong> 2\r\n<strong>Explanation: </strong>\r\nThe transformation of each word is:\r\n\"gin\" -> \"--...-.\"\r\n\"zen\" -> \"--...-.\"\r\n\"gig\" -> \"--...--.\"\r\n\"msg\" -> \"--...--.\"\r\n\r\nThere are 2 different transformations, \"--...-.\" and \"--...--.\".\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The length of <code>words</code> will be at most <code>100</code>.</li>\r\n\t<li>Each <code>words[i]</code> will have length in range <code>[1, 12]</code>.</li>\r\n    <li><code>words[i]</code> will only consist of lowercase letters.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "unique-morse-code-words", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Unique Morse Code Words", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

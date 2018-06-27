@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "    43261596 (00000010100101000001111010011100)", 
     "questionFrontendId": "190", 
     "contributors": "[{\"username\": \"ts\", \"profileUrl\": \"/ts/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{}", 
-    "enableRunCode": false, 
     "questionDetailUrl": "/problems/reverse-bits/", 
     "stats": "{\"totalAccepted\": \"139.3K\", \"totalSubmission\": \"474.2K\", \"acRate\": \"29.4%\"}", 
     "interpretUrl": "/problems/reverse-bits/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
-        "name": "Bit Manipulation", 
-        "__typename": "TopicTagNode"
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Reverse bits of a given 32 bits unsigned integer.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 43261596\r\n<strong>Output:</strong> 964176192\r\n<strong>Explanation: </strong>43261596 represented in binary as <b>00000010100101000001111010011100</b>, \r\n&nbsp;            return 964176192 represented in binary as <b>00111001011110000010100101000000</b>.\r\n</pre>\r\n\r\n<p><b>Follow up</b>:<br />\r\nIf this function is called many times, how would you optimize it?</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reverse-bits", 
     "similarQuestions": "[{\"title\": \"Number of 1 Bits\", \"titleSlug\": \"number-of-1-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": false, 
     "questionTitle": "Reverse Bits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

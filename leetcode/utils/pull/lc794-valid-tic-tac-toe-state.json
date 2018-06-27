@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"O  \",\"   \",\"   \"]", 
     "questionFrontendId": "794", 
     "contributors": "[{\"username\": \"ngoc_lam\", \"profileUrl\": \"/ngoc_lam/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"validTicTacToe\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-tic-tac-toe-state/", 
     "stats": "{\"totalAccepted\": \"4.4K\", \"totalSubmission\": \"15.7K\", \"acRate\": \"27.7%\"}", 
     "interpretUrl": "/problems/valid-tic-tac-toe-state/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Recursion", 
-        "slug": "recursion"
+        "slug": "recursion", 
+        "name": "Recursion"
       }
     ], 
     "content": "<p>A Tic-Tac-Toe board is given as a string array <code>board</code>. Return True if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.</p>\r\n\r\n<p>The <code>board</code> is a 3 x 3 array, and consists of characters <code>&quot; &quot;</code>, <code>&quot;X&quot;</code>, and <code>&quot;O&quot;</code>.&nbsp; The &quot; &quot; character represents an empty square.</p>\r\n\r\n<p>Here are the rules of Tic-Tac-Toe:</p>\r\n\r\n<ul>\r\n\t<li>Players take turns placing characters into empty squares (&quot; &quot;).</li>\r\n\t<li>The first player always places &quot;X&quot; characters, while the second player always places &quot;O&quot; characters.</li>\r\n\t<li>&quot;X&quot; and &quot;O&quot; characters are always placed into empty squares, never filled ones.</li>\r\n\t<li>The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.</li>\r\n\t<li>The game also ends if all squares are non-empty.</li>\r\n\t<li>No more moves can be played if the game is over.</li>\r\n</ul>\r\n\r\n<pre>\r\n<strong>Example 1:</strong>\r\n<strong>Input:</strong> board = [&quot;O&nbsp; &quot;, &quot;&nbsp; &nbsp;&quot;, &quot;&nbsp; &nbsp;&quot;]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> The first player always plays &quot;X&quot;.\r\n\r\n<strong>Example 2:</strong>\r\n<strong>Input:</strong> board = [&quot;XOX&quot;, &quot; X &quot;, &quot;   &quot;]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> Players take turns making moves.\r\n\r\n<strong>Example 3:</strong>\r\n<strong>Input:</strong> board = [&quot;XXX&quot;, &quot;   &quot;, &quot;OOO&quot;]\r\n<strong>Output:</strong> false\r\n\r\n<strong>Example 4:</strong>\r\n<strong>Input:</strong> board = [&quot;XOX&quot;, &quot;O O&quot;, &quot;XOX&quot;]\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>board</code> is a length-3 array of strings, where each string <code>board[i]</code> has length 3.</li>\r\n\t<li>Each <code>board[i][j]</code> is a character in the set <code>{&quot; &quot;, &quot;X&quot;, &quot;O&quot;}</code>.</li>\r\n</ul>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "valid-tic-tac-toe-state", 
     "similarQuestions": "[{\"title\": \"Design Tic-Tac-Toe\", \"titleSlug\": \"design-tic-tac-toe\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Tic-Tac-Toe State", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

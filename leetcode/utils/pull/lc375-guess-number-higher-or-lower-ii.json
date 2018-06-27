@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1", 
     "questionFrontendId": "375", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"getMoneyAmount\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/guess-number-higher-or-lower-ii/", 
     "stats": "{\"totalAccepted\": \"32.1K\", \"totalSubmission\": \"88.6K\", \"acRate\": \"36.2%\"}", 
     "interpretUrl": "/problems/guess-number-higher-or-lower-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Minimax", 
-        "slug": "minimax"
+        "slug": "minimax", 
+        "name": "Minimax"
       }
     ], 
     "content": "<p>We are playing the Guess Game. The game is as follows:<p> \r\n\r\n<p>I pick a number from <strong>1</strong> to <strong>n</strong>. You have to guess which number I picked.</p>\r\n\r\n<p>Every time you guess wrong, I'll tell you whether the number I picked is higher or lower. </p>\r\n\r\n<p>However, when you guess a particular number x,  and you guess wrong, you pay <b>$x</b>. You win the game when you guess the number I picked.</p>\r\n\r\n<p>\r\n<b>Example:</b>\r\n<pre>\r\nn = 10, I pick 8.\r\n\r\nFirst round:  You guess 5, I tell you that it's higher. You pay $5.\r\nSecond round: You guess 7, I tell you that it's higher. You pay $7.\r\nThird round:  You guess 9, I tell you that it's lower. You pay $9.\r\n\r\nGame over. 8 is the number I picked.\r\n\r\nYou end up paying $5 + $7 + $9 = $21.\r\n</pre>\r\n</p>\r\n\r\n<p>Given a particular <strong>n &ge; 1</strong>, find out how much money you need to have to guarantee a <b>win</b>.</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/agave/\">@agave</a> and <a href=\"https://leetcode.com/stefanpochmann/\">@StefanPochmann</a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "guess-number-higher-or-lower-ii", 
     "similarQuestions": "[{\"title\": \"Flip Game II\", \"titleSlug\": \"flip-game-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Guess Number Higher or Lower\", \"titleSlug\": \"guess-number-higher-or-lower\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Can I Win\", \"titleSlug\": \"can-i-win\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find K Closest Elements\", \"titleSlug\": \"find-k-closest-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Guess Number Higher or Lower II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

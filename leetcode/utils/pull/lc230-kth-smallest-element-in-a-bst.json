@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,1,4,null,2]\n1", 
     "questionFrontendId": "230", 
     "contributors": "[{\"username\": \"ts\", \"profileUrl\": \"/ts/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"kthSmallest\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/kth-smallest-element-in-a-bst/", 
     "stats": "{\"totalAccepted\": \"149.9K\", \"totalSubmission\": \"325.3K\", \"acRate\": \"46.1%\"}", 
     "interpretUrl": "/problems/kth-smallest-element-in-a-bst/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary search tree, write a function <code>kthSmallest</code> to find the <b>k</b>th smallest element in it.</p>\r\n\r\n<p><b>Note: </b><br />\r\nYou may assume k is always valid, 1 &le; k &le; BST&#39;s total elements.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> root = [3,1,4,null,2], k = 1\r\n   3\r\n  / \\\r\n 1   4\r\n  \\\r\n&nbsp;  2\r\n<strong>Output:</strong> 1</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> root = [5,3,6,2,4,null,null,1], k = 3\r\n       5\r\n      / \\\r\n     3   6\r\n    / \\\r\n   2   4\r\n  /\r\n 1\r\n<strong>Output:</strong> 3\r\n</pre>\r\n\r\n<p><b>Follow up:</b><br />\r\nWhat if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "kth-smallest-element-in-a-bst", 
     "similarQuestions": "[{\"title\": \"Binary Tree Inorder Traversal\", \"titleSlug\": \"binary-tree-inorder-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Second Minimum Node In a Binary Tree\", \"titleSlug\": \"second-minimum-node-in-a-binary-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Kth Smallest Element in a BST", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

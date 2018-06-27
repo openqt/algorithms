@@ -34,6 +34,8 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/descriptio
 	<li>Would allow duplicates affect the run-time complexity? How and why?</li>
 </ul>
 
+Similar Questions:
+  Find Minimum in Rotated Sorted Array (find-minimum-in-rotated-sorted-array)
 */
 func findMin(nums []int) int {
     

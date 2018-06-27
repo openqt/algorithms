@@ -24,6 +24,9 @@ https://leetcode.com/problems/next-greater-element-iii/description/
 
 <p>&nbsp;</p>
 
+Similar Questions:
+  Next Greater Element I (next-greater-element-i)
+  Next Greater Element II (next-greater-element-ii)
 """
 
 

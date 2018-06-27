@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "12", 
     "questionFrontendId": "279", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numSquares\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/perfect-squares/", 
     "stats": "{\"totalAccepted\": \"116.5K\", \"totalSubmission\": \"306.3K\", \"acRate\": \"38.0%\"}", 
     "interpretUrl": "/problems/perfect-squares/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given a positive integer <i>n</i>, find the least number of perfect square numbers (for example, <code>1, 4, 9, 16, ...</code>) which sum to <i>n</i>.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <i>n</i> = <code>12</code>\r\n<b>Output:</b> 3 \r\n<strong>Explanation: </strong><code>12 = 4 + 4 + 4.</code></pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <i>n</i> = <code>13</code>\r\n<b>Output:</b> 2\r\n<strong>Explanation: </strong><code>13 = 4 + 9.</code></pre>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "perfect-squares", 
     "similarQuestions": "[{\"title\": \"Count Primes\", \"titleSlug\": \"count-primes\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Ugly Number II\", \"titleSlug\": \"ugly-number-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Perfect Squares", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

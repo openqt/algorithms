@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1", 
     "questionFrontendId": "754", 
     "contributors": "[{\"username\": \"ngoc_lam\", \"profileUrl\": \"/ngoc_lam/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reachNumber\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reach-a-number/", 
     "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"14.4K\", \"acRate\": \"27.7%\"}", 
     "interpretUrl": "/problems/reach-a-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>\r\nYou are standing at position <code>0</code> on an infinite number line.  There is a goal at position <code>target</code>.\r\n</p><p>\r\nOn each move, you can either go left or right.  During the <i>n</i>-th move (starting from 1), you take <i>n</i> steps.\r\n</p><p>\r\nReturn the minimum number of steps required to reach the destination.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> target = 3\r\n<b>Output:</b> 2\r\n<b>Explanation:</b>\r\nOn the first move we step from 0 to 1.\r\nOn the second step we step from 1 to 3.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> target = 2\r\n<b>Output:</b> 3\r\n<b>Explanation:</b>\r\nOn the first move we step from 0 to 1.\r\nOn the second move we step  from 1 to -1.\r\nOn the third move we step from -1 to 2.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<li><code>target</code> will be a non-zero integer in the range <code>[-10^9, 10^9]</code>.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reach-a-number", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reach a Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

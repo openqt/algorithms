@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4]", 
     "questionFrontendId": "606", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"tree2str\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/construct-string-from-binary-tree/", 
     "stats": "{\"totalAccepted\": \"38.1K\", \"totalSubmission\": \"76.1K\", \"acRate\": \"50.1%\"}", 
     "interpretUrl": "/problems/construct-string-from-binary-tree/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.</p>\r\n\r\n<p>The null node needs to be represented by empty parenthesis pair \"()\". And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> Binary tree: [1,2,3,4]\r\n       1\r\n     /   \\\r\n    2     3\r\n   /    \r\n  4     \r\n\r\n<b>Output:</b> \"1(2(4))(3)\"\r\n<br/><b>Explanation:</b> Originallay it needs to be \"1(2(4)())(3()())\", <br/>but you need to omit all the unnecessary empty parenthesis pairs. <br/>And it will be \"1(2(4))(3)\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> Binary tree: [1,2,3,null,4]\r\n       1\r\n     /   \\\r\n    2     3\r\n     \\  \r\n      4 \r\n\r\n<b>Output:</b> \"1(2()(4))(3)\"\r\n<br/><b>Explanation:</b> Almost the same as the first example, <br/>except we can't omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "construct-string-from-binary-tree", 
     "similarQuestions": "[{\"title\": \"Construct Binary Tree from String\", \"titleSlug\": \"construct-binary-tree-from-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find Duplicate Subtrees\", \"titleSlug\": \"find-duplicate-subtrees\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Construct String from Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

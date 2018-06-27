@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,5,3,4,null,6]", 
     "questionFrontendId": "114", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"flatten\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/flatten-binary-tree-to-linked-list/", 
     "stats": "{\"totalAccepted\": \"172.8K\", \"totalSubmission\": \"462.9K\", \"acRate\": \"37.3%\"}", 
     "interpretUrl": "/problems/flatten-binary-tree-to-linked-list/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree, flatten it to a linked list in-place.</p>\r\n\r\n<p>For example, given the following tree:</p>\r\n\r\n<pre>\r\n    1\r\n   / \\\r\n  2   5\r\n / \\   \\\r\n3   4   6\r\n</pre>\r\n\r\n<p>The flattened tree should look like:</p>\r\n\r\n<pre>\r\n1\r\n \\\r\n  2\r\n   \\\r\n    3\r\n     \\\r\n      4\r\n       \\\r\n        5\r\n         \\\r\n          6\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "flatten-binary-tree-to-linked-list", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Flatten Binary Tree to Linked List", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

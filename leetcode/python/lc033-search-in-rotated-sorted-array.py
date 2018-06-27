@@ -27,6 +27,9 @@ https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 <strong>Input:</strong> nums = [<code>4,5,6,7,0,1,2]</code>, target = 3
 <strong>Output:</strong> -1</pre>
 
+Similar Questions:
+  Search in Rotated Sorted Array II (search-in-rotated-sorted-array-ii)
+  Find Minimum in Rotated Sorted Array (find-minimum-in-rotated-sorted-array)
 """
 
 

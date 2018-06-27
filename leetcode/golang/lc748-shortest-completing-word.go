@@ -44,6 +44,8 @@ We return the one that occurred first.
 <li>Every <code>words[i]</code> will consist of lowercase letters, and have length in range <code>[1, 15]</code>.</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func shortestCompletingWord(licensePlate string, words []string) string {
     

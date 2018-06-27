@@ -27,6 +27,12 @@ return its level order traversal as:<br />
 ]
 </pre>
 </p>
+Similar Questions:
+  Binary Tree Zigzag Level Order Traversal (binary-tree-zigzag-level-order-traversal)
+  Binary Tree Level Order Traversal II (binary-tree-level-order-traversal-ii)
+  Minimum Depth of Binary Tree (minimum-depth-of-binary-tree)
+  Binary Tree Vertical Order Traversal (binary-tree-vertical-order-traversal)
+  Average of Levels in Binary Tree (average-of-levels-in-binary-tree)
 """
 
 

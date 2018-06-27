@@ -41,6 +41,8 @@ randomSet.insert(2);
 randomSet.getRandom();
 </pre>
 </p>
+Similar Questions:
+  Insert Delete GetRandom O(1) - Duplicates allowed (insert-delete-getrandom-o1-duplicates-allowed)
 """
 
 

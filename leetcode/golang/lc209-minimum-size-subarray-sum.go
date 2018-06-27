@@ -20,6 +20,10 @@ https://leetcode.com/problems/minimum-size-subarray-sum/description/
 
 <div class="spoilers">If you have figured out the <i>O</i>(<i>n</i>) solution, try coding another solution of which the time complexity is <i>O</i>(<i>n</i> log <i>n</i>).&nbsp;</div>
 
+Similar Questions:
+  Minimum Window Substring (minimum-window-substring)
+  Maximum Size Subarray Sum Equals k (maximum-size-subarray-sum-equals-k)
+  Maximum Length of Repeated Subarray (maximum-length-of-repeated-subarray)
 */
 func minSubArrayLen(s int, nums []int) int {
     

@@ -37,6 +37,8 @@ There are 5 ways to assign symbols to make the sum of nums be target 3.
 <li>Your output answer is guaranteed to be fitted in a 32-bit integer.</li>
 </ol>
 </p>
+Similar Questions:
+  Expression Add Operators (expression-add-operators)
 */
 func findTargetSumWays(nums []int, S int) int {
     

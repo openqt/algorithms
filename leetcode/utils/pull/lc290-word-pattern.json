@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abba\"\n\"dog cat cat dog\"", 
     "questionFrontendId": "290", 
     "contributors": "[{\"username\": \"minglotus6\", \"profileUrl\": \"/minglotus6/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"wordPattern\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"pattern\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"str\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/word-pattern/", 
     "stats": "{\"totalAccepted\": \"108K\", \"totalSubmission\": \"320.9K\", \"acRate\": \"33.7%\"}", 
     "interpretUrl": "/problems/word-pattern/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "<p>Given a <code>pattern</code> and a string <code>str</code>, find if <code>str</code> follows the same pattern.</p>\r\n\r\n<p>Here <b>follow</b> means a full match, such that there is a bijection between a letter in <code>pattern</code> and a <b>non-empty</b> word in <code>str</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>\r\n<strong>Output:</strong> true</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat fish&quot;</code>\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> pattern = <code>&quot;aaaa&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog dog dog dog&quot;</code>\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><b>Notes:</b><br />\r\nYou may assume <code>pattern</code> contains only lowercase letters, and <code>str</code> contains lowercase letters separated by a single space.</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "word-pattern", 
     "similarQuestions": "[{\"title\": \"Isomorphic Strings\", \"titleSlug\": \"isomorphic-strings\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Word Pattern II\", \"titleSlug\": \"word-pattern-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Word Pattern", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

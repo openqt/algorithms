@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[5,4,8,11,null,13,4,7,2,null,null,5,1]\n22", 
     "questionFrontendId": "113", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"pathSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"sum\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/path-sum-ii/", 
     "stats": "{\"totalAccepted\": \"171.1K\", \"totalSubmission\": \"470K\", \"acRate\": \"36.4%\"}", 
     "interpretUrl": "/problems/path-sum-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum.</p>\r\n\r\n<p><strong>Note:</strong>&nbsp;A leaf is a node with no children.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Given the below binary tree and <code>sum = 22</code>,</p>\r\n\r\n<pre>\r\n      <strong>5</strong>\r\n     <strong>/ \\</strong>\r\n    <strong>4   8</strong>\r\n   <strong>/</strong>   / <strong>\\</strong>\r\n  <strong>11</strong>  13  <strong>4</strong>\r\n /  <strong>\\</strong>    <strong>/</strong> \\\r\n7    <strong>2</strong>  <strong>5</strong>   1\r\n</pre>\r\n\r\n<p>Return:</p>\r\n\r\n<pre>\r\n[\r\n   [5,4,11,2],\r\n   [5,8,4,5]\r\n]\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "path-sum-ii", 
     "similarQuestions": "[{\"title\": \"Path Sum\", \"titleSlug\": \"path-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Paths\", \"titleSlug\": \"binary-tree-paths\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Path Sum III\", \"titleSlug\": \"path-sum-iii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Path Sum IV\", \"titleSlug\": \"path-sum-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Path Sum II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

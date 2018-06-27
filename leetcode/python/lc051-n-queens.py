@@ -30,6 +30,8 @@ https://leetcode.com/problems/n-queens/description/
 <strong>Explanation:</strong> There exist two distinct solutions to the 4-queens puzzle as shown above.
 </pre>
 
+Similar Questions:
+  N-Queens II (n-queens-ii)
 """
 
 

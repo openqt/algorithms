@@ -44,6 +44,8 @@ Given a string containing only three types of characters: '(', ')' and '*', writ
 <li>The string size will be in the range [1, 100].</li>
 </ol>
 </p>
+Similar Questions:
+  Special Binary String (special-binary-string)
 */
 func checkValidString(s string) bool {
     

@@ -23,6 +23,8 @@ https://leetcode.com/problems/pascals-triangle/description/
 ]
 </pre>
 
+Similar Questions:
+  Pascal's Triangle II (pascals-triangle-ii)
 """
 
 

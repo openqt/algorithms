@@ -37,6 +37,9 @@ sumRegion(1, 2, 2, 4) -> 12
 <li>You may assume that <i>row</i>1 &le; <i>row</i>2 and <i>col</i>1 &le; <i>col</i>2.</li>
 </ol>
 </p>
+Similar Questions:
+  Range Sum Query - Immutable (range-sum-query-immutable)
+  Range Sum Query 2D - Mutable (range-sum-query-2d-mutable)
 */
 type NumMatrix struct {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[5,3,6,2,4,null,7]\n3", 
     "questionFrontendId": "450", 
     "contributors": "[{\"username\": \"tsipporah5945\", \"profileUrl\": \"/tsipporah5945/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"deleteNode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"key\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/delete-node-in-a-bst/", 
     "stats": "{\"totalAccepted\": \"36.7K\", \"totalSubmission\": \"97.7K\", \"acRate\": \"37.6%\"}", 
     "interpretUrl": "/problems/delete-node-in-a-bst/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.</p>\r\n\r\n<p>Basically, the deletion can be divided into two stages:\r\n<ol>\r\n<li>Search for a node to remove.</li>\r\n<li>If the node is found, delete the node.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Note:</b> Time complexity should be O(height of tree).</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nroot = [5,3,6,2,4,null,7]\r\nkey = 3\r\n\r\n    5\r\n   / \\\r\n  3   6\r\n / \\   \\\r\n2   4   7\r\n\r\nGiven key to delete is 3. So we find the node with value 3 and delete it.\r\n\r\nOne valid answer is [5,4,6,2,null,null,7], shown in the following BST.\r\n\r\n    5\r\n   / \\\r\n  4   6\r\n /     \\\r\n2       7\r\n\r\nAnother valid answer is [5,2,6,null,4,null,7].\r\n\r\n    5\r\n   / \\\r\n  2   6\r\n   \\   \\\r\n    4   7\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "delete-node-in-a-bst", 
     "similarQuestions": "[{\"title\": \"Split BST\", \"titleSlug\": \"split-bst\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Delete Node in a BST", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

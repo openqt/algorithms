@@ -33,6 +33,8 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum subsets.
 </pre>
 </p>
+Similar Questions:
+  Partition to K Equal Sum Subsets (partition-to-k-equal-sum-subsets)
 """
 
 

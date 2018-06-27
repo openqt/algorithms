@@ -22,6 +22,8 @@ https://leetcode.com/problems/search-for-a-range/description/
 <strong>Input:</strong> nums = [<code>5,7,7,8,8,10]</code>, target = 6
 <strong>Output:</strong> [-1,-1]</pre>
 
+Similar Questions:
+  First Bad Version (first-bad-version)
 """
 
 

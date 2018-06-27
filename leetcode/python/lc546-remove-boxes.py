@@ -32,6 +32,8 @@ Explanation:
 The number of boxes <code>n</code> would not exceed 100.
 </p>
 
+Similar Questions:
+  Strange Printer (strange-printer)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5,6]", 
     "questionFrontendId": "222", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countNodes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/count-complete-tree-nodes/", 
     "stats": "{\"totalAccepted\": \"81.4K\", \"totalSubmission\": \"290K\", \"acRate\": \"28.1%\"}", 
     "interpretUrl": "/problems/count-complete-tree-nodes/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a <b>complete</b> binary tree, count the number of nodes.</p>\r\n\r\n<p><b>Note: </b></p>\r\n\r\n<p><b><u>Definition of a complete binary tree from <a href=\"http://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees\" target=\"_blank\">Wikipedia</a>:</u></b><br />\r\nIn a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2<sup>h</sup> nodes inclusive at the last level h.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> \r\n    1\r\n   / \\\r\n  2   3\r\n / \\  /\r\n4  5 6\r\n\r\n<strong>Output:</strong> 6</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "count-complete-tree-nodes", 
     "similarQuestions": "[{\"title\": \"Closest Binary Search Tree Value\", \"titleSlug\": \"closest-binary-search-tree-value\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Count Complete Tree Nodes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

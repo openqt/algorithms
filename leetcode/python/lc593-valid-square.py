@@ -22,6 +22,8 @@ https://leetcode.com/problems/valid-square/description/
 <li>Input points have no order.</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

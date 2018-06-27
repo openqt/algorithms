@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,null,2,4,null,null,4]", 
     "questionFrontendId": "652", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findDuplicateSubtrees\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<TreeNode>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-duplicate-subtrees/", 
     "stats": "{\"totalAccepted\": \"16K\", \"totalSubmission\": \"42.5K\", \"acRate\": \"37.5%\"}", 
     "interpretUrl": "/problems/find-duplicate-subtrees/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary tree, return all duplicate subtrees. For each kind of duplicate subtrees, you only need to return the root node of any <b>one</b> of them.</p>\r\n\r\n<p>Two trees are duplicate if they have the same structure with same node values.</p>\r\n\r\n<p><b>Example 1: </b></p>\r\n\r\n<pre>\r\n        1\r\n       / \\\r\n      2   3\r\n     /   / \\\r\n    4   2   4\r\n       /\r\n      4\r\n</pre>\r\n\r\n<p>The following are two duplicate subtrees:</p>\r\n\r\n<pre>\r\n      2\r\n     /\r\n    4\r\n</pre>\r\n\r\n<p>and</p>\r\n\r\n<pre>\r\n    4\r\n</pre>\r\nTherefore, you need to return above trees&#39; root in the form of a list.", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-duplicate-subtrees", 
     "similarQuestions": "[{\"title\": \"Serialize and Deserialize Binary Tree\", \"titleSlug\": \"serialize-and-deserialize-binary-tree\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Serialize and Deserialize BST\", \"titleSlug\": \"serialize-and-deserialize-bst\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Construct String from Binary Tree\", \"titleSlug\": \"construct-string-from-binary-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Duplicate Subtrees", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -34,6 +34,11 @@ https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 <strong>Output:</strong> 42
 </pre>
 
+Similar Questions:
+  Path Sum (path-sum)
+  Sum Root to Leaf Numbers (sum-root-to-leaf-numbers)
+  Path Sum IV (path-sum-iv)
+  Longest Univalue Path (longest-univalue-path)
 """
 
 

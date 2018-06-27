@@ -40,6 +40,9 @@ https://leetcode.com/problems/validate-binary-search-tree/description/
 &nbsp;            is 5 but its right child&#39;s value is 4.
 </pre>
 
+Similar Questions:
+  Binary Tree Inorder Traversal (binary-tree-inorder-traversal)
+  Find Mode in Binary Search Tree (find-mode-in-binary-search-tree)
 */
 /**
  * Definition for a binary tree node.

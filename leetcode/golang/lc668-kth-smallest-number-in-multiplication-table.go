@@ -50,6 +50,10 @@ The 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).
 <li>The <code>k</code> will be in the range [1, m * n]</li>
 </ol>
 </p>
+Similar Questions:
+  Kth Smallest Element in a Sorted Matrix (kth-smallest-element-in-a-sorted-matrix)
+  Find K-th Smallest Pair Distance (find-k-th-smallest-pair-distance)
+  K-th Smallest Prime Fraction (k-th-smallest-prime-fraction)
 */
 func findKthNumber(m int, n int, k int) int {
     

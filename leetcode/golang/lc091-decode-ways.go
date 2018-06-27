@@ -33,6 +33,8 @@ https://leetcode.com/problems/decode-ways/description/
 <strong>Output:</strong> 3
 <strong>Explanation:</strong>&nbsp;It could be decoded as &quot;BZ&quot; (2 26), &quot;VF&quot; (22 6), or &quot;BBF&quot; (2 2 6).</pre>
 
+Similar Questions:
+  Decode Ways II (decode-ways-ii)
 */
 func numDecodings(s string) int {
     

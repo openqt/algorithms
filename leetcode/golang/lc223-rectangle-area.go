@@ -23,6 +23,8 @@ https://leetcode.com/problems/rectangle-area/description/
 
 <p>Assume that the total area is never beyond the maximum possible value of <strong>int</strong>.</p>
 
+Similar Questions:
+  Rectangle Overlap (rectangle-overlap)
 */
 func computeArea(A int, B int, C int, D int, E int, F int, G int, H int) int {
     

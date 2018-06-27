@@ -51,6 +51,8 @@ or
 7 -> 6 -> 3 -> 2 -> 1
 </pre>
 </p>
+Similar Questions:
+
 */
 func integerReplacement(n int) int {
     

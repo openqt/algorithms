@@ -34,6 +34,10 @@ https://leetcode.com/problems/find-duplicate-subtrees/description/
     4
 </pre>
 Therefore, you need to return above trees&#39; root in the form of a list.
+Similar Questions:
+  Serialize and Deserialize Binary Tree (serialize-and-deserialize-binary-tree)
+  Serialize and Deserialize BST (serialize-and-deserialize-bst)
+  Construct String from Binary Tree (construct-string-from-binary-tree)
 """
 
 

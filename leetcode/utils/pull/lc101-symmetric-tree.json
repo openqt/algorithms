@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,2,3,4,4,3]", 
     "questionFrontendId": "101", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isSymmetric\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/symmetric-tree/", 
     "stats": "{\"totalAccepted\": \"266.6K\", \"totalSubmission\": \"653.1K\", \"acRate\": \"40.8%\"}", 
     "interpretUrl": "/problems/symmetric-tree/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).</p>\r\n\r\n<p>\r\nFor example, this binary tree <code>[1,2,2,3,4,4,3]</code> is symmetric:\r\n<pre>\r\n    1\r\n   / \\\r\n  2   2\r\n / \\ / \\\r\n3  4 4  3\r\n</pre>\r\n</p>\r\n<p>\r\nBut the following <code>[1,2,2,null,3,null,3]</code>  is not:<br />\r\n<pre>\r\n    1\r\n   / \\\r\n  2   2\r\n   \\   \\\r\n   3    3\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Note:</b><br />\r\nBonus points if you could solve it both recursively and iteratively.\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "symmetric-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Symmetric Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

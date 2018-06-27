@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[0,0,0,1]", 
     "questionFrontendId": "747", 
     "contributors": "[{\"username\": \"TopCoder111\", \"profileUrl\": \"/topcoder111/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"dominantIndex\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/largest-number-at-least-twice-of-others/", 
     "stats": "{\"totalAccepted\": \"20.9K\", \"totalSubmission\": \"50.9K\", \"acRate\": \"41.0%\"}", 
     "interpretUrl": "/problems/largest-number-at-least-twice-of-others/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>In a given integer array <code>nums</code>, there is always exactly one largest element.</p>\r\n\r\n<p>Find whether the largest element in the array is at least twice as much as every other number in the array.</p>\r\n\r\n<p>If it is, return the <strong>index</strong> of the largest element, otherwise return -1.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> nums = [3, 6, 1, 0]\r\n<strong>Output:</strong> 1\r\n<strong>Explanation:</strong> 6 is the largest integer, and for every other number in the array x,\r\n6 is more than twice as big as x.  The index of value 6 is 1, so we return 1.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> nums = [1, 2, 3, 4]\r\n<strong>Output:</strong> -1\r\n<strong>Explanation:</strong> 4 isn&#39;t at least as big as twice the value of 3, so we return -1.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>nums</code> will have a length in the range <code>[1, 50]</code>.</li>\r\n\t<li>Every <code>nums[i]</code> will be an integer in the range <code>[0, 99]</code>.</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "largest-number-at-least-twice-of-others", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Largest Number At Least Twice of Others", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

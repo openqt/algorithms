@@ -27,6 +27,10 @@ https://leetcode.com/problems/power-of-two/description/
 <strong>Input:</strong> 218
 <strong>Output:</strong> false</pre>
 
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
+  Power of Three (power-of-three)
+  Power of Four (power-of-four)
 """
 
 

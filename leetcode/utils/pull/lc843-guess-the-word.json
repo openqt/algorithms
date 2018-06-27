@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"acckzz\"\n[\"acckzz\",\"ccbazz\",\"eiowzz\",\"abcczz\"]\n10", 
     "questionFrontendId": "843", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findSecretWord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"secret\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"wordlist\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"numguesses\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ]\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/guess-the-word/", 
     "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"5.5K\", \"acRate\": \"33.8%\"}", 
     "interpretUrl": "/problems/guess-the-word/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Minimax", 
-        "slug": "minimax"
+        "slug": "minimax", 
+        "name": "Minimax"
       }
     ], 
     "content": "<p>This problem is an&nbsp;<strong><em>interactive problem</em></strong>&nbsp;new to the LeetCode platform.</p>\r\n\r\n<p>We are given a word list of unique words, each word is 6 letters long, and one word in this list is chosen as <strong>secret</strong>.</p>\r\n\r\n<p>You may call <code>master.guess(word)</code>&nbsp;to guess a word.&nbsp; The guessed word should have&nbsp;type <code>string</code>&nbsp;and must be from the original list&nbsp;with 6 lowercase letters.</p>\r\n\r\n<p>This function returns an&nbsp;<code>integer</code>&nbsp;type, representing&nbsp;the number of exact matches (value and position) of your guess to the <strong>secret word</strong>.&nbsp; Also, if your guess is not in the given wordlist, it will return <code>-1</code> instead.</p>\r\n\r\n<p>For each test case, you have 10 guesses to guess the word. At the end of any number of calls, if you have made 10 or less calls to <code>master.guess</code>&nbsp;and at least one of these guesses was the <strong>secret</strong>, you pass the testcase.</p>\r\n\r\n<p>Besides the example test case below, there will be 5&nbsp;additional test cases, each with 100 words in the word list.&nbsp; The letters of each word in those testcases were chosen&nbsp;independently at random from <code>&#39;a&#39;</code> to <code>&#39;z&#39;</code>, such that every word in the given word lists is unique.</p>\r\n\r\n<pre>\r\n<strong>Example 1:</strong>\r\n<strong>Input:</strong>&nbsp;secret = &quot;acckzz&quot;, wordlist = [&quot;acckzz&quot;,&quot;ccbazz&quot;,&quot;eiowzz&quot;,&quot;abcczz&quot;]\r\n\r\n<strong>Explanation:</strong>\r\n\r\n<code>master.guess(&quot;aaaaaa&quot;)</code> returns -1, because&nbsp;<code>&quot;aaaaaa&quot;</code>&nbsp;is not in wordlist.\r\n<code>master.guess(&quot;acckzz&quot;) </code>returns 6, because&nbsp;<code>&quot;acckzz&quot;</code> is secret and has all 6&nbsp;matches.\r\n<code>master.guess(&quot;ccbazz&quot;)</code> returns 3, because<code>&nbsp;&quot;ccbazz&quot;</code>&nbsp;has 3 matches.\r\n<code>master.guess(&quot;eiowzz&quot;)</code> returns 2, because&nbsp;<code>&quot;eiowzz&quot;</code>&nbsp;has 2&nbsp;matches.\r\n<code>master.guess(&quot;abcczz&quot;)</code> returns 4, because&nbsp;<code>&quot;abcczz&quot;</code> has 4 matches.\r\n\r\nWe made 5 calls to&nbsp;master.guess and one of them was the secret, so we pass the test case.\r\n</pre>\r\n\r\n<p><strong>Note:</strong>&nbsp; Any solutions that attempt to circumvent the judge&nbsp;will result in disqualification.</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "guess-the-word", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Guess the Word", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

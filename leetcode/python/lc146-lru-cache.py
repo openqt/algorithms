@@ -31,6 +31,10 @@ cache.get(3);       // returns 3
 cache.get(4);       // returns 4
 </pre>
 </p>
+Similar Questions:
+  LFU Cache (lfu-cache)
+  Design In-Memory File System (design-in-memory-file-system)
+  Design Compressed String Iterator (design-compressed-string-iterator)
 """
 
 

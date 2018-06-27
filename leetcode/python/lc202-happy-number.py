@@ -20,6 +20,10 @@ https://leetcode.com/problems/happy-number/description/
 1<sup>2</sup> + 0<sup>2</sup> + 0<sup>2</sup> = 1
 </pre>
 
+Similar Questions:
+  Linked List Cycle (linked-list-cycle)
+  Add Digits (add-digits)
+  Ugly Number (ugly-number)
 """
 
 

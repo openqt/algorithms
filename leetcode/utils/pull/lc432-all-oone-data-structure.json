@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"AllOne\",\"getMaxKey\",\"getMinKey\"]\n[[],[],[]]", 
     "questionFrontendId": "432", 
     "contributors": "[{\"username\": \"galster\", \"profileUrl\": \"/galster/\"}, {\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"AllOne\",\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"inc\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"key\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Inserts a new key <Key> with value 1. Or increments an existing key by 1.\"\r\n        },\r\n        {\r\n            \"name\" : \"dec\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"key\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Decrements an existing key by 1. If Key's value is 1, remove it from the data structure.\"\r\n        },\r\n        {\r\n            \"name\" : \"getMaxKey\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"string\"\r\n            },\r\n            \"comment\": \"Returns one of the keys with maximal value.\"\r\n        },\r\n        {\r\n            \"name\" : \"getMinKey\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"string\"\r\n            },\r\n            \"comment\": \"Returns one of the keys with Minimal value.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/all-oone-data-structure/", 
     "stats": "{\"totalAccepted\": \"10.3K\", \"totalSubmission\": \"37.1K\", \"acRate\": \"27.9%\"}", 
     "interpretUrl": "/problems/all-oone-data-structure/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Implement a data structure supporting the following operations:</p>\r\n\r\n<p>\r\n<ol>\r\n<li>Inc(Key) - Inserts a new key <Key> with value 1. Or increments an existing key by 1. Key is guaranteed to be a <b>non-empty</b> string.</li>\r\n<li>Dec(Key) - If Key's value is 1, remove it from the data structure. Otherwise decrements an existing key by 1. If the key does not exist, this function does nothing. Key is guaranteed to be a <b>non-empty</b> string.</li>\r\n<li>GetMaxKey() - Returns one of the keys with maximal value. If no element exists, return an empty string <code>\"\"</code>.</li>\r\n<li>GetMinKey() - Returns one of the keys with minimal value. If no element exists, return an empty string <code>\"\"</code>.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nChallenge: Perform all these in O(1) time complexity.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "all-oone-data-structure", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "All O`one Data Structure", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

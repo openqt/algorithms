@@ -34,6 +34,10 @@ In LOL world, there is a hero called Teemo and his attacking can make his enemy 
 <li>You may assume the numbers in the Teemo's attacking time series and his poisoning time duration per attacking are non-negative integers, which won't exceed 10,000,000.</li>
 </ol>
 </p>
+Similar Questions:
+  Merge Intervals (merge-intervals)
+  Can Place Flowers (can-place-flowers)
+  Dota2 Senate (dota2-senate)
 """
 
 

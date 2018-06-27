@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1\n1", 
     "questionFrontendId": "779", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"kthGrammar\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"K\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/k-th-symbol-in-grammar/", 
     "stats": "{\"totalAccepted\": \"5.8K\", \"totalSubmission\": \"15.6K\", \"acRate\": \"37.1%\"}", 
     "interpretUrl": "/problems/k-th-symbol-in-grammar/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Recursion", 
-        "slug": "recursion"
+        "slug": "recursion", 
+        "name": "Recursion"
       }
     ], 
     "content": "<p>On the first row, we write a <code>0</code>. Now in every subsequent row, we look at the previous row and replace each occurrence of <code>0</code> with <code>01</code>, and each occurrence of <code>1</code> with <code>10</code>.</p>\r\n\r\n<p>Given row <code>N</code> and index <code>K</code>, return the <code>K</code>-th indexed symbol in row <code>N</code>. (The values of <code>K</code> are 1-indexed.) (1 indexed).</p>\r\n\r\n<pre>\r\n<strong>Examples:</strong>\r\n<strong>Input:</strong> N = 1, K = 1\r\n<strong>Output:</strong> 0\r\n\r\n<strong>Input:</strong> N = 2, K = 1\r\n<strong>Output:</strong> 0\r\n\r\n<strong>Input:</strong> N = 2, K = 2\r\n<strong>Output:</strong> 1\r\n\r\n<strong>Input:</strong> N = 4, K = 5\r\n<strong>Output:</strong> 1\r\n\r\n<strong>Explanation:</strong>\r\nrow 1: 0\r\nrow 2: 01\r\nrow 3: 0110\r\nrow 4: 01101001\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>N</code> will be an integer in the range <code>[1, 30]</code>.</li>\r\n\t<li><code>K</code> will be an integer in the range <code>[1, 2^(N-1)]</code>.</li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "k-th-symbol-in-grammar", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "K-th Symbol in Grammar", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

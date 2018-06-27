@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "5\n[[4,2]]", 
     "questionFrontendId": "764", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"orderOfLargestPlusSign\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"mines\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/largest-plus-sign/", 
     "stats": "{\"totalAccepted\": \"6.6K\", \"totalSubmission\": \"16.7K\", \"acRate\": \"39.5%\"}", 
     "interpretUrl": "/problems/largest-plus-sign/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nIn a 2D <code>grid</code> from (0, 0) to (N-1, N-1), every cell contains a <code>1</code>, except those cells in the given list <code>mines</code> which are <code>0</code>.  What is the largest axis-aligned plus sign of <code>1</code>s contained in the grid?  Return the order of the plus sign.  If there is none, return 0.\r\n</p><p>\r\nAn \"<i>axis-aligned plus sign of <code>1</code>s</i> of order <b>k</b>\" has some center <code>grid[x][y] = 1</code> along with 4 arms of length <code>k-1</code> going up, down, left, and right, and made of <code>1</code>s.  This is demonstrated in the diagrams below.  Note that there could be <code>0</code>s or <code>1</code>s beyond the arms of the plus sign, only the relevant area of the plus sign is checked for 1s.\r\n</p><p>\r\n\r\n<p><b>Examples of Axis-Aligned Plus Signs of Order k:</b><br /><pre>\r\nOrder 1:\r\n000\r\n0<b>1</b>0\r\n000\r\n\r\nOrder 2:\r\n00000\r\n00<b>1</b>00\r\n0<b>111</b>0\r\n00<b>1</b>00\r\n00000\r\n\r\nOrder 3:\r\n0000000\r\n000<b>1</b>000\r\n000<b>1</b>000\r\n0<b>11111</b>0\r\n000<b>1</b>000\r\n000<b>1</b>000\r\n0000000\r\n</pre></p>\r\n\r\n<p><b>Example 1:</b><br /><pre>\r\n<b>Input:</b> N = 5, mines = [[4, 2]]\r\n<b>Output:</b> 2\r\n<b>Explanation:</b>\r\n11111\r\n11111\r\n1<b>1</b>111\r\n<b>111</b>11\r\n1<b>1</b>011\r\nIn the above grid, the largest plus sign can only be order 2.  One of them is marked in bold.\r\n</pre></p>\r\n\r\n<p><b>Example 2:</b><br /><pre>\r\n<b>Input:</b> N = 2, mines = []\r\n<b>Output:</b> 1\r\n<b>Explanation:</b>\r\nThere is no plus sign of order 2, but there is of order 1.\r\n</pre></p>\r\n\r\n<p><b>Example 3:</b><br /><pre>\r\n<b>Input:</b> N = 1, mines = [[0, 0]]\r\n<b>Output:</b> 0\r\n<b>Explanation:</b>\r\nThere is no plus sign, so return 0.\r\n</pre></p>\r\n\r\n<p><b>Note:</b><br><ol>\r\n<li><code>N</code> will be an integer in the range <code>[1, 500]</code>.</li>\r\n<li><code>mines</code> will have length at most <code>5000</code>.</li>\r\n<li><code>mines[i]</code> will be length 2 and consist of integers in the range <code>[0, N-1]</code>.</li>\r\n<li><i>(Additionally, programs submitted in C, C++, or C# will be judged with a slightly smaller time limit.)</i></li>\r\n</ol></p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "largest-plus-sign", 
     "similarQuestions": "[{\"title\": \"Maximal Square\", \"titleSlug\": \"maximal-square\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Largest Plus Sign", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

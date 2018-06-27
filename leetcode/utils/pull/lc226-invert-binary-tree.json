@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[4,2,7,1,3,6,9]", 
     "questionFrontendId": "226", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"invertTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/invert-binary-tree/", 
     "stats": "{\"totalAccepted\": \"242.2K\", \"totalSubmission\": \"447.8K\", \"acRate\": \"54.1%\"}", 
     "interpretUrl": "/problems/invert-binary-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Invert a binary tree.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Input:</p>\r\n\r\n<pre>\r\n     4\r\n   /   \\\r\n  2     7\r\n / \\   / \\\r\n1   3 6   9</pre>\r\n\r\n<p>Output:</p>\r\n\r\n<pre>\r\n     4\r\n   /   \\\r\n  7     2\r\n / \\   / \\\r\n9   6 3   1</pre>\r\n\r\n<p><strong>Trivia:</strong><br />\r\nThis problem was inspired by <a href=\"https://twitter.com/mxcl/status/608682016205344768\" target=\"_blank\">this original tweet</a> by <a href=\"https://twitter.com/mxcl\" target=\"_blank\">Max Howell</a>:</p>\r\n\r\n<blockquote>Google: 90% of our engineers use the software you wrote (Homebrew), but you can&rsquo;t invert a binary tree on a whiteboard so f*** off.</blockquote>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "invert-binary-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Invert Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

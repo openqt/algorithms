@@ -19,6 +19,13 @@ return [<strong>0</strong>, <strong>1</strong>].
 
 <p>&nbsp;</p>
 
+Similar Questions:
+  3Sum (3sum)
+  4Sum (4sum)
+  Two Sum II - Input array is sorted (two-sum-ii-input-array-is-sorted)
+  Two Sum III - Data structure design (two-sum-iii-data-structure-design)
+  Subarray Sum Equals K (subarray-sum-equals-k)
+  Two Sum IV - Input is a BST (two-sum-iv-input-is-a-bst)
 """
 
 

@@ -43,6 +43,9 @@ Note: Each term of the sequence of integers will be represented as a string.
 <b>Output:</b> "1211"
 </pre>
 </p>
+Similar Questions:
+  Encode and Decode Strings (encode-and-decode-strings)
+  String Compression (string-compression)
 */
 func countAndSay(n int) string {
     

@@ -22,6 +22,8 @@ What if you cannot modify the input lists? In other words, reversing the lists i
 <b>Output:</b> 7 -> 8 -> 0 -> 7
 </pre>
 </p>
+Similar Questions:
+  Add Two Numbers (add-two-numbers)
 */
 /**
  * Definition for singly-linked list.

@@ -18,6 +18,8 @@ import unittest
 $url
 
 $text
+Similar Questions:
+$related
 """
 
 
@@ -41,6 +43,8 @@ import (
 $url
 
 $text
+Similar Questions:
+$related
 */
 $code
 
@@ -111,6 +115,7 @@ class Question(object):
 
         self.paid = kwargs.get("paid_only", False)
         self.content = None
+        self.related = None
         self.codes = {}
 
         difficulty = kwargs.get("difficulty")
@@ -130,30 +135,29 @@ class Question(object):
         with open(self.metaname(), "w") as f:
             json.dump(self.data, f, indent=2)
 
+        kwargs = {
+            "id": self.qid,
+            "title": self.title,
+            "url": self.url,
+            "text": self.content,
+            "code": self.codes[language],
+            "related": "\n".join(["  " + i for i in self.related]),
+        }
+
         if language == "python":
-            text = Template(python_template).substitute(
-                id=self.qid,
-                title=self.title,
-                url=self.url,
-                text=self.content,
-                code=self.codes[language]).encode("utf-8")
+            text = Template(python_template).substitute(**kwargs).encode("utf-8")
 
             filename = self.name() + ".py"
             with open(filename, "w") as f:
                 f.write(text)
-            logging.info("{} generated".format(filename))
+            print("{} generated".format(filename))
         elif language == "golang":
-            text = Template(golang_template).substitute(
-                id=self.qid,
-                title=self.title,
-                url=self.url,
-                text=self.content,
-                code=self.codes[language]).encode("utf-8")
+            text = Template(golang_template).substitute(**kwargs).encode("utf-8")
 
             filename = self.name() + ".go"
             with open(filename, "w") as f:
                 f.write(text)
-            logging.info("{} generated".format(filename))
+            print("{} generated".format(filename))
         else:
             print("Not support language: {}".format(language))
 
@@ -164,6 +168,9 @@ class Question(object):
             for code in json.loads(question["codeDefinition"]):
                 self.codes[code["value"]] = code["defaultCode"]
             self.content = question["content"]
+            self.related = []
+            for sq in json.loads(question["similarQuestions"]):
+                self.related.append("{} ({})".format(sq["title"], sq["titleSlug"]))
         except:
             logging.error("{}, {}".format(self.title, self.url))
 

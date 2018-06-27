@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"w\",\"wo\",\"wor\",\"worl\",\"world\"]", 
     "questionFrontendId": "720", 
     "contributors": "[{\"username\": \"zestypanda\", \"profileUrl\": \"/zestypanda/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"longestWord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-word-in-dictionary/", 
     "stats": "{\"totalAccepted\": \"15.7K\", \"totalSubmission\": \"37.8K\", \"acRate\": \"41.5%\"}", 
     "interpretUrl": "/problems/longest-word-in-dictionary/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>Given a list of strings <code>words</code> representing an English Dictionary, find the longest word in <code>words</code> that can be built one character at a time by other words in <code>words</code>.  If there is more than one possible answer, return the longest word with the smallest lexicographical order.</p>  If there is no answer, return the empty string.\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nwords = [\"w\",\"wo\",\"wor\",\"worl\", \"world\"]\r\n<b>Output:</b> \"world\"\r\n<b>Explanation:</b> \r\nThe word \"world\" can be built one character at a time by \"w\", \"wo\", \"wor\", and \"worl\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nwords = [\"a\", \"banana\", \"app\", \"appl\", \"ap\", \"apply\", \"apple\"]\r\n<b>Output:</b> \"apple\"\r\n<b>Explanation:</b> \r\nBoth \"apply\" and \"apple\" can be built from other words in the dictionary. However, \"apple\" is lexicographically smaller than \"apply\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>All the strings in the input will only contain lowercase letters.</li>\r\n<li>The length of <code>words</code> will be in the range <code>[1, 1000]</code>.</li>\r\n<li>The length of <code>words[i]</code> will be in the range <code>[1, 30]</code>.</li>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "longest-word-in-dictionary", 
     "similarQuestions": "[{\"title\": \"Longest Word in Dictionary through Deleting\", \"titleSlug\": \"longest-word-in-dictionary-through-deleting\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Implement Magic Dictionary\", \"titleSlug\": \"implement-magic-dictionary\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Word in Dictionary", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

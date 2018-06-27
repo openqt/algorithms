@@ -50,6 +50,8 @@ After move 5: [[1,2,3],[4,5,0]]
 	<li><code>board</code> will be a 2 x 3 array as described above.</li>
 	<li><code>board[i][j]</code> will be a permutation of <code>[0, 1, 2, 3, 4, 5]</code>.</li>
 </ul>
+Similar Questions:
+
 """
 
 

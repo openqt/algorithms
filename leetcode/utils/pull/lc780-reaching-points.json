@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "9\n5\n12\n8", 
     "questionFrontendId": "780", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reachingPoints\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"sx\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"sy\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"tx\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"ty\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reaching-points/", 
     "stats": "{\"totalAccepted\": \"3.4K\", \"totalSubmission\": \"14.4K\", \"acRate\": \"24.0%\"}", 
     "interpretUrl": "/problems/reaching-points/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>A move consists of taking a point <code>(x, y)</code> and transforming it to either <code>(x, x+y)</code> or <code>(x+y, y)</code>.</p>\r\n\r\n<p>Given a starting point <code>(sx, sy)</code> and a target point <code>(tx, ty)</code>, return <code>True</code> if and only if a sequence of moves exists to transform the point <code>(sx, sy)</code> to <code>(tx, ty)</code>. Otherwise, return <code>False</code>.</p>\r\n\r\n<pre>\r\n<strong>Examples:</strong>\r\n<strong>Input:</strong> sx = 1, sy = 1, tx = 3, ty = 5\r\n<strong>Output:</strong> True\r\n<strong>Explanation:</strong>\r\nOne series of moves that transforms the starting point to the target is:\r\n(1, 1) -&gt; (1, 2)\r\n(1, 2) -&gt; (3, 2)\r\n(3, 2) -&gt; (3, 5)\r\n\r\n<strong>Input:</strong> sx = 1, sy = 1, tx = 2, ty = 2\r\n<strong>Output:</strong> False\r\n\r\n<strong>Input:</strong> sx = 1, sy = 1, tx = 1, ty = 1\r\n<strong>Output:</strong> True\r\n\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>sx, sy, tx, ty</code> will all be integers in the range <code>[1, 10^9]</code>.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reaching-points", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reaching Points", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

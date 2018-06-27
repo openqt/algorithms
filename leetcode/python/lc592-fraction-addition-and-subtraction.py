@@ -43,6 +43,8 @@ https://leetcode.com/problems/fraction-addition-and-subtraction/description/
 <li>The numerator and denominator of the <b>final result</b> are guaranteed to be valid and in the range of 32-bit int.</li>
 </ol>
 </p>
+Similar Questions:
+  Solve the Equation (solve-the-equation)
 """
 
 

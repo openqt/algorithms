@@ -25,6 +25,8 @@ https://leetcode.com/problems/pascals-triangle-ii/description/
 
 <p>Could you optimize your algorithm to use only <em>O</em>(<em>k</em>) extra space?</p>
 
+Similar Questions:
+  Pascal's Triangle (pascals-triangle)
 */
 func getRow(rowIndex int) []int {
     

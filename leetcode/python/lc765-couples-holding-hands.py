@@ -29,6 +29,10 @@ The couples' initial seating is given by <code>row[i]</code> being the value of 
 <li> <code>len(row)</code> is even and in the range of <code>[4, 60]</code>.</li>
 <li> <code>row</code> is guaranteed to be a permutation of <code>0...len(row)-1</code>.</li>
 </ol>
+Similar Questions:
+  First Missing Positive (first-missing-positive)
+  Missing Number (missing-number)
+  K-Similar Strings (k-similar-strings)
 """
 
 

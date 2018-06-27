@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[0,1,0],[0,0,1],[1,1,1],[0,0,0]]", 
     "questionFrontendId": "289", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"gameOfLife\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/game-of-life/", 
     "stats": "{\"totalAccepted\": \"71.7K\", \"totalSubmission\": \"190.3K\", \"acRate\": \"37.7%\"}", 
     "interpretUrl": "/problems/game-of-life/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>According to the <a href=\"https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life\" target=\"_blank\">Wikipedia&#39;s article</a>: &quot;The <b>Game of Life</b>, also known simply as <b>Life</b>, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.&quot;</p>\r\n\r\n<p>Given a <i>board</i> with <i>m</i> by <i>n</i> cells, each cell has an initial state <i>live</i> (1) or <i>dead</i> (0). Each cell interacts with its <a href=\"https://en.wikipedia.org/wiki/Moore_neighborhood\" target=\"_blank\">eight neighbors</a> (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):</p>\r\n\r\n<ol>\r\n\t<li>Any live cell with fewer than two live neighbors dies, as if caused by under-population.</li>\r\n\t<li>Any live cell with two or three live neighbors lives on to the next generation.</li>\r\n\t<li>Any live cell with more than three live neighbors dies, as if by over-population..</li>\r\n\t<li>Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.</li>\r\n</ol>\r\n\r\n<p>Write a function to compute the next state (after one update) of the board given its current state.&nbsp;<span>The next state is created by applying the above rules simultaneously to every cell in the current state, where&nbsp;births and deaths occur simultaneously.</span></p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: \r\n</strong><span id=\"example-input-1-1\">[\r\n&nbsp; [0,1,0],\r\n&nbsp; [0,0,1],\r\n&nbsp; [1,1,1],\r\n&nbsp; [0,0,0]\r\n]</span>\r\n<strong>Output: \r\n</strong><span id=\"example-output-1\">[\r\n&nbsp; [0,0,0],\r\n&nbsp; [1,0,1],\r\n&nbsp; [0,1,1],\r\n&nbsp; [0,1,0]\r\n]</span>\r\n</pre>\r\n\r\n<p><b>Follow up</b>:</p>\r\n\r\n<ol>\r\n\t<li>Could you solve it in-place? Remember that the board needs to be updated at the same time: You cannot update some cells first and then use their updated values to update other cells.</li>\r\n\t<li>In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?</li>\r\n</ol>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "game-of-life", 
     "similarQuestions": "[{\"title\": \"Set Matrix Zeroes\", \"titleSlug\": \"set-matrix-zeroes\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Game of Life", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MyCalendarTwo\",\"book\",\"book\",\"book\",\"book\",\"book\",\"book\"]\n[[],[10,20],[50,60],[10,40],[5,15],[5,10],[25,55]]", 
     "questionFrontendId": "731", 
     "contributors": "[{\"username\": \"ccyjoshua\", \"profileUrl\": \"/ccyjoshua/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"MyCalendarTwo\",\r\n    \"constructor\": {\r\n        \"params\": []\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"book\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"start\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"end\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"starts\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"ends\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<boolean>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/my-calendar-ii/", 
     "stats": "{\"totalAccepted\": \"8.3K\", \"totalSubmission\": \"21.8K\", \"acRate\": \"38.3%\"}", 
     "interpretUrl": "/problems/my-calendar-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>\r\nImplement a <code>MyCalendarTwo</code> class to store your events. A new event can be added if adding the event will not cause a <b>triple</b> booking.\r\n</p><p>\r\nYour class will have one method, <code>book(int start, int end)</code>.  Formally, this represents a booking on the half open interval <code>[start, end)</code>, the range of real numbers <code>x</code> such that <code>start <= x < end</code>.\r\n</p><p>\r\nA <i>triple booking</i> happens when <b>three</b> events have some non-empty intersection (ie., there is some time that is common to all 3 events.)\r\n</p><p>\r\nFor each call to the method <code>MyCalendar.book</code>, return <code>true</code> if the event can be added to the calendar successfully without causing a <b>triple</b> booking.  Otherwise, return <code>false</code> and do not add the event to the calendar.\r\n</p>\r\n\r\nYour class will be called like this:\r\n<code>MyCalendar cal = new MyCalendar();</code>\r\n<code>MyCalendar.book(start, end)</code>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\nMyCalendar();\r\nMyCalendar.book(10, 20); // returns true\r\nMyCalendar.book(50, 60); // returns true\r\nMyCalendar.book(10, 40); // returns true\r\nMyCalendar.book(5, 15); // returns false\r\nMyCalendar.book(5, 10); // returns true\r\nMyCalendar.book(25, 55); // returns true\r\n<b>Explanation:</b> \r\nThe first two events can be booked.  The third event can be double booked.\r\nThe fourth event (5, 15) can't be booked, because it would result in a triple booking.\r\nThe fifth event (5, 10) can be booked, as it does not use time 10 which is already double booked.\r\nThe sixth event (25, 55) can be booked, as the time in [25, 40) will be double booked with the third event;\r\nthe time [40, 50) will be single booked, and the time [50, 55) will be double booked with the second event.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>The number of calls to <code>MyCalendar.book</code> per test case will be at most <code>1000</code>.</li>\r\n<li>In calls to <code>MyCalendar.book(start, end)</code>, <code>start</code> and <code>end</code> are integers in the range <code>[0, 10^9]</code>.</li>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "my-calendar-ii", 
     "similarQuestions": "[{\"title\": \"My Calendar I\", \"titleSlug\": \"my-calendar-i\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"My Calendar III\", \"titleSlug\": \"my-calendar-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "My Calendar II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

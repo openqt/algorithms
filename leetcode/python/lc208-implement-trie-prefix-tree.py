@@ -26,6 +26,11 @@ trie.search(&quot;app&quot;);     // returns true
 	<li>All inputs are guaranteed to be non-empty strings.</li>
 </ul>
 
+Similar Questions:
+  Add and Search Word - Data structure design (add-and-search-word-data-structure-design)
+  Design Search Autocomplete System (design-search-autocomplete-system)
+  Replace Words (replace-words)
+  Implement Magic Dictionary (implement-magic-dictionary)
 """
 
 

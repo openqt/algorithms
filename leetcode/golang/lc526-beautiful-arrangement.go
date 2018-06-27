@@ -38,6 +38,8 @@ Now given N, how many beautiful arrangements can you construct?
 <li><b>N</b> is a positive integer and will not exceed 15.</li>
 </ol>
 </p>
+Similar Questions:
+  Beautiful Arrangement II (beautiful-arrangement-ii)
 */
 func countArrangement(N int) int {
     

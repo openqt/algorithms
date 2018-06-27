@@ -47,6 +47,8 @@ Given a collection of intervals, find the minimum number of intervals you need t
 <b>Explanation:</b> You don't need to remove any of the intervals since they're already non-overlapping.
 </pre>
 </p>
+Similar Questions:
+  Minimum Number of Arrows to Burst Balloons (minimum-number-of-arrows-to-burst-balloons)
 */
 /**
  * Definition for an interval.

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"()\"", 
     "questionFrontendId": "20", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"isValid\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-parentheses/", 
     "stats": "{\"totalAccepted\": \"353.9K\", \"totalSubmission\": \"1M\", \"acRate\": \"34.2%\"}", 
     "interpretUrl": "/problems/valid-parentheses/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given a string containing just the characters <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;[&#39;</code> and <code>&#39;]&#39;</code>, determine if the input string is valid.</p>\r\n\r\n<p>An input string is valid if:</p>\r\n\r\n<ol>\r\n\t<li>Open brackets must be closed by the same type of brackets.</li>\r\n\t<li>Open brackets must be closed in the correct order.</li>\r\n</ol>\r\n\r\n<p>Note that an empty string is&nbsp;also considered valid.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;()&quot;\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;()[]{}&quot;\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;(]&quot;\r\n<strong>Output:</strong> false\r\n</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;([)]&quot;\r\n<strong>Output:</strong> false\r\n</pre>\r\n\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;{[]}&quot;\r\n<strong>Output:</strong> true\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "valid-parentheses", 
     "similarQuestions": "[{\"title\": \"Generate Parentheses\", \"titleSlug\": \"generate-parentheses\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Valid Parentheses\", \"titleSlug\": \"longest-valid-parentheses\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Remove Invalid Parentheses\", \"titleSlug\": \"remove-invalid-parentheses\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Parentheses", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

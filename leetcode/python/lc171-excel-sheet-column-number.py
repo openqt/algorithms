@@ -40,6 +40,8 @@ https://leetcode.com/problems/excel-sheet-column-number/description/
 <strong>Output:</strong> 701
 </pre>
 
+Similar Questions:
+  Excel Sheet Column Title (excel-sheet-column-title)
 """
 
 

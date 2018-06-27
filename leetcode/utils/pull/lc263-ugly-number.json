@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "6", 
     "questionFrontendId": "263", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isUgly\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/ugly-number/", 
     "stats": "{\"totalAccepted\": \"127.3K\", \"totalSubmission\": \"319.2K\", \"acRate\": \"39.9%\"}", 
     "interpretUrl": "/problems/ugly-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Write a program to check whether a given number is an ugly number.</p>\r\n\r\n<p>Ugly numbers are <strong>positive numbers</strong> whose prime factors only include <code>2, 3, 5</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 6\r\n<strong>Output:</strong> true\r\n<strong>Explanation: </strong>6 = 2 &times;&nbsp;3</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 8\r\n<strong>Output:</strong> true\r\n<strong>Explanation: </strong>8 = 2 &times; 2 &times;&nbsp;2\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 14\r\n<strong>Output:</strong> false \r\n<strong>Explanation: </strong><code>14</code> is not ugly since it includes another prime factor <code>7</code>.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1</code> is typically treated as an ugly number.</li>\r\n\t<li>Input is within the 32-bit signed integer range:&nbsp;[&minus;2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>&minus; 1].</li>\r\n</ol>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "ugly-number", 
     "similarQuestions": "[{\"title\": \"Happy Number\", \"titleSlug\": \"happy-number\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Count Primes\", \"titleSlug\": \"count-primes\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Ugly Number II\", \"titleSlug\": \"ugly-number-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Ugly Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

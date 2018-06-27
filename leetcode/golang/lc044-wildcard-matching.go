@@ -72,6 +72,8 @@ p = &quot;a*c?b&quot;
 <strong>Output:</strong> false
 </pre>
 
+Similar Questions:
+  Regular Expression Matching (regular-expression-matching)
 */
 func isMatch(s string, p string) bool {
     

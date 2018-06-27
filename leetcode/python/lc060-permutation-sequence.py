@@ -40,6 +40,9 @@ https://leetcode.com/problems/permutation-sequence/description/
 <strong>Output:</strong> &quot;2314&quot;
 </pre>
 
+Similar Questions:
+  Next Permutation (next-permutation)
+  Permutations (permutations)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,2,3,4]", 
     "questionFrontendId": "611", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"triangleNumber\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-triangle-number/", 
     "stats": "{\"totalAccepted\": \"19.9K\", \"totalSubmission\": \"47.3K\", \"acRate\": \"42.0%\"}", 
     "interpretUrl": "/problems/valid-triangle-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "Given an array consists of non-negative integers,  your task is to count the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [2,2,3,4]\r\n<b>Output:</b> 3\r\n<b>Explanation:</b>\r\nValid combinations are: \r\n2,3,4 (using the first 2)\r\n2,3,4 (using the second 2)\r\n2,2,3\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The length of the given array won't exceed 1000.</li>\r\n<li>The integers in the given array are in the range of [0, 1000].</li>\r\n</ol>\r\n</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "valid-triangle-number", 
     "similarQuestions": "[{\"title\": \"3Sum Smaller\", \"titleSlug\": \"3sum-smaller\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Triangle Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

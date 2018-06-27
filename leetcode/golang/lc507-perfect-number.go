@@ -23,6 +23,8 @@ Now, given an <b>integer</b> n, write a function that returns true when it is a 
 <p><b>Note:</b>
 The input number <b>n</b> will not exceed 100,000,000. (1e8)
 </p>
+Similar Questions:
+  Self Dividing Numbers (self-dividing-numbers)
 */
 func checkPerfectNumber(num int) bool {
     

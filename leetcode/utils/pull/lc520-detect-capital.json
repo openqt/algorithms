@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"USA\"", 
     "questionFrontendId": "520", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"detectCapitalUse\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/detect-capital/", 
     "stats": "{\"totalAccepted\": \"61K\", \"totalSubmission\": \"117.6K\", \"acRate\": \"51.9%\"}", 
     "interpretUrl": "/problems/detect-capital/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>\r\nGiven a word, you need to judge whether the usage of capitals in it is right or not.\r\n</p>\r\n\r\n<p>\r\nWe define the usage of capitals in a word to be right when one of the following cases holds:\r\n<ol>\r\n<li>All letters in this word are capitals, like \"USA\".</li>\r\n<li>All letters in this word are not capitals, like \"leetcode\".</li>\r\n<li>Only the first letter in this word is capital if it has more than one letter, like \"Google\".</li>\r\n</ol>\r\nOtherwise, we define that this word doesn't use capitals in a right way.\r\n</p>\r\n\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"USA\"\r\n<b>Output:</b> True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"FlaG\"\r\n<b>Output:</b> False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe input will be a non-empty word consisting of uppercase and lowercase latin letters.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "detect-capital", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Detect Capital", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

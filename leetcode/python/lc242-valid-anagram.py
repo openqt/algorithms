@@ -26,6 +26,10 @@ You may assume the string contains only lowercase alphabets.</p>
 <p><strong>Follow up:</strong><br />
 What if the inputs contain unicode characters? How would you adapt your solution to such case?</p>
 
+Similar Questions:
+  Group Anagrams (group-anagrams)
+  Palindrome Permutation (palindrome-permutation)
+  Find All Anagrams in a String (find-all-anagrams-in-a-string)
 """
 
 

@@ -29,6 +29,9 @@ https://leetcode.com/problems/hamming-distance/description/
 The above arrows point to positions where the corresponding bits are different.
 </pre>
 </p>
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
+  Total Hamming Distance (total-hamming-distance)
 */
 func hammingDistance(x int, y int) int {
     

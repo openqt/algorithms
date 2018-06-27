@@ -21,6 +21,10 @@ call isBadVersion(4)&nbsp;-&gt; true
 
 Then 4 is the first bad version.&nbsp;</code>
 </pre>
+Similar Questions:
+  Search for a Range (search-for-a-range)
+  Search Insert Position (search-insert-position)
+  Guess Number Higher or Lower (guess-number-higher-or-lower)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"123456579\"", 
     "questionFrontendId": "842", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"splitIntoFibonacci\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/split-array-into-fibonacci-sequence/", 
     "stats": "{\"totalAccepted\": \"2.9K\", \"totalSubmission\": \"8.5K\", \"acRate\": \"34.3%\"}", 
     "interpretUrl": "/problems/split-array-into-fibonacci-sequence/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>Given a string <code>S</code>&nbsp;of digits, such as <code>S = &quot;123456579&quot;</code>, we can split it into a <em>Fibonacci-like sequence</em>&nbsp;<code>[123, 456, 579].</code></p>\r\n\r\n<p>Formally, a Fibonacci-like sequence is a list&nbsp;<code>F</code> of non-negative integers such that:</p>\r\n\r\n<ul>\r\n\t<li><code>0 &lt;= F[i] &lt;= 2^31 - 1</code>, (that is,&nbsp;each integer fits a 32-bit signed integer type);</li>\r\n\t<li><code>F.length &gt;= 3</code>;</li>\r\n\t<li>and<code> F[i] + F[i+1] = F[i+2] </code>for all <code>0 &lt;= i &lt; F.length - 2</code>.</li>\r\n</ul>\r\n\r\n<p>Also, note that when splitting the string into pieces, each piece must not have extra leading zeroes, except if the piece is the number 0 itself.</p>\r\n\r\n<p>Return any Fibonacci-like sequence split from <code>S</code>, or return <code>[]</code> if it cannot be done.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;123456579&quot;\r\n<strong>Output: </strong>[123,456,579]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;11235813&quot;\r\n<strong>Output: </strong>[1,1,2,3,5,8,13]\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;112358130&quot;\r\n<strong>Output: </strong>[]\r\n<strong>Explanation: </strong>The task is impossible.\r\n</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;0123&quot;\r\n<strong>Output: </strong>[]\r\n<strong>Explanation: </strong>Leading zeroes are not allowed, so &quot;01&quot;, &quot;2&quot;, &quot;3&quot; is not valid.\r\n</pre>\r\n\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;1101111&quot;\r\n<strong>Output: </strong>[110, 1, 111]\r\n<strong>Explanation: </strong>The output [11, 0, 11, 11] would also be accepted.\r\n</pre>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= S.length&nbsp;&lt;= 200</code></li>\r\n\t<li><code>S</code> contains only digits.</li>\r\n</ol>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "split-array-into-fibonacci-sequence", 
     "similarQuestions": "[{\"title\": \"Additive Number\", \"titleSlug\": \"additive-number\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Split Array into Fibonacci Sequence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

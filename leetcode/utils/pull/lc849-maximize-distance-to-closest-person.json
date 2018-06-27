@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,0,0,1,0,1]", 
     "questionFrontendId": "849", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxDistToClosest\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"seats\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximize-distance-to-closest-person/", 
     "stats": "{\"totalAccepted\": \"5K\", \"totalSubmission\": \"12.8K\", \"acRate\": \"39.3%\"}", 
     "interpretUrl": "/problems/maximize-distance-to-closest-person/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>In a row of <code>seats</code>, <code>1</code> represents a person sitting in that seat, and <code>0</code> represents that the seat is empty.&nbsp;</p>\r\n\r\n<p>There is at least one empty seat, and at least one person sitting.</p>\r\n\r\n<p>Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized.&nbsp;</p>\r\n\r\n<p>Return that maximum distance to closest person.</p>\r\n\r\n<div>\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-1-1\">[1,0,0,0,1,0,1]</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">2</span>\r\n<strong>Explanation: </strong>\r\nIf Alex sits in the second open seat (seats[2]), then the closest person has distance 2.\r\nIf Alex sits in any other open seat, the closest person has distance 1.\r\nThus, the maximum distance to the closest person is 2.</pre>\r\n\r\n<div>\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-2-1\">[1,0,0,0]</span>\r\n<strong>Output: </strong><span id=\"example-output-2\">3</span>\r\n<strong>Explanation: </strong>\r\nIf Alex sits in the last seat, the closest person is 3 seats away.\r\nThis is the maximum distance possible, so the answer is 3.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= seats.length &lt;= 20000</code></li>\r\n\t<li><code>seats</code>&nbsp;contains only 0s or 1s, at least one <code>0</code>, and at least one <code>1</code>.</li>\r\n</ol>\r\n</div>\r\n</div>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximize-distance-to-closest-person", 
     "similarQuestions": "[{\"title\": \"Exam Room\", \"titleSlug\": \"exam-room\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximize Distance to Closest Person", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

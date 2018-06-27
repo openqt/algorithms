@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"hello\"", 
     "questionFrontendId": "344", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"reverseString\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-string/", 
     "stats": "{\"totalAccepted\": \"262.3K\", \"totalSubmission\": \"431.9K\", \"acRate\": \"60.7%\"}", 
     "interpretUrl": "/problems/reverse-string/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Write a function that takes a string as input and returns the string reversed.</p>\r\n\r\n<p>\r\n<b>Example:</b><br />\r\nGiven s = \"hello\", return \"olleh\".\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "reverse-string", 
     "similarQuestions": "[{\"title\": \"Reverse Vowels of a String\", \"titleSlug\": \"reverse-vowels-of-a-string\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Reverse String II\", \"titleSlug\": \"reverse-string-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

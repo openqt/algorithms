@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]", 
     "questionFrontendId": "332", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findItinerary\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"tickets\",\r\n      \"type\": \"pair<string,string>[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reconstruct-itinerary/", 
     "stats": "{\"totalAccepted\": \"51K\", \"totalSubmission\": \"169.6K\", \"acRate\": \"30.0%\"}", 
     "interpretUrl": "/problems/reconstruct-itinerary/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Graph", 
-        "slug": "graph"
+        "slug": "graph", 
+        "name": "Graph"
       }
     ], 
     "content": "<p>Given a list of airline tickets represented by pairs of departure and arrival airports <code>[from, to]</code>, reconstruct the itinerary in order. All of the tickets belong to a man who departs from <code>JFK</code>. Thus, the itinerary must begin with <code>JFK</code>.</p>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ol>\r\n\t<li>If there are multiple valid itineraries, you should return the itinerary that has the smallest lexical order when read as a single string. For example, the itinerary <code>[&quot;JFK&quot;, &quot;LGA&quot;]</code> has a smaller lexical order than <code>[&quot;JFK&quot;, &quot;LGB&quot;]</code>.</li>\r\n\t<li>All airports are represented by three capital letters (IATA code).</li>\r\n\t<li>You may assume all tickets form at least one valid itinerary.</li>\r\n</ol>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<code><strong>Input: </strong>tickets</code> = <code>[[&quot;MUC&quot;, &quot;LHR&quot;], [&quot;JFK&quot;, &quot;MUC&quot;], [&quot;SFO&quot;, &quot;SJC&quot;], [&quot;LHR&quot;, &quot;SFO&quot;]]</code>\r\n<strong>Output: </strong><code>[&quot;JFK&quot;, &quot;MUC&quot;, &quot;LHR&quot;, &quot;SFO&quot;, &quot;SJC&quot;]</code>\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<code><strong>Input: </strong>tickets</code> = <code>[[&quot;JFK&quot;,&quot;SFO&quot;],[&quot;JFK&quot;,&quot;ATL&quot;],[&quot;SFO&quot;,&quot;ATL&quot;],[&quot;ATL&quot;,&quot;JFK&quot;],[&quot;ATL&quot;,&quot;SFO&quot;]]</code>\r\n<strong>Output: </strong><code>[&quot;JFK&quot;,&quot;ATL&quot;,&quot;JFK&quot;,&quot;SFO&quot;,&quot;ATL&quot;,&quot;SFO&quot;]</code>\r\n<strong>Explanation: </strong>Another possible reconstruction is <code>[&quot;JFK&quot;,&quot;SFO&quot;,&quot;ATL&quot;,&quot;JFK&quot;,&quot;ATL&quot;,&quot;SFO&quot;]</code>. But it is larger in lexical order.\r\n</pre>\r\n\r\n<p><b>Credits:</b><br />\r\nSpecial thanks to <a href=\"https://leetcode.com/discuss/user/dietpepsi\">@dietpepsi</a> for adding this problem and creating all test cases.</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "reconstruct-itinerary", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reconstruct Itinerary", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

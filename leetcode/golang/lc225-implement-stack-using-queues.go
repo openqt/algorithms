@@ -35,6 +35,8 @@ stack.empty(); // returns false</pre>
 	<li>You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).</li>
 </ul>
 
+Similar Questions:
+  Implement Queue using Stacks (implement-queue-using-stacks)
 */
 type MyStack struct {
     

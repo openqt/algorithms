@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"", 
     "questionFrontendId": "591", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isValid\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"code\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/tag-validator/", 
     "stats": "{\"totalAccepted\": \"3.3K\", \"totalSubmission\": \"10.8K\", \"acRate\": \"31.0%\"}", 
     "interpretUrl": "/problems/tag-validator/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given a string representing a code snippet, you need to implement a tag validator to parse the code and return whether it is valid. A code snippet is valid if all the following rules hold:<p>\r\n<ol>\r\n<li>The code must be wrapped in a <b>valid closed tag</b>. Otherwise, the code is invalid.</li>\r\n<li>A <b>closed tag</b> (not necessarily valid) has exactly the following format : <code>&lt;TAG_NAME&gt;TAG_CONTENT&lt;/TAG_NAME&gt;</code>. Among them, <code>&lt;TAG_NAME&gt;</code> is the start tag, and <code>&lt;/TAG_NAME&gt;</code> is the end tag. The TAG_NAME in start and end tags should be the same. A closed tag is <b>valid</b> if and only if the TAG_NAME and TAG_CONTENT are valid.</li>\r\n<li>A <b>valid</b> <code>TAG_NAME</code> only contain <b>upper-case letters</b>, and has length in range [1,9]. Otherwise, the <code>TAG_NAME</code> is <b>invalid</b>.</li>\r\n<li>A <b>valid</b> <code>TAG_CONTENT</code> may contain other <b>valid closed tags</b>, <b>cdata</b> and any characters (see note1) <b>EXCEPT</b> unmatched <code>&lt;</code>, unmatched start and end tag, and unmatched or closed tags with invalid TAG_NAME. Otherwise, the <code>TAG_CONTENT</code> is <b>invalid</b>.</li>\r\n<li>A start tag is unmatched if no end tag exists with the same TAG_NAME, and vice versa. However, you also need to consider the issue of unbalanced when tags are nested.</li>\r\n<li>A <code>&lt;</code> is unmatched if you cannot find a subsequent <code>></code>. And when you find a <code>&lt;</code> or <code>&lt;/</code>, all the subsequent characters until the next <code>></code> should be parsed as TAG_NAME  (not necessarily valid).</li>\r\n<li>The cdata has the following format : <code>&lt;![CDATA[CDATA_CONTENT]]&gt;</code>. The range of <code>CDATA_CONTENT</code> is defined as the characters between <code>&lt;![CDATA[</code> and the <b>first subsequent</b> <code>]]></code>. </li>\r\n<li><code>CDATA_CONTENT</code> may contain <b>any characters</b>. The function of cdata is to forbid the validator to parse <code>CDATA_CONTENT</code>, so even it has some characters that can be parsed as tag (no matter valid or invalid), you should treat it as <b>regular characters</b>. </li>\r\n</ol>\r\n\r\n<p><b>Valid Code Examples:</b><br />\r\n<pre>\r\n<b>Input:</b> \"&lt;DIV&gt;This is the first line &lt;![CDATA[&lt;div&gt;]]&gt;&lt;/DIV&gt;\"<br />\r\n<b>Output:</b> True<br />\r\n<b>Explanation:</b> <br>\r\nThe code is wrapped in a closed tag : &lt;DIV> and &lt;/DIV>. <br>\r\nThe TAG_NAME is valid, the TAG_CONTENT consists of some characters and cdata. <br>\r\nAlthough CDATA_CONTENT has unmatched start tag with invalid TAG_NAME, it should be considered as plain text, not parsed as tag.<br>\r\nSo TAG_CONTENT is valid, and then the code is valid. Thus return true.<br />\r\n\r\n<b>Input:</b> \"&lt;DIV>>>  ![cdata[]] &lt;![CDATA[&lt;div>]>]]>]]>>]&lt;/DIV>\"<br />\r\n<b>Output:</b> True<br />\r\n<b>Explanation:</b><br />\r\nWe first separate the code into : start_tag|tag_content|end_tag.<br />\r\nstart_tag -> <b>\"&lt;DIV&gt;\"</b><br />\r\nend_tag -> <b>\"&lt;/DIV>\"</b><br />\r\ntag_content could also be separated into : text1|cdata|text2.<br />\r\ntext1 -> <b>\">>  ![cdata[]] \"</b><br />\r\ncdata -> <b>\"&lt;![CDATA[&lt;div>]>]]>\"</b>, where the CDATA_CONTENT is <b>\"&lt;div>]>\"</b><br />\r\ntext2 -> <b>\"]]>>]\"</b><br />\r\n\r\nThe reason why start_tag is NOT <b>\"&lt;DIV>>>\"</b> is because of the rule 6.\r\nThe reason why cdata is NOT <b>\"&lt;![CDATA[&lt;div>]>]]>]]>\"</b> is because of the rule 7.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Invalid Code Examples:</b><br />\r\n<pre>\r\n<b>Input:</b> \"&lt;A>  &lt;B> &lt;/A>   &lt;/B>\"\r\n<b>Output:</b> False\r\n<b>Explanation:</b> Unbalanced. If \"&lt;A>\" is closed, then \"&lt;B>\" must be unmatched, and vice versa.\r\n\r\n<b>Input:</b> \"&lt;DIV&gt;  div tag is not closed  &lt;DIV&gt;\"\r\n<b>Output:</b> False\r\n\r\n<b>Input:</b> \"&lt;DIV&gt;  unmatched &lt  &lt;/DIV&gt;\"\r\n<b>Output:</b> False\r\n\r\n<b>Input:</b> \"&lt;DIV&gt; closed tags with invalid tag name  &lt;b>123&lt;/b> &lt;/DIV&gt;\"\r\n<b>Output:</b> False\r\n\r\n<b>Input:</b> \"&lt;DIV&gt; unmatched tags with invalid tag name  &lt;/1234567890> and &lt;CDATA[[]]>  &lt;/DIV&gt;\"\r\n<b>Output:</b> False\r\n\r\n<b>Input:</b> \"&lt;DIV&gt;  unmatched start tag &lt;B>  and unmatched end tag &lt;/C>  &lt;/DIV&gt;\"\r\n<b>Output:</b> False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>For simplicity, you could assume the input code (including the <b>any characters</b> mentioned above) only contain <code>letters</code>, <code>digits</code>, <code>'&lt;'</code>,<code>'>'</code>,<code>'/'</code>,<code>'!'</code>,<code>'['</code>,<code>']'</code> and <code>' '</code>.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "tag-validator", 
     "similarQuestions": "[{\"title\": \"Add Bold Tag in String\", \"titleSlug\": \"add-bold-tag-in-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Tag Validator", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

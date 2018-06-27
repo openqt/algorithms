@@ -35,6 +35,8 @@ https://leetcode.com/problems/isomorphic-strings/description/
 <p><b>Note:</b><br />
 You may assume both <b><i>s&nbsp;</i></b>and <b><i>t&nbsp;</i></b>have the same length.</p>
 
+Similar Questions:
+  Word Pattern (word-pattern)
 */
 func isIsomorphic(s string, t string) bool {
     

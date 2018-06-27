@@ -21,6 +21,9 @@ https://leetcode.com/problems/binary-tree-preorder-traversal/description/
 
 <p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>
 
+Similar Questions:
+  Binary Tree Inorder Traversal (binary-tree-inorder-traversal)
+  Verify Preorder Sequence in Binary Search Tree (verify-preorder-sequence-in-binary-search-tree)
 """
 
 

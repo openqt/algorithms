@@ -43,6 +43,8 @@ You can split them into two consecutive subsequences :
 <li>The length of the input is in range of [1, 10000]</li>
 </ol>
 </p>
+Similar Questions:
+  Top K Frequent Elements (top-k-frequent-elements)
 */
 func isPossible(nums []int) bool {
     

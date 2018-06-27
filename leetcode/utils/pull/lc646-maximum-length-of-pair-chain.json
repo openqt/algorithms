@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2], [2,3], [3,4]]", 
     "questionFrontendId": "646", 
     "contributors": "[{\"username\": \"ashishmadaan6\", \"profileUrl\": \"/ashishmadaan6/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findLongestChain\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"pairs\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximum-length-of-pair-chain/", 
     "stats": "{\"totalAccepted\": \"21.5K\", \"totalSubmission\": \"45.3K\", \"acRate\": \"47.5%\"}", 
     "interpretUrl": "/problems/maximum-length-of-pair-chain/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nYou are given <code>n</code> pairs of numbers. In every pair, the first number is always smaller than the second number.\r\n</p>\r\n\r\n<p>\r\nNow, we define a pair <code>(c, d)</code> can follow another pair <code>(a, b)</code> if and only if <code>b < c</code>. Chain of pairs can be formed in this fashion. \r\n</p>\r\n\r\n<p>\r\nGiven a set of pairs, find the length longest chain which can be formed. You needn't use up all the given pairs. You can select pairs in any order.\r\n</p>\r\n\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [[1,2], [2,3], [3,4]]\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> The longest chain is [1,2] -> [3,4]\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The number of given pairs will be in the range [1, 1000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximum-length-of-pair-chain", 
     "similarQuestions": "[{\"title\": \"Longest Increasing Subsequence\", \"titleSlug\": \"longest-increasing-subsequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Increasing Subsequences\", \"titleSlug\": \"increasing-subsequences\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximum Length of Pair Chain", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

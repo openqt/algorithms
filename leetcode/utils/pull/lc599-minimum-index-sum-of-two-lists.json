@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"]\n[\"Piatti\",\"The Grill at Torrey Pines\",\"Hungry Hunter Steakhouse\",\"Shogun\"]", 
     "questionFrontendId": "599", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findRestaurant\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"list1\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"list2\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string[]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-index-sum-of-two-lists/", 
     "stats": "{\"totalAccepted\": \"33.9K\", \"totalSubmission\": \"73K\", \"acRate\": \"46.4%\"}", 
     "interpretUrl": "/problems/minimum-index-sum-of-two-lists/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "<p>\r\nSuppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings. \r\n</p>\r\n<p>\r\nYou need to help them find out their <b>common interest</b> with the <b>least list index sum</b>. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.\r\n</p>\r\n\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b>\r\n[\"Shogun\", \"Tapioca Express\", \"Burger King\", \"KFC\"]\r\n[\"Piatti\", \"The Grill at Torrey Pines\", \"Hungry Hunter Steakhouse\", \"Shogun\"]\r\n<b>Output:</b> [\"Shogun\"]\r\n<b>Explanation:</b> The only restaurant they both like is \"Shogun\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b>\r\n[\"Shogun\", \"Tapioca Express\", \"Burger King\", \"KFC\"]\r\n[\"KFC\", \"Shogun\", \"Burger King\"]\r\n<b>Output:</b> [\"Shogun\"]\r\n<b>Explanation:</b> The restaurant they both like and have the least index sum is \"Shogun\" with index sum 1 (0+1).\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The length of both lists will be in the range of [1, 1000].</li>\r\n<li>The length of strings in both lists will be in the range of [1, 30].</li>\r\n<li>The index is starting from 0 to the list length minus 1.</li>\r\n<li>No duplicates in both lists.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-index-sum-of-two-lists", 
     "similarQuestions": "[{\"title\": \"Intersection of Two Linked Lists\", \"titleSlug\": \"intersection-of-two-linked-lists\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Index Sum of Two Lists", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

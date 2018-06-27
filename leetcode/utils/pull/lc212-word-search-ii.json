@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]]\n[\"oath\",\"pea\",\"eat\",\"rain\"]", 
     "questionFrontendId": "212", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findWords\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/word-search-ii/", 
     "stats": "{\"totalAccepted\": \"69.8K\", \"totalSubmission\": \"275.7K\", \"acRate\": \"25.3%\"}", 
     "interpretUrl": "/problems/word-search-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>Given a 2D board and a list of words from the dictionary, find all words in the board.</p>\r\n\r\n<p>Each word must be constructed from letters of sequentially adjacent cell, where &quot;adjacent&quot; cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> \r\n<b>words</b> = <code>[&quot;oath&quot;,&quot;pea&quot;,&quot;eat&quot;,&quot;rain&quot;]</code> and <b>board </b>=\r\n[\r\n  [&#39;<span style=\"color:#d70\">o</span>&#39;,&#39;<span style=\"color:#d70\">a</span>&#39;,&#39;a&#39;,&#39;n&#39;],\r\n  [&#39;e&#39;,&#39;<span style=\"color:#d30\">t</span>&#39;,&#39;<span style=\"color:#d00\">a</span>&#39;,&#39;<span style=\"color:#d00\">e</span>&#39;],\r\n  [&#39;i&#39;,&#39;<span style=\"color:#d70\">h</span>&#39;,&#39;k&#39;,&#39;r&#39;],\r\n  [&#39;i&#39;,&#39;f&#39;,&#39;l&#39;,&#39;v&#39;]\r\n]\r\n\r\n<strong>Output:&nbsp;</strong><code>[&quot;eat&quot;,&quot;oath&quot;]</code>\r\n</pre>\r\n\r\n<p><b>Note:</b><br />\r\nYou may assume that all inputs are consist of lowercase letters <code>a-z</code>.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "word-search-ii", 
     "similarQuestions": "[{\"title\": \"Word Search\", \"titleSlug\": \"word-search\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Word Search II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

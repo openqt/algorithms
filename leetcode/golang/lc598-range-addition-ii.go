@@ -44,6 +44,8 @@ So the maximum integer in M is 2, and there are four of it in M. So return 4.
 <li>The range of operations size won't exceed 10,000.</li>
 </ol>
 </p>
+Similar Questions:
+  Range Addition (range-addition)
 */
 func maxCount(m int, n int, ops [][]int) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,2]", 
     "questionFrontendId": "135", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"candy\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"ratings\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/candy/", 
     "stats": "{\"totalAccepted\": \"80.1K\", \"totalSubmission\": \"313.8K\", \"acRate\": \"25.5%\"}", 
     "interpretUrl": "/problems/candy/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>There are <em>N</em> children standing in a line. Each child is assigned a rating value.</p>\r\n\r\n<p>You are giving candies to these children subjected to the following requirements:</p>\r\n\r\n<ul>\r\n\t<li>Each child must have at least one candy.</li>\r\n\t<li>Children with a higher rating get more candies than their neighbors.</li>\r\n</ul>\r\n\r\n<p>What is the minimum candies you must give?</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,0,2]\r\n<strong>Output:</strong> 5\r\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 2, 1, 2 candies respectively.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,2,2]\r\n<strong>Output:</strong> 4\r\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 1, 2, 1 candies respectively.\r\n             The third child gets 1 candy because it satisfies the above two conditions.\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "candy", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Candy", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

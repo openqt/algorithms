@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"11011000\"", 
     "questionFrontendId": "761", 
     "contributors": "[{\"username\": \"cnmnwpu\", \"profileUrl\": \"/cnmnwpu/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"makeLargestSpecial\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/special-binary-string/", 
     "stats": "{\"totalAccepted\": \"1.9K\", \"totalSubmission\": \"4.5K\", \"acRate\": \"43.6%\"}", 
     "interpretUrl": "/problems/special-binary-string/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Recursion", 
-        "slug": "recursion"
+        "slug": "recursion", 
+        "name": "Recursion"
       }
     ], 
     "content": "<p>\r\n<i>Special</i> binary strings are binary strings with the following two properties:\r\n</p><p>\r\n<li>The number of 0's is equal to the number of 1's.</li>\r\n<li>Every prefix of the binary string has at least as many 1's as 0's.</li>\r\n</p><p>\r\nGiven a special string <code>S</code>, a <i>move</i> consists of choosing two consecutive, non-empty, special substrings of <code>S</code>, and swapping them.  <i>(Two strings are consecutive if the last character of the first string is exactly one index before the first character of the second string.)</i>\r\n</p><p>\r\nAt the end of any number of moves, what is the lexicographically largest resulting string possible?\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> S = \"11011000\"\r\n<b>Output:</b> \"11100100\"\r\n<b>Explanation:</b>\r\nThe strings \"10\" [occuring at S[1]] and \"1100\" [at S[3]] are swapped.\r\nThis is the lexicographically largest string possible after some number of swaps.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><ol>\r\n<li><code>S</code> has length at most <code>50</code>.</li>\r\n<li><code>S</code> is guaranteed to be a <i>special</i> binary string as defined above.</li>\r\n</ol></p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "special-binary-string", 
     "similarQuestions": "[{\"title\": \"Valid Parenthesis String\", \"titleSlug\": \"valid-parenthesis-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Special Binary String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

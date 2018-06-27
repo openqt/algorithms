@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"1s3 PSt\"\n[\"step\",\"steps\",\"stripe\",\"stepple\"]", 
     "questionFrontendId": "748", 
     "contributors": "[{\"username\": \"TopCoder111\", \"profileUrl\": \"/topcoder111/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"shortestCompletingWord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"licensePlate\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/shortest-completing-word/", 
     "stats": "{\"totalAccepted\": \"8.6K\", \"totalSubmission\": \"16.5K\", \"acRate\": \"52.1%\"}", 
     "interpretUrl": "/problems/shortest-completing-word/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "<p>\r\nFind the minimum length word from a given dictionary <code>words</code>, which has all the letters from the string <code>licensePlate</code>.  Such a word is said to <i>complete</i> the given string <code>licensePlate</code>\r\n</p><p>\r\nHere, for letters we ignore case.  For example, <code>\"P\"</code> on the <code>licensePlate</code> still matches <code>\"p\"</code> on the word.\r\n</p><p>\r\nIt is guaranteed an answer exists.  If there are multiple answers, return the one that occurs first in the array.\r\n</p><p>\r\nThe license plate might have the same letter occurring multiple times.  For example, given a <code>licensePlate</code> of <code>\"PP\"</code>, the word <code>\"pair\"</code> does not complete the <code>licensePlate</code>, but the word <code>\"supper\"</code> does.\r\n</p><p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> licensePlate = \"1s3 PSt\", words = [\"step\", \"steps\", \"stripe\", \"stepple\"]\r\n<b>Output:</b> \"steps\"\r\n<b>Explanation:</b> The smallest length word that contains the letters \"S\", \"P\", \"S\", and \"T\".\r\nNote that the answer is not \"step\", because the letter \"s\" must occur in the word twice.\r\nAlso note that we ignored case for the purposes of comparing whether a letter exists in the word.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> licensePlate = \"1s3 456\", words = [\"looks\", \"pest\", \"stew\", \"show\"]\r\n<b>Output:</b> \"pest\"\r\n<b>Explanation:</b> There are 3 smallest length words that contains the letters \"s\".\r\nWe return the one that occurred first.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li><code>licensePlate</code> will be a string with length in range <code>[1, 7]</code>.</li>\r\n<li><code>licensePlate</code> will contain digits, spaces, or letters (uppercase or lowercase).</li>\r\n<li><code>words</code> will have a length in the range <code>[10, 1000]</code>.</li>\r\n<li>Every <code>words[i]</code> will consist of lowercase letters, and have length in range <code>[1, 15]</code>.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "shortest-completing-word", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Shortest Completing Word", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

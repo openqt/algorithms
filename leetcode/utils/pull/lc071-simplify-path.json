@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"/home/\"", 
     "questionFrontendId": "71", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"simplifyPath\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"path\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/simplify-path/", 
     "stats": "{\"totalAccepted\": \"116.9K\", \"totalSubmission\": \"439.9K\", \"acRate\": \"26.6%\"}", 
     "interpretUrl": "/problems/simplify-path/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given an absolute path for a file (Unix-style), simplify it.</p>\r\n\r\n<p>For example,<br />\r\n<strong>path</strong> = <code>&quot;/home/&quot;</code>, =&gt; <code>&quot;/home&quot;</code><br />\r\n<strong>path</strong> = <code>&quot;/a/./b/../../c/&quot;</code>, =&gt; <code>&quot;/c&quot;</code></p>\r\n\r\n<p><strong>Corner Cases:</strong></p>\r\n\r\n<ul>\r\n\t<li>Did you consider the case where <strong>path</strong> = <code>&quot;/../&quot;</code>?<br />\r\n\tIn this case, you should return <code>&quot;/&quot;</code>.</li>\r\n\t<li>Another corner case is the path might contain multiple slashes <code>&#39;/&#39;</code> together, such as <code>&quot;/home//foo/&quot;</code>.<br />\r\n\tIn this case, you should ignore redundant slashes and return <code>&quot;/home/foo&quot;</code>.</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "simplify-path", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Simplify Path", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

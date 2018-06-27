@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[4,2,6,3,1,5]\n1\n2", 
     "questionFrontendId": "623", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"addOneRow\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"v\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"d\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/add-one-row-to-tree/", 
     "stats": "{\"totalAccepted\": \"16.6K\", \"totalSubmission\": \"35.9K\", \"acRate\": \"46.2%\"}", 
     "interpretUrl": "/problems/add-one-row-to-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given the root of a binary tree, then value <code>v</code> and depth <code>d</code>, you need to add a row of nodes with value <code>v</code> at the given depth <code>d</code>. The root node is at depth 1. </p>\r\n\r\n<p>The adding rule is: given a positive integer depth <code>d</code>, for each NOT null tree nodes <code>N</code> in depth <code>d-1</code>, create two tree nodes with value <code>v</code> as <code>N's</code> left subtree root and right subtree root. And <code>N's</code> <b>original left subtree</b> should be the left subtree of the new left subtree root, its <b>original right subtree</b> should be the right subtree of the new right subtree root. If depth <code>d</code> is 1 that means there is no depth d-1 at all, then create a tree node with value <b>v</b> as the new root of the whole original tree, and the original tree is the new root's left subtree.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nA binary tree as following:\r\n       4\r\n     /   \\\r\n    2     6\r\n   / \\   / \r\n  3   1 5   \r\n\r\n<b>v = 1</b>\r\n\r\n<b>d = 2</b>\r\n\r\n<b>Output:</b> \r\n       4\r\n      / \\\r\n     1   1\r\n    /     \\\r\n   2       6\r\n  / \\     / \r\n 3   1   5   \r\n\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nA binary tree as following:\r\n      4\r\n     /   \r\n    2    \r\n   / \\   \r\n  3   1    \r\n\r\n<b>v = 1</b>\r\n\r\n<b>d = 3</b>\r\n\r\n<b>Output:</b> \r\n      4\r\n     /   \r\n    2\r\n   / \\    \r\n  1   1\r\n /     \\  \r\n3       1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The given d is in range [1, maximum depth of the given tree + 1].</li>\r\n<li>The given binary tree has at least one tree node.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "add-one-row-to-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Add One Row to Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

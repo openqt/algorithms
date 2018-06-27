@@ -32,6 +32,8 @@ For instance, <code>2.5</code> is not &quot;two and a half&quot; or &quot;half w
 <strong>Input:</strong> <code><em>version1</em></code> = &quot;7.5.2.4&quot;, <code><em>version2</em></code> = &quot;7.5.3&quot;
 <strong>Output:</strong> -1</pre>
 
+Similar Questions:
+
 */
 func compareVersion(version1 string, version2 string) int {
     

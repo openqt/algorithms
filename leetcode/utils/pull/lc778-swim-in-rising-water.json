@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[0,2],[1,3]]", 
     "questionFrontendId": "778", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"swimInWater\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/swim-in-rising-water/", 
     "stats": "{\"totalAccepted\": \"4.7K\", \"totalSubmission\": \"10.6K\", \"acRate\": \"44.6%\"}", 
     "interpretUrl": "/problems/swim-in-rising-water/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Union Find", 
-        "slug": "union-find"
+        "slug": "union-find", 
+        "name": "Union Find"
       }
     ], 
     "content": "<p>On an N x N <code>grid</code>, each square <code>grid[i][j]</code> represents the elevation at that point <code>(i,j)</code>.</p>\r\n\r\n<p>Now rain starts to fall. At time <code>t</code>, the depth of the water everywhere is <code>t</code>. You can swim from a square to another 4-directionally adjacent square if and only if the elevation of both squares individually are&nbsp;at most&nbsp;<code>t</code>. You can swim infinite distance in zero time. Of course, you must stay within the boundaries of the grid during your swim.</p>\r\n\r\n<p>You start at the top left square <code>(0, 0)</code>. What is the least time until you can reach the bottom right square <code>(N-1, N-1)</code>?</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [[0,2],[1,3]]\r\n<strong>Output:</strong> 3\r\n<strong>Explanation:</strong>\r\nAt time <code>0</code>, you are in grid location <code>(0, 0)</code>.\r\nYou cannot go anywhere else because 4-directionally adjacent neighbors have a higher elevation than t = 0.\r\n\r\nYou cannot reach point <code>(1, 1)</code> until time <code>3</code>.\r\nWhen the depth of water is <code>3</code>, we can swim anywhere inside the grid.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [[0,1,2,3,4],[24,23,22,21,5],[12,13,14,15,16],[11,17,18,19,20],[10,9,8,7,6]]\r\n<strong>Output:</strong> 16\r\n<strong>Explanation:</strong>\r\n<strong> 0  1  2  3  4</strong>\r\n24 23 22 21  <strong>5</strong>\r\n<strong>12 13 14 15 16</strong>\r\n<strong>11</strong> 17 18 19 20\r\n<strong>10  9  8  7  6</strong>\r\n\r\nThe final route is marked in bold.\r\nWe need to wait until time 16 so that (0, 0) and (4, 4) are connected.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>2 &lt;= N &lt;= 50</code>.</li>\r\n\t<li>grid[i][j] is a permutation of [0, ..., N*N - 1].</li>\r\n</ol>", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "swim-in-rising-water", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Swim in Rising Water", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

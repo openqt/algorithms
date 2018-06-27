@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"13\"", 
     "questionFrontendId": "483", 
     "contributors": "[{\"username\": \"ckcz123\", \"profileUrl\": \"/ckcz123/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"smallestGoodBase\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/smallest-good-base/", 
     "stats": "{\"totalAccepted\": \"7.6K\", \"totalSubmission\": \"22.3K\", \"acRate\": \"34.0%\"}", 
     "interpretUrl": "/problems/smallest-good-base/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>For an integer n, we call k>=2 a <i><b>good base</b></i> of n, if all digits of n base k are 1.</p>\r\n<p>Now given a string representing n, you should return the smallest good base of n in string format. <br/></p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"13\"\r\n<b>Output:</b> \"3\"\r\n<b>Explanation:</b> 13 base 3 is 111.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"4681\"\r\n<b>Output:</b> \"8\"\r\n<b>Explanation:</b> 4681 base 8 is 11111.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> \"1000000000000000000\"\r\n<b>Output:</b> \"999999999999999999\"\r\n<b>Explanation:</b> 1000000000000000000 base 999999999999999999 is 11.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The range of n is [3, 10^18].</li>\r\n<li>The string representing n is always valid and will not have leading zeros.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "smallest-good-base", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Smallest Good Base", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

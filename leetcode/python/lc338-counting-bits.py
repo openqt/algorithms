@@ -20,6 +20,8 @@ For <code>num = 5</code> you should return <code>[0,1,1,2,1,2]</code>.
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/syedee">@ syedee </a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
 """
 
 

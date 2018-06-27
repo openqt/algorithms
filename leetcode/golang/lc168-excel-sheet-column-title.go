@@ -43,6 +43,8 @@ https://leetcode.com/problems/excel-sheet-column-title/description/
 <strong>Output:</strong> &quot;ZY&quot;
 </pre>
 
+Similar Questions:
+  Excel Sheet Column Number (excel-sheet-column-number)
 */
 func convertToTitle(n int) string {
     

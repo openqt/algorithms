@@ -19,6 +19,10 @@ https://leetcode.com/problems/sort-list/description/
 <strong>Input:</strong> -1-&gt;5-&gt;3-&gt;4-&gt;0
 <strong>Output:</strong> -1-&gt;0-&gt;3-&gt;4-&gt;5</pre>
 
+Similar Questions:
+  Merge Two Sorted Lists (merge-two-sorted-lists)
+  Sort Colors (sort-colors)
+  Insertion Sort List (insertion-sort-list)
 """
 
 

@@ -24,6 +24,8 @@ https://leetcode.com/problems/max-consecutive-ones/description/
 <li>The length of input array is a positive integer and will not exceed 10,000</li>
 </ul>
 </p>
+Similar Questions:
+  Max Consecutive Ones II (max-consecutive-ones-ii)
 */
 func findMaxConsecutiveOnes(nums []int) int {
     

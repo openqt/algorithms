@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,3,5,0,0,3,1,4]", 
     "questionFrontendId": "123", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxProfit\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"prices\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/best-time-to-buy-and-sell-stock-iii/", 
     "stats": "{\"totalAccepted\": \"111.8K\", \"totalSubmission\": \"363.7K\", \"acRate\": \"30.7%\"}", 
     "interpretUrl": "/problems/best-time-to-buy-and-sell-stock-iii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Say you have an array for which the <em>i</em><sup>th</sup> element is the price of a given stock on day <em>i</em>.</p>\r\n\r\n<p>Design an algorithm to find the maximum profit. You may complete at most <em>two</em> transactions.</p>\r\n\r\n<p><strong>Note:&nbsp;</strong>You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [3,3,5,0,0,3,1,4]\r\n<strong>Output:</strong> 6\r\n<strong>Explanation:</strong> Buy on day 4 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.\r\n&nbsp;            Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,2,3,4,5]\r\n<strong>Output:</strong> 4\r\n<strong>Explanation:</strong> Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.\r\n&nbsp;            Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are\r\n&nbsp;            engaging multiple transactions at the same time. You must sell before buying again.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [7,6,4,3,1]\r\n<strong>Output:</strong> 0\r\n<strong>Explanation:</strong> In this case, no transaction is done, i.e. max profit = 0.</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "best-time-to-buy-and-sell-stock-iii", 
     "similarQuestions": "[{\"title\": \"Best Time to Buy and Sell Stock\", \"titleSlug\": \"best-time-to-buy-and-sell-stock\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Best Time to Buy and Sell Stock II\", \"titleSlug\": \"best-time-to-buy-and-sell-stock-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Best Time to Buy and Sell Stock IV\", \"titleSlug\": \"best-time-to-buy-and-sell-stock-iv\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Maximum Sum of 3 Non-Overlapping Subarrays\", \"titleSlug\": \"maximum-sum-of-3-non-overlapping-subarrays\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Best Time to Buy and Sell Stock III", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

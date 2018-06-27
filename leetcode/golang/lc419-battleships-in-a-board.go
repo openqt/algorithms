@@ -30,6 +30,8 @@ XXXX
 This is an invalid board that you will not receive - as battleships will always have a cell separating between them.
 <p></p>
 <p><b>Follow up:</b><br>Could you do it in <b>one-pass</b>, using only <b>O(1) extra memory</b> and <b>without modifying</b> the value of the board?</p>
+Similar Questions:
+
 */
 func countBattleships(board [][]byte) int {
     

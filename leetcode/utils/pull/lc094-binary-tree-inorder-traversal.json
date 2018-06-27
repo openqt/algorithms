@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,null,2,3]", 
     "questionFrontendId": "94", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"inorderTraversal\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-inorder-traversal/", 
     "stats": "{\"totalAccepted\": \"299.8K\", \"totalSubmission\": \"589.9K\", \"acRate\": \"50.8%\"}", 
     "interpretUrl": "/problems/binary-tree-inorder-traversal/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary tree, return the <em>inorder</em> traversal of its nodes&#39; values.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,null,2,3]\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   3\r\n\r\n<strong>Output:</strong> [1,3,2]</pre>\r\n\r\n<p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "binary-tree-inorder-traversal", 
     "similarQuestions": "[{\"title\": \"Validate Binary Search Tree\", \"titleSlug\": \"validate-binary-search-tree\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Preorder Traversal\", \"titleSlug\": \"binary-tree-preorder-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Postorder Traversal\", \"titleSlug\": \"binary-tree-postorder-traversal\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Binary Search Tree Iterator\", \"titleSlug\": \"binary-search-tree-iterator\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Kth Smallest Element in a BST\", \"titleSlug\": \"kth-smallest-element-in-a-bst\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Closest Binary Search Tree Value II\", \"titleSlug\": \"closest-binary-search-tree-value-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Inorder Successor in BST\", \"titleSlug\": \"inorder-successor-in-bst\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Minimum Distance Between BST Nodes\", \"titleSlug\": \"minimum-distance-between-bst-nodes\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Inorder Traversal", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

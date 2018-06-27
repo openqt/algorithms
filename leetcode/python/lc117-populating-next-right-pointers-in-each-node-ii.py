@@ -47,6 +47,8 @@ struct TreeLinkNode {
 4-&gt; 5 -&gt; 7 -&gt; NULL
 </pre>
 
+Similar Questions:
+  Populating Next Right Pointers in Each Node (populating-next-right-pointers-in-each-node)
 """
 
 

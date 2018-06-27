@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,0,6,1,5]", 
     "questionFrontendId": "274", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"hIndex\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"citations\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/h-index/", 
     "stats": "{\"totalAccepted\": \"100.8K\", \"totalSubmission\": \"297.2K\", \"acRate\": \"33.9%\"}", 
     "interpretUrl": "/problems/h-index/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Sort", 
-        "slug": "sort"
+        "slug": "sort", 
+        "name": "Sort"
       }
     ], 
     "content": "<p>Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher&#39;s h-index.</p>\r\n\r\n<p>According to the <a href=\"https://en.wikipedia.org/wiki/H-index\" target=\"_blank\">definition of h-index on Wikipedia</a>: &quot;A scientist has index <i>h</i> if <i>h</i> of his/her <i>N</i> papers have <b>at least</b> <i>h</i> citations each, and the other <i>N &minus; h</i> papers have <b>no more than</b> <i>h</i> citations each.&quot;</p>\r\n\r\n<p><b>Example:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>citations = [3,0,6,1,5]</code>\r\n<b>Output:</b> 3 \r\n<strong>Explanation: </strong><code>[3,0,6,1,5] </code>means the researcher has <code>5</code> papers in total and each of them had \r\n             received <code>3, 0, 6, 1, 5</code> citations respectively. \r\n&nbsp;            Since the researcher has <code>3</code> papers with <b>at least</b> <code>3</code> citations each and the remaining \r\n&nbsp;            two with <b>no more than</b> <code>3</code> citations each, her h-index is <code>3</code>.</pre>\r\n\r\n<p><strong>Note:&nbsp;</strong>If there are several possible values for <em>h</em>, the maximum one is taken as the h-index.</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "h-index", 
     "similarQuestions": "[{\"title\": \"H-Index II\", \"titleSlug\": \"h-index-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "H-Index", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -14,6 +14,8 @@ Given <i>a</i> = 1 and <i>b</i> = 2, return 3.
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/fujiaozhu">@fujiaozhu</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Add Two Numbers (add-two-numbers)
 */
 func getSum(a int, b int) int {
     

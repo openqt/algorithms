@@ -41,6 +41,8 @@ For example, [0,2,3,1] is also a valid gray code sequence.
 &nbsp;            Therefore, for <em>n</em> = 0 the gray code sequence is [0].</code>
 </pre>
 
+Similar Questions:
+  1-bit and 2-bit Characters (1-bit-and-2-bit-characters)
 */
 func grayCode(n int) []int {
     

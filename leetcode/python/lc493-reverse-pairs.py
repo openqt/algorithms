@@ -26,6 +26,9 @@ https://leetcode.com/problems/reverse-pairs/description/
 <li>All the numbers in the input array are in the range of 32-bit integer.</li>
 </ol>
 </p>
+Similar Questions:
+  Count of Smaller Numbers After Self (count-of-smaller-numbers-after-self)
+  Count of Range Sum (count-of-range-sum)
 """
 
 

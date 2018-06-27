@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"cba\"\n\"abcd\"", 
     "questionFrontendId": "791", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"customSortString\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"T\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/custom-sort-string/", 
     "stats": "{\"totalAccepted\": \"10.7K\", \"totalSubmission\": \"18K\", \"acRate\": \"59.5%\"}", 
     "interpretUrl": "/problems/custom-sort-string/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p><code>S</code> and <code>T</code> are strings composed of lowercase letters. In <code>S</code>, no letter occurs more than once.</p>\r\n\r\n<p><code>S</code> was sorted in some custom order previously. We want to permute the characters of <code>T</code> so that they match the order that <code>S</code> was sorted. More specifically, if <code>x</code> occurs before <code>y</code> in <code>S</code>, then <code>x</code> should occur before <code>y</code> in the returned string.</p>\r\n\r\n<p>Return any permutation of <code>T</code> (as a string) that satisfies this property.</p>\r\n\r\n<pre>\r\n<strong>Example :</strong>\r\n<strong>Input:</strong> \r\nS = &quot;cba&quot;\r\nT = &quot;abcd&quot;\r\n<strong>Output:</strong> &quot;cbad&quot;\r\n<strong>Explanation:</strong> \r\n&quot;a&quot;, &quot;b&quot;, &quot;c&quot; appear in S, so the order of &quot;a&quot;, &quot;b&quot;, &quot;c&quot; should be &quot;c&quot;, &quot;b&quot;, and &quot;a&quot;. \r\nSince &quot;d&quot; does not appear in S, it can be at any position in T. &quot;dcba&quot;, &quot;cdba&quot;, &quot;cbda&quot; are also valid outputs.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>S</code> has length at most <code>26</code>, and no character is repeated in <code>S</code>.</li>\r\n\t<li><code>T</code> has length at most <code>200</code>.</li>\r\n\t<li><code>S</code> and <code>T</code> consist of lowercase letters only.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "custom-sort-string", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Custom Sort String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

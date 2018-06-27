@@ -37,6 +37,8 @@ https://leetcode.com/problems/top-k-frequent-words/description/
 <li>Try to solve it in <i>O</i>(<i>n</i> log <i>k</i>) time and <i>O</i>(<i>n</i>) extra space.</li>
 </ol>
 </p>
+Similar Questions:
+  Top K Frequent Elements (top-k-frequent-elements)
 """
 
 

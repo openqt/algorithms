@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,2]\n1\n2", 
     "questionFrontendId": "669", 
     "contributors": "[{\"username\": \"tr808\", \"profileUrl\": \"/tr808/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"trimBST\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n        \"name\": \"L\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"R\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/trim-a-binary-search-tree/", 
     "stats": "{\"totalAccepted\": \"35.9K\", \"totalSubmission\": \"61.6K\", \"acRate\": \"58.3%\"}", 
     "interpretUrl": "/problems/trim-a-binary-search-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>\r\nGiven a binary search tree and the lowest and highest boundaries as <code>L</code> and <code>R</code>, trim the tree so that all its elements lies in <code>[L, R]</code> (R >= L). You might need to change the root of the tree, so the result should return the new root of the trimmed binary search tree.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n    1\r\n   / \\\r\n  0   2\r\n\r\n  L = 1\r\n  R = 2\r\n\r\n<b>Output:</b> \r\n    1\r\n      \\\r\n       2\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n    3\r\n   / \\\r\n  0   4\r\n   \\\r\n    2\r\n   /\r\n  1\r\n\r\n  L = 1\r\n  R = 3\r\n\r\n<b>Output:</b> \r\n      3\r\n     / \r\n   2   \r\n  /\r\n 1\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "trim-a-binary-search-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Trim a Binary Search Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

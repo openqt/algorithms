@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3\n3\n5", 
     "questionFrontendId": "668", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findKthNumber\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"m\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/kth-smallest-number-in-multiplication-table/", 
     "stats": "{\"totalAccepted\": \"7K\", \"totalSubmission\": \"17.3K\", \"acRate\": \"40.8%\"}", 
     "interpretUrl": "/problems/kth-smallest-number-in-multiplication-table/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>\r\nNearly every one have used the <a href=\"https://en.wikipedia.org/wiki/Multiplication_table\">Multiplication Table</a>. But could you find out the <code>k-th</code> smallest number quickly from the multiplication table?\r\n</p>\r\n\r\n<p>\r\nGiven the height <code>m</code> and the length <code>n</code> of a <code>m * n</code> Multiplication Table, and a positive integer <code>k</code>, you need to return the <code>k-th</code> smallest number in this table.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> m = 3, n = 3, k = 5\r\n<b>Output:</b> \r\n<b>Explanation:</b> \r\nThe Multiplication Table:\r\n1\t2\t3\r\n2\t4\t6\r\n3\t6\t9\r\n\r\nThe 5-th smallest number is 3 (1, 2, 2, 3, 3).\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> m = 2, n = 3, k = 6\r\n<b>Output:</b> \r\n<b>Explanation:</b> \r\nThe Multiplication Table:\r\n1\t2\t3\r\n2\t4\t6\r\n\r\nThe 6-th smallest number is 6 (1, 2, 2, 3, 4, 6).\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The <code>m</code> and <code>n</code> will be in the range [1, 30000].</li>\r\n<li>The <code>k</code> will be in the range [1, m * n]</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "kth-smallest-number-in-multiplication-table", 
     "similarQuestions": "[{\"title\": \"Kth Smallest Element in a Sorted Matrix\", \"titleSlug\": \"kth-smallest-element-in-a-sorted-matrix\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find K-th Smallest Pair Distance\", \"titleSlug\": \"find-k-th-smallest-pair-distance\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"K-th Smallest Prime Fraction\", \"titleSlug\": \"k-th-smallest-prime-fraction\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Kth Smallest Number in Multiplication Table", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

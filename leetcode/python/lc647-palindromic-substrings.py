@@ -33,6 +33,10 @@ The substrings with different start indexes or end indexes are counted as differ
 <li>The input string length won't exceed 1000.</li>
 </ol>
 </p>
+Similar Questions:
+  Longest Palindromic Substring (longest-palindromic-substring)
+  Longest Palindromic Subsequence (longest-palindromic-subsequence)
+  Palindromic Substrings (palindromic-substrings)
 """
 
 

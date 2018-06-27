@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2", 
     "questionFrontendId": "357", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countNumbersWithUniqueDigits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/count-numbers-with-unique-digits/", 
     "stats": "{\"totalAccepted\": \"49.2K\", \"totalSubmission\": \"106.6K\", \"acRate\": \"46.2%\"}", 
     "interpretUrl": "/problems/count-numbers-with-unique-digits/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given a <b>non-negative</b> integer n, count all numbers with unique digits, x, where 0 &le; x &lt; 10<sup>n</sup>.</p>\r\n\r\n<p>\r\n    <b>Example:</b><br/>\r\nGiven n = 2, return 91. (The answer should be the total numbers in the range of 0 &le; x &lt; 100, excluding <code>[11,22,33,44,55,66,77,88,99]</code>)\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://discuss.leetcode.com/user/memoryless\">@memoryless</a> for adding this problem and creating all test cases.</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "count-numbers-with-unique-digits", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Count Numbers with Unique Digits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

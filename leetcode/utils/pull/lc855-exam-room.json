@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"ExamRoom\",\"seat\",\"seat\",\"seat\",\"seat\",\"leave\",\"seat\"]\n[[10],[],[],[],[],[4],[]]", 
     "questionFrontendId": "855", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"ExamRoom\",\r\n    \"maxbytesperline\": 200000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"N\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"seat\",\r\n            \"params\": [],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        },\r\n        {\r\n            \"name\" : \"leave\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"p\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/exam-room/", 
     "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"6.8K\", \"acRate\": \"29.4%\"}", 
     "interpretUrl": "/problems/exam-room/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Map", 
-        "slug": "map"
+        "slug": "map", 
+        "name": "Map"
       }
     ], 
     "content": "<p>In an exam room, there are <code>N</code> seats in a single row, numbered <code>0, 1, 2, ..., N-1</code>.</p>\r\n\r\n<p>When a student enters the room, they must sit in the seat that maximizes the distance to the closest person.&nbsp; If there are multiple such seats, they sit in the seat with the lowest number.&nbsp; (Also, if no one is in the room, then the student sits at seat number 0.)</p>\r\n\r\n<p>Return a class <code>ExamRoom(int N)</code>&nbsp;that exposes two functions: <code>ExamRoom.seat()</code>&nbsp;returning an <code>int</code>&nbsp;representing what seat the student sat in, and <code>ExamRoom.leave(int p)</code>&nbsp;representing that the student in seat number <code>p</code>&nbsp;now leaves the room.&nbsp; It is guaranteed that any calls to <code>ExamRoom.leave(p)</code> have a student sitting in seat <code>p</code>.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-1-1\">[&quot;ExamRoom&quot;,&quot;seat&quot;,&quot;seat&quot;,&quot;seat&quot;,&quot;seat&quot;,&quot;leave&quot;,&quot;seat&quot;]</span>, <span id=\"example-input-1-2\">[[10],[],[],[],[],[4],[]]</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">[null,0,9,4,2,null,5]</span>\r\n<span><strong>Explanation</strong>:\r\nExamRoom(10) -&gt; null\r\nseat() -&gt; 0, no one is in the room, then the student sits at seat number 0.\r\nseat() -&gt; 9, the student sits at the last seat number 9.\r\nseat() -&gt; 4, the student sits at the last seat number 4.\r\nseat() -&gt; 2, the student sits at the last seat number 2.\r\nleave(4) -&gt; null\r\nseat() -&gt; 5, the student\u200b\u200b\u200b\u200b\u200b\u200b\u200b sits at the last seat number 5.</span>\r\n</pre>\r\n\r\n<p><span>\u200b\u200b\u200b\u200b\u200b\u200b\u200b</span></p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= N &lt;= 10^9</code></li>\r\n\t<li><code>ExamRoom.seat()</code> and <code>ExamRoom.leave()</code> will be called at most <code>10^4</code> times across all test cases.</li>\r\n\t<li>Calls to <code>ExamRoom.leave(p)</code> are guaranteed to have a student currently sitting in seat number <code>p</code>.</li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "exam-room", 
     "similarQuestions": "[{\"title\": \"Maximize Distance to Closest Person\", \"titleSlug\": \"maximize-distance-to-closest-person\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Exam Room", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -22,6 +22,8 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-f
 <li><code>0 < prices[i] < 50000</code>.</li>
 <li><code>0 <= fee < 50000</code>.</li>
 </p>
+Similar Questions:
+  Best Time to Buy and Sell Stock II (best-time-to-buy-and-sell-stock-ii)
 """
 
 

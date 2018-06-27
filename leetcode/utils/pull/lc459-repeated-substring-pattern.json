@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abab\"", 
     "questionFrontendId": "459", 
     "contributors": "[{\"username\": \"YuhanXu\", \"profileUrl\": \"/yuhanxu/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"repeatedSubstringPattern\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/repeated-substring-pattern/", 
     "stats": "{\"totalAccepted\": \"56.2K\", \"totalSubmission\": \"146.4K\", \"acRate\": \"38.4%\"}", 
     "interpretUrl": "/problems/repeated-substring-pattern/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.  You may assume the given string consists of lowercase English letters only and its length  will not exceed 10000. \r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"abab\"\r\n\r\n<b>Output:</b> True\r\n\r\n<b>Explanation:</b> It's the substring \"ab\" twice.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"aba\"\r\n\r\n<b>Output:</b> False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> \"abcabcabcabc\"\r\n\r\n<b>Output:</b> True\r\n\r\n<b>Explanation:</b> It's the substring \"abc\" four times. (And the substring \"abcabc\" twice.)\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "repeated-substring-pattern", 
     "similarQuestions": "[{\"title\": \"Implement strStr()\", \"titleSlug\": \"implement-strstr\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Repeated String Match\", \"titleSlug\": \"repeated-string-match\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Repeated Substring Pattern", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

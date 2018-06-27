@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[7,2,5,10,8]\n2", 
     "questionFrontendId": "410", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"splitArray\",\r\n  \"params\": [\r\n\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n          {\r\n       \"name\": \"m\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/split-array-largest-sum/", 
     "stats": "{\"totalAccepted\": \"24.9K\", \"totalSubmission\": \"62.7K\", \"acRate\": \"39.7%\"}", 
     "interpretUrl": "/problems/split-array-largest-sum/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given an array which consists of non-negative integers and an integer <i>m</i>, you can split the array into <i>m</i> non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these <i>m</i> subarrays.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\nIf <i>n</i> is the length of array, assume the following constraints are satisfied:\r\n<ul>\r\n<li>1 &le; <i>n</i> &le; 1000</li>\r\n<li>1 &le; <i>m</i> &le; min(50, <i>n</i>)</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Examples: </b>\r\n<pre>\r\nInput:\r\n<b>nums</b> = [7,2,5,10,8]\r\n<b>m</b> = 2\r\n\r\nOutput:\r\n18\r\n\r\nExplanation:\r\nThere are four ways to split <b>nums</b> into two subarrays.\r\nThe best way is to split it into <b>[7,2,5]</b> and <b>[10,8]</b>,\r\nwhere the largest sum among the two subarrays is only 18.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "split-array-largest-sum", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Split Array Largest Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

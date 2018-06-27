@@ -43,6 +43,8 @@ https://leetcode.com/problems/game-of-life/description/
 	<li>In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?</li>
 </ol>
 
+Similar Questions:
+  Set Matrix Zeroes (set-matrix-zeroes)
 """
 
 

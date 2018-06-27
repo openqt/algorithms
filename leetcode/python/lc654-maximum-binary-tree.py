@@ -37,6 +37,8 @@ Construct the maximum tree by the given array and output the root node of this t
 <li>The size of the given array will be in the range [1,1000].</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

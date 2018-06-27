@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"PPALLP\"", 
     "questionFrontendId": "551", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"checkRecord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/student-attendance-record-i/", 
     "stats": "{\"totalAccepted\": \"35K\", \"totalSubmission\": \"78.1K\", \"acRate\": \"44.8%\"}", 
     "interpretUrl": "/problems/student-attendance-record-i/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "You are given a string representing an attendance record for a student. The record only contains the following three characters:\r\n\r\n<p>\r\n<ol>\r\n<li><b>'A'</b> : Absent. </li>\r\n<li><b>'L'</b> : Late.</li>\r\n<li> <b>'P'</b> : Present. </li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nA student could be rewarded if his attendance record doesn't contain <b>more than one 'A' (absent)</b> or <b>more than two continuous 'L' (late)</b>.    </p>\r\n\r\n<p>You need to return whether the student could be rewarded according to his attendance record.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"PPALLP\"\r\n<b>Output:</b> True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"PPALLL\"\r\n<b>Output:</b> False\r\n</pre>\r\n</p>\r\n\r\n\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "student-attendance-record-i", 
     "similarQuestions": "[{\"title\": \"Student Attendance Record II\", \"titleSlug\": \"student-attendance-record-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Student Attendance Record I", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

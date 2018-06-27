@@ -19,6 +19,9 @@ https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/descripti
 [5,6]
 </pre>
 </p>
+Similar Questions:
+  First Missing Positive (first-missing-positive)
+  Find All Duplicates in an Array (find-all-duplicates-in-an-array)
 """
 
 

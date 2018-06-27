@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "12\n[2,7,13,19]", 
     "questionFrontendId": "313", 
     "contributors": "[{\"username\": \"dietpepsi\", \"profileUrl\": \"/dietpepsi/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"nthSuperUglyNumber\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"primes\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/super-ugly-number/", 
     "stats": "{\"totalAccepted\": \"48K\", \"totalSubmission\": \"124.5K\", \"acRate\": \"38.6%\"}", 
     "interpretUrl": "/problems/super-ugly-number/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }
     ], 
     "content": "<p>Write a program to find the <code>n<sup>th</sup></code> super ugly number.</p>\r\n\r\n<p>Super ugly numbers are positive numbers whose all prime factors are in the given prime list <code>primes</code> of size <code>k</code>.</p>\r\n\r\n<p><b>Example:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> n = 12, <code>primes</code> = <code>[2,7,13,19]</code>\r\n<b>Output:</b> 32 \r\n<strong>Explanation: </strong><code>[1,2,4,7,8,13,14,16,19,26,28,32] </code>is the sequence of the first 12 \r\n             super ugly numbers given <code>primes</code> = <code>[2,7,13,19]</code> of size 4.</pre>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ul>\r\n\t<li><code>1</code> is a super ugly number for any given <code>primes</code>.</li>\r\n\t<li>The given numbers in <code>primes</code> are in ascending order.</li>\r\n\t<li>0 &lt; <code>k</code> &le; 100, 0 &lt; <code>n</code> &le; 10<sup>6</sup>, 0 &lt; <code>primes[i]</code> &lt; 1000.</li>\r\n\t<li>The n<sup>th</sup> super ugly number is guaranteed to fit in a 32-bit signed integer.</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "super-ugly-number", 
     "similarQuestions": "[{\"title\": \"Ugly Number II\", \"titleSlug\": \"ugly-number-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Super Ugly Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

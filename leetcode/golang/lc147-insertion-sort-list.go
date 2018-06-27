@@ -43,6 +43,8 @@ With each iteration one element (red) is removed from the input data and inserte
 <strong>Output:</strong> -1-&gt;0-&gt;3-&gt;4-&gt;5
 </pre>
 
+Similar Questions:
+  Sort List (sort-list)
 */
 /**
  * Definition for singly-linked list.

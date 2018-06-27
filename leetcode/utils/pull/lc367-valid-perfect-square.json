@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "16", 
     "questionFrontendId": "367", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isPerfectSquare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-perfect-square/", 
     "stats": "{\"totalAccepted\": \"76.4K\", \"totalSubmission\": \"196.9K\", \"acRate\": \"38.8%\"}", 
     "interpretUrl": "/problems/valid-perfect-square/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Given a positive integer <i>num</i>, write a function which returns True if <i>num</i> is a perfect square else False.</p>\r\n\r\n<p>\r\n<b>Note:</b> <b>Do not</b> use any built-in library function such as <code>sqrt</code>.\r\n</p>\r\n\r\n<p><b>Example 1:</b>\r\n<pre>\r\nInput: 16\r\nReturns: True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\nInput: 14\r\nReturns: False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://discuss.leetcode.com/user/elmirap\">@elmirap</a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "valid-perfect-square", 
     "similarQuestions": "[{\"title\": \"Sqrt(x)\", \"titleSlug\": \"sqrtx\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Sum of Square Numbers\", \"titleSlug\": \"sum-of-square-numbers\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Perfect Square", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

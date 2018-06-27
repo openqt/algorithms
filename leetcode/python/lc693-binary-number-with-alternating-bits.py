@@ -41,6 +41,8 @@ The binary representation of 11 is: 1011.
 The binary representation of 10 is: 1010.
 </pre>
 </p>
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
 """
 
 

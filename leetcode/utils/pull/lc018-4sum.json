@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,-1,0,-2,2]\n0", 
     "questionFrontendId": "18", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"fourSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"colsize\": 4,\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/4sum/", 
     "stats": "{\"totalAccepted\": \"164K\", \"totalSubmission\": \"588.6K\", \"acRate\": \"27.9%\"}", 
     "interpretUrl": "/problems/4sum/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }
     ], 
     "content": "<p>Given an array <code>nums</code> of <em>n</em> integers and an integer <code>target</code>, are there elements <em>a</em>, <em>b</em>, <em>c</em>, and <em>d</em> in <code>nums</code> such that <em>a</em> + <em>b</em> + <em>c</em> + <em>d</em> = <code>target</code>? Find all unique quadruplets in the array which gives the sum of <code>target</code>.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>The solution set must not contain duplicate quadruplets.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\nGiven array nums = [1, 0, -1, 0, -2, 2], and target = 0.\r\n\r\nA solution set is:\r\n[\r\n  [-1,  0, 0, 1],\r\n  [-2, -1, 1, 2],\r\n  [-2,  0, 0, 2]\r\n]\r\n</pre>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "4sum", 
     "similarQuestions": "[{\"title\": \"Two Sum\", \"titleSlug\": \"two-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"3Sum\", \"titleSlug\": \"3sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"4Sum II\", \"titleSlug\": \"4sum-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "4Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

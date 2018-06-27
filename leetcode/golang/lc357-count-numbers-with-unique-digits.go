@@ -15,6 +15,8 @@ Given n = 2, return 91. (The answer should be the total numbers in the range of 
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/memoryless">@memoryless</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+
 */
 func countNumbersWithUniqueDigits(n int) int {
     

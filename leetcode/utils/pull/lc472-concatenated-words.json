@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]", 
     "questionFrontendId": "472", 
     "contributors": "[{\"username\": \"fishercoder\", \"profileUrl\": \"/fishercoder/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findAllConcatenatedWordsInADict\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/concatenated-words/", 
     "stats": "{\"totalAccepted\": \"12.6K\", \"totalSubmission\": \"40.1K\", \"acRate\": \"31.3%\"}", 
     "interpretUrl": "/problems/concatenated-words/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "Given a list of words (<b>without duplicates</b>), please write a program that returns all concatenated words in the given list of words.\r\n<p>A concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.</p>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\n<b>Input:</b> [\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]\r\n\r\n<b>Output:</b> [\"catsdogcats\",\"dogcatsdog\",\"ratcatdogcat\"]\r\n\r\n<b>Explanation:</b> \"catsdogcats\" can be concatenated by \"cats\", \"dog\" and \"cats\"; <br> \"dogcatsdog\" can be concatenated by \"dog\", \"cats\" and \"dog\"; <br>\"ratcatdogcat\" can be concatenated by \"rat\", \"cat\", \"dog\" and \"cat\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The number of elements of the given array will not exceed <code>10,000 </code>\r\n<li>The length sum of elements in the given array will not exceed <code>600,000</code>. </li>\r\n<li>All the input string will only include lower case letters.</li>\r\n<li>The returned elements order does not matter. </li>\r\n</ol>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "concatenated-words", 
     "similarQuestions": "[{\"title\": \"Word Break II\", \"titleSlug\": \"word-break-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Concatenated Words", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

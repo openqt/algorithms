@@ -25,6 +25,13 @@ https://leetcode.com/problems/house-robber-ii/description/
 <strong>Explanation:</strong> Rob house 1 (money = 1) and then rob house 3 (money = 3).
 &nbsp;            Total amount you can rob = 1 + 3 = 4.</pre>
 
+Similar Questions:
+  House Robber (house-robber)
+  Paint House (paint-house)
+  Paint Fence (paint-fence)
+  House Robber III (house-robber-iii)
+  Non-negative Integers without Consecutive Ones (non-negative-integers-without-consecutive-ones)
+  Coin Path (coin-path)
 """
 
 

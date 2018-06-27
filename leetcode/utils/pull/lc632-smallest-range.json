@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]", 
     "questionFrontendId": "632", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"smallestRange\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"list<list<integer>>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/smallest-range/", 
     "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"26.1K\", \"acRate\": \"42.3%\"}", 
     "interpretUrl": "/problems/smallest-range/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>You have <code>k</code> lists of sorted integers in ascending order. Find the <b>smallest</b> range that includes at least one number from each of the <code>k</code> lists. </p>\r\n\r\n<p>We define the range [a,b] is smaller than range [c,d] if <code>b-a < d-c</code> or <code>a < c</code> if <code>b-a == d-c</code>.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b>[[4,10,15,24,26], [0,9,12,20], [5,18,22,30]]\r\n<b>Output:</b> [20,24]\r\n<b>Explanation:</b> \r\nList 1: [4, 10, 15, 24,26], 24 is in range [20,24].\r\nList 2: [0, 9, 12, 20], 20 is in range [20,24].\r\nList 3: [5, 18, 22, 30], 22 is in range [20,24].\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Note:</b><br/>\r\n<ol>\r\n<li>The given list may contain duplicates, so ascending order means >= here.</li>\r\n<li>1 <= <code>k</code> <= 3500</li>\r\n<li> -10<sup>5</sup> <= <code>value of elements</code> <= 10<sup>5</sup>.</li>\r\n<li><b>For Java users, please note that the input type has been changed to List&lt;List&lt;Integer&gt;&gt;. And after you reset the code template, you'll see this point.</b></li>\r\n</ol>\r\n<br/>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "smallest-range", 
     "similarQuestions": "[{\"title\": \"Minimum Window Substring\", \"titleSlug\": \"minimum-window-substring\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Smallest Range", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

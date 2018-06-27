@@ -26,6 +26,9 @@ s = "3[a2[c]]", return "accaccacc".
 s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 </pre>
 </p>
+Similar Questions:
+  Encode String with Shortest Length (encode-string-with-shortest-length)
+  Number of Atoms (number-of-atoms)
 */
 func decodeString(s string) string {
     

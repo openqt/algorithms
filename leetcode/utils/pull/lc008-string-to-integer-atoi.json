@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"42\"", 
     "questionFrontendId": "8", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"myAtoi\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"str\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/string-to-integer-atoi/", 
     "stats": "{\"totalAccepted\": \"242.9K\", \"totalSubmission\": \"1.7M\", \"acRate\": \"14.1%\"}", 
     "interpretUrl": "/problems/string-to-integer-atoi/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Implement <code><span>atoi</span></code> which&nbsp;converts a string to an integer.</p>\r\n\r\n<p>The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.</p>\r\n\r\n<p>The string can contain additional characters after those that form the integral number, which are ignored and have no effect on the behavior of this function.</p>\r\n\r\n<p>If the first sequence of non-whitespace characters in str is not a valid integral number, or if no such sequence exists because either str is empty or it contains only whitespace characters, no conversion is performed.</p>\r\n\r\n<p>If no valid conversion could be performed, a zero value is returned.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Only the space character <code>&#39; &#39;</code> is considered as whitespace character.</li>\r\n\t<li>Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>&minus; 1]. If the numerical value is out of the range of representable values, INT_MAX (2<sup>31&nbsp;</sup>&minus; 1) or INT_MIN (&minus;2<sup>31</sup>) is returned.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;42&quot;\r\n<strong>Output:</strong> 42\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;   -42&quot;\r\n<strong>Output:</strong> -42\r\n<strong>Explanation:</strong> The first non-whitespace character is &#39;-&#39;, which is the minus sign.\r\n&nbsp;            Then take as many numerical digits as possible, which gets 42.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;4193 with words&quot;\r\n<strong>Output:</strong> 4193\r\n<strong>Explanation:</strong> Conversion stops at digit &#39;3&#39; as the next character is not a numerical digit.\r\n</pre>\r\n\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;words and 987&quot;\r\n<strong>Output:</strong> 0\r\n<strong>Explanation:</strong> The first non-whitespace character is &#39;w&#39;, which is not a numerical \r\n&nbsp;            digit or a +/- sign. Therefore no valid conversion could be performed.</pre>\r\n\r\n<p><strong>Example 5:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;-91283472332&quot;\r\n<strong>Output:</strong> -2147483648\r\n<strong>Explanation:</strong> The number &quot;-91283472332&quot; is out of the range of a 32-bit signed integer.\r\n&nbsp;            Thefore INT_MIN (&minus;2<sup>31</sup>) is returned.</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "string-to-integer-atoi", 
     "similarQuestions": "[{\"title\": \"Reverse Integer\", \"titleSlug\": \"reverse-integer\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Valid Number\", \"titleSlug\": \"valid-number\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "String to Integer (atoi)", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

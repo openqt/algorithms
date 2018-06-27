@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"rabbbit\"\n\"rabbit\"", 
     "questionFrontendId": "115", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numDistinct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/distinct-subsequences/", 
     "stats": "{\"totalAccepted\": \"85.4K\", \"totalSubmission\": \"263.2K\", \"acRate\": \"32.4%\"}", 
     "interpretUrl": "/problems/distinct-subsequences/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given a string <strong>S</strong> and a string <strong>T</strong>, count the number of distinct subsequences of <strong>S</strong> which equals <strong>T</strong>.</p>\r\n\r\n<p>A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, <code>&quot;ACE&quot;</code> is a subsequence of <code>&quot;ABCDE&quot;</code> while <code>&quot;AEC&quot;</code> is not).</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <code>&quot;rabbbit&quot;</code>, T = <code>&quot;rabbit&quot;\r\n<strong>Output:</strong>&nbsp;3\r\n</code><strong>Explanation:\r\n</strong>\r\nAs shown below, there are 3 ways you can generate &quot;rabbit&quot; from S.\r\n(The caret symbol ^ means the chosen letters)\r\n\r\n<code>rabbbit</code>\r\n^^^^ ^^\r\n<code>rabbbit</code>\r\n^^ ^^^^\r\n<code>rabbbit</code>\r\n^^^ ^^^\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <code>&quot;babgbag&quot;</code>, T = <code>&quot;bag&quot;\r\n<strong>Output:</strong>&nbsp;5\r\n</code><strong>Explanation:\r\n</strong>\r\nAs shown below, there are 5 ways you can generate &quot;bag&quot; from S.\r\n(The caret symbol ^ means the chosen letters)\r\n\r\n<code>babgbag</code>\r\n^^ ^\r\n<code>babgbag</code>\r\n^^    ^\r\n<code>babgbag</code>\r\n^    ^^\r\n<code>babgbag</code>\r\n  ^  ^^\r\n<code>babgbag</code>\r\n    ^^^\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "distinct-subsequences", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Distinct Subsequences", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"23:59\",\"00:00\"]", 
     "questionFrontendId": "539", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMinDifference\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"timePoints\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-time-difference/", 
     "stats": "{\"totalAccepted\": \"17.7K\", \"totalSubmission\": \"38.5K\", \"acRate\": \"46.1%\"}", 
     "interpretUrl": "/problems/minimum-time-difference/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "Given a list of 24-hour clock time points in \"Hour:Minutes\" format, find the minimum <b>minutes</b> difference between any two time points in the list. \r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [\"23:59\",\"00:00\"]\r\n<b>Output:</b> 1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The number of time points in the given list is at least 2 and won't exceed 20000.</li>\r\n<li>The input time is legal and ranges from 00:00 to 23:59.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-time-difference", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Time Difference", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

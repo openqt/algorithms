@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2]", 
     "questionFrontendId": "234", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"isPalindrome\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/palindrome-linked-list/", 
     "stats": "{\"totalAccepted\": \"169.7K\", \"totalSubmission\": \"502.3K\", \"acRate\": \"33.8%\"}", 
     "interpretUrl": "/problems/palindrome-linked-list/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }
     ], 
     "content": "<p>Given a singly linked list, determine if it is a palindrome.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 1-&gt;2\r\n<strong>Output:</strong> false</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 1-&gt;2-&gt;2-&gt;1\r\n<strong>Output:</strong> true</pre>\r\n\r\n<p><b>Follow up:</b><br />\r\nCould you do it in O(n) time and O(1) space?</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "palindrome-linked-list", 
     "similarQuestions": "[{\"title\": \"Palindrome Number\", \"titleSlug\": \"palindrome-number\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Valid Palindrome\", \"titleSlug\": \"valid-palindrome\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Reverse Linked List\", \"titleSlug\": \"reverse-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Palindrome Linked List", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

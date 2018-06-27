@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"1\"", 
     "questionFrontendId": "564", 
     "contributors": "[{\"username\": \"anvesh2\", \"profileUrl\": \"/anvesh2/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"nearestPalindromic\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-the-closest-palindrome/", 
     "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"37.2K\", \"acRate\": \"16.8%\"}", 
     "interpretUrl": "/problems/find-the-closest-palindrome/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given an integer n, find the closest integer (not including itself), which is a palindrome. </p>\r\n\r\n<p>The 'closest' is defined as absolute difference minimized between two integers.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"123\"\r\n<b>Output:</b> \"121\"\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The input <b>n</b> is a positive integer represented by string, whose length will not exceed 18.</li>\r\n<li>If there is a tie, return the smaller one as answer.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-the-closest-palindrome", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find the Closest Palindrome", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

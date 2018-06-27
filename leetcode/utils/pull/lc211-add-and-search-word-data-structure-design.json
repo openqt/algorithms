@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"]\n[[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]", 
     "questionFrontendId": "211", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"WordDictionary\",\r\n    \"maxbytesperline\": 400000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"addWord\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"word\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Adds a word into the data structure.\"\r\n        },\r\n        {\r\n            \"name\" : \"search\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"word\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/add-and-search-word-data-structure-design/", 
     "stats": "{\"totalAccepted\": \"79.5K\", \"totalSubmission\": \"305.9K\", \"acRate\": \"26.0%\"}", 
     "interpretUrl": "/problems/add-and-search-word-data-structure-design/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>Design a data structure that supports the following two operations:</p>\r\n\r\n<pre>\r\nvoid addWord(word)\r\nbool search(word)\r\n</pre>\r\n\r\n<p>search(word) can search a literal word or a regular expression string containing only letters <code>a-z</code> or <code>.</code>. A <code>.</code> means it can represent any one letter.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\naddWord(&quot;bad&quot;)\r\naddWord(&quot;dad&quot;)\r\naddWord(&quot;mad&quot;)\r\nsearch(&quot;pad&quot;) -&gt; false\r\nsearch(&quot;bad&quot;) -&gt; true\r\nsearch(&quot;.ad&quot;) -&gt; true\r\nsearch(&quot;b..&quot;) -&gt; true\r\n</pre>\r\n\r\n<p><b>Note:</b><br />\r\nYou may assume that all words are consist of lowercase letters <code>a-z</code>.</p>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "add-and-search-word-data-structure-design", 
     "similarQuestions": "[{\"title\": \"Implement Trie (Prefix Tree)\", \"titleSlug\": \"implement-trie-prefix-tree\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Prefix and Suffix Search\", \"titleSlug\": \"prefix-and-suffix-search\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Add and Search Word - Data structure design", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

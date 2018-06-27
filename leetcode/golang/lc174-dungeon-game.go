@@ -60,6 +60,10 @@ https://leetcode.com/problems/dungeon-game/description/
 	<li>Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.</li>
 </ul>
 
+Similar Questions:
+  Unique Paths (unique-paths)
+  Minimum Path Sum (minimum-path-sum)
+  Cherry Pickup (cherry-pickup)
 */
 func calculateMinimumHP(dungeon [][]int) int {
     

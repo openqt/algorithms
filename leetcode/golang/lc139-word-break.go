@@ -40,6 +40,8 @@ https://leetcode.com/problems/word-break/description/
 <strong>Output:</strong> false
 </pre>
 
+Similar Questions:
+  Word Break II (word-break-ii)
 */
 func wordBreak(s string, wordDict []string) bool {
     

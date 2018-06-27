@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2,3],[0],[0],[0]]", 
     "questionFrontendId": "847", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"shortestPathLength\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"graph\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/shortest-path-visiting-all-nodes/", 
     "stats": "{\"totalAccepted\": \"1.8K\", \"totalSubmission\": \"4.5K\", \"acRate\": \"39.7%\"}", 
     "interpretUrl": "/problems/shortest-path-visiting-all-nodes/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>An undirected, connected graph of N nodes (labeled&nbsp;<code>0, 1, 2, ..., N-1</code>) is given as <code>graph</code>.</p>\r\n\r\n<p><code>graph.length = N</code>, and <code>j != i</code>&nbsp;is in the list&nbsp;<code>graph[i]</code>&nbsp;exactly once, if and only if nodes <code>i</code> and <code>j</code> are connected.</p>\r\n\r\n<p>Return the length of the shortest path that visits every node. You may start and stop at any node, you may revisit nodes multiple times, and you may reuse edges.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ol>\r\n</ol>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1,2,3],[0],[0],[0]]\r\n<strong>Output: </strong>4\r\n<strong>Explanation</strong>: One possible path is [1,0,2,0,3]</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1],[0,2,4],[1,3,4],[2],[1,2]]\r\n<strong>Output: </strong>4\r\n<strong>Explanation</strong>: One possible path is [0,1,4,2,3]\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= graph.length &lt;= 12</code></li>\r\n\t<li><code>0 &lt;= graph[i].length &lt;&nbsp;graph.length</code></li>\r\n</ol>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "shortest-path-visiting-all-nodes", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Shortest Path Visiting All Nodes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

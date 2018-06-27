@@ -34,6 +34,9 @@ Both "apply" and "apple" can be built from other words in the dictionary. Howeve
 <li>The length of <code>words</code> will be in the range <code>[1, 1000]</code>.</li>
 <li>The length of <code>words[i]</code> will be in the range <code>[1, 30]</code>.</li>
 </p>
+Similar Questions:
+  Longest Word in Dictionary through Deleting (longest-word-in-dictionary-through-deleting)
+  Implement Magic Dictionary (implement-magic-dictionary)
 */
 func longestWord(words []string) string {
     

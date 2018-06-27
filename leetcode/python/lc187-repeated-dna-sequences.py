@@ -16,6 +16,8 @@ https://leetcode.com/problems/repeated-dna-sequences/description/
 <strong>Output:</strong> [&quot;AAAAACCCCC&quot;, &quot;CCCCCAAAAA&quot;]
 </pre>
 
+Similar Questions:
+
 """
 
 

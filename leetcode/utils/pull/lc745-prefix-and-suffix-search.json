@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"WordFilter\",\"f\"]\n[[[\"apple\"]], [\"a\",\"e\"]]", 
     "questionFrontendId": "745", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"WordFilter\",\r\n    \"constructor\": {\r\n        \"params\": [{\r\n                \"type\": \"string[]\",\r\n                \"name\": \"words\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [{\r\n        \"name\": \"f\",\r\n        \"params\": [{\r\n                \"type\": \"string\",\r\n                \"name\": \"prefix\"\r\n            },\r\n            {\r\n                \"type\": \"string\",\r\n                \"name\": \"suffix\"\r\n            }\r\n        ],\r\n        \"return\": {\r\n            \"type\": \"integer\"\r\n        }\r\n    }],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n            {\r\n                \"name\": \"inputs\",\r\n                \"type\": \"integer[]\"\r\n            },\r\n            {\r\n                \"name\": \"inputs\",\r\n                \"type\": \"integer[]\"\r\n            }\r\n        ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/prefix-and-suffix-search/", 
     "stats": "{\"totalAccepted\": \"5.1K\", \"totalSubmission\": \"19.7K\", \"acRate\": \"26.0%\"}", 
     "interpretUrl": "/problems/prefix-and-suffix-search/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>\r\nGiven many <code>words</code>, <code>words[i]</code> has weight <code>i</code>.\r\n</p><p>\r\nDesign a class <code>WordFilter</code> that supports one function, <code>WordFilter.f(String prefix, String suffix)</code>.\r\nIt will return the word with given <code>prefix</code> and <code>suffix</code> with maximum weight.  If no word exists, return -1.\r\n</p>\r\n\r\n<p><b>Examples:</b><br />\r\n<pre>\r\n<b>Input:</b>\r\nWordFilter([\"apple\"])\r\nWordFilter.f(\"a\", \"e\") // returns 0\r\nWordFilter.f(\"b\", \"\") // returns -1\r\n</pre></p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li><code>words</code> has length in range <code>[1, 15000]</code>.</li>\r\n<li>For each test case, up to <code>words.length</code> queries <code>WordFilter.f</code> may be made.</li>\r\n<li><code>words[i]</code> has length in range <code>[1, 10]</code>.</li>\r\n<li><code>prefix, suffix</code> have lengths in range <code>[0, 10]</code>.</li>\r\n<li><code>words[i]</code> and <code>prefix, suffix</code> queries consist of lowercase letters only.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "prefix-and-suffix-search", 
     "similarQuestions": "[{\"title\": \"Add and Search Word - Data structure design\", \"titleSlug\": \"add-and-search-word-data-structure-design\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Prefix and Suffix Search", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

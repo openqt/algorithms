@@ -24,6 +24,10 @@ n = 10, I pick 6.
 Return 6.
 </pre>
 </p>
+Similar Questions:
+  First Bad Version (first-bad-version)
+  Guess Number Higher or Lower II (guess-number-higher-or-lower-ii)
+  Find K Closest Elements (find-k-closest-elements)
 """
 
 

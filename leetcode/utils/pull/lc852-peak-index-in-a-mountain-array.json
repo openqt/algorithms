@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[0,1,0]", 
     "questionFrontendId": "852", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"peakIndexInMountainArray\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/peak-index-in-a-mountain-array/", 
     "stats": "{\"totalAccepted\": \"8.2K\", \"totalSubmission\": \"11.8K\", \"acRate\": \"69.5%\"}", 
     "interpretUrl": "/problems/peak-index-in-a-mountain-array/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Let&#39;s call an array <code>A</code> a <em>mountain</em>&nbsp;if the following properties hold:</p>\r\n\r\n<ul>\r\n\t<li><code>A.length &gt;= 3</code></li>\r\n\t<li>There exists some <code>0 &lt; i&nbsp;&lt; A.length - 1</code> such that <code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code></li>\r\n</ul>\r\n\r\n<p>Given an array that is definitely a mountain, return any&nbsp;<code>i</code>&nbsp;such that&nbsp;<code>A[0] &lt; A[1] &lt; ... A[i-1] &lt; A[i] &gt; A[i+1] &gt; ... &gt; A[A.length - 1]</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-1-1\">[0,1,0]</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">1</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><span id=\"example-input-2-1\">[0,2,1,0]</span>\r\n<strong>Output: </strong><span id=\"example-output-2\">1</span></pre>\r\n</div>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>3 &lt;= A.length &lt;= 10000</code></li>\r\n\t<li><code><font face=\"monospace\">0 &lt;= A[i] &lt;= 10^6</font></code></li>\r\n\t<li>A&nbsp;is a mountain, as defined above.</li>\r\n</ol>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "peak-index-in-a-mountain-array", 
     "similarQuestions": "[{\"title\": \"Find Peak Element\", \"titleSlug\": \"find-peak-element\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Peak Index in a Mountain Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

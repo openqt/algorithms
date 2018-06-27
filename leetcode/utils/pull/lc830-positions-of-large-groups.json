@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abbxxxxzzy\"", 
     "questionFrontendId": "830", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"largeGroupPositions\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/positions-of-large-groups/", 
     "stats": "{\"totalAccepted\": \"8.2K\", \"totalSubmission\": \"17.6K\", \"acRate\": \"46.7%\"}", 
     "interpretUrl": "/problems/positions-of-large-groups/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>In a string&nbsp;<code>S</code>&nbsp;of lowercase letters, these letters form consecutive groups of the same character.</p>\r\n\r\n<p>For example, a string like <code>S = &quot;abbxxxxzyy&quot;</code> has the groups <code>&quot;a&quot;</code>, <code>&quot;bb&quot;</code>, <code>&quot;xxxx&quot;</code>, <code>&quot;z&quot;</code> and&nbsp;<code>&quot;yy&quot;</code>.</p>\r\n\r\n<p>Call a group <em>large</em> if it has 3 or more characters.&nbsp; We would like the starting and ending positions of every large group.</p>\r\n\r\n<p>The final answer should be in lexicographic order.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;abbxxxxzzy&quot;\r\n<strong>Output: </strong>[[3,6]]\r\n<strong>Explanation</strong>: <code>&quot;xxxx&quot; is the single </code>large group with starting  3 and ending positions 6.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;abc&quot;\r\n<strong>Output: </strong>[]\r\n<strong>Explanation</strong>: We have &quot;a&quot;,&quot;b&quot; and &quot;c&quot; but no large group.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;abcdddeeeeaabbbcd&quot;\r\n<strong>Output: </strong>[[3,5],[6,9],[12,14]]</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:&nbsp;</strong>&nbsp;<code>1 &lt;= S.length &lt;= 1000</code></p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "positions-of-large-groups", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Positions of Large Groups", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

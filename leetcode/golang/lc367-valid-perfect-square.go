@@ -28,6 +28,9 @@ Returns: False
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/elmirap">@elmirap</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Sqrt(x) (sqrtx)
+  Sum of Square Numbers (sum-of-square-numbers)
 */
 func isPerfectSquare(num int) bool {
     

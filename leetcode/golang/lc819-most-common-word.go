@@ -41,6 +41,8 @@ and that &quot;hit&quot; isn&#39;t the answer even though it occurs more because
 </ul>
 
 <p>&nbsp;</p>
+Similar Questions:
+
 */
 func mostCommonWord(paragraph string, banned []string) string {
     

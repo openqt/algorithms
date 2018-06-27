@@ -52,6 +52,8 @@ The ghost can reach the target at the same time as you.
 	<li>The number of ghosts will not exceed <code>100</code>.</li>
 </ul>
 
+Similar Questions:
+
 */
 func escapeGhosts(ghosts [][]int, target []int) bool {
     

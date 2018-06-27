@@ -32,6 +32,11 @@ Return 3. The paths that sum to 8 are:
 3. -3 -> 11
 </pre>
 </p>
+Similar Questions:
+  Path Sum (path-sum)
+  Path Sum II (path-sum-ii)
+  Path Sum IV (path-sum-iv)
+  Longest Univalue Path (longest-univalue-path)
 """
 
 

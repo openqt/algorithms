@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1\n4", 
     "questionFrontendId": "461", 
     "contributors": "[{\"username\": \"Samuri\", \"profileUrl\": \"/samuri/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"hammingDistance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"y\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/hamming-distance/", 
     "stats": "{\"totalAccepted\": \"164.4K\", \"totalSubmission\": \"236.4K\", \"acRate\": \"69.5%\"}", 
     "interpretUrl": "/problems/hamming-distance/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>The <a href=\"https://en.wikipedia.org/wiki/Hamming_distance\" target=\"_blank\">Hamming distance</a> between two integers is the number of positions at which the corresponding bits are different.</p>\r\n\r\n<p>Given two integers <code>x</code> and <code>y</code>, calculate the Hamming distance.</p>\r\n\r\n<p><b>Note:</b><br />\r\n0 &le; <code>x</code>, <code>y</code> &lt; 2<sup>31</sup>.\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n<b>Input:</b> x = 1, y = 4\r\n\r\n<b>Output:</b> 2\r\n\r\n<b>Explanation:</b>\r\n1   (0 0 0 1)\r\n4   (0 1 0 0)\r\n       &uarr;   &uarr;\r\n\r\nThe above arrows point to positions where the corresponding bits are different.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "hamming-distance", 
     "similarQuestions": "[{\"title\": \"Number of 1 Bits\", \"titleSlug\": \"number-of-1-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Total Hamming Distance\", \"titleSlug\": \"total-hamming-distance\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Hamming Distance", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

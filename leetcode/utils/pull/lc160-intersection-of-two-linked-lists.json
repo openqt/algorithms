@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "No intersection: []\n[]", 
     "questionFrontendId": "160", 
     "contributors": "[{\"username\": \"stellari\", \"profileUrl\": \"/stellari/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{}", 
-    "enableRunCode": false, 
     "questionDetailUrl": "/problems/intersection-of-two-linked-lists/", 
     "stats": "{\"totalAccepted\": \"202.2K\", \"totalSubmission\": \"657.1K\", \"acRate\": \"30.8%\"}", 
     "interpretUrl": "/problems/intersection-of-two-linked-lists/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "linked-list", 
-        "name": "Linked List", 
-        "__typename": "TopicTagNode"
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Write a program to find the node at which the intersection of two singly linked lists begins.</p>\r\n</br>\r\n<p>For example, the following two linked lists: </p>\r\n<pre>\r\nA:          a1 \u2192 a2\r\n                   \u2198\r\n                     c1 \u2192 c2 \u2192 c3\r\n                   \u2197            \r\nB:     b1 \u2192 b2 \u2192 b3\r\n</pre>\r\n<p>begin to intersect at node c1.</p>\r\n</br>\r\n<p><b>Notes:</b>\r\n<ul>\r\n<li>If the two linked lists have no intersection at all, return <code>null</code>.</li>\r\n<li>The linked lists must retain their original structure after the function returns. </li>\r\n<li>You may assume there are no cycles anywhere in the entire linked structure.</li>\r\n<li>Your code should preferably run in O(n) time and use only O(1) memory.</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://oj.leetcode.com/discuss/user/stellari\">@stellari</a> for adding this problem and creating all test cases.</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "intersection-of-two-linked-lists", 
     "similarQuestions": "[{\"title\": \"Minimum Index Sum of Two Lists\", \"titleSlug\": \"minimum-index-sum-of-two-lists\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": false, 
     "questionTitle": "Intersection of Two Linked Lists", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

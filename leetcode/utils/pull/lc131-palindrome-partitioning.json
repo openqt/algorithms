@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"aab\"", 
     "questionFrontendId": "131", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"partition\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/palindrome-partitioning/", 
     "stats": "{\"totalAccepted\": \"124.9K\", \"totalSubmission\": \"343.4K\", \"acRate\": \"36.4%\"}", 
     "interpretUrl": "/problems/palindrome-partitioning/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given a string <em>s</em>, partition <em>s</em> such that every substring of the partition is a palindrome.</p>\r\n\r\n<p>Return all possible palindrome partitioning of <em>s</em>.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;&quot;aab&quot;\r\n<strong>Output:</strong>\r\n[\r\n  [&quot;aa&quot;,&quot;b&quot;],\r\n  [&quot;a&quot;,&quot;a&quot;,&quot;b&quot;]\r\n]\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "palindrome-partitioning", 
     "similarQuestions": "[{\"title\": \"Palindrome Partitioning II\", \"titleSlug\": \"palindrome-partitioning-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Palindrome Partitioning", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

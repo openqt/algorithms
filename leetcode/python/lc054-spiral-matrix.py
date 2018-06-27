@@ -28,6 +28,8 @@ https://leetcode.com/problems/spiral-matrix/description/
 ]
 <strong>Output:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]
 </pre>
+Similar Questions:
+  Spiral Matrix II (spiral-matrix-ii)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2\n2\n2\n0\n0", 
     "questionFrontendId": "576", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findPaths\",\r\n  \"params\": [\r\n    {\r\n        \"name\": \"m\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"n\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"i\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"j\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/out-of-boundary-paths/", 
     "stats": "{\"totalAccepted\": \"10.9K\", \"totalSubmission\": \"35.4K\", \"acRate\": \"30.7%\"}", 
     "interpretUrl": "/problems/out-of-boundary-paths/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>There is an <b>m</b> by <b>n</b> grid with a ball. Given the start coordinate <b>(i,j)</b> of the ball, you can move the ball to <b>adjacent</b> cell or cross the grid boundary in four directions (up, down, left, right). However, you can <b>at most</b> move <b>N</b> times. Find out the number of paths to move the ball out of grid boundary. The answer may be very large, return it after mod 10<sup>9</sup> + 7.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b>m = 2, n = 2, N = 2, i = 0, j = 0\r\n<b>Output:</b> 6\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/out_of_boundary_paths_1.png\" width = \"40%\" />\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b>m = 1, n = 3, N = 3, i = 0, j = 1\r\n<b>Output:</b> 12\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/out_of_boundary_paths_2.png\" width = \"37%\" />\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>Once you move the ball out of boundary, you cannot move it back.</li>\r\n<li>The length and height of the grid is in range [1,50].</li>\r\n<li>N is in range [0,50].</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "out-of-boundary-paths", 
     "similarQuestions": "[{\"title\": \"Knight Probability in Chessboard\", \"titleSlug\": \"knight-probability-in-chessboard\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Out of Boundary Paths", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

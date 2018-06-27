@@ -14,6 +14,8 @@ For example, given the list <code>temperatures = [73, 74, 75, 71, 69, 72, 76, 73
 The length of <code>temperatures</code> will be in the range <code>[1, 30000]</code>.
 Each temperature will be an integer in the range <code>[30, 100]</code>.
 </p>
+Similar Questions:
+  Next Greater Element I (next-greater-element-i)
 """
 
 

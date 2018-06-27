@@ -39,6 +39,8 @@ There are 3104860382 different non-empty palindromic subsequences, which is 1048
 <li>The length of <code>S</code> will be in the range <code>[1, 1000]</code>.</li>
 <li>Each character <code>S[i]</code> will be in the set <code>{'a', 'b', 'c', 'd'}</code>.</li>
 </p>
+Similar Questions:
+  Longest Palindromic Subsequence (longest-palindromic-subsequence)
 """
 
 

@@ -42,6 +42,8 @@ The cheapest price from city <code>0</code> to city <code>2</code> with at most 
 	<li><code>k</code> is in the range of <code>[0, n - 1]</code>.</li>
 	<li>There&nbsp;will&nbsp;not&nbsp;be&nbsp;any&nbsp;duplicated&nbsp;flights or&nbsp;self&nbsp;cycles.</li>
 </ul>
+Similar Questions:
+  Maximum Vacation Days (maximum-vacation-days)
 """
 
 

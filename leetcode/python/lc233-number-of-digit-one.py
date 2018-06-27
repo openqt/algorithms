@@ -14,6 +14,8 @@ https://leetcode.com/problems/number-of-digit-one/description/
 <strong>Explanation: </strong>Digit 1 occurred in the following numbers: 1, 10, 11, 12, 13.
 </pre>
 
+Similar Questions:
+  Factorial Trailing Zeroes (factorial-trailing-zeroes)
 """
 
 

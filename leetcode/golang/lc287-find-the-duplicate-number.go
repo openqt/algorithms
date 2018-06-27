@@ -31,6 +31,12 @@ https://leetcode.com/problems/find-the-duplicate-number/description/
 	<li>There is only one duplicate number in the array, but it could be repeated more than once.</li>
 </ol>
 
+Similar Questions:
+  First Missing Positive (first-missing-positive)
+  Single Number (single-number)
+  Linked List Cycle II (linked-list-cycle-ii)
+  Missing Number (missing-number)
+  Set Mismatch (set-mismatch)
 */
 func findDuplicate(nums []int) int {
     

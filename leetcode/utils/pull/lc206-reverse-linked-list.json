@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5]", 
     "questionFrontendId": "206", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reverseList\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-linked-list/", 
     "stats": "{\"totalAccepted\": \"369K\", \"totalSubmission\": \"773.1K\", \"acRate\": \"47.7%\"}", 
     "interpretUrl": "/problems/reverse-linked-list/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Reverse a singly linked list.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL\r\n<strong>Output:</strong> 5-&gt;4-&gt;3-&gt;2-&gt;1-&gt;NULL\r\n</pre>\r\n\r\n<p><b>Follow up:</b></p>\r\n\r\n<p>A linked list can be reversed either iteratively or recursively. Could you implement both?</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reverse-linked-list", 
     "similarQuestions": "[{\"title\": \"Reverse Linked List II\", \"titleSlug\": \"reverse-linked-list-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Upside Down\", \"titleSlug\": \"binary-tree-upside-down\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindrome Linked List\", \"titleSlug\": \"palindrome-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse Linked List", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

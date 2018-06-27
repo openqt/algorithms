@@ -50,6 +50,9 @@ wordDict = [&quot;cats&quot;, &quot;dog&quot;, &quot;sand&quot;, &quot;and&quot;
 <strong>Output:
 </strong>[]</pre>
 
+Similar Questions:
+  Word Break (word-break)
+  Concatenated Words (concatenated-words)
 """
 
 

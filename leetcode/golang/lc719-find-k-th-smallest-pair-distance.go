@@ -31,6 +31,12 @@ Then the 1st smallest distance pair is (1,1), and its distance is 0.
 <li><code>1 <= k <= len(nums) * (len(nums) - 1) / 2</code>.</li>
 </ol>
 </p>
+Similar Questions:
+  Find K Pairs with Smallest Sums (find-k-pairs-with-smallest-sums)
+  Kth Smallest Element in a Sorted Matrix (kth-smallest-element-in-a-sorted-matrix)
+  Find K Closest Elements (find-k-closest-elements)
+  Kth Smallest Number in Multiplication Table (kth-smallest-number-in-multiplication-table)
+  K-th Smallest Prime Fraction (k-th-smallest-prime-fraction)
 */
 func smallestDistancePair(nums []int, k int) int {
     

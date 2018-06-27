@@ -49,6 +49,8 @@ Also, since the answer may be very large, you should return the output mod 10<su
 <li>The input string will only contain the character '*' and digits '0' - '9'.</li>
 </ol>
 </p>
+Similar Questions:
+  Decode Ways (decode-ways)
 """
 
 

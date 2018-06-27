@@ -29,6 +29,8 @@ The minimum absolute difference is 1, which is the difference between 2 and 1 (o
 <p><b>Note:</b>
 There are at least two nodes in this BST.
 </p>
+Similar Questions:
+  K-diff Pairs in an Array (k-diff-pairs-in-an-array)
 """
 
 

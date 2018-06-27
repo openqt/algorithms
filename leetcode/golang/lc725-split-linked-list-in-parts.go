@@ -52,6 +52,9 @@ The input has been split into consecutive parts with size difference at most 1, 
 <li>Each value of a node in the input will be an integer in the range <code>[0, 999]</code>.</li>
 <li><code>k</code> will be an integer in the range <code>[1, 50]</code>.</li>
 </p>
+Similar Questions:
+  Rotate List (rotate-list)
+  Odd Even Linked List (odd-even-linked-list)
 */
 /**
  * Definition for singly-linked list.

@@ -26,6 +26,9 @@ https://leetcode.com/problems/single-number-ii/description/
 <strong>Input:</strong> [0,1,0,1,0,1,99]
 <strong>Output:</strong> 99</pre>
 
+Similar Questions:
+  Single Number (single-number)
+  Single Number III (single-number-iii)
 */
 func singleNumber(nums []int) int {
     

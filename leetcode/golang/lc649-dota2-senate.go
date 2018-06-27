@@ -54,6 +54,8 @@ The first senator comes from Radiant and he can just ban the next senator's righ
 <li>The length of the given string will in the range [1, 10,000].</li>
 </ol>
 </p>
+Similar Questions:
+  Teemo Attacking (teemo-attacking)
 */
 func predictPartyVictory(senate string) string {
     

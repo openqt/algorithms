@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "842\n888", 
     "questionFrontendId": "762", 
     "contributors": "[{\"username\": \"lokendrajain1994\", \"profileUrl\": \"/lokendrajain1994/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countPrimeSetBits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"L\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"R\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/prime-number-of-set-bits-in-binary-representation/", 
     "stats": "{\"totalAccepted\": \"13.3K\", \"totalSubmission\": \"23.9K\", \"acRate\": \"55.5%\"}", 
     "interpretUrl": "/problems/prime-number-of-set-bits-in-binary-representation/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>\r\nGiven two integers <code>L</code> and <code>R</code>, find the count of numbers in the range <code>[L, R]</code> (inclusive) having a prime number of set bits in their binary representation.\r\n</p><p>\r\n(Recall that the number of set bits an integer has is the number of <code>1</code>s present when written in binary.  For example, <code>21</code> written in binary is <code>10101</code> which has 3 set bits.  Also, 1 is not a prime.)\r\n</p><p>\r\n\r\n<p><b>Example 1:</b><br /><pre>\r\n<b>Input:</b> L = 6, R = 10\r\n<b>Output:</b> 4\r\n<b>Explanation:</b>\r\n6 -> 110 (2 set bits, 2 is prime)\r\n7 -> 111 (3 set bits, 3 is prime)\r\n9 -> 1001 (2 set bits , 2 is prime)\r\n10->1010 (2 set bits , 2 is prime)\r\n</pre></p>\r\n\r\n<p><b>Example 2:</b><br /><pre>\r\n<b>Input:</b> L = 10, R = 15\r\n<b>Output:</b> 5\r\n<b>Explanation:</b>\r\n10 -> 1010 (2 set bits, 2 is prime)\r\n11 -> 1011 (3 set bits, 3 is prime)\r\n12 -> 1100 (2 set bits, 2 is prime)\r\n13 -> 1101 (3 set bits, 3 is prime)\r\n14 -> 1110 (3 set bits, 3 is prime)\r\n15 -> 1111 (4 set bits, 4 is not prime)\r\n</pre></p>\r\n\r\n<p><b>Note:</b><br><ol>\r\n<li><code>L, R</code> will be integers <code>L <= R</code> in the range <code>[1, 10^6]</code>.</li>\r\n<li><code>R - L</code> will be at most 10000.</li>\r\n</ol></p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "prime-number-of-set-bits-in-binary-representation", 
     "similarQuestions": "[{\"title\": \"Number of 1 Bits\", \"titleSlug\": \"number-of-1-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Prime Number of Set Bits in Binary Representation", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

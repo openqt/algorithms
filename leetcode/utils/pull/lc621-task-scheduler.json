@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"]\n2", 
     "questionFrontendId": "621", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"leastInterval\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"tasks\",\r\n      \"type\": \"character[]\"\r\n    },\r\n    {\r\n        \"name\": \"n\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/task-scheduler/", 
     "stats": "{\"totalAccepted\": \"37.9K\", \"totalSubmission\": \"89.2K\", \"acRate\": \"42.5%\"}", 
     "interpretUrl": "/problems/task-scheduler/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Queue", 
-        "slug": "queue"
+        "slug": "queue", 
+        "name": "Queue"
       }
     ], 
     "content": "<p>Given a char array representing tasks CPU need to do. It contains capital letters A to Z where different letters represent different tasks.Tasks could be done without original order. Each task could be done in one interval. For each interval, CPU could finish one task or just be idle.</p>\r\n\r\n<p>However, there is a non-negative cooling interval <b>n</b> that means between two <b>same tasks</b>, there must be at least n intervals that CPU are doing different tasks or just be idle. </p>\r\n\r\n<p>You need to return the <b>least</b> number of intervals the CPU will take to finish all the given tasks.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> tasks = [\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"], n = 2\r\n<b>Output:</b> 8\r\n<b>Explanation:</b> A -> B -> idle -> A -> B -> idle -> A -> B.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The number of tasks is in the range [1, 10000].</li>\r\n<li>The integer n is in the range [0, 100].</li>\r\n</ol>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "task-scheduler", 
     "similarQuestions": "[{\"title\": \"Rearrange String k Distance Apart\", \"titleSlug\": \"rearrange-string-k-distance-apart\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Reorganize String\", \"titleSlug\": \"reorganize-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Task Scheduler", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

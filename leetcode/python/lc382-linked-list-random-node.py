@@ -22,6 +22,8 @@ Solution solution = new Solution(head);
 solution.getRandom();
 </pre>
 </p>
+Similar Questions:
+  Random Pick Index (random-pick-index)
 """
 
 

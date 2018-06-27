@@ -39,6 +39,8 @@ Now your task is to find the maximum number of strings that you can form with gi
 <b>Explanation:</b> You could form "10", but then you'd have nothing left. Better form "0" and "1".
 </pre>
 </p>
+Similar Questions:
+  Non-negative Integers without Consecutive Ones (non-negative-integers-without-consecutive-ones)
 */
 func findMaxForm(strs []string, m int, n int) int {
     

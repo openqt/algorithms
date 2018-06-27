@@ -16,6 +16,11 @@ https://leetcode.com/problems/next-permutation/description/
 <code>3,2,1</code> &rarr; <code>1,2,3</code><br />
 <code>1,1,5</code> &rarr; <code>1,5,1</code></p>
 
+Similar Questions:
+  Permutations (permutations)
+  Permutations II (permutations-ii)
+  Permutation Sequence (permutation-sequence)
+  Palindrome Permutation II (palindrome-permutation-ii)
 """
 
 

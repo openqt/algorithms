@@ -32,6 +32,8 @@ https://leetcode.com/problems/remove-invalid-parentheses/description/
 <b>Output: </b>[&quot;&quot;]
 </pre>
 
+Similar Questions:
+  Valid Parentheses (valid-parentheses)
 */
 func removeInvalidParentheses(s string) []string {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "10", 
     "questionFrontendId": "788", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"rotatedDigits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/rotated-digits/", 
     "stats": "{\"totalAccepted\": \"11.1K\", \"totalSubmission\": \"21.7K\", \"acRate\": \"51.0%\"}", 
     "interpretUrl": "/problems/rotated-digits/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>X is a good number if after rotating each digit individually by 180 degrees, we get a valid number that is different from X.&nbsp; Each digit must be rotated - we cannot choose to leave it alone.</p>\r\n\r\n<p>A number is valid if each digit remains a digit after rotation. 0, 1, and 8 rotate to themselves; 2 and 5 rotate to each other; 6 and 9 rotate to each other, and the rest of the numbers do not rotate to any other number and become invalid.</p>\r\n\r\n<p>Now&nbsp;given a positive number <code>N</code>, how many numbers X from <code>1</code> to <code>N</code> are good?</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> 10\r\n<strong>Output:</strong> 4\r\n<strong>Explanation:</strong> \r\nThere are four good numbers in the range [1, 10] : 2, 5, 6, 9.\r\nNote that 1 and 10 are not good numbers, since they remain unchanged after rotating.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>N&nbsp; will be in range <code>[1, 10000]</code>.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "rotated-digits", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Rotated Digits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

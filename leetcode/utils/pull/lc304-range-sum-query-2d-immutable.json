@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"NumMatrix\",\"sumRegion\",\"sumRegion\",\"sumRegion\"]\n[[[[3,0,1,4,2],[5,6,3,2,1],[1,2,0,1,5],[4,1,0,1,7],[1,0,3,0,5]]],[2,1,4,3],[1,1,2,2],[1,2,2,4]]", 
     "questionFrontendId": "304", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"NumMatrix\",\r\n    \"maxbytesperline\": 150000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer[][]\",\r\n                \"name\": \"matrix\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixRowSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"size_1\"\r\n            },\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"matrixColSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"col_size_1\"\r\n            }\r\n        ]\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"sumRegion\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col1\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"row2\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"col2\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/range-sum-query-2d-immutable/", 
     "stats": "{\"totalAccepted\": \"46.1K\", \"totalSubmission\": \"166.1K\", \"acRate\": \"27.8%\"}", 
     "interpretUrl": "/problems/range-sum-query-2d-immutable/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given a 2D matrix <i>matrix</i>, find the sum of the elements inside the rectangle defined by its upper left corner (<i>row</i>1, <i>col</i>1) and lower right corner (<i>row</i>2, <i>col</i>2).</p>\r\n\r\n<p>\r\n<img src=\"/static/images/courses/range_sum_query_2d.png\" border=\"0\" alt=\"Range Sum Query 2D\" /><br />\r\n<small>The above rectangle (with the red border) is defined by (row1, col1) = <b>(2, 1)</b> and (row2, col2) = <b>(4, 3)</b>, which contains sum = <b>8</b>.</small>\r\n</p>\r\n\r\n<p><b>Example:</b><br>\r\n<pre>\r\nGiven matrix = [\r\n  [3, 0, 1, 4, 2],\r\n  [5, 6, 3, 2, 1],\r\n  [1, 2, 0, 1, 5],\r\n  [4, 1, 0, 1, 7],\r\n  [1, 0, 3, 0, 5]\r\n]\r\n\r\nsumRegion(2, 1, 4, 3) -> 8\r\nsumRegion(1, 1, 2, 2) -> 11\r\nsumRegion(1, 2, 2, 4) -> 12\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>You may assume that the matrix does not change.</li>\r\n<li>There are many calls to <i>sumRegion</i> function.</li>\r\n<li>You may assume that <i>row</i>1 &le; <i>row</i>2 and <i>col</i>1 &le; <i>col</i>2.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "range-sum-query-2d-immutable", 
     "similarQuestions": "[{\"title\": \"Range Sum Query - Immutable\", \"titleSlug\": \"range-sum-query-immutable\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Range Sum Query 2D - Mutable\", \"titleSlug\": \"range-sum-query-2d-mutable\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Range Sum Query 2D - Immutable", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

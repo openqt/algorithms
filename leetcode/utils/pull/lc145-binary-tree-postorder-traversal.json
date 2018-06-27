@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,null,2,3]", 
     "questionFrontendId": "145", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"postorderTraversal\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-postorder-traversal/", 
     "stats": "{\"totalAccepted\": \"187.8K\", \"totalSubmission\": \"435K\", \"acRate\": \"43.2%\"}", 
     "interpretUrl": "/problems/binary-tree-postorder-traversal/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary tree, return the <em>postorder</em> traversal of its nodes&#39; values.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>&nbsp;<code>[1,null,2,3]</code>\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   3\r\n\r\n<strong>Output:</strong>&nbsp;<code>[3,2,1]</code>\r\n</pre>\r\n\r\n<p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "binary-tree-postorder-traversal", 
     "similarQuestions": "[{\"title\": \"Binary Tree Inorder Traversal\", \"titleSlug\": \"binary-tree-inorder-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Postorder Traversal", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[16,16]", 
     "questionFrontendId": "825", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numFriendRequests\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"ages\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/friends-of-appropriate-ages/", 
     "stats": "{\"totalAccepted\": \"4.6K\", \"totalSubmission\": \"16K\", \"acRate\": \"28.5%\"}", 
     "interpretUrl": "/problems/friends-of-appropriate-ages/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Some people will make friend requests. The&nbsp;list of their ages is given and&nbsp;<code>ages[i]</code>&nbsp;is the age of the&nbsp;ith person.&nbsp;</p>\r\n\r\n<p>Person A will NOT friend request person B (B != A) if any of the following conditions are true:</p>\r\n\r\n<ul>\r\n\t<li><code>age[B]&nbsp;&lt;= 0.5 * age[A]&nbsp;+ 7</code></li>\r\n\t<li><code>age[B]&nbsp;&gt; age[A]</code></li>\r\n\t<li><code>age[B]&nbsp;&gt; 100 &amp;&amp;&nbsp;age[A]&nbsp;&lt; 100</code></li>\r\n</ul>\r\n\r\n<p>Otherwise, A will friend request B.</p>\r\n\r\n<p>Note that if&nbsp;A requests B, B does not necessarily request A.&nbsp; Also, people will not friend request themselves.</p>\r\n\r\n<p>How many total friend requests are made?</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[16,16]\r\n<strong>Output: </strong>2\r\n<strong>Explanation: </strong>2 people friend request each other.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[16,17,18]\r\n<strong>Output: </strong>2\r\n<strong>Explanation: </strong>Friend requests are made 17 -&gt; 16, 18 -&gt; 17.</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[20,30,100,110,120]\r\n<strong>Output: </strong>\r\n<strong>Explanation: </strong>Friend requests are made 110 -&gt; 100, 120 -&gt; 110, 120 -&gt; 100.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Notes:</p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= ages.length&nbsp;&lt;= 20000</code>.</li>\r\n\t<li><code>1 &lt;= ages[i] &lt;= 120</code>.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "friends-of-appropriate-ages", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Friends Of Appropriate Ages", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

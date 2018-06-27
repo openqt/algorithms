@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[0,0]\n[1,1]\n[1,0]\n[0,1]", 
     "questionFrontendId": "593", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"validSquare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"p1\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"p2\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"p3\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"p4\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/valid-square/", 
     "stats": "{\"totalAccepted\": \"12.3K\", \"totalSubmission\": \"30.8K\", \"acRate\": \"40.0%\"}", 
     "interpretUrl": "/problems/valid-square/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given the coordinates of four points in 2D space, return whether the four points could construct a square.</p>\r\n\r\n<p>The coordinate (x,y) of a point is represented by an integer array with two integers.</p>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\n<b>Input:</b> p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]\r\n<b>Output:</b> True\r\n</pre>\r\n</p>\r\n\r\n<p> Note: \r\n<ol>\r\n<li>All the input integers are in the range [-10000, 10000].</li>\r\n<li>A valid square has four equal sides with positive length and four equal angles (90-degree angles).</li>\r\n<li>Input points have no order.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "valid-square", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Valid Square", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

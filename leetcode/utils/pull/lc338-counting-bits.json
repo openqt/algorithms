@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2", 
     "questionFrontendId": "338", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countBits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"num\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/counting-bits/", 
     "stats": "{\"totalAccepted\": \"117.5K\", \"totalSubmission\": \"187.8K\", \"acRate\": \"62.6%\"}", 
     "interpretUrl": "/problems/counting-bits/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Given a non negative integer number <b>num</b>. For every numbers <b>i</b> in the range <b>0 &le; i &le; num</b> calculate the number of 1's in their binary representation and return them as an array.\r\n</p>\r\n<p>\r\n<b>Example:</b></br>\r\nFor <code>num = 5</code> you should return <code>[0,1,1,2,1,2]</code>.\r\n</p>\r\n<p>\r\n<b>Follow up:</b>\r\n<ul>\r\n<li>It is very easy to come up with a solution with run time <b>O(n*sizeof(integer))</b>. But can you do it in linear time <b>O(n)</b> /possibly in a single pass?</li>\r\n<li>Space complexity should be <b>O(n)</b>.</li>\r\n<li>Can you do it like a boss? Do it without using any builtin function like <b>__builtin_popcount</b>  in c++ or in any other language.</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/syedee\">@ syedee </a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "counting-bits", 
     "similarQuestions": "[{\"title\": \"Number of 1 Bits\", \"titleSlug\": \"number-of-1-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Counting Bits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

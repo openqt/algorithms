@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "12", 
     "questionFrontendId": "556", 
     "contributors": "[{\"username\": \"a_silver_g\", \"profileUrl\": \"/a_silver_g/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"nextGreaterElement\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/next-greater-element-iii/", 
     "stats": "{\"totalAccepted\": \"14.5K\", \"totalSubmission\": \"50K\", \"acRate\": \"28.9%\"}", 
     "interpretUrl": "/problems/next-greater-element-iii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given a positive <strong>32-bit</strong> integer <strong>n</strong>, you need to find the smallest <strong>32-bit</strong> integer which has exactly the same digits existing in the integer <strong>n</strong> and is greater in value than n. If no such positive <strong>32-bit</strong> integer exists, you need to return -1.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 12\r\n<strong>Output:</strong> 21\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 21\r\n<strong>Output:</strong> -1\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "next-greater-element-iii", 
     "similarQuestions": "[{\"title\": \"Next Greater Element I\", \"titleSlug\": \"next-greater-element-i\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Next Greater Element II\", \"titleSlug\": \"next-greater-element-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Next Greater Element III", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

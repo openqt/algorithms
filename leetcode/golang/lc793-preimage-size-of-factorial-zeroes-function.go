@@ -29,6 +29,8 @@ https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/descrip
 	<li><code>K</code> will be an integer in the range <code>[0, 10^9]</code>.</li>
 </ul>
 
+Similar Questions:
+  Factorial Trailing Zeroes (factorial-trailing-zeroes)
 */
 func preimageSizeFZF(K int) int {
     

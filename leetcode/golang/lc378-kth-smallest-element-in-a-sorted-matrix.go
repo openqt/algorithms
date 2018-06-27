@@ -28,6 +28,11 @@ return 13.
 
 <p><b>Note: </b><br>
 You may assume k is always valid, 1 &le; k &le; n<sup>2</sup>.</p>
+Similar Questions:
+  Find K Pairs with Smallest Sums (find-k-pairs-with-smallest-sums)
+  Kth Smallest Number in Multiplication Table (kth-smallest-number-in-multiplication-table)
+  Find K-th Smallest Pair Distance (find-k-th-smallest-pair-distance)
+  K-th Smallest Prime Fraction (k-th-smallest-prime-fraction)
 */
 func kthSmallest(matrix [][]int, k int) int {
     

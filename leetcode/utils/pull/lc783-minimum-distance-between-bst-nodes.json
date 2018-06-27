@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[4,2,6,1,3,null,null]", 
     "questionFrontendId": "783", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minDiffInBST\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-distance-between-bst-nodes/", 
     "stats": "{\"totalAccepted\": \"12K\", \"totalSubmission\": \"25K\", \"acRate\": \"47.9%\"}", 
     "interpretUrl": "/problems/minimum-distance-between-bst-nodes/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>Given a Binary Search Tree (BST) with the root node <code>root</code>, return&nbsp;the minimum difference between the values of any two different nodes in the tree.</p>\r\n\r\n<p><strong>Example :</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> root = [4,2,6,1,3,null,null]\r\n<strong>Output:</strong> 1\r\n<strong>Explanation:</strong>\r\nNote that root is a TreeNode object, not an array.\r\n\r\nThe given tree [4,2,6,1,3,null,null] is represented by the following diagram:\r\n\r\n          4\r\n        /   \\\r\n      2      6\r\n     / \\    \r\n    1   3  \r\n\r\nwhile the minimum difference in this tree is 1, it occurs between node 1 and node 2, also between node 3 and node 2.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li>The size of the BST will be between 2 and&nbsp;<code>100</code>.</li>\r\n\t<li>The BST is always valid, each node&#39;s value is an integer, and each node&#39;s value is different.</li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-distance-between-bst-nodes", 
     "similarQuestions": "[{\"title\": \"Binary Tree Inorder Traversal\", \"titleSlug\": \"binary-tree-inorder-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Distance Between BST Nodes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -21,6 +21,8 @@ https://leetcode.com/problems/add-digits/description/
 <p><b>Follow up:</b><br />
 Could you do it without any loop/recursion in O(1) runtime?</p>
 
+Similar Questions:
+  Happy Number (happy-number)
 */
 func addDigits(num int) int {
     

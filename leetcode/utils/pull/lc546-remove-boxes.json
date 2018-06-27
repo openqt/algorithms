@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,3,2,2,2,3,4,3,1]", 
     "questionFrontendId": "546", 
     "contributors": "[{\"username\": \"ckcz123\", \"profileUrl\": \"/ckcz123/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"removeBoxes\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"boxes\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-boxes/", 
     "stats": "{\"totalAccepted\": \"6.4K\", \"totalSubmission\": \"17.7K\", \"acRate\": \"36.0%\"}", 
     "interpretUrl": "/problems/remove-boxes/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given several boxes with different colors represented by different positive numbers. <br />\r\nYou may experience several rounds to remove boxes until there is no box left. Each time you can choose some continuous boxes with the same color (composed of k boxes, k >= 1), remove them and get <code>k*k</code> points.<br />\r\nFind the maximum points you can get.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br>\r\nInput: \r\n<pre>\r\n[1, 3, 2, 2, 2, 3, 4, 3, 1]\r\n</pre>\r\nOutput:\r\n<pre>\r\n23\r\n</pre>\r\nExplanation: \r\n<pre>\r\n[1, 3, 2, 2, 2, 3, 4, 3, 1] \r\n----> [1, 3, 3, 4, 3, 1] (3*3=9 points) \r\n----> [1, 3, 3, 3, 1] (1*1=1 points) \r\n----> [1, 1] (3*3=9 points) \r\n----> [] (2*2=4 points)\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe number of boxes <code>n</code> would not exceed 100.\r\n</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "remove-boxes", 
     "similarQuestions": "[{\"title\": \"Strange Printer\", \"titleSlug\": \"strange-printer\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove Boxes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

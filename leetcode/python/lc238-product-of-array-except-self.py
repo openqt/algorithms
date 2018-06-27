@@ -18,6 +18,10 @@ https://leetcode.com/problems/product-of-array-except-self/description/
 <p><strong>Follow up:</strong><br />
 Could you solve it with constant space complexity? (The output array <strong>does not</strong> count as extra space for the purpose of space complexity analysis.)</p>
 
+Similar Questions:
+  Trapping Rain Water (trapping-rain-water)
+  Maximum Product Subarray (maximum-product-subarray)
+  Paint House II (paint-house-ii)
 """
 
 

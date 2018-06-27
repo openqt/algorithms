@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"RandomizedSet\",\"insert\",\"remove\",\"insert\",\"getRandom\",\"remove\",\"insert\",\"getRandom\"]\n[[],[1],[2],[2],[],[1],[2],[]]", 
     "questionFrontendId": "380", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"RandomizedSet\",\r\n    \"maxbytesperline\": 121000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"insert\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Inserts a value to the set. Returns true if the set did not already contain the specified element.\"\r\n        },\r\n        {\r\n            \"name\" : \"remove\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"val\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Removes a value from the set. Returns true if the set contained the specified element.\"\r\n        },\r\n        {\r\n            \"name\" : \"getRandom\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Get a random element from the set.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/insert-delete-getrandom-o1/", 
     "stats": "{\"totalAccepted\": \"64.6K\", \"totalSubmission\": \"160.8K\", \"acRate\": \"40.2%\"}", 
     "interpretUrl": "/problems/insert-delete-getrandom-o1/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Design a data structure that supports all following operations in <i>average</i> <b>O(1)</b> time.</p>\r\n\r\n<p>\r\n<ol>\r\n<li><code>insert(val)</code>: Inserts an item val to the set if not already present.</li>\r\n<li><code>remove(val)</code>: Removes an item val from the set if present.</li>\r\n<li><code>getRandom</code>: Returns a random element from current set of elements. Each element must have the <b>same probability</b> of being returned.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n// Init an empty set.\r\nRandomizedSet randomSet = new RandomizedSet();\r\n\r\n// Inserts 1 to the set. Returns true as 1 was inserted successfully.\r\nrandomSet.insert(1);\r\n\r\n// Returns false as 2 does not exist in the set.\r\nrandomSet.remove(2);\r\n\r\n// Inserts 2 to the set, returns true. Set now contains [1,2].\r\nrandomSet.insert(2);\r\n\r\n// getRandom should return either 1 or 2 randomly.\r\nrandomSet.getRandom();\r\n\r\n// Removes 1 from the set, returns true. Set now contains [2].\r\nrandomSet.remove(1);\r\n\r\n// 2 was already in the set, so return false.\r\nrandomSet.insert(2);\r\n\r\n// Since 2 is the only number in the set, getRandom always return 2.\r\nrandomSet.getRandom();\r\n</pre>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "insert-delete-getrandom-o1", 
     "similarQuestions": "[{\"title\": \"Insert Delete GetRandom O(1) - Duplicates allowed\", \"titleSlug\": \"insert-delete-getrandom-o1-duplicates-allowed\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Insert Delete GetRandom O(1)", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

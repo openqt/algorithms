@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,1,1,2,2,3]\n2", 
     "questionFrontendId": "347", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"topKFrequent\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/top-k-frequent-elements/", 
     "stats": "{\"totalAccepted\": \"112.7K\", \"totalSubmission\": \"224.8K\", \"acRate\": \"50.1%\"}", 
     "interpretUrl": "/problems/top-k-frequent-elements/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }
     ], 
     "content": "<p>\r\nGiven a non-empty array of integers, return the <b><i>k</i></b> most frequent elements.</p>\r\n\r\n<p>For example,<br>\r\nGiven <code>[1,1,1,2,2,3]</code> and k = 2, return <code>[1,2]</code>.\r\n</p>\r\n\r\n<p><b>Note: </b><br>\r\n<ul>\r\n<li>You may assume <i>k</i> is always valid, 1 &le; <i>k</i> &le; number of unique elements.</li>\r\n<li>Your algorithm's time complexity <b>must be</b> better than O(<i>n</i> log <i>n</i>), where <i>n</i> is the array's size.</li>\r\n</ul></p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "top-k-frequent-elements", 
     "similarQuestions": "[{\"title\": \"Word Frequency\", \"titleSlug\": \"word-frequency\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Kth Largest Element in an Array\", \"titleSlug\": \"kth-largest-element-in-an-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Sort Characters By Frequency\", \"titleSlug\": \"sort-characters-by-frequency\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Split Array into Consecutive Subsequences\", \"titleSlug\": \"split-array-into-consecutive-subsequences\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Top K Frequent Words\", \"titleSlug\": \"top-k-frequent-words\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Top K Frequent Elements", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

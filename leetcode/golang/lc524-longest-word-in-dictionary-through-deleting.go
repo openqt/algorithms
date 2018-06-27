@@ -38,6 +38,8 @@ s = "abpcplea", d = ["a","b","c"]
 <li>The length of all the strings in the input won't exceed 1,000.</li>
 </ol>
 </p>
+Similar Questions:
+  Longest Word in Dictionary (longest-word-in-dictionary)
 */
 func findLongestWord(s string, d []string) string {
     

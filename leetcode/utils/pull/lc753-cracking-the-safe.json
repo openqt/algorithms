@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1\n1", 
     "questionFrontendId": "753", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"crackSafe\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/cracking-the-safe/", 
     "stats": "{\"totalAccepted\": \"5K\", \"totalSubmission\": \"12.3K\", \"acRate\": \"40.8%\"}", 
     "interpretUrl": "/problems/cracking-the-safe/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>\r\nThere is a box protected by a password.  The password is <code>n</code> digits, where each letter can be one of the first <code>k</code> digits <code>0, 1, ..., k-1</code>.\r\n</p><p>\r\nYou can keep inputting the password, the password will automatically be matched against the last <code>n</code> digits entered.\r\n</p><p>\r\nFor example, assuming the password is <code>\"345\"</code>, I can open it when I type <code>\"012345\"</code>, but I enter a total of 6 digits.\r\n</p><p>\r\nPlease return any string of minimum length that is guaranteed to open the box after the entire string is inputted.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 1, k = 2\r\n<b>Output:</b> \"01\"\r\n<b>Note:</b> \"10\" will be accepted too.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 2, k = 2\r\n<b>Output:</b> \"00110\"\r\n<b>Note:</b> \"01100\", \"10011\", \"11001\" will be accepted too.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li><code>n</code> will be in the range <code>[1, 4]</code>.</li>\r\n<li><code>k</code> will be in the range <code>[1, 10]</code>.</li>\r\n<li><code>k^n</code> will be at most <code>4096</code>.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "cracking-the-safe", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Cracking the Safe", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

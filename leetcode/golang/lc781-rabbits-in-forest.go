@@ -35,6 +35,8 @@ The smallest possible number of rabbits in the forest is therefore 5: 3 that ans
 	<li><code>answers</code> will have length at most <code>1000</code>.</li>
 	<li>Each <code>answers[i]</code> will be an integer in the range <code>[0, 999]</code>.</li>
 </ol>
+Similar Questions:
+
 */
 func numRabbits(answers []int) int {
     

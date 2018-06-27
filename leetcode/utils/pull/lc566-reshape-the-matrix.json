@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2],[3,4]]\n1\n4", 
     "questionFrontendId": "566", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"matrixReshape\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n        \"name\": \"r\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"c\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[][]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reshape-the-matrix/", 
     "stats": "{\"totalAccepted\": \"53.4K\", \"totalSubmission\": \"92.6K\", \"acRate\": \"57.7%\"}", 
     "interpretUrl": "/problems/reshape-the-matrix/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.\r\n</p>\r\n\r\n<p>\r\nYou're given a matrix represented by a two-dimensional array, and two <b>positive</b> integers <b>r</b> and <b>c</b> representing the <b>row</b> number and <b>column</b> number of the wanted reshaped matrix, respectively.</p>\r\n\r\n <p>The reshaped matrix need to be filled with all the elements of the original matrix in the same <b>row-traversing</b> order as they were.\r\n</p>\r\n\r\n<p>\r\nIf the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nnums = \r\n[[1,2],\r\n [3,4]]\r\nr = 1, c = 4\r\n<b>Output:</b> \r\n[[1,2,3,4]]\r\n<b>Explanation:</b><br>The <b>row-traversing</b> of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nnums = \r\n[[1,2],\r\n [3,4]]\r\nr = 2, c = 4\r\n<b>Output:</b> \r\n[[1,2],\r\n [3,4]]\r\n<b>Explanation:</b><br>There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The height and width of the given matrix is in range [1, 100].</li>\r\n<li>The given r and c are all positive.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reshape-the-matrix", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reshape the Matrix", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

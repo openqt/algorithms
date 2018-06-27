@@ -28,6 +28,8 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 </pre>
 </p>
+Similar Questions:
+
 */
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     

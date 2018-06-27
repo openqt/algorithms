@@ -23,6 +23,8 @@ e
 Explanation:
 'e' is the letter that was added.
 </pre>
+Similar Questions:
+  Single Number (single-number)
 """
 
 

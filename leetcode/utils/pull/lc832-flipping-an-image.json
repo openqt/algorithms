@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,1,0],[1,0,1],[0,0,0]]", 
     "questionFrontendId": "832", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"flipAndInvertImage\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[][]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/flipping-an-image/", 
     "stats": "{\"totalAccepted\": \"17K\", \"totalSubmission\": \"24.2K\", \"acRate\": \"70.0%\"}", 
     "interpretUrl": "/problems/flipping-an-image/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given a binary matrix <code>A</code>, we want to flip the image horizontally, then invert it, and return the resulting image.</p>\r\n\r\n<p>To flip an image horizontally means that each row of the image is reversed.&nbsp; For example, flipping&nbsp;<code>[1, 1, 0]</code>&nbsp;horizontally results in&nbsp;<code>[0, 1, 1]</code>.</p>\r\n\r\n<p>To invert an image means&nbsp;that each <code>0</code> is replaced by <code>1</code>, and each <code>1</code> is replaced by <code>0</code>.&nbsp;For example, inverting&nbsp;<code>[0, 1, 1]</code>&nbsp;results in&nbsp;<code>[1, 0, 0]</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1,1,0],[1,0,1],[0,0,0]]\r\n<strong>Output: </strong>[[1,0,0],[0,1,0],[1,1,1]]\r\n<strong>Explanation:</strong> First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].\r\nThen, invert the image: [[1,0,0],[0,1,0],[1,1,1]]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]\r\n<strong>Output: </strong>[[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\r\n<strong>Explanation:</strong> First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].\r\nThen invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]\r\n</pre>\r\n\r\n<p><strong>Notes:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= A.length = A[0].length &lt;= 20</code></li>\r\n\t<li><code>0 &lt;= A[i][j]<font face=\"sans-serif, Arial, Verdana, Trebuchet MS\">&nbsp;&lt;=&nbsp;</font>1</code></li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "flipping-an-image", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Flipping an Image", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

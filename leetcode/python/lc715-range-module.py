@@ -31,6 +31,10 @@ https://leetcode.com/problems/range-module/description/
 <li>The total number of calls to <code>queryRange</code> in a single test case is at most <code>5000</code>.</li>
 <li>The total number of calls to <code>removeRange</code> in a single test case is at most <code>1000</code>.</li>
 </p>
+Similar Questions:
+  Merge Intervals (merge-intervals)
+  Insert Interval (insert-interval)
+  Data Stream as Disjoint Intervals (data-stream-as-disjoint-intervals)
 """
 
 

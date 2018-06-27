@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "59", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"generateMatrix\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[][]\",\r\n    \"rowsize\": \"param_1\",\r\n    \"colsize\": \"param_1\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/spiral-matrix-ii/", 
     "stats": "{\"totalAccepted\": \"105K\", \"totalSubmission\": \"251K\", \"acRate\": \"41.8%\"}", 
     "interpretUrl": "/problems/spiral-matrix-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given a positive integer <em>n</em>, generate a square matrix filled with elements from 1 to <em>n</em><sup>2</sup> in spiral order.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 3\r\n<strong>Output:</strong>\r\n[\r\n [ 1, 2, 3 ],\r\n [ 8, 9, 4 ],\r\n [ 7, 6, 5 ]\r\n]\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "spiral-matrix-ii", 
     "similarQuestions": "[{\"title\": \"Spiral Matrix\", \"titleSlug\": \"spiral-matrix\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Spiral Matrix II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

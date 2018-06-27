@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]", 
     "questionFrontendId": "78", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"subsets\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/subsets/", 
     "stats": "{\"totalAccepted\": \"248.4K\", \"totalSubmission\": \"540.1K\", \"acRate\": \"46.0%\"}", 
     "interpretUrl": "/problems/subsets/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Given a set of <strong>distinct</strong> integers, <em>nums</em>, return all possible subsets (the power set).</p>\r\n\r\n<p><strong>Note:</strong> The solution set must not contain duplicate subsets.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> nums = [1,2,3]\r\n<strong>Output:</strong>\r\n[\r\n  [3],\r\n&nbsp; [1],\r\n&nbsp; [2],\r\n&nbsp; [1,2,3],\r\n&nbsp; [1,3],\r\n&nbsp; [2,3],\r\n&nbsp; [1,2],\r\n&nbsp; []\r\n]</pre>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "subsets", 
     "similarQuestions": "[{\"title\": \"Subsets II\", \"titleSlug\": \"subsets-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Generalized Abbreviation\", \"titleSlug\": \"generalized-abbreviation\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Letter Case Permutation\", \"titleSlug\": \"letter-case-permutation\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Subsets", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

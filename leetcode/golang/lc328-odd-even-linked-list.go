@@ -32,6 +32,8 @@ https://leetcode.com/problems/odd-even-linked-list/description/
 	<li>The first node is considered odd, the second node even and so on ...</li>
 </ul>
 
+Similar Questions:
+  Split Linked List in Parts (split-linked-list-in-parts)
 */
 /**
  * Definition for singly-linked list.

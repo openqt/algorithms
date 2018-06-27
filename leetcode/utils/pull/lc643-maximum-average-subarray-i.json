@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,12,-5,-6,50,3]\n4", 
     "questionFrontendId": "643", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMaxAverage\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"double\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximum-average-subarray-i/", 
     "stats": "{\"totalAccepted\": \"31.7K\", \"totalSubmission\": \"84K\", \"acRate\": \"37.8%\"}", 
     "interpretUrl": "/problems/maximum-average-subarray-i/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>\r\nGiven an array consisting of <code>n</code> integers, find the contiguous subarray of given length <code>k</code> that has the maximum average value. And you need to output the maximum average value.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,12,-5,-6,50,3], k = 4\r\n<b>Output:</b> 12.75\r\n<b>Explanation:</b> Maximum average is (12-5-6+50)/4 = 51/4 = 12.75\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>1 <= <code>k</code> <= <code>n</code> <= 30,000.</li>\r\n<li>Elements of the given array will be in the range [-10,000, 10,000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximum-average-subarray-i", 
     "similarQuestions": "[{\"title\": \"Maximum Average Subarray II\", \"titleSlug\": \"maximum-average-subarray-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximum Average Subarray I", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

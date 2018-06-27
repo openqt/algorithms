@@ -35,6 +35,8 @@ https://leetcode.com/problems/find-peak-element/description/
 
 <p>Your solution should be in logarithmic complexity.</p>
 
+Similar Questions:
+  Peak Index in a Mountain Array (peak-index-in-a-mountain-array)
 */
 func findPeakElement(nums []int) int {
     

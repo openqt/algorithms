@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,3,5,4,7]", 
     "questionFrontendId": "674", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findLengthOfLCIS\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-continuous-increasing-subsequence/", 
     "stats": "{\"totalAccepted\": \"35.9K\", \"totalSubmission\": \"84.1K\", \"acRate\": \"42.6%\"}", 
     "interpretUrl": "/problems/longest-continuous-increasing-subsequence/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>\r\nGiven an unsorted array of integers, find the length of longest <code>continuous</code> increasing subsequence (subarray).\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,3,5,4,7]\r\n<b>Output:</b> 3\r\n<b>Explanation:</b> The longest continuous increasing subsequence is [1,3,5], its length is 3. \r\nEven though [1,3,5,7] is also an increasing subsequence, it's not a continuous one where 5 and 7 are separated by 4. \r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [2,2,2,2,2]\r\n<b>Output:</b> 1\r\n<b>Explanation:</b> The longest continuous increasing subsequence is [2], its length is 1. \r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nLength of the array will not exceed 10,000.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "longest-continuous-increasing-subsequence", 
     "similarQuestions": "[{\"title\": \"Number of Longest Increasing Subsequence\", \"titleSlug\": \"number-of-longest-increasing-subsequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Minimum Window Subsequence\", \"titleSlug\": \"minimum-window-subsequence\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Continuous Increasing Subsequence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

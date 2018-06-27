@@ -36,6 +36,8 @@ Given two integers <code>L</code> and <code>R</code>, find the count of numbers 
 <li><code>L, R</code> will be integers <code>L <= R</code> in the range <code>[1, 10^6]</code>.</li>
 <li><code>R - L</code> will be at most 10000.</li>
 </ol></p>
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
 """
 
 

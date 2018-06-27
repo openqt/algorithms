@@ -27,6 +27,9 @@ Given two strings <b>s1</b> and <b>s2</b>, write a function to return true if <b
 <li>The length of both given strings is in range [1, 10,000].</li>
 </ol>
 </p>
+Similar Questions:
+  Minimum Window Substring (minimum-window-substring)
+  Find All Anagrams in a String (find-all-anagrams-in-a-string)
 """
 
 

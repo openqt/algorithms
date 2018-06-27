@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,2,3,1]", 
     "questionFrontendId": "697", 
     "contributors": "[{\"username\": \"fishercoder\", \"profileUrl\": \"/fishercoder/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findShortestSubArray\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/degree-of-an-array/", 
     "stats": "{\"totalAccepted\": \"23.9K\", \"totalSubmission\": \"50.9K\", \"acRate\": \"46.9%\"}", 
     "interpretUrl": "/problems/degree-of-an-array/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given a non-empty array of non-negative integers <code>nums</code>, the <b>degree</b> of this array is defined as the maximum frequency of any one of its elements.</p>\r\n<p>Your task is to find the smallest possible length of a (contiguous) subarray of <code>nums</code>, that has the same degree as <code>nums</code>.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1, 2, 2, 3, 1]\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> \r\nThe input array has a degree of 2 because both elements 1 and 2 appear twice.\r\nOf the subarrays that have the same degree:\r\n[1, 2, 2, 3, 1], [1, 2, 2, 3], [2, 2, 3, 1], [1, 2, 2], [2, 2, 3], [2, 2]\r\nThe shortest length is 2. So return 2.\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,2,3,1,4,2]\r\n<b>Output:</b> 6\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>nums.length</code> will be between 1 and 50,000.</li>\r\n<li><code>nums[i]</code> will be an integer between 0 and 49,999.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "degree-of-an-array", 
     "similarQuestions": "[{\"title\": \"Maximum Subarray\", \"titleSlug\": \"maximum-subarray\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Degree of an Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

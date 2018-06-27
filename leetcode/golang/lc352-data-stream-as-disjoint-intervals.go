@@ -23,6 +23,10 @@ What if there are lots of merges and the number of disjoint intervals are small 
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/yunhong">@yunhong</a> for adding this problem and creating most of the test cases.</p>
+Similar Questions:
+  Summary Ranges (summary-ranges)
+  Find Right Interval (find-right-interval)
+  Range Module (range-module)
 */
 /**
  * Definition for an interval.

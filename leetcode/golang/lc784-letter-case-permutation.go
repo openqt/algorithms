@@ -27,6 +27,8 @@ https://leetcode.com/problems/letter-case-permutation/description/
 	<li><code>S</code> will be a string with length at most <code>12</code>.</li>
 	<li><code>S</code> will consist only of letters or digits.</li>
 </ul>
+Similar Questions:
+  Subsets (subsets)
 */
 func letterCasePermutation(S string) []string {
     

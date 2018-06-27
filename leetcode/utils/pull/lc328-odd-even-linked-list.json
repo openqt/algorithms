@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5]", 
     "questionFrontendId": "328", 
     "contributors": "[{\"username\": \"DjangoUnchained\", \"profileUrl\": \"/djangounchained/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"oddEvenList\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/odd-even-linked-list/", 
     "stats": "{\"totalAccepted\": \"100K\", \"totalSubmission\": \"220.4K\", \"acRate\": \"45.4%\"}", 
     "interpretUrl": "/problems/odd-even-linked-list/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.</p>\r\n\r\n<p>You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<strong>Input: </strong><code>1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL</code>\r\n<strong>Output: </strong><code>1-&gt;3-&gt;5-&gt;2-&gt;4-&gt;NULL</code>\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>2<code>-&gt;1-&gt;3-&gt;5-&gt;6-&gt;4-&gt;7-&gt;NULL</code>\r\n<strong>Output: </strong><code>2-&gt;3-&gt;6-&gt;7-&gt;1-&gt;5-&gt;4-&gt;NULL</code>\r\n</pre>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ul>\r\n\t<li>The relative order inside both the even and odd groups should remain as it was in the input.</li>\r\n\t<li>The first node is considered odd, the second node even and so on ...</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "odd-even-linked-list", 
     "similarQuestions": "[{\"title\": \"Split Linked List in Parts\", \"titleSlug\": \"split-linked-list-in-parts\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Odd Even Linked List", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -72,6 +72,8 @@ p = &quot;mis*is*p*.&quot;
 <strong>Output:</strong> false
 </pre>
 
+Similar Questions:
+  Wildcard Matching (wildcard-matching)
 */
 func isMatch(s string, p string) bool {
     

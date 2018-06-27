@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"tree\"", 
     "questionFrontendId": "451", 
     "contributors": "[{\"username\": \"stickypens\", \"profileUrl\": \"/stickypens/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"frequencySort\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/sort-characters-by-frequency/", 
     "stats": "{\"totalAccepted\": \"57.2K\", \"totalSubmission\": \"109.6K\", \"acRate\": \"52.2%\"}", 
     "interpretUrl": "/problems/sort-characters-by-frequency/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }
     ], 
     "content": "<p>Given a string, sort it in decreasing order based on the frequency of characters.</p>\r\n\r\n<p><b>Example 1:</b>\r\n<pre>\r\n<b>Input:</b>\r\n\"tree\"\r\n\r\n<b>Output:</b>\r\n\"eert\"\r\n\r\n<b>Explanation:</b>\r\n'e' appears twice while 'r' and 't' both appear once.\r\nSo 'e' must appear before both 'r' and 't'. Therefore \"eetr\" is also a valid answer.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\n<b>Input:</b>\r\n\"cccaaa\"\r\n\r\n<b>Output:</b>\r\n\"cccaaa\"\r\n\r\n<b>Explanation:</b>\r\nBoth 'c' and 'a' appear three times, so \"aaaccc\" is also a valid answer.\r\nNote that \"cacaca\" is incorrect, as the same characters must be together.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b>\r\n<pre>\r\n<b>Input:</b>\r\n\"Aabb\"\r\n\r\n<b>Output:</b>\r\n\"bbAa\"\r\n\r\n<b>Explanation:</b>\r\n\"bbaA\" is also a valid answer, but \"Aabb\" is incorrect.\r\nNote that 'A' and 'a' are treated as two different characters.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "sort-characters-by-frequency", 
     "similarQuestions": "[{\"title\": \"Top K Frequent Elements\", \"titleSlug\": \"top-k-frequent-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"First Unique Character in a String\", \"titleSlug\": \"first-unique-character-in-a-string\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Sort Characters By Frequency", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -48,6 +48,9 @@ struct TreeLinkNode {
 4-&gt;5-&gt;6-&gt;7 -&gt; NULL
 </pre>
 
+Similar Questions:
+  Populating Next Right Pointers in Each Node II (populating-next-right-pointers-in-each-node-ii)
+  Binary Tree Right Side View (binary-tree-right-side-view)
 """
 
 

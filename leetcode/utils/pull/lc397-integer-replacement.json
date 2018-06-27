@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "8", 
     "questionFrontendId": "397", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"integerReplacement\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/integer-replacement/", 
     "stats": "{\"totalAccepted\": \"30.7K\", \"totalSubmission\": \"100.4K\", \"acRate\": \"30.5%\"}", 
     "interpretUrl": "/problems/integer-replacement/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>\r\nGiven a positive integer <i>n</i> and you can do operations as follow:\r\n</p>\r\n\r\n<p>\r\n<ol>\r\n<li>If <i>n</i> is even, replace <i>n</i> with <code><i>n</i>/2</code>.</li>\r\n<li>If <i>n</i> is odd, you can replace <i>n</i> with either <code><i>n</i> + 1</code> or <code><i>n</i> - 1</code>.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nWhat is the minimum number of replacements needed for <i>n</i> to become 1?\r\n</p>\r\n\r\n</p>\r\n\r\n<p><b>Example 1:</b>\r\n<pre>\r\n<b>Input:</b>\r\n8\r\n\r\n<b>Output:</b>\r\n3\r\n\r\n<b>Explanation:</b>\r\n8 -> 4 -> 2 -> 1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\n<b>Input:</b>\r\n7\r\n\r\n<b>Output:</b>\r\n4\r\n\r\n<b>Explanation:</b>\r\n7 -> 8 -> 4 -> 2 -> 1\r\nor\r\n7 -> 6 -> 3 -> 2 -> 1\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "integer-replacement", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Integer Replacement", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -11,6 +11,12 @@ https://leetcode.com/problems/binary-search-tree-iterator/description/
 <p><b>Note: </b><code>next()</code> and <code>hasNext()</code> should run in average O(1) time and uses O(<i>h</i>) memory, where <i>h</i> is the height of the tree. </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Binary Tree Inorder Traversal (binary-tree-inorder-traversal)
+  Flatten 2D Vector (flatten-2d-vector)
+  Zigzag Iterator (zigzag-iterator)
+  Peeking Iterator (peeking-iterator)
+  Inorder Successor in BST (inorder-successor-in-bst)
 """
 
 

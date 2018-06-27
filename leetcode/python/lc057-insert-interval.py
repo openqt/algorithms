@@ -22,6 +22,9 @@ https://leetcode.com/problems/insert-interval/description/
 <strong>Output:</strong> [[1,2],[3,10],[12,16]]
 <strong>Explanation:</strong> Because the new interval <code>[4,8]</code> overlaps with <code>[3,5],[6,7],[8,10]</code>.</pre>
 
+Similar Questions:
+  Merge Intervals (merge-intervals)
+  Range Module (range-module)
 """
 
 

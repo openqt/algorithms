@@ -39,6 +39,8 @@ You have 3 cookies and their sizes are big enough to gratify all of the children
 You need to output 2.
 </pre>
 </p>
+Similar Questions:
+
 */
 func findContentChildren(g []int, s []int) int {
     

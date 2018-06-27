@@ -38,6 +38,11 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> In this case, no transaction is done, i.e. max profit = 0.</pre>
 
+Similar Questions:
+  Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)
+  Best Time to Buy and Sell Stock II (best-time-to-buy-and-sell-stock-ii)
+  Best Time to Buy and Sell Stock IV (best-time-to-buy-and-sell-stock-iv)
+  Maximum Sum of 3 Non-Overlapping Subarrays (maximum-sum-of-3-non-overlapping-subarrays)
 */
 func maxProfit(prices []int) int {
     

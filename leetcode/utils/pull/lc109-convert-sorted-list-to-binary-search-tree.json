@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[-10,-3,0,5,9]", 
     "questionFrontendId": "109", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"sortedListToBST\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/convert-sorted-list-to-binary-search-tree/", 
     "stats": "{\"totalAccepted\": \"136K\", \"totalSubmission\": \"374.4K\", \"acRate\": \"36.3%\"}", 
     "interpretUrl": "/problems/convert-sorted-list-to-binary-search-tree/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.</p>\r\n\r\n<p>For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of <em>every</em> node never differ by more than 1.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\nGiven the sorted linked list: [-10,-3,0,5,9],\r\n\r\nOne possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:\r\n\r\n      0\r\n     / \\\r\n   -3   9\r\n   /   /\r\n -10  5\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "convert-sorted-list-to-binary-search-tree", 
     "similarQuestions": "[{\"title\": \"Convert Sorted Array to Binary Search Tree\", \"titleSlug\": \"convert-sorted-array-to-binary-search-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Convert Sorted List to Binary Search Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

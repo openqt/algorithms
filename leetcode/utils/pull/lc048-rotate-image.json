@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2,3],[4,5,6],[7,8,9]]", 
     "questionFrontendId": "48", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"rotate\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/rotate-image/", 
     "stats": "{\"totalAccepted\": \"170.6K\", \"totalSubmission\": \"399.2K\", \"acRate\": \"42.7%\"}", 
     "interpretUrl": "/problems/rotate-image/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>You are given an <em>n</em> x <em>n</em> 2D matrix representing an image.</p>\r\n\r\n<p>Rotate the image by 90 degrees (clockwise).</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>You have to rotate the image <a href=\"https://en.wikipedia.org/wiki/In-place_algorithm\" target=\"_blank\"><strong>in-place</strong></a>, which means you have to modify the input 2D matrix directly. <strong>DO NOT</strong> allocate another 2D matrix and do the rotation.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\nGiven <strong>input matrix</strong> = \r\n[\r\n  [1,2,3],\r\n  [4,5,6],\r\n  [7,8,9]\r\n],\r\n\r\nrotate the input matrix <strong>in-place</strong> such that it becomes:\r\n[\r\n  [7,4,1],\r\n  [8,5,2],\r\n  [9,6,3]\r\n]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\nGiven <strong>input matrix</strong> =\r\n[\r\n  [ 5, 1, 9,11],\r\n  [ 2, 4, 8,10],\r\n  [13, 3, 6, 7],\r\n  [15,14,12,16]\r\n], \r\n\r\nrotate the input matrix <strong>in-place</strong> such that it becomes:\r\n[\r\n  [15,13, 2, 5],\r\n  [14, 3, 4, 1],\r\n  [12, 6, 8, 9],\r\n  [16, 7,10,11]\r\n]\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "rotate-image", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Rotate Image", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

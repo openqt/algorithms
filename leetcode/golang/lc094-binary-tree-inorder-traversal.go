@@ -23,6 +23,15 @@ https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 
 <p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>
 
+Similar Questions:
+  Validate Binary Search Tree (validate-binary-search-tree)
+  Binary Tree Preorder Traversal (binary-tree-preorder-traversal)
+  Binary Tree Postorder Traversal (binary-tree-postorder-traversal)
+  Binary Search Tree Iterator (binary-search-tree-iterator)
+  Kth Smallest Element in a BST (kth-smallest-element-in-a-bst)
+  Closest Binary Search Tree Value II (closest-binary-search-tree-value-ii)
+  Inorder Successor in BST (inorder-successor-in-bst)
+  Minimum Distance Between BST Nodes (minimum-distance-between-bst-nodes)
 */
 /**
  * Definition for a binary tree node.

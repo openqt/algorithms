@@ -26,6 +26,8 @@ Given <i>nums1</i> = <code>[1, 2, 2, 1]</code>, <i>nums2</i> = <code>[2, 2]</cod
 <li>What if elements of <i>nums2</i> are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?</li>
 </ul>
 </p>
+Similar Questions:
+  Intersection of Two Arrays (intersection-of-two-arrays)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "7\n[2,3,1,2,4,3]", 
     "questionFrontendId": "209", 
     "contributors": "[{\"username\": \"Freezen\", \"profileUrl\": \"/freezen/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minSubArrayLen\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-size-subarray-sum/", 
     "stats": "{\"totalAccepted\": \"124.1K\", \"totalSubmission\": \"381.1K\", \"acRate\": \"32.5%\"}", 
     "interpretUrl": "/problems/minimum-size-subarray-sum/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Given an array of <strong>n</strong> positive integers and a positive integer <strong>s</strong>, find the minimal length of a <b>contiguous</b> subarray of which the sum &ge; <strong>s</strong>. If there isn&#39;t one, return 0 instead.</p>\r\n\r\n<p><strong>Example:&nbsp;</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> <code>s = 7, nums = [2,3,1,2,4,3]</code>\r\n<strong>Output:</strong> 2\r\n<strong>Explanation: </strong>the subarray <code>[4,3]</code> has the minimal length under the problem constraint.</pre>\r\n\r\n<div class=\"spoilers\"><b>Follow up:</b></div>\r\n\r\n<div class=\"spoilers\">If you have figured out the <i>O</i>(<i>n</i>) solution, try coding another solution of which the time complexity is <i>O</i>(<i>n</i> log <i>n</i>).&nbsp;</div>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "minimum-size-subarray-sum", 
     "similarQuestions": "[{\"title\": \"Minimum Window Substring\", \"titleSlug\": \"minimum-window-substring\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Maximum Size Subarray Sum Equals k\", \"titleSlug\": \"maximum-size-subarray-sum-equals-k\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Maximum Length of Repeated Subarray\", \"titleSlug\": \"maximum-length-of-repeated-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Size Subarray Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

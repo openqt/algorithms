@@ -19,6 +19,10 @@ Calling <strong><code>hasNext()</code></strong> after that should return <strong
 
 <p><b>Follow up</b>: How would you extend your design to be generic and work with all types, not just integer?</p>
 
+Similar Questions:
+  Binary Search Tree Iterator (binary-search-tree-iterator)
+  Flatten 2D Vector (flatten-2d-vector)
+  Zigzag Iterator (zigzag-iterator)
 """
 
 

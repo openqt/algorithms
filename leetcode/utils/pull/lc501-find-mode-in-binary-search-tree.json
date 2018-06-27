@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,null,2,2]", 
     "questionFrontendId": "501", 
     "contributors": "[{\"username\": \"Coder_1215\", \"profileUrl\": \"/coder_1215/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-mode-in-binary-search-tree/", 
     "stats": "{\"totalAccepted\": \"37K\", \"totalSubmission\": \"98.1K\", \"acRate\": \"37.7%\"}", 
     "interpretUrl": "/problems/find-mode-in-binary-search-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary search tree (BST) with duplicates, find all the <a href=\"https://en.wikipedia.org/wiki/Mode_(statistics)\" target=\"_blank\">mode(s)</a> (the most frequently occurred element) in the given BST.</p>\r\n\r\n<p>\r\nAssume a BST is defined as follows:\r\n<ul>\r\n<li>The left subtree of a node contains only nodes with keys <b>less than or equal to</b> the node's key.</li>\r\n<li>The right subtree of a node contains only nodes with keys <b>greater than or equal to</b> the node's key.</li>\r\n<li>Both the left and right subtrees must also be binary search trees.</li>\r\n</ul>\r\n</p>\r\n\r\n<p>\r\nFor example:<br />\r\nGiven BST <code>[1,null,2,2]</code>,<br />\r\n<pre>\r\n   1\r\n    \\\r\n     2\r\n    /\r\n   2\r\n</pre>\r\n</p>\r\n<p>\r\nreturn <code>[2]</code>.\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nIf a tree has more than one mode, you can return them in any order.\r\n</p>\r\n\r\n<p><b>Follow up:</b>\r\nCould you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count).\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-mode-in-binary-search-tree", 
     "similarQuestions": "[{\"title\": \"Validate Binary Search Tree\", \"titleSlug\": \"validate-binary-search-tree\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Mode in Binary Search Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

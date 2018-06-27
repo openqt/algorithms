@@ -31,6 +31,8 @@ https://leetcode.com/problems/predict-the-winner/description/
 <li>If the scores of both players are equal, then player 1 is still the winner.</li>
 </ol>
 </p>
+Similar Questions:
+  Can I Win (can-i-win)
 """
 
 

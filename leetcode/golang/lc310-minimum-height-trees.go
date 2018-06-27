@@ -50,6 +50,9 @@ The graph contains <code>n</code> nodes which are labeled from <code>0</code> to
 	<li>The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.</li>
 </ul>
 
+Similar Questions:
+  Course Schedule (course-schedule)
+  Course Schedule II (course-schedule-ii)
 */
 func findMinHeightTrees(n int, edges [][]int) []int {
     

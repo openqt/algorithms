@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2,3,4],[5,1,2,3],[9,5,1,2]]", 
     "questionFrontendId": "766", 
     "contributors": "[{\"username\": \"zafarella\", \"profileUrl\": \"/zafarella/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isToeplitzMatrix\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/toeplitz-matrix/", 
     "stats": "{\"totalAccepted\": \"25.1K\", \"totalSubmission\": \"43.4K\", \"acRate\": \"57.9%\"}", 
     "interpretUrl": "/problems/toeplitz-matrix/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>A matrix is <em>Toeplitz</em> if every diagonal from top-left to bottom-right has the same element.</p>\r\n\r\n<p>Now given an <code>M x N</code> matrix, return&nbsp;<code>True</code>&nbsp;if and only if the matrix is <em>Toeplitz</em>.<br />\r\n&nbsp;</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>matrix = [\r\n&nbsp; [1,2,3,4],\r\n&nbsp; [5,1,2,3],\r\n&nbsp; [9,5,1,2]\r\n]\r\n<strong>Output:</strong> True\r\n<strong>Explanation:</strong>\r\nIn the above grid, the&nbsp;diagonals are:\r\n&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;.\r\nIn each diagonal all elements are the same, so the answer is True.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>matrix = [\r\n&nbsp; [1,2],\r\n&nbsp; [2,2]\r\n]\r\n<strong>Output:</strong> False\r\n<strong>Explanation:</strong>\r\nThe diagonal &quot;[1, 2]&quot; has different elements.\r\n</pre>\r\n\r\n<p><br />\r\n<strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>matrix</code> will be a 2D array of integers.</li>\r\n\t<li><code>matrix</code> will have a number of rows and columns in range <code>[1, 20]</code>.</li>\r\n\t<li><code>matrix[i][j]</code> will be integers in range <code>[0, 99]</code>.</li>\r\n</ol>\r\n\r\n<p><br />\r\n<strong>Follow up:</strong></p>\r\n\r\n<ol>\r\n\t<li>What if the matrix is stored on disk, and the memory is limited such that you can only load at most one row of the matrix into the memory at once?</li>\r\n\t<li>What if the matrix is so large that you can only load up a partial row into the memory at once?</li>\r\n</ol>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "toeplitz-matrix", 
     "similarQuestions": "[{\"title\": \"Valid Word Square\", \"titleSlug\": \"valid-word-square\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Toeplitz Matrix", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

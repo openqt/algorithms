@@ -22,6 +22,9 @@ https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 <strong>Output:</strong> [1,2]
 <strong>Explanation:</strong> The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.</pre>
 
+Similar Questions:
+  Two Sum (two-sum)
+  Two Sum IV - Input is a BST (two-sum-iv-input-is-a-bst)
 """
 
 

@@ -22,6 +22,9 @@ Given a circular array (the next element of the last element is the first elemen
 <p><b>Note:</b>
 The length of given array won't exceed 10000.
 </p>
+Similar Questions:
+  Next Greater Element I (next-greater-element-i)
+  Next Greater Element III (next-greater-element-iii)
 */
 func nextGreaterElements(nums []int) []int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,3,6,7]\n7", 
     "questionFrontendId": "39", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"combinationSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"candidates\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/combination-sum/", 
     "stats": "{\"totalAccepted\": \"229.8K\", \"totalSubmission\": \"543K\", \"acRate\": \"42.3%\"}", 
     "interpretUrl": "/problems/combination-sum/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given a <strong>set</strong> of candidate numbers (<code>candidates</code>) <strong>(without duplicates)</strong> and a target number (<code>target</code>), find all unique combinations in <code>candidates</code>&nbsp;where the candidate numbers sums to <code>target</code>.</p>\r\n\r\n<p>The <strong>same</strong> repeated number may be chosen from <code>candidates</code>&nbsp;unlimited number of times.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>All numbers (including <code>target</code>) will be positive integers.</li>\r\n\t<li>The solution set must not contain duplicate combinations.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> candidates = <code>[2,3,6,7], </code>target = <code>7</code>,\r\n<strong>A solution set is:</strong>\r\n[\r\n  [7],\r\n  [2,2,3]\r\n]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> candidates = [2,3,5]<code>, </code>target = 8,\r\n<strong>A solution set is:</strong>\r\n[\r\n&nbsp; [2,2,2,2],\r\n&nbsp; [2,3,3],\r\n&nbsp; [3,5]\r\n]\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "combination-sum", 
     "similarQuestions": "[{\"title\": \"Letter Combinations of a Phone Number\", \"titleSlug\": \"letter-combinations-of-a-phone-number\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Combination Sum II\", \"titleSlug\": \"combination-sum-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Combinations\", \"titleSlug\": \"combinations\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Combination Sum III\", \"titleSlug\": \"combination-sum-iii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Factor Combinations\", \"titleSlug\": \"factor-combinations\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Combination Sum IV\", \"titleSlug\": \"combination-sum-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Combination Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -43,6 +43,8 @@ Given an array of integers and an integer <b>k</b>, you need to find the number 
 <li>All the integers in the given input belong to the range: [-1e7, 1e7].</li>
 </ol>
 </p>
+Similar Questions:
+  Minimum Absolute Difference in BST (minimum-absolute-difference-in-bst)
 */
 func findPairs(nums []int, k int) int {
     

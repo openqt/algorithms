@@ -32,6 +32,8 @@ So we only need <code>1</code> patch.</pre>
 <strong>Output:</strong> 0
 </pre>
 
+Similar Questions:
+
 """
 
 

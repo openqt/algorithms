@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"bbbab\"", 
     "questionFrontendId": "516", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"longestPalindromeSubseq\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-palindromic-subsequence/", 
     "stats": "{\"totalAccepted\": \"33.9K\", \"totalSubmission\": \"78.8K\", \"acRate\": \"43.1%\"}", 
     "interpretUrl": "/problems/longest-palindromic-subsequence/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nGiven a string s, find the longest palindromic subsequence's length in s. You may assume that the maximum length of s is 1000.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br>\r\nInput: \r\n<pre>\r\n\"bbbab\"\r\n</pre>\r\nOutput: \r\n<pre>\r\n4\r\n</pre>\r\nOne possible longest palindromic subsequence is \"bbbb\".\r\n</p>\r\n\r\n<p><b>Example 2:</b><br>\r\nInput:\r\n<pre>\r\n\"cbbd\"\r\n</pre>\r\nOutput:\r\n<pre>\r\n2\r\n</pre>\r\nOne possible longest palindromic subsequence is \"bb\".\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "longest-palindromic-subsequence", 
     "similarQuestions": "[{\"title\": \"Longest Palindromic Substring\", \"titleSlug\": \"longest-palindromic-substring\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Palindromic Substrings\", \"titleSlug\": \"palindromic-substrings\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Count Different Palindromic Subsequences\", \"titleSlug\": \"count-different-palindromic-subsequences\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Palindromic Subsequence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -31,6 +31,8 @@ https://leetcode.com/problems/most-profit-assigning-work/description/
 	<li><code>1 &lt;= worker.length &lt;= 10000</code></li>
 	<li><code>difficulty[i], profit[i], worker[i]</code>&nbsp; are in range&nbsp;<code>[1, 10^5]</code></li>
 </ul>
+Similar Questions:
+
 */
 func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
     

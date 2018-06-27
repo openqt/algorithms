@@ -33,6 +33,9 @@ Input: search("leetcoded"), Output: False
 <li>Please remember to <b>RESET</b> your class variables declared in class MagicDictionary, as static/class variables are <b>persisted across multiple test cases</b>. Please see <a href="https://leetcode.com/faq/#different-output">here</a> for more details.</li>
 </ol>
 </p>
+Similar Questions:
+  Implement Trie (Prefix Tree) (implement-trie-prefix-tree)
+  Longest Word in Dictionary (longest-word-in-dictionary)
 """
 
 

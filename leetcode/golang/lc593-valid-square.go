@@ -25,6 +25,8 @@ https://leetcode.com/problems/valid-square/description/
 <li>Input points have no order.</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
     

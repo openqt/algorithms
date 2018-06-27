@@ -21,6 +21,8 @@ https://leetcode.com/problems/spiral-matrix-ii/description/
 ]
 </pre>
 
+Similar Questions:
+  Spiral Matrix (spiral-matrix)
 */
 func generateMatrix(n int) [][]int {
     

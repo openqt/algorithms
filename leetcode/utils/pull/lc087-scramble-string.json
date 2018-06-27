@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"great\"\n\"rgeat\"", 
     "questionFrontendId": "87", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"isScramble\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s1\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"s2\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/scramble-string/", 
     "stats": "{\"totalAccepted\": \"75.7K\", \"totalSubmission\": \"252.7K\", \"acRate\": \"29.9%\"}", 
     "interpretUrl": "/problems/scramble-string/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given a string <em>s1</em>, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.</p>\r\n\r\n<p>Below is one possible representation of <em>s1</em> = <code>&quot;great&quot;</code>:</p>\r\n\r\n<pre>\r\n    great\r\n   /    \\\r\n  gr    eat\r\n / \\    /  \\\r\ng   r  e   at\r\n           / \\\r\n          a   t\r\n</pre>\r\n\r\n<p>To scramble the string, we may choose any non-leaf node and swap its two children.</p>\r\n\r\n<p>For example, if we choose the node <code>&quot;gr&quot;</code> and swap its two children, it produces a scrambled string <code>&quot;rgeat&quot;</code>.</p>\r\n\r\n<pre>\r\n    rgeat\r\n   /    \\\r\n  rg    eat\r\n / \\    /  \\\r\nr   g  e   at\r\n           / \\\r\n          a   t\r\n</pre>\r\n\r\n<p>We say that <code>&quot;rgeat&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.</p>\r\n\r\n<p>Similarly, if we continue to swap the children of nodes <code>&quot;eat&quot;</code> and <code>&quot;at&quot;</code>, it produces a scrambled string <code>&quot;rgtae&quot;</code>.</p>\r\n\r\n<pre>\r\n    rgtae\r\n   /    \\\r\n  rg    tae\r\n / \\    /  \\\r\nr   g  ta  e\r\n       / \\\r\n      t   a\r\n</pre>\r\n\r\n<p>We say that <code>&quot;rgtae&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.</p>\r\n\r\n<p>Given two strings <em>s1</em> and <em>s2</em> of the same length, determine if <em>s2</em> is a scrambled string of <em>s1</em>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> s1 = &quot;great&quot;, s2 = &quot;rgeat&quot;\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> s1 = &quot;abcde&quot;, s2 = &quot;caebd&quot;\r\n<strong>Output:</strong> false</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "scramble-string", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Scramble String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

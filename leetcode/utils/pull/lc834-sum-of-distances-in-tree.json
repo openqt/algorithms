@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "6\n[[0,1],[0,2],[2,3],[2,4],[2,5]]", 
     "questionFrontendId": "834", 
     "contributors": "[{\"username\": \"lee215\", \"profileUrl\": \"/lee215/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"sumOfDistancesInTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"edges\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/sum-of-distances-in-tree/", 
     "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"6.2K\", \"acRate\": \"31.6%\"}", 
     "interpretUrl": "/problems/sum-of-distances-in-tree/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>An undirected, connected&nbsp;tree with <code>N</code> nodes labelled <code>0...N-1</code> and <code>N-1</code> <code>edges</code>&nbsp;are&nbsp;given.</p>\r\n\r\n<p>The <code>i</code>th edge connects nodes&nbsp;<code>edges[i][0] </code>and<code>&nbsp;edges[i][1]</code>&nbsp;together.</p>\r\n\r\n<p>Return a list <code>ans</code>, where <code>ans[i]</code> is the sum of the distances between node <code>i</code> and all other nodes.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]\r\n<strong>Output: </strong>[8,12,6,10,10,10]\r\n<strong>Explanation: </strong>\r\nHere is a diagram of the given tree:\r\n  0\r\n / \\\r\n1   2\r\n   /|\\\r\n  3 4 5\r\nWe can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)\r\nequals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.\r\n</pre>\r\n\r\n<p>Note:<font face=\"monospace\">&nbsp;<code>1 &lt;= N &lt;= 10000</code></font></p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "sum-of-distances-in-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Sum of Distances in Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

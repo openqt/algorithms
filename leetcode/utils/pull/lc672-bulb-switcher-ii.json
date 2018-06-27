@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1\n1", 
     "questionFrontendId": "672", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"flipLights\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"m\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/bulb-switcher-ii/", 
     "stats": "{\"totalAccepted\": \"6.3K\", \"totalSubmission\": \"12.7K\", \"acRate\": \"49.4%\"}", 
     "interpretUrl": "/problems/bulb-switcher-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>\r\nThere is a room with <code>n</code> lights which are turned on initially and 4 buttons on the wall. After performing exactly <code>m</code> unknown operations towards buttons, you need to return how many different kinds of status of the <code>n</code> lights could be.\r\n</p>\r\n\r\n<p>\r\nSuppose <code>n</code> lights are labeled as number [1, 2, 3 ..., n], function of these 4 buttons are given below:\r\n\r\n<ol>\r\n<li>Flip all the lights.</li>\r\n<li>Flip lights with even numbers.</li>\r\n<li>Flip lights with odd numbers.</li>\r\n<li>Flip lights with (3k + 1) numbers, k = 0, 1, 2, ...</li>\r\n</ol>\r\n</p>\r\n\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 1, m = 1.\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> Status can be: [on], [off]\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 2, m = 1.\r\n<b>Output:</b> 3\r\n<b>Explanation:</b> Status can be: [on, off], [off, on], [off, off]\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 3, m = 1.\r\n<b>Output:</b> 4\r\n<b>Explanation:</b> Status can be: [off, on, off], [on, off, on], [off, off, off], [off, on, on].\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<code>n</code> and <code>m</code> both fit in range [0, 1000].\r\n</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "bulb-switcher-ii", 
     "similarQuestions": "[{\"title\": \"Bulb Switcher\", \"titleSlug\": \"bulb-switcher\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Bulb Switcher II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

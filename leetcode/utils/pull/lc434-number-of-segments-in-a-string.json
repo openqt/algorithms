@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"Hello, my name is John\"", 
     "questionFrontendId": "434", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"countSegments\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/number-of-segments-in-a-string/", 
     "stats": "{\"totalAccepted\": \"40.7K\", \"totalSubmission\": \"111.2K\", \"acRate\": \"36.6%\"}", 
     "interpretUrl": "/problems/number-of-segments-in-a-string/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.</p>\r\n\r\n<p>Please note that the string does not contain any <b>non-printable</b> characters.</p>\r\n\r\n<p><b>Example:</b></p>\r\n<pre>\r\n<b>Input:</b> \"Hello, my name is John\"\r\n<b>Output:</b> 5\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "number-of-segments-in-a-string", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Number of Segments in a String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"aA\"\n\"aAAbbbb\"", 
     "questionFrontendId": "771", 
     "contributors": "[{\"username\": \"lokendrajain1994\", \"profileUrl\": \"/lokendrajain1994/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numJewelsInStones\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"J\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/jewels-and-stones/", 
     "stats": "{\"totalAccepted\": \"66.5K\", \"totalSubmission\": \"81.2K\", \"acRate\": \"81.9%\"}", 
     "interpretUrl": "/problems/jewels-and-stones/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "<p>You&#39;re given strings <code>J</code> representing the types of stones that are jewels, and <code>S</code> representing the stones you have.&nbsp; Each character in <code>S</code> is a type of stone you have.&nbsp; You want to know how many of the stones you have are also jewels.</p>\r\n\r\n<p>The letters in <code>J</code> are guaranteed distinct, and all characters in <code>J</code> and <code>S</code> are letters. Letters are case sensitive, so <code>&quot;a&quot;</code> is considered a different type of stone from <code>&quot;A&quot;</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> J = &quot;aA&quot;, S = &quot;aAAbbbb&quot;\r\n<strong>Output:</strong> 3\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> J = &quot;z&quot;, S = &quot;ZZ&quot;\r\n<strong>Output:</strong> 0\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>S</code> and <code>J</code> will consist of letters and have length at most 50.</li>\r\n\t<li>The characters in <code>J</code> are distinct.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "jewels-and-stones", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Jewels and Stones", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

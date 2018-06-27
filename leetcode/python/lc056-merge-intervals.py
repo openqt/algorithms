@@ -21,6 +21,15 @@ https://leetcode.com/problems/merge-intervals/description/
 <strong>Output:</strong> [[1,5]]
 <strong>Explanation:</strong> Intervals [1,4] and [4,5] are considerred overlapping.</pre>
 
+Similar Questions:
+  Insert Interval (insert-interval)
+  Meeting Rooms (meeting-rooms)
+  Meeting Rooms II (meeting-rooms-ii)
+  Teemo Attacking (teemo-attacking)
+  Add Bold Tag in String (add-bold-tag-in-string)
+  Range Module (range-module)
+  Employee Free Time (employee-free-time)
+  Partition Labels (partition-labels)
 """
 
 

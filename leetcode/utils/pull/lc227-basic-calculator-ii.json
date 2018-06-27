@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"3+2*2\"", 
     "questionFrontendId": "227", 
     "contributors": "[{\"username\": \"ts\", \"profileUrl\": \"/ts/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"calculate\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/basic-calculator-ii/", 
     "stats": "{\"totalAccepted\": \"68.9K\", \"totalSubmission\": \"226K\", \"acRate\": \"30.5%\"}", 
     "interpretUrl": "/problems/basic-calculator-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Implement a basic calculator to evaluate a simple expression string.</p>\r\n\r\n<p>The expression string contains only <b>non-negative</b> integers, <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> operators and empty spaces <code> </code>. The integer division should truncate toward zero.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;3+2*2&quot;\r\n<strong>Output:</strong> 7\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot; 3/2 &quot;\r\n<strong>Output:</strong> 1</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot; 3+5 / 2 &quot;\r\n<strong>Output:</strong> 5\r\n</pre>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ul>\r\n\t<li>You may assume that the given expression is always valid.</li>\r\n\t<li><b>Do not</b> use the <code>eval</code> built-in library function.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "basic-calculator-ii", 
     "similarQuestions": "[{\"title\": \"Basic Calculator\", \"titleSlug\": \"basic-calculator\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Expression Add Operators\", \"titleSlug\": \"expression-add-operators\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Basic Calculator III\", \"titleSlug\": \"basic-calculator-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Basic Calculator II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

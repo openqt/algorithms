@@ -38,6 +38,8 @@ If there are multiple answers, print any of them.
 <li>The <code>n</code> and <code>k</code> are in the range 1 <= k < n <= 10<sup>4</sup>.</li>
 </ol>
 </p>
+Similar Questions:
+  Beautiful Arrangement (beautiful-arrangement)
 */
 func constructArray(n int, k int) []int {
     

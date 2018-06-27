@@ -23,6 +23,8 @@ https://leetcode.com/problems/number-of-boomerangs/description/
 The two boomerangs are <b>[[1,0],[0,0],[2,0]]</b> and <b>[[1,0],[2,0],[0,0]]</b>
 </pre>
 </p>
+Similar Questions:
+  Line Reflection (line-reflection)
 */
 func numberOfBoomerangs(points [][]int) int {
     

@@ -51,6 +51,8 @@ For [1,2], the interval [2,3] has minimum-"right" start point.
 For [2,3], the interval [3,4] has minimum-"right" start point.
 </pre>
 </p>
+Similar Questions:
+  Data Stream as Disjoint Intervals (data-stream-as-disjoint-intervals)
 """
 
 

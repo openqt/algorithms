@@ -36,6 +36,8 @@ We made 5 calls to&nbsp;master.guess and one of them was the secret, so we pass 
 
 <p><strong>Note:</strong>&nbsp; Any solutions that attempt to circumvent the judge&nbsp;will result in disqualification.</p>
 
+Similar Questions:
+
 */
 /**
  * // This is the Master's API interface.

@@ -67,6 +67,8 @@ Thus, we return an answer of <code>[2, 5, 5]</code>.
 <li><code>1 <= positions[i][0] <= 10^8</code>.</li>
 <li><code>1 <= positions[i][1] <= 10^6</code>.</li>
 </p>
+Similar Questions:
+  The Skyline Problem (the-skyline-problem)
 */
 func fallingSquares(positions [][]int) []int {
     

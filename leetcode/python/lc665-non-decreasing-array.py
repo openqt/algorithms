@@ -31,6 +31,8 @@ We define an array is non-decreasing if <code>array[i] <= array[i + 1]</code> ho
 <p><b>Note:</b>
 The <code>n</code> belongs to [1, 10,000].
 </p>
+Similar Questions:
+
 """
 
 

@@ -20,6 +20,8 @@ For example, given <i>n</i> = 2, return 1 (2 = 1 + 1); given <i>n</i> = 10, retu
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/jianchao.li.fighter">@jianchao.li.fighter</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+
 */
 func integerBreak(n int) int {
     

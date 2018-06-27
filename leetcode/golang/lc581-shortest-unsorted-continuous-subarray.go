@@ -25,6 +25,8 @@ https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/
 <li>The input array may contain duplicates, so ascending order here means <b><=</b>. </li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func findUnsortedSubarray(nums []int) int {
     

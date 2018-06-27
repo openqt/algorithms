@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[]\n[]", 
     "questionFrontendId": "350", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"intersect\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums1\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"nums2\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/intersection-of-two-arrays-ii/", 
     "stats": "{\"totalAccepted\": \"117.3K\", \"totalSubmission\": \"265.3K\", \"acRate\": \"44.2%\"}", 
     "interpretUrl": "/problems/intersection-of-two-arrays-ii/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Sort", 
-        "slug": "sort"
+        "slug": "sort", 
+        "name": "Sort"
       }
     ], 
     "content": "<p>\r\nGiven two arrays, write a function to compute their intersection.\r\n</p>\r\n\r\n<p><b>Example:</b><br />\r\nGiven <i>nums1</i> = <code>[1, 2, 2, 1]</code>, <i>nums2</i> = <code>[2, 2]</code>, return <code>[2, 2]</code>.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\n<ul>\r\n<li>Each element in the result should appear as many times as it shows in both arrays.</li>\r\n<li>The result can be in any order.</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Follow up:</b><br />\r\n<ul>\r\n<li>What if the given array is already sorted? How would you optimize your algorithm?</li>\r\n<li>What if <i>nums1</i>'s size is small compared to <i>nums2</i>'s size? Which algorithm is better?</li>\r\n<li>What if elements of <i>nums2</i> are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?</li>\r\n</ul>\r\n</p>", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "intersection-of-two-arrays-ii", 
     "similarQuestions": "[{\"title\": \"Intersection of Two Arrays\", \"titleSlug\": \"intersection-of-two-arrays\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Intersection of Two Arrays II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4]", 
     "questionFrontendId": "24", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"swapPairs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/swap-nodes-in-pairs/", 
     "stats": "{\"totalAccepted\": \"222.6K\", \"totalSubmission\": \"558.9K\", \"acRate\": \"39.8%\"}", 
     "interpretUrl": "/problems/swap-nodes-in-pairs/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Given a&nbsp;linked list, swap every two adjacent nodes and return its head.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\nGiven <code>1-&gt;2-&gt;3-&gt;4</code>, you should return the list as <code>2-&gt;1-&gt;4-&gt;3</code>.</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Your algorithm should use only constant extra space.</li>\r\n\t<li>You may <strong>not</strong> modify the values in the list&#39;s nodes, only nodes itself may be changed.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "swap-nodes-in-pairs", 
     "similarQuestions": "[{\"title\": \"Reverse Nodes in k-Group\", \"titleSlug\": \"reverse-nodes-in-k-group\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Swap Nodes in Pairs", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

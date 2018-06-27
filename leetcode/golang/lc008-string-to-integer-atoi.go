@@ -64,6 +64,9 @@ https://leetcode.com/problems/string-to-integer-atoi/description/
 <strong>Explanation:</strong> The number &quot;-91283472332&quot; is out of the range of a 32-bit signed integer.
 &nbsp;            Thefore INT_MIN (&minus;2<sup>31</sup>) is returned.</pre>
 
+Similar Questions:
+  Reverse Integer (reverse-integer)
+  Valid Number (valid-number)
 */
 func myAtoi(str string) int {
     

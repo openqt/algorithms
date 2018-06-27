@@ -39,6 +39,8 @@ https://leetcode.com/problems/delete-node-in-a-linked-list/description/
 	<li>Do not return anything from your function.</li>
 </ul>
 
+Similar Questions:
+  Remove Linked List Elements (remove-linked-list-elements)
 """
 
 

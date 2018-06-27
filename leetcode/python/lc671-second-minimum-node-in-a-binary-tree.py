@@ -41,6 +41,8 @@ If no such second minimum value exists, output -1 instead.
 <b>Explanation:</b> The smallest value is 2, but there isn't any second smallest value.
 </pre>
 </p>
+Similar Questions:
+  Kth Smallest Element in a BST (kth-smallest-element-in-a-bst)
 """
 
 

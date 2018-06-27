@@ -36,6 +36,8 @@ Output: False
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/vinod23">@vinod23</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+
 */
 func canMeasureWater(x int, y int, z int) bool {
     

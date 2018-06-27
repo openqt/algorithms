@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,0]", 
     "questionFrontendId": "717", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isOneBitCharacter\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"bits\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/1-bit-and-2-bit-characters/", 
     "stats": "{\"totalAccepted\": \"22.3K\", \"totalSubmission\": \"45.2K\", \"acRate\": \"49.3%\"}", 
     "interpretUrl": "/problems/1-bit-and-2-bit-characters/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>We have two special characters. The first character can be represented by one bit <code>0</code>. The second character can be represented by two bits (<code>10</code> or <code>11</code>).  </p>\r\n\r\n<p>Now given a string represented by several bits. Return whether the last character must be a one-bit character or not. The given string will always end with a zero.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nbits = [1, 0, 0]\r\n<b>Output:</b> True\r\n<b>Explanation:</b> \r\nThe only way to decode it is two-bit character and one-bit character. So the last character is one-bit character.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nbits = [1, 1, 1, 0]\r\n<b>Output:</b> False\r\n<b>Explanation:</b> \r\nThe only way to decode it is two-bit character and two-bit character. So the last character is NOT one-bit character.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>1 <= len(bits) <= 1000</code>.</li>\r\n<li><code>bits[i]</code> is always <code>0</code> or <code>1</code>.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "1-bit-and-2-bit-characters", 
     "similarQuestions": "[{\"title\": \"Gray Code\", \"titleSlug\": \"gray-code\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "1-bit and 2-bit Characters", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

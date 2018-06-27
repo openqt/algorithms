@@ -54,6 +54,8 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 <li>You are <b>not</b> allowed to buy more items than you want, even if that would lower the overall price.</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

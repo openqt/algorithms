@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"flower\",\"flow\",\"flight\"]", 
     "questionFrontendId": "14", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"longestCommonPrefix\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strs\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-common-prefix/", 
     "stats": "{\"totalAccepted\": \"289.6K\", \"totalSubmission\": \"912.7K\", \"acRate\": \"31.7%\"}", 
     "interpretUrl": "/problems/longest-common-prefix/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Write a function to find the longest common prefix string amongst an array of strings.</p>\r\n\r\n<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]\r\n<strong>Output:</strong> &quot;fl&quot;\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]\r\n<strong>Output:</strong> &quot;&quot;\r\n<strong>Explanation:</strong> There is no common prefix among the input strings.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>All given inputs are in lowercase letters <code>a-z</code>.</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "longest-common-prefix", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Common Prefix", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5]\n4\n3", 
     "questionFrontendId": "658", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findClosestElements\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"arr\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"       \r\n    },\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"       \r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-k-closest-elements/", 
     "stats": "{\"totalAccepted\": \"20.9K\", \"totalSubmission\": \"60.2K\", \"acRate\": \"34.7%\"}", 
     "interpretUrl": "/problems/find-k-closest-elements/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>\r\nGiven a sorted array, two integers <code>k</code> and <code>x</code>, find the <code>k</code> closest elements to <code>x</code> in the array.  The result should also be sorted in ascending order.\r\nIf there is a tie,  the smaller elements are always preferred.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,3,4,5], k=4, x=3\r\n<b>Output:</b> [1,2,3,4]\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,3,4,5], k=4, x=-1\r\n<b>Output:</b> [1,2,3,4]\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The value k is positive and will always be smaller than the length of the sorted array.</li>\r\n<li> Length of the given array is positive and will not exceed 10<sup>4</sup></li>\r\n<li> Absolute value of elements in the array and x will not exceed 10<sup>4</sup></li>\r\n</ol>\r\n</p>\r\n\r\n<hr />\r\n\r\n<p>\r\n<b><font color=\"red\">UPDATE (2017/9/19):</font></b><br />\r\nThe <i>arr</i> parameter had been changed to an <b>array of integers</b> (instead of a list of integers). <b><i>Please reload the code definition to get the latest changes</i></b>.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-k-closest-elements", 
     "similarQuestions": "[{\"title\": \"Guess Number Higher or Lower\", \"titleSlug\": \"guess-number-higher-or-lower\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Guess Number Higher or Lower II\", \"titleSlug\": \"guess-number-higher-or-lower-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find K-th Smallest Pair Distance\", \"titleSlug\": \"find-k-th-smallest-pair-distance\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find K Closest Elements", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

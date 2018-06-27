@@ -36,6 +36,8 @@ Merged tree:
 The merging process must start from the root nodes of both trees.
 </p>
 
+Similar Questions:
+
 """
 
 

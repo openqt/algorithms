@@ -67,6 +67,8 @@ You may assume there is no extra space or special characters in the input string
 <b>Explanation:</b> This is neither a IPv4 address nor a IPv6 address.
 </pre>
 </p>
+Similar Questions:
+  IP to CIDR (ip-to-cidr)
 */
 func validIPAddress(IP string) string {
     

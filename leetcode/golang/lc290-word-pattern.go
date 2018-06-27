@@ -38,6 +38,9 @@ https://leetcode.com/problems/word-pattern/description/
 <p><b>Notes:</b><br />
 You may assume <code>pattern</code> contains only lowercase letters, and <code>str</code> contains lowercase letters separated by a single space.</p>
 
+Similar Questions:
+  Isomorphic Strings (isomorphic-strings)
+  Word Pattern II (word-pattern-ii)
 */
 func wordPattern(pattern string, str string) bool {
     

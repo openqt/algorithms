@@ -13,6 +13,8 @@ What is the maximum number of envelopes can you Russian doll? (put one inside ot
 <p><b>Example:</b><br />
 Given envelopes = <code>[[5,4],[6,4],[6,7],[2,3]]</code>, the maximum number of envelopes you can Russian doll is <code>3</code> ([2,3] => [5,4] => [6,7]).
 </p>
+Similar Questions:
+  Longest Increasing Subsequence (longest-increasing-subsequence)
 """
 
 

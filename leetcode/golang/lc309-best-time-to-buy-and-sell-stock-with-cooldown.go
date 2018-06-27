@@ -24,6 +24,9 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/desc
 <strong>Explanation:</strong> transactions = [buy, sell, cooldown, buy, sell]
 </pre>
 
+Similar Questions:
+  Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)
+  Best Time to Buy and Sell Stock II (best-time-to-buy-and-sell-stock-ii)
 */
 func maxProfit(prices []int) int {
     

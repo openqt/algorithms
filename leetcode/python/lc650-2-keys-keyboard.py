@@ -34,6 +34,8 @@ In step 3, we use <b>Paste</b> operation to get 'AAA'.
 <li>The <code>n</code> will be in the range [1, 1000].</li>
 </ol>
 </p>
+Similar Questions:
+  4 Keys Keyboard (4-keys-keyboard)
 """
 
 

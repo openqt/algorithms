@@ -20,6 +20,8 @@ https://leetcode.com/problems/rectangle-area/description/
 
 <p>Assume that the total area is never beyond the maximum possible value of <strong>int</strong>.</p>
 
+Similar Questions:
+  Rectangle Overlap (rectangle-overlap)
 """
 
 

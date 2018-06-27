@@ -26,6 +26,8 @@ https://leetcode.com/problems/contiguous-array/description/
 <p><b>Note:</b>
 The length of the given binary array will not exceed 50,000.
 </p>
+Similar Questions:
+  Maximum Size Subarray Sum Equals k (maximum-size-subarray-sum-equals-k)
 """
 
 

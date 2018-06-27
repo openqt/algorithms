@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]", 
     "questionFrontendId": "587", 
     "contributors": "[{\"username\": \"vishal51\", \"profileUrl\": \"/vishal51/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"outerTrees\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"points\",\r\n      \"type\": \"Point[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<Point>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/erect-the-fence/", 
     "stats": "{\"totalAccepted\": \"4.9K\", \"totalSubmission\": \"14.6K\", \"acRate\": \"33.7%\"}", 
     "interpretUrl": "/problems/erect-the-fence/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Geometry", 
-        "slug": "geometry"
+        "slug": "geometry", 
+        "name": "Geometry"
       }
     ], 
     "content": "<p>There are some trees, where each tree is represented by (x,y) coordinate in a two-dimensional garden. Your job is to fence the entire garden using the <b>minimum length</b> of rope as it is expensive. The garden is well fenced only if all the trees are enclosed. Your task is to help find the coordinates of trees which are exactly located on the fence perimeter.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]\r\n<b>Output:</b> [[1,1],[2,0],[4,2],[3,3],[2,4]]\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/erect_the_fence_1.png\" width = \"30%\" />\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [[1,2],[2,2],[4,2]]\r\n<b>Output:</b> [[1,2],[2,2],[4,2]]\r\n<b>Explanation:</b>\r\n<img src=\"/static/images/problemset/erect_the_fence_2.png\" width = \"30%\" />\r\nEven you only have trees in a line, you need to use rope to enclose them. \r\n</pre>\r\n</p>\r\n\r\n<p> Note: \r\n<ol>\r\n<li>All trees should be enclosed together. You cannot cut the rope to enclose trees that will separate them in more than one group.</li>\r\n<li>All input integers will range from 0 to 100. </li>\r\n<li>The garden has at least one tree. </li>\r\n<li>All coordinates are distinct. </li>\r\n<li>Input points have <b>NO</b> order. No order required for output.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "erect-the-fence", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Erect the Fence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

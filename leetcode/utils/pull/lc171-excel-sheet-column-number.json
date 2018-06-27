@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"A\"", 
     "questionFrontendId": "171", 
     "contributors": "[{\"username\": \"ts\", \"profileUrl\": \"/ts/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"titleToNumber\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/excel-sheet-column-number/", 
     "stats": "{\"totalAccepted\": \"174.1K\", \"totalSubmission\": \"354.8K\", \"acRate\": \"49.1%\"}", 
     "interpretUrl": "/problems/excel-sheet-column-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given a column title as appear in an Excel sheet, return its corresponding column number.</p>\r\n\r\n<p>For example:</p>\r\n\r\n<pre>\r\n    A -&gt; 1\r\n    B -&gt; 2\r\n    C -&gt; 3\r\n    ...\r\n    Z -&gt; 26\r\n    AA -&gt; 27\r\n    AB -&gt; 28 \r\n    ...\r\n</pre>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;A&quot;\r\n<strong>Output:</strong> 1\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;AB&quot;\r\n<strong>Output:</strong> 28\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>&quot;ZY&quot;\r\n<strong>Output:</strong> 701\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "excel-sheet-column-number", 
     "similarQuestions": "[{\"title\": \"Excel Sheet Column Title\", \"titleSlug\": \"excel-sheet-column-title\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Excel Sheet Column Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

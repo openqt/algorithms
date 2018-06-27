@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[-2,-3,3],[-5,-10,1],[10,30,-5]]", 
     "questionFrontendId": "174", 
     "contributors": "[{\"username\": \"stellari\", \"profileUrl\": \"/stellari/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"calculateMinimumHP\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"dungeon\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/dungeon-game/", 
     "stats": "{\"totalAccepted\": \"51.3K\", \"totalSubmission\": \"208.3K\", \"acRate\": \"24.6%\"}", 
     "interpretUrl": "/problems/dungeon-game/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<style type=\"text/css\">table.dungeon, .dungeon th, .dungeon td {\r\n  border:3px solid black;\r\n}\r\n\r\n .dungeon th, .dungeon td {\r\n    text-align: center;\r\n    height: 70px;\r\n    width: 70px;\r\n}\r\n</style>\r\n<p>The demons had captured the princess (<strong>P</strong>) and imprisoned her in the bottom-right corner of a dungeon. The dungeon consists of M x N rooms laid out in a 2D grid. Our valiant knight (<strong>K</strong>) was initially positioned in the top-left room and must fight his way through the dungeon to rescue the princess.</p>\r\n\r\n<p>The knight has an initial health point represented by a positive integer. If at any point his health point drops to 0 or below, he dies immediately.</p>\r\n\r\n<p>Some of the rooms are guarded by demons, so the knight loses health (<em>negative</em> integers) upon entering these rooms; other rooms are either empty (<em>0&#39;s</em>) or contain magic orbs that increase the knight&#39;s health (<em>positive</em> integers).</p>\r\n\r\n<p>In order to reach the princess as quickly as possible, the knight decides to move only rightward or downward in each step.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Write a function to determine the knight&#39;s minimum initial health so that he is able to rescue the princess.</strong></p>\r\n\r\n<p>For example, given the dungeon below, the initial health of the knight must be at least <strong>7</strong> if he follows the optimal path <code>RIGHT-&gt; RIGHT -&gt; DOWN -&gt; DOWN</code>.</p>\r\n\r\n<table class=\"dungeon\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>-2 (K)</td>\r\n\t\t\t<td>-3</td>\r\n\t\t\t<td>3</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>-5</td>\r\n\t\t\t<td>-10</td>\r\n\t\t\t<td>1</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10</td>\r\n\t\t\t<td>30</td>\r\n\t\t\t<td>-5 (P)</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The knight&#39;s health has no upper bound.</li>\r\n\t<li>Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "dungeon-game", 
     "similarQuestions": "[{\"title\": \"Unique Paths\", \"titleSlug\": \"unique-paths\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Minimum Path Sum\", \"titleSlug\": \"minimum-path-sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Cherry Pickup\", \"titleSlug\": \"cherry-pickup\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Dungeon Game", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

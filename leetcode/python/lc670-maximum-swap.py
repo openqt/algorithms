@@ -30,6 +30,8 @@ Given a non-negative integer, you could swap two digits <b>at most</b> once to g
 <li>The given number is in the range [0, 10<sup>8</sup>]</li>
 </ol>
 </p>
+Similar Questions:
+  Create Maximum Number (create-maximum-number)
 """
 
 

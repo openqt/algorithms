@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"10\",\"0001\",\"111001\",\"1\",\"0\"]\n5\n3", 
     "questionFrontendId": "474", 
     "contributors": "[{\"username\": \"piy9\", \"profileUrl\": \"/piy9/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMaxForm\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strs\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n        \"name\": \"m\",\r\n        \"type\": \"integer\"\r\n    },\r\n    {\r\n        \"name\": \"n\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/ones-and-zeroes/", 
     "stats": "{\"totalAccepted\": \"22K\", \"totalSubmission\": \"56.7K\", \"acRate\": \"38.8%\"}", 
     "interpretUrl": "/problems/ones-and-zeroes/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>In the computer world, use restricted resource you have to generate maximum benefit is what we always want to pursue.</p>\r\n<p>For now, suppose you are a dominator of <b>m</b> <code>0s</code> and <b>n</b> <code>1s</code> respectively. On the other hand, there is an array with strings consisting of only <code>0s</code> and <code>1s</code>.</p>\r\n\r\n<p>\r\nNow your task is to find the maximum number of strings that you can form with given <b>m</b> <code>0s</code> and <b>n</b> <code>1s</code>. Each <code>0</code> and <code>1</code> can be used at most <b>once</b>.\r\n</p>\r\n\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The given numbers of <code>0s</code> and <code>1s</code> will both not exceed <code>100</code></li>\r\n<li>The size of given string array won't exceed <code>600</code>.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> Array = {\"10\", \"0001\", \"111001\", \"1\", \"0\"}, m = 5, n = 3\r\n<b>Output:</b> 4\r\n\r\n<b>Explanation:</b> This are totally 4 strings can be formed by the using of 5 0s and 3 1s, which are \u201c10,\u201d0001\u201d,\u201d1\u201d,\u201d0\u201d\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> Array = {\"10\", \"0\", \"1\"}, m = 1, n = 1\r\n<b>Output:</b> 2\r\n\r\n<b>Explanation:</b> You could form \"10\", but then you'd have nothing left. Better form \"0\" and \"1\".\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "ones-and-zeroes", 
     "similarQuestions": "[{\"title\": \"Non-negative Integers without Consecutive Ones\", \"titleSlug\": \"non-negative-integers-without-consecutive-ones\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Ones and Zeroes", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

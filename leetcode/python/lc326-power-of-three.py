@@ -34,6 +34,9 @@ https://leetcode.com/problems/power-of-three/description/
 <p><b>Follow up:</b><br />
 Could you do it without using any loop / recursion?</p>
 
+Similar Questions:
+  Power of Two (power-of-two)
+  Power of Four (power-of-four)
 """
 
 

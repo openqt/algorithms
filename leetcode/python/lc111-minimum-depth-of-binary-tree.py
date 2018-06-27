@@ -23,6 +23,9 @@ https://leetcode.com/problems/minimum-depth-of-binary-tree/description/
 
 <p>return its minimum&nbsp;depth = 2.</p>
 
+Similar Questions:
+  Binary Tree Level Order Traversal (binary-tree-level-order-traversal)
+  Maximum Depth of Binary Tree (maximum-depth-of-binary-tree)
 """
 
 

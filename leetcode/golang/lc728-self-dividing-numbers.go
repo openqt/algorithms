@@ -27,6 +27,8 @@ left = 1, right = 22
 <p><b>Note:</b>
 <li>The boundaries of each input argument are <code>1 <= left <= right <= 10000</code>.</li>
 </p>
+Similar Questions:
+  Perfect Number (perfect-number)
 */
 func selfDividingNumbers(left int, right int) []int {
     

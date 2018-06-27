@@ -43,6 +43,8 @@ However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks po
 </ul>
 
 <p>&nbsp;</p>
+Similar Questions:
+  Max Chunks To Make Sorted (max-chunks-to-make-sorted)
 */
 func maxChunksToSorted(arr []int) int {
     

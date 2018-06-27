@@ -41,6 +41,8 @@ collection.remove(1);
 collection.getRandom();
 </pre>
 </p>
+Similar Questions:
+  Insert Delete GetRandom O(1) (insert-delete-getrandom-o1)
 */
 type RandomizedCollection struct {
     

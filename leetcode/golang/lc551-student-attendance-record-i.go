@@ -38,6 +38,8 @@ A student could be rewarded if his attendance record doesn't contain <b>more tha
 
 
 
+Similar Questions:
+  Student Attendance Record II (student-attendance-record-ii)
 */
 func checkRecord(s string) bool {
     

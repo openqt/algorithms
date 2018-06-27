@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,7,3,6,5,6]", 
     "questionFrontendId": "724", 
     "contributors": "[{\"username\": \"fishercoder\", \"profileUrl\": \"/fishercoder/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"pivotIndex\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-pivot-index/", 
     "stats": "{\"totalAccepted\": \"24.3K\", \"totalSubmission\": \"61.7K\", \"acRate\": \"39.4%\"}", 
     "interpretUrl": "/problems/find-pivot-index/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given an array of integers <code>nums</code>, write a method that returns the \"pivot\" index of this array.\r\n</p><p>\r\nWe define the pivot index as the index where the sum of the numbers to the left of the index is equal to the sum of the numbers to the right of the index.\r\n</p><p>\r\nIf no such index exists, we should return -1. If there are multiple pivot indexes, you should return the left-most pivot index.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nnums = [1, 7, 3, 6, 5, 6]\r\n<b>Output:</b> 3\r\n<b>Explanation:</b> \r\nThe sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum of numbers to the right of index 3.\r\nAlso, 3 is the first index where this occurs.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nnums = [1, 2, 3]\r\n<b>Output:</b> -1\r\n<b>Explanation:</b> \r\nThere is no index that satisfies the conditions in the problem statement.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>The length of <code>nums</code> will be in the range <code>[0, 10000]</code>.</li>\r\n<li>Each element <code>nums[i]</code> will be an integer in the range <code>[-1000, 1000]</code>.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-pivot-index", 
     "similarQuestions": "[{\"title\": \"Subarray Sum Equals K\", \"titleSlug\": \"subarray-sum-equals-k\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Pivot Index", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4]", 
     "questionFrontendId": "413", 
     "contributors": "[{\"username\": \"XiangyuLi926\", \"profileUrl\": \"/xiangyuli926/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numberOfArithmeticSlices\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/arithmetic-slices/", 
     "stats": "{\"totalAccepted\": \"41.4K\", \"totalSubmission\": \"76.1K\", \"acRate\": \"54.4%\"}", 
     "interpretUrl": "/problems/arithmetic-slices/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>A sequence of number is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.</p>\r\n\r\n<p>For example, these are arithmetic sequence:</p>\r\n<pre>1, 3, 5, 7, 9\r\n7, 7, 7, 7\r\n3, -1, -5, -9</pre>\r\n\r\n<p>The following sequence is not arithmetic.</p> <pre>1, 1, 2, 5, 7</pre> \r\n<br/>\r\n\r\n<p>A zero-indexed array A consisting of N numbers is given. A slice of that array is any pair of integers (P, Q) such that 0 <= P < Q < N.</p>\r\n\r\n<p>A slice (P, Q) of array A is called arithmetic if the sequence:<br/>\r\n    A[P], A[p + 1], ..., A[Q - 1], A[Q] is arithmetic. In particular, this means that P + 1 < Q.</p>\r\n\r\n<p>The function should return the number of arithmetic slices in the array A. </p>\r\n<br/>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nA = [1, 2, 3, 4]\r\n\r\nreturn: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.\r\n</pre>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "arithmetic-slices", 
     "similarQuestions": "[{\"title\": \"Arithmetic Slices II - Subsequence\", \"titleSlug\": \"arithmetic-slices-ii-subsequence\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Arithmetic Slices", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

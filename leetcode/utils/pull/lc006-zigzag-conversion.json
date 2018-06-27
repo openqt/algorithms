@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"PAYPALISHIRING\"\n3", 
     "questionFrontendId": "6", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"convert\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"numRows\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/zigzag-conversion/", 
     "stats": "{\"totalAccepted\": \"219.1K\", \"totalSubmission\": \"786.3K\", \"acRate\": \"27.9%\"}", 
     "interpretUrl": "/problems/zigzag-conversion/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>\r\n\r\n<pre>\r\nP   A   H   N\r\nA P L S I I G\r\nY   I   R\r\n</pre>\r\n\r\n<p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>\r\n\r\n<p>Write the code that will take a string and make this conversion given a number of rows:</p>\r\n\r\n<pre>\r\nstring convert(string s, int numRows);</pre>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 3\r\n<strong>Output:</strong> &quot;PAHNAPLSIIGYIR&quot;\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows =&nbsp;4\r\n<strong>Output:</strong>&nbsp;&quot;PINALSIGYAHRPI&quot;\r\n<strong>Explanation:</strong>\r\n\r\nP     I    N\r\nA   L S  I G\r\nY A   H R\r\nP     I</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "zigzag-conversion", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "ZigZag Conversion", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

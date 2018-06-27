@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[10,5,2,6]\n100", 
     "questionFrontendId": "713", 
     "contributors": "[{\"username\": \"rishabh115\", \"profileUrl\": \"/rishabh115/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numSubarrayProductLessThanK\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/subarray-product-less-than-k/", 
     "stats": "{\"totalAccepted\": \"11.8K\", \"totalSubmission\": \"35.7K\", \"acRate\": \"33.2%\"}", 
     "interpretUrl": "/problems/subarray-product-less-than-k/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }
     ], 
     "content": "<p>Your are given an array of positive integers <code>nums</code>.</p>\r\n<p>Count and print the number of (contiguous) subarrays where the product of all the elements in the subarray is less than <code>k</code>.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> nums = [10, 5, 2, 6], k = 100\r\n<b>Output:</b> 8\r\n<b>Explanation:</b> The 8 subarrays that have product less than 100 are: [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6].\r\nNote that [10, 5, 2] is not included as the product of 100 is not strictly less than k.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>0 < nums.length <= 50000</code>.</li>\r\n<li><code>0 < nums[i] < 1000</code>.</li>\r\n<li><code>0 <= k < 10^6</code>.</li>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "subarray-product-less-than-k", 
     "similarQuestions": "[{\"title\": \"Maximum Product Subarray\", \"titleSlug\": \"maximum-product-subarray\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Maximum Size Subarray Sum Equals k\", \"titleSlug\": \"maximum-size-subarray-sum-equals-k\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Subarray Sum Equals K\", \"titleSlug\": \"subarray-sum-equals-k\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Subarray Product Less Than K", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

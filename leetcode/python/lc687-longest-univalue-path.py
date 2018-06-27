@@ -57,6 +57,10 @@ Output:
 <p><b>Note:</b>
 The given binary tree has not more than 10000 nodes.  The height of the tree is not more than 1000.
 </p>
+Similar Questions:
+  Binary Tree Maximum Path Sum (binary-tree-maximum-path-sum)
+  Count Univalue Subtrees (count-univalue-subtrees)
+  Path Sum III (path-sum-iii)
 """
 
 

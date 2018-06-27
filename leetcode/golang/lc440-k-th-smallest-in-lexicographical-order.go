@@ -24,6 +24,8 @@ The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the
 </pre>
 </p>
 
+Similar Questions:
+
 */
 func findKthNumber(n int, k int) int {
     

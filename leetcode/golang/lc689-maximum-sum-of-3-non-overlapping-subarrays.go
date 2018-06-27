@@ -30,6 +30,8 @@ We could have also taken [2, 1], but an answer of [1, 3, 5] would be lexicograph
 <li><code>nums[i]</code> will be between 1 and 65535.</li>
 <li><code>k</code> will be between 1 and floor(nums.length / 3).</li>
 </p>
+Similar Questions:
+  Best Time to Buy and Sell Stock III (best-time-to-buy-and-sell-stock-iii)
 */
 func maxSumOfThreeSubarrays(nums []int, k int) []int {
     

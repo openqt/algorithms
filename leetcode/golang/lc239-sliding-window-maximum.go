@@ -32,6 +32,11 @@ You may assume <em>k</em> is always valid, 1 &le; k &le; input array&#39;s size 
 <p><strong>Follow up:</strong><br />
 Could you solve it in linear time?</p>
 
+Similar Questions:
+  Minimum Window Substring (minimum-window-substring)
+  Min Stack (min-stack)
+  Longest Substring with At Most Two Distinct Characters (longest-substring-with-at-most-two-distinct-characters)
+  Paint House II (paint-house-ii)
 */
 func maxSlidingWindow(nums []int, k int) []int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"12\"", 
     "questionFrontendId": "91", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"numDecodings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/decode-ways/", 
     "stats": "{\"totalAccepted\": \"179.7K\", \"totalSubmission\": \"874.6K\", \"acRate\": \"20.6%\"}", 
     "interpretUrl": "/problems/decode-ways/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>A message containing letters from <code>A-Z</code> is being encoded to numbers using the following mapping:</p>\r\n\r\n<pre>\r\n&#39;A&#39; -&gt; 1\r\n&#39;B&#39; -&gt; 2\r\n...\r\n&#39;Z&#39; -&gt; 26\r\n</pre>\r\n\r\n<p>Given a <strong>non-empty</strong> string containing only digits, determine the total number of ways to decode it.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;12&quot;\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong>&nbsp;It could be decoded as &quot;AB&quot; (1 2) or &quot;L&quot; (12).\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> &quot;226&quot;\r\n<strong>Output:</strong> 3\r\n<strong>Explanation:</strong>&nbsp;It could be decoded as &quot;BZ&quot; (2 26), &quot;VF&quot; (22 6), or &quot;BBF&quot; (2 2 6).</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "decode-ways", 
     "similarQuestions": "[{\"title\": \"Decode Ways II\", \"titleSlug\": \"decode-ways-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Decode Ways", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

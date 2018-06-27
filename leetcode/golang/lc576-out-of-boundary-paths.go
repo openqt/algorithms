@@ -34,6 +34,8 @@ https://leetcode.com/problems/out-of-boundary-paths/description/
 <li>N is in range [0,50].</li>
 </ol>
 </p>
+Similar Questions:
+  Knight Probability in Chessboard (knight-probability-in-chessboard)
 */
 func findPaths(m int, n int, N int, i int, j int) int {
     

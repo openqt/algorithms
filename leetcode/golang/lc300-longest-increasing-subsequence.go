@@ -25,6 +25,12 @@ https://leetcode.com/problems/longest-increasing-subsequence/description/
 
 <p><b>Follow up:</b> Could you improve it to O(<i>n</i> log <i>n</i>) time complexity?</p>
 
+Similar Questions:
+  Increasing Triplet Subsequence (increasing-triplet-subsequence)
+  Russian Doll Envelopes (russian-doll-envelopes)
+  Maximum Length of Pair Chain (maximum-length-of-pair-chain)
+  Number of Longest Increasing Subsequence (number-of-longest-increasing-subsequence)
+  Minimum ASCII Delete Sum for Two Strings (minimum-ascii-delete-sum-for-two-strings)
 */
 func lengthOfLIS(nums []int) int {
     

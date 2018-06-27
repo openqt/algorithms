@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abpcplea\"\n[\"ale\",\"apple\",\"monkey\",\"plea\"]", 
     "questionFrontendId": "524", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findLongestWord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n        \"name\": \"d\",\r\n        \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-word-in-dictionary-through-deleting/", 
     "stats": "{\"totalAccepted\": \"24.3K\", \"totalSubmission\": \"56K\", \"acRate\": \"43.4%\"}", 
     "interpretUrl": "/problems/longest-word-in-dictionary-through-deleting/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Sort", 
-        "slug": "sort"
+        "slug": "sort", 
+        "name": "Sort"
       }
     ], 
     "content": "<p>\r\nGiven a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.\r\n</p>\r\n<p><b>Example 1:</b><br>\r\n<pre>\r\n<b>Input:</b>\r\ns = \"abpcplea\", d = [\"ale\",\"apple\",\"monkey\",\"plea\"]\r\n\r\n<b>Output:</b> \r\n\"apple\"\r\n</pre>\r\n</p>\r\n\r\n</p>\r\n<p><b>Example 2:</b><br>\r\n<pre>\r\n<b>Input:</b>\r\ns = \"abpcplea\", d = [\"a\",\"b\",\"c\"]\r\n\r\n<b>Output:</b> \r\n\"a\"\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>All the strings in the input will only contain lower-case letters.</li>\r\n<li>The size of the dictionary won't exceed 1,000.</li>\r\n<li>The length of all the strings in the input won't exceed 1,000.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "longest-word-in-dictionary-through-deleting", 
     "similarQuestions": "[{\"title\": \"Longest Word in Dictionary\", \"titleSlug\": \"longest-word-in-dictionary\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Word in Dictionary through Deleting", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

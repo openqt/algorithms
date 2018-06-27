@@ -31,6 +31,8 @@ addNum(3)
 findMedian() -&gt; 2
 </pre>
 
+Similar Questions:
+  Sliding Window Median (sliding-window-median)
 */
 type MedianFinder struct {
     

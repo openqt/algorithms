@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[9,1,2,3,9]\n3", 
     "questionFrontendId": "813", 
     "contributors": "[{\"username\": \"ngoc_lam\", \"profileUrl\": \"/ngoc_lam/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"largestSumOfAverages\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"K\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"double\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/largest-sum-of-averages/", 
     "stats": "{\"totalAccepted\": \"4.6K\", \"totalSubmission\": \"11.2K\", \"acRate\": \"40.9%\"}", 
     "interpretUrl": "/problems/largest-sum-of-averages/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>We partition a row of numbers <code>A</code>&nbsp;into at most <code>K</code> adjacent (non-empty) groups, then our score is the sum of the average of each group. What is the largest score we can achieve?</p>\r\n\r\n<p>Note that our partition must use every number in A, and that scores are not necessarily integers.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> \r\nA = [9,1,2,3,9]\r\nK = 3\r\n<strong>Output:</strong> 20\r\n<strong>Explanation:</strong> \r\nThe best choice is to partition A into [9], [1, 2, 3], [9]. The answer is 9 + (1 + 2 + 3) / 3 + 9 = 20.\r\nWe could have also partitioned A into [9, 1], [2], [3, 9], for example.\r\nThat partition would lead to a score of 5 + 2 + 6 = 13, which is worse.\r\n</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note: </strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= A.length &lt;= 100</code>.</li>\r\n\t<li><code>1 &lt;= A[i] &lt;= 10000</code>.</li>\r\n\t<li><code>1 &lt;= K &lt;= A.length</code>.</li>\r\n\t<li>Answers within <code>10^-6</code> of the correct answer will be accepted as correct.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "largest-sum-of-averages", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Largest Sum of Averages", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

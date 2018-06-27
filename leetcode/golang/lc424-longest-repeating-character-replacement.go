@@ -41,6 +41,8 @@ Replace the one 'A' in the middle with 'B' and form "AABBBBA".
 The substring "BBBB" has the longest repeating letters, which is 4.
 </pre>
 </p>
+Similar Questions:
+  Longest Substring with At Most K Distinct Characters (longest-substring-with-at-most-k-distinct-characters)
 */
 func characterReplacement(s string, k int) int {
     

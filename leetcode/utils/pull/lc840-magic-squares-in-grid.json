@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[4,3,8,4],[9,5,1,9],[2,7,6,2]]", 
     "questionFrontendId": "840", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numMagicSquaresInside\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/magic-squares-in-grid/", 
     "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"11.7K\", \"acRate\": \"33.9%\"}", 
     "interpretUrl": "/problems/magic-squares-in-grid/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>A 3 x 3 magic square is a 3 x 3 grid filled with distinct numbers <strong>from 1 to 9</strong> such that each row, column, and both diagonals all have the same sum.</p>\r\n\r\n<p>Given an <code>grid</code>&nbsp;of integers, how many 3 x 3 &quot;magic square&quot; subgrids are there?&nbsp; (Each subgrid is contiguous).</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[4,3,8,4],\r\n        [9,5,1,9],\r\n        [2,7,6,2]]\r\n<strong>Output: </strong>1\r\n<strong>Explanation: </strong>\r\nThe following subgrid is a 3 x 3 magic square:\r\n438\r\n951\r\n276\r\n\r\nwhile this one is not:\r\n384\r\n519\r\n762\r\n\r\nIn total, there is only one magic square inside the given grid.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= grid.length&nbsp;&lt;= 10</code></li>\r\n\t<li><code>1 &lt;= grid[0].length&nbsp;&lt;= 10</code></li>\r\n\t<li><code>0 &lt;= grid[i][j] &lt;= 15</code></li>\r\n</ol>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "magic-squares-in-grid", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Magic Squares In Grid", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

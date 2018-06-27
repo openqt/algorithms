@@ -45,6 +45,11 @@ Given a <b>N*N</b> matrix <b>M</b> representing the friend relationship between 
 <li>If M[i][j] = 1, then M[j][i] = 1.</li>
 </ol>
 </p>
+Similar Questions:
+  Number of Connected Components in an Undirected Graph (number-of-connected-components-in-an-undirected-graph)
+  Judge Route Circle (judge-route-circle)
+  Sentence Similarity (sentence-similarity)
+  Sentence Similarity II (sentence-similarity-ii)
 */
 func findCircleNum(M [][]int) int {
     

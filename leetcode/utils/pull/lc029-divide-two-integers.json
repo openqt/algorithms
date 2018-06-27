@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "10\n3", 
     "questionFrontendId": "29", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"divide\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"dividend\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"divisor\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/divide-two-integers/", 
     "stats": "{\"totalAccepted\": \"138.6K\", \"totalSubmission\": \"883.4K\", \"acRate\": \"15.7%\"}", 
     "interpretUrl": "/problems/divide-two-integers/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Given two integers <code>dividend</code> and <code>divisor</code>, divide two integers without using multiplication, division and mod operator.</p>\r\n\r\n<p>Return the quotient after dividing <code>dividend</code> by <code>divisor</code>.</p>\r\n\r\n<p>The integer division should truncate toward zero.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> dividend = 10, divisor = 3\r\n<strong>Output:</strong> 3</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> dividend = 7, divisor = -3\r\n<strong>Output:</strong> -2</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Both dividend and divisor&nbsp;will be&nbsp;32-bit&nbsp;signed integers.</li>\r\n\t<li>The divisor will never be 0.</li>\r\n\t<li>Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>, &nbsp;2<sup>31</sup> &minus; 1]. For the purpose of this problem, assume that your function returns 2<sup>31</sup> &minus; 1 when the division result&nbsp;overflows.</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "divide-two-integers", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Divide Two Integers", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

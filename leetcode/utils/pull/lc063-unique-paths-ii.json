@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[0,0,0],[0,1,0],[0,0,0]]", 
     "questionFrontendId": "63", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"uniquePathsWithObstacles\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"obstacleGrid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/unique-paths-ii/", 
     "stats": "{\"totalAccepted\": \"142K\", \"totalSubmission\": \"438.9K\", \"acRate\": \"32.3%\"}", 
     "interpretUrl": "/problems/unique-paths-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>A robot is located at the top-left corner of a <em>m</em> x <em>n</em> grid (marked &#39;Start&#39; in the diagram below).</p>\r\n\r\n<p>The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked &#39;Finish&#39; in the diagram below).</p>\r\n\r\n<p>Now consider if some obstacles are added to the grids. How many unique paths would there be?</p>\r\n\r\n<p><img src=\"https://leetcode.com/static/images/problemset/robot_maze.png\" /></p>\r\n\r\n<p>An obstacle and empty space is marked as <code>1</code> and <code>0</code> respectively in the grid.</p>\r\n\r\n<p><strong>Note:</strong> <em>m</em> and <em>n</em> will be at most 100.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:\r\n</strong>[\r\n&nbsp; [0,0,0],\r\n&nbsp; [0,1,0],\r\n&nbsp; [0,0,0]\r\n]\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong>\r\nThere is one obstacle in the middle of the 3x3 grid above.\r\nThere are two ways to reach the bottom-right corner:\r\n1. Right -&gt; Right -&gt; Down -&gt; Down\r\n2. Down -&gt; Down -&gt; Right -&gt; Right\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "unique-paths-ii", 
     "similarQuestions": "[{\"title\": \"Unique Paths\", \"titleSlug\": \"unique-paths\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Unique Paths II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

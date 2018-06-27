@@ -35,6 +35,8 @@ Once you pay the cost, you can either climb one or two steps. You need to find m
 <li>Every <code>cost[i]</code> will be an integer in the range <code>[0, 999]</code>.</li>
 </ol>
 </p>
+Similar Questions:
+  Climbing Stairs (climbing-stairs)
 */
 func minCostClimbingStairs(cost []int) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,5,1,6,2,0,8,null,null,7,4]\n5\n1", 
     "questionFrontendId": "236", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"lowestCommonAncestor\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"p\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"q\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ]\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/lowest-common-ancestor-of-a-binary-tree/", 
     "stats": "{\"totalAccepted\": \"173.9K\", \"totalSubmission\": \"576.3K\", \"acRate\": \"30.2%\"}", 
     "interpretUrl": "/problems/lowest-common-ancestor-of-a-binary-tree/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "tree", 
-        "name": "Tree", 
-        "__typename": "TopicTagNode"
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.</p>\r\n\r\n<p>According to the <a href=\"https://en.wikipedia.org/wiki/Lowest_common_ancestor\" target=\"_blank\">definition of LCA on Wikipedia</a>: &ldquo;The lowest common ancestor is defined between two nodes p&nbsp;and q&nbsp;as the lowest node in T that has both p&nbsp;and q&nbsp;as descendants (where we allow <b>a node to be a descendant of itself</b>).&rdquo;</p>\r\n\r\n<p>Given the following binary tree:&nbsp; root =&nbsp;[3,5,1,6,2,0,8,null,null,7,4]</p>\r\n\r\n<pre>\r\n        _______3______\r\n       /              \\\r\n    ___5__          ___1__\r\n   /      \\        /      \\\r\n   6      _2       0       8\r\n         /  \\\r\n         7   4\r\n</pre>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1\r\n<strong>Output:</strong> 3\r\n<strong>Explanation: </strong>The LCA of of nodes <code>5</code> and <code>1</code> is <code>3.</code>\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4\r\n<strong>Output:</strong> 5\r\n<strong>Explanation: </strong>The LCA of nodes <code>5</code> and <code>4</code> is <code>5</code>, since a node can be a descendant of itself\r\n             according to the LCA definition.</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>All of the nodes&#39; values will be unique.</li>\r\n\t<li>p and q are different and both values will&nbsp;exist in the binary tree.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "lowest-common-ancestor-of-a-binary-tree", 
     "similarQuestions": "[{\"title\": \"Lowest Common Ancestor of a Binary Search Tree\", \"titleSlug\": \"lowest-common-ancestor-of-a-binary-search-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Lowest Common Ancestor of a Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

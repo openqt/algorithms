@@ -25,6 +25,8 @@ Output:
 [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 </pre>
 </p>
+Similar Questions:
+  Count of Smaller Numbers After Self (count-of-smaller-numbers-after-self)
 */
 func reconstructQueue(people [][]int) [][]int {
     

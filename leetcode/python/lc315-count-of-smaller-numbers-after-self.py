@@ -18,6 +18,10 @@ To the right of 6 there is <b>1</b> smaller element (1).
 To the right of 1 there is <b>0</b> smaller element.
 </pre>
 
+Similar Questions:
+  Count of Range Sum (count-of-range-sum)
+  Queue Reconstruction by Height (queue-reconstruction-by-height)
+  Reverse Pairs (reverse-pairs)
 """
 
 

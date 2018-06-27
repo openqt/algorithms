@@ -19,6 +19,8 @@ https://leetcode.com/problems/palindrome-partitioning-ii/description/
 <strong>Explanation:</strong> The palindrome partitioning [&quot;aa&quot;,&quot;b&quot;] could be produced using 1 cut.
 </pre>
 
+Similar Questions:
+  Palindrome Partitioning (palindrome-partitioning)
 */
 func minCut(s string) int {
     

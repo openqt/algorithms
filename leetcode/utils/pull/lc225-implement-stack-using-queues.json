@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]\n[[],[1],[2],[],[],[]]", 
     "questionFrontendId": "225", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"MyStack\",\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"maxSize\",\r\n                \"lang\": \"c\",\r\n                \"value\": \"64000\"\r\n            }\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"push\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"x\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Push element x onto stack.\"\r\n        },\r\n        {\r\n            \"name\" : \"pop\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Removes the element on top of the stack and returns that element.\"\r\n        },\r\n        {\r\n            \"name\" : \"top\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"comment\": \"Get the top element.\"\r\n        },\r\n        {\r\n            \"name\" : \"empty\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Returns whether the stack is empty.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/implement-stack-using-queues/", 
     "stats": "{\"totalAccepted\": \"97.6K\", \"totalSubmission\": \"280.3K\", \"acRate\": \"34.8%\"}", 
     "interpretUrl": "/problems/implement-stack-using-queues/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Implement the following operations of a stack using queues.</p>\r\n\r\n<ul>\r\n\t<li>push(x) -- Push element x onto stack.</li>\r\n\t<li>pop() -- Removes the element on top of the stack.</li>\r\n\t<li>top() -- Get the top element.</li>\r\n\t<li>empty() -- Return whether the stack is empty.</li>\r\n</ul>\r\n\r\n<p><b>Example:</b></p>\r\n\r\n<pre>\r\nMyStack stack = new MyStack();\r\n\r\nstack.push(1);\r\nstack.push(2);  \r\nstack.top();   // returns 2\r\nstack.pop();   // returns 2\r\nstack.empty(); // returns false</pre>\r\n\r\n<p><b>Notes:</b></p>\r\n\r\n<ul>\r\n\t<li>You must use <i>only</i> standard operations of a queue -- which means only <code>push to back</code>, <code>peek/pop from front</code>, <code>size</code>, and <code>is empty</code> operations are valid.</li>\r\n\t<li>Depending on your language, queue may not be supported natively. You may simulate a queue by using a list or deque (double-ended queue), as long as you use only standard operations of a queue.</li>\r\n\t<li>You may assume that all operations are valid (for example, no pop or top operations will be called on an empty stack).</li>\r\n</ul>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "implement-stack-using-queues", 
     "similarQuestions": "[{\"title\": \"Implement Queue using Stacks\", \"titleSlug\": \"implement-queue-using-stacks\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Implement Stack using Queues", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

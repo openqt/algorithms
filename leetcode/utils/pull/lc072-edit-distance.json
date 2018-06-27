@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"horse\"\n\"ros\"", 
     "questionFrontendId": "72", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"minDistance\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"word1\",\r\n      \"type\": \"string\"\r\n    },\r\n    { \r\n      \"name\": \"word2\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/edit-distance/", 
     "stats": "{\"totalAccepted\": \"121.9K\", \"totalSubmission\": \"367.2K\", \"acRate\": \"33.2%\"}", 
     "interpretUrl": "/problems/edit-distance/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given two words <em>word1</em> and <em>word2</em>, find the minimum number of operations required to convert <em>word1</em> to <em>word2</em>.</p>\r\n\r\n<p>You have the following 3 operations permitted on a word:</p>\r\n\r\n<ol>\r\n\t<li>Insert a character</li>\r\n\t<li>Delete a character</li>\r\n\t<li>Replace a character</li>\r\n</ol>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;horse&quot;, word2 = &quot;ros&quot;\r\n<strong>Output:</strong> 3\r\n<strong>Explanation:</strong> \r\nhorse -&gt; rorse (replace &#39;h&#39; with &#39;r&#39;)\r\nrorse -&gt; rose (remove &#39;r&#39;)\r\nrose -&gt; ros (remove &#39;e&#39;)\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> word1 = &quot;intention&quot;, word2 = &quot;execution&quot;\r\n<strong>Output:</strong> 5\r\n<strong>Explanation:</strong> \r\nintention -&gt; inention (remove &#39;t&#39;)\r\ninention -&gt; enention (replace &#39;i&#39; with &#39;e&#39;)\r\nenention -&gt; exention (replace &#39;n&#39; with &#39;x&#39;)\r\nexention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)\r\nexection -&gt; execution (insert &#39;u&#39;)\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "edit-distance", 
     "similarQuestions": "[{\"title\": \"One Edit Distance\", \"titleSlug\": \"one-edit-distance\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Delete Operation for Two Strings\", \"titleSlug\": \"delete-operation-for-two-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Minimum ASCII Delete Sum for Two Strings\", \"titleSlug\": \"minimum-ascii-delete-sum-for-two-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Edit Distance", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

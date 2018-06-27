@@ -21,6 +21,8 @@ Given <i>nums1</i> = <code>[1, 2, 2, 1]</code>, <i>nums2</i> = <code>[2, 2]</cod
 <li>The result can be in any order.</li>
 </ul>
 </p>
+Similar Questions:
+  Intersection of Two Arrays II (intersection-of-two-arrays-ii)
 */
 func intersection(nums1 []int, nums2 []int) []int {
     

@@ -42,6 +42,8 @@ that <b>i</b> < <b>j</b> < <b>k</b> and a<sub><b>i</b></sub> < a<sub><b>k</b></s
 <b>Explanation:</b> There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0] and [-1, 2, 0].
 </pre>
 </p>
+Similar Questions:
+
 */
 func find132pattern(nums []int) bool {
     

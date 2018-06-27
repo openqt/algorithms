@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5]\n2", 
     "questionFrontendId": "25", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reverseKGroup\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-nodes-in-k-group/", 
     "stats": "{\"totalAccepted\": \"131.1K\", \"totalSubmission\": \"405.6K\", \"acRate\": \"32.3%\"}", 
     "interpretUrl": "/problems/reverse-nodes-in-k-group/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Given a linked list, reverse the nodes of a linked list <em>k</em> at a time and return its modified list.</p>\r\n\r\n<p><em>k</em> is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of <em>k</em> then left-out nodes in the end should remain as it is.</p>\r\n\r\n<ul>\r\n</ul>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Given this linked list: <code>1-&gt;2-&gt;3-&gt;4-&gt;5</code></p>\r\n\r\n<p>For <em>k</em> = 2, you should return: <code>2-&gt;1-&gt;4-&gt;3-&gt;5</code></p>\r\n\r\n<p>For <em>k</em> = 3, you should return: <code>3-&gt;2-&gt;1-&gt;4-&gt;5</code></p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>Only constant extra memory is allowed.</li>\r\n\t<li>You may not alter the values in the list&#39;s nodes, only nodes itself may be changed.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reverse-nodes-in-k-group", 
     "similarQuestions": "[{\"title\": \"Swap Nodes in Pairs\", \"titleSlug\": \"swap-nodes-in-pairs\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse Nodes in k-Group", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

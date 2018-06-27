@@ -25,6 +25,9 @@ https://leetcode.com/problems/palindrome-pairs/description/
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/dietpepsi">@dietpepsi</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Longest Palindromic Substring (longest-palindromic-substring)
+  Shortest Palindrome (shortest-palindrome)
 */
 func palindromePairs(words []string) [][]int {
     

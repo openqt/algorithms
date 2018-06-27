@@ -10,6 +10,9 @@ https://leetcode.com/problems/reverse-string/description/
 <b>Example:</b><br />
 Given s = "hello", return "olleh".
 </p>
+Similar Questions:
+  Reverse Vowels of a String (reverse-vowels-of-a-string)
+  Reverse String II (reverse-string-ii)
 """
 
 

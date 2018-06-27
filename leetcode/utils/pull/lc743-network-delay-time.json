@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[2,1,1],[2,3,1],[3,4,1]]\n4\n2", 
     "questionFrontendId": "743", 
     "contributors": "[{\"username\": \"zestypanda\", \"profileUrl\": \"/zestypanda/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"networkDelayTime\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"times\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"K\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/network-delay-time/", 
     "stats": "{\"totalAccepted\": \"8.7K\", \"totalSubmission\": \"24.5K\", \"acRate\": \"35.7%\"}", 
     "interpretUrl": "/problems/network-delay-time/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Graph", 
-        "slug": "graph"
+        "slug": "graph", 
+        "name": "Graph"
       }
     ], 
     "content": "<p>\r\nThere are <code>N</code> network nodes, labelled <code>1</code> to <code>N</code>.\r\n</p><p>\r\nGiven <code>times</code>, a list of travel times as <b>directed</b> edges <code>times[i] = (u, v, w)</code>, where <code>u</code> is the source node, <code>v</code> is the target node, and <code>w</code> is the time it takes for a signal to travel from source to target.\r\n</p><p>\r\nNow, we send a signal from a certain node <code>K</code>.  How long will it take for all nodes to receive the signal?  If it is impossible, return <code>-1</code>.\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li><code>N</code> will be in the range <code>[1, 100]</code>.</li>\r\n<li><code>K</code> will be in the range <code>[1, N]</code>.</li>\r\n<li>The length of <code>times</code> will be in the range <code>[1, 6000]</code>.</li>\r\n<li>All edges <code>times[i] = (u, v, w)</code> will have <code>1 <= u, v <= N</code> and <code>1 <= w <= 100</code>.</li>\r\n</ol>\r\n</p>", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "network-delay-time", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Network Delay Time", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

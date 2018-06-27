@@ -32,6 +32,8 @@ The only way to decode it is two-bit character and two-bit character. So the las
 <li><code>1 <= len(bits) <= 1000</code>.</li>
 <li><code>bits[i]</code> is always <code>0</code> or <code>1</code>.</li>
 </p>
+Similar Questions:
+  Gray Code (gray-code)
 """
 
 

@@ -12,6 +12,11 @@ https://leetcode.com/problems/merge-two-sorted-lists/description/
 <b>Output:</b> 1->1->2->3->4->4
 </pre>
 </p>
+Similar Questions:
+  Merge k Sorted Lists (merge-k-sorted-lists)
+  Merge Sorted Array (merge-sorted-array)
+  Sort List (sort-list)
+  Shortest Word Distance II (shortest-word-distance-ii)
 """
 
 

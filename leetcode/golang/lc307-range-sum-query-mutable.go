@@ -28,6 +28,9 @@ sumRange(0, 2) -&gt; 8
 	<li>You may assume the number of calls to <i>update</i> and <i>sumRange</i> function is distributed evenly.</li>
 </ol>
 
+Similar Questions:
+  Range Sum Query - Immutable (range-sum-query-immutable)
+  Range Sum Query 2D - Mutable (range-sum-query-2d-mutable)
 */
 type NumArray struct {
     

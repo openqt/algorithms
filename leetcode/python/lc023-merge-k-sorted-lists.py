@@ -18,6 +18,9 @@ https://leetcode.com/problems/merge-k-sorted-lists/description/
 <strong>Output:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4-&gt;5-&gt;6
 </pre>
 
+Similar Questions:
+  Merge Two Sorted Lists (merge-two-sorted-lists)
+  Ugly Number II (ugly-number-ii)
 """
 
 

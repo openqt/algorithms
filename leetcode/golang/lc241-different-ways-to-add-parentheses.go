@@ -31,6 +31,10 @@ https://leetcode.com/problems/different-ways-to-add-parentheses/description/
 (((2*3)-4)*5) = 10<strong>
 </strong></pre>
 
+Similar Questions:
+  Unique Binary Search Trees II (unique-binary-search-trees-ii)
+  Basic Calculator (basic-calculator)
+  Expression Add Operators (expression-add-operators)
 */
 func diffWaysToCompute(input string) []int {
     

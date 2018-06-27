@@ -27,6 +27,8 @@ equals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.
 </pre>
 
 <p>Note:<font face="monospace">&nbsp;<code>1 &lt;= N &lt;= 10000</code></font></p>
+Similar Questions:
+
 """
 
 

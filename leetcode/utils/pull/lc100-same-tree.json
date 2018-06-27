@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]\n[1,2,3]", 
     "questionFrontendId": "100", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isSameTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"p\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"q\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/same-tree/", 
     "stats": "{\"totalAccepted\": \"278.5K\", \"totalSubmission\": \"579.4K\", \"acRate\": \"48.1%\"}", 
     "interpretUrl": "/problems/same-tree/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given two binary trees, write a function to check if they are the same or not.</p>\r\n\r\n<p>Two binary trees are considered the same if they are structurally identical and the nodes have the same value.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>     1         1\r\n          / \\       / \\\r\n         2   3     2   3\r\n\r\n        [1,2,3],   [1,2,3]\r\n\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>     1         1\r\n          /           \\\r\n         2             2\r\n\r\n        [1,2],     [1,null,2]\r\n\r\n<strong>Output:</strong> false\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>     1         1\r\n          / \\       / \\\r\n         2   1     1   2\r\n\r\n        [1,2,1],   [1,1,2]\r\n\r\n<strong>Output:</strong> false\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "same-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Same Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

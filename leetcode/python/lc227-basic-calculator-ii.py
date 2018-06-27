@@ -35,6 +35,10 @@ https://leetcode.com/problems/basic-calculator-ii/description/
 	<li><b>Do not</b> use the <code>eval</code> built-in library function.</li>
 </ul>
 
+Similar Questions:
+  Basic Calculator (basic-calculator)
+  Expression Add Operators (expression-add-operators)
+  Basic Calculator III (basic-calculator-iii)
 """
 
 

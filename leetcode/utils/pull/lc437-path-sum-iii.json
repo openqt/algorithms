@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[10,5,-3,3,2,null,11,3,-2,null,1]\n8", 
     "questionFrontendId": "437", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"pathSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"sum\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/path-sum-iii/", 
     "stats": "{\"totalAccepted\": \"61.9K\", \"totalSubmission\": \"154.1K\", \"acRate\": \"40.2%\"}", 
     "interpretUrl": "/problems/path-sum-iii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>You are given a binary tree in which each node contains an integer value.</p>\r\n\r\n<p>Find the number of paths that sum to a given value.</p>\r\n\r\n<p>The path does not need to start or end at the root or a leaf, but it must go downwards\r\n(traveling only from parent nodes to child nodes).</p>\r\n\r\n<p>The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nroot = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8\r\n\r\n      10\r\n     /  \\\r\n    <b>5</b>   <b>-3</b>\r\n   <b>/</b> <b>\\</b>    <b>\\</b>\r\n  <b>3</b>   <b>2</b>   <b>11</b>\r\n / \\   <b>\\</b>\r\n3  -2   <b>1</b>\r\n\r\nReturn 3. The paths that sum to 8 are:\r\n\r\n1.  5 -> 3\r\n2.  5 -> 2 -> 1\r\n3. -3 -> 11\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "path-sum-iii", 
     "similarQuestions": "[{\"title\": \"Path Sum\", \"titleSlug\": \"path-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Path Sum II\", \"titleSlug\": \"path-sum-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Path Sum IV\", \"titleSlug\": \"path-sum-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Univalue Path\", \"titleSlug\": \"longest-univalue-path\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Path Sum III", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

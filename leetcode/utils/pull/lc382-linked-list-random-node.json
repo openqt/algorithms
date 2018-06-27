@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"Solution\",\"getRandom\"]\n[[[1,2,3]],[]]", 
     "questionFrontendId": "382", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"Solution\",\r\n    \"maxbytesperline\": 121000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n            {\r\n                \"type\": \"ListNode\",\r\n                \"name\": \"head\"\r\n            }\r\n        ],\r\n        \"comment\": \"@param head The linked list's head.\\n        Note that the head is guaranteed to be not null, so it contains at least one node.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"getRandom\",\r\n            \"params\": [\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"integer\"\r\n            },\r\n            \"deserialize\": false,\r\n            \"comment\": \"Returns a random node's value.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/linked-list-random-node/", 
     "stats": "{\"totalAccepted\": \"39.8K\", \"totalSubmission\": \"83.8K\", \"acRate\": \"47.6%\"}", 
     "interpretUrl": "/problems/linked-list-random-node/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Reservoir Sampling", 
-        "slug": "reservoir-sampling"
+        "slug": "reservoir-sampling", 
+        "name": "Reservoir Sampling"
       }
     ], 
     "content": "<p>Given a singly linked list, return a random node's value from the linked list. Each node must have the <b>same probability</b> of being chosen.</p>\r\n\r\n<p><b>Follow up:</b><br />\r\nWhat if the linked list is extremely large and its length is unknown to you? Could you solve this efficiently without using extra space?\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n// Init a singly linked list [1,2,3].\r\nListNode head = new ListNode(1);\r\nhead.next = new ListNode(2);\r\nhead.next.next = new ListNode(3);\r\nSolution solution = new Solution(head);\r\n\r\n// getRandom() should return either 1, 2, or 3 randomly. Each element should have equal probability of returning.\r\nsolution.getRandom();\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "linked-list-random-node", 
     "similarQuestions": "[{\"title\": \"Random Pick Index\", \"titleSlug\": \"random-pick-index\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Linked List Random Node", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

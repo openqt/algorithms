@@ -50,6 +50,8 @@ https://leetcode.com/problems/goat-latin/description/
 	<li><code>S</code> contains only uppercase, lowercase and spaces.&nbsp;Exactly one space between each word.</li>
 	<li><code>1 &lt;= S.length &lt;= 150</code>.</li>
 </ul>
+Similar Questions:
+
 */
 func toGoatLatin(S string) string {
     

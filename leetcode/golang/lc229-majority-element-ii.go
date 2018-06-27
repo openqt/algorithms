@@ -23,6 +23,8 @@ https://leetcode.com/problems/majority-element-ii/description/
 <strong>Input:</strong> [1,1,1,3,3,2,2,2]
 <strong>Output:</strong> [1,2]</pre>
 
+Similar Questions:
+  Majority Element (majority-element)
 */
 func majorityElement(nums []int) []int {
     

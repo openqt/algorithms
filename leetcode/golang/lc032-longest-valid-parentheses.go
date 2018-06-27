@@ -25,6 +25,8 @@ https://leetcode.com/problems/longest-valid-parentheses/description/
 <strong>Explanation:</strong> The longest valid parentheses substring is <code>&quot;()()&quot;</code>
 </pre>
 
+Similar Questions:
+  Valid Parentheses (valid-parentheses)
 */
 func longestValidParentheses(s string) int {
     

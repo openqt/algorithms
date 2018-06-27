@@ -33,6 +33,9 @@ https://leetcode.com/problems/contains-duplicate-iii/description/
 </div>
 </div>
 
+Similar Questions:
+  Contains Duplicate (contains-duplicate)
+  Contains Duplicate II (contains-duplicate-ii)
 """
 
 

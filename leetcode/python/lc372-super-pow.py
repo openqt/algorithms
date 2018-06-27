@@ -27,6 +27,8 @@ Result: 1024
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/stomach_ache">@Stomach_ache</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Pow(x, n) (powx-n)
 """
 
 

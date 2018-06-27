@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,4,5,1,2]\n[4,1,2]", 
     "questionFrontendId": "572", 
     "contributors": "[{\"username\": \"laowangx\", \"profileUrl\": \"/laowangx/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isSubtree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"TreeNode\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/subtree-of-another-tree/", 
     "stats": "{\"totalAccepted\": \"53K\", \"totalSubmission\": \"131.4K\", \"acRate\": \"40.3%\"}", 
     "interpretUrl": "/problems/subtree-of-another-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>\r\nGiven two non-empty binary trees <b>s</b> and <b>t</b>, check whether tree <b>t</b> has exactly the same structure and node values with a subtree of <b>s</b>. A subtree of <b>s</b> is a tree consists of a node in <b>s</b> and all of this node's descendants. The tree <b>s</b> could also be considered as a subtree of itself.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br>\r\n\r\nGiven tree s:\r\n<pre>\r\n     3\r\n    / \\\r\n   4   5\r\n  / \\\r\n 1   2\r\n</pre>\r\nGiven tree t:\r\n<pre>\r\n   4 \r\n  / \\\r\n 1   2\r\n</pre>\r\nReturn <b>true</b>, because t has the same structure and node values with a subtree of s.\r\n</p>\r\n\r\n<p><b>Example 2:</b><br>\r\n\r\nGiven tree s:\r\n<pre>\r\n     3\r\n    / \\\r\n   4   5\r\n  / \\\r\n 1   2\r\n    /\r\n   0\r\n</pre>\r\nGiven tree t:\r\n<pre>\r\n   4\r\n  / \\\r\n 1   2\r\n</pre>\r\nReturn <b>false</b>.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "subtree-of-another-tree", 
     "similarQuestions": "[{\"title\": \"Count Univalue Subtrees\", \"titleSlug\": \"count-univalue-subtrees\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Most Frequent Subtree Sum\", \"titleSlug\": \"most-frequent-subtree-sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Subtree of Another Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

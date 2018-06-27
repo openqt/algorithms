@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3\n0", 
     "questionFrontendId": "629", 
     "contributors": "[{\"username\": \"Stomach_ache\", \"profileUrl\": \"/stomach_ache/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"kInversePairs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/k-inverse-pairs-array/", 
     "stats": "{\"totalAccepted\": \"5.3K\", \"totalSubmission\": \"19.3K\", \"acRate\": \"27.6%\"}", 
     "interpretUrl": "/problems/k-inverse-pairs-array/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nGiven two integers <code>n</code> and <code>k</code>, find how many different arrays consist of numbers from <code>1</code> to <code>n</code> such that there are exactly <code>k</code> inverse pairs. \r\n</p>\r\n<p>\r\nWe define an inverse pair as following:\r\nFor <code>i<sub>th</sub></code> and <code>j<sub>th</sub></code> element in the array, if <code>i</code> < <code>j</code> and <code>a[i]</code> > <code>a[j]</code> then it's an inverse pair; Otherwise, it's not.\r\n</p>\r\n\r\n<p>\r\nSince the answer may be very large, the answer should be modulo 10<sup>9</sup> + 7.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 3, k = 0\r\n<b>Output:</b> 1\r\n<b>Explanation:</b> \r\nOnly the array [1,2,3] which consists of numbers from 1 to 3 has exactly 0 inverse pair.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 3, k = 1\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> \r\nThe array [1,3,2] and [2,1,3] have exactly 1 inverse pair.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The integer <code>n</code> is in the range [1, 1000] and <code>k</code> is in the range [0, 1000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "k-inverse-pairs-array", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "K Inverse Pairs Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

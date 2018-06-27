@@ -34,6 +34,8 @@ We choose the second card, which has number 2 on the back, and it isn&#39;t on t
 	<li><code>1 &lt;= backs[i]&nbsp;&lt;= 2000</code>.</li>
 </ol>
 
+Similar Questions:
+
 """
 
 

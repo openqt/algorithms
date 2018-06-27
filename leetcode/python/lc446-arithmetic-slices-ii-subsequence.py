@@ -40,6 +40,8 @@ All arithmetic subsequence slices are:
 [2,6,10]
 </pre>
 </p>
+Similar Questions:
+  Arithmetic Slices (arithmetic-slices)
 """
 
 

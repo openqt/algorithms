@@ -68,6 +68,8 @@ You are guaranteed that no two <code>trees</code> have the same height and there
 <p>
 <b>Hint</b>: size of the given matrix will not exceed 50x50.
 </p>
+Similar Questions:
+
 */
 func cutOffTree(forest [][]int) int {
     

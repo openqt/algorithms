@@ -38,6 +38,8 @@ Given a string consists of lower English letters only, your job is to count the 
 </p>
 
 <p><b>Hint</b>: Length of the given string will not exceed 100.</p>
+Similar Questions:
+  Remove Boxes (remove-boxes)
 */
 func strangePrinter(s string) int {
     

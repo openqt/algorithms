@@ -64,6 +64,8 @@ https://leetcode.com/problems/valid-sudoku/description/
 	<li>The given board size is always <code>9x9</code>.</li>
 </ul>
 
+Similar Questions:
+  Sudoku Solver (sudoku-solver)
 """
 
 

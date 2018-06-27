@@ -25,6 +25,10 @@ sumRange(0, 5) -> -3
 <li>There are many calls to <i>sumRange</i> function.</li>
 </ol>
 </p>
+Similar Questions:
+  Range Sum Query 2D - Immutable (range-sum-query-2d-immutable)
+  Range Sum Query - Mutable (range-sum-query-mutable)
+  Maximum Size Subarray Sum Equals k (maximum-size-subarray-sum-equals-k)
 */
 type NumArray struct {
     

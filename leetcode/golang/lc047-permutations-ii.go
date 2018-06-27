@@ -21,6 +21,10 @@ https://leetcode.com/problems/permutations-ii/description/
 ]
 </pre>
 
+Similar Questions:
+  Next Permutation (next-permutation)
+  Permutations (permutations)
+  Palindrome Permutation II (palindrome-permutation-ii)
 */
 func permuteUnique(nums []int) [][]int {
     

@@ -34,6 +34,10 @@ If instead we turned both strings into "lee" or "eet", we would get answers of 4
 <li><code>0 < s1.length, s2.length <= 1000</code>.</li>
 <li>All elements of each string will have an ASCII value in <code>[97, 122]</code>.</li> 
 </p>
+Similar Questions:
+  Edit Distance (edit-distance)
+  Longest Increasing Subsequence (longest-increasing-subsequence)
+  Delete Operation for Two Strings (delete-operation-for-two-strings)
 */
 func minimumDeleteSum(s1 string, s2 string) int {
     

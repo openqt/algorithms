@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1],[2],[3],[]]", 
     "questionFrontendId": "841", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"canVisitAllRooms\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"rooms\",\r\n      \"type\": \"list<list<integer>>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/keys-and-rooms/", 
     "stats": "{\"totalAccepted\": \"6.2K\", \"totalSubmission\": \"10.7K\", \"acRate\": \"58.2%\"}", 
     "interpretUrl": "/problems/keys-and-rooms/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Graph", 
-        "slug": "graph"
+        "slug": "graph", 
+        "name": "Graph"
       }
     ], 
     "content": "<p>There are <code>N</code> rooms and you start in room <code>0</code>.&nbsp; Each room has a distinct number in <code>0, 1, 2, ..., N-1</code>, and each room may have&nbsp;some keys to access the next room.&nbsp;</p>\r\n\r\n<p>Formally, each room <code>i</code>&nbsp;has a list of keys <code>rooms[i]</code>, and each key <code>rooms[i][j]</code> is an integer in <code>[0, 1, ..., N-1]</code> where <code>N = rooms.length</code>.&nbsp; A key <code>rooms[i][j] = v</code>&nbsp;opens the room with number <code>v</code>.</p>\r\n\r\n<p>Initially, all the rooms start locked (except for room <code>0</code>).&nbsp;</p>\r\n\r\n<p>You can walk back and forth between rooms freely.</p>\r\n\r\n<p>Return <code>true</code>&nbsp;if and only if you can enter&nbsp;every room.</p>\r\n\r\n<ol>\r\n</ol>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1],[2],[3],[]]\r\n<strong>Output: </strong>true\r\n<strong>Explanation:  </strong>\r\nWe start in room 0, and pick up key 1.\r\nWe then go to room 1, and pick up key 2.\r\nWe then go to room 2, and pick up key 3.\r\nWe then go to room 3.  Since we were able to go to every room, we return true.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>[[1,3],[3,0,1],[2],[0]]\r\n<strong>Output: </strong>false\r\n<strong>Explanation: </strong>We can&#39;t enter the room with number 2.\r\n</pre>\r\n\r\n<p><b>Note:</b></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= rooms.length &lt;=&nbsp;1000</code></li>\r\n\t<li><code>0 &lt;= rooms[i].length &lt;= 1000</code></li>\r\n\t<li>The number of keys in all rooms combined is at most&nbsp;<code>3000</code>.</li>\r\n</ol>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "keys-and-rooms", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Keys and Rooms", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

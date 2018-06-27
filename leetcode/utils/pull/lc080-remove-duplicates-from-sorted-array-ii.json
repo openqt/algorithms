@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,1,1,2,2,3]", 
     "questionFrontendId": "80", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"removeDuplicates\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0,\r\n    \"size\": \"ret\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-duplicates-from-sorted-array-ii/", 
     "stats": "{\"totalAccepted\": \"155.5K\", \"totalSubmission\": \"416.1K\", \"acRate\": \"37.4%\"}", 
     "interpretUrl": "/problems/remove-duplicates-from-sorted-array-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }
     ], 
     "content": "<p>Given a sorted array <em>nums</em>, remove the duplicates <a href=\"https://en.wikipedia.org/wiki/In-place_algorithm\" target=\"_blank\"><strong>in-place</strong></a> such that duplicates appeared at most&nbsp;<em>twice</em> and return the new length.</p>\r\n\r\n<p>Do not allocate extra space for another array, you must do this by <strong>modifying the input array <a href=\"https://en.wikipedia.org/wiki/In-place_algorithm\" target=\"_blank\">in-place</a></strong> with O(1) extra memory.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\nGiven <em>nums</em> = <strong>[1,1,1,2,2,3]</strong>,\r\n\r\nYour function should return length = <strong><code>5</code></strong>, with the first five elements of <em><code>nums</code></em> being <strong><code>1, 1, 2, 2</code></strong> and <strong>3</strong> respectively.\r\n\r\nIt doesn&#39;t matter what you leave beyond the returned length.</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\nGiven <em>nums</em> = <strong>[0,0,1,1,1,1,2,3,3]</strong>,\r\n\r\nYour function should return length = <strong><code>7</code></strong>, with the first seven elements of <em><code>nums</code></em> being modified to&nbsp;<strong><code>0</code></strong>, <strong>0</strong>, <strong>1</strong>, <strong>1</strong>, <strong>2</strong>, <strong>3</strong> and&nbsp;<strong>3</strong> respectively.\r\n\r\nIt doesn&#39;t matter what values are set beyond&nbsp;the returned length.\r\n</pre>\r\n\r\n<p><strong>Clarification:</strong></p>\r\n\r\n<p>Confused why the returned value is an integer but your answer is an array?</p>\r\n\r\n<p>Note that the input array is passed in by <strong>reference</strong>, which means modification to the input array will be known to the caller as well.</p>\r\n\r\n<p>Internally you can think of this:</p>\r\n\r\n<pre>\r\n// <strong>nums</strong> is passed in by reference. (i.e., without making a copy)\r\nint len = removeDuplicates(nums);\r\n\r\n// any modification to <strong>nums</strong> in your function would be known by the caller.\r\n// using the length returned by your function, it prints the first <strong>len</strong> elements.\r\nfor (int i = 0; i &lt; len; i++) {\r\n&nbsp; &nbsp; print(nums[i]);\r\n}\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "remove-duplicates-from-sorted-array-ii", 
     "similarQuestions": "[{\"title\": \"Remove Duplicates from Sorted Array\", \"titleSlug\": \"remove-duplicates-from-sorted-array\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove Duplicates from Sorted Array II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

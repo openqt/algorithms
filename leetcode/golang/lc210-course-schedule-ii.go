@@ -39,6 +39,12 @@ https://leetcode.com/problems/course-schedule-ii/description/
 	<li>You may assume that there are no duplicate edges in the input prerequisites.</li>
 </ol>
 
+Similar Questions:
+  Course Schedule (course-schedule)
+  Alien Dictionary (alien-dictionary)
+  Minimum Height Trees (minimum-height-trees)
+  Sequence Reconstruction (sequence-reconstruction)
+  Course Schedule III (course-schedule-iii)
 */
 func findOrder(numCourses int, prerequisites [][]int) []int {
     

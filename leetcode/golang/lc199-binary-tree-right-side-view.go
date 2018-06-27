@@ -23,6 +23,9 @@ https://leetcode.com/problems/binary-tree-right-side-view/description/
   5     4       &lt;---
 </pre>
 
+Similar Questions:
+  Populating Next Right Pointers in Each Node (populating-next-right-pointers-in-each-node)
+  Boundary of Binary Tree (boundary-of-binary-tree)
 */
 /**
  * Definition for a binary tree node.

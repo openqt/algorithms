@@ -27,6 +27,8 @@ HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 
 <li>Length of the array will not exceed <code>10^4</code>. </li>
 </ol>
 </p>
+Similar Questions:
+  Hamming Distance (hamming-distance)
 """
 
 

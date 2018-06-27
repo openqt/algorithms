@@ -34,6 +34,8 @@ Given a non-negative integer <code>N</code>, find the largest number that is les
 <p><b>Note:</b>
 <code>N</code> is an integer in the range <code>[0, 10^9]</code>.
 </p>
+Similar Questions:
+  Remove K Digits (remove-k-digits)
 """
 
 

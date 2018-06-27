@@ -25,6 +25,8 @@ Given an integer array, your task is to find all the different possible increasi
 <li>The given array may contain duplicates, and two equal integers should also be considered as a special case of increasing sequence.</li>
 </ol>
 </p>
+Similar Questions:
+  Maximum Length of Pair Chain (maximum-length-of-pair-chain)
 */
 func findSubsequences(nums []int) [][]int {
     

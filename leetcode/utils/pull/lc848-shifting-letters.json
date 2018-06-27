@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abc\"\n[3,5,9]", 
     "questionFrontendId": "848", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"shiftingLetters\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"shifts\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/shifting-letters/", 
     "stats": "{\"totalAccepted\": \"4K\", \"totalSubmission\": \"11.8K\", \"acRate\": \"33.9%\"}", 
     "interpretUrl": "/problems/shifting-letters/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>We have a string <code>S</code> of lowercase letters, and an integer array <code>shifts</code>.</p>\r\n\r\n<p>Call the <em>shift</em> of a letter, the next letter in the alphabet, (wrapping around so that <code>&#39;z&#39;</code> becomes <code>&#39;a&#39;</code>).&nbsp;</p>\r\n\r\n<p>For example, <code>shift(&#39;a&#39;) = &#39;b&#39;</code>, <code>shift(&#39;t&#39;) = &#39;u&#39;</code>, and <code>shift(&#39;z&#39;) = &#39;a&#39;</code>.</p>\r\n\r\n<p>Now for each <code>shifts[i] = x</code>, we want to shift the first <code>i+1</code>&nbsp;letters of <code>S</code>, <code>x</code> times.</p>\r\n\r\n<p>Return the final string&nbsp;after all such shifts to <code>S</code> are applied.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = &quot;abc&quot;, shifts = [3,5,9]\r\n<strong>Output: </strong>&quot;rpl&quot;\r\n<strong>Explanation: </strong>\r\nWe start with &quot;abc&quot;.\r\nAfter shifting the first 1 letters of S by 3, we have &quot;dbc&quot;.\r\nAfter shifting the first 2 letters of S by 5, we have &quot;igc&quot;.\r\nAfter shifting the first 3 letters of S by 9, we have &quot;rpl&quot;, the answer.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= S.length = shifts.length &lt;= 20000</code></li>\r\n\t<li><code>0 &lt;= shifts[i] &lt;= 10 ^ 9</code></li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "shifting-letters", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Shifting Letters", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]", 
     "questionFrontendId": "124", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxPathSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-maximum-path-sum/", 
     "stats": "{\"totalAccepted\": \"132.7K\", \"totalSubmission\": \"483.5K\", \"acRate\": \"27.5%\"}", 
     "interpretUrl": "/problems/binary-tree-maximum-path-sum/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a <strong>non-empty</strong> binary tree, find the maximum path sum.</p>\r\n\r\n<p>For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain <strong>at least one node</strong> and does not need to go through the root.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,2,3]\r\n\r\n       <strong>1</strong>\r\n      <strong>/ \\</strong>\r\n     <strong>2</strong>   <strong>3</strong>\r\n\r\n<strong>Output:</strong> 6\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [-10,9,20,null,null,15,7]\r\n\r\n&nbsp;  -10\r\n&nbsp; &nbsp;/ \\\r\n&nbsp; 9 &nbsp;<strong>20</strong>\r\n&nbsp; &nbsp; <strong>/ &nbsp;\\</strong>\r\n&nbsp; &nbsp;<strong>15 &nbsp; 7</strong>\r\n\r\n<strong>Output:</strong> 42\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "binary-tree-maximum-path-sum", 
     "similarQuestions": "[{\"title\": \"Path Sum\", \"titleSlug\": \"path-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Sum Root to Leaf Numbers\", \"titleSlug\": \"sum-root-to-leaf-numbers\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Path Sum IV\", \"titleSlug\": \"path-sum-iv\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Univalue Path\", \"titleSlug\": \"longest-univalue-path\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Maximum Path Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

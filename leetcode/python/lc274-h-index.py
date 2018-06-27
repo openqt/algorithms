@@ -20,6 +20,8 @@ https://leetcode.com/problems/h-index/description/
 
 <p><strong>Note:&nbsp;</strong>If there are several possible values for <em>h</em>, the maximum one is taken as the h-index.</p>
 
+Similar Questions:
+  H-Index II (h-index-ii)
 """
 
 

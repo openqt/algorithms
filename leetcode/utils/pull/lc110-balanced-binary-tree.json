@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,9,20,null,null,15,7]", 
     "questionFrontendId": "110", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isBalanced\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/balanced-binary-tree/", 
     "stats": "{\"totalAccepted\": \"235.8K\", \"totalSubmission\": \"608.3K\", \"acRate\": \"38.8%\"}", 
     "interpretUrl": "/problems/balanced-binary-tree/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree, determine if it is height-balanced.</p>\r\n\r\n<p>For this problem, a height-balanced binary tree is defined as:</p>\r\n\r\n<blockquote>\r\n<p>a binary tree in which the depth of the two subtrees of <em>every</em> node never differ by more than 1.</p>\r\n</blockquote>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<p>Given the following tree <code>[3,9,20,null,null,15,7]</code>:</p>\r\n\r\n<pre>\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7</pre>\r\n\r\n<p>Return true.<br />\r\n<br />\r\n<strong>Example 2:</strong></p>\r\n\r\n<p>Given the following tree <code>[1,2,2,3,3,null,null,4,4]</code>:</p>\r\n\r\n<pre>\r\n       1\r\n      / \\\r\n     2   2\r\n    / \\\r\n   3   3\r\n  / \\\r\n 4   4\r\n</pre>\r\n\r\n<p>Return false.</p>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "balanced-binary-tree", 
     "similarQuestions": "[{\"title\": \"Maximum Depth of Binary Tree\", \"titleSlug\": \"maximum-depth-of-binary-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Balanced Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

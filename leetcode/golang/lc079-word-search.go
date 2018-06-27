@@ -26,6 +26,8 @@ Given word = &quot;<strong>SEE</strong>&quot;, return <strong>true</strong>.
 Given word = &quot;<strong>ABCB</strong>&quot;, return <strong>false</strong>.
 </pre>
 
+Similar Questions:
+  Word Search II (word-search-ii)
 */
 func exist(board [][]byte, word string) bool {
     

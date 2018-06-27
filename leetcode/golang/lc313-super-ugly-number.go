@@ -28,6 +28,8 @@ https://leetcode.com/problems/super-ugly-number/description/
 	<li>The n<sup>th</sup> super ugly number is guaranteed to fit in a 32-bit signed integer.</li>
 </ul>
 
+Similar Questions:
+  Ugly Number II (ugly-number-ii)
 */
 func nthSuperUglyNumber(n int, primes []int) int {
     

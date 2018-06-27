@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]\n16", 
     "questionFrontendId": "68", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"fullJustify\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"maxWidth\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/text-justification/", 
     "stats": "{\"totalAccepted\": \"73K\", \"totalSubmission\": \"357.9K\", \"acRate\": \"20.4%\"}", 
     "interpretUrl": "/problems/text-justification/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given an array of words and a width&nbsp;<em>maxWidth</em>, format the text such that each line has exactly <em>maxWidth</em> characters and is fully (left and right) justified.</p>\r\n\r\n<p>You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces <code>&#39; &#39;</code> when necessary so that each line has exactly <em>maxWidth</em> characters.</p>\r\n\r\n<p>Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.</p>\r\n\r\n<p>For the last line of text, it should be left justified and no <strong>extra</strong> space is inserted between words.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>A word is defined as a character sequence consisting&nbsp;of non-space characters only.</li>\r\n\t<li>Each word&#39;s length is&nbsp;guaranteed to be greater than 0 and not exceed <em>maxWidth</em>.</li>\r\n\t<li>The input array <code>words</code>&nbsp;contains at least one word.</li>\r\n</ul>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\nwords = [&quot;This&quot;, &quot;is&quot;, &quot;an&quot;, &quot;example&quot;, &quot;of&quot;, &quot;text&quot;, &quot;justification.&quot;]\r\nmaxWidth = 16\r\n<strong>Output:</strong>\r\n[\r\n&nbsp; &nbsp;&quot;This &nbsp; &nbsp;is &nbsp; &nbsp;an&quot;,\r\n&nbsp; &nbsp;&quot;example &nbsp;of text&quot;,\r\n&nbsp; &nbsp;&quot;justification. &nbsp;&quot;\r\n]\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\nwords = [&quot;What&quot;,&quot;must&quot;,&quot;be&quot;,&quot;acknowledgment&quot;,&quot;shall&quot;,&quot;be&quot;]\r\nmaxWidth = 16\r\n<strong>Output:</strong>\r\n[\r\n&nbsp; &quot;What &nbsp; must &nbsp; be&quot;,\r\n&nbsp; &quot;acknowledgment &nbsp;&quot;,\r\n&nbsp; &quot;shall be &nbsp; &nbsp; &nbsp; &nbsp;&quot;\r\n]\r\n<strong>Explanation:</strong> Note that the last line is &quot;shall be    &quot; instead of &quot;shall     be&quot;,\r\n&nbsp;            because the last line must be left-justified instead of fully-justified.\r\n             Note that the second line is also left-justified becase it contains only one word.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\nwords = [&quot;Science&quot;,&quot;is&quot;,&quot;what&quot;,&quot;we&quot;,&quot;understand&quot;,&quot;well&quot;,&quot;enough&quot;,&quot;to&quot;,&quot;explain&quot;,\r\n&nbsp;        &quot;to&quot;,&quot;a&quot;,&quot;computer.&quot;,&quot;Art&quot;,&quot;is&quot;,&quot;everything&quot;,&quot;else&quot;,&quot;we&quot;,&quot;do&quot;]\r\nmaxWidth = 20\r\n<strong>Output:</strong>\r\n[\r\n&nbsp; &quot;Science &nbsp;is &nbsp;what we&quot;,\r\n  &quot;understand &nbsp; &nbsp; &nbsp;well&quot;,\r\n&nbsp; &quot;enough to explain to&quot;,\r\n&nbsp; &quot;a &nbsp;computer. &nbsp;Art is&quot;,\r\n&nbsp; &quot;everything &nbsp;else &nbsp;we&quot;,\r\n&nbsp; &quot;do &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;\r\n]\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "text-justification", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Text Justification", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

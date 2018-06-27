@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,3,2,3,1]", 
     "questionFrontendId": "493", 
     "contributors": "[{\"username\": \"ckcz123\", \"profileUrl\": \"/ckcz123/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"reversePairs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reverse-pairs/", 
     "stats": "{\"totalAccepted\": \"12.7K\", \"totalSubmission\": \"61.7K\", \"acRate\": \"20.6%\"}", 
     "interpretUrl": "/problems/reverse-pairs/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Divide and Conquer", 
-        "slug": "divide-and-conquer"
+        "slug": "divide-and-conquer", 
+        "name": "Divide and Conquer"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Indexed Tree", 
-        "slug": "binary-indexed-tree"
+        "slug": "binary-indexed-tree", 
+        "name": "Binary Indexed Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Segment Tree", 
-        "slug": "segment-tree"
+        "slug": "segment-tree", 
+        "name": "Segment Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>Given an array <code>nums</code>, we call <code>(i, j)</code> an <b><i>important reverse pair</i></b> if <code>i &lt; j</code> and <code>nums[i] &gt; 2*nums[j]</code>.</p>\r\n\r\n<p>You need to return the number of important reverse pairs in the given array.</p>\r\n\r\n<p><b>Example1:</b>\r\n<pre>\r\n<b>Input</b>: [1,3,2,3,1]\r\n<b>Output</b>: 2\r\n</pre></p>\r\n\r\n<p><b>Example2:</b>\r\n<pre>\r\n<b>Input</b>: [2,4,3,5,1]\r\n<b>Output</b>: 3\r\n</pre></p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The length of the given array will not exceed <code>50,000</code>.</li>\r\n<li>All the numbers in the input array are in the range of 32-bit integer.</li>\r\n</ol>\r\n</p>", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "reverse-pairs", 
     "similarQuestions": "[{\"title\": \"Count of Smaller Numbers After Self\", \"titleSlug\": \"count-of-smaller-numbers-after-self\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Count of Range Sum\", \"titleSlug\": \"count-of-range-sum\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reverse Pairs", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

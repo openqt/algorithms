@@ -18,6 +18,8 @@ Given <code>1-&gt;2-&gt;3-&gt;4</code>, you should return the list as <code>2-&g
 	<li>You may <strong>not</strong> modify the values in the list&#39;s nodes, only nodes itself may be changed.</li>
 </ul>
 
+Similar Questions:
+  Reverse Nodes in k-Group (reverse-nodes-in-k-group)
 """
 
 

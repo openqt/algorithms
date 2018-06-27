@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[5,2,13]", 
     "questionFrontendId": "538", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"convertBST\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/convert-bst-to-greater-tree/", 
     "stats": "{\"totalAccepted\": \"46.6K\", \"totalSubmission\": \"96K\", \"acRate\": \"48.6%\"}", 
     "interpretUrl": "/problems/convert-bst-to-greater-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus sum of all keys greater than the original key in BST.</p>\r\n\r\n<p>\r\n<b>Example:</b>\r\n<pre>\r\n<b>Input:</b> The root of a Binary Search Tree like this:\r\n              5\r\n            /   \\\r\n           2     13\r\n\r\n<b>Output:</b> The root of a Greater Tree like this:\r\n             18\r\n            /   \\\r\n          20     13\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "convert-bst-to-greater-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Convert BST to Greater Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -38,6 +38,11 @@ https://leetcode.com/problems/course-schedule/description/
 	<li>You may assume that there are no duplicate edges in the input prerequisites.</li>
 </ol>
 
+Similar Questions:
+  Course Schedule II (course-schedule-ii)
+  Graph Valid Tree (graph-valid-tree)
+  Minimum Height Trees (minimum-height-trees)
+  Course Schedule III (course-schedule-iii)
 */
 func canFinish(numCourses int, prerequisites [][]int) bool {
     

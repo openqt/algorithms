@@ -73,6 +73,8 @@ The reason why cdata is NOT <b>"&lt;![CDATA[&lt;div>]>]]>]]>"</b> is because of 
 <li>For simplicity, you could assume the input code (including the <b>any characters</b> mentioned above) only contain <code>letters</code>, <code>digits</code>, <code>'&lt;'</code>,<code>'>'</code>,<code>'/'</code>,<code>'!'</code>,<code>'['</code>,<code>']'</code> and <code>' '</code>.</li>
 </ol>
 </p>
+Similar Questions:
+  Add Bold Tag in String (add-bold-tag-in-string)
 */
 func isValid(code string) bool {
     

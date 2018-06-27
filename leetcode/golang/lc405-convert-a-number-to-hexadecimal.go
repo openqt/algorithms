@@ -39,6 +39,8 @@ Output:
 "ffffffff"
 </pre>
 </p>
+Similar Questions:
+
 */
 func toHex(num int) string {
     

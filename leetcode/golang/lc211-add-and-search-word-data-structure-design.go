@@ -31,6 +31,9 @@ search(&quot;b..&quot;) -&gt; true
 <p><b>Note:</b><br />
 You may assume that all words are consist of lowercase letters <code>a-z</code>.</p>
 
+Similar Questions:
+  Implement Trie (Prefix Tree) (implement-trie-prefix-tree)
+  Prefix and Suffix Search (prefix-and-suffix-search)
 */
 type WordDictionary struct {
     

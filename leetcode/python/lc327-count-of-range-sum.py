@@ -18,6 +18,9 @@ A naive algorithm of <i>O</i>(<i>n</i><sup>2</sup>) is trivial. You MUST do bett
 <strong>Explanation: </strong>The three ranges are : <code>[0,0]</code>, <code>[2,2]</code>, <code>[0,2]</code> and their respective sums are: <code>-2, -1, 2</code>.
 </pre>
 
+Similar Questions:
+  Count of Smaller Numbers After Self (count-of-smaller-numbers-after-self)
+  Reverse Pairs (reverse-pairs)
 """
 
 

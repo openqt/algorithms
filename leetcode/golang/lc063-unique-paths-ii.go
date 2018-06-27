@@ -36,6 +36,8 @@ There are two ways to reach the bottom-right corner:
 2. Down -&gt; Down -&gt; Right -&gt; Right
 </pre>
 
+Similar Questions:
+  Unique Paths (unique-paths)
 */
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
     

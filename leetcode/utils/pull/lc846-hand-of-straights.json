@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,6,2,3,4,7,8]\n3", 
     "questionFrontendId": "846", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isNStraightHand\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"hand\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"W\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/hand-of-straights/", 
     "stats": "{\"totalAccepted\": \"3.9K\", \"totalSubmission\": \"9.1K\", \"acRate\": \"42.6%\"}", 
     "interpretUrl": "/problems/hand-of-straights/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Map", 
-        "slug": "map"
+        "slug": "map", 
+        "name": "Map"
       }
     ], 
     "content": "<p>Alice has a <code>hand</code> of cards, given as an array of integers.</p>\r\n\r\n<p>Now she wants to rearrange the cards into groups so that each group is size <code>W</code>, and consists of <code>W</code> consecutive cards.</p>\r\n\r\n<p>Return <code>true</code> if and only if she can.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<ol>\r\n</ol>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>hand = [1,2,3,6,2,3,4,7,8], W = 3\r\n<strong>Output: </strong>true\r\n<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can be rearranged as <code>[1,2,3],[2,3,4],[6,7,8]</code>.</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>hand = [1,2,3,4,5], W = 4\r\n<strong>Output: </strong>false\r\n<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can&#39;t be rearranged into groups of <code>4</code>.</pre>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>1 &lt;= hand.length &lt;= 10000</code></li>\r\n\t<li><code>0 &lt;= hand[i]&nbsp;&lt;= 10^9</code></li>\r\n\t<li><code>1 &lt;= W &lt;= hand.length</code></li>\r\n</ol>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "hand-of-straights", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Hand of Straights", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -27,6 +27,10 @@ https://leetcode.com/problems/subsets/description/
 &nbsp; []
 ]</pre>
 
+Similar Questions:
+  Subsets II (subsets-ii)
+  Generalized Abbreviation (generalized-abbreviation)
+  Letter Case Permutation (letter-case-permutation)
 */
 func subsets(nums []int) [][]int {
     

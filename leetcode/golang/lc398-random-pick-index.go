@@ -28,6 +28,8 @@ solution.pick(3);
 solution.pick(1);
 </pre>
 </p>
+Similar Questions:
+  Linked List Random Node (linked-list-random-node)
 */
 type Solution struct {
     

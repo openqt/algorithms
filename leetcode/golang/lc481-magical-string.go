@@ -52,6 +52,8 @@ N will not exceed 100,000.
 <b>Explanation:</b> The first 6 elements of magical string S is "12211" and it contains three 1's, so return 3.
 </pre>
 </p>
+Similar Questions:
+
 */
 func magicalString(n int) int {
     

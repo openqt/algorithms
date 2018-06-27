@@ -25,6 +25,12 @@ https://leetcode.com/problems/ugly-number-ii/description/
 	<li><code>n</code> <b>does not exceed 1690</b>.</li>
 </ol>
 
+Similar Questions:
+  Merge k Sorted Lists (merge-k-sorted-lists)
+  Count Primes (count-primes)
+  Ugly Number (ugly-number)
+  Perfect Squares (perfect-squares)
+  Super Ugly Number (super-ugly-number)
 */
 func nthUglyNumber(n int) int {
     

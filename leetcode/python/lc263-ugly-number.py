@@ -38,6 +38,10 @@ https://leetcode.com/problems/ugly-number/description/
 	<li>Input is within the 32-bit signed integer range:&nbsp;[&minus;2<sup>31</sup>,&nbsp; 2<sup>31&nbsp;</sup>&minus; 1].</li>
 </ol>
 
+Similar Questions:
+  Happy Number (happy-number)
+  Count Primes (count-primes)
+  Ugly Number II (ugly-number-ii)
 """
 
 

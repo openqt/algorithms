@@ -19,6 +19,8 @@ https://leetcode.com/problems/simplify-path/description/
 	In this case, you should ignore redundant slashes and return <code>&quot;/home/foo&quot;</code>.</li>
 </ul>
 
+Similar Questions:
+
 """
 
 

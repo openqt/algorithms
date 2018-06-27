@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"ADOBECODEBANC\"\n\"ABC\"", 
     "questionFrontendId": "76", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"minWindow\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    { \r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-window-substring/", 
     "stats": "{\"totalAccepted\": \"155.1K\", \"totalSubmission\": \"567.9K\", \"acRate\": \"27.3%\"}", 
     "interpretUrl": "/problems/minimum-window-substring/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O(n).</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: S</strong> = &quot;ADOBECODEBANC&quot;, <strong>T</strong> = &quot;ABC&quot;\r\n<strong>Output:</strong> &quot;BANC&quot;\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>If there is no such window in S that covers all characters in T, return the empty string <code>&quot;&quot;</code>.</li>\r\n\t<li>If there is such window, you are guaranteed that there will always be only one unique minimum window in S.</li>\r\n</ul>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "minimum-window-substring", 
     "similarQuestions": "[{\"title\": \"Substring with Concatenation of All Words\", \"titleSlug\": \"substring-with-concatenation-of-all-words\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Minimum Size Subarray Sum\", \"titleSlug\": \"minimum-size-subarray-sum\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Sliding Window Maximum\", \"titleSlug\": \"sliding-window-maximum\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Permutation in String\", \"titleSlug\": \"permutation-in-string\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Smallest Range\", \"titleSlug\": \"smallest-range\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Minimum Window Subsequence\", \"titleSlug\": \"minimum-window-subsequence\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Window Substring", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -23,6 +23,9 @@ Given a string and an integer k, you need to reverse the first k characters for 
 <li> The string consists of lower English letters only.</li>
 <li> Length of the given string and k will in the range [1, 10000]</li>
 </ol>
+Similar Questions:
+  Reverse String (reverse-string)
+  Reverse Words in a String III (reverse-words-in-a-string-iii)
 */
 func reverseStr(s string, k int) string {
     

@@ -69,6 +69,10 @@ of the final x in the add-expression.  That final x will equal 2.
 <li>The length of <code>expression</code> is at most 2000.  (It is also non-empty, as that would not be a legal expression.)</li>
 <li>The answer and all intermediate calculations of that answer are guaranteed to fit in a 32-bit integer.</li>
 </p>
+Similar Questions:
+  Ternary Expression Parser (ternary-expression-parser)
+  Number of Atoms (number-of-atoms)
+  Basic Calculator IV (basic-calculator-iv)
 */
 func evaluate(expression string) int {
     

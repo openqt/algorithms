@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]", 
     "questionFrontendId": "155", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"classname\": \"MinStack\",\r\n  \"maxbytesperline\": 130000,\r\n  \"constructor\": {\r\n      \"params\": [\r\n        {\r\n            \"type\": \"integer\",\r\n            \"name\": \"maxSize\",\r\n            \"lang\": \"c\",\r\n            \"value\": \"64000\"\r\n        }\r\n      ],\r\n      \"comment\": \"initialize your data structure here.\"\r\n  },\r\n  \"methods\": [\r\n      { \"name\" : \"push\",\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"x\"\r\n            }],\r\n        \"return\": {\r\n            \"type\": \"void\"\r\n        }\r\n      },\r\n      { \"name\": \"pop\",\r\n        \"params\": [],\r\n        \"return\": {\r\n            \"type\": \"void\"\r\n        }\r\n      },\r\n      { \"name\": \"top\",\r\n        \"params\": [],\r\n        \"return\": {\r\n            \"type\": \"integer\"\r\n        }\r\n      },\r\n      { \"name\": \"getMin\",\r\n        \"params\": [],\r\n        \"return\": {\r\n            \"type\": \"integer\"\r\n        }\r\n      }\r\n  ],\r\n  \"indriver\": false,\r\n  \"systemdesign\": true,\r\n  \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/min-stack/", 
     "stats": "{\"totalAccepted\": \"197.6K\", \"totalSubmission\": \"617.2K\", \"acRate\": \"32.0%\"}", 
     "interpretUrl": "/problems/min-stack/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>\r\nDesign a stack that supports push, pop, top, and retrieving the minimum element in constant time.\r\n<ul>\r\n<li>\r\npush(x) -- Push element x onto stack.\r\n</li>\r\n<li>\r\npop() -- Removes the element on top of the stack.\r\n</li>\r\n<li>\r\ntop() -- Get the top element.\r\n</li>\r\n<li>\r\ngetMin() -- Retrieve the minimum element in the stack.\r\n</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\nMinStack minStack = new MinStack();\r\nminStack.push(-2);\r\nminStack.push(0);\r\nminStack.push(-3);\r\nminStack.getMin();   --> Returns -3.\r\nminStack.pop();\r\nminStack.top();      --> Returns 0.\r\nminStack.getMin();   --> Returns -2.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "min-stack", 
     "similarQuestions": "[{\"title\": \"Sliding Window Maximum\", \"titleSlug\": \"sliding-window-maximum\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Max Stack\", \"titleSlug\": \"max-stack\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Min Stack", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

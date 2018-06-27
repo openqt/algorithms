@@ -25,6 +25,10 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/description/
 <p><strong>Note: </strong><br />
 You may assume k is always valid, 1 &le; k &le; array&#39;s length.</p>
 
+Similar Questions:
+  Wiggle Sort II (wiggle-sort-ii)
+  Top K Frequent Elements (top-k-frequent-elements)
+  Third Maximum Number (third-maximum-number)
 */
 func findKthLargest(nums []int, k int) int {
     

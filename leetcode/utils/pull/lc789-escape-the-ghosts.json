@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,0],[0,3]]\n[0,1]", 
     "questionFrontendId": "789", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"escapeGhosts\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"ghosts\",\r\n      \"type\": \"integer[][]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/escape-the-ghosts/", 
     "stats": "{\"totalAccepted\": \"4.8K\", \"totalSubmission\": \"9.4K\", \"acRate\": \"51.2%\"}", 
     "interpretUrl": "/problems/escape-the-ghosts/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>You are playing a simplified Pacman game. You&nbsp;start at the point <code>(0, 0)</code>, and your destination is<code> (target[0], target[1])</code>. There are several ghosts on the map, the i-th ghost starts at<code> (ghosts[i][0], ghosts[i][1])</code>.</p>\r\n\r\n<p>Each turn, you and all ghosts simultaneously *may* move in one of 4 cardinal directions: north, east, west, or south, going from the previous point to a new point 1 unit of distance away.</p>\r\n\r\n<p>You escape if and only if you can reach the target before any ghost reaches you (for any given moves the ghosts may take.)&nbsp; If you reach any square (including the target) at the same time as a ghost, it doesn&#39;t count as an escape.</p>\r\n\r\n<p>Return True if and only if it is possible to escape.</p>\r\n\r\n<pre>\r\n<strong>Example 1:</strong>\r\n<strong>Input:</strong> \r\nghosts = [[1, 0], [0, 3]]\r\ntarget = [0, 1]\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong> \r\nYou can directly reach the destination (0, 1) at time 1, while the ghosts located at (1, 0) or (0, 3) have no way to catch up with you.\r\n</pre>\r\n\r\n<pre>\r\n<strong>Example 2:</strong>\r\n<strong>Input:</strong> \r\nghosts = [[1, 0]]\r\ntarget = [2, 0]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> \r\nYou need to reach the destination (2, 0), but the ghost at (1, 0) lies between you and the destination.\r\n</pre>\r\n\r\n<pre>\r\n<strong>Example 3:</strong>\r\n<strong>Input:</strong> \r\nghosts = [[2, 0]]\r\ntarget = [1, 0]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> \r\nThe ghost can reach the target at the same time as you.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>All points have coordinates with absolute value &lt;= <code>10000</code>.</li>\r\n\t<li>The number of ghosts will not exceed <code>100</code>.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "escape-the-ghosts", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Escape The Ghosts", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

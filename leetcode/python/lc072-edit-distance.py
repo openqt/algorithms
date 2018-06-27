@@ -38,6 +38,10 @@ exention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)
 exection -&gt; execution (insert &#39;u&#39;)
 </pre>
 
+Similar Questions:
+  One Edit Distance (one-edit-distance)
+  Delete Operation for Two Strings (delete-operation-for-two-strings)
+  Minimum ASCII Delete Sum for Two Strings (minimum-ascii-delete-sum-for-two-strings)
 """
 
 

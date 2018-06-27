@@ -25,6 +25,8 @@ Given scores of <b>N</b> athletes, find their relative ranks and the people with
 </ol>
 </p>
 
+Similar Questions:
+
 */
 func findRelativeRanks(nums []int) []string {
     

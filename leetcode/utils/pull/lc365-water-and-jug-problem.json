@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3\n5\n4", 
     "questionFrontendId": "365", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"canMeasureWater\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"y\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"z\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/water-and-jug-problem/", 
     "stats": "{\"totalAccepted\": \"20.9K\", \"totalSubmission\": \"74.4K\", \"acRate\": \"28.1%\"}", 
     "interpretUrl": "/problems/water-and-jug-problem/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>You are given two jugs with capacities <i>x</i> and <i>y</i> litres. There is an infinite amount of water supply available.\r\nYou need to determine whether it is possible to measure exactly <i>z</i> litres using these two jugs.</p>\r\n\r\n<p>If <i>z</i> liters of water is measurable, you must have <i>z</i> liters of water contained within <b>one or both buckets</b> by the end.</p>\r\n\r\n<p>\r\nOperations allowed:\r\n<ul>\r\n<li>Fill any of the jugs completely with water.</li>\r\n<li>Empty any of the jugs.</li>\r\n<li>Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Example 1:</b> (From the famous <a href=\"https://www.youtube.com/watch?v=BVtQNK_ZUJg\" target=\"_blank\"><i>\"Die Hard\"</i> example</a>)\r\n<pre>\r\nInput: x = 3, y = 5, z = 4\r\nOutput: True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\nInput: x = 2, y = 6, z = 5\r\nOutput: False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://discuss.leetcode.com/user/vinod23\">@vinod23</a> for adding this problem and creating all test cases.</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "water-and-jug-problem", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Water and Jug Problem", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

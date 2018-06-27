@@ -25,6 +25,9 @@ https://leetcode.com/problems/factorial-trailing-zeroes/description/
 
 <p><b>Note: </b>Your solution should be in logarithmic time complexity.</p>
 
+Similar Questions:
+  Number of Digit One (number-of-digit-one)
+  Preimage Size of Factorial Zeroes Function (preimage-size-of-factorial-zeroes-function)
 */
 func trailingZeroes(n int) int {
     

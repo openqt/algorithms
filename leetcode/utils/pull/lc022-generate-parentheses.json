@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3", 
     "questionFrontendId": "22", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"generateParenthesis\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/generate-parentheses/", 
     "stats": "{\"totalAccepted\": \"221.8K\", \"totalSubmission\": \"453.6K\", \"acRate\": \"48.9%\"}", 
     "interpretUrl": "/problems/generate-parentheses/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>\r\nGiven <i>n</i> pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\r\n</p>\r\n\r\n<p>\r\nFor example, given <i>n</i> = 3, a solution set is:\r\n</p>\r\n<pre>\r\n[\r\n  \"((()))\",\r\n  \"(()())\",\r\n  \"(())()\",\r\n  \"()(())\",\r\n  \"()()()\"\r\n]\r\n</pre>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "generate-parentheses", 
     "similarQuestions": "[{\"title\": \"Letter Combinations of a Phone Number\", \"titleSlug\": \"letter-combinations-of-a-phone-number\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Valid Parentheses\", \"titleSlug\": \"valid-parentheses\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Generate Parentheses", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

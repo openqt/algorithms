@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[5,4,5,1,1,5]", 
     "questionFrontendId": "687", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"longestUnivaluePath\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-univalue-path/", 
     "stats": "{\"totalAccepted\": \"28.9K\", \"totalSubmission\": \"88.2K\", \"acRate\": \"32.8%\"}", 
     "interpretUrl": "/problems/longest-univalue-path/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Recursion", 
-        "slug": "recursion"
+        "slug": "recursion", 
+        "name": "Recursion"
       }
     ], 
     "content": "<p>Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.</p>\r\n\r\n<p><b>Note:</b> The length of path between two nodes is represented by the number of edges between them.</p>\r\n\r\n<p>\r\n<b>Example 1:</b>\r\n</p>\r\n\r\n\r\n<p>\r\nInput:\r\n<pre>\r\n              5\r\n             / \\\r\n            4   5\r\n           / \\   \\\r\n          1   1   5\r\n</pre>\r\n</p>\r\n\r\n<p>\r\nOutput:\r\n<pre>\r\n2\r\n</pre>\r\n</p>\r\n\r\n<p>\r\n<b>Example 2:</b>\r\n</p>\r\n\r\n\r\n<p>\r\nInput:\r\n<pre>\r\n              1\r\n             / \\\r\n            4   5\r\n           / \\   \\\r\n          4   4   5\r\n</pre>\r\n</p>\r\n\r\n<p>\r\nOutput:\r\n<pre>\r\n2\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe given binary tree has not more than 10000 nodes.  The height of the tree is not more than 1000.\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "longest-univalue-path", 
     "similarQuestions": "[{\"title\": \"Binary Tree Maximum Path Sum\", \"titleSlug\": \"binary-tree-maximum-path-sum\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Count Univalue Subtrees\", \"titleSlug\": \"count-univalue-subtrees\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Path Sum III\", \"titleSlug\": \"path-sum-iii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Univalue Path", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

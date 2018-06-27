@@ -27,6 +27,8 @@ inorder = [9,3,15,20,7]</pre>
     /  \
    15   7</pre>
 
+Similar Questions:
+  Construct Binary Tree from Inorder and Postorder Traversal (construct-binary-tree-from-inorder-and-postorder-traversal)
 */
 /**
  * Definition for a binary tree node.

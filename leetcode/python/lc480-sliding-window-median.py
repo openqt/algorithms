@@ -29,6 +29,8 @@ Window position                Median
 
 <p><b>Note: </b><br>
 You may assume <code>k</code> is always valid, ie: <code>k</code> is always smaller than input array's size for non-empty array.</p>
+Similar Questions:
+  Find Median from Data Stream (find-median-from-data-stream)
 """
 
 

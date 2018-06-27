@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"with\",\"example\",\"science\"]\n\"thehat\"", 
     "questionFrontendId": "691", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minStickers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"stickers\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/stickers-to-spell-word/", 
     "stats": "{\"totalAccepted\": \"4.5K\", \"totalSubmission\": \"12.8K\", \"acRate\": \"35.1%\"}", 
     "interpretUrl": "/problems/stickers-to-spell-word/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>\r\nWe are given N different types of stickers.  Each sticker has a lowercase English word on it.\r\n</p><p>\r\nYou would like to spell out the given <code>target</code> string by cutting individual letters from your collection of stickers and rearranging them.\r\n</p><p>\r\nYou can use each sticker more than once if you want, and you have infinite quantities of each sticker.\r\n</p><p>\r\nWhat is the minimum number of stickers that you need to spell out the <code>target</code>?  If the task is impossible, return -1.\r\n</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n<p>Input:<pre>\r\n[\"with\", \"example\", \"science\"], \"thehat\"\r\n</pre></p>\r\n\r\n<p>Output:<pre>\r\n3\r\n</pre></p>\r\n\r\n<p>Explanation:<pre>\r\nWe can use 2 \"with\" stickers, and 1 \"example\" sticker.\r\nAfter cutting and rearrange the letters of those stickers, we can form the target \"thehat\".\r\nAlso, this is the minimum number of stickers necessary to form the target string.\r\n</pre></p>\r\n\r\n<p><b>Example 2:</b></p>\r\n<p>Input:<pre>\r\n[\"notice\", \"possible\"], \"basicbasic\"\r\n</pre></p>\r\n\r\n<p>Output:<pre>\r\n-1\r\n</pre></p>\r\n\r\n<p>Explanation:<pre>\r\nWe can't form the target \"basicbasic\" from cutting letters from the given stickers.\r\n</pre></p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>stickers</code> has length in the range <code>[1, 50]</code>.</li>\r\n<li><code>stickers</code> consists of lowercase English words (without apostrophes).</li>\r\n<li><code>target</code> has length in the range <code>[1, 15]</code>, and consists of lowercase English letters.</li>\r\n<li>In all test cases, all words were chosen <u>randomly</u> from the 1000 most common US English words, and the target was chosen as a concatenation of two random words.</li>\r\n<li>The time limit may be more challenging than usual.  It is expected that a 50 sticker test case can be solved within 35ms on average.</li>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "stickers-to-spell-word", 
     "similarQuestions": "[{\"title\": \"Ransom Note\", \"titleSlug\": \"ransom-note\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Stickers to Spell Word", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

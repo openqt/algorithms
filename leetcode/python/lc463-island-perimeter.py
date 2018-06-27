@@ -18,6 +18,9 @@ Explanation: The perimeter is the 16 yellow stripes in the image below:
 <img src="/static/images/problemset/island.png">
 </pre>
 </p>
+Similar Questions:
+  Max Area of Island (max-area-of-island)
+  Flood Fill (flood-fill)
 """
 
 

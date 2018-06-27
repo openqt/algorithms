@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[4,5,1,9]\n5", 
     "questionFrontendId": "237", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"deleteNode\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"node\",\r\n      \"type\": \"ListNode\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ]\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/delete-node-in-a-linked-list/", 
     "stats": "{\"totalAccepted\": \"215.6K\", \"totalSubmission\": \"451.8K\", \"acRate\": \"47.7%\"}", 
     "interpretUrl": "/problems/delete-node-in-a-linked-list/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "linked-list", 
-        "name": "Linked List", 
-        "__typename": "TopicTagNode"
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.</p>\r\n\r\n<p>Given linked list --&nbsp;head =&nbsp;[4,5,1,9], which looks like following:</p>\r\n\r\n<pre>\r\n    4 -&gt; 5 -&gt; 1 -&gt; 9\r\n</pre>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> head = [4,5,1,9], node = 5\r\n<strong>Output:</strong> [4,1,9]\r\n<strong>Explanation: </strong>You are given the second node with value 5, the linked list\r\n&nbsp;            should become 4 -&gt; 1 -&gt; 9 after calling your function.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> head = [4,5,1,9], node = 1\r\n<strong>Output:</strong> [4,5,9]\r\n<strong>Explanation: </strong>You are given the third node with value 1, the linked list\r\n             should become 4 -&gt; 5 -&gt; 9 after calling your function.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The linked list will have at least two elements.</li>\r\n\t<li>All of the nodes&#39; values will be unique.</li>\r\n\t<li>The given node&nbsp;will not be the tail and it will always be a valid node of the linked list.</li>\r\n\t<li>Do not return anything from your function.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "delete-node-in-a-linked-list", 
     "similarQuestions": "[{\"title\": \"Remove Linked List Elements\", \"titleSlug\": \"remove-linked-list-elements\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Delete Node in a Linked List", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

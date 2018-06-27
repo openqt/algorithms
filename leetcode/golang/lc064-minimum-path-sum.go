@@ -24,6 +24,10 @@ https://leetcode.com/problems/minimum-path-sum/description/
 <strong>Explanation:</strong> Because the path 1&rarr;3&rarr;1&rarr;1&rarr;1 minimizes the sum.
 </pre>
 
+Similar Questions:
+  Unique Paths (unique-paths)
+  Dungeon Game (dungeon-game)
+  Cherry Pickup (cherry-pickup)
 */
 func minPathSum(grid [][]int) int {
     

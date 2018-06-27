@@ -23,6 +23,8 @@ Given s = "leetcode", return "leotcede".
 <b>Note:</b><br />
 The vowels does not include the letter "y".
 </p>
+Similar Questions:
+  Reverse String (reverse-string)
 */
 func reverseVowels(s string) string {
     

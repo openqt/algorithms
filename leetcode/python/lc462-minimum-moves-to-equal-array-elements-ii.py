@@ -22,6 +22,9 @@ Only two moves are needed (remember each move increments or decrements one eleme
 [1,2,3]  =>  [2,2,3]  =>  [2,2,2]
 </pre>
 </p></p>
+Similar Questions:
+  Best Meeting Point (best-meeting-point)
+  Minimum Moves to Equal Array Elements (minimum-moves-to-equal-array-elements)
 """
 
 

@@ -35,6 +35,8 @@ Given a list of <b>non-negative</b> numbers and a target <b>integer</b> k, write
 <li>You may assume the sum of all the numbers is in the range of a signed 32-bit integer.</li>
 </ol>
 </p>
+Similar Questions:
+  Subarray Sum Equals K (subarray-sum-equals-k)
 */
 func checkSubarraySum(nums []int, k int) bool {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"abcd\",\"dcba\",\"lls\",\"s\",\"sssll\"]", 
     "questionFrontendId": "336", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"palindromePairs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/palindrome-pairs/", 
     "stats": "{\"totalAccepted\": \"40.9K\", \"totalSubmission\": \"149.2K\", \"acRate\": \"27.4%\"}", 
     "interpretUrl": "/problems/palindrome-pairs/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>\r\n    Given a list of <b>unique</b> words, find all pairs of <b><i>distinct</i></b> indices <code>(i, j)</code> in the given list, so that the concatenation of the two words, i.e. <code>words[i] + words[j]</code> is a palindrome.\r\n</p>\r\n\r\n<p>\r\n    <b>Example 1:</b><br/>\r\n    Given <code>words</code> = <code>[\"bat\", \"tab\", \"cat\"]</code><br/>\r\n    Return <code>[[0, 1], [1, 0]]</code><br/>\r\n    The palindromes are <code>[\"battab\", \"tabbat\"]</code><br/>\r\n</p>\r\n<p>\r\n    <b>Example 2:</b><br/>\r\n    Given <code>words</code> = <code>[\"abcd\", \"dcba\", \"lls\", \"s\", \"sssll\"]</code><br/>\r\n    Return <code>[[0, 1], [1, 0], [3, 2], [2, 4]]</code><br/>\r\n    The palindromes are <code>[\"dcbaabcd\", \"abcddcba\", \"slls\", \"llssssll\"]</code><br/>\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/dietpepsi\">@dietpepsi</a> for adding this problem and creating all test cases.</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "palindrome-pairs", 
     "similarQuestions": "[{\"title\": \"Longest Palindromic Substring\", \"titleSlug\": \"longest-palindromic-substring\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Shortest Palindrome\", \"titleSlug\": \"shortest-palindrome\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Palindrome Pairs", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

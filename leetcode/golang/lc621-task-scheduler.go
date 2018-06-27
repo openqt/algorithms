@@ -27,6 +27,9 @@ https://leetcode.com/problems/task-scheduler/description/
 <li>The integer n is in the range [0, 100].</li>
 </ol>
 </p>
+Similar Questions:
+  Rearrange String k Distance Apart (rearrange-string-k-distance-apart)
+  Reorganize String (reorganize-string)
 */
 func leastInterval(tasks []byte, n int) int {
     

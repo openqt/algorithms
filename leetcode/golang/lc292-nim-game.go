@@ -20,6 +20,8 @@ https://leetcode.com/problems/nim-game/description/
 &nbsp;            No matter 1, 2, or 3 stones you remove, the last stone will always be 
 &nbsp;            removed by your friend.</pre>
 
+Similar Questions:
+  Flip Game II (flip-game-ii)
 */
 func canWinNim(n int) bool {
     

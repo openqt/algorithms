@@ -65,6 +65,8 @@ https://leetcode.com/problems/buddy-strings/description/
 </div>
 </div>
 </div>
+Similar Questions:
+
 */
 func buddyStrings(A string, B string) bool {
     

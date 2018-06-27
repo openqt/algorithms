@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\"", 
     "questionFrontendId": "187", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findRepeatedDnaSequences\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/repeated-dna-sequences/", 
     "stats": "{\"totalAccepted\": \"98.4K\", \"totalSubmission\": \"293.9K\", \"acRate\": \"33.5%\"}", 
     "interpretUrl": "/problems/repeated-dna-sequences/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: &quot;ACGAATTCCG&quot;. When studying DNA, it is sometimes useful to identify repeated sequences within the DNA.</p>\r\n\r\n<p>Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> s = &quot;AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT&quot;\r\n\r\n<strong>Output:</strong> [&quot;AAAAACCCCC&quot;, &quot;CCCCCAAAAA&quot;]\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "repeated-dna-sequences", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Repeated DNA Sequences", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

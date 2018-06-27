@@ -36,6 +36,8 @@ https://leetcode.com/problems/third-maximum-number/description/
 Both numbers with value 2 are both considered as second maximum.
 </pre>
 </p>
+Similar Questions:
+  Kth Largest Element in an Array (kth-largest-element-in-an-array)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[5,2,-3]", 
     "questionFrontendId": "508", 
     "contributors": "[{\"username\": \"Cyber233\", \"profileUrl\": \"/cyber233/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findFrequentTreeSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/most-frequent-subtree-sum/", 
     "stats": "{\"totalAccepted\": \"33.1K\", \"totalSubmission\": \"62.9K\", \"acRate\": \"52.6%\"}", 
     "interpretUrl": "/problems/most-frequent-subtree-sum/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>\r\nGiven the root of a tree, you are asked to find the most frequent subtree sum. The subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself). So what is the most frequent subtree sum value? If there is a tie, return all the values with the highest frequency in any order.\r\n</p>\r\n\r\n<p><b>Examples 1</b><br>\r\nInput:\r\n<pre>\r\n  5\r\n /  \\\r\n2   -3\r\n</pre>\r\nreturn [2, -3, 4], since all the values happen only once, return all of them in any order.\r\n</p>\r\n\r\n<p><b>Examples 2</b><br>\r\nInput:\r\n<pre>\r\n  5\r\n /  \\\r\n2   -5\r\n</pre>\r\nreturn [2], since 2 happens twice, however -5 only occur once.\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nYou may assume the sum of values in any subtree is in the range of 32-bit signed integer.\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "most-frequent-subtree-sum", 
     "similarQuestions": "[{\"title\": \"Subtree of Another Tree\", \"titleSlug\": \"subtree-of-another-tree\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Most Frequent Subtree Sum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

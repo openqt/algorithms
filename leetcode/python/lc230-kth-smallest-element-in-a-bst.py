@@ -37,6 +37,9 @@ You may assume k is always valid, 1 &le; k &le; BST&#39;s total elements.</p>
 <p><b>Follow up:</b><br />
 What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?</p>
 
+Similar Questions:
+  Binary Tree Inorder Traversal (binary-tree-inorder-traversal)
+  Second Minimum Node In a Binary Tree (second-minimum-node-in-a-binary-tree)
 """
 
 

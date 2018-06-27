@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]", 
     "questionFrontendId": "563", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findTilt\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-tilt/", 
     "stats": "{\"totalAccepted\": \"32.4K\", \"totalSubmission\": \"68.9K\", \"acRate\": \"47.0%\"}", 
     "interpretUrl": "/problems/binary-tree-tilt/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>Given a binary tree, return the tilt of the <b>whole tree</b>.</p>\r\n\r\n<p>The tilt of a <b>tree node</b> is defined as the <b>absolute difference</b> between the sum of all left subtree node values and the sum of all right subtree node values. Null node has tilt 0.</p>\r\n\r\n<p>The tilt of the <b>whole tree</b> is defined as the sum of all nodes' tilt.</p>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n         1\r\n       /   \\\r\n      2     3\r\n<b>Output:</b> 1\r\n<b>Explanation:</b> \r\nTilt of node 2 : 0\r\nTilt of node 3 : 0\r\nTilt of node 1 : |2-3| = 1\r\nTilt of binary tree : 0 + 0 + 1 = 1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<ol>\r\n<li>The sum of node values in any subtree won't exceed the range of 32-bit integer. </li>\r\n<li>All the tilt values won't exceed the range of 32-bit integer.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "binary-tree-tilt", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Tilt", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

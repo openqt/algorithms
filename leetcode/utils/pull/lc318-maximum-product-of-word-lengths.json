@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"abcw\",\"baz\",\"foo\",\"bar\",\"xtfn\",\"abcdef\"]", 
     "questionFrontendId": "318", 
     "contributors": "[{\"username\": \"dietpepsi\", \"profileUrl\": \"/dietpepsi/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxProduct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximum-product-of-word-lengths/", 
     "stats": "{\"totalAccepted\": \"65.1K\", \"totalSubmission\": \"141K\", \"acRate\": \"46.1%\"}", 
     "interpretUrl": "/problems/maximum-product-of-word-lengths/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Given a string array <code>words</code>, find the maximum value of <code>length(word[i]) * length(word[j])</code> where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>[&quot;abcw&quot;,&quot;baz&quot;,&quot;foo&quot;,&quot;bar&quot;,&quot;xtfn&quot;,&quot;abcdef&quot;]</code>\r\n<b>Output: </b><code>16 \r\n<strong>Explanation: </strong></code>The two words can be <code>&quot;abcw&quot;, &quot;xtfn&quot;</code><span style=\"font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;\">.</span></pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>[&quot;a&quot;,&quot;ab&quot;,&quot;abc&quot;,&quot;d&quot;,&quot;cd&quot;,&quot;bcd&quot;,&quot;abcd&quot;]</code>\r\n<b>Output: </b><code>4 \r\n<strong>Explanation: </strong></code>The two words can be <code>&quot;ab&quot;, &quot;cd&quot;</code><span style=\"font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;\">.</span></pre>\r\n\r\n<p><b>Example 3:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> <code>[&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]</code>\r\n<b>Output: </b><code>0 \r\n<strong>Explanation: </strong></code>No such pair of words.\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximum-product-of-word-lengths", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximum Product of Word Lengths", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

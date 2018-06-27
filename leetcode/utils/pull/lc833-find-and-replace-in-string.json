@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"abcd\"\n[0, 2]\n[\"a\", \"cd\"]\n[\"eee\", \"ffff\"]", 
     "questionFrontendId": "833", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findReplaceString\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"indexes\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"sources\",\r\n      \"type\": \"string[]\"\r\n    },\r\n    {\r\n      \"name\": \"targets\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-and-replace-in-string/", 
     "stats": "{\"totalAccepted\": \"3.6K\", \"totalSubmission\": \"9.4K\", \"acRate\": \"37.9%\"}", 
     "interpretUrl": "/problems/find-and-replace-in-string/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>To some string <code>S</code>, we will perform some&nbsp;replacement&nbsp;operations that replace groups of letters with new ones (not necessarily the same size).</p>\r\n\r\n<p>Each replacement operation has <code>3</code> parameters: a starting index <code>i</code>, a source word&nbsp;<code>x</code>&nbsp;and a target word&nbsp;<code>y</code>.&nbsp; The rule is that if <code><font face=\"monospace\">x</font></code>&nbsp;starts at position <code>i</code>&nbsp;in the <strong>original</strong> <strong>string</strong> <strong><code>S</code></strong>, then we will replace that occurrence of&nbsp;<code>x</code>&nbsp;with&nbsp;<code>y</code>.&nbsp; If not, we do nothing.</p>\r\n\r\n<p>For example, if we have&nbsp;<code>S = &quot;abcd&quot;</code>&nbsp;and we have some replacement operation&nbsp;<code>i = 2, x = &quot;cd&quot;, y = &quot;ffff&quot;</code>, then because&nbsp;<code>&quot;cd&quot;</code>&nbsp;starts at position <code><font face=\"monospace\">2</font></code>&nbsp;in the original string <code>S</code>, we will replace it with <code>&quot;ffff&quot;</code>.</p>\r\n\r\n<p>Using another example on <code>S = &quot;abcd&quot;</code>, if we have both the replacement operation <code>i = 0, x = &quot;ab&quot;, y = &quot;eee&quot;</code>, as well as another replacement operation&nbsp;<code>i = 2, x = &quot;ec&quot;, y = &quot;ffff&quot;</code>, this second operation does nothing because in the original string&nbsp;<code>S[2] = &#39;c&#39;</code>, which doesn&#39;t match&nbsp;<code>x[0] = &#39;e&#39;</code>.</p>\r\n\r\n<p>All these operations occur simultaneously.&nbsp; It&#39;s guaranteed that there won&#39;t be any overlap in replacement: for example,&nbsp;<code>S = &quot;abc&quot;, indexes = [0, 1],&nbsp;sources = [&quot;ab&quot;,&quot;bc&quot;]</code> is not a valid test case.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;a&quot;,&quot;cd&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]\r\n<strong>Output: </strong>&quot;eeebffff&quot;\r\n<strong>Explanation:</strong> &quot;a&quot; starts at index 0 in S, so it&#39;s replaced by &quot;eee&quot;.\r\n&quot;cd&quot; starts at index 2 in S, so it&#39;s replaced by &quot;ffff&quot;.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;ab&quot;,&quot;ec&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]\r\n<strong>Output: </strong>&quot;eeecd&quot;\r\n<strong>Explanation:</strong> &quot;ab&quot; starts at index 0 in S, so it&#39;s replaced by &quot;eee&quot;. \r\n&quot;ec&quot; doesn&#39;t starts at index 2 in the <strong>original</strong> S, so we do nothing.\r\n</pre>\r\n\r\n<p>Notes:</p>\r\n\r\n<ol>\r\n\t<li><code>0 &lt;=&nbsp;indexes.length =&nbsp;sources.length =&nbsp;targets.length &lt;= 100</code></li>\r\n\t<li><code>0&nbsp;&lt;&nbsp;indexes[i]&nbsp;&lt; S.length &lt;= 1000</code></li>\r\n\t<li>All characters in given inputs are lowercase letters.</li>\r\n</ol>\r\n\r\n<p>&nbsp;</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-and-replace-in-string", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find And Replace in String", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

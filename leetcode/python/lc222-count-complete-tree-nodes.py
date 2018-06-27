@@ -23,6 +23,8 @@ In a complete binary tree every level, except possibly the last, is completely f
 
 <strong>Output:</strong> 6</pre>
 
+Similar Questions:
+  Closest Binary Search Tree Value (closest-binary-search-tree-value)
 """
 
 

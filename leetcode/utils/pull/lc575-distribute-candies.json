@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,1,2,2,3,3]", 
     "questionFrontendId": "575", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"distributeCandies\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"candies\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/distribute-candies/", 
     "stats": "{\"totalAccepted\": \"49.1K\", \"totalSubmission\": \"84.3K\", \"acRate\": \"58.2%\"}", 
     "interpretUrl": "/problems/distribute-candies/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }
     ], 
     "content": "Given an integer array with <b>even</b> length, where different numbers in this array represent different <b>kinds</b> of candies. Each number means one candy of the corresponding kind. You need to distribute these candies <b>equally</b> in number to brother and sister. Return the maximum number of <b>kinds</b> of candies the sister could gain. \r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> candies = [1,1,2,2,3,3]\r\n<b>Output:</b> 3\r\n<b>Explanation:</b>\r\nThere are three different kinds of candies (1, 2 and 3), and two candies for each kind.\r\nOptimal distribution: The sister has candies [1,2,3] and the brother has candies [1,2,3], too. \r\nThe sister has three different kinds of candies. \r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> candies = [1,1,2,3]\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> For example, the sister has candies [2,3] and the brother has candies [1,1]. \r\nThe sister has two different kinds of candies, the brother has only one kind of candies. \r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<ol>\r\n<li>The length of the given array is in range [2, 10,000], and will be even.</li>\r\n<li>The number in given array is in range [-100,000, 100,000].</li>\r\n<ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "distribute-candies", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Distribute Candies", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -15,6 +15,9 @@ https://leetcode.com/problems/serialize-and-deserialize-bst/description/
 <p>
 <b>Note:</b> Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
 </p>
+Similar Questions:
+  Serialize and Deserialize Binary Tree (serialize-and-deserialize-binary-tree)
+  Find Duplicate Subtrees (find-duplicate-subtrees)
 """
 
 

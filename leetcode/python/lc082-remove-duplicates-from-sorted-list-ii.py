@@ -20,6 +20,8 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 <strong>Output:</strong> 2-&gt;3
 </pre>
 
+Similar Questions:
+  Remove Duplicates from Sorted List (remove-duplicates-from-sorted-list)
 """
 
 

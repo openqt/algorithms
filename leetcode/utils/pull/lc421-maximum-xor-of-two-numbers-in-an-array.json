@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,10,5,25,2,8]", 
     "questionFrontendId": "421", 
     "contributors": "[{\"username\": \"shen5630\", \"profileUrl\": \"/shen5630/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMaximumXOR\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximum-xor-of-two-numbers-in-an-array/", 
     "stats": "{\"totalAccepted\": \"24.5K\", \"totalSubmission\": \"50.8K\", \"acRate\": \"48.2%\"}", 
     "interpretUrl": "/problems/maximum-xor-of-two-numbers-in-an-array/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>Given a <b>non-empty</b> array of numbers, a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, \u2026 , a<sub>n-1</sub>, where 0 &le; a<sub>i</sub> < 2<sup>31</sup>.</p>\r\n\r\n<p>Find the maximum result of a<sub>i</sub> XOR a<sub>j</sub>, where 0 &le; <i>i</i>, <i>j</i> &lt; <i>n</i>.</p>\r\n\r\n<p>Could you do this in O(<i>n</i>) runtime?</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\n<b>Input:</b> [3, 10, 5, 25, 2, 8]\r\n\r\n<b>Output:</b> 28\r\n\r\n<b>Explanation:</b> The maximum result is <b>5</b> ^ <b>25</b> = 28.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "maximum-xor-of-two-numbers-in-an-array", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximum XOR of Two Numbers in an Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

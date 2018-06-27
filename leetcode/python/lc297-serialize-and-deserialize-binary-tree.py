@@ -26,6 +26,10 @@ as <code>&quot;[1,2,3,null,null,4,5]&quot;</code>
 
 <p><strong>Note:&nbsp;</strong>Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.</p>
 
+Similar Questions:
+  Encode and Decode Strings (encode-and-decode-strings)
+  Serialize and Deserialize BST (serialize-and-deserialize-bst)
+  Find Duplicate Subtrees (find-duplicate-subtrees)
 """
 
 

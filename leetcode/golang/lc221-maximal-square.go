@@ -22,6 +22,9 @@ https://leetcode.com/problems/maximal-square/description/
 <strong>Output: </strong>4
 </pre>
 
+Similar Questions:
+  Maximal Rectangle (maximal-rectangle)
+  Largest Plus Sign (largest-plus-sign)
 */
 func maximalSquare(matrix [][]byte) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"*\"", 
     "questionFrontendId": "639", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numDecodings\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/decode-ways-ii/", 
     "stats": "{\"totalAccepted\": \"13.3K\", \"totalSubmission\": \"54.7K\", \"acRate\": \"24.3%\"}", 
     "interpretUrl": "/problems/decode-ways-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nA message containing letters from <code>A-Z</code> is being encoded to numbers using the following mapping way:\r\n</p>\r\n\r\n<pre>\r\n'A' -> 1\r\n'B' -> 2\r\n...\r\n'Z' -> 26\r\n</pre>\r\n\r\n<p>\r\nBeyond that, now the encoded string can also contain the character '*', which can be treated as one of the numbers from 1 to 9.\r\n</p>\r\n\r\n\r\n<p>\r\nGiven the encoded message containing digits and the character '*', return the total number of ways to decode it.\r\n</p>\r\n\r\n<p>\r\nAlso, since the answer may be very large, you should return the output mod 10<sup>9</sup> + 7.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"*\"\r\n<b>Output:</b> 9\r\n<b>Explanation:</b> The encoded message can be decoded to the string: \"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"1*\"\r\n<b>Output:</b> 9 + 9 = 18\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The length of the input string will fit in range [1, 10<sup>5</sup>].</li>\r\n<li>The input string will only contain the character '*' and digits '0' - '9'.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "decode-ways-ii", 
     "similarQuestions": "[{\"title\": \"Decode Ways\", \"titleSlug\": \"decode-ways\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Decode Ways II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -22,6 +22,14 @@ https://leetcode.com/problems/number-of-1-bits/description/
 <strong>Explanation: </strong>Integer 128 has binary representation <strong>00000000000000000000000010000000</strong>
 </pre>
 
+Similar Questions:
+  Reverse Bits (reverse-bits)
+  Power of Two (power-of-two)
+  Counting Bits (counting-bits)
+  Binary Watch (binary-watch)
+  Hamming Distance (hamming-distance)
+  Binary Number with Alternating Bits (binary-number-with-alternating-bits)
+  Prime Number of Set Bits in Binary Representation (prime-number-of-set-bits-in-binary-representation)
 """
 
 

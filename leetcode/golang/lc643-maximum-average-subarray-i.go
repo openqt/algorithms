@@ -25,6 +25,8 @@ Given an array consisting of <code>n</code> integers, find the contiguous subarr
 <li>Elements of the given array will be in the range [-10,000, 10,000].</li>
 </ol>
 </p>
+Similar Questions:
+  Maximum Average Subarray II (maximum-average-subarray-ii)
 */
 func findMaxAverage(nums []int, k int) float64 {
     

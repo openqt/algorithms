@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "121", 
     "questionFrontendId": "9", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isPalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/palindrome-number/", 
     "stats": "{\"totalAccepted\": \"351.2K\", \"totalSubmission\": \"950.5K\", \"acRate\": \"37.0%\"}", 
     "interpretUrl": "/problems/palindrome-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Determine whether an integer is a palindrome. An integer&nbsp;is&nbsp;a&nbsp;palindrome when it&nbsp;reads the same backward as forward.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 121\r\n<strong>Output:</strong> true\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> -121\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 10\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.\r\n</pre>\r\n\r\n<p><strong>Follow up:</strong></p>\r\n\r\n<p>Coud you solve&nbsp;it without converting the integer to a string?</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "palindrome-number", 
     "similarQuestions": "[{\"title\": \"Palindrome Linked List\", \"titleSlug\": \"palindrome-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Palindrome Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

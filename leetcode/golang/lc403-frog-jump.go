@@ -46,6 +46,8 @@ The last stone at the 17th unit.
 the gap between the 5th and 6th stone is too large.
 </pre>
 </p>
+Similar Questions:
+
 */
 func canCross(stones []int) bool {
     

@@ -23,6 +23,8 @@ nums2 = [2,5,6],       n = 3
 <strong>Output:</strong>&nbsp;[1,2,2,3,5,6]
 </pre>
 
+Similar Questions:
+  Merge Two Sorted Lists (merge-two-sorted-lists)
 """
 
 

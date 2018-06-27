@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "16", 
     "questionFrontendId": "342", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"isPowerOfFour\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"num\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/power-of-four/", 
     "stats": "{\"totalAccepted\": \"88.7K\", \"totalSubmission\": \"225.6K\", \"acRate\": \"39.3%\"}", 
     "interpretUrl": "/problems/power-of-four/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>\r\nGiven an integer (signed 32 bits), write a function to check whether it is a power of 4.\r\n</p>\r\n<p><b>Example:</b><br>\r\nGiven num = 16, return true.\r\nGiven num = 5, return false.\r\n</p>\r\n<p>\r\n<b>Follow up</b>: Could you solve it without loops/recursion?\r\n</p>\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/yukuairoy\">@yukuairoy </a> for adding this problem and creating all test cases.</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "power-of-four", 
     "similarQuestions": "[{\"title\": \"Power of Two\", \"titleSlug\": \"power-of-two\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Power of Three\", \"titleSlug\": \"power-of-three\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Power of Four", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

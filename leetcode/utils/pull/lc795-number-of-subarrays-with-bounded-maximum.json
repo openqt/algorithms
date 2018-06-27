@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,1,4,3]\n2\n3", 
     "questionFrontendId": "795", 
     "contributors": "[{\"username\": \"ngoc_lam\", \"profileUrl\": \"/ngoc_lam/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numSubarrayBoundedMax\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"L\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"R\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/number-of-subarrays-with-bounded-maximum/", 
     "stats": "{\"totalAccepted\": \"5.2K\", \"totalSubmission\": \"12.5K\", \"acRate\": \"41.5%\"}", 
     "interpretUrl": "/problems/number-of-subarrays-with-bounded-maximum/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>We are given an array <code>A</code> of positive integers, and two positive integers <code>L</code> and <code>R</code> (<code>L &lt;= R</code>).</p>\r\n\r\n<p>Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least <code>L</code> and at most <code>R</code>.</p>\r\n\r\n<pre>\r\n<strong>Example :</strong>\r\n<strong>Input:</strong> \r\nA = [2, 1, 4, 3]\r\nL = 2\r\nR = 3\r\n<strong>Output:</strong> 3\r\n<strong>Explanation:</strong> There are three subarrays that meet the requirements: [2], [2, 1], [3].\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>L, R&nbsp; and <code>A[i]</code> will be an integer in the range <code>[0, 10^9]</code>.</li>\r\n\t<li>The length of <code>A</code> will be in the range of <code>[1, 50000]</code>.</li>\r\n</ul>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "number-of-subarrays-with-bounded-maximum", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Number of Subarrays with Bounded Maximum", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

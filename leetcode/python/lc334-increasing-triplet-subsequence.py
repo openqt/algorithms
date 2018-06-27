@@ -28,6 +28,8 @@ return <code>false</code>.
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/DjangoUnchained">@DjangoUnchained</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Longest Increasing Subsequence (longest-increasing-subsequence)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3,4,5,6,7,8]", 
     "questionFrontendId": "805", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"splitArraySameAverage\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/split-array-with-same-average/", 
     "stats": "{\"totalAccepted\": \"3.5K\", \"totalSubmission\": \"17.1K\", \"acRate\": \"20.4%\"}", 
     "interpretUrl": "/problems/split-array-with-same-average/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>In a given integer array A, we must move every element of A to either list B or list C. (B and C initially start empty.)</p>\r\n\r\n<p>Return true if and only if after such a move, it is possible that the average value of B is equal to the average value of C, and B and C are both non-empty.</p>\r\n\r\n<pre>\r\n<strong>Example :</strong>\r\n<strong>Input:</strong> \r\n[1,2,3,4,5,6,7,8]\r\n<strong>Output:</strong> true\r\n<strong>Explanation: </strong>We can split the array into [1,4,5,8] and [2,3,6,7], and both of them have the average of 4.5.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>The length of <code>A</code> will be in the range&nbsp;[1, 30].</li>\r\n\t<li><code>A[i]</code> will be in the range of <code>[0, 10000]</code>.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "split-array-with-same-average", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Split Array With Same Average", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

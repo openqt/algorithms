@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2", 
     "questionFrontendId": "70", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"climbStairs\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/climbing-stairs/", 
     "stats": "{\"totalAccepted\": \"263.1K\", \"totalSubmission\": \"632K\", \"acRate\": \"41.6%\"}", 
     "interpretUrl": "/problems/climbing-stairs/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>You are climbing a stair case. It takes <em>n</em> steps to reach to the top.</p>\r\n\r\n<p>Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?</p>\r\n\r\n<p><strong>Note:</strong> Given <em>n</em> will be a positive integer.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 2\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> There are two ways to climb to the top.\r\n1. 1 step + 1 step\r\n2. 2 steps\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 3\r\n<strong>Output:</strong> 3\r\n<strong>Explanation:</strong> There are three ways to climb to the top.\r\n1. 1 step + 1 step + 1 step\r\n2. 1 step + 2 steps\r\n3. 2 steps + 1 step\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "climbing-stairs", 
     "similarQuestions": "[{\"title\": \"Min Cost Climbing Stairs\", \"titleSlug\": \"min-cost-climbing-stairs\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Climbing Stairs", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -24,6 +24,10 @@ https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 
 <p>Although the above answer is in lexicographical order, your answer could be in any order you want.</p>
 
+Similar Questions:
+  Generate Parentheses (generate-parentheses)
+  Combination Sum (combination-sum)
+  Binary Watch (binary-watch)
 */
 func letterCombinations(digits string) []string {
     

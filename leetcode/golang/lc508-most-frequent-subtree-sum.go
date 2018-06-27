@@ -34,6 +34,8 @@ return [2], since 2 happens twice, however -5 only occur once.
 <p><b>Note:</b>
 You may assume the sum of values in any subtree is in the range of 32-bit signed integer.
 </p>
+Similar Questions:
+  Subtree of Another Tree (subtree-of-another-tree)
 */
 /**
  * Definition for a binary tree node.

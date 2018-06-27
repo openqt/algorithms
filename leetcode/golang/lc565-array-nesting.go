@@ -30,6 +30,10 @@ S[0] = {A[0], A[5], A[6], A[2]} = {5, 6, 2, 0}
 <li>Each element of A is an integer within the range [0, N-1].</li>
 </ol>
 </p>
+Similar Questions:
+  Nested List Weight Sum (nested-list-weight-sum)
+  Flatten Nested List Iterator (flatten-nested-list-iterator)
+  Nested List Weight Sum II (nested-list-weight-sum-ii)
 */
 func arrayNesting(nums []int) int {
     

@@ -32,6 +32,8 @@ https://leetcode.com/problems/h-index-ii/description/
 	<li>Could you solve it in logarithmic time complexity?</li>
 </ul>
 
+Similar Questions:
+  H-Index (h-index)
 */
 func hIndex(citations []int) int {
     

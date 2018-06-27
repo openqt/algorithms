@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,3,5,4]\n[1,2,3,7]", 
     "questionFrontendId": "801", 
     "contributors": "[{\"username\": \"ngoc_lam\", \"profileUrl\": \"/ngoc_lam/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minSwap\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"B\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-swaps-to-make-sequences-increasing/", 
     "stats": "{\"totalAccepted\": \"5.3K\", \"totalSubmission\": \"18.1K\", \"acRate\": \"29.2%\"}", 
     "interpretUrl": "/problems/minimum-swaps-to-make-sequences-increasing/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>We have two integer sequences <code>A</code> and <code>B</code> of the same non-zero length.</p>\r\n\r\n<p>We are allowed to swap elements <code>A[i]</code> and <code>B[i]</code>.&nbsp; Note that both elements are in the same index position in their respective sequences.</p>\r\n\r\n<p>At the end of some number of swaps, <code>A</code> and <code>B</code> are both strictly increasing.&nbsp; (A sequence is <em>strictly increasing</em> if and only if <code>A[0] &lt; A[1] &lt; A[2] &lt; ... &lt; A[A.length - 1]</code>.)</p>\r\n\r\n<p>Given A and B, return the minimum number of swaps to make both sequences strictly increasing.&nbsp; It is guaranteed that the given input always makes it possible.</p>\r\n\r\n<pre>\r\n<strong>Example:</strong>\r\n<strong>Input:</strong> A = [1,3,5,4], B = [1,2,3,7]\r\n<strong>Output:</strong> 1\r\n<strong>Explanation: </strong>\r\nSwap A[3] and B[3].  Then the sequences are:\r\nA = [1, 3, 5, 7] and B = [1, 2, 3, 4]\r\nwhich are both strictly increasing.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>A, B</code> are arrays with the same length, and that length will be in the range <code>[1, 1000]</code>.</li>\r\n\t<li><code>A[i], B[i]</code> are integer values in the range <code>[0, 2000]</code>.</li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-swaps-to-make-sequences-increasing", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Swaps To Make Sequences Increasing", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -53,6 +53,10 @@ https://leetcode.com/problems/valid-parentheses/description/
 <strong>Output:</strong> true
 </pre>
 
+Similar Questions:
+  Generate Parentheses (generate-parentheses)
+  Longest Valid Parentheses (longest-valid-parentheses)
+  Remove Invalid Parentheses (remove-invalid-parentheses)
 */
 func isValid(s string) bool {
     

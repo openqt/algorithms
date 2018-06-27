@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,6,3,4,5,6]\n6", 
     "questionFrontendId": "203", 
     "contributors": "[{\"username\": \"mithmatt\", \"profileUrl\": \"/mithmatt/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"removeElements\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"val\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n     \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-linked-list-elements/", 
     "stats": "{\"totalAccepted\": \"161.1K\", \"totalSubmission\": \"476.6K\", \"acRate\": \"33.8%\"}", 
     "interpretUrl": "/problems/remove-linked-list-elements/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Linked List", 
-        "slug": "linked-list"
+        "slug": "linked-list", 
+        "name": "Linked List"
       }
     ], 
     "content": "<p>Remove all elements from a linked list of integers that have value <b><i>val</i></b>.</p>\r\n\r\n<p><b>Example:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b>  1-&gt;2-&gt;6-&gt;3-&gt;4-&gt;5-&gt;6, <em><b>val</b></em> = 6\r\n<b>Output:</b> 1-&gt;2-&gt;3-&gt;4-&gt;5\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "remove-linked-list-elements", 
     "similarQuestions": "[{\"title\": \"Remove Element\", \"titleSlug\": \"remove-element\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Delete Node in a Linked List\", \"titleSlug\": \"delete-node-in-a-linked-list\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove Linked List Elements", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

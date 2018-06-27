@@ -35,6 +35,8 @@ https://leetcode.com/problems/candy/description/
              The third child gets 1 candy because it satisfies the above two conditions.
 </pre>
 
+Similar Questions:
+
 */
 func candy(ratings []int) int {
     

@@ -24,6 +24,8 @@ https://leetcode.com/problems/jump-game-ii/description/
 <p><strong>Note:</strong></p>
 
 <p>You can assume that you can always reach the last index.</p>
+Similar Questions:
+  Jump Game (jump-game)
 */
 func jump(nums []int) int {
     

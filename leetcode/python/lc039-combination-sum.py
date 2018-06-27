@@ -38,6 +38,13 @@ https://leetcode.com/problems/combination-sum/description/
 ]
 </pre>
 
+Similar Questions:
+  Letter Combinations of a Phone Number (letter-combinations-of-a-phone-number)
+  Combination Sum II (combination-sum-ii)
+  Combinations (combinations)
+  Combination Sum III (combination-sum-iii)
+  Factor Combinations (factor-combinations)
+  Combination Sum IV (combination-sum-iv)
 """
 
 

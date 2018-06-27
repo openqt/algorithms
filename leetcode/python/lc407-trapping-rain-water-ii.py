@@ -33,6 +33,8 @@ The above image represents the elevation map <code>[[1,4,3,1,3,2],[3,2,1,3,2,4],
 <img src="/static/images/problemset/rainwater_fill.png" /><br />
 After the rain, water is trapped between the blocks. The total volume of water trapped is 4.
 </p>
+Similar Questions:
+  Trapping Rain Water (trapping-rain-water)
 """
 
 

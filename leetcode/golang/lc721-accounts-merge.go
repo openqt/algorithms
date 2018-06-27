@@ -31,6 +31,10 @@ We could return these lists in any order, for example the answer [['Mary', 'mary
 <li>The length of <code>accounts[i]</code> will be in the range <code>[1, 10]</code>.</li>
 <li>The length of <code>accounts[i][j]</code> will be in the range <code>[1, 30]</code>.</li>
 </p>
+Similar Questions:
+  Redundant Connection (redundant-connection)
+  Sentence Similarity (sentence-similarity)
+  Sentence Similarity II (sentence-similarity-ii)
 */
 func accountsMerge(accounts [][]string) [][]string {
     

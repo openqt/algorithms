@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,2,1,6,0,5]", 
     "questionFrontendId": "654", 
     "contributors": "[{\"username\": \"symplecticgeometry\", \"profileUrl\": \"/symplecticgeometry/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"constructMaximumBinaryTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"TreeNode\",\r\n    \"dealloc\": true\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/maximum-binary-tree/", 
     "stats": "{\"totalAccepted\": \"37.6K\", \"totalSubmission\": \"53.3K\", \"acRate\": \"70.5%\"}", 
     "interpretUrl": "/problems/maximum-binary-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>\r\nGiven an integer array with no duplicates. A maximum tree building on this array is defined as follow:\r\n<ol>\r\n<li>The root is the maximum number in the array. </li>\r\n<li>The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.</li>\r\n<li>The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.</li> \r\n</ol>\r\n</p>\r\n\r\n<p>\r\nConstruct the maximum tree by the given array and output the root node of this tree.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [3,2,1,6,0,5]\r\n<b>Output:</b> return the tree root node representing the following tree:\r\n\r\n      6\r\n    /   \\\r\n   3     5\r\n    \\    / \r\n     2  0   \r\n       \\\r\n        1\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The size of the given array will be in the range [1,1000].</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "maximum-binary-tree", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Maximum Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

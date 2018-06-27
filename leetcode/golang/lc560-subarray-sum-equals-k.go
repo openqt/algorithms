@@ -22,6 +22,11 @@ https://leetcode.com/problems/subarray-sum-equals-k/description/
 <li>The range of numbers in the array is [-1000, 1000] and the range of the integer <b>k</b> is [-1e7, 1e7].</li>
 </ol>
 </p>
+Similar Questions:
+  Two Sum (two-sum)
+  Continuous Subarray Sum (continuous-subarray-sum)
+  Subarray Product Less Than K (subarray-product-less-than-k)
+  Find Pivot Index (find-pivot-index)
 */
 func subarraySum(nums []int, k int) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,2,1]", 
     "questionFrontendId": "414", 
     "contributors": "[{\"username\": \"ZengRed\", \"profileUrl\": \"/zengred/\"}, {\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"thirdMax\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/third-maximum-number/", 
     "stats": "{\"totalAccepted\": \"64.2K\", \"totalSubmission\": \"227.8K\", \"acRate\": \"28.2%\"}", 
     "interpretUrl": "/problems/third-maximum-number/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given a <b>non-empty</b> array of integers, return the <b>third</b> maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [3, 2, 1]\r\n\r\n<b>Output:</b> 1\r\n\r\n<b>Explanation:</b> The third maximum is 1.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [1, 2]\r\n\r\n<b>Output:</b> 2\r\n\r\n<b>Explanation:</b> The third maximum does not exist, so the maximum (2) is returned instead.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> [2, 2, 3, 1]\r\n\r\n<b>Output:</b> 1\r\n\r\n<b>Explanation:</b> Note that the third maximum here means the third maximum distinct number.\r\nBoth numbers with value 2 are both considered as second maximum.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "third-maximum-number", 
     "similarQuestions": "[{\"title\": \"Kth Largest Element in an Array\", \"titleSlug\": \"kth-largest-element-in-an-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Third Maximum Number", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

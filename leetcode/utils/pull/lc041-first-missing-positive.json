@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,0]", 
     "questionFrontendId": "41", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"firstMissingPositive\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/first-missing-positive/", 
     "stats": "{\"totalAccepted\": \"140.6K\", \"totalSubmission\": \"536.2K\", \"acRate\": \"26.2%\"}", 
     "interpretUrl": "/problems/first-missing-positive/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given an unsorted integer array, find the smallest missing&nbsp;positive integer.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\nInput: [1,2,0]\r\nOutput: 3\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\nInput: [3,4,-1,1]\r\nOutput: 2\r\n</pre>\r\n\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\nInput: [7,8,9,11,12]\r\nOutput: 1\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>Your algorithm should run in <em>O</em>(<em>n</em>) time and uses constant extra space.</p>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "first-missing-positive", 
     "similarQuestions": "[{\"title\": \"Missing Number\", \"titleSlug\": \"missing-number\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Find the Duplicate Number\", \"titleSlug\": \"find-the-duplicate-number\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find All Numbers Disappeared in an Array\", \"titleSlug\": \"find-all-numbers-disappeared-in-an-array\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Couples Holding Hands\", \"titleSlug\": \"couples-holding-hands\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "First Missing Positive", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

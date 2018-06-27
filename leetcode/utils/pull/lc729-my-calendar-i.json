@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MyCalendar\",\"book\",\"book\",\"book\"]\n[[],[10,20],[15,25],[20,30]]", 
     "questionFrontendId": "729", 
     "contributors": "[{\"username\": \"ccyjoshua\", \"profileUrl\": \"/ccyjoshua/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"MyCalendar\",\r\n    \"constructor\": {\r\n        \"params\": []\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"book\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"start\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"end\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            }\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"starts\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"ends\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<boolean>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/my-calendar-i/", 
     "stats": "{\"totalAccepted\": \"13.5K\", \"totalSubmission\": \"31.8K\", \"acRate\": \"42.6%\"}", 
     "interpretUrl": "/problems/my-calendar-i/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>\r\nImplement a <code>MyCalendar</code> class to store your events. A new event can be added if adding the event will not cause a double booking.\r\n</p><p>\r\nYour class will have the method, <code>book(int start, int end)</code>.  Formally, this represents a booking on the half open interval <code>[start, end)</code>, the range of real numbers <code>x</code> such that <code>start <= x < end</code>.\r\n</p><p>\r\nA <i>double booking</i> happens when two events have some non-empty intersection (ie., there is some time that is common to both events.)\r\n</p><p>\r\nFor each call to the method <code>MyCalendar.book</code>, return <code>true</code> if the event can be added to the calendar successfully without causing a double booking.  Otherwise, return <code>false</code> and do not add the event to the calendar.\r\n</p>\r\n\r\nYour class will be called like this:\r\n<code>MyCalendar cal = new MyCalendar();</code>\r\n<code>MyCalendar.book(start, end)</code>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\nMyCalendar();\r\nMyCalendar.book(10, 20); // returns true\r\nMyCalendar.book(15, 25); // returns false\r\nMyCalendar.book(20, 30); // returns true\r\n<b>Explanation:</b> \r\nThe first event can be booked.  The second can't because time 15 is already booked by another event.\r\nThe third event can be booked, as the first event takes every time less than 20, but not including 20.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li>The number of calls to <code>MyCalendar.book</code> per test case will be at most <code>1000</code>.</li>\r\n<li>In calls to <code>MyCalendar.book(start, end)</code>, <code>start</code> and <code>end</code> are integers in the range <code>[0, 10^9]</code>.</li>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "my-calendar-i", 
     "similarQuestions": "[{\"title\": \"My Calendar II\", \"titleSlug\": \"my-calendar-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"My Calendar III\", \"titleSlug\": \"my-calendar-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "My Calendar I", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

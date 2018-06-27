@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[9,9,4],[6,6,8],[2,1,1]]", 
     "questionFrontendId": "329", 
     "contributors": "[{\"username\": \"dietpepsi\", \"profileUrl\": \"/dietpepsi/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"longestIncreasingPath\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"matrix\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/longest-increasing-path-in-a-matrix/", 
     "stats": "{\"totalAccepted\": \"55.8K\", \"totalSubmission\": \"148.4K\", \"acRate\": \"37.6%\"}", 
     "interpretUrl": "/problems/longest-increasing-path-in-a-matrix/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Topological Sort", 
-        "slug": "topological-sort"
+        "slug": "topological-sort", 
+        "name": "Topological Sort"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Memoization", 
-        "slug": "memoization"
+        "slug": "memoization", 
+        "name": "Memoization"
       }
     ], 
     "content": "<p>Given an integer matrix, find the length of the longest increasing path.</p>\r\n\r\n<p>From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>nums = \r\n[\r\n  [<font color=\"red\">9</font>,9,4],\r\n  [<font color=\"red\">6</font>,6,8],\r\n  [<font color=\"red\">2</font>,<font color=\"red\">1</font>,1]\r\n] \r\n<strong>Output:</strong> 4 \r\n<strong>Explanation:</strong> The longest increasing path is <code>[1, 2, 6, 9]</code>.\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> nums = \r\n[\r\n  [<font color=\"red\">3</font>,<font color=\"red\">4</font>,<font color=\"red\">5</font>],\r\n  [3,2,<font color=\"red\">6</font>],\r\n  [2,2,1]\r\n] \r\n<strong>Output: </strong>4 \r\n<strong>Explanation: </strong>The longest increasing path is <code>[3, 4, 5, 6]</code>. Moving diagonally is not allowed.\r\n</pre>\r\n", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "longest-increasing-path-in-a-matrix", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Longest Increasing Path in a Matrix", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

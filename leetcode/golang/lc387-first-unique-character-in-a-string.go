@@ -23,6 +23,8 @@ return 2.
 <p>
 <b>Note:</b> You may assume the string contain only lowercase letters.
 </p>
+Similar Questions:
+  Sort Characters By Frequency (sort-characters-by-frequency)
 */
 func firstUniqChar(s string) int {
     

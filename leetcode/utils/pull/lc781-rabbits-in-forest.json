@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,1,0,0]", 
     "questionFrontendId": "781", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"numRabbits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"answers\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/rabbits-in-forest/", 
     "stats": "{\"totalAccepted\": \"5.9K\", \"totalSubmission\": \"11.8K\", \"acRate\": \"49.7%\"}", 
     "interpretUrl": "/problems/rabbits-in-forest/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>In a forest, each rabbit has some color. Some subset of rabbits (possibly all of them) tell you how many other rabbits have the same color as them. Those <code>answers</code> are placed in an array.</p>\r\n\r\n<p>Return the minimum number of rabbits that could be in the forest.</p>\r\n\r\n<pre>\r\n<strong>Examples:</strong>\r\n<strong>Input:</strong> answers = [1, 1, 2]\r\n<strong>Output:</strong> 5\r\n<strong>Explanation:</strong>\r\nThe two rabbits that answered &quot;1&quot; could both be the same color, say red.\r\nThe rabbit than answered &quot;2&quot; can&#39;t be red or the answers would be inconsistent.\r\nSay the rabbit that answered &quot;2&quot; was blue.\r\nThen there should be 2 other blue rabbits in the forest that didn&#39;t answer into the array.\r\nThe smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn&#39;t.\r\n\r\n<strong>Input:</strong> answers = [10, 10, 10]\r\n<strong>Output:</strong> 11\r\n\r\n<strong>Input:</strong> answers = []\r\n<strong>Output:</strong> 0\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ol>\r\n\t<li><code>answers</code> will have length at most <code>1000</code>.</li>\r\n\t<li>Each <code>answers[i]</code> will be an integer in the range <code>[0, 999]</code>.</li>\r\n</ol>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "rabbits-in-forest", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Rabbits in Forest", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,9,20,15,7]", 
     "questionFrontendId": "637", 
     "contributors": "[{\"username\": \"yangshun\", \"profileUrl\": \"/yangshun/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"averageOfLevels\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<double>\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/average-of-levels-in-binary-tree/", 
     "stats": "{\"totalAccepted\": \"48.6K\", \"totalSubmission\": \"86.5K\", \"acRate\": \"56.1%\"}", 
     "interpretUrl": "/problems/average-of-levels-in-binary-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b>\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n<b>Output:</b> [3, 14.5, 11]\r\n<b>Explanation:</b>\r\nThe average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 is 11. Hence return [3, 14.5, 11].\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The range of node's value is in the range of 32-bit signed integer.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "average-of-levels-in-binary-tree", 
     "similarQuestions": "[{\"title\": \"Binary Tree Level Order Traversal\", \"titleSlug\": \"binary-tree-level-order-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Tree Level Order Traversal II\", \"titleSlug\": \"binary-tree-level-order-traversal-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Average of Levels in Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

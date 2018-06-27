@@ -18,6 +18,8 @@ https://leetcode.com/problems/reverse-bits/description/
 <p><b>Follow up</b>:<br />
 If this function is called many times, how would you optimize it?</p>
 
+Similar Questions:
+  Number of 1 Bits (number-of-1-bits)
 """
 
 

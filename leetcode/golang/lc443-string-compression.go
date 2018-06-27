@@ -69,6 +69,10 @@ Notice each digit has it's own entry in the array.
 <li><code>1 <= len(chars) <= 1000</code>.</li>
 </ol>
 </p>
+Similar Questions:
+  Count and Say (count-and-say)
+  Encode and Decode Strings (encode-and-decode-strings)
+  Design Compressed String Iterator (design-compressed-string-iterator)
 */
 func compress(chars []byte) int {
     

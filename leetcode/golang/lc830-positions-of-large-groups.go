@@ -42,6 +42,8 @@ https://leetcode.com/problems/positions-of-large-groups/description/
 <p>&nbsp;</p>
 
 <p><strong>Note:&nbsp;</strong>&nbsp;<code>1 &lt;= S.length &lt;= 1000</code></p>
+Similar Questions:
+
 */
 func largeGroupPositions(S string) [][]int {
     

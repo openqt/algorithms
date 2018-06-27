@@ -46,6 +46,8 @@ This is the maximum distance possible, so the answer is 3.
 </div>
 </div>
 
+Similar Questions:
+  Exam Room (exam-room)
 */
 func maxDistToClosest(seats []int) int {
     

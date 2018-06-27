@@ -26,6 +26,8 @@ https://leetcode.com/problems/shortest-distance-to-a-character/description/
 	<li>All letters in <code>S</code> and <code>C</code> are lowercase.</li>
 </ol>
 
+Similar Questions:
+
 */
 func shortestToChar(S string, C byte) []int {
     

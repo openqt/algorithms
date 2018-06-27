@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"ab#c\"\n\"ad#c\"", 
     "questionFrontendId": "844", 
     "contributors": "[{\"username\": \"terranblake\", \"profileUrl\": \"/terranblake/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"backspaceCompare\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"S\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"T\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/backspace-string-compare/", 
     "stats": "{\"totalAccepted\": \"7.2K\", \"totalSubmission\": \"15.4K\", \"acRate\": \"46.9%\"}", 
     "interpretUrl": "/problems/backspace-string-compare/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given two&nbsp;strings&nbsp;<code>S</code>&nbsp;and <code>T</code>,&nbsp;return if they are equal when both are typed into empty text editors. <code>#</code> means a backspace character.</p>\r\n\r\n<div>\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <span id=\"example-input-1-1\">&quot;ab#c&quot;</span>, T = <span id=\"example-input-1-2\">&quot;ad#c&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-1\">true\r\n</span><span><strong>Explanation</strong>: Both S and T become &quot;ac&quot;.</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <span id=\"example-input-2-1\">&quot;ab##&quot;</span>, T = <span id=\"example-input-2-2\">&quot;c#d#&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-2\">true\r\n</span><span><strong>Explanation</strong>: Both S and T become &quot;&quot;.</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 3:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <span id=\"example-input-3-1\">&quot;a##c&quot;</span>, T = <span id=\"example-input-3-2\">&quot;#a#c&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-3\">true\r\n</span><span><strong>Explanation</strong>: Both S and T become &quot;c&quot;.</span>\r\n</pre>\r\n\r\n<div>\r\n<p><strong>Example 4:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>S = <span id=\"example-input-4-1\">&quot;a#c&quot;</span>, T = <span id=\"example-input-4-2\">&quot;b&quot;</span>\r\n<strong>Output: </strong><span id=\"example-output-4\">false\r\n</span><span><strong>Explanation</strong>: S becomes &quot;c&quot; while T becomes &quot;b&quot;.</span>\r\n</pre>\r\n\r\n<p><span><strong>Note</strong>:</span></p>\r\n\r\n<ol>\r\n\t<li><code><span>1 &lt;= S.length &lt;= 200</span></code></li>\r\n\t<li><code><span>1 &lt;= T.length &lt;= 200</span></code></li>\r\n\t<li><span><code>S</code>&nbsp;and <code>T</code> only contain&nbsp;lowercase letters and <code>&#39;#&#39;</code> characters.</span></li>\r\n</ol>\r\n\r\n<p><strong>Follow up:</strong></p>\r\n\r\n<ul>\r\n\t<li>Can you solve it in <code>O(N)</code> time and <code>O(1)</code> space?</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "backspace-string-compare", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Backspace String Compare", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]\n[[],[1],[2],[],[3],[]]", 
     "questionFrontendId": "295", 
     "contributors": "[{\"username\": \"Louis1992\", \"profileUrl\": \"/louis1992/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"classname\": \"MedianFinder\",\r\n  \"maxbytesperline\": 410000,\r\n  \"constructor\": {\r\n      \"params\": [\r\n      ],\r\n      \"comment\": \"initialize your data structure here.\"\r\n  },\r\n  \"methods\": [\r\n      { \"name\" : \"addNum\",\r\n        \"params\": [\r\n            {\r\n                \"type\": \"integer\",\r\n                \"name\": \"num\"\r\n            }],\r\n        \"return\": {\r\n            \"type\": \"void\"\r\n        }\r\n      },\r\n      { \"name\": \"findMedian\",\r\n        \"params\": [],\r\n        \"return\": {\r\n            \"type\": \"double\"\r\n        }\r\n      }\r\n  ],\r\n  \"systemdesign\": true,\r\n  \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-median-from-data-stream/", 
     "stats": "{\"totalAccepted\": \"63.9K\", \"totalSubmission\": \"210.8K\", \"acRate\": \"30.3%\"}", 
     "interpretUrl": "/problems/find-median-from-data-stream/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.</p>\r\nFor example,\r\n\r\n<p><code>[2,3,4]</code>, the median is <code>3</code></p>\r\n\r\n<p><code>[2,3]</code>, the median is <code>(2 + 3) / 2 = 2.5</code></p>\r\n\r\n<p>Design a data structure that supports the following two operations:</p>\r\n\r\n<ul>\r\n\t<li>void addNum(int num) - Add a integer number from the data stream to the data structure.</li>\r\n\t<li>double findMedian() - Return the median of all elements so far.</li>\r\n</ul>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\naddNum(1)\r\naddNum(2)\r\nfindMedian() -&gt; 1.5\r\naddNum(3) \r\nfindMedian() -&gt; 2\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "find-median-from-data-stream", 
     "similarQuestions": "[{\"title\": \"Sliding Window Median\", \"titleSlug\": \"sliding-window-median\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Median from Data Stream", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

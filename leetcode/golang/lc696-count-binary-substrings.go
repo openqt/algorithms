@@ -33,6 +33,8 @@ https://leetcode.com/problems/count-binary-substrings/description/
 <li><code>s.length</code> will be between 1 and 50,000.</li>
 <li><code>s</code> will only consist of "0" or "1" characters.</li>
 </p>
+Similar Questions:
+  Encode and Decode Strings (encode-and-decode-strings)
 */
 func countBinarySubstrings(s string) int {
     

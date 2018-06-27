@@ -36,6 +36,8 @@ https://leetcode.com/problems/search-insert-position/description/
 <strong>Output:</strong> 0
 </pre>
 
+Similar Questions:
+  First Bad Version (first-bad-version)
 """
 
 

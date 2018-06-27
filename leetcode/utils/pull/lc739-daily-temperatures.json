@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[73,74,75,71,69,72,76,73]", 
     "questionFrontendId": "739", 
     "contributors": "[{\"username\": \"Rizve\", \"profileUrl\": \"/rizve/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"dailyTemperatures\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"T\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/daily-temperatures/", 
     "stats": "{\"totalAccepted\": \"17.4K\", \"totalSubmission\": \"32.6K\", \"acRate\": \"53.4%\"}", 
     "interpretUrl": "/problems/daily-temperatures/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>\r\nGiven a list of daily <code>temperatures</code>, produce a list that, for each day in the input, tells you how many days you would have to wait until a warmer temperature.  If there is no future day for which this is possible, put <code>0</code> instead.\r\n</p><p>\r\nFor example, given the list <code>temperatures = [73, 74, 75, 71, 69, 72, 76, 73]</code>, your output should be <code>[1, 1, 4, 2, 1, 1, 0, 0]</code>.\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe length of <code>temperatures</code> will be in the range <code>[1, 30000]</code>.\r\nEach temperature will be an integer in the range <code>[30, 100]</code>.\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "daily-temperatures", 
     "similarQuestions": "[{\"title\": \"Next Greater Element I\", \"titleSlug\": \"next-greater-element-i\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Daily Temperatures", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

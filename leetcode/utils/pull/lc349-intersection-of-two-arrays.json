@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[]\n[]", 
     "questionFrontendId": "349", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"intersection\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums1\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"nums2\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/intersection-of-two-arrays/", 
     "stats": "{\"totalAccepted\": \"140K\", \"totalSubmission\": \"288.3K\", \"acRate\": \"48.5%\"}", 
     "interpretUrl": "/problems/intersection-of-two-arrays/interpret_solution/", 
@@ -18,26 +18,26 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Sort", 
-        "slug": "sort"
+        "slug": "sort", 
+        "name": "Sort"
       }
     ], 
     "content": "<p>\r\nGiven two arrays, write a function to compute their intersection.\r\n</p>\r\n\r\n<p><b>Example:</b><br />\r\nGiven <i>nums1</i> = <code>[1, 2, 2, 1]</code>, <i>nums2</i> = <code>[2, 2]</code>, return <code>[2]</code>.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\n<ul>\r\n<li>Each element in the result must be unique.</li>\r\n<li>The result can be in any order.</li>\r\n</ul>\r\n</p>", 
@@ -55,7 +55,7 @@
     "questionTitleSlug": "intersection-of-two-arrays", 
     "similarQuestions": "[{\"title\": \"Intersection of Two Arrays II\", \"titleSlug\": \"intersection-of-two-arrays-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Intersection of Two Arrays", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

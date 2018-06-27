@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,3,1,1,4]", 
     "questionFrontendId": "55", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"canJump\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/jump-game/", 
     "stats": "{\"totalAccepted\": \"175.4K\", \"totalSubmission\": \"588.1K\", \"acRate\": \"29.8%\"}", 
     "interpretUrl": "/problems/jump-game/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>Given an array of non-negative integers, you are initially positioned at the first index of the array.</p>\r\n\r\n<p>Each element in the array represents your maximum jump length at that position.</p>\r\n\r\n<p>Determine if you are able to reach the last index.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [2,3,1,1,4]\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong> Jump 1 step from index 0 to 1, then 3 steps to the last index.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [3,2,1,0,4]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> You will always arrive at index 3 no matter what. Its maximum\r\n&nbsp;            jump length is 0, which makes it impossible to reach the last index.\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "jump-game", 
     "similarQuestions": "[{\"title\": \"Jump Game II\", \"titleSlug\": \"jump-game-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Jump Game", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

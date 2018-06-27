@@ -22,6 +22,9 @@ https://leetcode.com/problems/valid-palindrome/description/
 <strong>Output:</strong> false
 </pre>
 
+Similar Questions:
+  Palindrome Linked List (palindrome-linked-list)
+  Valid Palindrome II (valid-palindrome-ii)
 """
 
 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "4", 
     "questionFrontendId": "69", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"mySqrt\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"x\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/sqrtx/", 
     "stats": "{\"totalAccepted\": \"244.3K\", \"totalSubmission\": \"837.2K\", \"acRate\": \"29.2%\"}", 
     "interpretUrl": "/problems/sqrtx/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Implement <code>int sqrt(int x)</code>.</p>\r\n\r\n<p>Compute and return the square root of <em>x</em>, where&nbsp;<em>x</em>&nbsp;is guaranteed to be a non-negative integer.</p>\r\n\r\n<p>Since the return type&nbsp;is an integer, the decimal digits are truncated and only the integer part of the result&nbsp;is returned.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 4\r\n<strong>Output:</strong> 2\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 8\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> The square root of 8 is 2.82842..., and since \r\n&nbsp;            the decimal part is truncated, 2 is returned.\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "sqrtx", 
     "similarQuestions": "[{\"title\": \"Pow(x, n)\", \"titleSlug\": \"powx-n\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Valid Perfect Square\", \"titleSlug\": \"valid-perfect-square\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Sqrt(x)", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

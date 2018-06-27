@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,null,3,2]", 
     "questionFrontendId": "530", 
     "contributors": "[{\"username\": \"nagasupreeth\", \"profileUrl\": \"/nagasupreeth/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"getMinimumDifference\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-absolute-difference-in-bst/", 
     "stats": "{\"totalAccepted\": \"39.5K\", \"totalSubmission\": \"82.5K\", \"acRate\": \"47.9%\"}", 
     "interpretUrl": "/problems/minimum-absolute-difference-in-bst/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>Given a binary search tree with non-negative values, find the minimum <a href=\"https://en.wikipedia.org/wiki/Absolute_difference\">absolute difference</a> between values of any two nodes.</p>\r\n\r\n<p>\r\n<b>Example:</b>\r\n<pre>\r\n<b>Input:</b>\r\n\r\n   1\r\n    \\\r\n     3\r\n    /\r\n   2\r\n\r\n<b>Output:</b>\r\n1\r\n\r\n<b>Explanation:</b>\r\nThe minimum absolute difference is 1, which is the difference between 2 and 1 (or between 2 and 3).\r\n</pre>\r\n</p>\r\n\r\n\r\n<p><b>Note:</b>\r\nThere are at least two nodes in this BST.\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-absolute-difference-in-bst", 
     "similarQuestions": "[{\"title\": \"K-diff Pairs in an Array\", \"titleSlug\": \"k-diff-pairs-in-an-array\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum Absolute Difference in BST", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

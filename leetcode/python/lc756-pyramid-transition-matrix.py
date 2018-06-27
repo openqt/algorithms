@@ -47,6 +47,8 @@ Note that there could be allowed triples (A, B, C) and (A, B, D) with C != D.
 <li>Letters in all strings will be chosen from the set <code>{'A', 'B', 'C', 'D', 'E', 'F', 'G'}</code>.</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

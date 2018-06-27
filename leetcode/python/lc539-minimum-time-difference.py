@@ -19,6 +19,8 @@ Given a list of 24-hour clock time points in "Hour:Minutes" format, find the min
 <li>The input time is legal and ranges from 00:00 to 23:59.</li>
 </ol>
 </p>
+Similar Questions:
+
 """
 
 

@@ -39,6 +39,12 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> In this case, no transaction is done, i.e. max profit = 0.</pre>
 
+Similar Questions:
+  Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)
+  Best Time to Buy and Sell Stock III (best-time-to-buy-and-sell-stock-iii)
+  Best Time to Buy and Sell Stock IV (best-time-to-buy-and-sell-stock-iv)
+  Best Time to Buy and Sell Stock with Cooldown (best-time-to-buy-and-sell-stock-with-cooldown)
+  Best Time to Buy and Sell Stock with Transaction Fee (best-time-to-buy-and-sell-stock-with-transaction-fee)
 */
 func maxProfit(prices []int) int {
     

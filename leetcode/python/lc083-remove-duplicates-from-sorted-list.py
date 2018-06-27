@@ -19,6 +19,8 @@ https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
 <strong>Input:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;3
 <strong>Output:</strong> 1-&gt;2-&gt;3
 </pre>
+Similar Questions:
+  Remove Duplicates from Sorted List II (remove-duplicates-from-sorted-list-ii)
 """
 
 

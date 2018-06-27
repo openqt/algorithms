@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2", 
     "questionFrontendId": "343", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"integerBreak\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/integer-break/", 
     "stats": "{\"totalAccepted\": \"59.9K\", \"totalSubmission\": \"128.5K\", \"acRate\": \"46.6%\"}", 
     "interpretUrl": "/problems/integer-break/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>\r\nGiven a positive integer <i>n</i>, break it into the sum of <b>at least</b> two positive integers and maximize the product of those integers. Return the maximum product you can get.\r\n</p>\r\n\r\n<p>\r\nFor example, given <i>n</i> = 2, return 1 (2 = 1 + 1); given <i>n</i> = 10, return 36 (10 = 3 + 3 + 4).\r\n</p>\r\n\r\n<p>\r\n<b>Note</b>: You may assume that <i>n</i> is not less than 2 and not larger than 58.\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/discuss/user/jianchao.li.fighter\">@jianchao.li.fighter</a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "integer-break", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Integer Break", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

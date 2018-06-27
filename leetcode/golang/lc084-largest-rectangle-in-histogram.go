@@ -26,6 +26,8 @@ https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 <strong>Output:</strong> 10
 </pre>
 
+Similar Questions:
+  Maximal Rectangle (maximal-rectangle)
 */
 func largestRectangleArea(heights []int) int {
     

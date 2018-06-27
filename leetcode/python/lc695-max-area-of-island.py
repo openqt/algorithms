@@ -33,6 +33,9 @@ Given the above grid, return <code>0</code>.
 <p><b>Note:</b>
 The length of each dimension in the given <code>grid</code> does not exceed 50.
 </p>
+Similar Questions:
+  Number of Islands (number-of-islands)
+  Island Perimeter (island-perimeter)
 """
 
 

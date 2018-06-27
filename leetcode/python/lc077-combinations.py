@@ -21,6 +21,9 @@ https://leetcode.com/problems/combinations/description/
 ]
 </pre>
 
+Similar Questions:
+  Combination Sum (combination-sum)
+  Permutations (permutations)
 """
 
 

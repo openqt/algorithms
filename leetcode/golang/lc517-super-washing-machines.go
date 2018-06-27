@@ -55,6 +55,8 @@ It's impossible to make all the three washing machines have the same number of d
 <li>The range of dresses number in a super washing machine is [0, 1e5].</li>
 </ol>
 </p>
+Similar Questions:
+
 */
 func findMinMoves(machines []int) int {
     

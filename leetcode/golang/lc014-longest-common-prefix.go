@@ -30,6 +30,8 @@ https://leetcode.com/problems/longest-common-prefix/description/
 
 <p>All given inputs are in lowercase letters <code>a-z</code>.</p>
 
+Similar Questions:
+
 */
 func longestCommonPrefix(strs []string) string {
     

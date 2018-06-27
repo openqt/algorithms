@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,2,5,null,null,5,7]", 
     "questionFrontendId": "671", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findSecondMinimumValue\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/second-minimum-node-in-a-binary-tree/", 
     "stats": "{\"totalAccepted\": \"27.1K\", \"totalSubmission\": \"64.6K\", \"acRate\": \"42.0%\"}", 
     "interpretUrl": "/problems/second-minimum-node-in-a-binary-tree/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }
     ], 
     "content": "<p>\r\nGiven a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree has exactly <code>two</code> or <code>zero</code> sub-node. If the node has two sub-nodes, then this node's value is the smaller value among its two sub-nodes. \r\n</p>\r\n\r\n<p>\r\nGiven such a binary tree, you need to output the <b>second minimum</b> value in the set made of all the nodes' value in the whole tree. \r\n</p>\r\n\r\n<p>\r\nIf no such second minimum value exists, output -1 instead.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n    2\r\n   / \\\r\n  2   5\r\n     / \\\r\n    5   7\r\n\r\n<b>Output:</b> 5\r\n<b>Explanation:</b> The smallest value is 2, the second smallest value is 5.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\n    2\r\n   / \\\r\n  2   2\r\n\r\n<b>Output:</b> -1\r\n<b>Explanation:</b> The smallest value is 2, but there isn't any second smallest value.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "second-minimum-node-in-a-binary-tree", 
     "similarQuestions": "[{\"title\": \"Kth Smallest Element in a BST\", \"titleSlug\": \"kth-smallest-element-in-a-bst\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Second Minimum Node In a Binary Tree", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

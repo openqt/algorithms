@@ -23,6 +23,8 @@ solution.reset();
 solution.shuffle();
 </pre>
 </p>
+Similar Questions:
+
 """
 
 

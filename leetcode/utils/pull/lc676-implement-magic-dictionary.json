@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"MagicDictionary\", \"buildDict\", \"search\", \"search\", \"search\", \"search\"]\n[[], [[\"hello\",\"leetcode\"]], [\"hello\"], [\"hhllo\"], [\"hell\"], [\"leetcoded\"]]", 
     "questionFrontendId": "676", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"MagicDictionary\",\r\n    \"maxbytesperline\": 210000,\r\n    \"constructor\": {\r\n        \"params\": [\r\n        ],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"buildDict\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string[]\",\r\n                    \"name\": \"dict\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Build a dictionary through a list of words\"\r\n        },\r\n        {\r\n            \"name\" : \"search\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"string\",\r\n                    \"name\": \"word\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"boolean\"\r\n            },\r\n            \"comment\": \"Returns if there is any word in the trie that equals to the given word after modifying exactly one character\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/implement-magic-dictionary/", 
     "stats": "{\"totalAccepted\": \"13.5K\", \"totalSubmission\": \"27.4K\", \"acRate\": \"49.2%\"}", 
     "interpretUrl": "/problems/implement-magic-dictionary/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Trie", 
-        "slug": "trie"
+        "slug": "trie", 
+        "name": "Trie"
       }
     ], 
     "content": "<p>\r\nImplement a magic directory with <code>buildDict</code>, and <code>search</code> methods.\r\n</p>\r\n\r\n<p>\r\nFor the method <code>buildDict</code>, you'll be given a list of non-repetitive words to build a dictionary.\r\n</p>\r\n\r\n<p>\r\nFor the method <code>search</code>, you'll be given a word, and judge whether if you modify <b>exactly</b> one character into <b>another</b> character in this word, the modified word is in the dictionary you just built.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\nInput: buildDict([\"hello\", \"leetcode\"]), Output: Null\r\nInput: search(\"hello\"), Output: False\r\nInput: search(\"hhllo\"), Output: True\r\nInput: search(\"hell\"), Output: False\r\nInput: search(\"leetcoded\"), Output: False\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>You may assume that all the inputs are consist of lowercase letters <code>a-z</code>.</li>\r\n<li>For contest purpose, the test data is rather small by now. You could think about highly efficient algorithm after the contest.</li>\r\n<li>Please remember to <b>RESET</b> your class variables declared in class MagicDictionary, as static/class variables are <b>persisted across multiple test cases</b>. Please see <a href=\"https://leetcode.com/faq/#different-output\">here</a> for more details.</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "implement-magic-dictionary", 
     "similarQuestions": "[{\"title\": \"Implement Trie (Prefix Tree)\", \"titleSlug\": \"implement-trie-prefix-tree\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Longest Word in Dictionary\", \"titleSlug\": \"longest-word-in-dictionary\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Implement Magic Dictionary", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

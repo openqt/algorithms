@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[\"Twitter\",\"postTweet\",\"getNewsFeed\",\"follow\",\"postTweet\",\"getNewsFeed\",\"unfollow\",\"getNewsFeed\"]\n[[],[1,5],[1],[1,2],[2,6],[1],[1,2],[1]]", 
     "questionFrontendId": "355", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"classname\": \"Twitter\",\r\n    \"maxbytesperline\": 170000,\r\n    \"constructor\": {\r\n        \"params\": [],\r\n        \"comment\": \"Initialize your data structure here.\"\r\n    },\r\n    \"methods\": [\r\n        {\r\n            \"name\" : \"postTweet\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"userId\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"tweetId\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Compose a new tweet.\"\r\n        },\r\n        {\r\n            \"name\" : \"getNewsFeed\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"userId\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"list<integer>\"\r\n            },\r\n            \"comment\": \"Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.\"\r\n        },\r\n        {\r\n            \"name\" : \"follow\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"followerId\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"followeeId\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Follower follows a followee. If the operation is invalid, it should be a no-op.\"\r\n        },\r\n        {\r\n            \"name\" : \"unfollow\",\r\n            \"params\": [\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"followerId\"\r\n                },\r\n                {\r\n                    \"type\": \"integer\",\r\n                    \"name\": \"followeeId\"\r\n                }\r\n            ],\r\n            \"return\": {\r\n                \"type\": \"void\"\r\n            },\r\n            \"comment\": \"Follower unfollows a followee. If the operation is invalid, it should be a no-op.\"\r\n        }\r\n    ],\r\n    \"systemdesign\": true,\r\n    \"params\": [\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        },\r\n        {\r\n            \"name\": \"inputs\",\r\n            \"type\": \"integer[]\"\r\n        }\r\n    ],\r\n    \"return\": {\r\n        \"type\": \"list<String>\",\r\n        \"dealloc\": true\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/design-twitter/", 
     "stats": "{\"totalAccepted\": \"26K\", \"totalSubmission\": \"100.4K\", \"acRate\": \"25.9%\"}", 
     "interpretUrl": "/problems/design-twitter/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Hash Table", 
-        "slug": "hash-table"
+        "slug": "hash-table", 
+        "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Heap", 
-        "slug": "heap"
+        "slug": "heap", 
+        "name": "Heap"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Design", 
-        "slug": "design"
+        "slug": "design", 
+        "name": "Design"
       }
     ], 
     "content": "<p>Design a simplified version of Twitter where users can post tweets, follow/unfollow another user and is able to see the 10 most recent tweets in the user's news feed. Your design should support the following methods:</p>\r\n\r\n<p>\r\n<ol>\r\n<li><b>postTweet(userId, tweetId)</b>: Compose a new tweet.</li>\r\n<li><b>getNewsFeed(userId)</b>: Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.</li>\r\n<li><b>follow(followerId, followeeId)</b>: Follower follows a followee.</li>\r\n<li><b>unfollow(followerId, followeeId)</b>: Follower unfollows a followee.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example:</b>\r\n<pre>\r\nTwitter twitter = new Twitter();\r\n\r\n// User 1 posts a new tweet (id = 5).\r\ntwitter.postTweet(1, 5);\r\n\r\n// User 1's news feed should return a list with 1 tweet id -> [5].\r\ntwitter.getNewsFeed(1);\r\n\r\n// User 1 follows user 2.\r\ntwitter.follow(1, 2);\r\n\r\n// User 2 posts a new tweet (id = 6).\r\ntwitter.postTweet(2, 6);\r\n\r\n// User 1's news feed should return a list with 2 tweet ids -> [6, 5].\r\n// Tweet id 6 should precede tweet id 5 because it is posted after tweet id 5.\r\ntwitter.getNewsFeed(1);\r\n\r\n// User 1 unfollows user 2.\r\ntwitter.unfollow(1, 2);\r\n\r\n// User 1's news feed should return a list with 1 tweet id -> [5],\r\n// since user 1 is no longer following user 2.\r\ntwitter.getNewsFeed(1);\r\n</pre>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "design-twitter", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Design Twitter", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

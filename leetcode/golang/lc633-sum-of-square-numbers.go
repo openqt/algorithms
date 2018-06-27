@@ -27,6 +27,8 @@ Given a non-negative integer <code>c</code>, your task is to decide whether ther
 </pre>
 </p>
 
+Similar Questions:
+  Valid Perfect Square (valid-perfect-square)
 */
 func judgeSquareSum(c int) bool {
     

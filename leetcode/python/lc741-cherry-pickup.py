@@ -39,6 +39,9 @@ The total number of cherries picked up is 5, and this is the maximum possible.
 <li>Each <code>grid[i][j]</code> is an integer in the set <code>{-1, 0, 1}</code>.</li>
 <li>It is guaranteed that grid[0][0] and grid[N-1][N-1] are not -1.<li>
 </p>
+Similar Questions:
+  Minimum Path Sum (minimum-path-sum)
+  Dungeon Game (dungeon-game)
 """
 
 

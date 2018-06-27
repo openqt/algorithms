@@ -24,6 +24,9 @@ https://leetcode.com/problems/group-anagrams/description/
 	<li>The order of your output does not&nbsp;matter.</li>
 </ul>
 
+Similar Questions:
+  Valid Anagram (valid-anagram)
+  Group Shifted Strings (group-shifted-strings)
 """
 
 

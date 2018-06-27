@@ -29,6 +29,9 @@ https://leetcode.com/problems/sqrtx/description/
 &nbsp;            the decimal part is truncated, 2 is returned.
 </pre>
 
+Similar Questions:
+  Pow(x, n) (powx-n)
+  Valid Perfect Square (valid-perfect-square)
 */
 func mySqrt(x int) int {
     

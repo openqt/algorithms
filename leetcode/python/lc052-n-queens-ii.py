@@ -29,6 +29,8 @@ https://leetcode.com/problems/n-queens-ii/description/
 ]
 </pre>
 
+Similar Questions:
+  N-Queens (n-queens)
 """
 
 

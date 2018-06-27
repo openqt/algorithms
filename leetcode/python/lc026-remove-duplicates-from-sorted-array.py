@@ -45,6 +45,9 @@ for (int i = 0; i &lt; len; i++) {
 &nbsp; &nbsp; print(nums[i]);
 }</pre>
 
+Similar Questions:
+  Remove Element (remove-element)
+  Remove Duplicates from Sorted Array II (remove-duplicates-from-sorted-array-ii)
 """
 
 

@@ -28,6 +28,8 @@ postorder = [9,15,7,20,3]</pre>
    15   7
 </pre>
 
+Similar Questions:
+  Construct Binary Tree from Preorder and Inorder Traversal (construct-binary-tree-from-preorder-and-inorder-traversal)
 */
 /**
  * Definition for a binary tree node.

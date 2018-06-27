@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "5", 
     "questionFrontendId": "693", 
     "contributors": "[{\"username\": \"chiragbm\", \"profileUrl\": \"/chiragbm/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"hasAlternatingBits\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-number-with-alternating-bits/", 
     "stats": "{\"totalAccepted\": \"24K\", \"totalSubmission\": \"42.9K\", \"acRate\": \"56.1%\"}", 
     "interpretUrl": "/problems/binary-number-with-alternating-bits/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Bit Manipulation", 
-        "slug": "bit-manipulation"
+        "slug": "bit-manipulation", 
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> 5\r\n<b>Output:</b> True\r\n<b>Explanation:</b>\r\nThe binary representation of 5 is: 101\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> 7\r\n<b>Output:</b> False\r\n<b>Explanation:</b>\r\nThe binary representation of 7 is: 111.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> 11\r\n<b>Output:</b> False\r\n<b>Explanation:</b>\r\nThe binary representation of 11 is: 1011.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 4:</b><br />\r\n<pre>\r\n<b>Input:</b> 10\r\n<b>Output:</b> True\r\n<b>Explanation:</b>\r\nThe binary representation of 10 is: 1010.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "binary-number-with-alternating-bits", 
     "similarQuestions": "[{\"title\": \"Number of 1 Bits\", \"titleSlug\": \"number-of-1-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Number with Alternating Bits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

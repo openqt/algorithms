@@ -34,6 +34,10 @@ Output:
 </pre>
 One possible longest palindromic subsequence is "bb".
 </p>
+Similar Questions:
+  Longest Palindromic Substring (longest-palindromic-substring)
+  Palindromic Substrings (palindromic-substrings)
+  Count Different Palindromic Subsequences (count-different-palindromic-subsequences)
 */
 func longestPalindromeSubseq(s string) int {
     

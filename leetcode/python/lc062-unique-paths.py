@@ -33,6 +33,10 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 <strong>Input:</strong> m = 7, n = 3
 <strong>Output:</strong> 28</pre>
 
+Similar Questions:
+  Unique Paths II (unique-paths-ii)
+  Minimum Path Sum (minimum-path-sum)
+  Dungeon Game (dungeon-game)
 """
 
 

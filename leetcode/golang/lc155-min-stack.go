@@ -37,6 +37,9 @@ minStack.top();      --> Returns 0.
 minStack.getMin();   --> Returns -2.
 </pre>
 </p>
+Similar Questions:
+  Sliding Window Maximum (sliding-window-maximum)
+  Max Stack (max-stack)
 */
 type MinStack struct {
     

@@ -50,6 +50,9 @@ All possible pairs are returned from the sequence:
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/elmirap/">@elmirap</a> and <a href="https://leetcode.com/stefanpochmann/">@StefanPochmann</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  Kth Smallest Element in a Sorted Matrix (kth-smallest-element-in-a-sorted-matrix)
+  Find K-th Smallest Pair Distance (find-k-th-smallest-pair-distance)
 */
 func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
     

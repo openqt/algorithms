@@ -52,6 +52,10 @@ for (int i = 0; i &lt; len; i++) {
 &nbsp; &nbsp; print(nums[i]);
 }</pre>
 
+Similar Questions:
+  Remove Duplicates from Sorted Array (remove-duplicates-from-sorted-array)
+  Remove Linked List Elements (remove-linked-list-elements)
+  Move Zeroes (move-zeroes)
 */
 func removeElement(nums []int, val int) int {
     

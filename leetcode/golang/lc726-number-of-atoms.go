@@ -54,6 +54,10 @@ The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.
 <li>The length of <code>formula</code> will be in the range <code>[1, 1000]</code>.</li>
 <li><code>formula</code> will only consist of letters, digits, and round parentheses, and is a valid formula as defined in the problem.</li>
 </p>
+Similar Questions:
+  Decode String (decode-string)
+  Encode String with Shortest Length (encode-string-with-shortest-length)
+  Parse Lisp Expression (parse-lisp-expression)
 */
 func countOfAtoms(formula string) string {
     

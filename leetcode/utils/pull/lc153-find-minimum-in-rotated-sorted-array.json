@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,4,5,1,2]", 
     "questionFrontendId": "153", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMin\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-minimum-in-rotated-sorted-array/", 
     "stats": "{\"totalAccepted\": \"204.1K\", \"totalSubmission\": \"495.6K\", \"acRate\": \"41.2%\"}", 
     "interpretUrl": "/problems/find-minimum-in-rotated-sorted-array/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>\r\n\r\n<p>(i.e., &nbsp;<code>[0,1,2,4,5,6,7]</code>&nbsp;might become &nbsp;<code>[4,5,6,7,0,1,2]</code>).</p>\r\n\r\n<p>Find the minimum element.</p>\r\n\r\n<p>You may assume no duplicate exists in the array.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [3,4,5,1,2] \r\n<strong>Output:</strong> 1\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [4,5,6,7,0,1,2]\r\n<strong>Output:</strong> 0\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "find-minimum-in-rotated-sorted-array", 
     "similarQuestions": "[{\"title\": \"Search in Rotated Sorted Array\", \"titleSlug\": \"search-in-rotated-sorted-array\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find Minimum in Rotated Sorted Array II\", \"titleSlug\": \"find-minimum-in-rotated-sorted-array-ii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Minimum in Rotated Sorted Array", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

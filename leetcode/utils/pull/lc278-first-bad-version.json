@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "5\n4", 
     "questionFrontendId": "278", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"firstBadVersion\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"bad\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ]\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/first-bad-version/", 
     "stats": "{\"totalAccepted\": \"154.9K\", \"totalSubmission\": \"592.1K\", \"acRate\": \"26.2%\"}", 
     "interpretUrl": "/problems/first-bad-version/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "binary-search", 
-        "name": "Binary Search", 
-        "__typename": "TopicTagNode"
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.</p>\r\n\r\n<p>Suppose you have <code>n</code> versions <code>[1, 2, ..., n]</code> and you want to find out the first bad one, which causes all the following ones to be bad.</p>\r\n\r\n<p>You are given an API <code>bool isBadVersion(version)</code> which will return whether <code>version</code> is bad. Implement a function to find the first bad version. You should minimize the number of calls to the API.</p>\r\n\r\n<p><b>Example:</b></p>\r\n\r\n<pre>\r\nGiven n = 5, and version = 4 is the first bad version.\r\n\r\n<code>call isBadVersion(3) -&gt; false\r\ncall isBadVersion(5)&nbsp;-&gt; true\r\ncall isBadVersion(4)&nbsp;-&gt; true\r\n\r\nThen 4 is the first bad version.&nbsp;</code>\r\n</pre>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "first-bad-version", 
     "similarQuestions": "[{\"title\": \"Search for a Range\", \"titleSlug\": \"search-for-a-range\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Search Insert Position\", \"titleSlug\": \"search-insert-position\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Guess Number Higher or Lower\", \"titleSlug\": \"guess-number-higher-or-lower\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "First Bad Version", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

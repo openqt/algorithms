@@ -33,6 +33,13 @@ https://leetcode.com/problems/number-of-islands/description/
 <strong>Output: </strong>3
 </pre>
 
+Similar Questions:
+  Surrounded Regions (surrounded-regions)
+  Walls and Gates (walls-and-gates)
+  Number of Islands II (number-of-islands-ii)
+  Number of Connected Components in an Undirected Graph (number-of-connected-components-in-an-undirected-graph)
+  Number of Distinct Islands (number-of-distinct-islands)
+  Max Area of Island (max-area-of-island)
 */
 func numIslands(grid [][]byte) int {
     

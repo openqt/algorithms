@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2]]", 
     "questionFrontendId": "436", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findRightInterval\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"intervals\",\r\n      \"type\": \"Interval[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/find-right-interval/", 
     "stats": "{\"totalAccepted\": \"19.3K\", \"totalSubmission\": \"46.5K\", \"acRate\": \"41.6%\"}", 
     "interpretUrl": "/problems/find-right-interval/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>\r\nGiven a set of intervals, for each of the interval i, check if there exists an interval j whose start point is bigger than or equal to the end point of the interval i, which can be called that j is on the \"right\" of i.\r\n</p>\r\n\r\n<p>\r\nFor any interval i, you need to store the minimum interval j's index, which means that the interval j has the minimum start point to build the \"right\" relationship for interval i. If the interval j doesn't exist, store -1 for the interval i. Finally, you need output the stored value of each interval as an array.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\n<ol>\r\n<li>You may assume the interval's end point is always bigger than its start point.</li>\r\n<li>You may assume none of these intervals have the same start point.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [ [1,2] ]\r\n\r\n<b>Output:</b> [-1]\r\n\r\n<b>Explanation:</b> There is only one interval in the collection, so it outputs -1.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [ [3,4], [2,3], [1,2] ]\r\n\r\n<b>Output:</b> [-1, 0, 1]\r\n\r\n<b>Explanation:</b> There is no satisfied \"right\" interval for [3,4].\r\nFor [2,3], the interval [3,4] has minimum-\"right\" start point;\r\nFor [1,2], the interval [2,3] has minimum-\"right\" start point.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 3:</b><br />\r\n<pre>\r\n<b>Input:</b> [ [1,4], [2,3], [3,4] ]\r\n\r\n<b>Output:</b> [-1, 2, -1]\r\n\r\n<b>Explanation:</b> There is no satisfied \"right\" interval for [1,4] and [3,4].\r\nFor [2,3], the interval [3,4] has minimum-\"right\" start point.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "find-right-interval", 
     "similarQuestions": "[{\"title\": \"Data Stream as Disjoint Intervals\", \"titleSlug\": \"data-stream-as-disjoint-intervals\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Find Right Interval", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

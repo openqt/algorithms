@@ -46,6 +46,8 @@ for (int i = 0; i &lt; len; i++) {
 }
 </pre>
 
+Similar Questions:
+  Remove Duplicates from Sorted Array (remove-duplicates-from-sorted-array)
 """
 
 

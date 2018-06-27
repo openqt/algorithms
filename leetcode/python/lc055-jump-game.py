@@ -27,6 +27,8 @@ https://leetcode.com/problems/jump-game/description/
 &nbsp;            jump length is 0, which makes it impossible to reach the last index.
 </pre>
 
+Similar Questions:
+  Jump Game II (jump-game-ii)
 """
 
 

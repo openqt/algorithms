@@ -33,6 +33,9 @@ The 4th course cannot be taken now, since you will finish it on the 3300th day, 
 <li>You can't take two courses simultaneously.</li>
 </ol>
 </p>
+Similar Questions:
+  Course Schedule (course-schedule)
+  Course Schedule II (course-schedule-ii)
 """
 
 

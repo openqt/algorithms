@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,7,4,9,2,5]", 
     "questionFrontendId": "376", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"wiggleMaxLength\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/wiggle-subsequence/", 
     "stats": "{\"totalAccepted\": \"35K\", \"totalSubmission\": \"96.7K\", \"acRate\": \"36.2%\"}", 
     "interpretUrl": "/problems/wiggle-subsequence/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>A sequence of numbers is called a <strong>wiggle sequence</strong> if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence. </p>\r\n\r\n<p>For example, <code>[1,7,4,9,2,5]</code> is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, <code>[1,4,7,2,5]</code> and <code>[1,7,4,5,5]</code> are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.</p>\r\n\r\n<p>Given a sequence of integers, return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.</p>\r\n\r\n<p><b>Examples:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,7,4,9,2,5]\r\n<b>Output:</b> 6\r\nThe entire sequence is a wiggle sequence.\r\n\r\n<b>Input:</b> [1,17,5,10,13,15,10,5,16,8]\r\n<b>Output:</b> 7\r\nThere are several subsequences that achieve this length. One is [1,17,10,13,10,16,8].\r\n\r\n<b>Input:</b> [1,2,3,4,5,6,7,8,9]\r\n<b>Output:</b> 2\r\n</pre>\r\n</p>\r\n\r\n<p><b>Follow up:</b><br />\r\nCan you do it in O(<i>n</i>) time?\r\n</p>\r\n\r\n<p><b>Credits:</b><br />Special thanks to <a href=\"https://leetcode.com/agave/\">@agave</a> and <a href=\"https://leetcode.com/stefanpochmann/\">@StefanPochmann</a> for adding this problem and creating all test cases.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "wiggle-subsequence", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Wiggle Subsequence", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

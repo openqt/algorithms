@@ -25,6 +25,8 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 </pre>
 
+Similar Questions:
+  Stickers to Spell Word (stickers-to-spell-word)
 */
 func canConstruct(ransomNote string, magazine string) bool {
     

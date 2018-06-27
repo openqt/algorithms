@@ -65,6 +65,8 @@ There is no plus sign, so return 0.
 <li><code>mines[i]</code> will be length 2 and consist of integers in the range <code>[0, N-1]</code>.</li>
 <li><i>(Additionally, programs submitted in C, C++, or C# will be judged with a slightly smaller time limit.)</i></li>
 </ol></p>
+Similar Questions:
+  Maximal Square (maximal-square)
 """
 
 

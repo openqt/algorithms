@@ -31,6 +31,11 @@ https://leetcode.com/problems/multiply-strings/description/
 	<li>You <strong>must not use any built-in BigInteger library</strong> or <strong>convert the inputs to integer</strong> directly.</li>
 </ol>
 
+Similar Questions:
+  Add Two Numbers (add-two-numbers)
+  Plus One (plus-one)
+  Add Binary (add-binary)
+  Add Strings (add-strings)
 */
 func multiply(num1 string, num2 string) string {
     

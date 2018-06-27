@@ -27,6 +27,8 @@ Explanation:
 One longest palindrome that can be built is "dccaccd", whose length is 7.
 </pre>
 </p>
+Similar Questions:
+  Palindrome Permutation (palindrome-permutation)
 */
 func longestPalindrome(s string) int {
     

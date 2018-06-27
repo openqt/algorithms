@@ -20,6 +20,10 @@ https://leetcode.com/problems/add-binary/description/
 <strong>Input:</strong> a = &quot;1010&quot;, b = &quot;1011&quot;
 <strong>Output:</strong> &quot;10101&quot;</pre>
 
+Similar Questions:
+  Add Two Numbers (add-two-numbers)
+  Multiply Strings (multiply-strings)
+  Plus One (plus-one)
 """
 
 

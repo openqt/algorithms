@@ -52,6 +52,8 @@ If there is exactly one solution for the equation, we ensure that the value of <
 <b>Output:</b> "No solution"
 </pre>
 </p>
+Similar Questions:
+  Fraction Addition and Subtraction (fraction-addition-and-subtraction)
 """
 
 

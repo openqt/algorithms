@@ -38,6 +38,9 @@ https://leetcode.com/problems/powx-n/description/
 	<li><em>n</em> is a 32-bit signed integer, within the range&nbsp;[&minus;2<sup>31</sup>,&nbsp;2<sup>31&nbsp;</sup>&minus; 1]</li>
 </ul>
 
+Similar Questions:
+  Sqrt(x) (sqrtx)
+  Super Pow (super-pow)
 */
 func myPow(x float64, n int) float64 {
     

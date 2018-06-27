@@ -35,6 +35,9 @@ https://leetcode.com/problems/construct-string-from-binary-tree/description/
 <br/><b>Explanation:</b> Almost the same as the first example, <br/>except we can't omit the first parenthesis pair to break the one-to-one mapping relationship between the input and the output.
 </pre>
 </p>
+Similar Questions:
+  Construct Binary Tree from String (construct-binary-tree-from-string)
+  Find Duplicate Subtrees (find-duplicate-subtrees)
 """
 
 

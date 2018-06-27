@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[3,9,20,null,null,15,7]", 
     "questionFrontendId": "103", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"zigzagLevelOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/binary-tree-zigzag-level-order-traversal/", 
     "stats": "{\"totalAccepted\": \"144.9K\", \"totalSubmission\": \"387K\", \"acRate\": \"37.5%\"}", 
     "interpretUrl": "/problems/binary-tree-zigzag-level-order-traversal/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Tree", 
-        "slug": "tree"
+        "slug": "tree", 
+        "name": "Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Given a binary tree, return the <i>zigzag level order</i> traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).</p>\r\n\r\n<p>\r\nFor example:<br />\r\nGiven binary tree <code>[3,9,20,null,null,15,7]</code>,<br />\r\n<pre>\r\n    3\r\n   / \\\r\n  9  20\r\n    /  \\\r\n   15   7\r\n</pre>\r\n</p>\r\n<p>\r\nreturn its zigzag level order traversal as:<br />\r\n<pre>\r\n[\r\n  [3],\r\n  [20,9],\r\n  [15,7]\r\n]\r\n</pre>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "binary-tree-zigzag-level-order-traversal", 
     "similarQuestions": "[{\"title\": \"Binary Tree Level Order Traversal\", \"titleSlug\": \"binary-tree-level-order-traversal\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Binary Tree Zigzag Level Order Traversal", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

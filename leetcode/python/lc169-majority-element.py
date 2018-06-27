@@ -21,6 +21,8 @@ https://leetcode.com/problems/majority-element/description/
 <strong>Output:</strong> 2
 </pre>
 
+Similar Questions:
+  Majority Element II (majority-element-ii)
 """
 
 

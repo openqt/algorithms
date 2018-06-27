@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"UD\"", 
     "questionFrontendId": "657", 
     "contributors": "[{\"username\": \"maxsteel\", \"profileUrl\": \"/maxsteel/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"judgeCircle\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"moves\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/judge-route-circle/", 
     "stats": "{\"totalAccepted\": \"86.2K\", \"totalSubmission\": \"125.5K\", \"acRate\": \"68.7%\"}", 
     "interpretUrl": "/problems/judge-route-circle/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }
     ], 
     "content": "<p>\r\nInitially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to <b>the original place</b>. \r\n</p>\r\n\r\n<p>\r\nThe move sequence is represented by a string. And each move is represent by a character. The valid robot moves are <code>R</code> (Right), <code>L</code> (Left), <code>U</code> (Up) and <code>D</code> (down). The output should be true or false representing whether the robot makes a circle.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"UD\"\r\n<b>Output:</b> true\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"LL\"\r\n<b>Output:</b> false\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "judge-route-circle", 
     "similarQuestions": "[{\"title\": \"Friend Circles\", \"titleSlug\": \"friend-circles\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Judge Route Circle", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

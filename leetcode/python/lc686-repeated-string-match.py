@@ -16,6 +16,8 @@ Return 3, because by repeating A three times (“abcdabcdabcd”), B is a substr
 <p><b>Note:</b><br />
 The length of <code>A</code> and <code>B</code> will be between 1 and 10000.
 </p>
+Similar Questions:
+  Repeated Substring Pattern (repeated-substring-pattern)
 """
 
 

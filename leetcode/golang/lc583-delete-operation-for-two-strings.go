@@ -25,6 +25,9 @@ Given two words <i>word1</i> and <i>word2</i>, find the minimum number of steps 
 <li>Characters in given words can only be lower-case letters.</li>
 </ol>
 </p>
+Similar Questions:
+  Edit Distance (edit-distance)
+  Minimum ASCII Delete Sum for Two Strings (minimum-ascii-delete-sum-for-two-strings)
 */
 func minDistance(word1 string, word2 string) int {
     

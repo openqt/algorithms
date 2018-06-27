@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"sea\"\n\"eat\"", 
     "questionFrontendId": "712", 
     "contributors": "[{\"username\": \"m_deepakraja\", \"profileUrl\": \"/m_deepakraja/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"minimumDeleteSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s1\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"s2\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/minimum-ascii-delete-sum-for-two-strings/", 
     "stats": "{\"totalAccepted\": \"9.4K\", \"totalSubmission\": \"18.3K\", \"acRate\": \"51.4%\"}", 
     "interpretUrl": "/problems/minimum-ascii-delete-sum-for-two-strings/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given two strings <code>s1, s2</code>, find the lowest ASCII sum of deleted characters to make two strings equal.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> s1 = \"sea\", s2 = \"eat\"\r\n<b>Output:</b> 231\r\n<b>Explanation:</b> Deleting \"s\" from \"sea\" adds the ASCII value of \"s\" (115) to the sum.\r\nDeleting \"t\" from \"eat\" adds 116 to the sum.\r\nAt the end, both strings are equal, and 115 + 116 = 231 is the minimum sum possible to achieve this.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> s1 = \"delete\", s2 = \"leet\"\r\n<b>Output:</b> 403\r\n<b>Explanation:</b> Deleting \"dee\" from \"delete\" to turn the string into \"let\",\r\nadds 100[d]+101[e]+101[e] to the sum.  Deleting \"e\" from \"leet\" adds 101[e] to the sum.\r\nAt the end, both strings are equal to \"let\", and the answer is 100+101+101+101 = 403.\r\nIf instead we turned both strings into \"lee\" or \"eet\", we would get answers of 433 or 417, which are higher.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>0 < s1.length, s2.length <= 1000</code>.</li>\r\n<li>All elements of each string will have an ASCII value in <code>[97, 122]</code>.</li> \r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "minimum-ascii-delete-sum-for-two-strings", 
     "similarQuestions": "[{\"title\": \"Edit Distance\", \"titleSlug\": \"edit-distance\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"Longest Increasing Subsequence\", \"titleSlug\": \"longest-increasing-subsequence\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Delete Operation for Two Strings\", \"titleSlug\": \"delete-operation-for-two-strings\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Minimum ASCII Delete Sum for Two Strings", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

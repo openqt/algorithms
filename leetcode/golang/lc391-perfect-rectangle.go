@@ -79,6 +79,8 @@ Return false. Because two of the rectangles overlap with each other.
 </p>
 
 <div style="clear:both"></div>
+Similar Questions:
+
 */
 func isRectangleCover(rectangles [][]int) bool {
     

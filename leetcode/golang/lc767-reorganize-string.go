@@ -32,6 +32,9 @@ https://leetcode.com/problems/reorganize-string/description/
 </ul>
 
 <p>&nbsp;</p>
+Similar Questions:
+  Rearrange String k Distance Apart (rearrange-string-k-distance-apart)
+  Task Scheduler (task-scheduler)
 */
 func reorganizeString(S string) string {
     

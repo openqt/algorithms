@@ -28,6 +28,10 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 &nbsp;            Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
 </pre>
 
+Similar Questions:
+  Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)
+  Best Time to Buy and Sell Stock II (best-time-to-buy-and-sell-stock-ii)
+  Best Time to Buy and Sell Stock III (best-time-to-buy-and-sell-stock-iii)
 """
 
 

@@ -32,6 +32,8 @@ queue.empty(); // returns false</pre>
 	<li>You may assume that all operations are valid (for example, no pop or peek operations will be called on an empty queue).</li>
 </ul>
 
+Similar Questions:
+  Implement Stack using Queues (implement-stack-using-queues)
 """
 
 

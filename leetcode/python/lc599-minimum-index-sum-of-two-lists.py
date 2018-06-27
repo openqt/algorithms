@@ -41,6 +41,8 @@ You need to help them find out their <b>common interest</b> with the <b>least li
 <li>No duplicates in both lists.</li>
 </ol>
 </p>
+Similar Questions:
+  Intersection of Two Linked Lists (intersection-of-two-linked-lists)
 """
 
 

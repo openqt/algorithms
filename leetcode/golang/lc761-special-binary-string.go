@@ -32,6 +32,8 @@ This is the lexicographically largest string possible after some number of swaps
 <li><code>S</code> has length at most <code>50</code>.</li>
 <li><code>S</code> is guaranteed to be a <i>special</i> binary string as defined above.</li>
 </ol></p>
+Similar Questions:
+  Valid Parenthesis String (valid-parenthesis-string)
 */
 func makeLargestSpecial(S string) string {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[0]", 
     "questionFrontendId": "775", 
     "contributors": "[{\"username\": \"lokendrajain1994\", \"profileUrl\": \"/lokendrajain1994/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"isIdealPermutation\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"A\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/global-and-local-inversions/", 
     "stats": "{\"totalAccepted\": \"6.5K\", \"totalSubmission\": \"19.1K\", \"acRate\": \"33.8%\"}", 
     "interpretUrl": "/problems/global-and-local-inversions/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>We have some permutation <code>A</code> of <code>[0, 1, ..., N - 1]</code>, where <code>N</code> is the length of <code>A</code>.</p>\r\n\r\n<p>The number of (global) inversions is the number of <code>i &lt; j</code> with <code>0 &lt;= i &lt; j &lt; N</code> and <code>A[i] &gt; A[j]</code>.</p>\r\n\r\n<p>The number of local inversions is the number of <code>i</code> with <code>0 &lt;= i &lt; N</code> and <code>A[i] &gt; A[i+1]</code>.</p>\r\n\r\n<p>Return <code>true</code>&nbsp;if and only if the number of global inversions is equal to the number of local inversions.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> A = [1,0,2]\r\n<strong>Output:</strong> true\r\n<strong>Explanation:</strong> There is 1 global inversion, and 1 local inversion.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> A = [1,2,0]\r\n<strong>Output:</strong> false\r\n<strong>Explanation:</strong> There are 2 global inversions, and 1 local inversion.\r\n</pre>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>A</code> will be a permutation of <code>[0, 1, ..., A.length - 1]</code>.</li>\r\n\t<li><code>A</code> will have length in range <code>[1, 5000]</code>.</li>\r\n\t<li>The time limit for this problem has been reduced.</li>\r\n</ul>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "global-and-local-inversions", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Global and Local Inversions", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

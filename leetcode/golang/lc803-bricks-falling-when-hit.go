@@ -42,6 +42,8 @@ When we erase the brick at (1, 0), the brick at (1, 1) has already disappeared d
 	<li>An erasure may refer to a location with no brick - if it does, no bricks drop.</li>
 </ul>
 
+Similar Questions:
+
 */
 func hitBricks(grid [][]int, hits [][]int) []int {
     

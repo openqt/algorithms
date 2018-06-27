@@ -15,6 +15,8 @@ https://leetcode.com/problems/strong-password-checker/description/
 <p>Write a function strongPasswordChecker(s), that takes a string s as input, and return the <b>MINIMUM</b> change required to make s a strong password. If s is already strong, return 0.</p>
 
 <p>Insertion, deletion or replace of any one character are all considered as one change.</p>
+Similar Questions:
+
 """
 
 

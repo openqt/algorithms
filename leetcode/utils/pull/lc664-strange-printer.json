@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"aaabbb\"", 
     "questionFrontendId": "664", 
     "contributors": "[{\"username\": \"sectionzy\", \"profileUrl\": \"/sectionzy/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"strangePrinter\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/strange-printer/", 
     "stats": "{\"totalAccepted\": \"5.6K\", \"totalSubmission\": \"16.1K\", \"acRate\": \"34.6%\"}", 
     "interpretUrl": "/problems/strange-printer/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }
     ], 
     "content": "<p>\r\nThere is a strange printer with the following two special requirements:\r\n\r\n<ol>\r\n<li>The printer can only print a sequence of the same character each time.</li>\r\n<li>At each turn, the printer can print new characters starting from and ending at any places, and will cover the original existing characters.</li>\r\n</ol>\r\n\r\n</p>\r\n\r\n<p>\r\nGiven a string consists of lower English letters only, your job is to count the minimum number of turns the printer needed in order to print it.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"aaabbb\"\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> Print \"aaa\" first and then print \"bbb\".\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"aba\"\r\n<b>Output:</b> 2\r\n<b>Explanation:</b> Print \"aaa\" first and then print \"b\" from the second place of the string, which will cover the existing character 'a'.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Hint</b>: Length of the given string will not exceed 100.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "strange-printer", 
     "similarQuestions": "[{\"title\": \"Remove Boxes\", \"titleSlug\": \"remove-boxes\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Strange Printer", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

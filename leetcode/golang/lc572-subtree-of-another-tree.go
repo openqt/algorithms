@@ -50,6 +50,9 @@ Given tree t:
 </pre>
 Return <b>false</b>.
 </p>
+Similar Questions:
+  Count Univalue Subtrees (count-univalue-subtrees)
+  Most Frequent Subtree Sum (most-frequent-subtree-sum)
 */
 /**
  * Definition for a binary tree node.

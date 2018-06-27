@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "3\n3\n[[2,2],[3,3]]", 
     "questionFrontendId": "598", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxCount\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"m\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"ops\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/range-addition-ii/", 
     "stats": "{\"totalAccepted\": \"22K\", \"totalSubmission\": \"45.7K\", \"acRate\": \"48.1%\"}", 
     "interpretUrl": "/problems/range-addition-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given an m * n matrix <b>M</b> initialized with all <b>0</b>'s and several update operations.</p>\r\n<p>Operations are represented by a 2D array, and each operation is represented by an array with two <b>positive</b> integers <b>a</b> and <b>b</b>, which means <b>M[i][j]</b> should be <b>added by one</b> for all <b>0 <= i < a</b> and <b>0 <= j < b</b>. </p>\r\n<p>You need to count and return the number of maximum integers in the matrix after performing all the operations.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \r\nm = 3, n = 3\r\noperations = [[2,2],[3,3]]\r\n<b>Output:</b> 4\r\n<b>Explanation:</b> \r\nInitially, M = \r\n[[0, 0, 0],\r\n [0, 0, 0],\r\n [0, 0, 0]]\r\n\r\nAfter performing [2,2], M = \r\n[[1, 1, 0],\r\n [1, 1, 0],\r\n [0, 0, 0]]\r\n\r\nAfter performing [3,3], M = \r\n[[2, 2, 1],\r\n [2, 2, 1],\r\n [1, 1, 1]]\r\n\r\nSo the maximum integer in M is 2, and there are four of it in M. So return 4.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The range of m and n is [1,40000].</li>\r\n<li>The range of a is [1,m], and the range of b is [1,n].</li>\r\n<li>The range of operations size won't exceed 10,000.</li>\r\n</ol>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "range-addition-ii", 
     "similarQuestions": "[{\"title\": \"Range Addition\", \"titleSlug\": \"range-addition\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Range Addition II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -16,6 +16,9 @@ https://leetcode.com/problems/remove-linked-list-elements/description/
 <b>Output:</b> 1-&gt;2-&gt;3-&gt;4-&gt;5
 </pre>
 
+Similar Questions:
+  Remove Element (remove-element)
+  Delete Node in a Linked List (delete-node-in-a-linked-list)
 */
 /**
  * Definition for singly-linked list.

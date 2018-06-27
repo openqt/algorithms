@@ -25,6 +25,11 @@ A solution set is:
 ]
 </pre>
 
+Similar Questions:
+  Two Sum (two-sum)
+  3Sum Closest (3sum-closest)
+  4Sum (4sum)
+  3Sum Smaller (3sum-smaller)
 */
 func threeSum(nums []int) [][]int {
     

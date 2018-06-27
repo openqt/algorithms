@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]\n[2]", 
     "questionFrontendId": "475", 
     "contributors": "[{\"username\": \"neelamgehlot\", \"profileUrl\": \"/neelamgehlot/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findRadius\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"houses\",\r\n      \"type\": \"integer[]\"\r\n  \r\n    }, \r\n    {\r\n            \"name\": \"heaters\",\r\n            \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/heaters/", 
     "stats": "{\"totalAccepted\": \"31.1K\", \"totalSubmission\": \"104.2K\", \"acRate\": \"29.8%\"}", 
     "interpretUrl": "/problems/heaters/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search", 
-        "slug": "binary-search"
+        "slug": "binary-search", 
+        "name": "Binary Search"
       }
     ], 
     "content": "<p>Winter is coming! Your first job during the contest is to design a standard heater with fixed warm radius to warm all the houses.</p>\r\n\r\n<p>Now, you are given positions of houses and heaters on a horizontal line, find out minimum radius of heaters so that all houses could be covered by those heaters.</p>\r\n\r\n<p>So, your input will be the positions of houses and heaters seperately, and your expected output will be the minimum radius standard of heaters.</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>Numbers of houses and heaters you are given are non-negative and will not exceed 25000.</li>\r\n<li>Positions of houses and heaters you are given are non-negative and will not exceed 10^9.</li>\r\n<li>As long as a house is in the heaters' warm radius range, it can be warmed.</li>\r\n<li>All the heaters follow your radius standard and the warm radius will the same.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,3],[2]\r\n<b>Output:</b> 1\r\n<b>Explanation:</b> The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,3,4],[1,4]\r\n<b>Output:</b> 1\r\n<b>Explanation:</b> The two heater was placed in the position 1 and 4. We need to use radius 1 standard, then all the houses can be warmed.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "heaters", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Heaters", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

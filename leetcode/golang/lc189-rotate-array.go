@@ -37,6 +37,9 @@ rotate 2 steps to the right: [3,99,-1,-100]
 	<li>Could you do it in-place with O(1) extra space?</li>
 </ul>
 
+Similar Questions:
+  Rotate List (rotate-list)
+  Reverse Words in a String II (reverse-words-in-a-string-ii)
 */
 func rotate(nums []int, k int)  {
     

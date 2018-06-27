@@ -26,6 +26,9 @@ https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 <strong>Output:</strong> 0
 </pre>
 
+Similar Questions:
+  Search in Rotated Sorted Array (search-in-rotated-sorted-array)
+  Find Minimum in Rotated Sorted Array II (find-minimum-in-rotated-sorted-array-ii)
 """
 
 

@@ -24,6 +24,12 @@ https://leetcode.com/problems/longest-palindromic-substring/description/
 <strong>Output:</strong> &quot;bb&quot;
 </pre>
 
+Similar Questions:
+  Shortest Palindrome (shortest-palindrome)
+  Palindrome Permutation (palindrome-permutation)
+  Palindrome Pairs (palindrome-pairs)
+  Longest Palindromic Subsequence (longest-palindromic-subsequence)
+  Palindromic Substrings (palindromic-substrings)
 */
 func longestPalindrome(s string) string {
     

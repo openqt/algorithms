@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"324\"", 
     "questionFrontendId": "385", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"deserialize\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"NestedInteger\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/mini-parser/", 
     "stats": "{\"totalAccepted\": \"23K\", \"totalSubmission\": \"74.6K\", \"acRate\": \"30.9%\"}", 
     "interpretUrl": "/problems/mini-parser/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "String", 
-        "slug": "string"
+        "slug": "string", 
+        "name": "String"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Stack", 
-        "slug": "stack"
+        "slug": "stack", 
+        "name": "Stack"
       }
     ], 
     "content": "<p>Given a nested list of integers represented as a string, implement a parser to deserialize it.</p>\r\n\r\n<p>Each element is either an integer, or a list -- whose elements may also be integers or other lists.</p>\r\n\r\n<p><b>Note:</b>\r\nYou may assume that the string is well-formed:\r\n<ul>\r\n<li>String is non-empty.</li>\r\n<li>String does not contain white spaces.</li>\r\n<li>String contains only digits <code>0-9</code>, <code>[</code>, <code>-</code> <code>,</code>, <code>]</code>.</li>\r\n</ul>\r\n</p>\r\n\r\n<p><b>Example 1:</b>\r\n<pre>\r\nGiven s = \"324\",\r\n\r\nYou should return a NestedInteger object which contains a single integer 324.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b>\r\n<pre>\r\nGiven s = \"[123,[456,[789]]]\",\r\n\r\nReturn a NestedInteger object containing a nested list with 2 elements:\r\n\r\n1. An integer containing value 123.\r\n2. A nested list containing two elements:\r\n    i.  An integer containing value 456.\r\n    ii. A nested list with one element:\r\n         a. An integer containing value 789.\r\n</pre>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "mini-parser", 
     "similarQuestions": "[{\"title\": \"Flatten Nested List Iterator\", \"titleSlug\": \"flatten-nested-list-iterator\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Ternary Expression Parser\", \"titleSlug\": \"ternary-expression-parser\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Remove Comments\", \"titleSlug\": \"remove-comments\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Mini Parser", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

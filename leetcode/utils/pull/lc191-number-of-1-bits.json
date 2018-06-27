@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "           0 (00000000000000000000000000000000)", 
     "questionFrontendId": "191", 
     "contributors": "[{\"username\": \"ts\", \"profileUrl\": \"/ts/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{}", 
-    "enableRunCode": false, 
     "questionDetailUrl": "/problems/number-of-1-bits/", 
     "stats": "{\"totalAccepted\": \"201.8K\", \"totalSubmission\": \"496.3K\", \"acRate\": \"40.7%\"}", 
     "interpretUrl": "/problems/number-of-1-bits/interpret_solution/", 
@@ -17,9 +17,9 @@
     "topicTags": [
       {
         "translatedName": null, 
+        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
-        "name": "Bit Manipulation", 
-        "__typename": "TopicTagNode"
+        "name": "Bit Manipulation"
       }
     ], 
     "content": "<p>Write a function that takes an unsigned integer and returns the number of &#39;1&#39;&nbsp;bits it has (also known as the <a href=\"http://en.wikipedia.org/wiki/Hamming_weight\">Hamming weight</a>).</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 11\r\n<strong>Output:</strong> 3\r\n<strong>Explanation: </strong>Integer 11 has binary representation <code><strong>00000000000000000000000000001011 </strong></code>\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> 128\r\n<strong>Output:</strong> 1\r\n<strong>Explanation: </strong>Integer 128 has binary representation <strong>00000000000000000000000010000000</strong>\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "number-of-1-bits", 
     "similarQuestions": "[{\"title\": \"Reverse Bits\", \"titleSlug\": \"reverse-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Power of Two\", \"titleSlug\": \"power-of-two\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Counting Bits\", \"titleSlug\": \"counting-bits\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Binary Watch\", \"titleSlug\": \"binary-watch\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Hamming Distance\", \"titleSlug\": \"hamming-distance\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Binary Number with Alternating Bits\", \"titleSlug\": \"binary-number-with-alternating-bits\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Prime Number of Set Bits in Binary Representation\", \"titleSlug\": \"prime-number-of-set-bits-in-binary-representation\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": false, 
     "questionTitle": "Number of 1 Bits", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

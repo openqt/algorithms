@@ -43,6 +43,10 @@ The Next Greater Number of a number <b>x</b> in <code>nums1</code> is the first 
 <li>The length of both <code>nums1</code> and <code>nums2</code> would not exceed 1000.</li>
 </ol>
 </p>
+Similar Questions:
+  Next Greater Element II (next-greater-element-ii)
+  Next Greater Element III (next-greater-element-iii)
+  Daily Temperatures (daily-temperatures)
 */
 func nextGreaterElement(findNums []int, nums []int) []int {
     

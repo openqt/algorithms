@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[0,1,2,4,5,7]", 
     "questionFrontendId": "228", 
     "contributors": "[{\"username\": \"jianchao.li.fighter\", \"profileUrl\": \"/jianchaolifighter/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"summaryRanges\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/summary-ranges/", 
     "stats": "{\"totalAccepted\": \"103.2K\", \"totalSubmission\": \"315K\", \"acRate\": \"32.8%\"}", 
     "interpretUrl": "/problems/summary-ranges/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }
     ], 
     "content": "<p>Given a sorted integer array without duplicates, return the summary of its ranges.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b>  [0,1,2,4,5,7]\r\n<b>Output:</b> [&quot;0-&gt;2&quot;,&quot;4-&gt;5&quot;,&quot;7&quot;]\r\n<strong>Explanation: </strong>0,1,2 form a continuous range;&nbsp;4,5 form a continuous range.\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b>  [0,2,3,4,6,8,9]\r\n<b>Output:</b> [&quot;0&quot;,&quot;2-&gt;4&quot;,&quot;6&quot;,&quot;8-&gt;9&quot;]\r\n<strong>Explanation: </strong>2,3,4 form a continuous range;&nbsp;8,9 form a continuous range.\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "summary-ranges", 
     "similarQuestions": "[{\"title\": \"Missing Ranges\", \"titleSlug\": \"missing-ranges\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Data Stream as Disjoint Intervals\", \"titleSlug\": \"data-stream-as-disjoint-intervals\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Summary Ranges", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

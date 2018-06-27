@@ -29,6 +29,10 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 1 <= n <= 10<sup>9</sup>
 </p>
 
+Similar Questions:
+  House Robber (house-robber)
+  House Robber II (house-robber-ii)
+  Ones and Zeroes (ones-and-zeroes)
 */
 func findIntegers(num int) int {
     

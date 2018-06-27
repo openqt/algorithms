@@ -22,6 +22,9 @@ https://leetcode.com/problems/summary-ranges/description/
 <strong>Explanation: </strong>2,3,4 form a continuous range;&nbsp;8,9 form a continuous range.
 </pre>
 
+Similar Questions:
+  Missing Ranges (missing-ranges)
+  Data Stream as Disjoint Intervals (data-stream-as-disjoint-intervals)
 """
 
 

@@ -26,6 +26,8 @@ The repeated subarray with maximum length is [3, 2, 1].
 <li>0 <= A[i], B[i] < 100</li>
 </ol>
 </p>
+Similar Questions:
+  Minimum Size Subarray Sum (minimum-size-subarray-sum)
 */
 func findLength(A []int, B []int) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"()())()\"", 
     "questionFrontendId": "301", 
     "contributors": "[{\"username\": \"hpplayer\", \"profileUrl\": \"/hpplayer/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n    \"name\":\"removeInvalidParentheses\",\r\n    \"params\":[\r\n        {\r\n            \"name\":\"s\",\r\n            \"type\":\"string\"\r\n        }\r\n    ],\r\n    \"return\":{\r\n        \"type\":\"list<string>\"\r\n    }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/remove-invalid-parentheses/", 
     "stats": "{\"totalAccepted\": \"73K\", \"totalSubmission\": \"202.8K\", \"acRate\": \"36.0%\"}", 
     "interpretUrl": "/problems/remove-invalid-parentheses/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Depth-first Search", 
-        "slug": "depth-first-search"
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Breadth-first Search", 
-        "slug": "breadth-first-search"
+        "slug": "breadth-first-search", 
+        "name": "Breadth-first Search"
       }
     ], 
     "content": "<p>Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.</p>\r\n\r\n<p><strong>Note:</strong>&nbsp;The input string may contain letters other than the parentheses <code>(</code> and <code>)</code>.</p>\r\n\r\n<p><b>Example 1:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> &quot;()())()&quot;\r\n<b>Output:</b> [&quot;()()()&quot;, &quot;(())()&quot;]\r\n</pre>\r\n\r\n<p><b>Example 2:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> &quot;(a)())()&quot;\r\n<b>Output:</b> [&quot;(a)()()&quot;, &quot;(a())()&quot;]\r\n</pre>\r\n\r\n<p><b>Example 3:</b></p>\r\n\r\n<pre>\r\n<b>Input:</b> &quot;)(&quot;\r\n<b>Output: </b>[&quot;&quot;]\r\n</pre>\r\n", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "remove-invalid-parentheses", 
     "similarQuestions": "[{\"title\": \"Valid Parentheses\", \"titleSlug\": \"valid-parentheses\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Remove Invalid Parentheses", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

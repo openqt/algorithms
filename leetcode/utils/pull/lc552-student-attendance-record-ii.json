@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "1", 
     "questionFrontendId": "552", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"checkRecord\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/student-attendance-record-ii/", 
     "stats": "{\"totalAccepted\": \"8.3K\", \"totalSubmission\": \"26.1K\", \"acRate\": \"31.7%\"}", 
     "interpretUrl": "/problems/student-attendance-record-ii/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Given a positive integer <b>n</b>, return the number of all possible attendance records with length n, which will be regarded as rewardable. The answer may be very large, return it after mod 10<sup>9</sup> + 7.</p>\r\n\r\n<p>A student attendance record is a string that only contains the following three characters:</p>\r\n\r\n<p>\r\n<ol>\r\n<li><b>'A'</b> : Absent. </li>\r\n<li><b>'L'</b> : Late.</li>\r\n<li> <b>'P'</b> : Present. </li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nA record is regarded as rewardable if it doesn't contain <b>more than one 'A' (absent)</b> or <b>more than two continuous 'L' (late)</b>.</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> n = 2\r\n<b>Output:</b> 8 \r\n<b>Explanation:</b>\r\nThere are 8 records with length 2 will be regarded as rewardable:\r\n\"PP\" , \"AP\", \"PA\", \"LP\", \"PL\", \"AL\", \"LA\", \"LL\"\r\nOnly \"AA\" won't be regarded as rewardable owing to more than one absent times. \r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\nThe value of <b>n</b> won't exceed 100,000.\r\n</p>\r\n\r\n\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "student-attendance-record-ii", 
     "similarQuestions": "[{\"title\": \"Student Attendance Record I\", \"titleSlug\": \"student-attendance-record-i\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Student Attendance Record II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

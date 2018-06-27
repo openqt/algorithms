@@ -47,6 +47,9 @@ Note that "cacaca" is incorrect, as the same characters must be together.
 Note that 'A' and 'a' are treated as two different characters.
 </pre>
 </p>
+Similar Questions:
+  Top K Frequent Elements (top-k-frequent-elements)
+  First Unique Character in a String (first-unique-character-in-a-string)
 """
 
 

@@ -22,6 +22,8 @@ https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description
 <b>Explanation:</b> The maximum result is <b>5</b> ^ <b>25</b> = 28.
 </pre>
 </p>
+Similar Questions:
+
 */
 func findMaximumXOR(nums []int) int {
     

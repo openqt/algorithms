@@ -58,6 +58,9 @@ evalvars = [], evalints = []
 	<li><code>evalvars, evalints</code> will have equal lengths in range <code>[0, 100]</code>.</li>
 </ol>
 
+Similar Questions:
+  Parse Lisp Expression (parse-lisp-expression)
+  Basic Calculator III (basic-calculator-iii)
 */
 func basicCalculatorIV(expression string, evalvars []string, evalints []int) []string {
     

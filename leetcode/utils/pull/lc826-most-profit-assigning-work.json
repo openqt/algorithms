@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[2,4,6,8,10]\n[10,20,30,40,50]\n[4,5,6,7]", 
     "questionFrontendId": "826", 
     "contributors": "[{\"username\": \"awice\", \"profileUrl\": \"/awice/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxProfitAssignment\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"difficulty\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"profit\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"worker\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/most-profit-assigning-work/", 
     "stats": "{\"totalAccepted\": \"3.7K\", \"totalSubmission\": \"11.6K\", \"acRate\": \"31.9%\"}", 
     "interpretUrl": "/problems/most-profit-assigning-work/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Two Pointers", 
-        "slug": "two-pointers"
+        "slug": "two-pointers", 
+        "name": "Two Pointers"
       }
     ], 
     "content": "<p>We have jobs: <code>difficulty[i]</code>&nbsp;is the difficulty of the&nbsp;<code>i</code>th job, and&nbsp;<code>profit[i]</code>&nbsp;is the profit of the&nbsp;<code>i</code>th job.&nbsp;</p>\r\n\r\n<p>Now we have some workers.&nbsp;<code>worker[i]</code>&nbsp;is the ability of the&nbsp;<code>i</code>th worker, which means that this worker can only complete a job with difficulty at most&nbsp;<code>worker[i]</code>.&nbsp;</p>\r\n\r\n<p>Every worker can be assigned at most one job, but one job&nbsp;can be completed multiple times.</p>\r\n\r\n<p>For example, if 3 people attempt the same job that pays $1, then the total profit will be $3.&nbsp; If a worker cannot complete any job, his profit is $0.</p>\r\n\r\n<p>What is the most profit we can make?</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>difficulty = [2,4,6,8,10], profit = [10,20,30,40,50], worker = [4,5,6,7]\r\n<strong>Output: </strong>100 \r\n<strong>Explanation: W</strong>orkers are assigned jobs of difficulty [4,4,6,6] and they get profit of [20,20,30,30] seperately.</pre>\r\n\r\n<p><strong>Notes:</strong></p>\r\n\r\n<ul>\r\n\t<li><code>1 &lt;= difficulty.length = profit.length &lt;= 10000</code></li>\r\n\t<li><code>1 &lt;= worker.length &lt;= 10000</code></li>\r\n\t<li><code>difficulty[i], profit[i], worker[i]</code>&nbsp; are in range&nbsp;<code>[1, 10^5]</code></li>\r\n</ul>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "most-profit-assigning-work", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Most Profit Assigning Work", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

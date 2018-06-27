@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,3]\n[1,1]", 
     "questionFrontendId": "455", 
     "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findContentChildren\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"g\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/assign-cookies/", 
     "stats": "{\"totalAccepted\": \"44.3K\", \"totalSubmission\": \"93.5K\", \"acRate\": \"47.4%\"}", 
     "interpretUrl": "/problems/assign-cookies/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Greedy", 
-        "slug": "greedy"
+        "slug": "greedy", 
+        "name": "Greedy"
       }
     ], 
     "content": "<p>\r\nAssume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child i has a greed factor g<sub>i</sub>, which is the minimum size of a cookie that the child will be content with; and each cookie j has a size s<sub>j</sub>. If s<sub>j</sub> >= g<sub>i</sub>, we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximize the number of your content children and output the maximum number.\r\n</p>\r\n\r\n<p><b>Note:</b><br />\r\nYou may assume the greed factor is always positive. <br />\r\nYou cannot assign more than one cookie to one child.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2,3], [1,1]\r\n\r\n<b>Output:</b> 1\r\n\r\n<b>Explanation:</b> You have 3 children and 2 cookies. The greed factors of 3 children are 1, 2, 3. \r\nAnd even though you have 2 cookies, since their size is both 1, you could only make the child whose greed factor is 1 content.\r\nYou need to output 1.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [1,2], [1,2,3]\r\n\r\n<b>Output:</b> 2\r\n\r\n<b>Explanation:</b> You have 2 children and 3 cookies. The greed factors of 2 children are 1, 2. \r\nYou have 3 cookies and their sizes are big enough to gratify all of the children, \r\nYou need to output 2.\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "assign-cookies", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Assign Cookies", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

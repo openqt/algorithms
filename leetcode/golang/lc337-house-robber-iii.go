@@ -38,6 +38,9 @@ Maximum amount of money the thief can rob = <font color="red">4</font> + <font c
 </p>
 
 <p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/dietpepsi">@dietpepsi</a> for adding this problem and creating all test cases.</p>
+Similar Questions:
+  House Robber (house-robber)
+  House Robber II (house-robber-ii)
 */
 /**
  * Definition for a binary tree node.

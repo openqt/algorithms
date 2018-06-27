@@ -41,6 +41,8 @@ v   v
 <li>The size of the input 2D-array will be between 3 and 1000.</li>
 <li>Every integer represented in the 2D-array will be between 1 and N, where N is the size of the input array.</li>
 </p>
+Similar Questions:
+  Redundant Connection (redundant-connection)
 */
 func findRedundantDirectedConnection(edges [][]int) []int {
     

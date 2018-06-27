@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,0,5]", 
     "questionFrontendId": "517", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"findMinMoves\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"machines\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/super-washing-machines/", 
     "stats": "{\"totalAccepted\": \"9.1K\", \"totalSubmission\": \"25.2K\", \"acRate\": \"36.2%\"}", 
     "interpretUrl": "/problems/super-washing-machines/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>You have <b>n</b> super washing machines on a line. Initially, each washing machine has some dresses or is empty. \r\n</p>\r\n\r\n<p>For each <b>move</b>, you could choose <b>any m</b> (1 &le; m &le; n) washing machines, and pass <b>one dress</b> of each washing machine to one of its adjacent washing machines <b> at the same time </b>.  </p>\r\n\r\n<p>Given an integer array representing the number of dresses in each washing machine from left to right on the line, you should find the <b>minimum number of moves</b> to make all the washing machines have the same number of dresses. If it is not possible to do it, return -1.</p>\r\n\r\n<p><b>Example1</b>\r\n<pre>\r\n<b>Input:</b> [1,0,5]\r\n\r\n<b>Output:</b> 3\r\n\r\n<b>Explanation:</b> \r\n1st move:    1     0 <-- 5    =>    1     1     4\r\n2nd move:    1 <-- 1 <-- 4    =>    2     1     3    \r\n3rd move:    2     1 <-- 3    =>    2     2     2   \r\n</pre>\r\n\r\n<p><b>Example2</b>\r\n<pre>\r\n<b>Input:</b> [0,3,0]\r\n\r\n<b>Output:</b> 2\r\n\r\n<b>Explanation:</b> \r\n1st move:    0 <-- 3     0    =>    1     2     0    \r\n2nd move:    1     2 --> 0    =>    1     1     1     \r\n</pre>\r\n\r\n<p><b>Example3</b>\r\n<pre>\r\n<b>Input:</b> [0,2,0]\r\n\r\n<b>Output:</b> -1\r\n\r\n<b>Explanation:</b> \r\nIt's impossible to make all the three washing machines have the same number of dresses. \r\n</pre>\r\n\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The range of n is [1, 10000].</li>\r\n<li>The range of dresses number in a super washing machine is [0, 1e5].</li>\r\n</ol>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "super-washing-machines", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Super Washing Machines", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

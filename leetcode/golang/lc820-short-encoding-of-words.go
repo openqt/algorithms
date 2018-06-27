@@ -31,6 +31,8 @@ https://leetcode.com/problems/short-encoding-of-words/description/
 	<li>Each word&nbsp;has only&nbsp;lowercase letters.</li>
 </ol>
 
+Similar Questions:
+
 */
 func minimumLengthEncoding(words []string) int {
     

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[1,2,2]", 
     "questionFrontendId": "90", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"subsetsWithDup\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/subsets-ii/", 
     "stats": "{\"totalAccepted\": \"152.6K\", \"totalSubmission\": \"392.2K\", \"acRate\": \"38.9%\"}", 
     "interpretUrl": "/problems/subsets-ii/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Array", 
-        "slug": "array"
+        "slug": "array", 
+        "name": "Array"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Backtracking", 
-        "slug": "backtracking"
+        "slug": "backtracking", 
+        "name": "Backtracking"
       }
     ], 
     "content": "<p>Given a collection of integers that might contain duplicates, <strong><em>nums</em></strong>, return all possible subsets (the power set).</p>\r\n\r\n<p><strong>Note:</strong> The solution set must not contain duplicate subsets.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [1,2,2]\r\n<strong>Output:</strong>\r\n[\r\n  [2],\r\n  [1],\r\n  [1,2,2],\r\n  [2,2],\r\n  [1,2],\r\n  []\r\n]\r\n</pre>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "subsets-ii", 
     "similarQuestions": "[{\"title\": \"Subsets\", \"titleSlug\": \"subsets\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Subsets II", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

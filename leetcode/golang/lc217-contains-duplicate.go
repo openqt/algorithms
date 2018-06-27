@@ -29,6 +29,9 @@ https://leetcode.com/problems/contains-duplicate/description/
 <strong>Input: </strong>[1,1,1,3,3,4,3,2,4,2]
 <strong>Output:</strong> true</pre>
 
+Similar Questions:
+  Contains Duplicate II (contains-duplicate-ii)
+  Contains Duplicate III (contains-duplicate-iii)
 */
 func containsDuplicate(nums []int) bool {
     

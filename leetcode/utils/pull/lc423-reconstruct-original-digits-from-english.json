@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "\"owoztneoer\"", 
     "questionFrontendId": "423", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{ \r\n  \"name\": \"originalDigits\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/reconstruct-original-digits-from-english/", 
     "stats": "{\"totalAccepted\": \"15.2K\", \"totalSubmission\": \"34K\", \"acRate\": \"44.8%\"}", 
     "interpretUrl": "/problems/reconstruct-original-digits-from-english/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Math", 
-        "slug": "math"
+        "slug": "math", 
+        "name": "Math"
       }
     ], 
     "content": "<p>Given a <b>non-empty</b> string containing an out-of-order English representation of digits <code>0-9</code>, output the digits in ascending order.</p>\r\n\r\n<p><b>Note:</b><br />\r\n<ol>\r\n<li>Input contains only lowercase English letters.</li>\r\n<li>Input is guaranteed to be valid and can be transformed to its original digits. That means invalid inputs such as \"abc\" or \"zerone\" are not permitted.</li>\r\n<li>Input length is less than 50,000.</li>\r\n</ol>\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\nInput: \"owoztneoer\"\r\n\r\nOutput: \"012\"\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\nInput: \"fviefuro\"\r\n\r\nOutput: \"45\"\r\n</pre>\r\n</p>", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "reconstruct-original-digits-from-english", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Reconstruct Original Digits from English", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "[[1,2],[2,3],[6,1]]", 
     "questionFrontendId": "699", 
     "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"fallingSquares\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"positions\",\r\n      \"type\": \"pair<integer,integer>[]\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\",\r\n    \"dealloc\": true\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/falling-squares/", 
     "stats": "{\"totalAccepted\": \"4.8K\", \"totalSubmission\": \"12.6K\", \"acRate\": \"38.1%\"}", 
     "interpretUrl": "/problems/falling-squares/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Segment Tree", 
-        "slug": "segment-tree"
+        "slug": "segment-tree", 
+        "name": "Segment Tree"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Binary Search Tree", 
-        "slug": "binary-search-tree"
+        "slug": "binary-search-tree", 
+        "name": "Binary Search Tree"
       }
     ], 
     "content": "<p>On an infinite number line (x-axis), we drop given squares in the order they are given.</p>\r\n<p>The <code>i</code>-th square dropped (<code>positions[i] = (left, side_length)</code>) is a square with the left-most point being <code>positions[i][0]</code> and sidelength <code>positions[i][1]</code>.</p>\r\n<p>The square is dropped with the bottom edge parallel to the number line, and from a higher height than all currently landed squares.  We wait for each square to stick before dropping the next.</p>\r\n<p>The squares are infinitely sticky on their bottom edge, and will remain fixed to any positive length surface they touch (either the number line or another square).  Squares dropped adjacent to each other will not stick together prematurely.</p>\r\n\r\n<br>\r\n<p>Return a list <code>ans</code> of heights.  Each height <code>ans[i]</code> represents the current highest height of any square we have dropped, after dropping squares represented by <code>positions[0], positions[1], ..., positions[i]</code>.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> [[1, 2], [2, 3], [6, 1]]\r\n<b>Output:</b> [2, 5, 5]\r\n<b>Explanation:</b>\r\n<p>\r\nAfter the first drop of <code>positions[0] = [1, 2]:\r\n_aa\r\n_aa\r\n-------\r\n</code>The maximum height of any square is 2.\r\n</p><p>\r\nAfter the second drop of <code>positions[1] = [2, 3]:\r\n__aaa\r\n__aaa\r\n__aaa\r\n_aa__\r\n_aa__\r\n--------------\r\n</code>The maximum height of any square is 5.  \r\nThe larger square stays on top of the smaller square despite where its center\r\nof gravity is, because squares are infinitely sticky on their bottom edge.\r\n</p><p>\r\nAfter the third drop of <code>positions[1] = [6, 1]:\r\n__aaa\r\n__aaa\r\n__aaa\r\n_aa\r\n_aa___a\r\n--------------\r\n</code>The maximum height of any square is still 5.\r\n\r\nThus, we return an answer of <code>[2, 5, 5]</code>.\r\n</pre>\r\n</p>\r\n\r\n<br>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> [[100, 100], [200, 100]]\r\n<b>Output:</b> [100, 100]\r\n<b>Explanation:</b> Adjacent squares don't get stuck prematurely - only their bottom edge can stick to surfaces.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b>\r\n<li><code>1 <= positions.length <= 1000</code>.</li>\r\n<li><code>1 <= positions[i][0] <= 10^8</code>.</li>\r\n<li><code>1 <= positions[i][1] <= 10^6</code>.</li>\r\n</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "falling-squares", 
     "similarQuestions": "[{\"title\": \"The Skyline Problem\", \"titleSlug\": \"the-skyline-problem\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Falling Squares", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

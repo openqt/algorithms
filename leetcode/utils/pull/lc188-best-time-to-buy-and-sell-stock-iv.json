@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
+    "sessionId": "0", 
     "sampleTestCase": "2\n[2,4,1]", 
     "questionFrontendId": "188", 
     "contributors": "[{\"username\": \"Freezen\", \"profileUrl\": \"/freezen/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"maxProfit\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"k\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"prices\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
-    "enableRunCode": true, 
     "questionDetailUrl": "/problems/best-time-to-buy-and-sell-stock-iv/", 
     "stats": "{\"totalAccepted\": \"64.2K\", \"totalSubmission\": \"255.6K\", \"acRate\": \"25.1%\"}", 
     "interpretUrl": "/problems/best-time-to-buy-and-sell-stock-iv/interpret_solution/", 
@@ -18,8 +18,8 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "name": "Dynamic Programming", 
-        "slug": "dynamic-programming"
+        "slug": "dynamic-programming", 
+        "name": "Dynamic Programming"
       }
     ], 
     "content": "<p>Say you have an array for which the <i>i</i><sup>th</sup> element is the price of a given stock on day <i>i</i>.</p>\r\n\r\n<p>Design an algorithm to find the maximum profit. You may complete at most <b>k</b> transactions.</p>\r\n\r\n<p><b>Note:</b><br />\r\nYou may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [2,4,1], k = 2\r\n<strong>Output:</strong> 2\r\n<strong>Explanation:</strong> Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.\r\n</pre>\r\n\r\n<p><strong>Example 2:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong> [3,2,6,5,0,3], k = 2\r\n<strong>Output:</strong> 7\r\n<strong>Explanation:</strong> Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.\r\n&nbsp;            Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.\r\n</pre>\r\n", 
@@ -37,7 +37,7 @@
     "questionTitleSlug": "best-time-to-buy-and-sell-stock-iv", 
     "similarQuestions": "[{\"title\": \"Best Time to Buy and Sell Stock\", \"titleSlug\": \"best-time-to-buy-and-sell-stock\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Best Time to Buy and Sell Stock II\", \"titleSlug\": \"best-time-to-buy-and-sell-stock-ii\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Best Time to Buy and Sell Stock III\", \"titleSlug\": \"best-time-to-buy-and-sell-stock-iii\", \"difficulty\": \"Hard\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "sessionId": "0", 
+    "enableRunCode": true, 
     "questionTitle": "Best Time to Buy and Sell Stock IV", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

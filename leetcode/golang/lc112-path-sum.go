@@ -27,6 +27,12 @@ https://leetcode.com/problems/path-sum/description/
 
 <p>return true, as there exist a root-to-leaf path <code>5-&gt;4-&gt;11-&gt;2</code> which sum is 22.</p>
 
+Similar Questions:
+  Path Sum II (path-sum-ii)
+  Binary Tree Maximum Path Sum (binary-tree-maximum-path-sum)
+  Sum Root to Leaf Numbers (sum-root-to-leaf-numbers)
+  Path Sum III (path-sum-iii)
+  Path Sum IV (path-sum-iv)
 */
 /**
  * Definition for a binary tree node.
