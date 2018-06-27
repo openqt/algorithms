@@ -1,0 +1,54 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "sampleTestCase": "6\n[[0,1],[0,2],[2,3],[2,4],[2,5]]", 
+    "questionFrontendId": "834", 
+    "contributors": "[{\"username\": \"lee215\", \"profileUrl\": \"/lee215/\"}]", 
+    "randomQuestionUrl": "/problems/random-one-question/", 
+    "enableSubmit": true, 
+    "metaData": "{\r\n  \"name\": \"sumOfDistancesInTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"N\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"edges\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}\r\n", 
+    "enableRunCode": true, 
+    "questionDetailUrl": "/problems/sum-of-distances-in-tree/", 
+    "stats": "{\"totalAccepted\": \"2K\", \"totalSubmission\": \"6.2K\", \"acRate\": \"31.6%\"}", 
+    "interpretUrl": "/problems/sum-of-distances-in-tree/interpret_solution/", 
+    "urlManager": "{\"account_login\": \"/accounts/login/\", \"maintenance\": \"/maintenance/\", \"profile\": \"/profile/\"}", 
+    "__typename": "QuestionNode", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "__typename": "TopicTagNode", 
+        "name": "Tree", 
+        "slug": "tree"
+      }, 
+      {
+        "translatedName": null, 
+        "__typename": "TopicTagNode", 
+        "name": "Depth-first Search", 
+        "slug": "depth-first-search"
+      }
+    ], 
+    "content": "<p>An undirected, connected&nbsp;tree with <code>N</code> nodes labelled <code>0...N-1</code> and <code>N-1</code> <code>edges</code>&nbsp;are&nbsp;given.</p>\r\n\r\n<p>The <code>i</code>th edge connects nodes&nbsp;<code>edges[i][0] </code>and<code>&nbsp;edges[i][1]</code>&nbsp;together.</p>\r\n\r\n<p>Return a list <code>ans</code>, where <code>ans[i]</code> is the sum of the distances between node <code>i</code> and all other nodes.</p>\r\n\r\n<p><strong>Example 1:</strong></p>\r\n\r\n<pre>\r\n<strong>Input: </strong>N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]\r\n<strong>Output: </strong>[8,12,6,10,10,10]\r\n<strong>Explanation: </strong>\r\nHere is a diagram of the given tree:\r\n  0\r\n / \\\r\n1   2\r\n   /|\\\r\n  3 4 5\r\nWe can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)\r\nequals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.\r\n</pre>\r\n\r\n<p>Note:<font face=\"monospace\">&nbsp;<code>1 &lt;= N &lt;= 10000</code></font></p>", 
+    "enableTestMode": false, 
+    "submitUrl": "/problems/sum-of-distances-in-tree/submit/", 
+    "questionId": "863", 
+    "infoVerified": false, 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 6.3</code> using the gnu99 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p>Compiled with <code>mono 5.12.0</code> providing <a href=\\\"https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7\\\" target=\\\"_blank\\\">full support for C# 7</a>.</p>\\r\\n\\r\\n<p>Your code is compiled with debug flag enabled (<code>/debug</code>).</p>\"], \"javascript\": [\"JavaScript\", \"<p>Run with <code>nodejs 8.8.1</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"http://underscorejs.org/\\\" target=\\\"_blank\\\">underscore.js</a> library is included by default.</p>\"], \"ruby\": [\"Ruby\", \"<p>Run with <code>ruby 2.4.1</code>.</p>\"], \"swift\": [\"Swift\", \"<p>Compiled with <code>swift 4.1.2</code>.</p>\\r\\n\\r\\n<p>We usually keep up with the <a href=\\\"https://swift.org/download/\\\" target=\\\"_blank\\\">latest Swift released by Apple</a>, if not please let us know and we will update it as soon as possible!</p>\"], \"golang\": [\"Go\", \"<p>Compiled with <code>go 1.10.3</code>.</p>\"], \"python3\": [\"Python3\", \"<p>Run with <code>python 3.5.2</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\"], \"scala\": [\"Scala\", \"<p>Compiled with <code>scala 2.11.6</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p>Compiled with <code>kotlin 1.2.50</code>.</p>\"]}", 
+    "difficulty": "Hard", 
+    "allowDiscuss": true, 
+    "article": "{\"id\": 465, \"url\": \"/articles/sum-of-distances-in-tree/\", \"topicId\": 130611}", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"class Solution {\\npublic:\\n    vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges) {\\n        \\n    }\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"class Solution {\\n    public int[] sumOfDistancesInTree(int N, int[][] edges) {\\n        \\n    }\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"class Solution(object):\\n    def sumOfDistancesInTree(self, N, edges):\\n        \\\"\\\"\\\"\\n        :type N: int\\n        :type edges: List[List[int]]\\n        :rtype: List[int]\\n        \\\"\\\"\\\"\\n        \"}, {\"value\": \"python3\", \"text\": \"Python3\", \"defaultCode\": \"class Solution:\\n    def sumOfDistancesInTree(self, N, edges):\\n        \\\"\\\"\\\"\\n        :type N: int\\n        :type edges: List[List[int]]\\n        :rtype: List[int]\\n        \\\"\\\"\\\"\\n        \"}, {\"value\": \"c\", \"text\": \"C\", \"defaultCode\": \"/**\\n * Return an array of size *returnSize.\\n * Note: The returned array must be malloced, assume caller calls free().\\n */\\nint* sumOfDistancesInTree(int N, int** edges, int edgesRowSize, int *edgesColSizes, int* returnSize) {\\n    \\n}\"}, {\"value\": \"csharp\", \"text\": \"C#\", \"defaultCode\": \"public class Solution {\\n    public int[] SumOfDistancesInTree(int N, int[][] edges) {\\n        \\n    }\\n}\"}, {\"value\": \"javascript\", \"text\": \"JavaScript\", \"defaultCode\": \"/**\\n * @param {number} N\\n * @param {number[][]} edges\\n * @return {number[]}\\n */\\nvar sumOfDistancesInTree = function(N, edges) {\\n    \\n};\"}, {\"value\": \"ruby\", \"text\": \"Ruby\", \"defaultCode\": \"# @param {Integer} n\\n# @param {Integer[][]} edges\\n# @return {Integer[]}\\ndef sum_of_distances_in_tree(n, edges)\\n    \\nend\"}, {\"value\": \"swift\", \"text\": \"Swift\", \"defaultCode\": \"class Solution {\\n    func sumOfDistancesInTree(_ N: Int, _ edges: [[Int]]) -> [Int] {\\n        \\n    }\\n}\"}, {\"value\": \"golang\", \"text\": \"Go\", \"defaultCode\": \"func sumOfDistancesInTree(N int, edges [][]int) []int {\\n    \\n}\"}, {\"value\": \"scala\", \"text\": \"Scala\", \"defaultCode\": \"object Solution {\\n    def sumOfDistancesInTree(N: Int, edges: Array[Array[Int]]): Array[Int] = {\\n        \\n    }\\n}\"}, {\"value\": \"kotlin\", \"text\": \"Kotlin\", \"defaultCode\": \"class Solution {\\n    fun sumOfDistancesInTree(N: Int, edges: Array<IntArray>): IntArray {\\n        \\n    }\\n}\"}]", 
+    "judgerAvailable": true, 
+    "questionTitleSlug": "sum-of-distances-in-tree", 
+    "similarQuestions": "[]", 
+    "libraryUrl": null, 
+    "sessionId": "0", 
+    "questionTitle": "Sum of Distances in Tree", 
+    "categoryTitle": "Algorithms", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }, 
+  "loginUrl": "/accounts/login/", 
+  "subscribeUrl": "/subscribe/"
+}

@@ -1,0 +1,48 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "sampleTestCase": "10\n6", 
+    "questionFrontendId": "374", 
+    "contributors": "[]", 
+    "randomQuestionUrl": "/problems/random-one-question/", 
+    "enableSubmit": true, 
+    "metaData": "{\r\n  \"name\": \"guessNumber\",\r\n  \"indriver\": true,\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"pick\",\r\n      \"type\": \"integer\",\r\n      \"internal\": true\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}", 
+    "enableRunCode": true, 
+    "questionDetailUrl": "/problems/guess-number-higher-or-lower/", 
+    "stats": "{\"totalAccepted\": \"78K\", \"totalSubmission\": \"210.1K\", \"acRate\": \"37.1%\"}", 
+    "interpretUrl": "/problems/guess-number-higher-or-lower/interpret_solution/", 
+    "urlManager": "{\"account_login\": \"/accounts/login/\", \"maintenance\": \"/maintenance/\", \"profile\": \"/profile/\"}", 
+    "__typename": "QuestionNode", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "slug": "binary-search", 
+        "name": "Binary Search", 
+        "__typename": "TopicTagNode"
+      }
+    ], 
+    "content": "<p>We are playing the Guess Game. The game is as follows:<p> \r\n\r\n<p>I pick a number from <b>1</b> to <b><i>n</i></b>. You have to guess which number I picked.</p>\r\n\r\n<p>Every time you guess wrong, I'll tell you whether the number is higher or lower.</p>\r\n\r\n<p>You call a pre-defined API <code>guess(int num)</code> which returns 3 possible results (<code>-1</code>, <code>1</code>, or <code>0</code>):</p>\r\n<pre>\r\n-1 : My number is lower\r\n 1 : My number is higher\r\n 0 : Congrats! You got it!\r\n</pre>\r\n\r\n<p><b>Example:</b><br />\r\n<pre>\r\nn = 10, I pick 6.\r\n\r\nReturn 6.\r\n</pre>\r\n</p>", 
+    "enableTestMode": false, 
+    "submitUrl": "/problems/guess-number-higher-or-lower/submit/", 
+    "questionId": "374", 
+    "infoVerified": false, 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"]}", 
+    "difficulty": "Easy", 
+    "allowDiscuss": true, 
+    "article": "{\"id\": 57, \"url\": \"/articles/guess-number-higher-or-lower/\", \"topicId\": 127523}", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"// Forward declaration of guess API.\\r\\n// @param num, your guess\\r\\n// @return -1 if my number is lower, 1 if my number is higher, otherwise return 0\\r\\nint guess(int num);\\r\\n\\r\\nclass Solution {\\r\\npublic:\\r\\n    int guessNumber(int n) {\\r\\n        \\r\\n    }\\r\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"/* The guess API is defined in the parent class GuessGame.\\r\\n   @param num, your guess\\r\\n   @return -1 if my number is lower, 1 if my number is higher, otherwise return 0\\r\\n      int guess(int num); */\\r\\n\\r\\npublic class Solution extends GuessGame {\\r\\n    public int guessNumber(int n) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"# The guess API is already defined for you.\\r\\n# @param num, your guess\\r\\n# @return -1 if my number is lower, 1 if my number is higher, otherwise return 0\\r\\n# def guess(num):\\r\\n\\r\\nclass Solution(object):\\r\\n    def guessNumber(self, n):\\r\\n        \\\"\\\"\\\"\\r\\n        :type n: int\\r\\n        :rtype: int\\r\\n        \\\"\\\"\\\"\\r\\n        \"}]", 
+    "judgerAvailable": true, 
+    "questionTitleSlug": "guess-number-higher-or-lower", 
+    "similarQuestions": "[{\"title\": \"First Bad Version\", \"titleSlug\": \"first-bad-version\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"Guess Number Higher or Lower II\", \"titleSlug\": \"guess-number-higher-or-lower-ii\", \"difficulty\": \"Medium\", \"translatedTitle\": null}, {\"title\": \"Find K Closest Elements\", \"titleSlug\": \"find-k-closest-elements\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
+    "libraryUrl": null, 
+    "sessionId": "0", 
+    "questionTitle": "Guess Number Higher or Lower", 
+    "categoryTitle": "Algorithms", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }, 
+  "loginUrl": "/accounts/login/", 
+  "subscribeUrl": "/subscribe/"
+}

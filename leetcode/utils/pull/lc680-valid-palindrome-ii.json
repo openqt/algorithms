@@ -1,0 +1,48 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "sampleTestCase": "\"aba\"", 
+    "questionFrontendId": "680", 
+    "contributors": "[{\"username\": \"\\u4eca\\u304c\\u6700\\u9ad8\", \"profileUrl\": \"/jin-gazui-gao/\"}]", 
+    "randomQuestionUrl": "/problems/random-one-question/", 
+    "enableSubmit": true, 
+    "metaData": "{\r\n  \"name\": \"validPalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n", 
+    "enableRunCode": true, 
+    "questionDetailUrl": "/problems/valid-palindrome-ii/", 
+    "stats": "{\"totalAccepted\": \"33K\", \"totalSubmission\": \"102.1K\", \"acRate\": \"32.3%\"}", 
+    "interpretUrl": "/problems/valid-palindrome-ii/interpret_solution/", 
+    "urlManager": "{\"account_login\": \"/accounts/login/\", \"maintenance\": \"/maintenance/\", \"profile\": \"/profile/\"}", 
+    "__typename": "QuestionNode", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "__typename": "TopicTagNode", 
+        "name": "String", 
+        "slug": "string"
+      }
+    ], 
+    "content": "<p>\r\nGiven a non-empty string <code>s</code>, you may delete <b>at most</b> one character.  Judge whether you can make it a palindrome.\r\n</p>\r\n\r\n<p><b>Example 1:</b><br />\r\n<pre>\r\n<b>Input:</b> \"aba\"\r\n<b>Output:</b> True\r\n</pre>\r\n</p>\r\n\r\n<p><b>Example 2:</b><br />\r\n<pre>\r\n<b>Input:</b> \"abca\"\r\n<b>Output:</b> True\r\n<b>Explanation:</b> You could delete the character 'c'.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>The string will only contain lowercase characters a-z.\r\nThe maximum length of the string is 50000.</li>\r\n</ol>\r\n</p>", 
+    "enableTestMode": false, 
+    "submitUrl": "/problems/valid-palindrome-ii/submit/", 
+    "questionId": "680", 
+    "infoVerified": false, 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 6.3</code> using the gnu99 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"csharp\": [\"C#\", \"<p>Compiled with <code>mono 5.12.0</code> providing <a href=\\\"https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7\\\" target=\\\"_blank\\\">full support for C# 7</a>.</p>\\r\\n\\r\\n<p>Your code is compiled with debug flag enabled (<code>/debug</code>).</p>\"], \"javascript\": [\"JavaScript\", \"<p>Run with <code>nodejs 8.8.1</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"http://underscorejs.org/\\\" target=\\\"_blank\\\">underscore.js</a> library is included by default.</p>\"], \"ruby\": [\"Ruby\", \"<p>Run with <code>ruby 2.4.1</code>.</p>\"], \"swift\": [\"Swift\", \"<p>Compiled with <code>swift 4.1.2</code>.</p>\\r\\n\\r\\n<p>We usually keep up with the <a href=\\\"https://swift.org/download/\\\" target=\\\"_blank\\\">latest Swift released by Apple</a>, if not please let us know and we will update it as soon as possible!</p>\"], \"golang\": [\"Go\", \"<p>Compiled with <code>go 1.10.3</code>.</p>\"], \"python3\": [\"Python3\", \"<p>Run with <code>python 3.5.2</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/3/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/3/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/3/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\"], \"scala\": [\"Scala\", \"<p>Compiled with <code>scala 2.11.6</code>.</p>\"], \"kotlin\": [\"Kotlin\", \"<p>Compiled with <code>kotlin 1.2.50</code>.</p>\"]}", 
+    "difficulty": "Easy", 
+    "allowDiscuss": true, 
+    "article": "{\"id\": 248, \"url\": \"/articles/valid-palindrome-ii/\", \"topicId\": 127663}", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"class Solution {\\r\\npublic:\\r\\n    bool validPalindrome(string s) {\\r\\n        \\r\\n    }\\r\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"class Solution {\\r\\n    public boolean validPalindrome(String s) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"class Solution(object):\\r\\n    def validPalindrome(self, s):\\r\\n        \\\"\\\"\\\"\\r\\n        :type s: str\\r\\n        :rtype: bool\\r\\n        \\\"\\\"\\\"\\r\\n        \"}, {\"value\": \"python3\", \"text\": \"Python3\", \"defaultCode\": \"class Solution:\\r\\n    def validPalindrome(self, s):\\r\\n        \\\"\\\"\\\"\\r\\n        :type s: str\\r\\n        :rtype: bool\\r\\n        \\\"\\\"\\\"\\r\\n        \"}, {\"value\": \"c\", \"text\": \"C\", \"defaultCode\": \"bool validPalindrome(char* s) {\\r\\n    \\r\\n}\"}, {\"value\": \"csharp\", \"text\": \"C#\", \"defaultCode\": \"public class Solution {\\r\\n    public bool ValidPalindrome(string s) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"javascript\", \"text\": \"JavaScript\", \"defaultCode\": \"/**\\r\\n * @param {string} s\\r\\n * @return {boolean}\\r\\n */\\r\\nvar validPalindrome = function(s) {\\r\\n    \\r\\n};\"}, {\"value\": \"ruby\", \"text\": \"Ruby\", \"defaultCode\": \"# @param {String} s\\r\\n# @return {Boolean}\\r\\ndef valid_palindrome(s)\\r\\n    \\r\\nend\"}, {\"value\": \"swift\", \"text\": \"Swift\", \"defaultCode\": \"class Solution {\\r\\n    func validPalindrome(_ s: String) -> Bool {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"golang\", \"text\": \"Go\", \"defaultCode\": \"func validPalindrome(s string) bool {\\r\\n    \\r\\n}\"}, {\"value\": \"scala\", \"text\": \"Scala\", \"defaultCode\": \"object Solution {\\n    def validPalindrome(s: String): Boolean = {\\n        \\n    }\\n}\"}, {\"value\": \"kotlin\", \"text\": \"Kotlin\", \"defaultCode\": \"class Solution {\\n    fun validPalindrome(s: String): Boolean {\\n        \\n    }\\n}\"}]", 
+    "judgerAvailable": true, 
+    "questionTitleSlug": "valid-palindrome-ii", 
+    "similarQuestions": "[{\"title\": \"Valid Palindrome\", \"titleSlug\": \"valid-palindrome\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
+    "libraryUrl": null, 
+    "sessionId": "0", 
+    "questionTitle": "Valid Palindrome II", 
+    "categoryTitle": "Algorithms", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }, 
+  "loginUrl": "/accounts/login/", 
+  "subscribeUrl": "/subscribe/"
+}

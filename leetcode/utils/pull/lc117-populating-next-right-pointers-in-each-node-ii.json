@@ -1,0 +1,54 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "sampleTestCase": "{}", 
+    "questionFrontendId": "117", 
+    "contributors": "[]", 
+    "randomQuestionUrl": "/problems/random-one-question/", 
+    "enableSubmit": true, 
+    "metaData": "{}", 
+    "enableRunCode": false, 
+    "questionDetailUrl": "/problems/populating-next-right-pointers-in-each-node-ii/", 
+    "stats": "{\"totalAccepted\": \"136.4K\", \"totalSubmission\": \"403.9K\", \"acRate\": \"33.8%\"}", 
+    "interpretUrl": "/problems/populating-next-right-pointers-in-each-node-ii/interpret_solution/", 
+    "urlManager": "{\"account_login\": \"/accounts/login/\", \"maintenance\": \"/maintenance/\", \"profile\": \"/profile/\"}", 
+    "__typename": "QuestionNode", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "slug": "tree", 
+        "name": "Tree", 
+        "__typename": "TopicTagNode"
+      }, 
+      {
+        "translatedName": null, 
+        "slug": "depth-first-search", 
+        "name": "Depth-first Search", 
+        "__typename": "TopicTagNode"
+      }
+    ], 
+    "content": "<p>Given a binary tree</p>\r\n\r\n<pre>\r\nstruct TreeLinkNode {\r\n  TreeLinkNode *left;\r\n  TreeLinkNode *right;\r\n  TreeLinkNode *next;\r\n}\r\n</pre>\r\n\r\n<p>Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to <code>NULL</code>.</p>\r\n\r\n<p>Initially, all next pointers are set to <code>NULL</code>.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>You may only use constant extra space.</li>\r\n\t<li>Recursive approach is fine, implicit stack space does not count as extra space for this problem.</li>\r\n</ul>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Given the following binary tree,</p>\r\n\r\n<pre>\r\n     1\r\n   /  \\\r\n  2    3\r\n / \\    \\\r\n4   5    7\r\n</pre>\r\n\r\n<p>After calling your function, the tree should look like:</p>\r\n\r\n<pre>\r\n     1 -&gt; NULL\r\n   /  \\\r\n  2 -&gt; 3 -&gt; NULL\r\n / \\    \\\r\n4-&gt; 5 -&gt; 7 -&gt; NULL\r\n</pre>\r\n", 
+    "enableTestMode": false, 
+    "submitUrl": "/problems/populating-next-right-pointers-in-each-node-ii/submit/", 
+    "questionId": "117", 
+    "infoVerified": false, 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"], \"c\": [\"C\", \"<p>Compiled with <code>gcc 6.3</code> using the gnu99 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\\r\\n\\r\\n<p>For hash table operations, you may use <a href=\\\"https://troydhanson.github.io/uthash/\\\" target=\\\"_blank\\\">uthash</a>. \\\"uthash.h\\\" is included by default. Below are some examples:</p>\\r\\n\\r\\n<p><b>1. Adding an item to a hash.</b>\\r\\n<pre>\\r\\nstruct hash_entry {\\r\\n    int id;            /* we'll use this field as the key */\\r\\n    char name[10];\\r\\n    UT_hash_handle hh; /* makes this structure hashable */\\r\\n};\\r\\n\\r\\nstruct hash_entry *users = NULL;\\r\\n\\r\\nvoid add_user(struct hash_entry *s) {\\r\\n    HASH_ADD_INT(users, id, s);\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>2. Looking up an item in a hash:</b>\\r\\n<pre>\\r\\nstruct hash_entry *find_user(int user_id) {\\r\\n    struct hash_entry *s;\\r\\n    HASH_FIND_INT(users, &user_id, s);\\r\\n    return s;\\r\\n}\\r\\n</pre>\\r\\n</p>\\r\\n\\r\\n<p><b>3. Deleting an item in a hash:</b>\\r\\n<pre>\\r\\nvoid delete_user(struct hash_entry *user) {\\r\\n    HASH_DEL(users, user);  \\r\\n}\\r\\n</pre>\\r\\n</p>\"], \"javascript\": [\"JavaScript\", \"<p>Run with <code>nodejs 8.8.1</code>.</p>\\r\\n\\r\\n<p>Your code is run with <code>--harmony</code> flag, enabling <a href=\\\"http://node.green/\\\" target=\\\"_blank\\\">new ES6 features</a>.</p>\\r\\n\\r\\n<p><a href=\\\"http://underscorejs.org/\\\" target=\\\"_blank\\\">underscore.js</a> library is included by default.</p>\"]}", 
+    "difficulty": "Medium", 
+    "allowDiscuss": true, 
+    "article": "{}", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"/**\\r\\n * Definition for binary tree with next pointer.\\r\\n * struct TreeLinkNode {\\r\\n *  int val;\\r\\n *  TreeLinkNode *left, *right, *next;\\r\\n *  TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}\\r\\n * };\\r\\n */\\r\\nclass Solution {\\r\\npublic:\\r\\n    void connect(TreeLinkNode *root) {\\r\\n        \\r\\n    }\\r\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"/**\\r\\n * Definition for binary tree with next pointer.\\r\\n * public class TreeLinkNode {\\r\\n *     int val;\\r\\n *     TreeLinkNode left, right, next;\\r\\n *     TreeLinkNode(int x) { val = x; }\\r\\n * }\\r\\n */\\r\\npublic class Solution {\\r\\n    public void connect(TreeLinkNode root) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"# Definition for binary tree with next pointer.\\r\\n# class TreeLinkNode:\\r\\n#     def __init__(self, x):\\r\\n#         self.val = x\\r\\n#         self.left = None\\r\\n#         self.right = None\\r\\n#         self.next = None\\r\\n\\r\\nclass Solution:\\r\\n    # @param root, a tree link node\\r\\n    # @return nothing\\r\\n    def connect(self, root):\"}, {\"value\": \"c\", \"text\": \"C\", \"defaultCode\": \"/**\\r\\n * Definition for binary tree with next pointer.\\r\\n * struct TreeLinkNode {\\r\\n *  int val;\\r\\n *  struct TreeLinkNode *left, *right, *next;\\r\\n * };\\r\\n *\\r\\n */\\r\\nvoid connect(struct TreeLinkNode *root) {\\r\\n    \\r\\n}\"}, {\"value\": \"javascript\", \"text\": \"JavaScript\", \"defaultCode\": \"/**\\r\\n * Definition for binary tree with next pointer.\\r\\n * function TreeLinkNode(val) {\\r\\n *     this.val = val;\\r\\n *     this.left = this.right = this.next = null;\\r\\n * }\\r\\n */\\r\\n\\r\\n/**\\r\\n * @param {TreeLinkNode} root\\r\\n * @return {void} Do not return anything, modify tree in-place instead.\\r\\n */\\r\\nvar connect = function(root) {\\r\\n    \\r\\n};\"}]", 
+    "judgerAvailable": true, 
+    "questionTitleSlug": "populating-next-right-pointers-in-each-node-ii", 
+    "similarQuestions": "[{\"title\": \"Populating Next Right Pointers in Each Node\", \"titleSlug\": \"populating-next-right-pointers-in-each-node\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
+    "libraryUrl": null, 
+    "sessionId": "0", 
+    "questionTitle": "Populating Next Right Pointers in Each Node II", 
+    "categoryTitle": "Algorithms", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }, 
+  "loginUrl": "/accounts/login/", 
+  "subscribeUrl": "/subscribe/"
+}

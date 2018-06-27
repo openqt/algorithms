@@ -2,9 +2,10 @@
 import argparse
 import json
 import logging
+import os
 import time
 from string import Template
-import os, sys
+
 import prettytable
 import requests
 
@@ -13,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 python_template = u'''# coding=utf-8
 import unittest
 
-"""$title
+"""$id. $title
 $url
 
 $text
@@ -28,6 +29,24 @@ $code
 
 if __name__ == "__main__":
     unittest.main()
+'''
+
+golang_template = u'''package main
+
+import (
+	"fmt"
+)
+
+/*$id. $title
+$url
+
+$text
+*/
+$code
+
+func main() {
+	fmt.Println()
+}
 '''
 
 Q_getQuestionDetail = """
@@ -108,24 +127,35 @@ class Question(object):
             print("Supported language: {}".format(self.codes.keys()))
             return
 
-        text = Template(python_template).substitute(
-            title=self.title,
-            url=self.url,
-            text=self.content,
-            code=self.codes[language]).encode("utf-8")
-
         with open(self.metaname(), "w") as f:
             json.dump(self.data, f, indent=2)
 
-        filename = ""
         if language == "python":
+            text = Template(python_template).substitute(
+                id=self.qid,
+                title=self.title,
+                url=self.url,
+                text=self.content,
+                code=self.codes[language]).encode("utf-8")
+
             filename = self.name() + ".py"
             with open(filename, "w") as f:
                 f.write(text)
+            logging.info("{} generated".format(filename))
+        elif language == "golang":
+            text = Template(golang_template).substitute(
+                id=self.qid,
+                title=self.title,
+                url=self.url,
+                text=self.content,
+                code=self.codes[language]).encode("utf-8")
+
+            filename = self.name() + ".go"
+            with open(filename, "w") as f:
+                f.write(text)
+            logging.info("{} generated".format(filename))
         else:
-            print("Not supported language: {}".format(language))
-            return
-        logging.info("{} generated".format(filename))
+            print("Not support language: {}".format(language))
 
     def sort(self, data):
         self.data = data
@@ -140,7 +170,7 @@ class Question(object):
     def load(self, filename):
         with open(filename) as f:
             self.sort(json.load(f))
-        logging.info("Load {} OK".format(filename))
+        print("Load {} OK".format(filename))
 
 
 class LC(object):
@@ -154,7 +184,8 @@ class LC(object):
 
     def args(self):
         p = argparse.ArgumentParser()
-        p.add_argument("--code", help="Generate specific language code.")
+        p.add_argument("--lang", default="python", help="Generate specific language code, default is python")
+        p.add_argument("problems", nargs="*", help="Problems' slug name")
         self.arg = p.parse_args()
 
     def list(self):
@@ -165,8 +196,8 @@ class LC(object):
         self.__sort_data()
 
     def __sort_data(self):
-        logging.info(self.data.get("category_slug"))
-        logging.info("num_total {}".format(self.data.get("num_total")))
+        logging.debug(self.data.get("category_slug"))
+        logging.debug("num_total {}".format(self.data.get("num_total")))
 
         for status in self.data["stat_status_pairs"]:
             q = Question(**status)
@@ -194,21 +225,27 @@ class LC(object):
     def detail(self, q):
         if q.paid:
             print("Ignoring paid question {}({})".format(q.title, q.slug))
-        print("Pulling {}: {}".format(q.qid, q.title))
+            return
 
-        if not self.sess.cookies.get("csrftoken"):
-            self.sess.get(q.url)
+        if os.path.exists(q.metaname()):
+            q.load(q.metaname())
+        else:
+            print("Pulling {}: {}".format(q.qid, q.title))
 
-        body = {
-            "operationName": "getQuestionDetail",
-            "variables": {"titleSlug": q.slug},
-            "query": Q_getQuestionDetail,
-        }
-        self.sess.headers["referer"] = q.url
-        self.sess.headers["x-csrftoken"] = self.sess.cookies["csrftoken"]
-        resp = self.sess.post("https://leetcode.com/graphql", json=body)
-        resp.raise_for_status()
-        q.sort(resp.json().get("data"))
+            if not self.sess.cookies.get("csrftoken"):
+                self.sess.get(q.url)
+
+            body = {
+                "operationName": "getQuestionDetail",
+                "variables": {"titleSlug": q.slug},
+                "query": Q_getQuestionDetail,
+            }
+            self.sess.headers["referer"] = q.url
+            self.sess.headers["x-csrftoken"] = self.sess.cookies["csrftoken"]
+            resp = self.sess.post("https://leetcode.com/graphql", json=body)
+            resp.raise_for_status()
+            q.sort(resp.json().get("data"))
+            time.sleep(.5)
 
 
 def main():
@@ -220,17 +257,18 @@ def main():
     # lc.show()
     # lc.save("leetcode.json")
 
-    q = lc.qm["path-sum"]
-    q.load(q.metaname())
-    q.code()
-
-    # for q in lc.qa:
-    #     if not os.path.exists(q.metaname()):
-    #         lc.detail(q)
-    #         q.code()
-    #         time.sleep(1)
-    #     else:
-    #         print("Ignore existed {}({})".format(q.metaname(), q.slug))
+    if lc.arg.problems:
+        for slug in lc.arg.problems:
+            q = lc.qm.get(slug)
+            if q:
+                lc.detail(q)
+                q.code(lc.arg.lang)
+            else:
+                print("Not found {}".format(slug))
+    else:
+        for q in lc.qa:
+            lc.detail(q)
+            q.code(lc.arg.lang)
 
 
 if __name__ == "__main__":
