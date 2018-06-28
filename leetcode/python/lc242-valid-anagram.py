@@ -4,27 +4,32 @@ import unittest
 """242. Valid Anagram
 https://leetcode.com/problems/valid-anagram/description/
 
-<p>Given two strings <em>s</em> and <em>t&nbsp;</em>, write a function to determine if <em>t</em> is an anagram of <em>s</em>.</p>
+Given two strings _s_ and _t  _, write a function to determine if _t_ is an
+anagram of _s_.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> <em>s</em> = &quot;anagram&quot;, <em>t</em> = &quot;nagaram&quot;
-<b>Output:</b> true
-</pre>
+    
+    
+    **Input:** _s_ =  "anagram", _t_ =  "nagaram"
+    **Output:** true
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> <em>s</em> = &quot;rat&quot;, <em>t</em> = &quot;car&quot;
-<b>Output: </b>false
-</pre>
+    
+    
+    **Input:** _s_ =  "rat", _t_ =  "car"
+    **Output:** false
+    
 
-<p><strong>Note:</strong><br />
-You may assume the string contains only lowercase alphabets.</p>
+**Note:**  
+You may assume the string contains only lowercase alphabets.
 
-<p><strong>Follow up:</strong><br />
-What if the inputs contain unicode characters? How would you adapt your solution to such case?</p>
+**Follow up:**  
+What if the inputs contain unicode characters? How would you adapt your
+solution to such case?
+
 
 Similar Questions:
   Group Anagrams (group-anagrams)

@@ -7,35 +7,41 @@ import (
 /*365. Water and Jug Problem
 https://leetcode.com/problems/water-and-jug-problem/description/
 
-<p>You are given two jugs with capacities <i>x</i> and <i>y</i> litres. There is an infinite amount of water supply available.
-You need to determine whether it is possible to measure exactly <i>z</i> litres using these two jugs.</p>
+You are given two jugs with capacities _x_ and _y_ litres. There is an
+infinite amount of water supply available. You need to determine whether it is
+possible to measure exactly _z_ litres using these two jugs.
 
-<p>If <i>z</i> liters of water is measurable, you must have <i>z</i> liters of water contained within <b>one or both buckets</b> by the end.</p>
+If _z_ liters of water is measurable, you must have _z_ liters of water
+contained within **one or both buckets** by the end.
 
-<p>
 Operations allowed:
-<ul>
-<li>Fill any of the jugs completely with water.</li>
-<li>Empty any of the jugs.</li>
-<li>Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.</li>
-</ul>
-</p>
 
-<p><b>Example 1:</b> (From the famous <a href="https://www.youtube.com/watch?v=BVtQNK_ZUJg" target="_blank"><i>"Die Hard"</i> example</a>)
-<pre>
-Input: x = 3, y = 5, z = 4
-Output: True
-</pre>
-</p>
+  * Fill any of the jugs completely with water.
+  * Empty any of the jugs.
+  * Pour water from one jug into another till the other jug is completely full or the first jug itself is empty.
 
-<p><b>Example 2:</b>
-<pre>
-Input: x = 2, y = 6, z = 5
-Output: False
-</pre>
-</p>
+**Example 1:** (From the famous [_"Die Hard"_
+example](https://www.youtube.com/watch?v=BVtQNK_ZUJg))
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/vinod23">@vinod23</a> for adding this problem and creating all test cases.</p>
+    
+    
+    Input: x = 3, y = 5, z = 4
+    Output: True
+    
+
+**Example 2:**
+
+    
+    
+    Input: x = 2, y = 6, z = 5
+    Output: False
+    
+
+**Credits:**  
+Special thanks to [@vinod23](https://discuss.leetcode.com/user/vinod23) for
+adding this problem and creating all test cases.
+
+
 Similar Questions:
 
 */

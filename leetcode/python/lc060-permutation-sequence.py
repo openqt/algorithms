@@ -4,41 +4,40 @@ import unittest
 """60. Permutation Sequence
 https://leetcode.com/problems/permutation-sequence/description/
 
-<p>The set <code>[1,2,3,...,<em>n</em>]</code> contains a total of <em>n</em>! unique permutations.</p>
+The set `[1,2,3,..., _n_ ]` contains a total of _n_! unique permutations.
 
-<p>By listing and labeling all of the permutations in order, we get the following sequence for <em>n</em> = 3:</p>
+By listing and labeling all of the permutations in order, we get the following
+sequence for _n_ = 3:
 
-<ol>
-	<li><code>&quot;123&quot;</code></li>
-	<li><code>&quot;132&quot;</code></li>
-	<li><code>&quot;213&quot;</code></li>
-	<li><code>&quot;231&quot;</code></li>
-	<li><code>&quot;312&quot;</code></li>
-	<li><code>&quot;321&quot;</code></li>
-</ol>
+  1. `"123"`
+  2. `"132"`
+  3. `"213"`
+  4. `"231"`
+  5. `"312"`
+  6. `"321"`
 
-<p>Given <em>n</em> and <em>k</em>, return the <em>k</em><sup>th</sup> permutation sequence.</p>
+Given _n_ and _k_ , return the _k_ th permutation sequence.
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>Given <em>n</em> will be between 1 and 9 inclusive.</li>
-	<li>Given&nbsp;<em>k</em>&nbsp;will be between 1 and <em>n</em>! inclusive.</li>
-</ul>
+  * Given _n_ will be between 1 and 9 inclusive.
+  * Given  _k_  will be between 1 and _n_! inclusive.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> n = 3, k = 3
-<strong>Output:</strong> &quot;213&quot;
-</pre>
+    
+    
+    **Input:** n = 3, k = 3
+    **Output:**  "213"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> n = 4, k = 9
-<strong>Output:</strong> &quot;2314&quot;
-</pre>
+    
+    
+    **Input:** n = 4, k = 9
+    **Output:**  "2314"
+
 
 Similar Questions:
   Next Permutation (next-permutation)

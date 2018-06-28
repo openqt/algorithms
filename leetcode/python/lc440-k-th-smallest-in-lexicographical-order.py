@@ -4,22 +4,24 @@ import unittest
 """440. K-th Smallest in Lexicographical Order
 https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/description/
 
-<p>Given integers <code>n</code> and <code>k</code>, find the lexicographically k-th smallest integer in the range from <code>1</code> to <code>n</code>.</p>
+Given integers `n` and `k`, find the lexicographically k-th smallest integer
+in the range from `1` to `n`.
 
-<p>Note: 1 &le; k &le; n &le; 10<sup>9</sup>.</p>
+Note: 1 ≤ k ≤ n ≤ 109.
 
-<p><b>Example:</b>
-<pre>
-<b>Input:</b>
-n: 13   k: 2
+**Example:**
 
-<b>Output:</b>
-10
+    
+    
+    **Input:**
+    n: 13   k: 2
+    
+    **Output:**
+    10
+    
+    **Explanation:**
+    The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
 
-<b>Explanation:</b>
-The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
-</pre>
-</p>
 
 Similar Questions:
 

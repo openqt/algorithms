@@ -4,34 +4,38 @@ import unittest
 """400. Nth Digit
 https://leetcode.com/problems/nth-digit/description/
 
-<p>Find the <i>n</i><sup>th</sup> digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... </p>
+Find the _n_ th digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8,
+9, 10, 11, ...
 
-<p><b>Note:</b><br />
-<i>n</i> is positive and will fit within the range of a 32-bit signed integer (<i>n</i> < 2<sup>31</sup>).
-</p>
+**Note:**  
+_n_ is positive and will fit within the range of a 32-bit signed integer ( _n_
+< 231).
 
-<p><b>Example 1:</b>
-<pre>
-<b>Input:</b>
-3
+**Example 1:**
 
-<b>Output:</b>
-3
-</pre>
-</p>
+    
+    
+    **Input:**
+    3
+    
+    **Output:**
+    3
+    
 
-<p><b>Example 2:</b>
-<pre>
-<b>Input:</b>
-11
+**Example 2:**
 
-<b>Output:</b>
-0
+    
+    
+    **Input:**
+    11
+    
+    **Output:**
+    0
+    
+    **Explanation:**
+    The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
 
-<b>Explanation:</b>
-The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.
-</pre>
-</p>
+
 Similar Questions:
 
 """

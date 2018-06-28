@@ -7,60 +7,55 @@ import (
 /*856. Score of Parentheses
 https://leetcode.com/problems/score-of-parentheses/description/
 
-<p>Given a balanced parentheses string <code>S</code>, compute the score of the string based on the following rule:</p>
+Given a balanced parentheses string `S`, compute the score of the string based
+on the following rule:
 
-<ul>
-	<li><code>()</code> has score 1</li>
-	<li><code>AB</code> has score <code>A + B</code>, where A and B are balanced parentheses strings.</li>
-	<li><code>(A)</code> has score <code>2 * A</code>, where A is a balanced parentheses string.</li>
-</ul>
+  * `()` has score 1
+  * `AB` has score `A + B`, where A and B are balanced parentheses strings.
+  * `(A)` has score `2 * A`, where A is a balanced parentheses string.
 
-<p>&nbsp;</p>
 
-<div>
-<p><strong>Example 1:</strong></p>
 
-<pre>
-<strong>Input: </strong><span id="example-input-1-1">&quot;()&quot;</span>
-<strong>Output: </strong><span id="example-output-1">1</span>
-</pre>
+**Example 1:**
 
-<div>
-<p><strong>Example 2:</strong></p>
+    
+    
+    **Input:** "()"
+    **Output:** 1
+    
 
-<pre>
-<strong>Input: </strong><span id="example-input-2-1">&quot;(())&quot;</span>
-<strong>Output: </strong><span id="example-output-2">2</span>
-</pre>
+**Example 2:**
 
-<div>
-<p><strong>Example 3:</strong></p>
+    
+    
+    **Input:** "(())"
+    **Output:** 2
+    
 
-<pre>
-<strong>Input: </strong><span id="example-input-3-1">&quot;()()&quot;</span>
-<strong>Output: </strong><span id="example-output-3">2</span>
-</pre>
+**Example 3:**
 
-<div>
-<p><strong>Example 4:</strong></p>
+    
+    
+    **Input:** "()()"
+    **Output:** 2
+    
 
-<pre>
-<strong>Input: </strong><span id="example-input-4-1">&quot;(()(()))&quot;</span>
-<strong>Output: </strong><span id="example-output-4">6</span>
-</pre>
+**Example 4:**
 
-<p>&nbsp;</p>
+    
+    
+    **Input:** "(()(()))"
+    **Output:** 6
+    
 
-<p><strong>Note:</strong></p>
 
-<ol>
-	<li><code>S</code> is a balanced parentheses string, containing only <code>(</code> and <code>)</code>.</li>
-	<li><code>2 &lt;= S.length &lt;= 50</code></li>
-</ol>
-</div>
-</div>
-</div>
-</div>
+
+**Note:**
+
+  1. `S` is a balanced parentheses string, containing only `(` and `)`.
+  2. `2 <= S.length <= 50`
+
+
 Similar Questions:
 
 */

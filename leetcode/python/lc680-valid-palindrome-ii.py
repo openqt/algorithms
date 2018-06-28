@@ -4,31 +4,31 @@ import unittest
 """680. Valid Palindrome II
 https://leetcode.com/problems/valid-palindrome-ii/description/
 
-<p>
-Given a non-empty string <code>s</code>, you may delete <b>at most</b> one character.  Judge whether you can make it a palindrome.
-</p>
+Given a non-empty string `s`, you may delete **at most** one character. Judge
+whether you can make it a palindrome.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> "aba"
-<b>Output:</b> True
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> "abca"
-<b>Output:</b> True
-<b>Explanation:</b> You could delete the character 'c'.
-</pre>
-</p>
+    
+    
+    **Input:** "aba"
+    **Output:** True
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The string will only contain lowercase characters a-z.
-The maximum length of the string is 50000.</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** "abca"
+    **Output:** True
+    **Explanation:** You could delete the character 'c'.
+    
+
+**Note:**  
+
+  1. The string will only contain lowercase characters a-z. The maximum length of the string is 50000.
+
+
 Similar Questions:
   Valid Palindrome (valid-palindrome)
 """

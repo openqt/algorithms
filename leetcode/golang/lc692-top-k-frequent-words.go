@@ -7,39 +7,42 @@ import (
 /*692. Top K Frequent Words
 https://leetcode.com/problems/top-k-frequent-words/description/
 
-<p>Given a non-empty list of words, return the <i>k</i> most frequent elements.</p>
-<p>Your answer should be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.</p>
+Given a non-empty list of words, return the _k_ most frequent elements.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> ["i", "love", "leetcode", "i", "love", "coding"], k = 2
-<b>Output:</b> ["i", "love"]
-<b>Explanation:</b> "i" and "love" are the two most frequent words.
-    Note that "i" comes before "love" due to a lower alphabetical order.
-</pre>
-</p>
+Your answer should be sorted by frequency from highest to lowest. If two words
+have the same frequency, then the word with the lower alphabetical order comes
+first.
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
-<b>Output:</b> ["the", "is", "sunny", "day"]
-<b>Explanation:</b> "the", "is", "sunny" and "day" are the four most frequent words,
-    with the number of occurrence being 4, 3, 2 and 1 respectively.
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Note:</b><br>
-<ol>
-<li>You may assume <i>k</i> is always valid, 1 &le; <i>k</i> &le; number of unique elements.</li>
-<li>Input words contain only lowercase letters.</li>
-</ol>
-</p>
+    
+    
+    **Input:** ["i", "love", "leetcode", "i", "love", "coding"], k = 2
+    **Output:** ["i", "love"]
+    **Explanation:** "i" and "love" are the two most frequent words.
+        Note that "i" comes before "love" due to a lower alphabetical order.
+    
 
-<p><b>Follow up:</b><br />
-<ol>
-<li>Try to solve it in <i>O</i>(<i>n</i> log <i>k</i>) time and <i>O</i>(<i>n</i>) extra space.</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** ["the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is"], k = 4
+    **Output:** ["the", "is", "sunny", "day"]
+    **Explanation:** "the", "is", "sunny" and "day" are the four most frequent words,
+        with the number of occurrence being 4, 3, 2 and 1 respectively.
+    
+
+**Note:**  
+
+  1. You may assume _k_ is always valid, 1  ≤ _k_ ≤ number of unique elements.
+  2. Input words contain only lowercase letters.
+
+**Follow up:**  
+
+  1. Try to solve it in _O_ ( _n_ log _k_ ) time and _O_ ( _n_ ) extra space.
+
+
 Similar Questions:
   Top K Frequent Elements (top-k-frequent-elements)
 */

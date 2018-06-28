@@ -7,29 +7,34 @@ import (
 /*834. Sum of Distances in Tree
 https://leetcode.com/problems/sum-of-distances-in-tree/description/
 
-<p>An undirected, connected&nbsp;tree with <code>N</code> nodes labelled <code>0...N-1</code> and <code>N-1</code> <code>edges</code>&nbsp;are&nbsp;given.</p>
+An undirected, connected tree with `N` nodes labelled `0...N-1` and `N-1`
+`edges` are given.
 
-<p>The <code>i</code>th edge connects nodes&nbsp;<code>edges[i][0] </code>and<code>&nbsp;edges[i][1]</code>&nbsp;together.</p>
+The `i`th edge connects nodes `edges[i][0] `and` edges[i][1]` together.
 
-<p>Return a list <code>ans</code>, where <code>ans[i]</code> is the sum of the distances between node <code>i</code> and all other nodes.</p>
+Return a list `ans`, where `ans[i]` is the sum of the distances between node
+`i` and all other nodes.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
-<strong>Output: </strong>[8,12,6,10,10,10]
-<strong>Explanation: </strong>
-Here is a diagram of the given tree:
-  0
- / \
-1   2
-   /|\
-  3 4 5
-We can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)
-equals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.
-</pre>
+    
+    
+    **Input:** N = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
+    **Output:** [8,12,6,10,10,10]
+    **Explanation:**
+    Here is a diagram of the given tree:
+      0
+     / \
+    1   2
+       /|\
+      3 4 5
+    We can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)
+    equals 1 + 1 + 2 + 2 + 2 = 8.  Hence, answer[0] = 8, and so on.
+    
 
-<p>Note:<font face="monospace">&nbsp;<code>1 &lt;= N &lt;= 10000</code></font></p>
+Note: `1 <= N <= 10000`
+
+
 Similar Questions:
 
 */

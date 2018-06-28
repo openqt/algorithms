@@ -7,30 +7,46 @@ import (
 /*413. Arithmetic Slices
 https://leetcode.com/problems/arithmetic-slices/description/
 
-<p>A sequence of number is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.</p>
+A sequence of number is called arithmetic if it consists of at least three
+elements and if the difference between any two consecutive elements is the
+same.
 
-<p>For example, these are arithmetic sequence:</p>
-<pre>1, 3, 5, 7, 9
-7, 7, 7, 7
-3, -1, -5, -9</pre>
+For example, these are arithmetic sequence:
 
-<p>The following sequence is not arithmetic.</p> <pre>1, 1, 2, 5, 7</pre> 
-<br/>
+    
+    
+    1, 3, 5, 7, 9
+    7, 7, 7, 7
+    3, -1, -5, -9
 
-<p>A zero-indexed array A consisting of N numbers is given. A slice of that array is any pair of integers (P, Q) such that 0 <= P < Q < N.</p>
+The following sequence is not arithmetic.
 
-<p>A slice (P, Q) of array A is called arithmetic if the sequence:<br/>
-    A[P], A[p + 1], ..., A[Q - 1], A[Q] is arithmetic. In particular, this means that P + 1 < Q.</p>
+    
+    
+    1, 1, 2, 5, 7
 
-<p>The function should return the number of arithmetic slices in the array A. </p>
-<br/>
+  
 
-<p><b>Example:</b>
-<pre>
-A = [1, 2, 3, 4]
+A zero-indexed array A consisting of N numbers is given. A slice of that array
+is any pair of integers (P, Q) such that 0 <= P < Q < N.
 
-return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.
-</pre>
+A slice (P, Q) of array A is called arithmetic if the sequence:  
+A[P], A[p + 1], ..., A[Q - 1], A[Q] is arithmetic. In particular, this means
+that P + 1 < Q.
+
+The function should return the number of arithmetic slices in the array A.
+
+  
+
+**Example:**
+
+    
+    
+    A = [1, 2, 3, 4]
+    
+    return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.
+
+
 Similar Questions:
   Arithmetic Slices II - Subsequence (arithmetic-slices-ii-subsequence)
 */

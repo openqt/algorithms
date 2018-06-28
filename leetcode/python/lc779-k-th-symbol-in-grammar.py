@@ -4,37 +4,41 @@ import unittest
 """779. K-th Symbol in Grammar
 https://leetcode.com/problems/k-th-symbol-in-grammar/description/
 
-<p>On the first row, we write a <code>0</code>. Now in every subsequent row, we look at the previous row and replace each occurrence of <code>0</code> with <code>01</code>, and each occurrence of <code>1</code> with <code>10</code>.</p>
+On the first row, we write a `0`. Now in every subsequent row, we look at the
+previous row and replace each occurrence of `0` with `01`, and each occurrence
+of `1` with `10`.
 
-<p>Given row <code>N</code> and index <code>K</code>, return the <code>K</code>-th indexed symbol in row <code>N</code>. (The values of <code>K</code> are 1-indexed.) (1 indexed).</p>
+Given row `N` and index `K`, return the `K`-th indexed symbol in row `N`. (The
+values of `K` are 1-indexed.) (1 indexed).
 
-<pre>
-<strong>Examples:</strong>
-<strong>Input:</strong> N = 1, K = 1
-<strong>Output:</strong> 0
+    
+    
+    **Examples:**
+    **Input:** N = 1, K = 1
+    **Output:** 0
+    
+    **Input:** N = 2, K = 1
+    **Output:** 0
+    
+    **Input:** N = 2, K = 2
+    **Output:** 1
+    
+    **Input:** N = 4, K = 5
+    **Output:** 1
+    
+    **Explanation:**
+    row 1: 0
+    row 2: 01
+    row 3: 0110
+    row 4: 01101001
+    
 
-<strong>Input:</strong> N = 2, K = 1
-<strong>Output:</strong> 0
+**Note:**
 
-<strong>Input:</strong> N = 2, K = 2
-<strong>Output:</strong> 1
+  1. `N` will be an integer in the range `[1, 30]`.
+  2. `K` will be an integer in the range `[1, 2^(N-1)]`.
 
-<strong>Input:</strong> N = 4, K = 5
-<strong>Output:</strong> 1
 
-<strong>Explanation:</strong>
-row 1: 0
-row 2: 01
-row 3: 0110
-row 4: 01101001
-</pre>
-
-<p><strong>Note:</strong></p>
-
-<ol>
-	<li><code>N</code> will be an integer in the range <code>[1, 30]</code>.</li>
-	<li><code>K</code> will be an integer in the range <code>[1, 2^(N-1)]</code>.</li>
-</ol>
 Similar Questions:
 
 """

@@ -7,37 +7,46 @@ import (
 /*337. House Robber III
 https://leetcode.com/problems/house-robber-iii/description/
 
-<p>
-The thief has found himself a new place for his thievery again. There is only one entrance to this area, called the "root." Besides the root, each house has one and only one parent house. After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
-</p>
+The thief has found himself a new place for his thievery again. There is only
+one entrance to this area, called the "root." Besides the root, each house has
+one and only one parent house. After a tour, the smart thief realized that
+"all houses in this place forms a binary tree". It will automatically contact
+the police if two directly-linked houses were broken into on the same night.
 
-<p>
-Determine the maximum amount of money the thief can rob tonight without alerting the police.
-</p>
+Determine the maximum amount of money the thief can rob tonight without
+alerting the police.
 
-<p><b>Example 1:</b><br />
-<pre>
-     <font color="red">3</font>
-    / \
-   2   3
-    \   \ 
-     <font color="red">3   1</font>
-</pre>
-Maximum amount of money the thief can rob = <font color="red">3</font> + <font color="red">3</font> + <font color="red">1</font> = <b>7</b>.
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-     3
-    / \
-   <font color="red">4</font>   <font color="red">5</font>
-  / \   \ 
- 1   3   1
-</pre>
-Maximum amount of money the thief can rob = <font color="red">4</font> + <font color="red">5</font> = <b>9</b>.
-</p>
+    
+    
+          3
+        / \
+       2   3
+        \   \ 
+         3   1
+    
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/dietpepsi">@dietpepsi</a> for adding this problem and creating all test cases.</p>
+Maximum amount of money the thief can rob = 3 \+ 3 \+ 1 = **7**.
+
+**Example 2:**  
+
+    
+    
+         3
+        / \
+        4   5
+      / \   \ 
+     1   3   1
+    
+
+Maximum amount of money the thief can rob = 4 \+ 5 = **9**.
+
+**Credits:**  
+Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
+for adding this problem and creating all test cases.
+
+
 Similar Questions:
   House Robber (house-robber)
   House Robber II (house-robber-ii)

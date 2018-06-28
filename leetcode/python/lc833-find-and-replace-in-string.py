@@ -4,43 +4,54 @@ import unittest
 """833. Find And Replace in String
 https://leetcode.com/problems/find-and-replace-in-string/description/
 
-<p>To some string <code>S</code>, we will perform some&nbsp;replacement&nbsp;operations that replace groups of letters with new ones (not necessarily the same size).</p>
+To some string `S`, we will perform some replacement operations that replace
+groups of letters with new ones (not necessarily the same size).
 
-<p>Each replacement operation has <code>3</code> parameters: a starting index <code>i</code>, a source word&nbsp;<code>x</code>&nbsp;and a target word&nbsp;<code>y</code>.&nbsp; The rule is that if <code><font face="monospace">x</font></code>&nbsp;starts at position <code>i</code>&nbsp;in the <strong>original</strong> <strong>string</strong> <strong><code>S</code></strong>, then we will replace that occurrence of&nbsp;<code>x</code>&nbsp;with&nbsp;<code>y</code>.&nbsp; If not, we do nothing.</p>
+Each replacement operation has `3` parameters: a starting index `i`, a source
+word `x` and a target word `y`.  The rule is that if `x` starts at position
+`i` in the **original** **string** **`S`** , then we will replace that
+occurrence of `x` with `y`.  If not, we do nothing.
 
-<p>For example, if we have&nbsp;<code>S = &quot;abcd&quot;</code>&nbsp;and we have some replacement operation&nbsp;<code>i = 2, x = &quot;cd&quot;, y = &quot;ffff&quot;</code>, then because&nbsp;<code>&quot;cd&quot;</code>&nbsp;starts at position <code><font face="monospace">2</font></code>&nbsp;in the original string <code>S</code>, we will replace it with <code>&quot;ffff&quot;</code>.</p>
+For example, if we have `S = "abcd"` and we have some replacement operation `i
+= 2, x = "cd", y = "ffff"`, then because `"cd"` starts at position `2` in the
+original string `S`, we will replace it with `"ffff"`.
 
-<p>Using another example on <code>S = &quot;abcd&quot;</code>, if we have both the replacement operation <code>i = 0, x = &quot;ab&quot;, y = &quot;eee&quot;</code>, as well as another replacement operation&nbsp;<code>i = 2, x = &quot;ec&quot;, y = &quot;ffff&quot;</code>, this second operation does nothing because in the original string&nbsp;<code>S[2] = &#39;c&#39;</code>, which doesn&#39;t match&nbsp;<code>x[0] = &#39;e&#39;</code>.</p>
+Using another example on `S = "abcd"`, if we have both the replacement
+operation `i = 0, x = "ab", y = "eee"`, as well as another replacement
+operation `i = 2, x = "ec", y = "ffff"`, this second operation does nothing
+because in the original string `S[2] = 'c'`, which doesn't match `x[0] = 'e'`.
 
-<p>All these operations occur simultaneously.&nbsp; It&#39;s guaranteed that there won&#39;t be any overlap in replacement: for example,&nbsp;<code>S = &quot;abc&quot;, indexes = [0, 1],&nbsp;sources = [&quot;ab&quot;,&quot;bc&quot;]</code> is not a valid test case.</p>
+All these operations occur simultaneously.  It's guaranteed that there won't
+be any overlap in replacement: for example, `S = "abc", indexes = [0, 1],
+sources = ["ab","bc"]` is not a valid test case.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;a&quot;,&quot;cd&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]
-<strong>Output: </strong>&quot;eeebffff&quot;
-<strong>Explanation:</strong> &quot;a&quot; starts at index 0 in S, so it&#39;s replaced by &quot;eee&quot;.
-&quot;cd&quot; starts at index 2 in S, so it&#39;s replaced by &quot;ffff&quot;.
-</pre>
+    
+    
+    **Input:** S = "abcd", indexes = [0,2], sources = ["a","cd"], targets = ["eee","ffff"]
+    **Output:** "eeebffff"
+    **Explanation:**  "a" starts at index 0 in S, so it's replaced by "eee".
+    "cd" starts at index 2 in S, so it's replaced by "ffff".
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;ab&quot;,&quot;ec&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]
-<strong>Output: </strong>&quot;eeecd&quot;
-<strong>Explanation:</strong> &quot;ab&quot; starts at index 0 in S, so it&#39;s replaced by &quot;eee&quot;. 
-&quot;ec&quot; doesn&#39;t starts at index 2 in the <strong>original</strong> S, so we do nothing.
-</pre>
+    
+    
+    **Input:** S = "abcd", indexes = [0,2], sources = ["ab","ec"], targets = ["eee","ffff"]
+    **Output:** "eeecd"
+    **Explanation:**  "ab" starts at index 0 in S, so it's replaced by "eee". 
+    "ec" doesn't starts at index 2 in the **original** S, so we do nothing.
+    
 
-<p>Notes:</p>
+Notes:
 
-<ol>
-	<li><code>0 &lt;=&nbsp;indexes.length =&nbsp;sources.length =&nbsp;targets.length &lt;= 100</code></li>
-	<li><code>0&nbsp;&lt;&nbsp;indexes[i]&nbsp;&lt; S.length &lt;= 1000</code></li>
-	<li>All characters in given inputs are lowercase letters.</li>
-</ol>
+  1. `0 <= indexes.length = sources.length = targets.length <= 100`
+  2. `0 < indexes[i] < S.length <= 1000`
+  3. All characters in given inputs are lowercase letters.
 
-<p>&nbsp;</p>
+
 Similar Questions:
 
 """

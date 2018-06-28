@@ -4,19 +4,21 @@ import unittest
 """23. Merge k Sorted Lists
 https://leetcode.com/problems/merge-k-sorted-lists/description/
 
-<p>Merge <em>k</em> sorted linked lists and return it as one sorted list. Analyze and describe its complexity.</p>
+Merge _k_ sorted linked lists and return it as one sorted list. Analyze and
+describe its complexity.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong>
-[
-&nbsp; 1-&gt;4-&gt;5,
-&nbsp; 1-&gt;3-&gt;4,
-&nbsp; 2-&gt;6
-]
-<strong>Output:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4-&gt;5-&gt;6
-</pre>
+    
+    
+    **Input:**
+    [
+       1->4->5,
+      1->3->4,
+      2->6
+    ]
+    **Output:** 1- >1->2->3->4->4->5->6
+
 
 Similar Questions:
   Merge Two Sorted Lists (merge-two-sorted-lists)

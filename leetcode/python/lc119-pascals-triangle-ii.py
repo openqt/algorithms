@@ -4,23 +4,27 @@ import unittest
 """119. Pascal's Triangle II
 https://leetcode.com/problems/pascals-triangle-ii/description/
 
-<p>Given a non-negative&nbsp;index <em>k</em>&nbsp;where <em>k</em> &le;&nbsp;33, return the <em>k</em><sup>th</sup>&nbsp;index row of the Pascal&#39;s triangle.</p>
+Given a non-negative index _k_  where _k_ ≤ 33, return the _k_ th index row of
+the Pascal's triangle.
 
-<p>Note that the row index starts from&nbsp;0.</p>
+Note that the row index starts from 0.
 
-<p><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif" /><br />
-<small>In Pascal&#39;s triangle, each number is the sum of the two numbers directly above it.</small></p>
+![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)  
+In Pascal's triangle, each number is the sum of the two numbers directly above
+it.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 3
-<strong>Output:</strong> [1,3,3,1]
-</pre>
+    
+    
+    **Input:** 3
+    **Output:** [1,3,3,1]
+    
 
-<p><strong>Follow up:</strong></p>
+**Follow up:**
 
-<p>Could you optimize your algorithm to use only <em>O</em>(<em>k</em>) extra space?</p>
+Could you optimize your algorithm to use only _O_ ( _k_ ) extra space?
+
 
 Similar Questions:
   Pascal's Triangle (pascals-triangle)

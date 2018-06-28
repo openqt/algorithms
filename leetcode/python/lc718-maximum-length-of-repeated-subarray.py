@@ -4,25 +4,27 @@ import unittest
 """718. Maximum Length of Repeated Subarray
 https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/
 
-<p>Given two integer arrays <code>A</code> and <code>B</code>, return the maximum length of an subarray that appears in both arrays.</p>
+Given two integer arrays `A` and `B`, return the maximum length of an subarray
+that appears in both arrays.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b>
-A: [1,2,3,2,1]
-B: [3,2,1,4,7]
-<b>Output:</b> 3
-<b>Explanation:</b> 
-The repeated subarray with maximum length is [3, 2, 1].
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Note:</b><br>
-<ol>
-<li>1 <= len(A), len(B) <= 1000</li>
-<li>0 <= A[i], B[i] < 100</li>
-</ol>
-</p>
+    
+    
+    **Input:**
+    A: [1,2,3,2,1]
+    B: [3,2,1,4,7]
+    **Output:** 3
+    **Explanation:** 
+    The repeated subarray with maximum length is [3, 2, 1].
+    
+
+**Note:**  
+
+  1. 1 <= len(A), len(B) <= 1000
+  2. 0 <= A[i], B[i] < 100
+
+
 Similar Questions:
   Minimum Size Subarray Sum (minimum-size-subarray-sum)
 """

@@ -4,49 +4,53 @@ import unittest
 """115. Distinct Subsequences
 https://leetcode.com/problems/distinct-subsequences/description/
 
-<p>Given a string <strong>S</strong> and a string <strong>T</strong>, count the number of distinct subsequences of <strong>S</strong> which equals <strong>T</strong>.</p>
+Given a string **S** and a string **T** , count the number of distinct
+subsequences of **S** which equals **T**.
 
-<p>A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, <code>&quot;ACE&quot;</code> is a subsequence of <code>&quot;ABCDE&quot;</code> while <code>&quot;AEC&quot;</code> is not).</p>
+A subsequence of a string is a new string which is formed from the original
+string by deleting some (can be none) of the characters without disturbing the
+relative positions of the remaining characters. (ie, `"ACE"` is a subsequence
+of `"ABCDE"` while `"AEC"` is not).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>S = <code>&quot;rabbbit&quot;</code>, T = <code>&quot;rabbit&quot;
-<strong>Output:</strong>&nbsp;3
-</code><strong>Explanation:
-</strong>
-As shown below, there are 3 ways you can generate &quot;rabbit&quot; from S.
-(The caret symbol ^ means the chosen letters)
+    
+    
+    **Input:** S = "rabbbit", T = "rabbit"
+    **Output:**  3
+    **Explanation:**
+    As shown below, there are 3 ways you can generate  "rabbit" from S.
+    (The caret symbol ^ means the chosen letters)
+    
+    rabbbit
+    ^^^^ ^^
+    rabbbit
+    ^^ ^^^^
+    rabbbit
+    ^^^ ^^^
+    
 
-<code>rabbbit</code>
-^^^^ ^^
-<code>rabbbit</code>
-^^ ^^^^
-<code>rabbbit</code>
-^^^ ^^^
-</pre>
+**Example 2:**
 
-<p><strong>Example 2:</strong></p>
+    
+    
+    **Input:** S = "babgbag", T = "bag"
+    **Output:**  5
+    **Explanation:**
+    As shown below, there are 5 ways you can generate  "bag" from S.
+    (The caret symbol ^ means the chosen letters)
+    
+    babgbag
+    ^^ ^
+    babgbag
+    ^^    ^
+    babgbag
+    ^    ^^
+    babgbag
+      ^  ^^
+    babgbag
+        ^^^
 
-<pre>
-<strong>Input: </strong>S = <code>&quot;babgbag&quot;</code>, T = <code>&quot;bag&quot;
-<strong>Output:</strong>&nbsp;5
-</code><strong>Explanation:
-</strong>
-As shown below, there are 5 ways you can generate &quot;bag&quot; from S.
-(The caret symbol ^ means the chosen letters)
-
-<code>babgbag</code>
-^^ ^
-<code>babgbag</code>
-^^    ^
-<code>babgbag</code>
-^    ^^
-<code>babgbag</code>
-  ^  ^^
-<code>babgbag</code>
-    ^^^
-</pre>
 
 Similar Questions:
 

@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "tree", 
+        "__typename": "TopicTagNode", 
         "name": "Tree"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "breadth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Breadth-first Search"
       }
     ], 

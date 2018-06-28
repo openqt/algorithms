@@ -4,21 +4,26 @@ import unittest
 """223. Rectangle Area
 https://leetcode.com/problems/rectangle-area/description/
 
-<p>Find the total area covered by two <strong>rectilinear</strong> rectangles in a <strong>2D</strong> plane.</p>
+Find the total area covered by two **rectilinear** rectangles in a **2D**
+plane.
 
-<p>Each rectangle is defined by its bottom left corner and top right corner as shown in the figure.</p>
+Each rectangle is defined by its bottom left corner and top right corner as
+shown in the figure.
 
-<p><img alt="Rectangle Area" src="/static/images/problemset/rectangle_area.png" /></p>
+![Rectangle Area](/static/images/problemset/rectangle_area.png)
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input: </strong>A = <span id="example-input-1-1">-3</span>, B = <span id="example-input-1-2">0</span>, C = <span id="example-input-1-3">3</span>, D = <span id="example-input-1-4">4</span>, E = <span id="example-input-1-5">0</span>, F = <span id="example-input-1-6">-1</span>, G = <span id="example-input-1-7">9</span>, H = <span id="example-input-1-8">2</span>
-<strong>Output: </strong><span id="example-output-1">45</span></pre>
+    
+    
+    **Input:** A = -3, B = 0, C = 3, D = 4, E = 0, F = -1, G = 9, H = 2
+    **Output:** 45
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<p>Assume that the total area is never beyond the maximum possible value of <strong>int</strong>.</p>
+Assume that the total area is never beyond the maximum possible value of
+**int**.
+
 
 Similar Questions:
   Rectangle Overlap (rectangle-overlap)

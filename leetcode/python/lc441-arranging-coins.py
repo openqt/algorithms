@@ -4,38 +4,44 @@ import unittest
 """441. Arranging Coins
 https://leetcode.com/problems/arranging-coins/description/
 
-<p>You have a total of <i>n</i> coins that you want to form in a staircase shape, where every <i>k</i>-th row must have exactly <i>k</i> coins.</p>
- 
-<p>Given <i>n</i>, find the total number of <b>full</b> staircase rows that can be formed.</p>
+You have a total of _n_ coins that you want to form in a staircase shape,
+where every _k_ -th row must have exactly _k_ coins.
 
-<p><i>n</i> is a non-negative integer and fits within the range of a 32-bit signed integer.</p>
+Given _n_ , find the total number of **full** staircase rows that can be
+formed.
 
-<p><b>Example 1:</b>
-<pre>
-n = 5
+_n_ is a non-negative integer and fits within the range of a 32-bit signed
+integer.
 
-The coins can form the following rows:
-¤
-¤ ¤
-¤ ¤
+**Example 1:**
 
-Because the 3rd row is incomplete, we return 2.
-</pre>
-</p>
+    
+    
+    n = 5
+    
+    The coins can form the following rows:
+    ¤
+    ¤ ¤
+    ¤ ¤
+    
+    Because the 3rd row is incomplete, we return 2.
+    
 
-<p><b>Example 2:</b>
-<pre>
-n = 8
+**Example 2:**
 
-The coins can form the following rows:
-¤
-¤ ¤
-¤ ¤ ¤
-¤ ¤
+    
+    
+    n = 8
+    
+    The coins can form the following rows:
+    ¤
+    ¤ ¤
+    ¤ ¤ ¤
+    ¤ ¤
+    
+    Because the 4th row is incomplete, we return 3.
 
-Because the 4th row is incomplete, we return 3.
-</pre>
-</p>
+
 Similar Questions:
 
 """

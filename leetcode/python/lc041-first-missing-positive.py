@@ -4,32 +4,36 @@ import unittest
 """41. First Missing Positive
 https://leetcode.com/problems/first-missing-positive/description/
 
-<p>Given an unsorted integer array, find the smallest missing&nbsp;positive integer.</p>
+Given an unsorted integer array, find the smallest missing positive integer.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-Input: [1,2,0]
-Output: 3
-</pre>
+    
+    
+    Input: [1,2,0]
+    Output: 3
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-Input: [3,4,-1,1]
-Output: 2
-</pre>
+    
+    
+    Input: [3,4,-1,1]
+    Output: 2
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-Input: [7,8,9,11,12]
-Output: 1
-</pre>
+    
+    
+    Input: [7,8,9,11,12]
+    Output: 1
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<p>Your algorithm should run in <em>O</em>(<em>n</em>) time and uses constant extra space.</p>
+Your algorithm should run in _O_ ( _n_ ) time and uses constant extra space.
+
 
 Similar Questions:
   Missing Number (missing-number)

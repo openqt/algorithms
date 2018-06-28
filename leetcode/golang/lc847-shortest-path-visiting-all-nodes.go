@@ -7,40 +7,43 @@ import (
 /*847. Shortest Path Visiting All Nodes
 https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/
 
-<p>An undirected, connected graph of N nodes (labeled&nbsp;<code>0, 1, 2, ..., N-1</code>) is given as <code>graph</code>.</p>
+An undirected, connected graph of N nodes (labeled `0, 1, 2, ..., N-1`) is
+given as `graph`.
 
-<p><code>graph.length = N</code>, and <code>j != i</code>&nbsp;is in the list&nbsp;<code>graph[i]</code>&nbsp;exactly once, if and only if nodes <code>i</code> and <code>j</code> are connected.</p>
+`graph.length = N`, and `j != i` is in the list `graph[i]` exactly once, if
+and only if nodes `i` and `j` are connected.
 
-<p>Return the length of the shortest path that visits every node. You may start and stop at any node, you may revisit nodes multiple times, and you may reuse edges.</p>
+Return the length of the shortest path that visits every node. You may start
+and stop at any node, you may revisit nodes multiple times, and you may reuse
+edges.
 
-<p>&nbsp;</p>
 
-<ol>
-</ol>
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>[[1,2,3],[0],[0],[0]]
-<strong>Output: </strong>4
-<strong>Explanation</strong>: One possible path is [1,0,2,0,3]</pre>
+    
+    
+    **Input:** [[1,2,3],[0],[0],[0]]
+    **Output:** 4
+    **Explanation** : One possible path is [1,0,2,0,3]
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>[[1],[0,2,4],[1,3,4],[2],[1,2]]
-<strong>Output: </strong>4
-<strong>Explanation</strong>: One possible path is [0,1,4,2,3]
-</pre>
+    
+    
+    **Input:** [[1],[0,2,4],[1,3,4],[2],[1,2]]
+    **Output:** 4
+    **Explanation** : One possible path is [0,1,4,2,3]
+    
 
-<p>&nbsp;</p>
 
-<p><strong>Note:</strong></p>
 
-<ol>
-	<li><code>1 &lt;= graph.length &lt;= 12</code></li>
-	<li><code>0 &lt;= graph[i].length &lt;&nbsp;graph.length</code></li>
-</ol>
+**Note:**
+
+  1. `1 <= graph.length <= 12`
+  2. `0 <= graph[i].length < graph.length`
+
+
 Similar Questions:
 
 */

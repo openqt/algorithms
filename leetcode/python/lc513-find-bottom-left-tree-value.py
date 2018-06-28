@@ -4,43 +4,43 @@ import unittest
 """513. Find Bottom Left Tree Value
 https://leetcode.com/problems/find-bottom-left-tree-value/description/
 
-<p>
-Given a binary tree, find the leftmost value in the last row of the tree. 
-</p>
+Given a binary tree, find the leftmost value in the last row of the tree.
 
-<p><b>Example 1:</b><br />
-<pre>
-Input:
+**Example 1:**  
 
-    2
-   / \
-  1   3
-
-Output:
-1
-</pre>
-</p>
-
-<p> <b> Example 2: </b><br>
-<pre>
-Input:
-
-        1
+    
+    
+    Input:
+    
+        2
        / \
-      2   3
-     /   / \
-    4   5   6
-       /
-      7
+      1   3
+    
+    Output:
+    1
+    
 
-Output:
-7
-</pre>
-</p>
+**Example 2:**  
 
-<p><b>Note:</b>
-You may assume the tree (i.e., the given root node) is not <b>NULL</b>.
-</p>
+    
+    
+    Input:
+    
+            1
+           / \
+          2   3
+         /   / \
+        4   5   6
+           /
+          7
+    
+    Output:
+    7
+    
+
+**Note:** You may assume the tree (i.e., the given root node) is not **NULL**.
+
+
 Similar Questions:
 
 """

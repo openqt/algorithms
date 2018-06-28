@@ -7,30 +7,33 @@ import (
 /*52. N-Queens II
 https://leetcode.com/problems/n-queens-ii/description/
 
-<p>The <em>n</em>-queens puzzle is the problem of placing <em>n</em> queens on an <em>n</em>&times;<em>n</em> chessboard such that no two queens attack each other.</p>
+The _n_ -queens puzzle is the problem of placing _n_ queens on an _n_ × _n_
+chessboard such that no two queens attack each other.
 
-<p><img src="https://leetcode.com/static/images/problemset/8-queens.png" /></p>
+![](https://leetcode.com/static/images/problemset/8-queens.png)
 
-<p>Given an integer&nbsp;<em>n</em>, return the number of&nbsp;distinct solutions to the&nbsp;<em>n</em>-queens puzzle.</p>
+Given an integer  _n_ , return the number of distinct solutions to the  _n_
+-queens puzzle.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 4
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> There are two distinct solutions to the 4-queens puzzle as shown below.
-[
-&nbsp;[&quot;.Q..&quot;, &nbsp;// Solution 1
-&nbsp; &quot;...Q&quot;,
-&nbsp; &quot;Q...&quot;,
-&nbsp; &quot;..Q.&quot;],
+    
+    
+    **Input:** 4
+    **Output:** 2
+    **Explanation:** There are two distinct solutions to the 4-queens puzzle as shown below.
+    [
+      [".Q..",  // Solution 1
+      "...Q",
+      "Q...",
+      "..Q."],
+    
+     ["..Q.",  // Solution 2
+      "Q...",
+      "...Q",
+      ".Q.."]
+    ]
 
-&nbsp;[&quot;..Q.&quot;, &nbsp;// Solution 2
-&nbsp; &quot;Q...&quot;,
-&nbsp; &quot;...Q&quot;,
-&nbsp; &quot;.Q..&quot;]
-]
-</pre>
 
 Similar Questions:
   N-Queens (n-queens)

@@ -7,48 +7,46 @@ import (
 /*845. Longest Mountain in Array
 https://leetcode.com/problems/longest-mountain-in-array/description/
 
-<p>Let&#39;s call any (contiguous) subarray B (of A)&nbsp;a <em>mountain</em> if the following properties hold:</p>
+Let's call any (contiguous) subarray B (of A) a _mountain_ if the following
+properties hold:
 
-<ul>
-	<li><code>B.length &gt;= 3</code></li>
-	<li>There exists some <code>0 &lt; i&nbsp;&lt; B.length - 1</code> such that <code>B[0] &lt; B[1] &lt; ... B[i-1] &lt; B[i] &gt; B[i+1] &gt; ... &gt; B[B.length - 1]</code></li>
-</ul>
+  * `B.length >= 3`
+  * There exists some `0 < i < B.length - 1` such that `B[0] < B[1] < ... B[i-1] < B[i] > B[i+1] > ... > B[B.length - 1]`
 
-<p>(Note that B could be any subarray of A, including the entire array A.)</p>
+(Note that B could be any subarray of A, including the entire array A.)
 
-<p>Given an array <code>A</code>&nbsp;of integers,&nbsp;return the length of the longest&nbsp;<em>mountain</em>.&nbsp;</p>
+Given an array `A` of integers, return the length of the longest  _mountain_.  
 
-<p>Return <code>0</code> if there is no mountain.</p>
+Return `0` if there is no mountain.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>[2,1,4,7,3,2,5]
-<strong>Output: </strong>5
-<strong>Explanation: </strong>The largest mountain is [1,4,7,3,2] which has length 5.
-</pre>
+    
+    
+    **Input:** [2,1,4,7,3,2,5]
+    **Output:** 5
+    **Explanation:** The largest mountain is [1,4,7,3,2] which has length 5.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>[2,2,2]
-<strong>Output: </strong>0
-<strong>Explanation: </strong>There is no mountain.
-</pre>
+    
+    
+    **Input:** [2,2,2]
+    **Output:** 0
+    **Explanation:** There is no mountain.
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ol>
-	<li><code>0 &lt;= A.length &lt;= 10000</code></li>
-	<li><code>0 &lt;= A[i] &lt;= 10000</code></li>
-</ol>
+  1. `0 <= A.length <= 10000`
+  2. `0 <= A[i] <= 10000`
 
-<p><strong>Follow up:</strong></p>
+**Follow up:**
 
-<ul>
-	<li>Can you solve it using only one pass?</li>
-	<li>Can you solve it in <code>O(1)</code> space?</li>
-</ul>
+  * Can you solve it using only one pass?
+  * Can you solve it in `O(1)` space?
+
 
 Similar Questions:
 

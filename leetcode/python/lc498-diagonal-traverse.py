@@ -4,29 +4,29 @@ import unittest
 """498. Diagonal Traverse
 https://leetcode.com/problems/diagonal-traverse/description/
 
-<p>
-Given a matrix of M x N elements (M rows, N columns), return all elements of the matrix in diagonal order as shown in the below image. 
-</p>
+Given a matrix of M x N elements (M rows, N columns), return all elements of
+the matrix in diagonal order as shown in the below image.
 
-<p><b>Example:</b><br />
-<pre>
-<b>Input:</b>
-[
- [ 1, 2, 3 ],
- [ 4, 5, 6 ],
- [ 7, 8, 9 ]
-]
-<b>Output:</b>  [1,2,4,7,5,3,6,8,9]
-<b>Explanation:</b>
-<img src="/static/images/problemset/diagonal_traverse.png" width = "20%" />
-</pre>
-</p>
+**Example:**  
 
-<p><b>Note:</b><br>
-<ol>
-<li>The total number of elements of the given matrix will not exceed 10,000.</li>
-</ol>
-</p>
+    
+    
+    **Input:**
+    [
+     [ 1, 2, 3 ],
+     [ 4, 5, 6 ],
+     [ 7, 8, 9 ]
+    ]
+    **Output:**  [1,2,4,7,5,3,6,8,9]
+    **Explanation:**
+    ![](/static/images/problemset/diagonal_traverse.png)
+    
+
+**Note:**  
+
+  1. The total number of elements of the given matrix will not exceed 10,000.
+
+
 Similar Questions:
 
 """

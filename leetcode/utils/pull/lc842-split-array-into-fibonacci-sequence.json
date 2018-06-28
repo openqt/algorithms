@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "string", 
+        "__typename": "TopicTagNode", 
         "name": "String"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "backtracking", 
+        "__typename": "TopicTagNode", 
         "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "greedy", 
+        "__typename": "TopicTagNode", 
         "name": "Greedy"
       }
     ], 

@@ -7,30 +7,35 @@ import (
 /*368. Largest Divisible Subset
 https://leetcode.com/problems/largest-divisible-subset/description/
 
-<p>
-Given a set of <b>distinct</b> positive integers, find the largest subset such that every pair (S<sub>i</sub>, S<sub>j</sub>) of elements in this subset satisfies: S<sub>i</sub> % S<sub>j</sub> = 0 or S<sub>j</sub> % S<sub>i</sub> = 0.
-</p>
+Given a set of **distinct** positive integers, find the largest subset such
+that every pair (S i, Sj) of elements in this subset satisfies: Si % Sj = 0 or
+Sj % Si = 0.
 
-<p>If there are multiple solutions, return any subset is fine.
-</p>
+If there are multiple solutions, return any subset is fine.
 
-<p><b>Example 1:</b>
-<pre>
-nums: [1,2,3]
+**Example 1:**
 
-Result: [1,2] (of course, [1,3] will also be ok)
-</pre>
-</p>
+    
+    
+    nums: [1,2,3]
+    
+    Result: [1,2] (of course, [1,3] will also be ok)
+    
 
-<p><b>Example 2:</b>
-<pre>
-nums: [1,2,4,8]
+**Example 2:**
 
-Result: [1,2,4,8]
-</pre>
-</p>
+    
+    
+    nums: [1,2,4,8]
+    
+    Result: [1,2,4,8]
+    
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/stomach_ache">@Stomach_ache</a> for adding this problem and creating all test cases.</p>
+**Credits:**  
+Special thanks to [@Stomach_ache](https://leetcode.com/stomach_ache) for
+adding this problem and creating all test cases.
+
+
 Similar Questions:
 
 */

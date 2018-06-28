@@ -4,47 +4,49 @@ import unittest
 """794. Valid Tic-Tac-Toe State
 https://leetcode.com/problems/valid-tic-tac-toe-state/description/
 
-<p>A Tic-Tac-Toe board is given as a string array <code>board</code>. Return True if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.</p>
+A Tic-Tac-Toe board is given as a string array `board`. Return True if and
+only if it is possible to reach this board position during the course of a
+valid tic-tac-toe game.
 
-<p>The <code>board</code> is a 3 x 3 array, and consists of characters <code>&quot; &quot;</code>, <code>&quot;X&quot;</code>, and <code>&quot;O&quot;</code>.&nbsp; The &quot; &quot; character represents an empty square.</p>
+The `board` is a 3 x 3 array, and consists of characters `" "`, `"X"`, and
+`"O"`.  The " " character represents an empty square.
 
-<p>Here are the rules of Tic-Tac-Toe:</p>
+Here are the rules of Tic-Tac-Toe:
 
-<ul>
-	<li>Players take turns placing characters into empty squares (&quot; &quot;).</li>
-	<li>The first player always places &quot;X&quot; characters, while the second player always places &quot;O&quot; characters.</li>
-	<li>&quot;X&quot; and &quot;O&quot; characters are always placed into empty squares, never filled ones.</li>
-	<li>The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.</li>
-	<li>The game also ends if all squares are non-empty.</li>
-	<li>No more moves can be played if the game is over.</li>
-</ul>
+  * Players take turns placing characters into empty squares (" ").
+  * The first player always places "X" characters, while the second player always places "O" characters.
+  * "X" and "O" characters are always placed into empty squares, never filled ones.
+  * The game ends when there are 3 of the same (non-empty) character filling any row, column, or diagonal.
+  * The game also ends if all squares are non-empty.
+  * No more moves can be played if the game is over.
 
-<pre>
-<strong>Example 1:</strong>
-<strong>Input:</strong> board = [&quot;O&nbsp; &quot;, &quot;&nbsp; &nbsp;&quot;, &quot;&nbsp; &nbsp;&quot;]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The first player always plays &quot;X&quot;.
+    
+    
+    **Example 1:**
+    **Input:** board = [ "O  ", "   ", "   "]
+    **Output:** false
+    **Explanation:** The first player always plays  "X".
+    
+    **Example 2:**
+    **Input:** board = [ "XOX", " X ", "   "]
+    **Output:** false
+    **Explanation:** Players take turns making moves.
+    
+    **Example 3:**
+    **Input:** board = [ "XXX", "   ", "OOO"]
+    **Output:** false
+    
+    **Example 4:**
+    **Input:** board = [ "XOX", "O O", "XOX"]
+    **Output:** true
+    
 
-<strong>Example 2:</strong>
-<strong>Input:</strong> board = [&quot;XOX&quot;, &quot; X &quot;, &quot;   &quot;]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> Players take turns making moves.
+**Note:**
 
-<strong>Example 3:</strong>
-<strong>Input:</strong> board = [&quot;XXX&quot;, &quot;   &quot;, &quot;OOO&quot;]
-<strong>Output:</strong> false
+  * `board` is a length-3 array of strings, where each string `board[i]` has length 3.
+  * Each `board[i][j]` is a character in the set `{" ", "X", "O"}`.
 
-<strong>Example 4:</strong>
-<strong>Input:</strong> board = [&quot;XOX&quot;, &quot;O O&quot;, &quot;XOX&quot;]
-<strong>Output:</strong> true
-</pre>
 
-<p><strong>Note:</strong></p>
-
-<ul>
-	<li><code>board</code> is a length-3 array of strings, where each string <code>board[i]</code> has length 3.</li>
-	<li>Each <code>board[i][j]</code> is a character in the set <code>{&quot; &quot;, &quot;X&quot;, &quot;O&quot;}</code>.</li>
-</ul>
 Similar Questions:
   Design Tic-Tac-Toe (design-tic-tac-toe)
 """

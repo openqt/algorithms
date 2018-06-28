@@ -4,30 +4,38 @@ import unittest
 """839. Similar String Groups
 https://leetcode.com/problems/similar-string-groups/description/
 
-<p>Two strings <code>X</code>&nbsp;and <code>Y</code>&nbsp;are similar if we can swap two letters (in different positions) of <code>X</code>, so that&nbsp;it equals <code>Y</code>.</p>
+Two strings `X` and `Y` are similar if we can swap two letters (in different
+positions) of `X`, so that it equals `Y`.
 
-<p>For example, <code>&quot;tars&quot;</code>&nbsp;and <code>&quot;rats&quot;</code>&nbsp;are similar (swapping at positions <code>0</code> and <code>2</code>), and <code>&quot;rats&quot;</code> and <code>&quot;arts&quot;</code> are similar, but <code>&quot;star&quot;</code> is not similar to <code>&quot;tars&quot;</code>, <code>&quot;rats&quot;</code>, or <code>&quot;arts&quot;</code>.</p>
+For example, `"tars"` and `"rats"` are similar (swapping at positions `0` and
+`2`), and `"rats"` and `"arts"` are similar, but `"star"` is not similar to
+`"tars"`, `"rats"`, or `"arts"`.
 
-<p>Together, these form two connected groups by similarity: <code>{&quot;tars&quot;, &quot;rats&quot;, &quot;arts&quot;}</code> and <code>{&quot;star&quot;}</code>.&nbsp; Notice that <code>&quot;tars&quot;</code> and <code>&quot;arts&quot;</code> are in the same group even though they are not similar.&nbsp; Formally, each group is such that a word is in the group if and only if it is similar to at least one other word in the group.</p>
+Together, these form two connected groups by similarity: `{"tars", "rats",
+"arts"}` and `{"star"}`.  Notice that `"tars"` and `"arts"` are in the same
+group even though they are not similar.  Formally, each group is such that a
+word is in the group if and only if it is similar to at least one other word
+in the group.
 
-<p>We are given a list <code>A</code> of strings.&nbsp; Every string in <code>A</code> is an anagram of every other string in <code>A</code>.&nbsp; How many groups are there?</p>
+We are given a list `A` of strings.  Every string in `A` is an anagram of
+every other string in `A`.  How many groups are there?
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>[&quot;tars&quot;,&quot;rats&quot;,&quot;arts&quot;,&quot;star&quot;]
-<strong>Output: </strong>2</pre>
+    
+    
+    **Input:** ["tars","rats","arts","star"]
+    **Output:** 2
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ol>
-	<li><code>A.length &lt;= 2000</code></li>
-	<li><code>A[i].length &lt;= 1000</code></li>
-	<li><code>A.length * A[i].length &lt;= 20000</code></li>
-	<li>All words in <code>A</code>&nbsp;consist of lowercase letters only.</li>
-	<li>All words in <code>A</code> have the same length and are anagrams of each other.</li>
-	<li>The judging time limit has been increased for this question.</li>
-</ol>
+  1. `A.length <= 2000`
+  2. `A[i].length <= 1000`
+  3. `A.length * A[i].length <= 20000`
+  4. All words in `A` consist of lowercase letters only.
+  5. All words in `A` have the same length and are anagrams of each other.
+  6. The judging time limit has been increased for this question.
+
 
 Similar Questions:
 

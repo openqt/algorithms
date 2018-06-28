@@ -4,28 +4,33 @@ import unittest
 """390. Elimination Game
 https://leetcode.com/problems/elimination-game/description/
 
-<p>
-There is a list of sorted integers from 1 to <i>n</i>. Starting from left to right, remove the first number and every other number afterward until you reach the end of the list.</p>
+There is a list of sorted integers from 1 to _n_. Starting from left to right,
+remove the first number and every other number afterward until you reach the
+end of the list.
 
-<p>Repeat the previous step again, but this time from right to left, remove the right most number and every other number from the remaining numbers.</p>
+Repeat the previous step again, but this time from right to left, remove the
+right most number and every other number from the remaining numbers.
 
-<p>We keep repeating the steps again, alternating left to right and right to left, until a single number remains.</p>
+We keep repeating the steps again, alternating left to right and right to
+left, until a single number remains.
 
-<p>Find the last number that remains starting with a list of length <i>n</i>.</p>
+Find the last number that remains starting with a list of length _n_.
 
-<p><b>Example:</b>
-<pre>
-Input:
-n = 9,
-<u>1</u> 2 <u>3</u> 4 <u>5</u> 6 <u>7</u> 8 <u>9</u>
-2 <u>4</u> 6 <u>8</u>
-<u>2</u> 6
-6
+**Example:**
 
-Output:
-6
-</pre>
-</p>
+    
+    
+    Input:
+    n = 9,
+    _1_ 2 _3_ 4 _5_ 6 _7_ 8 _9_
+    2 _4_ 6 _8_
+    _2_ 6
+    6
+    
+    Output:
+    6
+
+
 Similar Questions:
 
 """

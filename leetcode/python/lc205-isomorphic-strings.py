@@ -4,33 +4,40 @@ import unittest
 """205. Isomorphic Strings
 https://leetcode.com/problems/isomorphic-strings/description/
 
-<p>Given two strings <b><i>s</i></b> and <b><i>t</i></b>, determine if they are isomorphic.</p>
+Given two strings **_s_** and **_t_** , determine if they are isomorphic.
 
-<p>Two strings are isomorphic if the characters in <b><i>s</i></b> can be replaced to get <b><i>t</i></b>.</p>
+Two strings are isomorphic if the characters in **_s_** can be replaced to get
+**_t_**.
 
-<p>All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character but a character may map to itself.</p>
+All occurrences of a character must be replaced with another character while
+preserving the order of characters. No two characters may map to the same
+character but a character may map to itself.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> <b><i>s</i></b> = <code>&quot;egg&quot;, </code><b><i>t = </i></b><code>&quot;add&quot;</code>
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:** **_s_** = "egg", **_t =_**"add"
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> <b><i>s</i></b> = <code>&quot;foo&quot;, </code><b><i>t = </i></b><code>&quot;bar&quot;</code>
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** **_s_** = "foo", **_t =_**"bar"
+    **Output:** false
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> <b><i>s</i></b> = <code>&quot;paper&quot;, </code><b><i>t = </i></b><code>&quot;title&quot;</code>
-<strong>Output:</strong> true</pre>
+    
+    
+    **Input:** **_s_** = "paper", **_t =_**"title"
+    **Output:** true
 
-<p><b>Note:</b><br />
-You may assume both <b><i>s&nbsp;</i></b>and <b><i>t&nbsp;</i></b>have the same length.</p>
+**Note:**  
+You may assume both **_s  _**and **_t  _**have the same length.
+
 
 Similar Questions:
   Word Pattern (word-pattern)

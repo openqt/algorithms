@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "array", 
+        "__typename": "TopicTagNode", 
         "name": "Array"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "math", 
+        "__typename": "TopicTagNode", 
         "name": "Math"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
+        "__typename": "TopicTagNode", 
         "name": "Bit Manipulation"
       }
     ], 

@@ -7,22 +7,26 @@ import (
 /*169. Majority Element
 https://leetcode.com/problems/majority-element/description/
 
-<p>Given an array of size <i>n</i>, find the majority element. The majority element is the element that appears <b>more than</b> <code>&lfloor; n/2 &rfloor;</code> times.</p>
+Given an array of size _n_ , find the majority element. The majority element
+is the element that appears **more than** `⌊ n/2 ⌋` times.
 
-<p>You may assume that the array is non-empty and the majority element always exist in the array.</p>
+You may assume that the array is non-empty and the majority element always
+exist in the array.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [3,2,3]
-<strong>Output:</strong> 3</pre>
+    
+    
+    **Input:** [3,2,3]
+    **Output:** 3
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [2,2,1,1,1,2,2]
-<strong>Output:</strong> 2
-</pre>
+    
+    
+    **Input:** [2,2,1,1,1,2,2]
+    **Output:** 2
+
 
 Similar Questions:
   Majority Element II (majority-element-ii)

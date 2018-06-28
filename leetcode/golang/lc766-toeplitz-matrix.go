@@ -7,56 +7,55 @@ import (
 /*766. Toeplitz Matrix
 https://leetcode.com/problems/toeplitz-matrix/description/
 
-<p>A matrix is <em>Toeplitz</em> if every diagonal from top-left to bottom-right has the same element.</p>
+A matrix is _Toeplitz_ if every diagonal from top-left to bottom-right has the
+same element.
 
-<p>Now given an <code>M x N</code> matrix, return&nbsp;<code>True</code>&nbsp;if and only if the matrix is <em>Toeplitz</em>.<br />
-&nbsp;</p>
+Now given an `M x N` matrix, return `True` if and only if the matrix is
+_Toeplitz_.  
 
-<p><strong>Example 1:</strong></p>
 
-<pre>
-<strong>Input:
-</strong>matrix = [
-&nbsp; [1,2,3,4],
-&nbsp; [5,1,2,3],
-&nbsp; [9,5,1,2]
-]
-<strong>Output:</strong> True
-<strong>Explanation:</strong>
-In the above grid, the&nbsp;diagonals are:
-&quot;[9]&quot;, &quot;[5, 5]&quot;, &quot;[1, 1, 1]&quot;, &quot;[2, 2, 2]&quot;, &quot;[3, 3]&quot;, &quot;[4]&quot;.
-In each diagonal all elements are the same, so the answer is True.
-</pre>
+**Example 1:**
 
-<p><strong>Example 2:</strong></p>
+    
+    
+    **Input:** matrix = [
+      [1,2,3,4],
+      [5,1,2,3],
+      [9,5,1,2]
+    ]
+    **Output:** True
+    **Explanation:**
+    In the above grid, the  diagonals are:
+    "[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
+    In each diagonal all elements are the same, so the answer is True.
+    
 
-<pre>
-<strong>Input:
-</strong>matrix = [
-&nbsp; [1,2],
-&nbsp; [2,2]
-]
-<strong>Output:</strong> False
-<strong>Explanation:</strong>
-The diagonal &quot;[1, 2]&quot; has different elements.
-</pre>
+**Example 2:**
 
-<p><br />
-<strong>Note:</strong></p>
+    
+    
+    **Input:** matrix = [
+      [1,2],
+      [2,2]
+    ]
+    **Output:** False
+    **Explanation:**
+    The diagonal  "[1, 2]" has different elements.
+    
 
-<ol>
-	<li><code>matrix</code> will be a 2D array of integers.</li>
-	<li><code>matrix</code> will have a number of rows and columns in range <code>[1, 20]</code>.</li>
-	<li><code>matrix[i][j]</code> will be integers in range <code>[0, 99]</code>.</li>
-</ol>
+  
+**Note:**
 
-<p><br />
-<strong>Follow up:</strong></p>
+  1. `matrix` will be a 2D array of integers.
+  2. `matrix` will have a number of rows and columns in range `[1, 20]`.
+  3. `matrix[i][j]` will be integers in range `[0, 99]`.
 
-<ol>
-	<li>What if the matrix is stored on disk, and the memory is limited such that you can only load at most one row of the matrix into the memory at once?</li>
-	<li>What if the matrix is so large that you can only load up a partial row into the memory at once?</li>
-</ol>
+  
+**Follow up:**
+
+  1. What if the matrix is stored on disk, and the memory is limited such that you can only load at most one row of the matrix into the memory at once?
+  2. What if the matrix is so large that you can only load up a partial row into the memory at once?
+
 
 Similar Questions:
   Valid Word Square (valid-word-square)

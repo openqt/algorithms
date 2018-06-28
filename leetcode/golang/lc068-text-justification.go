@@ -7,70 +7,78 @@ import (
 /*68. Text Justification
 https://leetcode.com/problems/text-justification/description/
 
-<p>Given an array of words and a width&nbsp;<em>maxWidth</em>, format the text such that each line has exactly <em>maxWidth</em> characters and is fully (left and right) justified.</p>
+Given an array of words and a width  _maxWidth_ , format the text such that
+each line has exactly _maxWidth_ characters and is fully (left and right)
+justified.
 
-<p>You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra spaces <code>&#39; &#39;</code> when necessary so that each line has exactly <em>maxWidth</em> characters.</p>
+You should pack your words in a greedy approach; that is, pack as many words
+as you can in each line. Pad extra spaces `' '` when necessary so that each
+line has exactly _maxWidth_ characters.
 
-<p>Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.</p>
+Extra spaces between words should be distributed as evenly as possible. If the
+number of spaces on a line do not divide evenly between words, the empty slots
+on the left will be assigned more spaces than the slots on the right.
 
-<p>For the last line of text, it should be left justified and no <strong>extra</strong> space is inserted between words.</p>
+For the last line of text, it should be left justified and no **extra** space
+is inserted between words.
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>A word is defined as a character sequence consisting&nbsp;of non-space characters only.</li>
-	<li>Each word&#39;s length is&nbsp;guaranteed to be greater than 0 and not exceed <em>maxWidth</em>.</li>
-	<li>The input array <code>words</code>&nbsp;contains at least one word.</li>
-</ul>
+  * A word is defined as a character sequence consisting of non-space characters only.
+  * Each word's length is guaranteed to be greater than 0 and not exceed _maxWidth_.
+  * The input array `words` contains at least one word.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong>
-words = [&quot;This&quot;, &quot;is&quot;, &quot;an&quot;, &quot;example&quot;, &quot;of&quot;, &quot;text&quot;, &quot;justification.&quot;]
-maxWidth = 16
-<strong>Output:</strong>
-[
-&nbsp; &nbsp;&quot;This &nbsp; &nbsp;is &nbsp; &nbsp;an&quot;,
-&nbsp; &nbsp;&quot;example &nbsp;of text&quot;,
-&nbsp; &nbsp;&quot;justification. &nbsp;&quot;
-]
-</pre>
+    
+    
+    **Input:**
+    words = [ "This", "is", "an", "example", "of", "text", "justification."]
+    maxWidth = 16
+    **Output:**
+    [
+        "This    is    an",
+       "example  of text",
+       "justification.  "
+    ]
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong>
-words = [&quot;What&quot;,&quot;must&quot;,&quot;be&quot;,&quot;acknowledgment&quot;,&quot;shall&quot;,&quot;be&quot;]
-maxWidth = 16
-<strong>Output:</strong>
-[
-&nbsp; &quot;What &nbsp; must &nbsp; be&quot;,
-&nbsp; &quot;acknowledgment &nbsp;&quot;,
-&nbsp; &quot;shall be &nbsp; &nbsp; &nbsp; &nbsp;&quot;
-]
-<strong>Explanation:</strong> Note that the last line is &quot;shall be    &quot; instead of &quot;shall     be&quot;,
-&nbsp;            because the last line must be left-justified instead of fully-justified.
-             Note that the second line is also left-justified becase it contains only one word.
-</pre>
+    
+    
+    **Input:**
+    words = [ "What","must","be","acknowledgment","shall","be"]
+    maxWidth = 16
+    **Output:**
+    [
+       "What   must   be",
+      "acknowledgment  ",
+      "shall be        "
+    ]
+    **Explanation:** Note that the last line is  "shall be    " instead of "shall     be",
+                 because the last line must be left-justified instead of fully-justified.
+                 Note that the second line is also left-justified becase it contains only one word.
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong>
-words = [&quot;Science&quot;,&quot;is&quot;,&quot;what&quot;,&quot;we&quot;,&quot;understand&quot;,&quot;well&quot;,&quot;enough&quot;,&quot;to&quot;,&quot;explain&quot;,
-&nbsp;        &quot;to&quot;,&quot;a&quot;,&quot;computer.&quot;,&quot;Art&quot;,&quot;is&quot;,&quot;everything&quot;,&quot;else&quot;,&quot;we&quot;,&quot;do&quot;]
-maxWidth = 20
-<strong>Output:</strong>
-[
-&nbsp; &quot;Science &nbsp;is &nbsp;what we&quot;,
-  &quot;understand &nbsp; &nbsp; &nbsp;well&quot;,
-&nbsp; &quot;enough to explain to&quot;,
-&nbsp; &quot;a &nbsp;computer. &nbsp;Art is&quot;,
-&nbsp; &quot;everything &nbsp;else &nbsp;we&quot;,
-&nbsp; &quot;do &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;
-]
-</pre>
+    
+    
+    **Input:**
+    words = [ "Science","is","what","we","understand","well","enough","to","explain",
+             "to","a","computer.","Art","is","everything","else","we","do"]
+    maxWidth = 20
+    **Output:**
+    [
+       "Science  is  what we",
+      "understand      well",
+      "enough to explain to",
+      "a  computer.  Art is",
+      "everything  else  we",
+      "do                  "
+    ]
+
 
 Similar Questions:
 

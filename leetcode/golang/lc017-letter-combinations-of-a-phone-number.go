@@ -7,22 +7,28 @@ import (
 /*17. Letter Combinations of a Phone Number
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
 
-<p>Given a string containing digits from <code>2-9</code> inclusive, return all possible letter combinations that the number could represent.</p>
+Given a string containing digits from `2-9` inclusive, return all possible
+letter combinations that the number could represent.
 
-<p>A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.</p>
+A mapping of digit to letters (just like on the telephone buttons) is given
+below. Note that 1 does not map to any letters.
 
-<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png" /></p>
+![](http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-
+keypad2.svg/200px-Telephone-keypad2.svg.png)
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input: </strong>&quot;23&quot;
-<strong>Output:</strong> [&quot;ad&quot;, &quot;ae&quot;, &quot;af&quot;, &quot;bd&quot;, &quot;be&quot;, &quot;bf&quot;, &quot;cd&quot;, &quot;ce&quot;, &quot;cf&quot;].
-</pre>
+    
+    
+    **Input:** "23"
+    **Output:** [ "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<p>Although the above answer is in lexicographical order, your answer could be in any order you want.</p>
+Although the above answer is in lexicographical order, your answer could be in
+any order you want.
+
 
 Similar Questions:
   Generate Parentheses (generate-parentheses)

@@ -7,28 +7,33 @@ import (
 /*33. Search in Rotated Sorted Array
 https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 
-<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>
+Suppose an array sorted in ascending order is rotated at some pivot unknown to
+you beforehand.
 
-<p>(i.e., <code>[0,1,2,4,5,6,7]</code> might become <code>[4,5,6,7,0,1,2]</code>).</p>
+(i.e., `[0,1,2,4,5,6,7]` might become `[4,5,6,7,0,1,2]`).
 
-<p>You are given a target value to search. If found in the array return its index, otherwise return <code>-1</code>.</p>
+You are given a target value to search. If found in the array return its
+index, otherwise return `-1`.
 
-<p>You may assume no duplicate exists in the array.</p>
+You may assume no duplicate exists in the array.
 
-<p>Your algorithm&#39;s runtime complexity must be in the order of&nbsp;<em>O</em>(log&nbsp;<em>n</em>).</p>
+Your algorithm's runtime complexity must be in the order of  _O_ (log  _n_ ).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> nums = [<code>4,5,6,7,0,1,2]</code>, target = 0
-<strong>Output:</strong> 4
-</pre>
+    
+    
+    **Input:** nums = [4,5,6,7,0,1,2], target = 0
+    **Output:** 4
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> nums = [<code>4,5,6,7,0,1,2]</code>, target = 3
-<strong>Output:</strong> -1</pre>
+    
+    
+    **Input:** nums = [4,5,6,7,0,1,2], target = 3
+    **Output:** -1
+
 
 Similar Questions:
   Search in Rotated Sorted Array II (search-in-rotated-sorted-array-ii)

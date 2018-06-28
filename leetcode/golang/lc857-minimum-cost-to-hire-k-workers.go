@@ -7,52 +7,48 @@ import (
 /*857. Minimum Cost to Hire K Workers
 https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/
 
-<p>There are <code>N</code> workers.&nbsp; The <code>i</code>-th worker has a <code>quality[i]</code> and a minimum wage expectation <code>wage[i]</code>.</p>
+There are `N` workers.  The `i`-th worker has a `quality[i]` and a minimum
+wage expectation `wage[i]`.
 
-<p>Now we want to hire exactly <code>K</code>&nbsp;workers to form a <em>paid group</em>.&nbsp; When hiring a group of K workers, we must pay them according to the following rules:</p>
+Now we want to hire exactly `K` workers to form a _paid group_.   When hiring
+a group of K workers, we must pay them according to the following rules:
 
-<ol>
-	<li>Every worker in the paid group should be paid in the ratio of their quality compared to other workers in the paid group.</li>
-	<li>Every worker in the paid group must be paid at least their minimum wage expectation.</li>
-</ol>
+  1. Every worker in the paid group should be paid in the ratio of their quality compared to other workers in the paid group.
+  2. Every worker in the paid group must be paid at least their minimum wage expectation.
 
-<p>Return the least amount of money needed to form a paid group satisfying the above conditions.</p>
+Return the least amount of money needed to form a paid group satisfying the
+above conditions.
 
-<p>&nbsp;</p>
 
-<ol>
-</ol>
 
-<div>
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>quality = <span id="example-input-1-1">[10,20,5]</span>, wage = <span id="example-input-1-2">[70,50,30]</span>, K = <span id="example-input-1-3">2</span>
-<strong>Output: </strong><span id="example-output-1">105.00000
-<strong>Explanation</strong>: </span><span>We pay 70 to 0-th worker and 35 to 2-th worker.</span>
-</pre>
+    
+    
+    **Input:** quality = [10,20,5], wage = [70,50,30], K = 2
+    **Output:** 105.00000
+    **Explanation** : We pay 70 to 0-th worker and 35 to 2-th worker.
+    
 
-<div>
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>quality = <span id="example-input-2-1">[3,1,10,10,1]</span>, wage = <span id="example-input-2-2">[4,8,2,2,7]</span>, K = <span id="example-input-2-3">3</span>
-<strong>Output: </strong><span id="example-output-2">30.66667
-<strong>Explanation</strong>: </span><span>We pay 4 to 0-th worker, 13.33333 to 2-th and 3-th workers seperately.</span> 
-</pre>
+    
+    
+    **Input:** quality = [3,1,10,10,1], wage = [4,8,2,2,7], K = 3
+    **Output:** 30.66667
+    **Explanation** : We pay 4 to 0-th worker, 13.33333 to 2-th and 3-th workers seperately. 
+    
 
-<p>&nbsp;</p>
 
-<p><strong>Note:</strong></p>
 
-<ol>
-	<li><code>1 &lt;= K &lt;= N &lt;= 10000</code>, where <code>N = quality.length = wage.length</code></li>
-	<li><code>1 &lt;= quality[i] &lt;= 10000</code></li>
-	<li><code>1 &lt;= wage[i] &lt;= 10000</code></li>
-	<li>Answers within <code>10^-5</code> of the correct answer will be considered correct.</li>
-</ol>
-</div>
-</div>
+**Note:**
+
+  1. `1 <= K <= N <= 10000`, where `N = quality.length = wage.length`
+  2. `1 <= quality[i] <= 10000`
+  3. `1 <= wage[i] <= 10000`
+  4. Answers within `10^-5` of the correct answer will be considered correct.
+
+
 Similar Questions:
 
 */

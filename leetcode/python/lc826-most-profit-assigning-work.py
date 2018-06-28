@@ -4,30 +4,36 @@ import unittest
 """826. Most Profit Assigning Work
 https://leetcode.com/problems/most-profit-assigning-work/description/
 
-<p>We have jobs: <code>difficulty[i]</code>&nbsp;is the difficulty of the&nbsp;<code>i</code>th job, and&nbsp;<code>profit[i]</code>&nbsp;is the profit of the&nbsp;<code>i</code>th job.&nbsp;</p>
+We have jobs: `difficulty[i]` is the difficulty of the `i`th job, and
+`profit[i]` is the profit of the `i`th job.
 
-<p>Now we have some workers.&nbsp;<code>worker[i]</code>&nbsp;is the ability of the&nbsp;<code>i</code>th worker, which means that this worker can only complete a job with difficulty at most&nbsp;<code>worker[i]</code>.&nbsp;</p>
+Now we have some workers. `worker[i]` is the ability of the `i`th worker,
+which means that this worker can only complete a job with difficulty at most
+`worker[i]`.
 
-<p>Every worker can be assigned at most one job, but one job&nbsp;can be completed multiple times.</p>
+Every worker can be assigned at most one job, but one job can be completed
+multiple times.
 
-<p>For example, if 3 people attempt the same job that pays $1, then the total profit will be $3.&nbsp; If a worker cannot complete any job, his profit is $0.</p>
+For example, if 3 people attempt the same job that pays $1, then the total
+profit will be $3.  If a worker cannot complete any job, his profit is $0.
 
-<p>What is the most profit we can make?</p>
+What is the most profit we can make?
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>difficulty = [2,4,6,8,10], profit = [10,20,30,40,50], worker = [4,5,6,7]
-<strong>Output: </strong>100 
-<strong>Explanation: W</strong>orkers are assigned jobs of difficulty [4,4,6,6] and they get profit of [20,20,30,30] seperately.</pre>
+    
+    
+    **Input:** difficulty = [2,4,6,8,10], profit = [10,20,30,40,50], worker = [4,5,6,7]
+    **Output:** 100 
+    **Explanation: W** orkers are assigned jobs of difficulty [4,4,6,6] and they get profit of [20,20,30,30] seperately.
 
-<p><strong>Notes:</strong></p>
+**Notes:**
 
-<ul>
-	<li><code>1 &lt;= difficulty.length = profit.length &lt;= 10000</code></li>
-	<li><code>1 &lt;= worker.length &lt;= 10000</code></li>
-	<li><code>difficulty[i], profit[i], worker[i]</code>&nbsp; are in range&nbsp;<code>[1, 10^5]</code></li>
-</ul>
+  * `1 <= difficulty.length = profit.length <= 10000`
+  * `1 <= worker.length <= 10000`
+  * `difficulty[i], profit[i], worker[i]`  are in range `[1, 10^5]`
+
+
 Similar Questions:
 
 """

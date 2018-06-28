@@ -7,23 +7,27 @@ import (
 /*34. Search for a Range
 https://leetcode.com/problems/search-for-a-range/description/
 
-<p>Given an array of integers <code>nums</code> sorted in ascending order, find the starting and ending position of a given <code>target</code> value.</p>
+Given an array of integers `nums` sorted in ascending order, find the starting
+and ending position of a given `target` value.
 
-<p>Your algorithm&#39;s runtime complexity must be in the order of <em>O</em>(log <em>n</em>).</p>
+Your algorithm's runtime complexity must be in the order of _O_ (log _n_ ).
 
-<p>If the target is not found in the array, return <code>[-1, -1]</code>.</p>
+If the target is not found in the array, return `[-1, -1]`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> nums = [<code>5,7,7,8,8,10]</code>, target = 8
-<strong>Output:</strong> [3,4]</pre>
+    
+    
+    **Input:** nums = [5,7,7,8,8,10], target = 8
+    **Output:** [3,4]
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> nums = [<code>5,7,7,8,8,10]</code>, target = 6
-<strong>Output:</strong> [-1,-1]</pre>
+    
+    
+    **Input:** nums = [5,7,7,8,8,10], target = 6
+    **Output:** [-1,-1]
+
 
 Similar Questions:
   First Bad Version (first-bad-version)

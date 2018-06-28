@@ -4,32 +4,38 @@ import unittest
 """226. Invert Binary Tree
 https://leetcode.com/problems/invert-binary-tree/description/
 
-<p>Invert a binary tree.</p>
+Invert a binary tree.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<p>Input:</p>
+Input:
 
-<pre>
-     4
-   /   \
-  2     7
- / \   / \
-1   3 6   9</pre>
+    
+    
+         4
+       /   \
+      2     7
+     / \   / \
+    1   3 6   9
 
-<p>Output:</p>
+Output:
 
-<pre>
-     4
-   /   \
-  7     2
- / \   / \
-9   6 3   1</pre>
+    
+    
+         4
+       /   \
+      7     2
+     / \   / \
+    9   6 3   1
 
-<p><strong>Trivia:</strong><br />
-This problem was inspired by <a href="https://twitter.com/mxcl/status/608682016205344768" target="_blank">this original tweet</a> by <a href="https://twitter.com/mxcl" target="_blank">Max Howell</a>:</p>
+**Trivia:**  
+This problem was inspired by [this original
+tweet](https://twitter.com/mxcl/status/608682016205344768) by [Max
+Howell](https://twitter.com/mxcl):
 
-<blockquote>Google: 90% of our engineers use the software you wrote (Homebrew), but you can&rsquo;t invert a binary tree on a whiteboard so f*** off.</blockquote>
+> Google: 90% of our engineers use the software you wrote (Homebrew), but you
+can't invert a binary tree on a whiteboard so f*** off.
+
 
 Similar Questions:
 

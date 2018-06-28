@@ -7,19 +7,21 @@ import (
 /*343. Integer Break
 https://leetcode.com/problems/integer-break/description/
 
-<p>
-Given a positive integer <i>n</i>, break it into the sum of <b>at least</b> two positive integers and maximize the product of those integers. Return the maximum product you can get.
-</p>
+Given a positive integer _n_ , break it into the sum of **at least** two
+positive integers and maximize the product of those integers. Return the
+maximum product you can get.
 
-<p>
-For example, given <i>n</i> = 2, return 1 (2 = 1 + 1); given <i>n</i> = 10, return 36 (10 = 3 + 3 + 4).
-</p>
+For example, given _n_ = 2, return 1 (2 = 1 + 1); given _n_ = 10, return 36
+(10 = 3 + 3 + 4).
 
-<p>
-<b>Note</b>: You may assume that <i>n</i> is not less than 2 and not larger than 58.
-</p>
+**Note** : You may assume that _n_ is not less than 2 and not larger than 58.
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/jianchao.li.fighter">@jianchao.li.fighter</a> for adding this problem and creating all test cases.</p>
+**Credits:**  
+Special thanks to
+[@jianchao.li.fighter](https://leetcode.com/discuss/user/jianchao.li.fighter)
+for adding this problem and creating all test cases.
+
+
 Similar Questions:
 
 */

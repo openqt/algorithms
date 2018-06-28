@@ -7,29 +7,34 @@ import (
 /*211. Add and Search Word - Data structure design
 https://leetcode.com/problems/add-and-search-word-data-structure-design/description/
 
-<p>Design a data structure that supports the following two operations:</p>
+Design a data structure that supports the following two operations:
 
-<pre>
-void addWord(word)
-bool search(word)
-</pre>
+    
+    
+    void addWord(word)
+    bool search(word)
+    
 
-<p>search(word) can search a literal word or a regular expression string containing only letters <code>a-z</code> or <code>.</code>. A <code>.</code> means it can represent any one letter.</p>
+search(word) can search a literal word or a regular expression string
+containing only letters `a-z` or `.`. A `.` means it can represent any one
+letter.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-addWord(&quot;bad&quot;)
-addWord(&quot;dad&quot;)
-addWord(&quot;mad&quot;)
-search(&quot;pad&quot;) -&gt; false
-search(&quot;bad&quot;) -&gt; true
-search(&quot;.ad&quot;) -&gt; true
-search(&quot;b..&quot;) -&gt; true
-</pre>
+    
+    
+    addWord("bad")
+    addWord("dad")
+    addWord("mad")
+    search("pad") -> false
+    search("bad") -> true
+    search(".ad") -> true
+    search("b..") -> true
+    
 
-<p><b>Note:</b><br />
-You may assume that all words are consist of lowercase letters <code>a-z</code>.</p>
+**Note:**  
+You may assume that all words are consist of lowercase letters `a-z`.
+
 
 Similar Questions:
   Implement Trie (Prefix Tree) (implement-trie-prefix-tree)

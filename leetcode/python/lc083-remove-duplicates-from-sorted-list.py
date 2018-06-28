@@ -4,21 +4,25 @@ import unittest
 """83. Remove Duplicates from Sorted List
 https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
 
-<p>Given a sorted linked list, delete all duplicates such that each element appear only <em>once</em>.</p>
+Given a sorted linked list, delete all duplicates such that each element
+appear only _once_.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;1-&gt;2
-<strong>Output:</strong> 1-&gt;2
-</pre>
+    
+    
+    **Input:** 1- >1->2
+    **Output:** 1- >2
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;1-&gt;2-&gt;3-&gt;3
-<strong>Output:</strong> 1-&gt;2-&gt;3
-</pre>
+    
+    
+    **Input:** 1- >1->2->3->3
+    **Output:** 1- >2->3
+
+
 Similar Questions:
   Remove Duplicates from Sorted List II (remove-duplicates-from-sorted-list-ii)
 """

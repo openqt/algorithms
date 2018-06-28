@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "tree", 
+        "__typename": "TopicTagNode", 
         "name": "Tree"
       }
     ], 

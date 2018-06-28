@@ -7,36 +7,40 @@ import (
 /*227. Basic Calculator II
 https://leetcode.com/problems/basic-calculator-ii/description/
 
-<p>Implement a basic calculator to evaluate a simple expression string.</p>
+Implement a basic calculator to evaluate a simple expression string.
 
-<p>The expression string contains only <b>non-negative</b> integers, <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> operators and empty spaces <code> </code>. The integer division should truncate toward zero.</p>
+The expression string contains only **non-negative** integers, `+`, `-`, `*`,
+`/` operators and empty spaces ` `. The integer division should truncate
+toward zero.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>&quot;3+2*2&quot;
-<strong>Output:</strong> 7
-</pre>
+    
+    
+    **Input:** "3+2*2"
+    **Output:** 7
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> &quot; 3/2 &quot;
-<strong>Output:</strong> 1</pre>
+    
+    
+    **Input:**  " 3/2 "
+    **Output:** 1
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> &quot; 3+5 / 2 &quot;
-<strong>Output:</strong> 5
-</pre>
+    
+    
+    **Input:**  " 3+5 / 2 "
+    **Output:** 5
+    
 
-<p><b>Note:</b></p>
+**Note:**
 
-<ul>
-	<li>You may assume that the given expression is always valid.</li>
-	<li><b>Do not</b> use the <code>eval</code> built-in library function.</li>
-</ul>
+  * You may assume that the given expression is always valid.
+  * **Do not** use the `eval` built-in library function.
+
 
 Similar Questions:
   Basic Calculator (basic-calculator)

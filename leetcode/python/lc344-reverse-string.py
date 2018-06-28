@@ -4,12 +4,12 @@ import unittest
 """344. Reverse String
 https://leetcode.com/problems/reverse-string/description/
 
-<p>Write a function that takes a string as input and returns the string reversed.</p>
+Write a function that takes a string as input and returns the string reversed.
 
-<p>
-<b>Example:</b><br />
+**Example:**  
 Given s = "hello", return "olleh".
-</p>
+
+
 Similar Questions:
   Reverse Vowels of a String (reverse-vowels-of-a-string)
   Reverse String II (reverse-string-ii)

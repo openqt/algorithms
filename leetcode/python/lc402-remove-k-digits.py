@@ -4,40 +4,43 @@ import unittest
 """402. Remove K Digits
 https://leetcode.com/problems/remove-k-digits/description/
 
-<p>Given a non-negative integer <i>num</i> represented as a string, remove <i>k</i> digits from the number so that the new number is the smallest possible.
-</p>
+Given a non-negative integer _num_ represented as a string, remove _k_ digits
+from the number so that the new number is the smallest possible.
 
-<p><b>Note:</b><br />
-<ul>
-<li>The length of <i>num</i> is less than 10002 and will be &ge; <i>k</i>.</li>
-<li>The given <i>num</i> does not contain any leading zero.</li>
-</ul>
-</b>
-</p>
+**Note:**  
 
-<p><b>Example 1:</b>
-<pre>
-Input: num = "1432219", k = 3
-Output: "1219"
-Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
-</pre>
-</p>
+  * The length of _num_ is less than 10002 and will be  ≥ _k_.
+  * The given _num_ does not contain any leading zero.
 
-<p><b>Example 2:</b>
-<pre>
-Input: num = "10200", k = 1
-Output: "200"
-Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
-</pre>
-</p>
+**
 
-<p><b>Example 3:</b>
-<pre>
-Input: num = "10", k = 2
-Output: "0"
-Explanation: Remove all the digits from the number and it is left with nothing which is 0.
-</pre>
-</p>
+**Example 1:**
+
+    
+    
+    Input: num = "1432219", k = 3
+    Output: "1219"
+    Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
+    
+
+**Example 2:**
+
+    
+    
+    Input: num = "10200", k = 1
+    Output: "200"
+    Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
+    
+
+**Example 3:**
+
+    
+    
+    Input: num = "10", k = 2
+    Output: "0"
+    Explanation: Remove all the digits from the number and it is left with nothing which is 0.
+
+
 Similar Questions:
   Create Maximum Number (create-maximum-number)
   Monotone Increasing Digits (monotone-increasing-digits)

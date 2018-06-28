@@ -7,52 +7,56 @@ import (
 /*566. Reshape the Matrix
 https://leetcode.com/problems/reshape-the-matrix/description/
 
-<p>In MATLAB, there is a very useful function called 'reshape', which can reshape a matrix into a new one with different size but keep its original data.
-</p>
+In MATLAB, there is a very useful function called 'reshape', which can reshape
+a matrix into a new one with different size but keep its original data.
 
-<p>
-You're given a matrix represented by a two-dimensional array, and two <b>positive</b> integers <b>r</b> and <b>c</b> representing the <b>row</b> number and <b>column</b> number of the wanted reshaped matrix, respectively.</p>
+You're given a matrix represented by a two-dimensional array, and two
+**positive** integers **r** and **c** representing the **row** number and
+**column** number of the wanted reshaped matrix, respectively.
 
- <p>The reshaped matrix need to be filled with all the elements of the original matrix in the same <b>row-traversing</b> order as they were.
-</p>
+The reshaped matrix need to be filled with all the elements of the original
+matrix in the same **row-traversing** order as they were.
 
-<p>
-If the 'reshape' operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.
-</p>
+If the 'reshape' operation with given parameters is possible and legal, output
+the new reshaped matrix; Otherwise, output the original matrix.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> 
-nums = 
-[[1,2],
- [3,4]]
-r = 1, c = 4
-<b>Output:</b> 
-[[1,2,3,4]]
-<b>Explanation:</b><br>The <b>row-traversing</b> of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> 
-nums = 
-[[1,2],
- [3,4]]
-r = 2, c = 4
-<b>Output:</b> 
-[[1,2],
- [3,4]]
-<b>Explanation:</b><br>There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.
-</pre>
-</p>
+    
+    
+    **Input:** 
+    nums = 
+    [[1,2],
+     [3,4]]
+    r = 1, c = 4
+    **Output:** 
+    [[1,2,3,4]]
+    **Explanation:**  
+     The **row-traversing** of nums is [1,2,3,4]. The new reshaped matrix is a 1 * 4 matrix, fill it row by row by using the previous list.
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The height and width of the given matrix is in range [1, 100].</li>
-<li>The given r and c are all positive.</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** 
+    nums = 
+    [[1,2],
+     [3,4]]
+    r = 2, c = 4
+    **Output:** 
+    [[1,2],
+     [3,4]]
+    **Explanation:**  
+     There is no way to reshape a 2 * 2 matrix to a 2 * 4 matrix. So output the original matrix.
+    
+
+**Note:**  
+
+  1. The height and width of the given matrix is in range [1, 100].
+  2. The given r and c are all positive.
+
+
 Similar Questions:
 
 */

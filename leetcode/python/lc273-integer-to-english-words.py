@@ -4,34 +4,39 @@ import unittest
 """273. Integer to English Words
 https://leetcode.com/problems/integer-to-english-words/description/
 
-<p>Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2<sup>31</sup> - 1.</p>
+Convert a non-negative integer to its english words representation. Given
+input is guaranteed to be less than 231 \- 1.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> 123
-<b>Output:</b> &quot;One Hundred Twenty Three&quot;
-</pre>
+    
+    
+    **Input:** 123
+    **Output:**  "One Hundred Twenty Three"
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> 12345
-<b>Output:</b> &quot;Twelve Thousand Three Hundred Forty Five&quot;</pre>
+    
+    
+    **Input:** 12345
+    **Output:**  "Twelve Thousand Three Hundred Forty Five"
 
-<p><b>Example 3:</b></p>
+**Example 3:**
 
-<pre>
-<b>Input:</b> 1234567
-<b>Output:</b> &quot;One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven&quot;
-</pre>
+    
+    
+    **Input:** 1234567
+    **Output:**  "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
+    
 
-<p><b>Example 4:</b></p>
+**Example 4:**
 
-<pre>
-<b>Input:</b> 1234567891
-<b>Output:</b> &quot;One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One&quot;
-</pre>
+    
+    
+    **Input:** 1234567891
+    **Output:**  "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
+
 
 Similar Questions:
   Integer to Roman (integer-to-roman)

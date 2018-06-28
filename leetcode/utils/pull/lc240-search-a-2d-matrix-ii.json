@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "binary-search", 
+        "__typename": "TopicTagNode", 
         "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "divide-and-conquer", 
+        "__typename": "TopicTagNode", 
         "name": "Divide and Conquer"
       }
     ], 

@@ -7,20 +7,24 @@ import (
 /*442. Find All Duplicates in an Array
 https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
 
-<p>Given an array of integers, 1 &le; a[i] &le; <i>n</i> (<i>n</i> = size of array), some elements appear <b>twice</b> and others appear <b>once</b>.</p>
+Given an array of integers, 1 ≤ a[i] ≤ _n_ ( _n_ = size of array), some
+elements appear **twice** and others appear **once**.
 
-<p>Find all the elements that appear <b>twice</b> in this array.</p>
+Find all the elements that appear **twice** in this array.
 
-<p>Could you do it without extra space and in O(<i>n</i>) runtime?</p>
-</p>
-<p><b>Example:</b><br/>
-<pre>
-<b>Input:</b>
-[4,3,2,7,8,2,3,1]
+Could you do it without extra space and in O( _n_ ) runtime?
 
-<b>Output:</b>
-[2,3]
-</pre>
+**Example:**  
+
+    
+    
+    **Input:**
+    [4,3,2,7,8,2,3,1]
+    
+    **Output:**
+    [2,3]
+
+
 Similar Questions:
   Find All Numbers Disappeared in an Array (find-all-numbers-disappeared-in-an-array)
 */

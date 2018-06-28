@@ -7,56 +7,57 @@ import (
 /*770. Basic Calculator IV
 https://leetcode.com/problems/basic-calculator-iv/description/
 
-<p>Given an <code>expression</code>&nbsp;such as <code>expression = &quot;e + 8 - a + 5&quot;</code> and an evaluation map such as <code>{&quot;e&quot;: 1}</code> (given in terms of <code>evalvars = [&quot;e&quot;]</code> and <code>evalints = [1]</code>), return a list of tokens representing the simplified expression, such as <code>[&quot;-1*a&quot;,&quot;14&quot;]</code></p>
+Given an `expression` such as `expression = "e + 8 - a + 5"` and an evaluation
+map such as `{"e": 1}` (given in terms of `evalvars = ["e"]` and `evalints =
+[1]`), return a list of tokens representing the simplified expression, such as
+`["-1*a","14"]`
 
-<ul>
-	<li>An expression alternates chunks and symbols, with a space separating each chunk and symbol.</li>
-	<li>A chunk is either an expression in parentheses, a variable, or a non-negative integer.</li>
-	<li>A variable is a string of lowercase letters (not including digits.) Note that variables can be multiple letters, and note that variables never have a leading coefficient or unary operator like <code>&quot;2x&quot;</code> or <code>&quot;-x&quot;</code>.</li>
-</ul>
+  * An expression alternates chunks and symbols, with a space separating each chunk and symbol.
+  * A chunk is either an expression in parentheses, a variable, or a non-negative integer.
+  * A variable is a string of lowercase letters (not including digits.) Note that variables can be multiple letters, and note that variables never have a leading coefficient or unary operator like `"2x"` or `"-x"`.
 
-<p>Expressions are evaluated in the usual order: brackets first, then multiplication, then addition and subtraction. For example, <code>expression = &quot;1 + 2 * 3&quot;</code> has an answer of <code>[&quot;7&quot;]</code>.</p>
+Expressions are evaluated in the usual order: brackets first, then
+multiplication, then addition and subtraction. For example, `expression = "1 +
+2 * 3"` has an answer of `["7"]`.
 
-<p>The format of the output is as follows:</p>
+The format of the output is as follows:
 
-<ul>
-	<li>For each term of free variables with non-zero coefficient, we write the free variables within a term in sorted order lexicographically. For example, we would never write a term like <code>&quot;b*a*c&quot;</code>, only <code>&quot;a*b*c&quot;</code>.</li>
-	<li>Terms have degree equal to the number of free variables being multiplied, counting multiplicity. (For example, <code>&quot;a*a*b*c&quot;</code> has degree 4.) We write the largest degree terms of our answer first, breaking ties by lexicographic order ignoring the leading coefficient of the term.</li>
-	<li>The leading coefficient of the term is placed directly to the left with an asterisk separating it from the variables (if they exist.)&nbsp; A leading coefficient of 1 is still printed.</li>
-	<li>An example of a well formatted answer is <code>[&quot;-2*a*a*a&quot;, &quot;3*a*a*b&quot;, &quot;3*b*b&quot;, &quot;4*a&quot;, &quot;5*c&quot;, &quot;-6&quot;]</code>&nbsp;</li>
-	<li>Terms (including constant terms) with coefficient 0 are not included.&nbsp; For example, an expression of &quot;0&quot; has an output of [].</li>
-</ul>
+  * For each term of free variables with non-zero coefficient, we write the free variables within a term in sorted order lexicographically. For example, we would never write a term like `"b*a*c"`, only `"a*b*c"`.
+  * Terms have degree equal to the number of free variables being multiplied, counting multiplicity. (For example, `"a*a*b*c"` has degree 4.) We write the largest degree terms of our answer first, breaking ties by lexicographic order ignoring the leading coefficient of the term.
+  * The leading coefficient of the term is placed directly to the left with an asterisk separating it from the variables (if they exist.)  A leading coefficient of 1 is still printed.
+  * An example of a well formatted answer is `["-2*a*a*a", "3*a*a*b", "3*b*b", "4*a", "5*c", "-6"]` 
+  * Terms (including constant terms) with coefficient 0 are not included.  For example, an expression of "0" has an output of [].
 
-<p><strong>Examples:</strong></p>
+**Examples:**
 
-<pre>
-<strong>Input:</strong> expression = &quot;e + 8 - a + 5&quot;, evalvars = [&quot;e&quot;], evalints = [1]
-<strong>Output:</strong> [&quot;-1*a&quot;,&quot;14&quot;]
+    
+    
+    **Input:** expression =  "e + 8 - a + 5", evalvars = ["e"], evalints = [1]
+    **Output:** [ "-1*a","14"]
+    
+    **Input:** expression =  "e - 8 + temperature - pressure",
+    evalvars = ["e", "temperature"], evalints = [1, 12]
+    **Output:** [ "-1*pressure","5"]
+    
+    **Input:** expression =  "(e + 8) * (e - 8)", evalvars = [], evalints = []
+    **Output:** [ "1*e*e","-64"]
+    
+    **Input:** expression =  "7 - 7", evalvars = [], evalints = []
+    **Output:** []
+    
+    **Input:** expression =  "a * b * c + b * a * c * 4", evalvars = [], evalints = []
+    **Output:** [ "5*a*b*c"]
+    
+    **Input:** expression =  "((a - b) * (b - c) + (c - a)) * ((a - b) + (b - c) * (c - a))",
+    evalvars = [], evalints = []
+    **Output:** [ "-1*a*a*b*b","2*a*a*b*c","-1*a*a*c*c","1*a*b*b*b","-1*a*b*b*c","-1*a*b*c*c","1*a*c*c*c","-1*b*b*b*c","2*b*b*c*c","-1*b*c*c*c","2*a*a*b","-2*a*a*c","-2*a*b*b","2*a*c*c","1*b*b*b","-1*b*b*c","1*b*c*c","-1*c*c*c","-1*a*a","1*a*b","1*a*c","-1*b*c"]
+    
 
-<strong>Input:</strong> expression = &quot;e - 8 + temperature - pressure&quot;,
-evalvars = [&quot;e&quot;, &quot;temperature&quot;], evalints = [1, 12]
-<strong>Output:</strong> [&quot;-1*pressure&quot;,&quot;5&quot;]
+**Note:**
 
-<strong>Input:</strong> expression = &quot;(e + 8) * (e - 8)&quot;, evalvars = [], evalints = []
-<strong>Output:</strong> [&quot;1*e*e&quot;,&quot;-64&quot;]
+  1. `expression` will have length in range `[1, 250]`.
+  2. `evalvars, evalints` will have equal lengths in range `[0, 100]`.
 
-<strong>Input:</strong> expression = &quot;7 - 7&quot;, evalvars = [], evalints = []
-<strong>Output:</strong> []
-
-<strong>Input:</strong> expression = &quot;a * b * c + b * a * c * 4&quot;, evalvars = [], evalints = []
-<strong>Output:</strong> [&quot;5*a*b*c&quot;]
-
-<strong>Input:</strong> expression = &quot;((a - b) * (b - c) + (c - a)) * ((a - b) + (b - c) * (c - a))&quot;,
-evalvars = [], evalints = []
-<strong>Output:</strong> [&quot;-1*a*a*b*b&quot;,&quot;2*a*a*b*c&quot;,&quot;-1*a*a*c*c&quot;,&quot;1*a*b*b*b&quot;,&quot;-1*a*b*b*c&quot;,&quot;-1*a*b*c*c&quot;,&quot;1*a*c*c*c&quot;,&quot;-1*b*b*b*c&quot;,&quot;2*b*b*c*c&quot;,&quot;-1*b*c*c*c&quot;,&quot;2*a*a*b&quot;,&quot;-2*a*a*c&quot;,&quot;-2*a*b*b&quot;,&quot;2*a*c*c&quot;,&quot;1*b*b*b&quot;,&quot;-1*b*b*c&quot;,&quot;1*b*c*c&quot;,&quot;-1*c*c*c&quot;,&quot;-1*a*a&quot;,&quot;1*a*b&quot;,&quot;1*a*c&quot;,&quot;-1*b*c&quot;]
-</pre>
-
-<p><strong>Note:</strong></p>
-
-<ol>
-	<li><code>expression</code> will have length in range <code>[1, 250]</code>.</li>
-	<li><code>evalvars, evalints</code> will have equal lengths in range <code>[0, 100]</code>.</li>
-</ol>
 
 Similar Questions:
   Parse Lisp Expression (parse-lisp-expression)

@@ -4,30 +4,35 @@ import unittest
 """301. Remove Invalid Parentheses
 https://leetcode.com/problems/remove-invalid-parentheses/description/
 
-<p>Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.</p>
+Remove the minimum number of invalid parentheses in order to make the input
+string valid. Return all possible results.
 
-<p><strong>Note:</strong>&nbsp;The input string may contain letters other than the parentheses <code>(</code> and <code>)</code>.</p>
+**Note:**  The input string may contain letters other than the parentheses `(`
+and `)`.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> &quot;()())()&quot;
-<b>Output:</b> [&quot;()()()&quot;, &quot;(())()&quot;]
-</pre>
+    
+    
+    **Input:**  "()())()"
+    **Output:** [ "()()()", "(())()"]
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> &quot;(a)())()&quot;
-<b>Output:</b> [&quot;(a)()()&quot;, &quot;(a())()&quot;]
-</pre>
+    
+    
+    **Input:**  "(a)())()"
+    **Output:** [ "(a)()()", "(a())()"]
+    
 
-<p><b>Example 3:</b></p>
+**Example 3:**
 
-<pre>
-<b>Input:</b> &quot;)(&quot;
-<b>Output: </b>[&quot;&quot;]
-</pre>
+    
+    
+    **Input:**  ")("
+    **Output:** [""]
+
 
 Similar Questions:
   Valid Parentheses (valid-parentheses)

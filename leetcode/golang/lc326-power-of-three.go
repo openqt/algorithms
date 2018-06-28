@@ -7,35 +7,40 @@ import (
 /*326. Power of Three
 https://leetcode.com/problems/power-of-three/description/
 
-<p>Given an integer, write a function to determine if it is a power of three.</p>
+Given an integer, write a function to determine if it is a power of three.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 27
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:** 27
+    **Output:** true
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 0
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** 0
+    **Output:** false
 
-<p><b>Example 3:</b></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> 9
-<strong>Output:</strong> true</pre>
+    
+    
+    **Input:** 9
+    **Output:** true
 
-<p><b>Example 4:</b></p>
+**Example 4:**
 
-<pre>
-<strong>Input:</strong> 45
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** 45
+    **Output:** false
 
-<p><b>Follow up:</b><br />
-Could you do it without using any loop / recursion?</p>
+**Follow up:**  
+Could you do it without using any loop / recursion?
+
 
 Similar Questions:
   Power of Two (power-of-two)

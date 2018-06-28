@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "heap", 
+        "__typename": "TopicTagNode", 
         "name": "Heap"
       }
     ], 

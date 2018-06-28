@@ -4,50 +4,60 @@ import unittest
 """27. Remove Element
 https://leetcode.com/problems/remove-element/description/
 
-<p>Given an array <em>nums</em> and a value <em>val</em>, remove all instances of that value <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a> and return the new length.</p>
+Given an array _nums_ and a value _val_ , remove all instances of that value
+[**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm) and return
+the new length.
 
-<p>Do not allocate extra space for another array, you must do this by <strong>modifying the input array <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a></strong> with O(1) extra memory.</p>
+Do not allocate extra space for another array, you must do this by **modifying
+the input array[in-place](https://en.wikipedia.org/wiki/In-place_algorithm)**
+with O(1) extra memory.
 
-<p>The order of elements can be changed. It doesn&#39;t matter what you leave beyond the new length.</p>
+The order of elements can be changed. It doesn't matter what you leave beyond
+the new length.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-Given <em>nums</em> = <strong>[3,2,2,3]</strong>, <em>val</em> = <strong>3</strong>,
+    
+    
+    Given _nums_ = **[3,2,2,3]** , _val_ = **3** ,
+    
+    Your function should return length = **2** , with the first two elements of _nums_ being **2**.
+    
+    It doesn 't matter what you leave beyond the returned length.
+    
 
-Your function should return length = <strong>2</strong>, with the first two elements of <em>nums</em> being <strong>2</strong>.
+**Example 2:**
 
-It doesn&#39;t matter what you leave beyond the returned length.
-</pre>
+    
+    
+    Given _nums_ = **[0,1,2,2,3,0,4,2]** , _val_ = **2** ,
+    
+    Your function should return length = **5** , with the first five elements of _nums_ containing   **0** , **1** , **3** , **0** , and  **4**.
+    
+    Note that the order of those five elements can be arbitrary.
+    
+    It doesn 't matter what values are set beyond the returned length.
 
-<p><strong>Example 2:</strong></p>
+**Clarification:**
 
-<pre>
-Given <em>nums</em> = <strong>[0,1,2,2,3,0,4,2]</strong>, <em>val</em> = <strong>2</strong>,
+Confused why the returned value is an integer but your answer is an array?
 
-Your function should return length = <strong><code>5</code></strong>, with the first five elements of <em><code>nums</code></em> containing&nbsp;<strong><code>0</code></strong>, <strong><code>1</code></strong>, <strong><code>3</code></strong>, <strong><code>0</code></strong>, and&nbsp;<strong>4</strong>.
+Note that the input array is passed in by **reference** , which means
+modification to the input array will be known to the caller as well.
 
-Note that the order of those five elements can be arbitrary.
+Internally you can think of this:
 
-It doesn&#39;t matter what values are set beyond&nbsp;the returned length.</pre>
+    
+    
+    // **nums** is passed in by reference. (i.e., without making a copy)
+    int len = removeElement(nums, val);
+    
+    // any modification to **nums** in your function would be known by the caller.
+    // using the length returned by your function, it prints the first **len** elements.
+    for (int i = 0; i  < len; i++) {
+        print(nums[i]);
+    }
 
-<p><strong>Clarification:</strong></p>
-
-<p>Confused why the returned value is an integer but your answer is an array?</p>
-
-<p>Note that the input array is passed in by <strong>reference</strong>, which means modification to the input array will be known to the caller as well.</p>
-
-<p>Internally you can think of this:</p>
-
-<pre>
-// <strong>nums</strong> is passed in by reference. (i.e., without making a copy)
-int len = removeElement(nums, val);
-
-// any modification to <strong>nums</strong> in your function would be known by the caller.
-// using the length returned by your function, it prints the first <strong>len</strong> elements.
-for (int i = 0; i &lt; len; i++) {
-&nbsp; &nbsp; print(nums[i]);
-}</pre>
 
 Similar Questions:
   Remove Duplicates from Sorted Array (remove-duplicates-from-sorted-array)

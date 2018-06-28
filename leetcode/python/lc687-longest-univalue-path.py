@@ -4,59 +4,56 @@ import unittest
 """687. Longest Univalue Path
 https://leetcode.com/problems/longest-univalue-path/description/
 
-<p>Given a binary tree, find the length of the longest path where each node in the path has the same value. This path may or may not pass through the root.</p>
+Given a binary tree, find the length of the longest path where each node in
+the path has the same value. This path may or may not pass through the root.
 
-<p><b>Note:</b> The length of path between two nodes is represented by the number of edges between them.</p>
+**Note:** The length of path between two nodes is represented by the number of
+edges between them.
 
-<p>
-<b>Example 1:</b>
-</p>
+**Example 1:**
 
-
-<p>
 Input:
-<pre>
-              5
-             / \
-            4   5
-           / \   \
-          1   1   5
-</pre>
-</p>
 
-<p>
+    
+    
+                  5
+                 / \
+                4   5
+               / \   \
+              1   1   5
+    
+
 Output:
-<pre>
-2
-</pre>
-</p>
 
-<p>
-<b>Example 2:</b>
-</p>
+    
+    
+    2
+    
 
+**Example 2:**
 
-<p>
 Input:
-<pre>
-              1
-             / \
-            4   5
-           / \   \
-          4   4   5
-</pre>
-</p>
 
-<p>
+    
+    
+                  1
+                 / \
+                4   5
+               / \   \
+              4   4   5
+    
+
 Output:
-<pre>
-2
-</pre>
-</p>
 
-<p><b>Note:</b>
-The given binary tree has not more than 10000 nodes.  The height of the tree is not more than 1000.
-</p>
+    
+    
+    2
+    
+
+**Note:** The given binary tree has not more than 10000 nodes. The height of
+the tree is not more than 1000.
+
+
 Similar Questions:
   Binary Tree Maximum Path Sum (binary-tree-maximum-path-sum)
   Count Univalue Subtrees (count-univalue-subtrees)

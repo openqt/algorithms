@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "stack", 
+        "__typename": "TopicTagNode", 
         "name": "Stack"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "greedy", 
+        "__typename": "TopicTagNode", 
         "name": "Greedy"
       }
     ], 

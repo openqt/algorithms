@@ -4,36 +4,43 @@ import unittest
 """123. Best Time to Buy and Sell Stock III
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/
 
-<p>Say you have an array for which the <em>i</em><sup>th</sup> element is the price of a given stock on day <em>i</em>.</p>
+Say you have an array for which the _i_ th element is the price of a given
+stock on day _i_.
 
-<p>Design an algorithm to find the maximum profit. You may complete at most <em>two</em> transactions.</p>
+Design an algorithm to find the maximum profit. You may complete at most _two_
+transactions.
 
-<p><strong>Note:&nbsp;</strong>You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).</p>
+**Note:  **You may not engage in multiple transactions at the same time (i.e.,
+you must sell the stock before you buy again).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [3,3,5,0,0,3,1,4]
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> Buy on day 4 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
-&nbsp;            Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.</pre>
+    
+    
+    **Input:** [3,3,5,0,0,3,1,4]
+    **Output:** 6
+    **Explanation:** Buy on day 4 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
+                  Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [1,2,3,4,5]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
-&nbsp;            Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are
-&nbsp;            engaging multiple transactions at the same time. You must sell before buying again.
-</pre>
+    
+    
+    **Input:** [1,2,3,4,5]
+    **Output:** 4
+    **Explanation:** Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
+                  Note that you cannot buy on day 1, buy on day 2 and sell them later, as you are
+                 engaging multiple transactions at the same time. You must sell before buying again.
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> [7,6,4,3,1]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> In this case, no transaction is done, i.e. max profit = 0.</pre>
+    
+    
+    **Input:** [7,6,4,3,1]
+    **Output:** 0
+    **Explanation:** In this case, no transaction is done, i.e. max profit = 0.
+
 
 Similar Questions:
   Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)

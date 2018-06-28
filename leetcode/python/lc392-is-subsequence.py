@@ -4,36 +4,38 @@ import unittest
 """392. Is Subsequence
 https://leetcode.com/problems/is-subsequence/description/
 
-<p>
-Given a string <b>s</b> and a string <b>t</b>, check if <b>s</b> is subsequence of <b>t</b>.
-</p>
+Given a string **s** and a string **t** , check if **s** is subsequence of
+**t**.
 
-<p>
-You may assume that there is only lower case English letters in both <b>s</b> and <b>t</b>. <b>t</b> is potentially a very long (length ~= 500,000) string, and <b>s</b> is a short string (<=100).
-</p>
+You may assume that there is only lower case English letters in both **s** and
+**t**. **t** is potentially a very long (length ~= 500,000) string, and **s**
+is a short string ( <=100).
 
-<p>
-A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, <code>"ace"</code> is a subsequence of <code>"abcde"</code> while <code>"aec"</code> is not).
-</p>
+A subsequence of a string is a new string which is formed from the original
+string by deleting some (can be none) of the characters without disturbing the
+relative positions of the remaining characters. (ie, `"ace"` is a subsequence
+of `"abcde"` while `"aec"` is not).
 
-<p><b>Example 1:</b><br />
-<b>s</b> = <code>"abc"</code>, <b>t</b> = <code>"ahbgdc"</code>
-</p>
-<p>
-Return <code>true</code>.
-</p>
+**Example 1:**  
+**s** = `"abc"`, **t** = `"ahbgdc"`
 
-<p><b>Example 2:</b><br />
-<b>s</b> = <code>"axc"</code>, <b>t</b> = <code>"ahbgdc"</code>
-</p>
-<p>
-Return <code>false</code>.
-</p>
+Return `true`.
 
-<p><b>Follow up:</b><br />
-If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?</p>
+**Example 2:**  
+**s** = `"axc"`, **t** = `"ahbgdc"`
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/pbrother/">@pbrother</a> for adding this problem and creating all test cases.</p>
+Return `false`.
+
+**Follow up:**  
+If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you
+want to check one by one to see if T has its subsequence. In this scenario,
+how would you change your code?
+
+**Credits:**  
+Special thanks to [@pbrother](https://leetcode.com/pbrother/) for adding this
+problem and creating all test cases.
+
+
 Similar Questions:
   Number of Matching Subsequences (number-of-matching-subsequences)
 """

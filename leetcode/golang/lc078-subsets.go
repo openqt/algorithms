@@ -7,25 +7,28 @@ import (
 /*78. Subsets
 https://leetcode.com/problems/subsets/description/
 
-<p>Given a set of <strong>distinct</strong> integers, <em>nums</em>, return all possible subsets (the power set).</p>
+Given a set of **distinct** integers, _nums_ , return all possible subsets
+(the power set).
 
-<p><strong>Note:</strong> The solution set must not contain duplicate subsets.</p>
+**Note:** The solution set must not contain duplicate subsets.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> nums = [1,2,3]
-<strong>Output:</strong>
-[
-  [3],
-&nbsp; [1],
-&nbsp; [2],
-&nbsp; [1,2,3],
-&nbsp; [1,3],
-&nbsp; [2,3],
-&nbsp; [1,2],
-&nbsp; []
-]</pre>
+    
+    
+    **Input:** nums = [1,2,3]
+    **Output:**
+    [
+      [3],
+       [1],
+      [2],
+      [1,2,3],
+      [1,3],
+      [2,3],
+      [1,2],
+      []
+    ]
+
 
 Similar Questions:
   Subsets II (subsets-ii)

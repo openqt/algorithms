@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "array", 
+        "__typename": "TopicTagNode", 
         "name": "Array"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "segment-tree", 
+        "__typename": "TopicTagNode", 
         "name": "Segment Tree"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "binary-search-tree", 
+        "__typename": "TopicTagNode", 
         "name": "Binary Search Tree"
       }
     ], 

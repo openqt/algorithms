@@ -4,36 +4,43 @@ import unittest
 """290. Word Pattern
 https://leetcode.com/problems/word-pattern/description/
 
-<p>Given a <code>pattern</code> and a string <code>str</code>, find if <code>str</code> follows the same pattern.</p>
+Given a `pattern` and a string `str`, find if `str` follows the same pattern.
 
-<p>Here <b>follow</b> means a full match, such that there is a bijection between a letter in <code>pattern</code> and a <b>non-empty</b> word in <code>str</code>.</p>
+Here **follow** means a full match, such that there is a bijection between a
+letter in `pattern` and a **non-empty** word in `str`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
-<strong>Output:</strong> true</pre>
+    
+    
+    **Input:** pattern = "abba", str = "dog cat cat dog"
+    **Output:** true
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong>pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog cat cat fish&quot;</code>
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** pattern = "abba", str = "dog cat cat fish"
+    **Output:** false
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> pattern = <code>&quot;aaaa&quot;</code>, str = <code>&quot;dog cat cat dog&quot;</code>
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** pattern = "aaaa", str = "dog cat cat dog"
+    **Output:** false
 
-<p><strong>Example 4:</strong></p>
+**Example 4:**
 
-<pre>
-<strong>Input:</strong> pattern = <code>&quot;abba&quot;</code>, str = <code>&quot;dog dog dog dog&quot;</code>
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** pattern = "abba", str = "dog dog dog dog"
+    **Output:** false
 
-<p><b>Notes:</b><br />
-You may assume <code>pattern</code> contains only lowercase letters, and <code>str</code> contains lowercase letters separated by a single space.</p>
+**Notes:**  
+You may assume `pattern` contains only lowercase letters, and `str` contains
+lowercase letters separated by a single space.
+
 
 Similar Questions:
   Isomorphic Strings (isomorphic-strings)

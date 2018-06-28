@@ -7,33 +7,37 @@ import (
 /*780. Reaching Points
 https://leetcode.com/problems/reaching-points/description/
 
-<p>A move consists of taking a point <code>(x, y)</code> and transforming it to either <code>(x, x+y)</code> or <code>(x+y, y)</code>.</p>
+A move consists of taking a point `(x, y)` and transforming it to either `(x,
+x+y)` or `(x+y, y)`.
 
-<p>Given a starting point <code>(sx, sy)</code> and a target point <code>(tx, ty)</code>, return <code>True</code> if and only if a sequence of moves exists to transform the point <code>(sx, sy)</code> to <code>(tx, ty)</code>. Otherwise, return <code>False</code>.</p>
+Given a starting point `(sx, sy)` and a target point `(tx, ty)`, return `True`
+if and only if a sequence of moves exists to transform the point `(sx, sy)` to
+`(tx, ty)`. Otherwise, return `False`.
 
-<pre>
-<strong>Examples:</strong>
-<strong>Input:</strong> sx = 1, sy = 1, tx = 3, ty = 5
-<strong>Output:</strong> True
-<strong>Explanation:</strong>
-One series of moves that transforms the starting point to the target is:
-(1, 1) -&gt; (1, 2)
-(1, 2) -&gt; (3, 2)
-(3, 2) -&gt; (3, 5)
+    
+    
+    **Examples:**
+    **Input:** sx = 1, sy = 1, tx = 3, ty = 5
+    **Output:** True
+    **Explanation:**
+    One series of moves that transforms the starting point to the target is:
+    (1, 1) - > (1, 2)
+    (1, 2) -> (3, 2)
+    (3, 2) -> (3, 5)
+    
+    **Input:** sx = 1, sy = 1, tx = 2, ty = 2
+    **Output:** False
+    
+    **Input:** sx = 1, sy = 1, tx = 1, ty = 1
+    **Output:** True
+    
+    
 
-<strong>Input:</strong> sx = 1, sy = 1, tx = 2, ty = 2
-<strong>Output:</strong> False
+**Note:**
 
-<strong>Input:</strong> sx = 1, sy = 1, tx = 1, ty = 1
-<strong>Output:</strong> True
+  * `sx, sy, tx, ty` will all be integers in the range `[1, 10^9]`.
 
-</pre>
 
-<p><strong>Note:</strong></p>
-
-<ul>
-	<li><code>sx, sy, tx, ty</code> will all be integers in the range <code>[1, 10^9]</code>.</li>
-</ul>
 Similar Questions:
 
 */

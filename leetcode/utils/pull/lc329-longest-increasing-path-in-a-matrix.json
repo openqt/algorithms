@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "depth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "topological-sort", 
+        "__typename": "TopicTagNode", 
         "name": "Topological Sort"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "memoization", 
+        "__typename": "TopicTagNode", 
         "name": "Memoization"
       }
     ], 

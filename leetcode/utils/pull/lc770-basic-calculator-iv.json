@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "hash-table", 
+        "__typename": "TopicTagNode", 
         "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "string", 
+        "__typename": "TopicTagNode", 
         "name": "String"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "stack", 
+        "__typename": "TopicTagNode", 
         "name": "Stack"
       }
     ], 

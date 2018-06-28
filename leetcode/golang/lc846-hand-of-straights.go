@@ -7,40 +7,40 @@ import (
 /*846. Hand of Straights
 https://leetcode.com/problems/hand-of-straights/description/
 
-<p>Alice has a <code>hand</code> of cards, given as an array of integers.</p>
+Alice has a `hand` of cards, given as an array of integers.
 
-<p>Now she wants to rearrange the cards into groups so that each group is size <code>W</code>, and consists of <code>W</code> consecutive cards.</p>
+Now she wants to rearrange the cards into groups so that each group is size
+`W`, and consists of `W` consecutive cards.
 
-<p>Return <code>true</code> if and only if she can.</p>
+Return `true` if and only if she can.
 
-<p>&nbsp;</p>
 
-<ol>
-</ol>
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>hand = [1,2,3,6,2,3,4,7,8], W = 3
-<strong>Output: </strong>true
-<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can be rearranged as <code>[1,2,3],[2,3,4],[6,7,8]</code>.</pre>
+    
+    
+    **Input:** hand = [1,2,3,6,2,3,4,7,8], W = 3
+    **Output:** true
+    **Explanation:** Alice 's hand can be rearranged as [1,2,3],[2,3,4],[6,7,8].
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>hand = [1,2,3,4,5], W = 4
-<strong>Output: </strong>false
-<strong>Explanation:</strong> Alice&#39;s <code>hand</code> can&#39;t be rearranged into groups of <code>4</code>.</pre>
+    
+    
+    **Input:** hand = [1,2,3,4,5], W = 4
+    **Output:** false
+    **Explanation:** Alice 's hand can't be rearranged into groups of 4.
 
-<p>&nbsp;</p>
 
-<p><strong>Note:</strong></p>
 
-<ol>
-	<li><code>1 &lt;= hand.length &lt;= 10000</code></li>
-	<li><code>0 &lt;= hand[i]&nbsp;&lt;= 10^9</code></li>
-	<li><code>1 &lt;= W &lt;= hand.length</code></li>
-</ol>
+**Note:**
+
+  1. `1 <= hand.length <= 10000`
+  2. `0 <= hand[i] <= 10^9`
+  3. `1 <= W <= hand.length`
+
+
 Similar Questions:
 
 */

@@ -4,13 +4,19 @@ import unittest
 """173. Binary Search Tree Iterator
 https://leetcode.com/problems/binary-search-tree-iterator/description/
 
-<p>Implement an iterator over a binary search tree (BST). Your iterator will be initialized with the root node of a BST.</p>
+Implement an iterator over a binary search tree (BST). Your iterator will be
+initialized with the root node of a BST.
 
-<p>Calling <code>next()</code> will return the next smallest number in the BST.</p>
+Calling `next()` will return the next smallest number in the BST.
 
-<p><b>Note: </b><code>next()</code> and <code>hasNext()</code> should run in average O(1) time and uses O(<i>h</i>) memory, where <i>h</i> is the height of the tree. </p>
+**Note:**`next()` and `hasNext()` should run in average O(1) time and uses O(
+_h_ ) memory, where _h_ is the height of the tree.
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://oj.leetcode.com/discuss/user/ts">@ts</a> for adding this problem and creating all test cases.</p>
+**Credits:**  
+Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding
+this problem and creating all test cases.
+
+
 Similar Questions:
   Binary Tree Inorder Traversal (binary-tree-inorder-traversal)
   Flatten 2D Vector (flatten-2d-vector)

@@ -4,21 +4,28 @@ import unittest
 """274. H-Index
 https://leetcode.com/problems/h-index/description/
 
-<p>Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher&#39;s h-index.</p>
+Given an array of citations (each citation is a non-negative integer) of a
+researcher, write a function to compute the researcher's h-index.
 
-<p>According to the <a href="https://en.wikipedia.org/wiki/H-index" target="_blank">definition of h-index on Wikipedia</a>: &quot;A scientist has index <i>h</i> if <i>h</i> of his/her <i>N</i> papers have <b>at least</b> <i>h</i> citations each, and the other <i>N &minus; h</i> papers have <b>no more than</b> <i>h</i> citations each.&quot;</p>
+According to the [definition of h-index on
+Wikipedia](https://en.wikipedia.org/wiki/H-index): "A scientist has index _h_
+if _h_ of his/her _N_ papers have **at least** _h_ citations each, and the
+other _N − h_ papers have **no more than** _h_ citations each. "
 
-<p><b>Example:</b></p>
+**Example:**
 
-<pre>
-<b>Input:</b> <code>citations = [3,0,6,1,5]</code>
-<b>Output:</b> 3 
-<strong>Explanation: </strong><code>[3,0,6,1,5] </code>means the researcher has <code>5</code> papers in total and each of them had 
-             received <code>3, 0, 6, 1, 5</code> citations respectively. 
-&nbsp;            Since the researcher has <code>3</code> papers with <b>at least</b> <code>3</code> citations each and the remaining 
-&nbsp;            two with <b>no more than</b> <code>3</code> citations each, her h-index is <code>3</code>.</pre>
+    
+    
+    **Input:** citations = [3,0,6,1,5]
+    **Output:** 3 
+    **Explanation:**[3,0,6,1,5] means the researcher has 5 papers in total and each of them had 
+                 received 3, 0, 6, 1, 5 citations respectively. 
+                 Since the researcher has 3 papers with **at least** 3 citations each and the remaining 
+                 two with **no more than** 3 citations each, her h-index is 3.
 
-<p><strong>Note:&nbsp;</strong>If there are several possible values for <em>h</em>, the maximum one is taken as the h-index.</p>
+**Note:  **If there are several possible values for _h_ , the maximum one is
+taken as the h-index.
+
 
 Similar Questions:
   H-Index II (h-index-ii)

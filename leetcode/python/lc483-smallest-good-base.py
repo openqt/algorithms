@@ -4,39 +4,45 @@ import unittest
 """483. Smallest Good Base
 https://leetcode.com/problems/smallest-good-base/description/
 
-<p>For an integer n, we call k>=2 a <i><b>good base</b></i> of n, if all digits of n base k are 1.</p>
-<p>Now given a string representing n, you should return the smallest good base of n in string format. <br/></p>
+For an integer n, we call k>=2 a _**good base**_ of n, if all digits of n base
+k are 1.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> "13"
-<b>Output:</b> "3"
-<b>Explanation:</b> 13 base 3 is 111.
-</pre>
-</p>
+Now given a string representing n, you should return the smallest good base of
+n in string format.  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> "4681"
-<b>Output:</b> "8"
-<b>Explanation:</b> 4681 base 8 is 11111.
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 3:</b><br />
-<pre>
-<b>Input:</b> "1000000000000000000"
-<b>Output:</b> "999999999999999999"
-<b>Explanation:</b> 1000000000000000000 base 999999999999999999 is 11.
-</pre>
-</p>
+    
+    
+    **Input:** "13"
+    **Output:** "3"
+    **Explanation:** 13 base 3 is 111.
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The range of n is [3, 10^18].</li>
-<li>The string representing n is always valid and will not have leading zeros.</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** "4681"
+    **Output:** "8"
+    **Explanation:** 4681 base 8 is 11111.
+    
+
+**Example 3:**  
+
+    
+    
+    **Input:** "1000000000000000000"
+    **Output:** "999999999999999999"
+    **Explanation:** 1000000000000000000 base 999999999999999999 is 11.
+    
+
+**Note:**  
+
+  1. The range of n is [3, 10^18].
+  2. The string representing n is always valid and will not have leading zeros.
+
+
 Similar Questions:
 
 """

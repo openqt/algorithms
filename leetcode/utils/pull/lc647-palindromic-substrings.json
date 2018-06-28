@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "string", 
+        "__typename": "TopicTagNode", 
         "name": "String"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "dynamic-programming", 
+        "__typename": "TopicTagNode", 
         "name": "Dynamic Programming"
       }
     ], 

@@ -4,18 +4,21 @@ import unittest
 """206. Reverse Linked List
 https://leetcode.com/problems/reverse-linked-list/description/
 
-<p>Reverse a singly linked list.</p>
+Reverse a singly linked list.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL
-<strong>Output:</strong> 5-&gt;4-&gt;3-&gt;2-&gt;1-&gt;NULL
-</pre>
+    
+    
+    **Input:** 1- >2->3->4->5->NULL
+    **Output:** 5- >4->3->2->1->NULL
+    
 
-<p><b>Follow up:</b></p>
+**Follow up:**
 
-<p>A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
+A linked list can be reversed either iteratively or recursively. Could you
+implement both?
+
 
 Similar Questions:
   Reverse Linked List II (reverse-linked-list-ii)

@@ -7,27 +7,32 @@ import (
 /*66. Plus One
 https://leetcode.com/problems/plus-one/description/
 
-<p>Given a <strong>non-empty</strong> array of digits&nbsp;representing a non-negative integer, plus one to the integer.</p>
+Given a **non-empty** array of digits  representing a non-negative integer,
+plus one to the integer.
 
-<p>The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.</p>
+The digits are stored such that the most significant digit is at the head of
+the list, and each element in the array contain a single digit.
 
-<p>You may assume the integer does not contain any leading zero, except the number 0 itself.</p>
+You may assume the integer does not contain any leading zero, except the
+number 0 itself.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [1,2,3]
-<strong>Output:</strong> [1,2,4]
-<strong>Explanation:</strong> The array represents the integer 123.
-</pre>
+    
+    
+    **Input:** [1,2,3]
+    **Output:** [1,2,4]
+    **Explanation:** The array represents the integer 123.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [4,3,2,1]
-<strong>Output:</strong> [4,3,2,2]
-<strong>Explanation:</strong> The array represents the integer 4321.
-</pre>
+    
+    
+    **Input:** [4,3,2,1]
+    **Output:** [4,3,2,2]
+    **Explanation:** The array represents the integer 4321.
+
 
 Similar Questions:
   Multiply Strings (multiply-strings)

@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "array", 
+        "__typename": "TopicTagNode", 
         "name": "Array"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "divide-and-conquer", 
+        "__typename": "TopicTagNode", 
         "name": "Divide and Conquer"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "dynamic-programming", 
+        "__typename": "TopicTagNode", 
         "name": "Dynamic Programming"
       }
     ], 

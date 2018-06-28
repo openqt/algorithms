@@ -4,18 +4,23 @@ import unittest
 """209. Minimum Size Subarray Sum
 https://leetcode.com/problems/minimum-size-subarray-sum/description/
 
-<p>Given an array of <strong>n</strong> positive integers and a positive integer <strong>s</strong>, find the minimal length of a <b>contiguous</b> subarray of which the sum &ge; <strong>s</strong>. If there isn&#39;t one, return 0 instead.</p>
+Given an array of **n** positive integers and a positive integer **s** , find
+the minimal length of a **contiguous** subarray of which the sum  ≥ **s**. If
+there isn 't one, return 0 instead.
 
-<p><strong>Example:&nbsp;</strong></p>
+**Example:  **
 
-<pre>
-<strong>Input:</strong> <code>s = 7, nums = [2,3,1,2,4,3]</code>
-<strong>Output:</strong> 2
-<strong>Explanation: </strong>the subarray <code>[4,3]</code> has the minimal length under the problem constraint.</pre>
+    
+    
+    **Input:** s = 7, nums = [2,3,1,2,4,3]
+    **Output:** 2
+    **Explanation:** the subarray [4,3] has the minimal length under the problem constraint.
 
-<div class="spoilers"><b>Follow up:</b></div>
+**Follow up:**
 
-<div class="spoilers">If you have figured out the <i>O</i>(<i>n</i>) solution, try coding another solution of which the time complexity is <i>O</i>(<i>n</i> log <i>n</i>).&nbsp;</div>
+If you have figured out the _O_ ( _n_ ) solution, try coding another solution
+of which the time complexity is _O_ ( _n_ log _n_ ).
+
 
 Similar Questions:
   Minimum Window Substring (minimum-window-substring)

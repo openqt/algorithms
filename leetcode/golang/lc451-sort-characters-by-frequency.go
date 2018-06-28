@@ -7,49 +7,54 @@ import (
 /*451. Sort Characters By Frequency
 https://leetcode.com/problems/sort-characters-by-frequency/description/
 
-<p>Given a string, sort it in decreasing order based on the frequency of characters.</p>
+Given a string, sort it in decreasing order based on the frequency of
+characters.
 
-<p><b>Example 1:</b>
-<pre>
-<b>Input:</b>
-"tree"
+**Example 1:**
 
-<b>Output:</b>
-"eert"
+    
+    
+    **Input:**
+    "tree"
+    
+    **Output:**
+    "eert"
+    
+    **Explanation:**
+    'e' appears twice while 'r' and 't' both appear once.
+    So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
+    
 
-<b>Explanation:</b>
-'e' appears twice while 'r' and 't' both appear once.
-So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
-</pre>
-</p>
+**Example 2:**
 
-<p><b>Example 2:</b>
-<pre>
-<b>Input:</b>
-"cccaaa"
+    
+    
+    **Input:**
+    "cccaaa"
+    
+    **Output:**
+    "cccaaa"
+    
+    **Explanation:**
+    Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
+    Note that "cacaca" is incorrect, as the same characters must be together.
+    
 
-<b>Output:</b>
-"cccaaa"
+**Example 3:**
 
-<b>Explanation:</b>
-Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
-Note that "cacaca" is incorrect, as the same characters must be together.
-</pre>
-</p>
+    
+    
+    **Input:**
+    "Aabb"
+    
+    **Output:**
+    "bbAa"
+    
+    **Explanation:**
+    "bbaA" is also a valid answer, but "Aabb" is incorrect.
+    Note that 'A' and 'a' are treated as two different characters.
 
-<p><b>Example 3:</b>
-<pre>
-<b>Input:</b>
-"Aabb"
 
-<b>Output:</b>
-"bbAa"
-
-<b>Explanation:</b>
-"bbaA" is also a valid answer, but "Aabb" is incorrect.
-Note that 'A' and 'a' are treated as two different characters.
-</pre>
-</p>
 Similar Questions:
   Top K Frequent Elements (top-k-frequent-elements)
   First Unique Character in a String (first-unique-character-in-a-string)

@@ -7,22 +7,26 @@ import (
 /*453. Minimum Moves to Equal Array Elements
 https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/
 
-<p>Given a <b>non-empty</b> integer array of size <i>n</i>, find the minimum number of moves required to make all array elements equal, where a move is incrementing <i>n</i> - 1 elements by 1.</p>
+Given a **non-empty** integer array of size _n_ , find the minimum number of
+moves required to make all array elements equal, where a move is incrementing
+_n_ \- 1 elements by 1.
 
-<p><b>Example:</b>
-<pre>
-<b>Input:</b>
-[1,2,3]
+**Example:**
 
-<b>Output:</b>
-3
+    
+    
+    **Input:**
+    [1,2,3]
+    
+    **Output:**
+    3
+    
+    **Explanation:**
+    Only three moves are needed (remember each move increments two elements):
+    
+    [1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
 
-<b>Explanation:</b>
-Only three moves are needed (remember each move increments two elements):
 
-[1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
-</pre>
-</p>
 Similar Questions:
   Minimum Moves to Equal Array Elements II (minimum-moves-to-equal-array-elements-ii)
 */

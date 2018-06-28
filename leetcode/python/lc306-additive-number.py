@@ -4,33 +4,41 @@ import unittest
 """306. Additive Number
 https://leetcode.com/problems/additive-number/description/
 
-<p>Additive number is a string whose digits can form additive sequence.</p>
+Additive number is a string whose digits can form additive sequence.
 
-<p>A valid additive sequence should contain <b>at least</b> three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.</p>
+A valid additive sequence should contain **at least** three numbers. Except
+for the first two numbers, each subsequent number in the sequence must be the
+sum of the preceding two.
 
-<p>Given a string containing only digits <code>&#39;0&#39;-&#39;9&#39;</code>, write a function to determine if it&#39;s an additive number.</p>
+Given a string containing only digits `'0'-'9'`, write a function to determine
+if it's an additive number.
 
-<p><b>Note:</b> Numbers in the additive sequence <b>cannot</b> have leading zeros, so sequence <code>1, 2, 03</code> or <code>1, 02, 3</code> is invalid.</p>
+**Note:** Numbers in the additive sequence **cannot** have leading zeros, so
+sequence `1, 2, 03` or `1, 02, 3` is invalid.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> <code>&quot;112358&quot;</code>
-<b>Output:</b> true 
-<strong>Explanation: </strong>The digits can form an additive sequence: <code>1, 1, 2, 3, 5, 8</code>. 
-&nbsp;            1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
-</pre>
+    
+    
+    **Input:** "112358"
+    **Output:** true 
+    **Explanation:** The digits can form an additive sequence: 1, 1, 2, 3, 5, 8. 
+                 1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> <code>&quot;199100199&quot;</code>
-<b>Output:</b> true 
-<strong>Explanation: </strong>The additive sequence is: <code>1, 99, 100, 199</code><span style="font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;">.</span>&nbsp;
-&nbsp;            1 + 99 = 100, 99 + 100 = 199</pre>
+    
+    
+    **Input:** "199100199"
+    **Output:** true 
+    **Explanation:** The additive sequence is: 1, 99, 100, 199. 
+                 1 + 99 = 100, 99 + 100 = 199
 
-<p><b>Follow up:</b><br />
-How would you handle overflow for very large input integers?</p>
+**Follow up:**  
+How would you handle overflow for very large input integers?
+
+
 Similar Questions:
   Split Array into Fibonacci Sequence (split-array-into-fibonacci-sequence)
 """

@@ -7,82 +7,102 @@ import (
 /*831. Masking Personal Information
 https://leetcode.com/problems/masking-personal-information/description/
 
-<p>We are given a&nbsp;personal information string <code>S</code>, which may represent&nbsp;either <strong>an email address</strong> or <strong>a phone number.</strong></p>
+We are given a personal information string `S`, which may represent either
+**an email address** or **a phone number.**
 
-<p>We would like to mask this&nbsp;personal information according to the&nbsp;following rules:</p>
+We would like to mask this personal information according to the following
+rules:
 
-<p><br />
-<u><strong>1. Email address:</strong></u></p>
+  
+_**1\. Email address:**_
 
-<p>We define a&nbsp;<strong>name</strong> to be a string of <code>length &ge; 2</code> consisting&nbsp;of only lowercase letters&nbsp;<code>a-z</code> or uppercase&nbsp;letters&nbsp;<code>A-Z</code>.</p>
+We define a  **name** to be a string of `length ≥ 2` consisting of only
+lowercase letters `a-z` or uppercase letters `A-Z`.
 
-<p>An email address starts with a name, followed by the&nbsp;symbol <code>&#39;@&#39;</code>, followed by a name, followed by the&nbsp;dot&nbsp;<code>&#39;.&#39;</code>&nbsp;and&nbsp;followed by a name.&nbsp;</p>
+An email address starts with a name, followed by the symbol `'@'`, followed by
+a name, followed by the dot `'.'` and followed by a name.
 
-<p>All email addresses are&nbsp;guaranteed to be valid and in the format of&nbsp;<code>&quot;name1@name2.name3&quot;.</code></p>
+All email addresses are guaranteed to be valid and in the format of
+`"name1@name2.name3".`
 
-<p>To mask an email, <strong>all names must be converted to lowercase</strong> and <strong>all letters between the first and last letter of the first name</strong> must be replaced by 5 asterisks <code>&#39;*&#39;</code>.</p>
+To mask an email, **all names must be converted to lowercase** and **all
+letters between the first and last letter of the first name** must be replaced
+by 5 asterisks `'*'`.
 
-<p><br />
-<u><strong>2. Phone number:</strong></u></p>
+  
+_**2\. Phone number:**_
 
-<p>A phone number is a string consisting of&nbsp;only the digits <code>0-9</code> or the characters from the set <code>{&#39;+&#39;, &#39;-&#39;, &#39;(&#39;, &#39;)&#39;, &#39;&nbsp;&#39;}.</code>&nbsp;You may assume a phone&nbsp;number contains&nbsp;10 to 13 digits.</p>
+A phone number is a string consisting of only the digits `0-9` or the
+characters from the set `{'+', '-', '(', ')', ' '}.` You may assume a phone
+number contains 10 to 13 digits.
 
-<p>The last 10 digits make up the local&nbsp;number, while the digits before those make up the country code. Note that&nbsp;the country code is optional. We want to expose only the last 4 digits&nbsp;and mask all other&nbsp;digits.</p>
+The last 10 digits make up the local number, while the digits before those
+make up the country code. Note that the country code is optional. We want to
+expose only the last 4 digits and mask all other digits.
 
-<p>The local&nbsp;number&nbsp;should be formatted and masked as <code>&quot;***-***-1111&quot;,&nbsp;</code>where <code>1</code> represents the exposed digits.</p>
+The local number should be formatted and masked as `"***-***-1111", `where `1`
+represents the exposed digits.
 
-<p>To mask a phone number with country code like <code>&quot;+111 111 111 1111&quot;</code>, we write it in the form <code>&quot;+***-***-***-1111&quot;.</code>&nbsp; The <code>&#39;+&#39;</code>&nbsp;sign and the first <code>&#39;-&#39;</code>&nbsp;sign before the local number should only exist if there is a country code.&nbsp; For example, a 12 digit phone number mask&nbsp;should start&nbsp;with <code>&quot;+**-&quot;</code>.</p>
+To mask a phone number with country code like `"+111 111 111 1111"`, we write
+it in the form `"+***-***-***-1111".`  The `'+'` sign and the first `'-'` sign
+before the local number should only exist if there is a country code.  For
+example, a 12 digit phone number mask should start with `"+**-"`.
 
-<p>Note that extraneous characters like <code>&quot;(&quot;, &quot;)&quot;, &quot; &quot;</code>, as well as&nbsp;extra dashes or plus signs not part of the above formatting scheme should be removed.</p>
+Note that extraneous characters like `"(", ")", " "`, as well as extra dashes
+or plus signs not part of the above formatting scheme should be removed.
 
-<p>&nbsp;</p>
 
-<p>Return the correct &quot;mask&quot; of the information provided.</p>
 
-<p>&nbsp;</p>
+Return the correct "mask" of the information provided.
 
-<p><strong>Example 1:</strong></p>
 
-<pre>
-<strong>Input: </strong>&quot;LeetCode@LeetCode.com&quot;
-<strong>Output: </strong>&quot;l*****e@leetcode.com&quot;
-<strong>Explanation:&nbsp;</strong>All names are converted to lowercase, and the letters between the
-&nbsp;            first and last letter of the first name is replaced by 5 asterisks.
-&nbsp;            Therefore, &quot;leetcode&quot; -&gt; &quot;l*****e&quot;.
-</pre>
 
-<p><strong>Example 2:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>&quot;AB@qq.com&quot;
-<strong>Output: </strong>&quot;a*****b@qq.com&quot;
-<strong>Explanation:&nbsp;</strong>There must be 5 asterisks between the first and last letter 
-&nbsp;            of the first name &quot;ab&quot;. Therefore, &quot;ab&quot; -&gt; &quot;a*****b&quot;.
-</pre>
+    
+    
+    **Input:** "LeetCode@LeetCode.com"
+    **Output:** "l*****e@leetcode.com"
+    **Explanation:  **All names are converted to lowercase, and the letters between the
+                 first and last letter of the first name is replaced by 5 asterisks.
+                 Therefore, "leetcode" -> "l*****e".
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>&quot;1(234)567-890&quot;
-<strong>Output: </strong>&quot;***-***-7890&quot;
-<strong>Explanation:</strong>&nbsp;10 digits in the phone number, which means all digits make up the local number.
-</pre>
+    
+    
+    **Input:** "AB@qq.com"
+    **Output:** "a*****b@qq.com"
+    **Explanation:  **There must be 5 asterisks between the first and last letter 
+                 of the first name "ab". Therefore, "ab" -> "a*****b".
+    
 
-<p><strong>Example 4:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input: </strong>&quot;86-(10)12345678&quot;
-<strong>Output: </strong>&quot;+**-***-***-5678&quot;
-<strong>Explanation:</strong>&nbsp;12 digits, 2 digits for country code and 10 digits for local number. 
-</pre>
+    
+    
+    **Input:** "1(234)567-890"
+    **Output:** "***-***-7890"
+    **Explanation:**  10 digits in the phone number, which means all digits make up the local number.
+    
 
-<p><strong>Notes:</strong></p>
+**Example 4:**
 
-<ol>
-	<li><code>S.length&nbsp;&lt;=&nbsp;40</code>.</li>
-	<li>Emails have length at least 8.</li>
-	<li>Phone numbers have length at least 10.</li>
-</ol>
+    
+    
+    **Input:** "86-(10)12345678"
+    **Output:** "+**-***-***-5678"
+    **Explanation:**  12 digits, 2 digits for country code and 10 digits for local number. 
+    
+
+**Notes:**
+
+  1. `S.length <= 40`.
+  2. Emails have length at least 8.
+  3. Phone numbers have length at least 10.
+
+
 Similar Questions:
 
 */

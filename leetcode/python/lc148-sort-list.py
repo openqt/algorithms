@@ -4,20 +4,24 @@ import unittest
 """148. Sort List
 https://leetcode.com/problems/sort-list/description/
 
-<p>Sort a linked list in <em>O</em>(<em>n</em> log <em>n</em>) time using constant space complexity.</p>
+Sort a linked list in _O_ ( _n_ log _n_ ) time using constant space
+complexity.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 4-&gt;2-&gt;1-&gt;3
-<strong>Output:</strong> 1-&gt;2-&gt;3-&gt;4
-</pre>
+    
+    
+    **Input:** 4- >2->1->3
+    **Output:** 1- >2->3->4
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> -1-&gt;5-&gt;3-&gt;4-&gt;0
-<strong>Output:</strong> -1-&gt;0-&gt;3-&gt;4-&gt;5</pre>
+    
+    
+    **Input:** -1- >5->3->4->0
+    **Output:** -1- >0->3->4->5
+
 
 Similar Questions:
   Merge Two Sorted Lists (merge-two-sorted-lists)

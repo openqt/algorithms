@@ -7,21 +7,25 @@ import (
 /*448. Find All Numbers Disappeared in an Array
 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
 
-<p>Given an array of integers where 1 &le; a[i] &le; <i>n</i> (<i>n</i> = size of array), some elements appear twice and others appear once.</p>
+Given an array of integers where 1 ≤ a[i] ≤ _n_ ( _n_ = size of array), some
+elements appear twice and others appear once.
 
-<p>Find all the elements of [1, <i>n</i>] inclusive that do not appear in this array.</p>
+Find all the elements of [1, _n_ ] inclusive that do not appear in this array.
 
-<p>Could you do it without extra space and in O(<i>n</i>) runtime? You may assume the returned list does not count as extra space.</p>
+Could you do it without extra space and in O( _n_ ) runtime? You may assume
+the returned list does not count as extra space.
 
-<p><b>Example:</b>
-<pre>
-<b>Input:</b>
-[4,3,2,7,8,2,3,1]
+**Example:**
 
-<b>Output:</b>
-[5,6]
-</pre>
-</p>
+    
+    
+    **Input:**
+    [4,3,2,7,8,2,3,1]
+    
+    **Output:**
+    [5,6]
+
+
 Similar Questions:
   First Missing Positive (first-missing-positive)
   Find All Duplicates in an Array (find-all-duplicates-in-an-array)

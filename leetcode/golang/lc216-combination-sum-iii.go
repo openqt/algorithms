@@ -7,30 +7,30 @@ import (
 /*216. Combination Sum III
 https://leetcode.com/problems/combination-sum-iii/description/
 
-<div>
-<p>Find all possible combinations of <i><b>k</b></i> numbers that add up to a number <i><b>n</b></i>, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers.</p>
+Find all possible combinations of _**k**_ numbers that add up to a number
+_**n**_ , given that only numbers from 1 to 9 can be used and each combination
+should be a unique set of numbers.
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>All numbers will be positive integers.</li>
-	<li>The solution set must not contain duplicate combinations.</li>
-</ul>
+  * All numbers will be positive integers.
+  * The solution set must not contain duplicate combinations.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> <i><b>k</b></i> = 3, <i><b>n</b></i> = 7
-<strong>Output:</strong> [[1,2,4]]
-</pre>
+    
+    
+    **Input:** _**k**_ = 3, _**n**_ = 7
+    **Output:** [[1,2,4]]
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> <i><b>k</b></i> = 3, <i><b>n</b></i> = 9
-<strong>Output:</strong> [[1,2,6], [1,3,5], [2,3,4]]
-</pre>
-</div>
+    
+    
+    **Input:** _**k**_ = 3, _**n**_ = 9
+    **Output:** [[1,2,6], [1,3,5], [2,3,4]]
+
 
 Similar Questions:
   Combination Sum (combination-sum)

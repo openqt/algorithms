@@ -4,34 +4,37 @@ import unittest
 """848. Shifting Letters
 https://leetcode.com/problems/shifting-letters/description/
 
-<p>We have a string <code>S</code> of lowercase letters, and an integer array <code>shifts</code>.</p>
+We have a string `S` of lowercase letters, and an integer array `shifts`.
 
-<p>Call the <em>shift</em> of a letter, the next letter in the alphabet, (wrapping around so that <code>&#39;z&#39;</code> becomes <code>&#39;a&#39;</code>).&nbsp;</p>
+Call the _shift_ of a letter, the next letter in the alphabet, (wrapping
+around so that `'z'` becomes `'a'`).
 
-<p>For example, <code>shift(&#39;a&#39;) = &#39;b&#39;</code>, <code>shift(&#39;t&#39;) = &#39;u&#39;</code>, and <code>shift(&#39;z&#39;) = &#39;a&#39;</code>.</p>
+For example, `shift('a') = 'b'`, `shift('t') = 'u'`, and `shift('z') = 'a'`.
 
-<p>Now for each <code>shifts[i] = x</code>, we want to shift the first <code>i+1</code>&nbsp;letters of <code>S</code>, <code>x</code> times.</p>
+Now for each `shifts[i] = x`, we want to shift the first `i+1` letters of `S`,
+`x` times.
 
-<p>Return the final string&nbsp;after all such shifts to <code>S</code> are applied.</p>
+Return the final string after all such shifts to `S` are applied.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>S = &quot;abc&quot;, shifts = [3,5,9]
-<strong>Output: </strong>&quot;rpl&quot;
-<strong>Explanation: </strong>
-We start with &quot;abc&quot;.
-After shifting the first 1 letters of S by 3, we have &quot;dbc&quot;.
-After shifting the first 2 letters of S by 5, we have &quot;igc&quot;.
-After shifting the first 3 letters of S by 9, we have &quot;rpl&quot;, the answer.
-</pre>
+    
+    
+    **Input:** S = "abc", shifts = [3,5,9]
+    **Output:** "rpl"
+    **Explanation:**
+    We start with  "abc".
+    After shifting the first 1 letters of S by 3, we have "dbc".
+    After shifting the first 2 letters of S by 5, we have "igc".
+    After shifting the first 3 letters of S by 9, we have "rpl", the answer.
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ol>
-	<li><code>1 &lt;= S.length = shifts.length &lt;= 20000</code></li>
-	<li><code>0 &lt;= shifts[i] &lt;= 10 ^ 9</code></li>
-</ol>
+  1. `1 <= S.length = shifts.length <= 20000`
+  2. `0 <= shifts[i] <= 10 ^ 9`
+
+
 Similar Questions:
 
 """

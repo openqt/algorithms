@@ -4,23 +4,24 @@ import unittest
 """341. Flatten Nested List Iterator
 https://leetcode.com/problems/flatten-nested-list-iterator/description/
 
-<p>Given a nested list of integers, implement an iterator to flatten it.</p>
+Given a nested list of integers, implement an iterator to flatten it.
 
-<p>Each element is either an integer, or a list -- whose elements may also be integers or other lists.</p>
+Each element is either an integer, or a list -- whose elements may also be
+integers or other lists.
 
-<p><b>Example 1:</b><br />
-Given the list <code>[[1,1],2,[1,1]]</code>,
-<p>
-By calling <i>next</i> repeatedly until <i>hasNext</i> returns false, the order of elements returned by <i>next</i> should be: <code>[1,1,2,1,1]</code>.
-</p>
-</p>
+**Example 1:**  
+Given the list `[[1,1],2,[1,1]]`,
 
-<p><b>Example 2:</b><br />
-Given the list <code>[1,[4,[6]]]</code>,
-<p>
-By calling <i>next</i> repeatedly until <i>hasNext</i> returns false, the order of elements returned by <i>next</i> should be: <code>[1,4,6]</code>.
-</p>
-</p>
+By calling _next_ repeatedly until _hasNext_ returns false, the order of
+elements returned by _next_ should be: `[1,1,2,1,1]`.
+
+**Example 2:**  
+Given the list `[1,[4,[6]]]`,
+
+By calling _next_ repeatedly until _hasNext_ returns false, the order of
+elements returned by _next_ should be: `[1,4,6]`.
+
+
 Similar Questions:
   Flatten 2D Vector (flatten-2d-vector)
   Zigzag Iterator (zigzag-iterator)

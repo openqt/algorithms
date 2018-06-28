@@ -7,29 +7,37 @@ import (
 /*28. Implement strStr()
 https://leetcode.com/problems/implement-strstr/description/
 
-<p>Implement <a href="http://www.cplusplus.com/reference/cstring/strstr/" target="_blank">strStr()</a>.</p>
+Implement [strStr()](http://www.cplusplus.com/reference/cstring/strstr/).
 
-<p>Return the index of the first occurrence of needle in haystack, or <strong>-1</strong> if needle is not part of haystack.</p>
+Return the index of the first occurrence of needle in haystack, or **-1** if
+needle is not part of haystack.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> haystack = &quot;hello&quot;, needle = &quot;ll&quot;
-<strong>Output:</strong> 2
-</pre>
+    
+    
+    **Input:** haystack =  "hello", needle = "ll"
+    **Output:** 2
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> haystack = &quot;aaaaa&quot;, needle = &quot;bba&quot;
-<strong>Output:</strong> -1
-</pre>
+    
+    
+    **Input:** haystack =  "aaaaa", needle = "bba"
+    **Output:** -1
+    
 
-<p><strong>Clarification:</strong></p>
+**Clarification:**
 
-<p>What should we return when <code>needle</code> is an empty string? This is a great question to ask during an interview.</p>
+What should we return when `needle` is an empty string? This is a great
+question to ask during an interview.
 
-<p>For the purpose of this problem, we will return 0 when <code>needle</code> is an empty string. This is consistent to C&#39;s&nbsp;<a href="http://www.cplusplus.com/reference/cstring/strstr/" target="_blank">strstr()</a> and Java&#39;s&nbsp;<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf(java.lang.String)" target="_blank">indexOf()</a>.</p>
+For the purpose of this problem, we will return 0 when `needle` is an empty
+string. This is consistent to C's
+[strstr()](http://www.cplusplus.com/reference/cstring/strstr/) and Java's
+[indexOf()](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#indexOf\(java.lang.String\)).
+
 
 Similar Questions:
   Shortest Palindrome (shortest-palindrome)

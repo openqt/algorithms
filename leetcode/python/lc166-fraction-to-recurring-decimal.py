@@ -4,29 +4,34 @@ import unittest
 """166. Fraction to Recurring Decimal
 https://leetcode.com/problems/fraction-to-recurring-decimal/description/
 
-<p>Given two integers representing the numerator and denominator of a fraction, return the fraction in string format.</p>
+Given two integers representing the numerator and denominator of a fraction,
+return the fraction in string format.
 
-<p>If the fractional part is repeating, enclose the repeating part in parentheses.</p>
+If the fractional part is repeating, enclose the repeating part in
+parentheses.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> numerator = 1, denominator = 2
-<strong>Output:</strong> &quot;0.5&quot;
-</pre>
+    
+    
+    **Input:** numerator = 1, denominator = 2
+    **Output:**  "0.5"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> numerator = 2, denominator = 1
-<strong>Output:</strong> &quot;2&quot;</pre>
+    
+    
+    **Input:** numerator = 2, denominator = 1
+    **Output:**  "2"
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> numerator = 2, denominator = 3
-<strong>Output: </strong>&quot;0.(6)&quot;
-</pre>
+    
+    
+    **Input:** numerator = 2, denominator = 3
+    **Output:** "0.(6)"
+
 
 Similar Questions:
 

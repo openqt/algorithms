@@ -7,34 +7,39 @@ import (
 /*9. Palindrome Number
 https://leetcode.com/problems/palindrome-number/description/
 
-<p>Determine whether an integer is a palindrome. An integer&nbsp;is&nbsp;a&nbsp;palindrome when it&nbsp;reads the same backward as forward.</p>
+Determine whether an integer is a palindrome. An integer is a palindrome when
+it reads the same backward as forward.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 121
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:** 121
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> -121
-<strong>Output:</strong> false
-<strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
-</pre>
+    
+    
+    **Input:** -121
+    **Output:** false
+    **Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> 10
-<strong>Output:</strong> false
-<strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
-</pre>
+    
+    
+    **Input:** 10
+    **Output:** false
+    **Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.
+    
 
-<p><strong>Follow up:</strong></p>
+**Follow up:**
 
-<p>Coud you solve&nbsp;it without converting the integer to a string?</p>
+Coud you solve it without converting the integer to a string?
+
 
 Similar Questions:
   Palindrome Linked List (palindrome-linked-list)

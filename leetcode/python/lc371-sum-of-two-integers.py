@@ -4,13 +4,17 @@ import unittest
 """371. Sum of Two Integers
 https://leetcode.com/problems/sum-of-two-integers/description/
 
-<p>Calculate the sum of two integers <i>a</i> and <i>b</i>, but you are <b>not allowed</b> to use the operator <code>+</code> and <code>-</code>.</p>
+Calculate the sum of two integers _a_ and _b_ , but you are **not allowed** to
+use the operator `+` and `-`.
 
-<p><b>Example:</b><br />
-Given <i>a</i> = 1 and <i>b</i> = 2, return 3.
-</p>
+**Example:**  
+Given _a_ = 1 and _b_ = 2, return 3.
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/fujiaozhu">@fujiaozhu</a> for adding this problem and creating all test cases.</p>
+**Credits:**  
+Special thanks to [@fujiaozhu](https://discuss.leetcode.com/user/fujiaozhu)
+for adding this problem and creating all test cases.
+
+
 Similar Questions:
   Add Two Numbers (add-two-numbers)
 """

@@ -4,39 +4,43 @@ import unittest
 """753. Cracking the Safe
 https://leetcode.com/problems/cracking-the-safe/description/
 
-<p>
-There is a box protected by a password.  The password is <code>n</code> digits, where each letter can be one of the first <code>k</code> digits <code>0, 1, ..., k-1</code>.
-</p><p>
-You can keep inputting the password, the password will automatically be matched against the last <code>n</code> digits entered.
-</p><p>
-For example, assuming the password is <code>"345"</code>, I can open it when I type <code>"012345"</code>, but I enter a total of 6 digits.
-</p><p>
-Please return any string of minimum length that is guaranteed to open the box after the entire string is inputted.
-</p>
+There is a box protected by a password. The password is `n` digits, where each
+letter can be one of the first `k` digits `0, 1, ..., k-1`.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> n = 1, k = 2
-<b>Output:</b> "01"
-<b>Note:</b> "10" will be accepted too.
-</pre>
-</p>
+You can keep inputting the password, the password will automatically be
+matched against the last `n` digits entered.
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> n = 2, k = 2
-<b>Output:</b> "00110"
-<b>Note:</b> "01100", "10011", "11001" will be accepted too.
-</pre>
-</p>
+For example, assuming the password is `"345"`, I can open it when I type
+`"012345"`, but I enter a total of 6 digits.
 
-<p><b>Note:</b><br>
-<ol>
-<li><code>n</code> will be in the range <code>[1, 4]</code>.</li>
-<li><code>k</code> will be in the range <code>[1, 10]</code>.</li>
-<li><code>k^n</code> will be at most <code>4096</code>.</li>
-</ol>
-</p>
+Please return any string of minimum length that is guaranteed to open the box
+after the entire string is inputted.
+
+**Example 1:**  
+
+    
+    
+    **Input:** n = 1, k = 2
+    **Output:** "01"
+    **Note:** "10" will be accepted too.
+    
+
+**Example 2:**  
+
+    
+    
+    **Input:** n = 2, k = 2
+    **Output:** "00110"
+    **Note:** "01100", "10011", "11001" will be accepted too.
+    
+
+**Note:**  
+
+  1. `n` will be in the range `[1, 4]`.
+  2. `k` will be in the range `[1, 10]`.
+  3. `k^n` will be at most `4096`.
+
+
 Similar Questions:
 
 """

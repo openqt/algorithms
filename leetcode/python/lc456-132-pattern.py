@@ -4,41 +4,46 @@ import unittest
 """456. 132 Pattern
 https://leetcode.com/problems/132-pattern/description/
 
-<p>
-Given a sequence of n integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, a 132 pattern is a subsequence a<sub><b>i</b></sub>, a<sub><b>j</b></sub>, a<sub><b>k</b></sub> such
-that <b>i</b> < <b>j</b> < <b>k</b> and a<sub><b>i</b></sub> < a<sub><b>k</b></sub> < a<sub><b>j</b></sub>. Design an algorithm that takes a list of n numbers as input and checks whether there is a 132 pattern in the list.</p>
+Given a sequence of n integers a1, a2, ..., an, a 132 pattern is a subsequence
+a **i** , a **j** , a **k** such that **i** < **j** < **k** and a **i** < a
+**k** < a **j**. Design an algorithm that takes a list of n numbers as input
+and checks whether there is a 132 pattern in the list.
 
-<p><b>Note:</b> n will be less than 15,000.</p>
+**Note:** n will be less than 15,000.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> [1, 2, 3, 4]
+**Example 1:**  
 
-<b>Output:</b> False
+    
+    
+    **Input:** [1, 2, 3, 4]
+    
+    **Output:** False
+    
+    **Explanation:** There is no 132 pattern in the sequence.
+    
 
-<b>Explanation:</b> There is no 132 pattern in the sequence.
-</pre>
-</p>
+**Example 2:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> [3, 1, 4, 2]
+    
+    
+    **Input:** [3, 1, 4, 2]
+    
+    **Output:** True
+    
+    **Explanation:** There is a 132 pattern in the sequence: [1, 4, 2].
+    
 
-<b>Output:</b> True
+**Example 3:**  
 
-<b>Explanation:</b> There is a 132 pattern in the sequence: [1, 4, 2].
-</pre>
-</p>
+    
+    
+    **Input:** [-1, 3, 2, 0]
+    
+    **Output:** True
+    
+    **Explanation:** There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0] and [-1, 2, 0].
 
-<p><b>Example 3:</b><br />
-<pre>
-<b>Input:</b> [-1, 3, 2, 0]
 
-<b>Output:</b> True
-
-<b>Explanation:</b> There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0] and [-1, 2, 0].
-</pre>
-</p>
 Similar Questions:
 
 """

@@ -4,30 +4,35 @@ import unittest
 """239. Sliding Window Maximum
 https://leetcode.com/problems/sliding-window-maximum/description/
 
-<p>Given an array <em>nums</em>, there is a sliding window of size <em>k</em> which is moving from the very left of the array to the very right. You can only see the <em>k</em> numbers in the window. Each time the sliding window moves right by one position. Return the max sliding window.</p>
+Given an array _nums_ , there is a sliding window of size _k_ which is moving
+from the very left of the array to the very right. You can only see the _k_
+numbers in the window. Each time the sliding window moves right by one
+position. Return the max sliding window.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> <em>nums</em> = <code>[1,3,-1,-3,5,3,6,7]</code>, and <em>k</em> = 3
-<strong>Output: </strong><code>[3,3,5,5,6,7] 
-<strong>Explanation: 
-</strong></code>
-Window position                Max
----------------               -----
-[1  3  -1] -3  5  3  6  7       <strong>3</strong>
- 1 [3  -1  -3] 5  3  6  7       <strong>3</strong>
- 1  3 [-1  -3  5] 3  6  7      <strong> 5</strong>
- 1  3  -1 [-3  5  3] 6  7       <strong>5</strong>
- 1  3  -1  -3 [5  3  6] 7       <strong>6</strong>
- 1  3  -1  -3  5 [3  6  7]      <strong>7</strong>
-</pre>
+    
+    
+    **Input:** _nums_ = [1,3,-1,-3,5,3,6,7], and _k_ = 3
+    **Output:**[3,3,5,5,6,7] 
+    **Explanation:**
+    Window position                Max
+    ---------------               -----
+    [1  3  -1] -3  5  3  6  7       **3**
+     1 [3  -1  -3] 5  3  6  7       **3**
+     1  3 [-1  -3  5] 3  6  7      **5**
+     1  3  -1 [-3  5  3] 6  7       **5**
+     1  3  -1  -3 [5  3  6] 7       **6**
+     1  3  -1  -3  5 [3  6  7]      **7**
+    
 
-<p><strong>Note: </strong><br />
-You may assume <em>k</em> is always valid, 1 &le; k &le; input array&#39;s size for non-empty array.</p>
+**Note:**  
+You may assume _k_ is always valid, 1  ≤ k ≤ input array's size for non-empty
+array.
 
-<p><strong>Follow up:</strong><br />
-Could you solve it in linear time?</p>
+**Follow up:**  
+Could you solve it in linear time?
+
 
 Similar Questions:
   Minimum Window Substring (minimum-window-substring)

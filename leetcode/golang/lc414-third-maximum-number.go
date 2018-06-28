@@ -7,38 +7,44 @@ import (
 /*414. Third Maximum Number
 https://leetcode.com/problems/third-maximum-number/description/
 
-<p>Given a <b>non-empty</b> array of integers, return the <b>third</b> maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).</p>
+Given a **non-empty** array of integers, return the **third** maximum number
+in this array. If it does not exist, return the maximum number. The time
+complexity must be in O(n).
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> [3, 2, 1]
+**Example 1:**  
 
-<b>Output:</b> 1
+    
+    
+    **Input:** [3, 2, 1]
+    
+    **Output:** 1
+    
+    **Explanation:** The third maximum is 1.
+    
 
-<b>Explanation:</b> The third maximum is 1.
-</pre>
-</p>
+**Example 2:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> [1, 2]
+    
+    
+    **Input:** [1, 2]
+    
+    **Output:** 2
+    
+    **Explanation:** The third maximum does not exist, so the maximum (2) is returned instead.
+    
 
-<b>Output:</b> 2
+**Example 3:**  
 
-<b>Explanation:</b> The third maximum does not exist, so the maximum (2) is returned instead.
-</pre>
-</p>
+    
+    
+    **Input:** [2, 2, 3, 1]
+    
+    **Output:** 1
+    
+    **Explanation:** Note that the third maximum here means the third maximum distinct number.
+    Both numbers with value 2 are both considered as second maximum.
 
-<p><b>Example 3:</b><br />
-<pre>
-<b>Input:</b> [2, 2, 3, 1]
 
-<b>Output:</b> 1
-
-<b>Explanation:</b> Note that the third maximum here means the third maximum distinct number.
-Both numbers with value 2 are both considered as second maximum.
-</pre>
-</p>
 Similar Questions:
   Kth Largest Element in an Array (kth-largest-element-in-an-array)
 */

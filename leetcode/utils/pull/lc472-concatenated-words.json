@@ -17,20 +17,20 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "dynamic-programming", 
+        "__typename": "TopicTagNode", 
         "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "depth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Depth-first Search"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "trie", 
+        "__typename": "TopicTagNode", 
         "name": "Trie"
       }
     ], 

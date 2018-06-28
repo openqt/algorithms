@@ -4,26 +4,28 @@ import unittest
 """106. Construct Binary Tree from Inorder and Postorder Traversal
 https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
 
-<p>Given inorder and postorder traversal of a tree, construct the binary tree.</p>
+Given inorder and postorder traversal of a tree, construct the binary tree.
 
-<p><strong>Note:</strong><br />
-You may assume that duplicates do not exist in the tree.</p>
+**Note:**  
+You may assume that duplicates do not exist in the tree.
 
-<p>For example, given</p>
+For example, given
 
-<pre>
-inorder =&nbsp;[9,3,15,20,7]
-postorder = [9,15,7,20,3]</pre>
+    
+    
+    inorder = [9,3,15,20,7]
+    postorder = [9,15,7,20,3]
 
-<p>Return the following binary tree:</p>
+Return the following binary tree:
 
-<pre>
-    3
-   / \
-  9  20
-    /  \
-   15   7
-</pre>
+    
+    
+        3
+       / \
+      9  20
+        /  \
+       15   7
+
 
 Similar Questions:
   Construct Binary Tree from Preorder and Inorder Traversal (construct-binary-tree-from-preorder-and-inorder-traversal)

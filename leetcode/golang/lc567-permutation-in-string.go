@@ -7,29 +7,33 @@ import (
 /*567. Permutation in String
 https://leetcode.com/problems/permutation-in-string/description/
 
-Given two strings <b>s1</b> and <b>s2</b>, write a function to return true if <b>s2</b> contains the permutation of <b>s1</b>. In other words, one of the first string's permutations is the <b>substring</b> of the second string.
+Given two strings **s1** and **s2** , write a function to return true if
+**s2** contains the permutation of **s1**. In other words, one of the first
+string's permutations is the **substring** of the second string.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b>s1 = "ab" s2 = "eidbaooo"
-<b>Output:</b>True
-<b>Explanation:</b> s2 contains one permutation of s1 ("ba").
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b>s1= "ab" s2 = "eidboaoo"
-<b>Output:</b> False
-</pre>
-</p>
+    
+    
+    **Input:** s1 = "ab" s2 = "eidbaooo"
+    **Output:** True
+    **Explanation:** s2 contains one permutation of s1 ("ba").
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The input strings only contain lower case letters.</li>
-<li>The length of both given strings is in range [1, 10,000].</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** s1= "ab" s2 = "eidboaoo"
+    **Output:** False
+    
+
+**Note:**  
+
+  1. The input strings only contain lower case letters.
+  2. The length of both given strings is in range [1, 10,000].
+
+
 Similar Questions:
   Minimum Window Substring (minimum-window-substring)
   Find All Anagrams in a String (find-all-anagrams-in-a-string)

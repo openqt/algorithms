@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
-    "sessionId": "0", 
     "sampleTestCase": "[[1,2,[2]], [2,3,[]]]\n2", 
     "questionFrontendId": "690", 
     "contributors": "[{\"username\": \"fallcreek\", \"profileUrl\": \"/fallcreek/\"}]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"getImportance\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"employees\",\r\n      \"type\": \"list<Employee>\"\r\n    },\r\n    {\r\n      \"name\": \"id\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  },\r\n  \"structures\": [\r\n    {\r\n      \"name\": \"Employee\",\r\n      \"comment\": \"Employee info\",\r\n      \"members\": [\r\n        {\r\n          \"name\": \"id\",\r\n          \"type\": \"integer\",\r\n          \"comment\": \"unique id of this employee\"\r\n        },\r\n        {\r\n            \"name\": \"importance\",\r\n            \"type\": \"integer\",\r\n            \"comment\": \"the importance value of this employee\"\r\n        },\r\n        {\r\n          \"name\": \"subordinates\",\r\n          \"type\": \"list<integer>\",\r\n          \"comment\": \"the id of direct subordinates\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}", 
+    "enableRunCode": true, 
     "questionDetailUrl": "/problems/employee-importance/", 
     "stats": "{\"totalAccepted\": \"25.4K\", \"totalSubmission\": \"49.1K\", \"acRate\": \"51.7%\"}", 
     "interpretUrl": "/problems/employee-importance/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "hash-table", 
-        "name": "Hash Table"
+        "name": "Hash Table", 
+        "slug": "hash-table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "depth-first-search", 
-        "name": "Depth-first Search"
+        "name": "Depth-first Search", 
+        "slug": "depth-first-search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "breadth-first-search", 
-        "name": "Breadth-first Search"
+        "name": "Breadth-first Search", 
+        "slug": "breadth-first-search"
       }
     ], 
     "content": "<p>You are given a data structure of employee information, which includes the employee's <b>unique id</b>, his <b>importance value</b> and his <b>direct</b> subordinates' id. </p>\r\n\r\n<p>For example, employee 1 is the leader of employee 2, and employee 2 is the leader of employee 3. They have importance value 15, 10 and 5, respectively. Then employee 1 has a data structure like [1, 15, [2]], and employee 2 has [2, 10, [3]], and employee 3 has [3, 5, []]. Note that although employee 3 is also a subordinate of employee 1, the relationship is <b>not direct</b>.</p>\r\n\r\n<p>Now given the employee information of a company, and an employee id, you need to return the total importance value of this employee and all his subordinates.</p>\r\n\r\n<p><b>Example 1:</b><br/>\r\n<pre>\r\n<b>Input:</b> [[1, 5, [2, 3]], [2, 3, []], [3, 3, []]], 1\r\n<b>Output:</b> 11\r\n<b>Explanation:</b>\r\nEmployee 1 has importance value 5, and he has two direct subordinates: employee 2 and employee 3. They both have importance value 3. So the total importance value of employee 1 is 5 + 3 + 3 = 11.\r\n</pre>\r\n</p>\r\n\r\n<p><b>Note:</b><br>\r\n<ol>\r\n<li>One employee has at most one <b>direct</b> leader and may have several subordinates.</li>\r\n<li>The maximum number of employees won't exceed 2000.</li>\r\n</ol>\r\n</p>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "employee-importance", 
     "similarQuestions": "[{\"title\": \"Nested List Weight Sum\", \"titleSlug\": \"nested-list-weight-sum\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "enableRunCode": true, 
+    "sessionId": "0", 
     "questionTitle": "Employee Importance", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

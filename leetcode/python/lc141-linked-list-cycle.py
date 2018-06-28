@@ -4,14 +4,12 @@ import unittest
 """141. Linked List Cycle
 https://leetcode.com/problems/linked-list-cycle/description/
 
-<p>
 Given a linked list, determine if it has a cycle in it.
-</p>
 
-<p>
-Follow up:<br />
+Follow up:  
 Can you solve it without using extra space?
-</p>
+
+
 Similar Questions:
   Linked List Cycle II (linked-list-cycle-ii)
   Happy Number (happy-number)

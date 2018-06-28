@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "brainteaser", 
+        "__typename": "TopicTagNode", 
         "name": "Brainteaser"
       }
     ], 

@@ -4,33 +4,35 @@ import unittest
 """135. Candy
 https://leetcode.com/problems/candy/description/
 
-<p>There are <em>N</em> children standing in a line. Each child is assigned a rating value.</p>
+There are _N_ children standing in a line. Each child is assigned a rating
+value.
 
-<p>You are giving candies to these children subjected to the following requirements:</p>
+You are giving candies to these children subjected to the following
+requirements:
 
-<ul>
-	<li>Each child must have at least one candy.</li>
-	<li>Children with a higher rating get more candies than their neighbors.</li>
-</ul>
+  * Each child must have at least one candy.
+  * Children with a higher rating get more candies than their neighbors.
 
-<p>What is the minimum candies you must give?</p>
+What is the minimum candies you must give?
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [1,0,2]
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
-</pre>
+    
+    
+    **Input:** [1,0,2]
+    **Output:** 5
+    **Explanation:** You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [1,2,2]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
-             The third child gets 1 candy because it satisfies the above two conditions.
-</pre>
+    
+    
+    **Input:** [1,2,2]
+    **Output:** 4
+    **Explanation:** You can allocate to the first, second and third child with 1, 2, 1 candies respectively.
+                 The third child gets 1 candy because it satisfies the above two conditions.
+
 
 Similar Questions:
 

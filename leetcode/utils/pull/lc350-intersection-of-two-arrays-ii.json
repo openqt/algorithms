@@ -17,26 +17,26 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "hash-table", 
+        "__typename": "TopicTagNode", 
         "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "two-pointers", 
+        "__typename": "TopicTagNode", 
         "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "binary-search", 
+        "__typename": "TopicTagNode", 
         "name": "Binary Search"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "sort", 
+        "__typename": "TopicTagNode", 
         "name": "Sort"
       }
     ], 

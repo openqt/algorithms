@@ -7,27 +7,32 @@ import (
 /*367. Valid Perfect Square
 https://leetcode.com/problems/valid-perfect-square/description/
 
-<p>Given a positive integer <i>num</i>, write a function which returns True if <i>num</i> is a perfect square else False.</p>
+Given a positive integer _num_ , write a function which returns True if _num_
+is a perfect square else False.
 
-<p>
-<b>Note:</b> <b>Do not</b> use any built-in library function such as <code>sqrt</code>.
-</p>
+**Note:** **Do not** use any built-in library function such as `sqrt`.
 
-<p><b>Example 1:</b>
-<pre>
-Input: 16
-Returns: True
-</pre>
-</p>
+**Example 1:**
 
-<p><b>Example 2:</b>
-<pre>
-Input: 14
-Returns: False
-</pre>
-</p>
+    
+    
+    Input: 16
+    Returns: True
+    
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/elmirap">@elmirap</a> for adding this problem and creating all test cases.</p>
+**Example 2:**
+
+    
+    
+    Input: 14
+    Returns: False
+    
+
+**Credits:**  
+Special thanks to [@elmirap](https://discuss.leetcode.com/user/elmirap) for
+adding this problem and creating all test cases.
+
+
 Similar Questions:
   Sqrt(x) (sqrtx)
   Sum of Square Numbers (sum-of-square-numbers)

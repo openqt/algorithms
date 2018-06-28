@@ -7,23 +7,27 @@ import (
 /*125. Valid Palindrome
 https://leetcode.com/problems/valid-palindrome/description/
 
-<p>Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.</p>
+Given a string, determine if it is a palindrome, considering only alphanumeric
+characters and ignoring cases.
 
-<p><strong>Note:</strong>&nbsp;For the purpose of this problem, we define empty string as valid palindrome.</p>
+**Note:**  For the purpose of this problem, we define empty string as valid
+palindrome.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> &quot;A man, a plan, a canal: Panama&quot;
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:**  "A man, a plan, a canal: Panama"
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> &quot;race a car&quot;
-<strong>Output:</strong> false
-</pre>
+    
+    
+    **Input:**  "race a car"
+    **Output:** false
+
 
 Similar Questions:
   Palindrome Linked List (palindrome-linked-list)

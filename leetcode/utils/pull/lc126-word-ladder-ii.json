@@ -17,26 +17,26 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "array", 
+        "__typename": "TopicTagNode", 
         "name": "Array"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "string", 
+        "__typename": "TopicTagNode", 
         "name": "String"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "backtracking", 
+        "__typename": "TopicTagNode", 
         "name": "Backtracking"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "breadth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Breadth-first Search"
       }
     ], 

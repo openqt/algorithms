@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "math", 
+        "__typename": "TopicTagNode", 
         "name": "Math"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "recursion", 
+        "__typename": "TopicTagNode", 
         "name": "Recursion"
       }
     ], 

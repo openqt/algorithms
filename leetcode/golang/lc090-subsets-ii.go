@@ -7,24 +7,27 @@ import (
 /*90. Subsets II
 https://leetcode.com/problems/subsets-ii/description/
 
-<p>Given a collection of integers that might contain duplicates, <strong><em>nums</em></strong>, return all possible subsets (the power set).</p>
+Given a collection of integers that might contain duplicates, **_nums_** ,
+return all possible subsets (the power set).
 
-<p><strong>Note:</strong> The solution set must not contain duplicate subsets.</p>
+**Note:** The solution set must not contain duplicate subsets.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> [1,2,2]
-<strong>Output:</strong>
-[
-  [2],
-  [1],
-  [1,2,2],
-  [2,2],
-  [1,2],
-  []
-]
-</pre>
+    
+    
+    **Input:** [1,2,2]
+    **Output:**
+    [
+      [2],
+      [1],
+      [1,2,2],
+      [2,2],
+      [1,2],
+      []
+    ]
+
+
 Similar Questions:
   Subsets (subsets)
 */

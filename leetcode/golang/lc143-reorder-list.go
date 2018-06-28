@@ -7,21 +7,24 @@ import (
 /*143. Reorder List
 https://leetcode.com/problems/reorder-list/description/
 
-<p>Given a singly linked list <em>L</em>: <em>L</em><sub>0</sub>&rarr;<em>L</em><sub>1</sub>&rarr;&hellip;&rarr;<em>L</em><sub><em>n</em>-1</sub>&rarr;<em>L</em><sub>n</sub>,<br />
-reorder it to: <em>L</em><sub>0</sub>&rarr;<em>L</em><sub><em>n</em></sub>&rarr;<em>L</em><sub>1</sub>&rarr;<em>L</em><sub><em>n</em>-1</sub>&rarr;<em>L</em><sub>2</sub>&rarr;<em>L</em><sub><em>n</em>-2</sub>&rarr;&hellip;</p>
+Given a singly linked list _L_ : _L_ 0-> _L_ 1->…-> _L_ _n_ -1-> _L_ n,  
+reorder it to: _L_ 0-> _L_ _n_ -> _L_ 1-> _L_ _n_ -1-> _L_ 2-> _L_ _n_ -2->…
 
-<p>You may <strong>not</strong> modify the values in the list&#39;s nodes, only nodes itself may be changed.</p>
+You may **not** modify the values in the list 's nodes, only nodes itself may
+be changed.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-Given 1-&gt;2-&gt;3-&gt;4, reorder it to 1-&gt;4-&gt;2-&gt;3.</pre>
+    
+    
+    Given 1->2->3->4, reorder it to 1->4->2->3.
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-Given 1-&gt;2-&gt;3-&gt;4-&gt;5, reorder it to 1-&gt;5-&gt;2-&gt;4-&gt;3.
-</pre>
+    
+    
+    Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
+
 
 Similar Questions:
 

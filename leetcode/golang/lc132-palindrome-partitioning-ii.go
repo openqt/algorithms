@@ -7,17 +7,19 @@ import (
 /*132. Palindrome Partitioning II
 https://leetcode.com/problems/palindrome-partitioning-ii/description/
 
-<p>Given a string <em>s</em>, partition <em>s</em> such that every substring of the partition is a palindrome.</p>
+Given a string _s_ , partition _s_ such that every substring of the partition
+is a palindrome.
 
-<p>Return the minimum cuts needed for a palindrome partitioning of <em>s</em>.</p>
+Return the minimum cuts needed for a palindrome partitioning of _s_.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong>&nbsp;&quot;aab&quot;
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The palindrome partitioning [&quot;aa&quot;,&quot;b&quot;] could be produced using 1 cut.
-</pre>
+    
+    
+    **Input:**  "aab"
+    **Output:** 1
+    **Explanation:** The palindrome partitioning [ "aa","b"] could be produced using 1 cut.
+
 
 Similar Questions:
   Palindrome Partitioning (palindrome-partitioning)

@@ -4,16 +4,19 @@ import unittest
 """434. Number of Segments in a String
 https://leetcode.com/problems/number-of-segments-in-a-string/description/
 
-<p>Count the number of segments in a string, where a segment is defined to be a contiguous sequence of non-space characters.</p>
+Count the number of segments in a string, where a segment is defined to be a
+contiguous sequence of non-space characters.
 
-<p>Please note that the string does not contain any <b>non-printable</b> characters.</p>
+Please note that the string does not contain any **non-printable** characters.
 
-<p><b>Example:</b></p>
-<pre>
-<b>Input:</b> "Hello, my name is John"
-<b>Output:</b> 5
-</pre>
-</p>
+**Example:**
+
+    
+    
+    **Input:** "Hello, my name is John"
+    **Output:** 5
+
+
 Similar Questions:
 
 """

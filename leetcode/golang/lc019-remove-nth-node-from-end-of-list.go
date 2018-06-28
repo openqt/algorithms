@@ -7,23 +7,26 @@ import (
 /*19. Remove Nth Node From End of List
 https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 
-<p>Given a linked list, remove the <em>n</em>-th node from the end of list and return its head.</p>
+Given a linked list, remove the _n_ -th node from the end of list and return
+its head.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-Given linked list: <strong>1-&gt;2-&gt;3-&gt;4-&gt;5</strong>, and <strong><em>n</em> = 2</strong>.
+    
+    
+    Given linked list: **1- >2->3->4->5**, and **_n_ = 2**.
+    
+    After removing the second node from the end, the linked list becomes **1- >2->3->5**.
+    
 
-After removing the second node from the end, the linked list becomes <strong>1-&gt;2-&gt;3-&gt;5</strong>.
-</pre>
+**Note:**
 
-<p><strong>Note:</strong></p>
+Given _n_ will always be valid.
 
-<p>Given <em>n</em> will always be valid.</p>
+**Follow up:**
 
-<p><strong>Follow up:</strong></p>
+Could you do this in one pass?
 
-<p>Could you do this in one pass?</p>
 
 Similar Questions:
 

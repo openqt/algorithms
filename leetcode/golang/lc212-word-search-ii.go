@@ -7,27 +7,33 @@ import (
 /*212. Word Search II
 https://leetcode.com/problems/word-search-ii/description/
 
-<p>Given a 2D board and a list of words from the dictionary, find all words in the board.</p>
+Given a 2D board and a list of words from the dictionary, find all words in
+the board.
 
-<p>Each word must be constructed from letters of sequentially adjacent cell, where &quot;adjacent&quot; cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.</p>
+Each word must be constructed from letters of sequentially adjacent cell,
+where "adjacent" cells are those horizontally or vertically neighboring. The
+same letter cell may not be used more than once in a word.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 
-<b>words</b> = <code>[&quot;oath&quot;,&quot;pea&quot;,&quot;eat&quot;,&quot;rain&quot;]</code> and <b>board </b>=
-[
-  [&#39;<span style="color:#d70">o</span>&#39;,&#39;<span style="color:#d70">a</span>&#39;,&#39;a&#39;,&#39;n&#39;],
-  [&#39;e&#39;,&#39;<span style="color:#d30">t</span>&#39;,&#39;<span style="color:#d00">a</span>&#39;,&#39;<span style="color:#d00">e</span>&#39;],
-  [&#39;i&#39;,&#39;<span style="color:#d70">h</span>&#39;,&#39;k&#39;,&#39;r&#39;],
-  [&#39;i&#39;,&#39;f&#39;,&#39;l&#39;,&#39;v&#39;]
-]
+    
+    
+    **Input:** 
+    **words** = ["oath","pea","eat","rain"] and **board** =
+    [
+      ['o','a','a','n'],
+      ['e','t','a','e'],
+      ['i','h','k','r'],
+      ['i','f','l','v']
+    ]
+    
+    **Output:  **["eat","oath"]
+    
 
-<strong>Output:&nbsp;</strong><code>[&quot;eat&quot;,&quot;oath&quot;]</code>
-</pre>
+**Note:**  
+You may assume that all inputs are consist of lowercase letters `a-z`.
 
-<p><b>Note:</b><br />
-You may assume that all inputs are consist of lowercase letters <code>a-z</code>.</p>
+
 Similar Questions:
   Word Search (word-search)
 */

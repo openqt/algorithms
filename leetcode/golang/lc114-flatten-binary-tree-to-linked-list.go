@@ -7,33 +7,35 @@ import (
 /*114. Flatten Binary Tree to Linked List
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/description/
 
-<p>Given a binary tree, flatten it to a linked list in-place.</p>
+Given a binary tree, flatten it to a linked list in-place.
 
-<p>For example, given the following tree:</p>
+For example, given the following tree:
 
-<pre>
+    
+    
+        1
+       / \
+      2   5
+     / \   \
+    3   4   6
+    
+
+The flattened tree should look like:
+
+    
+    
     1
-   / \
-  2   5
- / \   \
-3   4   6
-</pre>
-
-<p>The flattened tree should look like:</p>
-
-<pre>
-1
- \
-  2
-   \
-    3
      \
-      4
+      2
        \
-        5
+        3
          \
-          6
-</pre>
+          4
+           \
+            5
+             \
+              6
+
 
 Similar Questions:
 

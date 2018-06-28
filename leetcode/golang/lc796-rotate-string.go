@@ -7,25 +7,28 @@ import (
 /*796. Rotate String
 https://leetcode.com/problems/rotate-string/description/
 
-<p>We are given two strings, <code>A</code> and <code>B</code>.</p>
+We are given two strings, `A` and `B`.
 
-<p>A <em>shift on <code>A</code></em> consists of taking string <code>A</code> and moving the leftmost character to the rightmost position. For example, if <code>A = &#39;abcde&#39;</code>, then it will be <code>&#39;bcdea&#39;</code> after one shift on <code>A</code>. Return <code>True</code> if and only if <code>A</code> can become <code>B</code> after some number of shifts on <code>A</code>.</p>
+A _shift on`A`_ consists of taking string `A` and moving the leftmost
+character to the rightmost position. For example, if `A = 'abcde'`, then it
+will be `'bcdea'` after one shift on `A`. Return `True` if and only if `A` can
+become `B` after some number of shifts on `A`.
 
-<pre>
-<strong>Example 1:</strong>
-<strong>Input:</strong> A = &#39;abcde&#39;, B = &#39;cdeab&#39;
-<strong>Output:</strong> true
+    
+    
+    **Example 1:**
+    **Input:** A =  'abcde', B = 'cdeab'
+    **Output:** true
+    
+    **Example 2:**
+    **Input:** A =  'abcde', B = 'abced'
+    **Output:** false
+    
 
-<strong>Example 2:</strong>
-<strong>Input:</strong> A = &#39;abcde&#39;, B = &#39;abced&#39;
-<strong>Output:</strong> false
-</pre>
+**Note:**
 
-<p><strong>Note:</strong></p>
+  * `A` and `B` will have length at most `100`.
 
-<ul>
-	<li><code>A</code> and <code>B</code> will have length at most <code>100</code>.</li>
-</ul>
 
 Similar Questions:
 

@@ -4,22 +4,25 @@ import unittest
 """5. Longest Palindromic Substring
 https://leetcode.com/problems/longest-palindromic-substring/description/
 
-<p>Given a string <strong>s</strong>, find the longest palindromic substring in <strong>s</strong>. You may assume that the maximum length of <strong>s</strong> is 1000.</p>
+Given a string **s** , find the longest palindromic substring in **s**. You
+may assume that the maximum length of **s** is 1000.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> &quot;babad&quot;
-<strong>Output:</strong> &quot;bab&quot;
-<strong>Note:</strong> &quot;aba&quot; is also a valid answer.
-</pre>
+    
+    
+    **Input:**  "babad"
+    **Output:**  "bab"
+    **Note:**  "aba" is also a valid answer.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> &quot;cbbd&quot;
-<strong>Output:</strong> &quot;bb&quot;
-</pre>
+    
+    
+    **Input:**  "cbbd"
+    **Output:**  "bb"
+
 
 Similar Questions:
   Shortest Palindrome (shortest-palindrome)

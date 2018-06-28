@@ -7,21 +7,24 @@ import (
 /*97. Interleaving String
 https://leetcode.com/problems/interleaving-string/description/
 
-<p>Given <em>s1</em>, <em>s2</em>, <em>s3</em>, find whether <em>s3</em> is formed by the interleaving of <em>s1</em> and <em>s2</em>.</p>
+Given _s1_ , _s2_ , _s3_ , find whether _s3_ is formed by the interleaving of
+_s1_ and _s2_.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> s1 = &quot;aabcc&quot;, s2 = &quot;dbbca&quot;, <em>s3</em> = &quot;aadbbcbcac&quot;
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:** s1 =  "aabcc", s2 = "dbbca", _s3_ =  "aadbbcbcac"
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> s1 = &quot;aabcc&quot;, s2 = &quot;dbbca&quot;, <em>s3</em> = &quot;aadbbbaccc&quot;
-<strong>Output:</strong> false
-</pre>
+    
+    
+    **Input:** s1 =  "aabcc", s2 = "dbbca", _s3_ =  "aadbbbaccc"
+    **Output:** false
+
 
 Similar Questions:
 

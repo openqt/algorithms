@@ -17,26 +17,26 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "array", 
+        "__typename": "TopicTagNode", 
         "name": "Array"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "hash-table", 
+        "__typename": "TopicTagNode", 
         "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "dynamic-programming", 
+        "__typename": "TopicTagNode", 
         "name": "Dynamic Programming"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "stack", 
+        "__typename": "TopicTagNode", 
         "name": "Stack"
       }
     ], 

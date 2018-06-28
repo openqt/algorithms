@@ -7,31 +7,40 @@ import (
 /*130. Surrounded Regions
 https://leetcode.com/problems/surrounded-regions/description/
 
-<p>Given a 2D board containing <code>&#39;X&#39;</code> and <code>&#39;O&#39;</code> (<strong>the letter O</strong>), capture all regions surrounded by <code>&#39;X&#39;</code>.</p>
+Given a 2D board containing `'X'` and `'O'` ( **the letter O** ), capture all
+regions surrounded by `'X'`.
 
-<p>A region is captured by flipping all <code>&#39;O&#39;</code>s into <code>&#39;X&#39;</code>s in that surrounded region.</p>
+A region is captured by flipping all `'O'`s into `'X'`s in that surrounded
+region.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-X X X X
-X O O X
-X X O X
-X O X X
-</pre>
+    
+    
+    X X X X
+    X O O X
+    X X O X
+    X O X X
+    
 
-<p>After running your function, the board should be:</p>
+After running your function, the board should be:
 
-<pre>
-X X X X
-X X X X
-X X X X
-X O X X
-</pre>
+    
+    
+    X X X X
+    X X X X
+    X X X X
+    X O X X
+    
 
-<p><strong>Explanation:</strong></p>
+**Explanation:**
 
-<p>Surrounded regions shouldn&rsquo;t be on the border, which means that any <code>&#39;O&#39;</code>&nbsp;on the border of the board are not flipped to <code>&#39;X&#39;</code>. Any <code>&#39;O&#39;</code>&nbsp;that is not on the border and it is not connected to an <code>&#39;O&#39;</code>&nbsp;on the border will be flipped to <code>&#39;X&#39;</code>. Two cells are connected if they are adjacent cells connected horizontally or vertically.</p>
+Surrounded regions shouldn't be on the border, which means that any `'O'` on
+the border of the board are not flipped to `'X'`. Any `'O'` that is not on the
+border and it is not connected to an `'O'` on the border will be flipped to
+`'X'`. Two cells are connected if they are adjacent cells connected
+horizontally or vertically.
+
 
 Similar Questions:
   Number of Islands (number-of-islands)

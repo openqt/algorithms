@@ -7,27 +7,27 @@ import (
 /*208. Implement Trie (Prefix Tree)
 https://leetcode.com/problems/implement-trie-prefix-tree/description/
 
-<p>Implement a trie with <code>insert</code>, <code>search</code>, and <code>startsWith</code> methods.</p>
+Implement a trie with `insert`, `search`, and `startsWith` methods.
 
-<p><b>Example:</b></p>
+**Example:**
 
-<pre>
-Trie trie = new Trie();
+    
+    
+    Trie trie = new Trie();
+    
+    trie.insert("apple");
+    trie.search("apple");   // returns true
+    trie.search("app");     // returns false
+    trie.startsWith("app"); // returns true
+    trie.insert("app");   
+    trie.search("app");     // returns true
+    
 
-trie.insert(&quot;apple&quot;);
-trie.search(&quot;apple&quot;);   // returns true
-trie.search(&quot;app&quot;);     // returns false
-trie.startsWith(&quot;app&quot;); // returns true
-trie.insert(&quot;app&quot;);   
-trie.search(&quot;app&quot;);     // returns true
-</pre>
+**Note:**
 
-<p><b>Note:</b></p>
+  * You may assume that all inputs are consist of lowercase letters `a-z`.
+  * All inputs are guaranteed to be non-empty strings.
 
-<ul>
-	<li>You may assume that all inputs are consist of lowercase letters <code>a-z</code>.</li>
-	<li>All inputs are guaranteed to be non-empty strings.</li>
-</ul>
 
 Similar Questions:
   Add and Search Word - Data structure design (add-and-search-word-data-structure-design)

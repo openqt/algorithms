@@ -4,18 +4,18 @@ import unittest
 """347. Top K Frequent Elements
 https://leetcode.com/problems/top-k-frequent-elements/description/
 
-<p>
-Given a non-empty array of integers, return the <b><i>k</i></b> most frequent elements.</p>
+Given a non-empty array of integers, return the **_k_** most frequent
+elements.
 
-<p>For example,<br>
-Given <code>[1,1,1,2,2,3]</code> and k = 2, return <code>[1,2]</code>.
-</p>
+For example,  
+Given `[1,1,1,2,2,3]` and k = 2, return `[1,2]`.
 
-<p><b>Note: </b><br>
-<ul>
-<li>You may assume <i>k</i> is always valid, 1 &le; <i>k</i> &le; number of unique elements.</li>
-<li>Your algorithm's time complexity <b>must be</b> better than O(<i>n</i> log <i>n</i>), where <i>n</i> is the array's size.</li>
-</ul></p>
+**Note:**  
+
+  * You may assume _k_ is always valid, 1  ≤ _k_ ≤ number of unique elements.
+  * Your algorithm's time complexity **must be** better than O( _n_ log _n_ ), where _n_ is the array's size.
+
+
 Similar Questions:
   Word Frequency (word-frequency)
   Kth Largest Element in an Array (kth-largest-element-in-an-array)

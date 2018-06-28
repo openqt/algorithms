@@ -4,70 +4,75 @@ import unittest
 """10. Regular Expression Matching
 https://leetcode.com/problems/regular-expression-matching/description/
 
-<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement regular expression matching with support for <code>&#39;.&#39;</code> and <code>&#39;*&#39;</code>.</p>
+Given an input string (`s`) and a pattern (`p`), implement regular expression
+matching with support for `'.'` and `'*'`.
 
-<pre>
-&#39;.&#39; Matches any single character.
-&#39;*&#39; Matches zero or more of the preceding element.
-</pre>
+    
+    
+    '.' Matches any single character.
+    '*' Matches zero or more of the preceding element.
+    
 
-<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>
+The matching should cover the **entire** input string (not partial).
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li><code>s</code>&nbsp;could be empty and contains only lowercase letters <code>a-z</code>.</li>
-	<li><code>p</code> could be empty and contains only lowercase letters <code>a-z</code>, and characters like&nbsp;<code>.</code>&nbsp;or&nbsp;<code>*</code>.</li>
-</ul>
+  * `s` could be empty and contains only lowercase letters `a-z`.
+  * `p` could be empty and contains only lowercase letters `a-z`, and characters like `.` or `*`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;aa&quot;
-p = &quot;a&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "aa"
+    p = "a"
+    **Output:** false
+    **Explanation:**  "a" does not match the entire string "aa".
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;aa&quot;
-p = &quot;a*&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;&#39;*&#39; means zero or more of the precedeng&nbsp;element, &#39;a&#39;. Therefore, by repeating &#39;a&#39; once, it becomes &quot;aa&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "aa"
+    p = "a*"
+    **Output:** true
+    **Explanation:**  '*' means zero or more of the precedeng element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;ab&quot;
-p = &quot;.*&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;&quot;.*&quot; means &quot;zero or more (*) of any character (.)&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "ab"
+    p = ".*"
+    **Output:** true
+    **Explanation:**  ".*" means "zero or more (*) of any character (.)".
+    
 
-<p><strong>Example 4:</strong></p>
+**Example 4:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;aab&quot;
-p = &quot;c*a*b&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;c can be repeated 0 times, a can be repeated 1 time. Therefore it matches &quot;aab&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "aab"
+    p = "c*a*b"
+    **Output:** true
+    **Explanation:**  c can be repeated 0 times, a can be repeated 1 time. Therefore it matches "aab".
+    
 
-<p><strong>Example 5:</strong></p>
+**Example 5:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;mississippi&quot;
-p = &quot;mis*is*p*.&quot;
-<strong>Output:</strong> false
-</pre>
+    
+    
+    **Input:**
+    s =  "mississippi"
+    p = "mis*is*p*."
+    **Output:** false
+
 
 Similar Questions:
   Wildcard Matching (wildcard-matching)

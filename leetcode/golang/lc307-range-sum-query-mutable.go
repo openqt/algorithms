@@ -7,26 +7,28 @@ import (
 /*307. Range Sum Query - Mutable
 https://leetcode.com/problems/range-sum-query-mutable/description/
 
-<p>Given an integer array <i>nums</i>, find the sum of the elements between indices <i>i</i> and <i>j</i> (<i>i</i> &le; <i>j</i>), inclusive.</p>
+Given an integer array _nums_ , find the sum of the elements between indices
+_i_ and _j_ ( _i_ ≤ _j_ ), inclusive.
 
-<p>The <i>update(i, val)</i> function modifies <i>nums</i> by updating the element at index <i>i</i> to <i>val</i>.</p>
+The _update(i, val)_ function modifies _nums_ by updating the element at index
+_i_ to _val_.
 
-<p><b>Example:</b></p>
+**Example:**
 
-<pre>
-Given nums = [1, 3, 5]
+    
+    
+    Given nums = [1, 3, 5]
+    
+    sumRange(0, 2) -> 9
+    update(1, 2)
+    sumRange(0, 2) -> 8
+    
 
-sumRange(0, 2) -&gt; 9
-update(1, 2)
-sumRange(0, 2) -&gt; 8
-</pre>
+**Note:**
 
-<p><b>Note:</b></p>
+  1. The array is only modifiable by the _update_ function.
+  2. You may assume the number of calls to _update_ and _sumRange_ function is distributed evenly.
 
-<ol>
-	<li>The array is only modifiable by the <i>update</i> function.</li>
-	<li>You may assume the number of calls to <i>update</i> and <i>sumRange</i> function is distributed evenly.</li>
-</ol>
 
 Similar Questions:
   Range Sum Query - Immutable (range-sum-query-immutable)

@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
-    "sessionId": "0", 
     "sampleTestCase": "\"https://leetcode.com/problems/design-tinyurl\"", 
     "questionFrontendId": "535", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{\r\n  \"name\": \"CodecDriver\",\r\n  \"indriver\": true,\r\n  \"params\": [\r\n    {\r\n      \"name\": \"url\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  },\r\n  \"manualinputcpp\": true\r\n}", 
+    "enableRunCode": true, 
     "questionDetailUrl": "/problems/encode-and-decode-tinyurl/", 
     "stats": "{\"totalAccepted\": \"42.6K\", \"totalSubmission\": \"57.5K\", \"acRate\": \"74.0%\"}", 
     "interpretUrl": "/problems/encode-and-decode-tinyurl/interpret_solution/", 
@@ -18,14 +18,14 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "hash-table", 
-        "name": "Hash Table"
+        "name": "Hash Table", 
+        "slug": "hash-table"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "math", 
-        "name": "Math"
+        "name": "Math", 
+        "slug": "math"
       }
     ], 
     "content": "<blockquote>Note: This is a companion problem to the <a href=\"https://leetcode.com/problemset/system-design/\">System Design</a> problem: <a href=\"https://leetcode.com/problems/design-tinyurl/\">Design TinyURL</a>.</blockquote>\r\n\r\n<p>TinyURL is a URL shortening service where you enter a URL such as <code>https://leetcode.com/problems/design-tinyurl</code> and it returns a short URL such as <code>http://tinyurl.com/4e9iAk</code>.</p>\r\n\r\n<p>Design the <code>encode</code> and <code>decode</code> methods for the TinyURL service. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.</p>", 
@@ -43,7 +43,7 @@
     "questionTitleSlug": "encode-and-decode-tinyurl", 
     "similarQuestions": "[]", 
     "libraryUrl": null, 
-    "enableRunCode": true, 
+    "sessionId": "0", 
     "questionTitle": "Encode and Decode TinyURL", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

@@ -4,25 +4,25 @@ import unittest
 """633. Sum of Square Numbers
 https://leetcode.com/problems/sum-of-square-numbers/description/
 
-<p>
-Given a non-negative integer <code>c</code>, your task is to decide whether there're two integers <code>a</code> and <code>b</code> such that a<sup>2</sup> + b<sup>2</sup> = c.
-</p>
+Given a non-negative integer `c`, your task is to decide whether there're two
+integers `a` and `b` such that a2 \+ b2 = c.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> 5
-<b>Output:</b> True
-<b>Explanation:</b> 1 * 1 + 2 * 2 = 5
-</pre>
-</p>
+**Example 1:**  
 
+    
+    
+    **Input:** 5
+    **Output:** True
+    **Explanation:** 1 * 1 + 2 * 2 = 5
+    
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> 3
-<b>Output:</b> False
-</pre>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** 3
+    **Output:** False
+
 
 Similar Questions:
   Valid Perfect Square (valid-perfect-square)

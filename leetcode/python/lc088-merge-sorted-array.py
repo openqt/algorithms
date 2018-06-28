@@ -4,24 +4,24 @@ import unittest
 """88. Merge Sorted Array
 https://leetcode.com/problems/merge-sorted-array/description/
 
-<p>Given two sorted integer arrays <em>nums1</em> and <em>nums2</em>, merge <em>nums2</em> into <em>nums1</em> as one sorted array.</p>
+Given two sorted integer arrays _nums1_ and _nums2_ , merge _nums2_ into
+_nums1_ as one sorted array.
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>The number of elements initialized in <em>nums1</em> and <em>nums2</em> are <em>m</em> and <em>n</em> respectively.</li>
-	<li>You may assume that <em>nums1</em> has enough space (size that is greater or equal to <em>m</em> + <em>n</em>) to hold additional elements from <em>nums2</em>.</li>
-</ul>
+  * The number of elements initialized in _nums1_ and _nums2_ are _m_ and _n_ respectively.
+  * You may assume that _nums1_ has enough space (size that is greater or equal to _m_ \+ _n_ ) to hold additional elements from _nums2_.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong>
-nums1 = [1,2,3,0,0,0], m = 3
-nums2 = [2,5,6],       n = 3
+    
+    
+    **Input:**
+    nums1 = [1,2,3,0,0,0], m = 3
+    nums2 = [2,5,6],       n = 3
+    
+    **Output:**  [1,2,2,3,5,6]
 
-<strong>Output:</strong>&nbsp;[1,2,2,3,5,6]
-</pre>
 
 Similar Questions:
   Merge Two Sorted Lists (merge-two-sorted-lists)

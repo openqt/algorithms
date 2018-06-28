@@ -7,45 +7,54 @@ import (
 /*838. Push Dominoes
 https://leetcode.com/problems/push-dominoes/description/
 
-<p>There are<font face="monospace">&nbsp;<code>N</code></font> dominoes in a line, and we place each domino vertically upright.</p>
+There are `N` dominoes in a line, and we place each domino vertically upright.
 
-<p>In the beginning, we simultaneously push&nbsp;some of the dominoes either to the left or to the right.</p>
+In the beginning, we simultaneously push some of the dominoes either to the
+left or to the right.
 
-<p><img alt="" src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/05/18/domino.png" style="height: 160px;" /></p>
+![](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/05/18/domino.png)
 
-<p>After each second, each domino that is falling to the left pushes the adjacent domino on the left.</p>
+After each second, each domino that is falling to the left pushes the adjacent
+domino on the left.
 
-<p>Similarly, the dominoes falling to the right push their adjacent dominoes standing on the right.</p>
+Similarly, the dominoes falling to the right push their adjacent dominoes
+standing on the right.
 
-<p>When a vertical domino has dominoes falling on it from both sides, it stays still due to the balance of the forces.</p>
+When a vertical domino has dominoes falling on it from both sides, it stays
+still due to the balance of the forces.
 
-<p>For the purposes of this question, we will consider that a falling domino&nbsp;expends no additional force to a falling or already fallen domino.</p>
+For the purposes of this question, we will consider that a falling domino
+expends no additional force to a falling or already fallen domino.
 
-<p>Given a string &quot;S&quot; representing the initial state.&nbsp;<code>S[i] = &#39;L&#39;</code>, if the i-th domino has been pushed to the left; <code>S[i] = &#39;R&#39;</code>, if the i-th domino has been pushed to the right; <code>S[i] = &#39;.&#39;</code>,&nbsp;if the <code>i</code>-th domino has not been pushed.</p>
+Given a string "S" representing the initial state. `S[i] = 'L'`, if the i-th
+domino has been pushed to the left; `S[i] = 'R'`, if the i-th domino has been
+pushed to the right; `S[i] = '.'`, if the `i`-th domino has not been pushed.
 
-<p>Return a string representing the final state.&nbsp;</p>
+Return a string representing the final state.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>&quot;.L.R...LR..L..&quot;
-<strong>Output: </strong>&quot;LL.RR.LLRRLL..&quot;
-</pre>
+    
+    
+    **Input:** ".L.R...LR..L.."
+    **Output:** "LL.RR.LLRRLL.."
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>&quot;RR.L&quot;
-<strong>Output: </strong>&quot;RR.L&quot;
-<strong>Explanation: </strong>The first domino expends no additional force on the second domino.
-</pre>
+    
+    
+    **Input:** "RR.L"
+    **Output:** "RR.L"
+    **Explanation:** The first domino expends no additional force on the second domino.
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ol>
-	<li><code>0 &lt;= N&nbsp;&lt;= 10^5</code></li>
-	<li>String&nbsp;<code>dominoes</code> contains only&nbsp;<code>&#39;L</code>&#39;, <code>&#39;R&#39;</code> and <code>&#39;.&#39;</code></li>
-</ol>
+  1. `0 <= N <= 10^5`
+  2. String `dominoes` contains only `'L`', `'R'` and `'.'`
+
+
 Similar Questions:
 
 */

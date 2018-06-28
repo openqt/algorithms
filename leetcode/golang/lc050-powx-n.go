@@ -7,36 +7,40 @@ import (
 /*50. Pow(x, n)
 https://leetcode.com/problems/powx-n/description/
 
-<p>Implement <a href="http://www.cplusplus.com/reference/valarray/pow/" target="_blank">pow(<em>x</em>, <em>n</em>)</a>, which calculates&nbsp;<em>x</em> raised to the power <em>n</em> (x<sup><span style="font-size:10.8333px">n</span></sup>).</p>
+Implement [pow( _x_ , _n_
+)](http://www.cplusplus.com/reference/valarray/pow/), which calculates  _x_
+raised to the power _n_ (x n).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 2.00000, 10
-<strong>Output:</strong> 1024.00000
-</pre>
+    
+    
+    **Input:** 2.00000, 10
+    **Output:** 1024.00000
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 2.10000, 3
-<strong>Output:</strong> 9.26100
-</pre>
+    
+    
+    **Input:** 2.10000, 3
+    **Output:** 9.26100
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> 2.00000, -2
-<strong>Output:</strong> 0.25000
-<strong>Explanation:</strong> 2<sup>-2</sup> = 1/2<sup>2</sup> = 1/4 = 0.25
-</pre>
+    
+    
+    **Input:** 2.00000, -2
+    **Output:** 0.25000
+    **Explanation:** 2 -2 = 1/22 = 1/4 = 0.25
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>-100.0 &lt; <em>x</em> &lt; 100.0</li>
-	<li><em>n</em> is a 32-bit signed integer, within the range&nbsp;[&minus;2<sup>31</sup>,&nbsp;2<sup>31&nbsp;</sup>&minus; 1]</li>
-</ul>
+  * -100.0 < _x_ < 100.0
+  * _n_ is a 32-bit signed integer, within the range  [−231, 231 − 1]
+
 
 Similar Questions:
   Sqrt(x) (sqrtx)

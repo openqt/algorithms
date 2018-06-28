@@ -4,45 +4,49 @@ import unittest
 """100. Same Tree
 https://leetcode.com/problems/same-tree/description/
 
-<p>Given two binary trees, write a function to check if they are the same or not.</p>
+Given two binary trees, write a function to check if they are the same or not.
 
-<p>Two binary trees are considered the same if they are structurally identical and the nodes have the same value.</p>
+Two binary trees are considered the same if they are structurally identical
+and the nodes have the same value.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong>     1         1
-          / \       / \
-         2   3     2   3
+    
+    
+    **Input:**     1         1
+              / \       / \
+             2   3     2   3
+    
+            [1,2,3],   [1,2,3]
+    
+    **Output:** true
+    
 
-        [1,2,3],   [1,2,3]
+**Example 2:**
 
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:**     1         1
+              /           \
+             2             2
+    
+            [1,2],     [1,null,2]
+    
+    **Output:** false
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong>     1         1
-          /           \
-         2             2
+    
+    
+    **Input:**     1         1
+              / \       / \
+             2   1     1   2
+    
+            [1,2,1],   [1,1,2]
+    
+    **Output:** false
 
-        [1,2],     [1,null,2]
-
-<strong>Output:</strong> false
-</pre>
-
-<p><strong>Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong>     1         1
-          / \       / \
-         2   1     1   2
-
-        [1,2,1],   [1,1,2]
-
-<strong>Output:</strong> false
-</pre>
 
 Similar Questions:
 

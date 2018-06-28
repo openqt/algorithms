@@ -4,29 +4,34 @@ import unittest
 """188. Best Time to Buy and Sell Stock IV
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
 
-<p>Say you have an array for which the <i>i</i><sup>th</sup> element is the price of a given stock on day <i>i</i>.</p>
+Say you have an array for which the _i_ th element is the price of a given
+stock on day _i_.
 
-<p>Design an algorithm to find the maximum profit. You may complete at most <b>k</b> transactions.</p>
+Design an algorithm to find the maximum profit. You may complete at most **k**
+transactions.
 
-<p><b>Note:</b><br />
-You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).</p>
+**Note:**  
+You may not engage in multiple transactions at the same time (ie, you must
+sell the stock before you buy again).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [2,4,1], k = 2
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.
-</pre>
+    
+    
+    **Input:** [2,4,1], k = 2
+    **Output:** 2
+    **Explanation:** Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [3,2,6,5,0,3], k = 2
-<strong>Output:</strong> 7
-<strong>Explanation:</strong> Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
-&nbsp;            Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
-</pre>
+    
+    
+    **Input:** [3,2,6,5,0,3], k = 2
+    **Output:** 7
+    **Explanation:** Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
+                  Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
+
 
 Similar Questions:
   Best Time to Buy and Sell Stock (best-time-to-buy-and-sell-stock)

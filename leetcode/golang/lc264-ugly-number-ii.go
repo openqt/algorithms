@@ -7,23 +7,24 @@ import (
 /*264. Ugly Number II
 https://leetcode.com/problems/ugly-number-ii/description/
 
-<p>Write a program to find the <code>n</code>-th ugly number.</p>
+Write a program to find the `n`-th ugly number.
 
-<p>Ugly numbers are<strong> positive numbers</strong> whose prime factors only include <code>2, 3, 5</code>.&nbsp;</p>
+Ugly numbers are **positive numbers** whose prime factors only include `2, 3,
+5`.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> n = 10
-<strong>Output:</strong> 12
-<strong>Explanation: </strong><code>1, 2, 3, 4, 5, 6, 8, 9, 10, 12</code> is the sequence of the first <code>10</code> ugly numbers.</pre>
+    
+    
+    **Input:** n = 10
+    **Output:** 12
+    **Explanation:**1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly numbers.
 
-<p><strong>Note: </strong>&nbsp;</p>
+**Note:**  
 
-<ol>
-	<li><code>1</code> is typically treated as an ugly number.</li>
-	<li><code>n</code> <b>does not exceed 1690</b>.</li>
-</ol>
+  1. `1` is typically treated as an ugly number.
+  2. `n` **does not exceed 1690**.
+
 
 Similar Questions:
   Merge k Sorted Lists (merge-k-sorted-lists)

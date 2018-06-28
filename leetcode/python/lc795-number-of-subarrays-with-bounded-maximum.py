@@ -4,26 +4,28 @@ import unittest
 """795. Number of Subarrays with Bounded Maximum
 https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/
 
-<p>We are given an array <code>A</code> of positive integers, and two positive integers <code>L</code> and <code>R</code> (<code>L &lt;= R</code>).</p>
+We are given an array `A` of positive integers, and two positive integers `L`
+and `R` (`L <= R`).
 
-<p>Return the number of (contiguous, non-empty) subarrays such that the value of the maximum array element in that subarray is at least <code>L</code> and at most <code>R</code>.</p>
+Return the number of (contiguous, non-empty) subarrays such that the value of
+the maximum array element in that subarray is at least `L` and at most `R`.
 
-<pre>
-<strong>Example :</strong>
-<strong>Input:</strong> 
-A = [2, 1, 4, 3]
-L = 2
-R = 3
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> There are three subarrays that meet the requirements: [2], [2, 1], [3].
-</pre>
+    
+    
+    **Example :**
+    **Input:** 
+    A = [2, 1, 4, 3]
+    L = 2
+    R = 3
+    **Output:** 3
+    **Explanation:** There are three subarrays that meet the requirements: [2], [2, 1], [3].
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>L, R&nbsp; and <code>A[i]</code> will be an integer in the range <code>[0, 10^9]</code>.</li>
-	<li>The length of <code>A</code> will be in the range of <code>[1, 50000]</code>.</li>
-</ul>
+  * L, R  and `A[i]` will be an integer in the range `[0, 10^9]`.
+  * The length of `A` will be in the range of `[1, 50000]`.
+
 
 Similar Questions:
 

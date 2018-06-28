@@ -4,23 +4,26 @@ import unittest
 """32. Longest Valid Parentheses
 https://leetcode.com/problems/longest-valid-parentheses/description/
 
-<p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, find the length of the longest valid (well-formed) parentheses substring.</p>
+Given a string containing just the characters `'('` and `')'`, find the length
+of the longest valid (well-formed) parentheses substring.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> &quot;(()&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The longest valid parentheses substring is <code>&quot;()&quot;</code>
-</pre>
+    
+    
+    **Input:**  "(()"
+    **Output:** 2
+    **Explanation:** The longest valid parentheses substring is "()"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> &quot;<code>)()())</code>&quot;
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> The longest valid parentheses substring is <code>&quot;()()&quot;</code>
-</pre>
+    
+    
+    **Input:**  ")()())"
+    **Output:** 4
+    **Explanation:** The longest valid parentheses substring is "()()"
+
 
 Similar Questions:
   Valid Parentheses (valid-parentheses)

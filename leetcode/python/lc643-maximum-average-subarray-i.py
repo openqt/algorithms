@@ -4,24 +4,25 @@ import unittest
 """643. Maximum Average Subarray I
 https://leetcode.com/problems/maximum-average-subarray-i/description/
 
-<p>
-Given an array consisting of <code>n</code> integers, find the contiguous subarray of given length <code>k</code> that has the maximum average value. And you need to output the maximum average value.
-</p>
+Given an array consisting of `n` integers, find the contiguous subarray of
+given length `k` that has the maximum average value. And you need to output
+the maximum average value.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> [1,12,-5,-6,50,3], k = 4
-<b>Output:</b> 12.75
-<b>Explanation:</b> Maximum average is (12-5-6+50)/4 = 51/4 = 12.75
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Note:</b><br>
-<ol>
-<li>1 <= <code>k</code> <= <code>n</code> <= 30,000.</li>
-<li>Elements of the given array will be in the range [-10,000, 10,000].</li>
-</ol>
-</p>
+    
+    
+    **Input:** [1,12,-5,-6,50,3], k = 4
+    **Output:** 12.75
+    **Explanation:** Maximum average is (12-5-6+50)/4 = 51/4 = 12.75
+    
+
+**Note:**  
+
+  1. 1 <= `k` <= `n` <= 30,000.
+  2. Elements of the given array will be in the range [-10,000, 10,000].
+
+
 Similar Questions:
   Maximum Average Subarray II (maximum-average-subarray-ii)
 """

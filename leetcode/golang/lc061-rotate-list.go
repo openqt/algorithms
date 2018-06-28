@@ -7,28 +7,32 @@ import (
 /*61. Rotate List
 https://leetcode.com/problems/rotate-list/description/
 
-<p>Given a linked&nbsp;list, rotate the list to the right by <em>k</em> places, where <em>k</em> is non-negative.</p>
+Given a linked list, rotate the list to the right by _k_ places, where _k_ is
+non-negative.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL, k = 2
-<strong>Output:</strong> 4-&gt;5-&gt;1-&gt;2-&gt;3-&gt;NULL
-<strong>Explanation:</strong>
-rotate 1 steps to the right: 5-&gt;1-&gt;2-&gt;3-&gt;4-&gt;NULL
-rotate 2 steps to the right: 4-&gt;5-&gt;1-&gt;2-&gt;3-&gt;NULL
-</pre>
+    
+    
+    **Input:** 1- >2->3->4->5->NULL, k = 2
+    **Output:** 4- >5->1->2->3->NULL
+    **Explanation:**
+    rotate 1 steps to the right: 5- >1->2->3->4->NULL
+    rotate 2 steps to the right: 4->5->1->2->3->NULL
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 0-&gt;1-&gt;2-&gt;NULL, k = 4
-<strong>Output:</strong> <code>2-&gt;0-&gt;1-&gt;NULL</code>
-<strong>Explanation:</strong>
-rotate 1 steps to the right: 2-&gt;0-&gt;1-&gt;NULL
-rotate 2 steps to the right: 1-&gt;2-&gt;0-&gt;NULL
-rotate 3 steps to the right:&nbsp;<code>0-&gt;1-&gt;2-&gt;NULL</code>
-rotate 4 steps to the right:&nbsp;<code>2-&gt;0-&gt;1-&gt;NULL</code></pre>
+    
+    
+    **Input:** 0- >1->2->NULL, k = 4
+    **Output:** 2->0->1->NULL
+    **Explanation:**
+    rotate 1 steps to the right: 2- >0->1->NULL
+    rotate 2 steps to the right: 1->2->0->NULL
+    rotate 3 steps to the right: 0->1->2->NULL
+    rotate 4 steps to the right: 2->0->1->NULL
+
 
 Similar Questions:
   Rotate Array (rotate-array)

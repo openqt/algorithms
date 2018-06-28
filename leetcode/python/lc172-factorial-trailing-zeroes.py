@@ -4,23 +4,26 @@ import unittest
 """172. Factorial Trailing Zeroes
 https://leetcode.com/problems/factorial-trailing-zeroes/description/
 
-<p>Given an integer <i>n</i>, return the number of trailing zeroes in <i>n</i>!.</p>
+Given an integer _n_ , return the number of trailing zeroes in _n_!.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 3
-<strong>Output:</strong> 0
-<strong>Explanation:</strong>&nbsp;3! = 6, no trailing zero.</pre>
+    
+    
+    **Input:** 3
+    **Output:** 0
+    **Explanation:**  3! = 6, no trailing zero.
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 5
-<strong>Output:</strong> 1
-<strong>Explanation:</strong>&nbsp;5! = 120, one trailing zero.</pre>
+    
+    
+    **Input:** 5
+    **Output:** 1
+    **Explanation:**  5! = 120, one trailing zero.
 
-<p><b>Note: </b>Your solution should be in logarithmic time complexity.</p>
+**Note:** Your solution should be in logarithmic time complexity.
+
 
 Similar Questions:
   Number of Digit One (number-of-digit-one)

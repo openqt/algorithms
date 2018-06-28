@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "design", 
+        "__typename": "TopicTagNode", 
         "name": "Design"
       }
     ], 

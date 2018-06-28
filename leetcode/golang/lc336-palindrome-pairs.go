@@ -7,24 +7,25 @@ import (
 /*336. Palindrome Pairs
 https://leetcode.com/problems/palindrome-pairs/description/
 
-<p>
-    Given a list of <b>unique</b> words, find all pairs of <b><i>distinct</i></b> indices <code>(i, j)</code> in the given list, so that the concatenation of the two words, i.e. <code>words[i] + words[j]</code> is a palindrome.
-</p>
+Given a list of **unique** words, find all pairs of **_distinct_** indices
+`(i, j)` in the given list, so that the concatenation of the two words, i.e.
+`words[i] + words[j]` is a palindrome.
 
-<p>
-    <b>Example 1:</b><br/>
-    Given <code>words</code> = <code>["bat", "tab", "cat"]</code><br/>
-    Return <code>[[0, 1], [1, 0]]</code><br/>
-    The palindromes are <code>["battab", "tabbat"]</code><br/>
-</p>
-<p>
-    <b>Example 2:</b><br/>
-    Given <code>words</code> = <code>["abcd", "dcba", "lls", "s", "sssll"]</code><br/>
-    Return <code>[[0, 1], [1, 0], [3, 2], [2, 4]]</code><br/>
-    The palindromes are <code>["dcbaabcd", "abcddcba", "slls", "llssssll"]</code><br/>
-</p>
+**Example 1:**  
+Given `words` = `["bat", "tab", "cat"]`  
+Return `[[0, 1], [1, 0]]`  
+The palindromes are `["battab", "tabbat"]`  
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/discuss/user/dietpepsi">@dietpepsi</a> for adding this problem and creating all test cases.</p>
+**Example 2:**  
+Given `words` = `["abcd", "dcba", "lls", "s", "sssll"]`  
+Return `[[0, 1], [1, 0], [3, 2], [2, 4]]`  
+The palindromes are `["dcbaabcd", "abcddcba", "slls", "llssssll"]`  
+
+**Credits:**  
+Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi)
+for adding this problem and creating all test cases.
+
+
 Similar Questions:
   Longest Palindromic Substring (longest-palindromic-substring)
   Shortest Palindrome (shortest-palindrome)

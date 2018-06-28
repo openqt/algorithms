@@ -7,39 +7,40 @@ import (
 /*72. Edit Distance
 https://leetcode.com/problems/edit-distance/description/
 
-<p>Given two words <em>word1</em> and <em>word2</em>, find the minimum number of operations required to convert <em>word1</em> to <em>word2</em>.</p>
+Given two words _word1_ and _word2_ , find the minimum number of operations
+required to convert _word1_ to _word2_.
 
-<p>You have the following 3 operations permitted on a word:</p>
+You have the following 3 operations permitted on a word:
 
-<ol>
-	<li>Insert a character</li>
-	<li>Delete a character</li>
-	<li>Replace a character</li>
-</ol>
+  1. Insert a character
+  2. Delete a character
+  3. Replace a character
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> word1 = &quot;horse&quot;, word2 = &quot;ros&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> 
-horse -&gt; rorse (replace &#39;h&#39; with &#39;r&#39;)
-rorse -&gt; rose (remove &#39;r&#39;)
-rose -&gt; ros (remove &#39;e&#39;)
-</pre>
+    
+    
+    **Input:** word1 =  "horse", word2 = "ros"
+    **Output:** 3
+    **Explanation:** 
+    horse - > rorse (replace 'h' with 'r')
+    rorse -> rose (remove 'r')
+    rose -> ros (remove 'e')
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> word1 = &quot;intention&quot;, word2 = &quot;execution&quot;
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> 
-intention -&gt; inention (remove &#39;t&#39;)
-inention -&gt; enention (replace &#39;i&#39; with &#39;e&#39;)
-enention -&gt; exention (replace &#39;n&#39; with &#39;x&#39;)
-exention -&gt; exection (replace &#39;n&#39; with &#39;c&#39;)
-exection -&gt; execution (insert &#39;u&#39;)
-</pre>
+    
+    
+    **Input:** word1 =  "intention", word2 = "execution"
+    **Output:** 5
+    **Explanation:** 
+    intention - > inention (remove 't')
+    inention -> enention (replace 'i' with 'e')
+    enention -> exention (replace 'n' with 'x')
+    exention -> exection (replace 'n' with 'c')
+    exection -> execution (insert 'u')
+
 
 Similar Questions:
   One Edit Distance (one-edit-distance)

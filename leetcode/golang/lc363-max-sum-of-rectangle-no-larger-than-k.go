@@ -7,27 +7,33 @@ import (
 /*363. Max Sum of Rectangle No Larger Than K
 https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/
 
-<p>Given a non-empty 2D matrix <i>matrix</i> and an integer <i>k</i>, find the max sum of a rectangle in the <i>matrix</i> such that its sum is no larger than <i>k</i>.</p>
+Given a non-empty 2D matrix _matrix_ and an integer _k_ , find the max sum of
+a rectangle in the _matrix_ such that its sum is no larger than _k_.
 
-<p><b>Example:</b><br />
-<pre>Given matrix = [
-  [1,  0, 1],
-  [0, -2, 3]
-]
-k = 2
-</pre>
-</p>
+**Example:**  
 
-<p>The answer is <code>2</code>. Because the sum of rectangle <code>[[0, 1], [-2, 3]]</code> is 2 and 2 is the max number no larger than k (k = 2).</p>
+    
+    
+    Given matrix = [
+      [1,  0, 1],
+      [0, -2, 3]
+    ]
+    k = 2
+    
 
-<p><b>Note:</b><br />
-<ol>
-<li>The rectangle inside the matrix must have an area > 0.</li>
-<li>What if the number of rows is much larger than the number of columns?</li>
-</ol>
-</p>
+The answer is `2`. Because the sum of rectangle `[[0, 1], [-2, 3]]` is 2 and 2
+is the max number no larger than k (k = 2).
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://discuss.leetcode.com/user/fujiaozhu">@fujiaozhu</a> for adding this problem and creating all test cases.</p>
+**Note:**  
+
+  1. The rectangle inside the matrix must have an area > 0.
+  2. What if the number of rows is much larger than the number of columns?
+
+**Credits:**  
+Special thanks to [@fujiaozhu](https://discuss.leetcode.com/user/fujiaozhu)
+for adding this problem and creating all test cases.
+
+
 Similar Questions:
 
 */

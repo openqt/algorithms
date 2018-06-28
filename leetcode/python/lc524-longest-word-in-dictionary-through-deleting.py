@@ -4,37 +4,41 @@ import unittest
 """524. Longest Word in Dictionary through Deleting
 https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/
 
-<p>
-Given a string and a string dictionary, find the longest string in the dictionary that can be formed by deleting some characters of the given string. If there are more than one possible results, return the longest word with the smallest lexicographical order. If there is no possible result, return the empty string.
-</p>
-<p><b>Example 1:</b><br>
-<pre>
-<b>Input:</b>
-s = "abpcplea", d = ["ale","apple","monkey","plea"]
+Given a string and a string dictionary, find the longest string in the
+dictionary that can be formed by deleting some characters of the given string.
+If there are more than one possible results, return the longest word with the
+smallest lexicographical order. If there is no possible result, return the
+empty string.
 
-<b>Output:</b> 
-"apple"
-</pre>
-</p>
+**Example 1:**  
 
-</p>
-<p><b>Example 2:</b><br>
-<pre>
-<b>Input:</b>
-s = "abpcplea", d = ["a","b","c"]
+    
+    
+    **Input:**
+    s = "abpcplea", d = ["ale","apple","monkey","plea"]
+    
+    **Output:** 
+    "apple"
+    
 
-<b>Output:</b> 
-"a"
-</pre>
-</p>
+**Example 2:**  
 
-<p><b>Note:</b><br>
-<ol>
-<li>All the strings in the input will only contain lower-case letters.</li>
-<li>The size of the dictionary won't exceed 1,000.</li>
-<li>The length of all the strings in the input won't exceed 1,000.</li>
-</ol>
-</p>
+    
+    
+    **Input:**
+    s = "abpcplea", d = ["a","b","c"]
+    
+    **Output:** 
+    "a"
+    
+
+**Note:**  
+
+  1. All the strings in the input will only contain lower-case letters.
+  2. The size of the dictionary won't exceed 1,000.
+  3. The length of all the strings in the input won't exceed 1,000.
+
+
 Similar Questions:
   Longest Word in Dictionary (longest-word-in-dictionary)
 """

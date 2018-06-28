@@ -4,17 +4,15 @@ import unittest
 """142. Linked List Cycle II
 https://leetcode.com/problems/linked-list-cycle-ii/description/
 
-<p>
-Given a linked list, return the node where the cycle begins. If there is no cycle, return <code>null</code>.
-</p>
+Given a linked list, return the node where the cycle begins. If there is no
+cycle, return `null`.
 
-<p>
-<b>Note:</b> Do not modify the linked list.</p>
+**Note:** Do not modify the linked list.
 
-<p>
-<b>Follow up</b>:<br>
+**Follow up** :  
 Can you solve it without using extra space?
-</p>
+
+
 Similar Questions:
   Linked List Cycle (linked-list-cycle)
   Find the Duplicate Number (find-the-duplicate-number)

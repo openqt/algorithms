@@ -7,22 +7,19 @@ import (
 /*345. Reverse Vowels of a String
 https://leetcode.com/problems/reverse-vowels-of-a-string/description/
 
-<p>Write a function that takes a string as input and reverse only the vowels of a string.</p>
+Write a function that takes a string as input and reverse only the vowels of a
+string.
 
-<p>
-<b>Example 1:</b><br />
+**Example 1:**  
 Given s = "hello", return "holle".
-</p>
 
-<p>
-<b>Example 2:</b><br />
+**Example 2:**  
 Given s = "leetcode", return "leotcede".
-</p>
 
-<p>
-<b>Note:</b><br />
+**Note:**  
 The vowels does not include the letter "y".
-</p>
+
+
 Similar Questions:
   Reverse String (reverse-string)
 */

@@ -7,31 +7,33 @@ import (
 /*767. Reorganize String
 https://leetcode.com/problems/reorganize-string/description/
 
-<p>Given a string <code>S</code>, check if the letters can be rearranged so that two characters that are adjacent to each other are not the same.</p>
+Given a string `S`, check if the letters can be rearranged so that two
+characters that are adjacent to each other are not the same.
 
-<p>If possible, output any possible result.&nbsp; If not possible, return the empty string.</p>
+If possible, output any possible result.  If not possible, return the empty
+string.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> S = &quot;aab&quot;
-<strong>Output:</strong> &quot;aba&quot;
-</pre>
+    
+    
+    **Input:** S =  "aab"
+    **Output:**  "aba"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> S = &quot;aaab&quot;
-<strong>Output:</strong> &quot;&quot;
-</pre>
+    
+    
+    **Input:** S =  "aaab"
+    **Output:**  ""
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li><code>S</code> will consist of lowercase letters and have length in range <code>[1, 500]</code>.</li>
-</ul>
+  * `S` will consist of lowercase letters and have length in range `[1, 500]`.
 
-<p>&nbsp;</p>
+
 Similar Questions:
   Rearrange String k Distance Apart (rearrange-string-k-distance-apart)
   Task Scheduler (task-scheduler)

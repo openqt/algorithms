@@ -4,16 +4,17 @@ import unittest
 """92. Reverse Linked List II
 https://leetcode.com/problems/reverse-linked-list-ii/description/
 
-<p>Reverse a linked list from position <em>m</em> to <em>n</em>. Do it in one-pass.</p>
+Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 
-<p><strong>Note:&nbsp;</strong>1 &le; <em>m</em> &le; <em>n</em> &le; length of list.</p>
+**Note:  **1 ≤ _m_ ≤ _n_ ≤ length of list.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL, <em>m</em> = 2, <em>n</em> = 4
-<strong>Output:</strong> 1-&gt;4-&gt;3-&gt;2-&gt;5-&gt;NULL
-</pre>
+    
+    
+    **Input:** 1- >2->3->4->5->NULL, _m_ = 2, _n_ = 4
+    **Output:** 1- >4->3->2->5->NULL
+
 
 Similar Questions:
   Reverse Linked List (reverse-linked-list)

@@ -4,28 +4,32 @@ import unittest
 """14. Longest Common Prefix
 https://leetcode.com/problems/longest-common-prefix/description/
 
-<p>Write a function to find the longest common prefix string amongst an array of strings.</p>
+Write a function to find the longest common prefix string amongst an array of
+strings.
 
-<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>
+If there is no common prefix, return an empty string `""`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>[&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
-<strong>Output:</strong> &quot;fl&quot;
-</pre>
+    
+    
+    **Input:** ["flower","flow","flight"]
+    **Output:**  "fl"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>[&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
-<strong>Output:</strong> &quot;&quot;
-<strong>Explanation:</strong> There is no common prefix among the input strings.
-</pre>
+    
+    
+    **Input:** ["dog","racecar","car"]
+    **Output:**  ""
+    **Explanation:** There is no common prefix among the input strings.
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<p>All given inputs are in lowercase letters <code>a-z</code>.</p>
+All given inputs are in lowercase letters `a-z`.
+
 
 Similar Questions:
 

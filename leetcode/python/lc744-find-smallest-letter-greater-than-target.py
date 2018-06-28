@@ -4,53 +4,55 @@ import unittest
 """744. Find Smallest Letter Greater Than Target
 https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
 
-<p>
-Given a list of sorted characters <code>letters</code> containing only lowercase letters, and given a target letter <code>target</code>, find the smallest element in the list that is larger than the given target.
-</p><p>
-Letters also wrap around.  For example, if the target is <code>target = 'z'</code> and <code>letters = ['a', 'b']</code>, the answer is <code>'a'</code>.
-</p>
+Given a list of sorted characters `letters` containing only lowercase letters,
+and given a target letter `target`, find the smallest element in the list that
+is larger than the given target.
 
-<p><b>Examples:</b><br />
-<pre>
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "a"
-<b>Output:</b> "c"
+Letters also wrap around. For example, if the target is `target = 'z'` and
+`letters = ['a', 'b']`, the answer is `'a'`.
 
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "c"
-<b>Output:</b> "f"
+**Examples:**  
 
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "d"
-<b>Output:</b> "f"
+    
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "a"
+    **Output:** "c"
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "c"
+    **Output:** "f"
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "d"
+    **Output:** "f"
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "g"
+    **Output:** "j"
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "j"
+    **Output:** "c"
+    
+    **Input:**
+    letters = ["c", "f", "j"]
+    target = "k"
+    **Output:** "c"
+    
 
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "g"
-<b>Output:</b> "j"
+**Note:**  
 
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "j"
-<b>Output:</b> "c"
+  1. `letters` has a length in range `[2, 10000]`.
+  2. `letters` consists of lowercase letters, and contains at least 2 unique letters.
+  3. `target` is a lowercase letter.
 
-<b>Input:</b>
-letters = ["c", "f", "j"]
-target = "k"
-<b>Output:</b> "c"
-</pre>
-</p>
 
-<p><b>Note:</b><br>
-<ol>
-<li><code>letters</code> has a length in range <code>[2, 10000]</code>.</li>
-<li><code>letters</code> consists of lowercase letters, and contains at least 2 unique letters.</li>
-<li><code>target</code> is a lowercase letter.</li>
-</ol>
-</p>
 Similar Questions:
 
 """

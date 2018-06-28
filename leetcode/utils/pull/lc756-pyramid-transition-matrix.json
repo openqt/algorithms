@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
+        "__typename": "TopicTagNode", 
         "name": "Bit Manipulation"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "depth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Depth-first Search"
       }
     ], 

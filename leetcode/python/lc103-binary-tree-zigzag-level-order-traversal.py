@@ -4,29 +4,33 @@ import unittest
 """103. Binary Tree Zigzag Level Order Traversal
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 
-<p>Given a binary tree, return the <i>zigzag level order</i> traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).</p>
+Given a binary tree, return the _zigzag level order_ traversal of its nodes'
+values. (ie, from left to right, then right to left for the next level and
+alternate between).
 
-<p>
-For example:<br />
-Given binary tree <code>[3,9,20,null,null,15,7]</code>,<br />
-<pre>
-    3
-   / \
-  9  20
-    /  \
-   15   7
-</pre>
-</p>
-<p>
-return its zigzag level order traversal as:<br />
-<pre>
-[
-  [3],
-  [20,9],
-  [15,7]
-]
-</pre>
-</p>
+For example:  
+Given binary tree `[3,9,20,null,null,15,7]`,  
+
+    
+    
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    
+
+return its zigzag level order traversal as:  
+
+    
+    
+    [
+      [3],
+      [20,9],
+      [15,7]
+    ]
+
+
 Similar Questions:
   Binary Tree Level Order Traversal (binary-tree-level-order-traversal)
 """

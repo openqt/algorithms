@@ -7,40 +7,48 @@ import (
 /*804. Unique Morse Code Words
 https://leetcode.com/problems/unique-morse-code-words/description/
 
-<p>International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows: <code>&quot;a&quot;</code> maps to <code>&quot;.-&quot;</code>, <code>&quot;b&quot;</code> maps to <code>&quot;-...&quot;</code>, <code>&quot;c&quot;</code> maps to <code>&quot;-.-.&quot;</code>, and so on.</p>
+International Morse Code defines a standard encoding where each letter is
+mapped to a series of dots and dashes, as follows: `"a"` maps to `".-"`, `"b"`
+maps to `"-..."`, `"c"` maps to `"-.-."`, and so on.
 
-<p>For convenience, the full table for the 26 letters of the English alphabet is given below:</p>
+For convenience, the full table for the 26 letters of the English alphabet is
+given below:
 
-<pre>
-[&quot;.-&quot;,&quot;-...&quot;,&quot;-.-.&quot;,&quot;-..&quot;,&quot;.&quot;,&quot;..-.&quot;,&quot;--.&quot;,&quot;....&quot;,&quot;..&quot;,&quot;.---&quot;,&quot;-.-&quot;,&quot;.-..&quot;,&quot;--&quot;,&quot;-.&quot;,&quot;---&quot;,&quot;.--.&quot;,&quot;--.-&quot;,&quot;.-.&quot;,&quot;...&quot;,&quot;-&quot;,&quot;..-&quot;,&quot;...-&quot;,&quot;.--&quot;,&quot;-..-&quot;,&quot;-.--&quot;,&quot;--..&quot;]</pre>
+    
+    
+    [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
 
-<p>Now, given a list of words, each word can be written as a concatenation of the Morse code of each letter. For example, &quot;cab&quot; can be written as &quot;-.-.-....-&quot;, (which is the concatenation &quot;-.-.&quot; + &quot;-...&quot; + &quot;.-&quot;). We&#39;ll call such a concatenation, the transformation&nbsp;of a word.</p>
+Now, given a list of words, each word can be written as a concatenation of the
+Morse code of each letter. For example, "cab" can be written as "-.-.-....-",
+(which is the concatenation "-.-." \+ "-..." \+ ".-"). We'll call such a
+concatenation, the transformation of a word.
 
-<p>Return the number of different transformations among all words we have.</p>
+Return the number of different transformations among all words we have.
 
-<pre>
-<strong>Example:</strong>
-<strong>Input:</strong> words = ["gin", "zen", "gig", "msg"]
-<strong>Output:</strong> 2
-<strong>Explanation: </strong>
-The transformation of each word is:
-"gin" -> "--...-."
-"zen" -> "--...-."
-"gig" -> "--...--."
-"msg" -> "--...--."
+    
+    
+    **Example:**
+    **Input:** words = ["gin", "zen", "gig", "msg"]
+    **Output:** 2
+    **Explanation:**
+    The transformation of each word is:
+    "gin" -> "--...-."
+    "zen" -> "--...-."
+    "gig" -> "--...--."
+    "msg" -> "--...--."
+    
+    There are 2 different transformations, "--...-." and "--...--.".
+    
 
-There are 2 different transformations, "--...-." and "--...--.".
-</pre>
 
-<p>&nbsp;</p>
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>The length of <code>words</code> will be at most <code>100</code>.</li>
-	<li>Each <code>words[i]</code> will have length in range <code>[1, 12]</code>.</li>
-    <li><code>words[i]</code> will only consist of lowercase letters.</li>
-</ul>
+  * The length of `words` will be at most `100`.
+  * Each `words[i]` will have length in range `[1, 12]`.
+  * `words[i]` will only consist of lowercase letters.
+
+
 Similar Questions:
 
 */

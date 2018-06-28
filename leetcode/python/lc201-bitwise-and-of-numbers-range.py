@@ -4,20 +4,24 @@ import unittest
 """201. Bitwise AND of Numbers Range
 https://leetcode.com/problems/bitwise-and-of-numbers-range/description/
 
-<p>Given a range [m, n] where 0 &lt;= m &lt;= n &lt;= 2147483647, return the bitwise AND of all numbers in this range, inclusive.</p>
+Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND
+of all numbers in this range, inclusive.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [5,7]
-<strong>Output:</strong> 4
-</pre>
+    
+    
+    **Input:** [5,7]
+    **Output:** 4
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [0,1]
-<strong>Output:</strong> 0</pre>
+    
+    
+    **Input:** [0,1]
+    **Output:** 0
+
 
 Similar Questions:
 

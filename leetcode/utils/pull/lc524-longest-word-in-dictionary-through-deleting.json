@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "two-pointers", 
+        "__typename": "TopicTagNode", 
         "name": "Two Pointers"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "sort", 
+        "__typename": "TopicTagNode", 
         "name": "Sort"
       }
     ], 

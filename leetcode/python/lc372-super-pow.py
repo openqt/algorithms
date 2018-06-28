@@ -4,29 +4,34 @@ import unittest
 """372. Super Pow
 https://leetcode.com/problems/super-pow/description/
 
-<p>
-Your task is to calculate <i>a</i><sup><i>b</i></sup> mod 1337 where <i>a</i> is a positive integer and <i>b</i> is an extremely large positive integer given in the form of an array.
-</p>
+Your task is to calculate _a_ _b_ mod 1337 where _a_ is a positive integer and
+_b_ is an extremely large positive integer given in the form of an array.
 
-<p><b>Example1:</b>
-<pre>
-a = 2
-b = [3]
+**Example1:**
 
-Result: 8
-</pre>
-</p>
+    
+    
+    a = 2
+    b = [3]
+    
+    Result: 8
+    
 
-<p><b>Example2:</b>
-<pre>
-a = 2
-b = [1,0]
+**Example2:**
 
-Result: 1024
-</pre>
-</p>
+    
+    
+    a = 2
+    b = [1,0]
+    
+    Result: 1024
+    
 
-<p><b>Credits:</b><br />Special thanks to <a href="https://leetcode.com/stomach_ache">@Stomach_ache</a> for adding this problem and creating all test cases.</p>
+**Credits:**  
+Special thanks to [@Stomach_ache](https://leetcode.com/stomach_ache) for
+adding this problem and creating all test cases.
+
+
 Similar Questions:
   Pow(x, n) (powx-n)
 """

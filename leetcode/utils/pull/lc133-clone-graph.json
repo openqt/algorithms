@@ -2,13 +2,13 @@
   "isCurrentUserAuthenticated": false, 
   "isPremium": false, 
   "question": {
-    "sessionId": "0", 
     "sampleTestCase": "{}", 
     "questionFrontendId": "133", 
     "contributors": "[]", 
     "randomQuestionUrl": "/problems/random-one-question/", 
     "enableSubmit": true, 
     "metaData": "{}", 
+    "enableRunCode": false, 
     "questionDetailUrl": "/problems/clone-graph/", 
     "stats": "{\"totalAccepted\": \"155.6K\", \"totalSubmission\": \"618.7K\", \"acRate\": \"25.2%\"}", 
     "interpretUrl": "/problems/clone-graph/interpret_solution/", 
@@ -18,20 +18,20 @@
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "depth-first-search", 
-        "name": "Depth-first Search"
+        "name": "Depth-first Search", 
+        "slug": "depth-first-search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "breadth-first-search", 
-        "name": "Breadth-first Search"
+        "name": "Breadth-first Search", 
+        "slug": "breadth-first-search"
       }, 
       {
         "translatedName": null, 
         "__typename": "TopicTagNode", 
-        "slug": "graph", 
-        "name": "Graph"
+        "name": "Graph", 
+        "slug": "graph"
       }
     ], 
     "content": "<p>\r\nClone an undirected graph. Each node in the graph contains a <code>label</code> and a list of its <code>neighbors</code>.\r\n</p>\r\n\r\n<div>\r\n<br>\r\n<b>OJ's undirected graph serialization:</b>\r\n\r\n<p>\r\nNodes are labeled uniquely.\r\n</p>\r\n\r\nWe use <code>#</code> as a separator for each node, and <code>,</code> as a separator for node label and each neighbor of the node.\r\n</p>\r\n\r\n\r\n<p>\r\nAs an example, consider the serialized graph <code><font color=\"red\">{<font color=\"black\">0</font>,1,2#</font><font color=\"blue\"><font color=\"black\">1</font>,2#</font><font color=\"green\"><font color=\"black\">2</font>,2}</font></code>.\r\n</p>\r\n\r\n<p>\r\nThe graph has a total of three nodes, and therefore contains three parts as separated by <code>#</code>.\r\n<ol>\r\n<li>First node is labeled as <code><font color=\"black\">0</font></code>. Connect node <code><font color=\"black\">0</font></code> to both nodes <code><font color=\"red\">1</font></code> and <code><font color=\"red\">2</font></code>.</li>\r\n<li>Second node is labeled as <code><font color=\"black\">1</font></code>. Connect node <code><font color=\"black\">1</font></code> to node <code><font color=\"blue\">2</font></code>.</li>\r\n<li>Third node is labeled as <code><font color=\"black\">2</font></code>. Connect node <code><font color=\"black\">2</font></code> to node <code><font color=\"green\">2</font></code> (itself), thus forming a self-cycle.</li>\r\n</ol>\r\n</p>\r\n\r\n<p>\r\nVisually, the graph looks like the following:\r\n<pre>\r\n       1\r\n      / \\\r\n     /   \\\r\n    0 --- 2\r\n         / \\\r\n         \\_/\r\n</pre>\r\n</p>\r\n\r\n</div>", 
@@ -49,7 +49,7 @@
     "questionTitleSlug": "clone-graph", 
     "similarQuestions": "[{\"title\": \"Copy List with Random Pointer\", \"titleSlug\": \"copy-list-with-random-pointer\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
     "libraryUrl": null, 
-    "enableRunCode": false, 
+    "sessionId": "0", 
     "questionTitle": "Clone Graph", 
     "categoryTitle": "Algorithms", 
     "mysqlSchemas": [], 

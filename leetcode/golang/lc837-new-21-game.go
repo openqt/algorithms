@@ -7,43 +7,50 @@ import (
 /*837. New 21 Game
 https://leetcode.com/problems/new-21-game/description/
 
-<p>Alice plays the following game, loosely based on the card game &quot;21&quot;.</p>
+Alice plays the following game, loosely based on the card game "21".
 
-<p>Alice starts with <code>0</code> points, and draws numbers while she has less than <code>K</code> points.&nbsp; During each draw, she gains an integer number of points randomly from the range <code>[1, W]</code>, where <code>W</code> is an integer.&nbsp; Each draw is independent and the outcomes have equal probabilities.</p>
+Alice starts with `0` points, and draws numbers while she has less than `K`
+points.  During each draw, she gains an integer number of points randomly from
+the range `[1, W]`, where `W` is an integer.  Each draw is independent and the
+outcomes have equal probabilities.
 
-<p>Alice stops drawing numbers when she gets <code>K</code> or more points.&nbsp; What is the probability&nbsp;that she has <code>N</code> or less points?</p>
+Alice stops drawing numbers when she gets `K` or more points.  What is the
+probability that she has `N` or less points?
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>N = 10, K = 1, W = 10
-<strong>Output: </strong>1.00000
-<strong>Explanation: </strong> Alice gets a single card, then stops.
-</pre>
+    
+    
+    **Input:** N = 10, K = 1, W = 10
+    **Output:** 1.00000
+    **Explanation:** Alice gets a single card, then stops.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>N = 6, K = 1, W = 10
-<strong>Output: </strong>0.60000
-<strong>Explanation: </strong> Alice gets a single card, then stops.
-In 6 out of W = 10 possibilities, she is at or below N = 6 points.
-</pre>
+    
+    
+    **Input:** N = 6, K = 1, W = 10
+    **Output:** 0.60000
+    **Explanation:** Alice gets a single card, then stops.
+    In 6 out of W = 10 possibilities, she is at or below N = 6 points.
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input: </strong>N = 21, K = 17, W = 10
-<strong>Output: </strong>0.73278</pre>
+    
+    
+    **Input:** N = 21, K = 17, W = 10
+    **Output:** 0.73278
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ol>
-	<li><code>0 &lt;= K &lt;= N &lt;= 10000</code></li>
-	<li><code>1 &lt;= W &lt;= 10000</code></li>
-	<li>Answers will be accepted as correct if they are within <code>10^-5</code> of the correct answer.</li>
-	<li>The judging time limit has been reduced for this question.</li>
-</ol>
+  1. `0 <= K <= N <= 10000`
+  2. `1 <= W <= 10000`
+  3. Answers will be accepted as correct if they are within `10^-5` of the correct answer.
+  4. The judging time limit has been reduced for this question.
+
+
 Similar Questions:
 
 */

@@ -7,23 +7,26 @@ import (
 /*15. 3Sum
 https://leetcode.com/problems/3sum/description/
 
-<p>Given an array <code>nums</code> of <em>n</em> integers, are there elements <em>a</em>, <em>b</em>, <em>c</em> in <code>nums</code> such that <em>a</em> + <em>b</em> + <em>c</em> = 0? Find all unique triplets in the array which gives the sum of zero.</p>
+Given an array `nums` of _n_ integers, are there elements _a_ , _b_ , _c_ in
+`nums` such that _a_ \+ _b_ \+ _c_ = 0? Find all unique triplets in the array
+which gives the sum of zero.
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<p>The solution set must not contain duplicate triplets.</p>
+The solution set must not contain duplicate triplets.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-Given array nums = [-1, 0, 1, 2, -1, -4],
+    
+    
+    Given array nums = [-1, 0, 1, 2, -1, -4],
+    
+    A solution set is:
+    [
+      [-1, 0, 1],
+      [-1, -1, 2]
+    ]
 
-A solution set is:
-[
-  [-1, 0, 1],
-  [-1, -1, 2]
-]
-</pre>
 
 Similar Questions:
   Two Sum (two-sum)

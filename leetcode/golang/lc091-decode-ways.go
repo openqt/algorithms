@@ -7,31 +7,37 @@ import (
 /*91. Decode Ways
 https://leetcode.com/problems/decode-ways/description/
 
-<p>A message containing letters from <code>A-Z</code> is being encoded to numbers using the following mapping:</p>
+A message containing letters from `A-Z` is being encoded to numbers using the
+following mapping:
 
-<pre>
-&#39;A&#39; -&gt; 1
-&#39;B&#39; -&gt; 2
-...
-&#39;Z&#39; -&gt; 26
-</pre>
+    
+    
+    'A' -> 1
+    'B' -> 2
+    ...
+    'Z' -> 26
+    
 
-<p>Given a <strong>non-empty</strong> string containing only digits, determine the total number of ways to decode it.</p>
+Given a **non-empty** string containing only digits, determine the total
+number of ways to decode it.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> &quot;12&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong>&nbsp;It could be decoded as &quot;AB&quot; (1 2) or &quot;L&quot; (12).
-</pre>
+    
+    
+    **Input:**  "12"
+    **Output:** 2
+    **Explanation:**  It could be decoded as "AB" (1 2) or "L" (12).
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> &quot;226&quot;
-<strong>Output:</strong> 3
-<strong>Explanation:</strong>&nbsp;It could be decoded as &quot;BZ&quot; (2 26), &quot;VF&quot; (22 6), or &quot;BBF&quot; (2 2 6).</pre>
+    
+    
+    **Input:**  "226"
+    **Output:** 3
+    **Explanation:**  It could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
+
 
 Similar Questions:
   Decode Ways II (decode-ways-ii)

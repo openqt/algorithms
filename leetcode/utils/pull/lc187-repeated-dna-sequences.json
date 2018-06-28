@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "hash-table", 
+        "__typename": "TopicTagNode", 
         "name": "Hash Table"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
+        "__typename": "TopicTagNode", 
         "name": "Bit Manipulation"
       }
     ], 

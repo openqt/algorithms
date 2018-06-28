@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "bit-manipulation", 
+        "__typename": "TopicTagNode", 
         "name": "Bit Manipulation"
       }
     ], 

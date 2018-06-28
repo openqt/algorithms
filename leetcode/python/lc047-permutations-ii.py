@@ -4,19 +4,21 @@ import unittest
 """47. Permutations II
 https://leetcode.com/problems/permutations-ii/description/
 
-<p>Given a collection of numbers that might contain duplicates, return all possible unique permutations.</p>
+Given a collection of numbers that might contain duplicates, return all
+possible unique permutations.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> [1,1,2]
-<strong>Output:</strong>
-[
-  [1,1,2],
-  [1,2,1],
-  [2,1,1]
-]
-</pre>
+    
+    
+    **Input:** [1,1,2]
+    **Output:**
+    [
+      [1,1,2],
+      [1,2,1],
+      [2,1,1]
+    ]
+
 
 Similar Questions:
   Next Permutation (next-permutation)

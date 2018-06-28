@@ -7,56 +7,57 @@ import (
 /*99. Recover Binary Search Tree
 https://leetcode.com/problems/recover-binary-search-tree/description/
 
-<p>Two elements of a binary search tree (BST) are swapped by mistake.</p>
+Two elements of a binary search tree (BST) are swapped by mistake.
 
-<p>Recover the tree without changing its structure.</p>
+Recover the tree without changing its structure.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [1,3,null,null,2]
+    
+    
+    **Input:** [1,3,null,null,2]
+    
+        1
+      /
+     3
+      \
+       2
+    
+    **Output:** [3,1,null,null,2]
+    
+        3
+      /
+     1
+      \
+       2
+    
 
-&nbsp;  1
-&nbsp; /
-&nbsp;3
-&nbsp; \
-&nbsp;  2
+**Example 2:**
 
-<strong>Output:</strong> [3,1,null,null,2]
+    
+    
+    **Input:** [3,1,4,null,null,2]
+    
+      3
+     / \
+    1   4
+        /
+      2
+    
+    **Output:** [2,1,4,null,null,3]
+    
+      2
+     / \
+    1   4
+        /
+      3
+    
 
-&nbsp;  3
-&nbsp; /
-&nbsp;1
-&nbsp; \
-&nbsp;  2
-</pre>
+**Follow up:**
 
-<p><strong>Example 2:</strong></p>
+  * A solution using O( _n_ ) space is pretty straight forward.
+  * Could you devise a constant space solution?
 
-<pre>
-<strong>Input:</strong> [3,1,4,null,null,2]
-
-  3
- / \
-1   4
-&nbsp;  /
-&nbsp; 2
-
-<strong>Output:</strong> [2,1,4,null,null,3]
-
-  2
- / \
-1   4
-&nbsp;  /
- &nbsp;3
-</pre>
-
-<p><strong>Follow up:</strong></p>
-
-<ul>
-	<li>A solution using O(<em>n</em>) space is pretty straight forward.</li>
-	<li>Could you devise a constant space solution?</li>
-</ul>
 
 Similar Questions:
 

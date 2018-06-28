@@ -7,30 +7,34 @@ import (
 /*328. Odd Even Linked List
 https://leetcode.com/problems/odd-even-linked-list/description/
 
-<p>Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.</p>
+Given a singly linked list, group all odd nodes together followed by the even
+nodes. Please note here we are talking about the node number and not the value
+in the nodes.
 
-<p>You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.</p>
+You should try to do it in place. The program should run in O(1) space
+complexity and O(nodes) time complexity.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong><code>1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;NULL</code>
-<strong>Output: </strong><code>1-&gt;3-&gt;5-&gt;2-&gt;4-&gt;NULL</code>
-</pre>
+    
+    
+    **Input:**1->2->3->4->5->NULL
+    **Output:**1->3->5->2->4->NULL
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>2<code>-&gt;1-&gt;3-&gt;5-&gt;6-&gt;4-&gt;7-&gt;NULL</code>
-<strong>Output: </strong><code>2-&gt;3-&gt;6-&gt;7-&gt;1-&gt;5-&gt;4-&gt;NULL</code>
-</pre>
+    
+    
+    **Input:** 2->1->3->5->6->4->7->NULL
+    **Output:**2->3->6->7->1->5->4->NULL
+    
 
-<p><b>Note:</b></p>
+**Note:**
 
-<ul>
-	<li>The relative order inside both the even and odd groups should remain as it was in the input.</li>
-	<li>The first node is considered odd, the second node even and so on ...</li>
-</ul>
+  * The relative order inside both the even and odd groups should remain as it was in the input.
+  * The first node is considered odd, the second node even and so on ...
+
 
 Similar Questions:
   Split Linked List in Parts (split-linked-list-in-parts)

@@ -4,48 +4,38 @@ import unittest
 """133. Clone Graph
 https://leetcode.com/problems/clone-graph/description/
 
-<p>
-Clone an undirected graph. Each node in the graph contains a <code>label</code> and a list of its <code>neighbors</code>.
-</p>
+Clone an undirected graph. Each node in the graph contains a `label` and a
+list of its `neighbors`.
 
-<div>
-<br>
-<b>OJ's undirected graph serialization:</b>
+  
+**OJ's undirected graph serialization:**
 
-<p>
 Nodes are labeled uniquely.
-</p>
 
-We use <code>#</code> as a separator for each node, and <code>,</code> as a separator for node label and each neighbor of the node.
-</p>
+We use `#` as a separator for each node, and `,` as a separator for node label
+and each neighbor of the node.
 
+As an example, consider the serialized graph ` {0,1,2#1,2#2,2}`.
 
-<p>
-As an example, consider the serialized graph <code><font color="red">{<font color="black">0</font>,1,2#</font><font color="blue"><font color="black">1</font>,2#</font><font color="green"><font color="black">2</font>,2}</font></code>.
-</p>
+The graph has a total of three nodes, and therefore contains three parts as
+separated by `#`.
 
-<p>
-The graph has a total of three nodes, and therefore contains three parts as separated by <code>#</code>.
-<ol>
-<li>First node is labeled as <code><font color="black">0</font></code>. Connect node <code><font color="black">0</font></code> to both nodes <code><font color="red">1</font></code> and <code><font color="red">2</font></code>.</li>
-<li>Second node is labeled as <code><font color="black">1</font></code>. Connect node <code><font color="black">1</font></code> to node <code><font color="blue">2</font></code>.</li>
-<li>Third node is labeled as <code><font color="black">2</font></code>. Connect node <code><font color="black">2</font></code> to node <code><font color="green">2</font></code> (itself), thus forming a self-cycle.</li>
-</ol>
-</p>
+  1. First node is labeled as `0`. Connect node `0` to both nodes `1` and `2`.
+  2. Second node is labeled as `1`. Connect node `1` to node `2`.
+  3. Third node is labeled as `2`. Connect node `2` to node `2` (itself), thus forming a self-cycle.
 
-<p>
 Visually, the graph looks like the following:
-<pre>
-       1
-      / \
-     /   \
-    0 --- 2
-         / \
-         \_/
-</pre>
-</p>
 
-</div>
+    
+    
+           1
+          / \
+         /   \
+        0 --- 2
+             / \
+             \_/
+
+
 Similar Questions:
   Copy List with Random Pointer (copy-list-with-random-pointer)
 """

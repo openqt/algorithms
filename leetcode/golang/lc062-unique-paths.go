@@ -7,34 +7,40 @@ import (
 /*62. Unique Paths
 https://leetcode.com/problems/unique-paths/description/
 
-<p>A robot is located at the top-left corner of a <em>m</em> x <em>n</em> grid (marked &#39;Start&#39; in the diagram below).</p>
+A robot is located at the top-left corner of a _m_ x _n_ grid (marked  'Start'
+in the diagram below).
 
-<p>The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked &#39;Finish&#39; in the diagram below).</p>
+The robot can only move either down or right at any point in time. The robot
+is trying to reach the bottom-right corner of the grid (marked 'Finish' in the
+diagram below).
 
-<p>How many possible unique paths are there?</p>
+How many possible unique paths are there?
 
-<p><img src="https://leetcode.com/static/images/problemset/robot_maze.png" /><br />
-<small>Above is a 7 x 3 grid. How many possible unique paths are there?</small></p>
+![](https://leetcode.com/static/images/problemset/robot_maze.png)  
+Above is a 7 x 3 grid. How many possible unique paths are there?
 
-<p><strong>Note:</strong> <em>m</em> and <em>n</em> will be at most 100.</p>
+**Note:** _m_ and _n_ will be at most 100.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> m = 3, n = 2
-<strong>Output:</strong> 3
-<strong>Explanation:</strong>
-From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
-1. Right -&gt; Right -&gt; Down
-2. Right -&gt; Down -&gt; Right
-3. Down -&gt; Right -&gt; Right
-</pre>
+    
+    
+    **Input:** m = 3, n = 2
+    **Output:** 3
+    **Explanation:**
+    From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+    1. Right - > Right -> Down
+    2. Right -> Down -> Right
+    3. Down -> Right -> Right
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> m = 7, n = 3
-<strong>Output:</strong> 28</pre>
+    
+    
+    **Input:** m = 7, n = 3
+    **Output:** 28
+
 
 Similar Questions:
   Unique Paths II (unique-paths-ii)

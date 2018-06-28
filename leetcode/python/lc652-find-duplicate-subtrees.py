@@ -4,36 +4,43 @@ import unittest
 """652. Find Duplicate Subtrees
 https://leetcode.com/problems/find-duplicate-subtrees/description/
 
-<p>Given a binary tree, return all duplicate subtrees. For each kind of duplicate subtrees, you only need to return the root node of any <b>one</b> of them.</p>
+Given a binary tree, return all duplicate subtrees. For each kind of duplicate
+subtrees, you only need to return the root node of any **one** of them.
 
-<p>Two trees are duplicate if they have the same structure with same node values.</p>
+Two trees are duplicate if they have the same structure with same node values.
 
-<p><b>Example 1: </b></p>
+**Example 1:**
 
-<pre>
-        1
-       / \
-      2   3
-     /   / \
-    4   2   4
-       /
-      4
-</pre>
+    
+    
+            1
+           / \
+          2   3
+         /   / \
+        4   2   4
+           /
+          4
+    
 
-<p>The following are two duplicate subtrees:</p>
+The following are two duplicate subtrees:
 
-<pre>
-      2
-     /
-    4
-</pre>
+    
+    
+          2
+         /
+        4
+    
 
-<p>and</p>
+and
 
-<pre>
-    4
-</pre>
-Therefore, you need to return above trees&#39; root in the form of a list.
+    
+    
+        4
+    
+
+Therefore, you need to return above trees' root in the form of a list.
+
+
 Similar Questions:
   Serialize and Deserialize Binary Tree (serialize-and-deserialize-binary-tree)
   Serialize and Deserialize BST (serialize-and-deserialize-bst)

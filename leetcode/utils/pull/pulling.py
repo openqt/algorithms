@@ -8,6 +8,8 @@ from string import Template
 
 import prettytable
 import requests
+import html2text
+
 
 logging.basicConfig(level=logging.INFO)
 
@@ -18,6 +20,8 @@ import unittest
 $url
 
 $text
+
+
 Similar Questions:
 $related
 """
@@ -43,6 +47,8 @@ import (
 $url
 
 $text
+
+
 Similar Questions:
 $related
 */
@@ -104,6 +110,7 @@ query getQuestionDetail($titleSlug: String!) {
 
 class Question(object):
     def __init__(self, **kwargs):
+        self.filter = html2text.HTML2Text()
         self.data = None
 
         stat = kwargs.get("stat")
@@ -167,7 +174,7 @@ class Question(object):
             question = self.data["question"]
             for code in json.loads(question["codeDefinition"]):
                 self.codes[code["value"]] = code["defaultCode"]
-            self.content = question["content"]
+            self.content = self.filter.handle(question["content"]).strip()
             self.related = []
             for sq in json.loads(question["similarQuestions"]):
                 self.related.append("{} ({})".format(sq["title"], sq["titleSlug"]))
@@ -182,8 +189,9 @@ class Question(object):
 
 class LC(object):
     def __init__(self):
-        self.url = "https://leetcode.com/api/problems/algorithms/"
         self.sess = requests.session()
+
+        self.url = "https://leetcode.com/api/problems/algorithms/"
         self.qa = []
         self.qm = {}
         self.arg = None

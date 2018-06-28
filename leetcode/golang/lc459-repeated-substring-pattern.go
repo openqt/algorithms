@@ -7,35 +7,42 @@ import (
 /*459. Repeated Substring Pattern
 https://leetcode.com/problems/repeated-substring-pattern/description/
 
-Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.  You may assume the given string consists of lowercase English letters only and its length  will not exceed 10000. 
+Given a non-empty string check if it can be constructed by taking a substring
+of it and appending multiple copies of the substring together. You may assume
+the given string consists of lowercase English letters only and its length
+will not exceed 10000.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> "abab"
+**Example 1:**  
 
-<b>Output:</b> True
+    
+    
+    **Input:** "abab"
+    
+    **Output:** True
+    
+    **Explanation:** It's the substring "ab" twice.
+    
 
-<b>Explanation:</b> It's the substring "ab" twice.
-</pre>
-</p>
+**Example 2:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> "aba"
+    
+    
+    **Input:** "aba"
+    
+    **Output:** False
+    
 
-<b>Output:</b> False
-</pre>
-</p>
+**Example 3:**  
 
-<p><b>Example 3:</b><br />
-<pre>
-<b>Input:</b> "abcabcabcabc"
+    
+    
+    **Input:** "abcabcabcabc"
+    
+    **Output:** True
+    
+    **Explanation:** It's the substring "abc" four times. (And the substring "abcabc" twice.)
 
-<b>Output:</b> True
 
-<b>Explanation:</b> It's the substring "abc" four times. (And the substring "abcabc" twice.)
-</pre>
-</p>
 Similar Questions:
   Implement strStr() (implement-strstr)
   Repeated String Match (repeated-string-match)

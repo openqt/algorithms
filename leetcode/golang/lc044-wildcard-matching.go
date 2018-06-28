@@ -7,70 +7,75 @@ import (
 /*44. Wildcard Matching
 https://leetcode.com/problems/wildcard-matching/description/
 
-<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code>.</p>
+Given an input string (`s`) and a pattern (`p`), implement wildcard pattern
+matching with support for `'?'` and `'*'`.
 
-<pre>
-&#39;?&#39; Matches any single character.
-&#39;*&#39; Matches any sequence of characters (including the empty sequence).
-</pre>
+    
+    
+    '?' Matches any single character.
+    '*' Matches any sequence of characters (including the empty sequence).
+    
 
-<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>
+The matching should cover the **entire** input string (not partial).
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li><code>s</code>&nbsp;could be empty and contains only lowercase letters <code>a-z</code>.</li>
-	<li><code>p</code> could be empty and contains only lowercase letters <code>a-z</code>, and characters like <code><font face="monospace">?</font></code>&nbsp;or&nbsp;<code>*</code>.</li>
-</ul>
+  * `s` could be empty and contains only lowercase letters `a-z`.
+  * `p` could be empty and contains only lowercase letters `a-z`, and characters like `?` or `*`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;aa&quot;
-p = &quot;a&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "aa"
+    p = "a"
+    **Output:** false
+    **Explanation:**  "a" does not match the entire string "aa".
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;aa&quot;
-p = &quot;*&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;&#39;*&#39; matches any sequence.
-</pre>
+    
+    
+    **Input:**
+    s =  "aa"
+    p = "*"
+    **Output:** true
+    **Explanation:**  '*' matches any sequence.
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;cb&quot;
-p = &quot;?a&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong>&nbsp;&#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.
-</pre>
+    
+    
+    **Input:**
+    s =  "cb"
+    p = "?a"
+    **Output:** false
+    **Explanation:**  '?' matches 'c', but the second letter is 'a', which does not match 'b'.
+    
 
-<p><strong>Example 4:</strong></p>
+**Example 4:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;adceb&quot;
-p = &quot;*a*b&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong>&nbsp;The first &#39;*&#39; matches the empty sequence, while the second &#39;*&#39; matches the substring &quot;dce&quot;.
-</pre>
+    
+    
+    **Input:**
+    s =  "adceb"
+    p = "*a*b"
+    **Output:** true
+    **Explanation:**  The first '*' matches the empty sequence, while the second '*' matches the substring "dce".
+    
 
-<p><strong>Example 5:</strong></p>
+**Example 5:**
 
-<pre>
-<strong>Input:</strong>
-s = &quot;acdcb&quot;
-p = &quot;a*c?b&quot;
-<strong>Output:</strong> false
-</pre>
+    
+    
+    **Input:**
+    s =  "acdcb"
+    p = "a*c?b"
+    **Output:** false
+
 
 Similar Questions:
   Regular Expression Matching (regular-expression-matching)

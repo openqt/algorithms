@@ -7,64 +7,75 @@ import (
 /*87. Scramble String
 https://leetcode.com/problems/scramble-string/description/
 
-<p>Given a string <em>s1</em>, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.</p>
+Given a string _s1_ , we may represent it as a binary tree by partitioning it
+to two non-empty substrings recursively.
 
-<p>Below is one possible representation of <em>s1</em> = <code>&quot;great&quot;</code>:</p>
+Below is one possible representation of _s1_ = `"great"`:
 
-<pre>
-    great
-   /    \
-  gr    eat
- / \    /  \
-g   r  e   at
+    
+    
+        great
+       /    \
+      gr    eat
+     / \    /  \
+    g   r  e   at
+               / \
+              a   t
+    
+
+To scramble the string, we may choose any non-leaf node and swap its two
+children.
+
+For example, if we choose the node `"gr"` and swap its two children, it
+produces a scrambled string `"rgeat"`.
+
+    
+    
+        rgeat
+       /    \
+      rg    eat
+     / \    /  \
+    r   g  e   at
+               / \
+              a   t
+    
+
+We say that `"rgeat"` is a scrambled string of `"great"`.
+
+Similarly, if we continue to swap the children of nodes `"eat"` and `"at"`, it
+produces a scrambled string `"rgtae"`.
+
+    
+    
+        rgtae
+       /    \
+      rg    tae
+     / \    /  \
+    r   g  ta  e
            / \
-          a   t
-</pre>
+          t   a
+    
 
-<p>To scramble the string, we may choose any non-leaf node and swap its two children.</p>
+We say that `"rgtae"` is a scrambled string of `"great"`.
 
-<p>For example, if we choose the node <code>&quot;gr&quot;</code> and swap its two children, it produces a scrambled string <code>&quot;rgeat&quot;</code>.</p>
+Given two strings _s1_ and _s2_ of the same length, determine if _s2_ is a
+scrambled string of _s1_.
 
-<pre>
-    rgeat
-   /    \
-  rg    eat
- / \    /  \
-r   g  e   at
-           / \
-          a   t
-</pre>
+**Example 1:**
 
-<p>We say that <code>&quot;rgeat&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.</p>
+    
+    
+    **Input:** s1 =  "great", s2 = "rgeat"
+    **Output:** true
+    
 
-<p>Similarly, if we continue to swap the children of nodes <code>&quot;eat&quot;</code> and <code>&quot;at&quot;</code>, it produces a scrambled string <code>&quot;rgtae&quot;</code>.</p>
+**Example 2:**
 
-<pre>
-    rgtae
-   /    \
-  rg    tae
- / \    /  \
-r   g  ta  e
-       / \
-      t   a
-</pre>
+    
+    
+    **Input:** s1 =  "abcde", s2 = "caebd"
+    **Output:** false
 
-<p>We say that <code>&quot;rgtae&quot;</code> is a scrambled string of <code>&quot;great&quot;</code>.</p>
-
-<p>Given two strings <em>s1</em> and <em>s2</em> of the same length, determine if <em>s2</em> is a scrambled string of <em>s1</em>.</p>
-
-<p><strong>Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s1 = &quot;great&quot;, s2 = &quot;rgeat&quot;
-<strong>Output:</strong> true
-</pre>
-
-<p><strong>Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s1 = &quot;abcde&quot;, s2 = &quot;caebd&quot;
-<strong>Output:</strong> false</pre>
 
 Similar Questions:
 

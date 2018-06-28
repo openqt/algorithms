@@ -4,15 +4,19 @@ import unittest
 """16. 3Sum Closest
 https://leetcode.com/problems/3sum-closest/description/
 
-<p>Given an array <code>nums</code> of <em>n</em> integers and an integer <code>target</code>, find three integers in <code>nums</code>&nbsp;such that the sum is closest to&nbsp;<code>target</code>. Return the sum of the three integers. You may assume that each input would have exactly one solution.</p>
+Given an array `nums` of _n_ integers and an integer `target`, find three
+integers in `nums` such that the sum is closest to `target`. Return the sum of
+the three integers. You may assume that each input would have exactly one
+solution.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-Given array nums = [-1, 2, 1, -4], and target = 1.
+    
+    
+    Given array nums = [-1, 2, 1, -4], and target = 1.
+    
+    The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
-The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
-</pre>
 
 Similar Questions:
   3Sum (3sum)

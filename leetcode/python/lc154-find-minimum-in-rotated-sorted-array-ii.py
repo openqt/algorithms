@@ -4,32 +4,34 @@ import unittest
 """154. Find Minimum in Rotated Sorted Array II
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/
 
-<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>
+Suppose an array sorted in ascending order is rotated at some pivot unknown to
+you beforehand.
 
-<p>(i.e., &nbsp;<code>[0,1,2,4,5,6,7]</code>&nbsp;might become &nbsp;<code>[4,5,6,7,0,1,2]</code>).</p>
+(i.e.,  `[0,1,2,4,5,6,7]` might become  `[4,5,6,7,0,1,2]`).
 
-<p>Find the minimum element.</p>
+Find the minimum element.
 
-<p>The array may contain duplicates.</p>
+The array may contain duplicates.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [1,3,5]
-<strong>Output:</strong> 1</pre>
+    
+    
+    **Input:** [1,3,5]
+    **Output:** 1
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [2,2,2,0,1]
-<strong>Output:</strong> 0</pre>
+    
+    
+    **Input:** [2,2,2,0,1]
+    **Output:** 0
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li>This is a follow up problem to&nbsp;<a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/">Find Minimum in Rotated Sorted Array</a>.</li>
-	<li>Would allow duplicates affect the run-time complexity? How and why?</li>
-</ul>
+  * This is a follow up problem to [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/).
+  * Would allow duplicates affect the run-time complexity? How and why?
+
 
 Similar Questions:
   Find Minimum in Rotated Sorted Array (find-minimum-in-rotated-sorted-array)

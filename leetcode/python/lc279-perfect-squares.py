@@ -4,21 +4,25 @@ import unittest
 """279. Perfect Squares
 https://leetcode.com/problems/perfect-squares/description/
 
-<p>Given a positive integer <i>n</i>, find the least number of perfect square numbers (for example, <code>1, 4, 9, 16, ...</code>) which sum to <i>n</i>.</p>
+Given a positive integer _n_ , find the least number of perfect square numbers
+(for example, `1, 4, 9, 16, ...`) which sum to _n_.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> <i>n</i> = <code>12</code>
-<b>Output:</b> 3 
-<strong>Explanation: </strong><code>12 = 4 + 4 + 4.</code></pre>
+    
+    
+    **Input:** _n_ = 12
+    **Output:** 3 
+    **Explanation:**12 = 4 + 4 + 4.
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> <i>n</i> = <code>13</code>
-<b>Output:</b> 2
-<strong>Explanation: </strong><code>13 = 4 + 9.</code></pre>
+    
+    
+    **Input:** _n_ = 13
+    **Output:** 2
+    **Explanation:**13 = 4 + 9.
+
 
 Similar Questions:
   Count Primes (count-primes)

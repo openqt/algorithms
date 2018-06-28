@@ -4,26 +4,29 @@ import unittest
 """409. Longest Palindrome
 https://leetcode.com/problems/longest-palindrome/description/
 
-<p>Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.</p>
+Given a string which consists of lowercase or uppercase letters, find the
+length of the longest palindromes that can be built with those letters.
 
-<p>This is case sensitive, for example <code>"Aa"</code> is not considered a palindrome here.</p>
+This is case sensitive, for example `"Aa"` is not considered a palindrome
+here.
 
-<p><b>Note:</b><br />
+**Note:**  
 Assume the length of given string will not exceed 1,010.
-</p>
 
-<p><b>Example: </b>
-<pre>
-Input:
-"abccccdd"
+**Example:**
 
-Output:
-7
+    
+    
+    Input:
+    "abccccdd"
+    
+    Output:
+    7
+    
+    Explanation:
+    One longest palindrome that can be built is "dccaccd", whose length is 7.
 
-Explanation:
-One longest palindrome that can be built is "dccaccd", whose length is 7.
-</pre>
-</p>
+
 Similar Questions:
   Palindrome Permutation (palindrome-permutation)
 """

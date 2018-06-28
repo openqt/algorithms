@@ -7,20 +7,20 @@ import (
 /*71. Simplify Path
 https://leetcode.com/problems/simplify-path/description/
 
-<p>Given an absolute path for a file (Unix-style), simplify it.</p>
+Given an absolute path for a file (Unix-style), simplify it.
 
-<p>For example,<br />
-<strong>path</strong> = <code>&quot;/home/&quot;</code>, =&gt; <code>&quot;/home&quot;</code><br />
-<strong>path</strong> = <code>&quot;/a/./b/../../c/&quot;</code>, =&gt; <code>&quot;/c&quot;</code></p>
+For example,  
+**path** = `"/home/"`, => `"/home"`  
+**path** = `"/a/./b/../../c/"`, => `"/c"`
 
-<p><strong>Corner Cases:</strong></p>
+**Corner Cases:**
 
-<ul>
-	<li>Did you consider the case where <strong>path</strong> = <code>&quot;/../&quot;</code>?<br />
-	In this case, you should return <code>&quot;/&quot;</code>.</li>
-	<li>Another corner case is the path might contain multiple slashes <code>&#39;/&#39;</code> together, such as <code>&quot;/home//foo/&quot;</code>.<br />
-	In this case, you should ignore redundant slashes and return <code>&quot;/home/foo&quot;</code>.</li>
-</ul>
+  * Did you consider the case where **path** = `"/../"`?  
+In this case, you should return `"/"`.
+
+  * Another corner case is the path might contain multiple slashes `'/'` together, such as `"/home//foo/"`.  
+In this case, you should ignore redundant slashes and return `"/home/foo"`.
+
 
 Similar Questions:
 

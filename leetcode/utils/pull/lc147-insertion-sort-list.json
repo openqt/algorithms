@@ -17,14 +17,14 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "linked-list", 
+        "__typename": "TopicTagNode", 
         "name": "Linked List"
       }, 
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "sort", 
+        "__typename": "TopicTagNode", 
         "name": "Sort"
       }
     ], 

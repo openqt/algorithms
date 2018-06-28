@@ -4,62 +4,75 @@ import unittest
 """12. Integer to Roman
 https://leetcode.com/problems/integer-to-roman/description/
 
-<p>Roman numerals are represented by seven different symbols:&nbsp;<code>I</code>, <code>V</code>, <code>X</code>, <code>L</code>, <code>C</code>, <code>D</code> and <code>M</code>.</p>
+Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`,
+`C`, `D` and `M`.
 
-<pre>
-<strong>Symbol</strong>       <strong>Value</strong>
-I             1
-V             5
-X             10
-L             50
-C             100
-D             500
-M             1000</pre>
+    
+    
+    **Symbol**       **Value**
+    I             1
+    V             5
+    X             10
+    L             50
+    C             100
+    D             500
+    M             1000
 
-<p>For example,&nbsp;two is written as <code>II</code>&nbsp;in Roman numeral, just two one&#39;s added together. Twelve is written as, <code>XII</code>, which is simply <code>X</code> + <code>II</code>. The number twenty seven is written as <code>XXVII</code>, which is <code>XX</code> + <code>V</code> + <code>II</code>.</p>
+For example, two is written as `II` in Roman numeral, just two one's added
+together. Twelve is written as, `XII`, which is simply `X` \+ `II`. The number
+twenty seven is written as `XXVII`, which is `XX` \+ `V` \+ `II`.
 
-<p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not <code>IIII</code>. Instead, the number four is written as <code>IV</code>. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as <code>IX</code>. There are six instances where subtraction is used:</p>
+Roman numerals are usually written largest to smallest from left to right.
+However, the numeral for four is not `IIII`. Instead, the number four is
+written as `IV`. Because the one is before the five we subtract it making
+four. The same principle applies to the number nine, which is written as `IX`.
+There are six instances where subtraction is used:
 
-<ul>
-	<li><code>I</code> can be placed before <code>V</code> (5) and <code>X</code> (10) to make 4 and 9.&nbsp;</li>
-	<li><code>X</code> can be placed before <code>L</code> (50) and <code>C</code> (100) to make 40 and 90.&nbsp;</li>
-	<li><code>C</code> can be placed before <code>D</code> (500) and <code>M</code> (1000) to make 400 and 900.</li>
-</ul>
+  * `I` can be placed before `V` (5) and `X` (10) to make 4 and 9. 
+  * `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
+  * `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
 
-<p>Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.</p>
+Given an integer, convert it to a roman numeral. Input is guaranteed to be
+within the range from 1 to 3999.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong>&nbsp;3
-<strong>Output:</strong> &quot;III&quot;</pre>
+    
+    
+    **Input:**  3
+    **Output:**  "III"
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong>&nbsp;4
-<strong>Output:</strong> &quot;IV&quot;</pre>
+    
+    
+    **Input:**  4
+    **Output:**  "IV"
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong>&nbsp;9
-<strong>Output:</strong> &quot;IX&quot;</pre>
+    
+    
+    **Input:**  9
+    **Output:**  "IX"
 
-<p><strong>Example 4:</strong></p>
+**Example 4:**
 
-<pre>
-<strong>Input:</strong>&nbsp;58
-<strong>Output:</strong> &quot;LVIII&quot;
-<strong>Explanation:</strong> C = 100, L = 50, XXX = 30 and III = 3.
-</pre>
+    
+    
+    **Input:**  58
+    **Output:**  "LVIII"
+    **Explanation:** C = 100, L = 50, XXX = 30 and III = 3.
+    
 
-<p><strong>Example 5:</strong></p>
+**Example 5:**
 
-<pre>
-<strong>Input:</strong>&nbsp;1994
-<strong>Output:</strong> &quot;MCMXCIV&quot;
-<strong>Explanation:</strong> M = 1000, CM = 900, XC = 90 and IV = 4.</pre>
+    
+    
+    **Input:**  1994
+    **Output:**  "MCMXCIV"
+    **Explanation:** M = 1000, CM = 900, XC = 90 and IV = 4.
+
 
 Similar Questions:
   Roman to Integer (roman-to-integer)

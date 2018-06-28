@@ -4,22 +4,25 @@ import unittest
 """56. Merge Intervals
 https://leetcode.com/problems/merge-intervals/description/
 
-<p>Given a collection of intervals, merge all overlapping intervals.</p>
+Given a collection of intervals, merge all overlapping intervals.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [[1,3],[2,6],[8,10],[15,18]]
-<strong>Output:</strong> [[1,6],[8,10],[15,18]]
-<strong>Explanation:</strong> Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
-</pre>
+    
+    
+    **Input:** [[1,3],[2,6],[8,10],[15,18]]
+    **Output:** [[1,6],[8,10],[15,18]]
+    **Explanation:** Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [[1,4],[4,5]]
-<strong>Output:</strong> [[1,5]]
-<strong>Explanation:</strong> Intervals [1,4] and [4,5] are considerred overlapping.</pre>
+    
+    
+    **Input:** [[1,4],[4,5]]
+    **Output:** [[1,5]]
+    **Explanation:** Intervals [1,4] and [4,5] are considerred overlapping.
+
 
 Similar Questions:
   Insert Interval (insert-interval)

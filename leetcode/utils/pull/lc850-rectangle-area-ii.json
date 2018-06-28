@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "segment-tree", 
+        "__typename": "TopicTagNode", 
         "name": "Segment Tree"
       }
     ], 

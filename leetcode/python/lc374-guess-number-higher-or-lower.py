@@ -4,26 +4,33 @@ import unittest
 """374. Guess Number Higher or Lower
 https://leetcode.com/problems/guess-number-higher-or-lower/description/
 
-<p>We are playing the Guess Game. The game is as follows:<p> 
+We are playing the Guess Game. The game is as follows:
 
-<p>I pick a number from <b>1</b> to <b><i>n</i></b>. You have to guess which number I picked.</p>
+I pick a number from **1** to **_n_**. You have to guess which number I
+picked.
 
-<p>Every time you guess wrong, I'll tell you whether the number is higher or lower.</p>
+Every time you guess wrong, I'll tell you whether the number is higher or
+lower.
 
-<p>You call a pre-defined API <code>guess(int num)</code> which returns 3 possible results (<code>-1</code>, <code>1</code>, or <code>0</code>):</p>
-<pre>
--1 : My number is lower
- 1 : My number is higher
- 0 : Congrats! You got it!
-</pre>
+You call a pre-defined API `guess(int num)` which returns 3 possible results
+(`-1`, `1`, or `0`):
 
-<p><b>Example:</b><br />
-<pre>
-n = 10, I pick 6.
+    
+    
+    -1 : My number is lower
+     1 : My number is higher
+     0 : Congrats! You got it!
+    
 
-Return 6.
-</pre>
-</p>
+**Example:**  
+
+    
+    
+    n = 10, I pick 6.
+    
+    Return 6.
+
+
 Similar Questions:
   First Bad Version (first-bad-version)
   Guess Number Higher or Lower II (guess-number-higher-or-lower-ii)

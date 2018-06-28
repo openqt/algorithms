@@ -4,22 +4,24 @@ import unittest
 """144. Binary Tree Preorder Traversal
 https://leetcode.com/problems/binary-tree-preorder-traversal/description/
 
-<p>Given a binary tree, return the <em>preorder</em> traversal of its nodes&#39; values.</p>
+Given a binary tree, return the _preorder_ traversal of its nodes ' values.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong>&nbsp;<code>[1,null,2,3]</code>
-   1
-    \
-     2
-    /
-   3
+    
+    
+    **Input:**  [1,null,2,3]
+       1
+        \
+         2
+        /
+       3
+    
+    **Output:**  [1,2,3]
+    
 
-<strong>Output:</strong>&nbsp;<code>[1,2,3]</code>
-</pre>
+**Follow up:** Recursive solution is trivial, could you do it iteratively?
 
-<p><strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?</p>
 
 Similar Questions:
   Binary Tree Inorder Traversal (binary-tree-inorder-traversal)

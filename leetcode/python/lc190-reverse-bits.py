@@ -4,19 +4,21 @@ import unittest
 """190. Reverse Bits
 https://leetcode.com/problems/reverse-bits/description/
 
-<p>Reverse bits of a given 32 bits unsigned integer.</p>
+Reverse bits of a given 32 bits unsigned integer.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-<strong>Input:</strong> 43261596
-<strong>Output:</strong> 964176192
-<strong>Explanation: </strong>43261596 represented in binary as <b>00000010100101000001111010011100</b>, 
-&nbsp;            return 964176192 represented in binary as <b>00111001011110000010100101000000</b>.
-</pre>
+    
+    
+    **Input:** 43261596
+    **Output:** 964176192
+    **Explanation:** 43261596 represented in binary as **00000010100101000001111010011100** , 
+                 return 964176192 represented in binary as **00111001011110000010100101000000**.
+    
 
-<p><b>Follow up</b>:<br />
-If this function is called many times, how would you optimize it?</p>
+**Follow up** :  
+If this function is called many times, how would you optimize it?
+
 
 Similar Questions:
   Number of 1 Bits (number-of-1-bits)

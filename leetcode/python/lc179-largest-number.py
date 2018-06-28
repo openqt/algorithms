@@ -4,22 +4,27 @@ import unittest
 """179. Largest Number
 https://leetcode.com/problems/largest-number/description/
 
-<p>Given a list of non negative integers, arrange them such that they form the largest number.</p>
+Given a list of non negative integers, arrange them such that they form the
+largest number.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> <code>[10,2]</code>
-<strong>Output:</strong> &quot;<code>210&quot;</code></pre>
+    
+    
+    **Input:** [10,2]
+    **Output:**  "210"
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> <code>[3,30,34,5,9]</code>
-<strong>Output:</strong> &quot;<code>9534330&quot;</code>
-</pre>
+    
+    
+    **Input:** [3,30,34,5,9]
+    **Output:**  "9534330"
+    
 
-<p><strong>Note:</strong> The result may be very large, so you need to return a string instead of an integer.</p>
+**Note:** The result may be very large, so you need to return a string instead
+of an integer.
+
 
 Similar Questions:
 

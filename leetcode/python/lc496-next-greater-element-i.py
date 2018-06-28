@@ -4,42 +4,43 @@ import unittest
 """496. Next Greater Element I
 https://leetcode.com/problems/next-greater-element-i/description/
 
-<p>
-You are given two arrays <b>(without duplicates)</b> <code>nums1</code> and <code>nums2</code> where <code>nums1</code>’s elements are subset of <code>nums2</code>. Find all the next greater numbers for <code>nums1</code>'s elements in the corresponding places of <code>nums2</code>. 
-</p>
+You are given two arrays **(without duplicates)** `nums1` and `nums2` where
+`nums1`’s elements are subset of `nums2`. Find all the next greater numbers
+for `nums1`'s elements in the corresponding places of `nums2`.
 
-<p>
-The Next Greater Number of a number <b>x</b> in <code>nums1</code> is the first greater number to its right in <code>nums2</code>. If it does not exist, output -1 for this number.
-</p>
+The Next Greater Number of a number **x** in `nums1` is the first greater
+number to its right in `nums2`. If it does not exist, output -1 for this
+number.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> <b>nums1</b> = [4,1,2], <b>nums2</b> = [1,3,4,2].
-<b>Output:</b> [-1,3,-1]
-<b>Explanation:</b>
-    For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.
-    For number 1 in the first array, the next greater number for it in the second array is 3.
-    For number 2 in the first array, there is no next greater number for it in the second array, so output -1.
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> <b>nums1</b> = [2,4], <b>nums2</b> = [1,2,3,4].
-<b>Output:</b> [3,-1]
-<b>Explanation:</b>
-    For number 2 in the first array, the next greater number for it in the second array is 3.
-    For number 4 in the first array, there is no next greater number for it in the second array, so output -1.
-</pre>
-</p>
+    
+    
+    **Input:** **nums1** = [4,1,2], **nums2** = [1,3,4,2].
+    **Output:** [-1,3,-1]
+    **Explanation:**
+        For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.
+        For number 1 in the first array, the next greater number for it in the second array is 3.
+        For number 2 in the first array, there is no next greater number for it in the second array, so output -1.
+    
+
+**Example 2:**  
+
+    
+    
+    **Input:** **nums1** = [2,4], **nums2** = [1,2,3,4].
+    **Output:** [3,-1]
+    **Explanation:**
+        For number 2 in the first array, the next greater number for it in the second array is 3.
+        For number 4 in the first array, there is no next greater number for it in the second array, so output -1.
+    
+
+**Note:**  
+
+  1. All elements in `nums1` and `nums2` are unique.
+  2. The length of both `nums1` and `nums2` would not exceed 1000.
 
 
-<p><b>Note:</b><br>
-<ol>
-<li>All elements in <code>nums1</code> and <code>nums2</code> are unique.</li>
-<li>The length of both <code>nums1</code> and <code>nums2</code> would not exceed 1000.</li>
-</ol>
-</p>
 Similar Questions:
   Next Greater Element II (next-greater-element-ii)
   Next Greater Element III (next-greater-element-iii)

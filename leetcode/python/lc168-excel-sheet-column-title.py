@@ -4,41 +4,46 @@ import unittest
 """168. Excel Sheet Column Title
 https://leetcode.com/problems/excel-sheet-column-title/description/
 
-<p>Given a positive integer, return its corresponding column title as appear in an Excel sheet.</p>
+Given a positive integer, return its corresponding column title as appear in
+an Excel sheet.
 
-<p>For example:</p>
+For example:
 
-<pre>
-    1 -&gt; A
-    2 -&gt; B
-    3 -&gt; C
-    ...
-    26 -&gt; Z
-    27 -&gt; AA
-    28 -&gt; AB 
-    ...
-</pre>
+    
+    
+        1 -> A
+        2 -> B
+        3 -> C
+        ...
+        26 -> Z
+        27 -> AA
+        28 -> AB 
+        ...
+    
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 1
-<strong>Output:</strong> &quot;A&quot;
-</pre>
+    
+    
+    **Input:** 1
+    **Output:**  "A"
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 28
-<strong>Output:</strong> &quot;AB&quot;
-</pre>
+    
+    
+    **Input:** 28
+    **Output:**  "AB"
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> 701
-<strong>Output:</strong> &quot;ZY&quot;
-</pre>
+    
+    
+    **Input:** 701
+    **Output:**  "ZY"
+
 
 Similar Questions:
   Excel Sheet Column Number (excel-sheet-column-number)

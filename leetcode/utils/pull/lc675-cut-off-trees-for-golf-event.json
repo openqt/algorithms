@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "breadth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Breadth-first Search"
       }
     ], 

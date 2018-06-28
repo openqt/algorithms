@@ -4,47 +4,48 @@ import unittest
 """450. Delete Node in a BST
 https://leetcode.com/problems/delete-node-in-a-bst/description/
 
-<p>Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.</p>
+Given a root node reference of a BST and a key, delete the node with the given
+key in the BST. Return the root node reference (possibly updated) of the BST.
 
-<p>Basically, the deletion can be divided into two stages:
-<ol>
-<li>Search for a node to remove.</li>
-<li>If the node is found, delete the node.</li>
-</ol>
-</p>
+Basically, the deletion can be divided into two stages:
 
-<p><b>Note:</b> Time complexity should be O(height of tree).</p>
+  1. Search for a node to remove.
+  2. If the node is found, delete the node.
 
-<p><b>Example:</b>
-<pre>
-root = [5,3,6,2,4,null,7]
-key = 3
+**Note:** Time complexity should be O(height of tree).
 
-    5
-   / \
-  3   6
- / \   \
-2   4   7
+**Example:**
 
-Given key to delete is 3. So we find the node with value 3 and delete it.
+    
+    
+    root = [5,3,6,2,4,null,7]
+    key = 3
+    
+        5
+       / \
+      3   6
+     / \   \
+    2   4   7
+    
+    Given key to delete is 3. So we find the node with value 3 and delete it.
+    
+    One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
+    
+        5
+       / \
+      4   6
+     /     \
+    2       7
+    
+    Another valid answer is [5,2,6,null,4,null,7].
+    
+        5
+       / \
+      2   6
+       \   \
+        4   7
 
-One valid answer is [5,4,6,2,null,null,7], shown in the following BST.
 
-    5
-   / \
-  4   6
- /     \
-2       7
-
-Another valid answer is [5,2,6,null,4,null,7].
-
-    5
-   / \
-  2   6
-   \   \
-    4   7
-</pre>
-</p>
 Similar Questions:
   Split BST (split-bst)
 """

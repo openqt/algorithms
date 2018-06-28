@@ -7,22 +7,25 @@ import (
 /*234. Palindrome Linked List
 https://leetcode.com/problems/palindrome-linked-list/description/
 
-<p>Given a singly linked list, determine if it is a palindrome.</p>
+Given a singly linked list, determine if it is a palindrome.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;2
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** 1- >2
+    **Output:** false
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 1-&gt;2-&gt;2-&gt;1
-<strong>Output:</strong> true</pre>
+    
+    
+    **Input:** 1- >2->2->1
+    **Output:** true
 
-<p><b>Follow up:</b><br />
-Could you do it in O(n) time and O(1) space?</p>
+**Follow up:**  
+Could you do it in O(n) time and O(1) space?
+
 
 Similar Questions:
   Palindrome Number (palindrome-number)

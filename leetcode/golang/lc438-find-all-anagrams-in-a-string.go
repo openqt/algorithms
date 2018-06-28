@@ -7,40 +7,45 @@ import (
 /*438. Find All Anagrams in a String
 https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
 
-<p>Given a string <b>s</b> and a <b>non-empty</b> string <b>p</b>, find all the start indices of <b>p</b>'s anagrams in <b>s</b>.</p>
+Given a string **s** and a **non-empty** string **p** , find all the start
+indices of **p** 's anagrams in **s**.
 
-<p>Strings consists of lowercase English letters only and the length of both strings <b>s</b> and <b>p</b> will not be larger than 20,100.</p>
+Strings consists of lowercase English letters only and the length of both
+strings **s** and **p** will not be larger than 20,100.
 
-<p>The order of output does not matter.</p>
+The order of output does not matter.
 
-<p><b>Example 1:</b>
-<pre>
-<b>Input:</b>
-s: "cbaebabacd" p: "abc"
+**Example 1:**
 
-<b>Output:</b>
-[0, 6]
+    
+    
+    **Input:**
+    s: "cbaebabacd" p: "abc"
+    
+    **Output:**
+    [0, 6]
+    
+    **Explanation:**
+    The substring with start index = 0 is "cba", which is an anagram of "abc".
+    The substring with start index = 6 is "bac", which is an anagram of "abc".
+    
 
-<b>Explanation:</b>
-The substring with start index = 0 is "cba", which is an anagram of "abc".
-The substring with start index = 6 is "bac", which is an anagram of "abc".
-</pre>
-</p>
+**Example 2:**
 
-<p><b>Example 2:</b>
-<pre>
-<b>Input:</b>
-s: "abab" p: "ab"
+    
+    
+    **Input:**
+    s: "abab" p: "ab"
+    
+    **Output:**
+    [0, 1, 2]
+    
+    **Explanation:**
+    The substring with start index = 0 is "ab", which is an anagram of "ab".
+    The substring with start index = 1 is "ba", which is an anagram of "ab".
+    The substring with start index = 2 is "ab", which is an anagram of "ab".
 
-<b>Output:</b>
-[0, 1, 2]
 
-<b>Explanation:</b>
-The substring with start index = 0 is "ab", which is an anagram of "ab".
-The substring with start index = 1 is "ba", which is an anagram of "ab".
-The substring with start index = 2 is "ab", which is an anagram of "ab".
-</pre>
-</p>
 Similar Questions:
   Valid Anagram (valid-anagram)
   Permutation in String (permutation-in-string)

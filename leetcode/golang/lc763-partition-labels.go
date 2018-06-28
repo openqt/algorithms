@@ -7,25 +7,28 @@ import (
 /*763. Partition Labels
 https://leetcode.com/problems/partition-labels/description/
 
-<p>
-A string <code>S</code> of lowercase letters is given.  We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
-</p><p>
+A string `S` of lowercase letters is given. We want to partition this string
+into as many parts as possible so that each letter appears in at most one
+part, and return a list of integers representing the size of these parts.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> S = "ababcbacadefegdehijhklij"
-<b>Output:</b> [9,7,8]
-<b>Explanation:</b>
-The partition is "ababcbaca", "defegde", "hijhklij".
-This is a partition so that each letter appears in at most one part.
-A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Note:</b><br><ol>
-<li><code>S</code> will have length in range <code>[1, 500]</code>.</li>
-<li><code>S</code> will consist of lowercase letters (<code>'a'</code> to <code>'z'</code>) only.</li>
-</ol></p>
+    
+    
+    **Input:** S = "ababcbacadefegdehijhklij"
+    **Output:** [9,7,8]
+    **Explanation:**
+    The partition is "ababcbaca", "defegde", "hijhklij".
+    This is a partition so that each letter appears in at most one part.
+    A partition like "ababcbacadefegde", "hijhklij" is incorrect, because it splits S into less parts.
+    
+
+**Note:**  
+
+  1. `S` will have length in range `[1, 500]`.
+  2. `S` will consist of lowercase letters (`'a'` to `'z'`) only.
+
+
 Similar Questions:
   Merge Intervals (merge-intervals)
 */

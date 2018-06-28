@@ -4,27 +4,33 @@ import unittest
 """472. Concatenated Words
 https://leetcode.com/problems/concatenated-words/description/
 
-Given a list of words (<b>without duplicates</b>), please write a program that returns all concatenated words in the given list of words.
-<p>A concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.</p>
+Given a list of words ( **without duplicates** ), please write a program that
+returns all concatenated words in the given list of words.
 
-<p><b>Example:</b><br />
-<pre>
-<b>Input:</b> ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
+A concatenated word is defined as a string that is comprised entirely of at
+least two shorter words in the given array.
 
-<b>Output:</b> ["catsdogcats","dogcatsdog","ratcatdogcat"]
+**Example:**  
 
-<b>Explanation:</b> "catsdogcats" can be concatenated by "cats", "dog" and "cats"; <br> "dogcatsdog" can be concatenated by "dog", "cats" and "dog"; <br>"ratcatdogcat" can be concatenated by "rat", "cat", "dog" and "cat".
-</pre>
-</p>
+    
+    
+    **Input:** ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
+    
+    **Output:** ["catsdogcats","dogcatsdog","ratcatdogcat"]
+    
+    **Explanation:** "catsdogcats" can be concatenated by "cats", "dog" and "cats";   
+     "dogcatsdog" can be concatenated by "dog", "cats" and "dog";   
+     "ratcatdogcat" can be concatenated by "rat", "cat", "dog" and "cat".
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The number of elements of the given array will not exceed <code>10,000 </code>
-<li>The length sum of elements in the given array will not exceed <code>600,000</code>. </li>
-<li>All the input string will only include lower case letters.</li>
-<li>The returned elements order does not matter. </li>
-</ol>
-</p>
+**Note:**  
+
+  1. The number of elements of the given array will not exceed `10,000 `
+  2. The length sum of elements in the given array will not exceed `600,000`. 
+  3. All the input string will only include lower case letters.
+  4. The returned elements order does not matter.
+
+
 Similar Questions:
   Word Break II (word-break-ii)
 """

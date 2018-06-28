@@ -4,37 +4,43 @@ import unittest
 """775. Global and Local Inversions
 https://leetcode.com/problems/global-and-local-inversions/description/
 
-<p>We have some permutation <code>A</code> of <code>[0, 1, ..., N - 1]</code>, where <code>N</code> is the length of <code>A</code>.</p>
+We have some permutation `A` of `[0, 1, ..., N - 1]`, where `N` is the length
+of `A`.
 
-<p>The number of (global) inversions is the number of <code>i &lt; j</code> with <code>0 &lt;= i &lt; j &lt; N</code> and <code>A[i] &gt; A[j]</code>.</p>
+The number of (global) inversions is the number of `i < j` with `0 <= i < j <
+N` and `A[i] > A[j]`.
 
-<p>The number of local inversions is the number of <code>i</code> with <code>0 &lt;= i &lt; N</code> and <code>A[i] &gt; A[i+1]</code>.</p>
+The number of local inversions is the number of `i` with `0 <= i < N` and
+`A[i] > A[i+1]`.
 
-<p>Return <code>true</code>&nbsp;if and only if the number of global inversions is equal to the number of local inversions.</p>
+Return `true` if and only if the number of global inversions is equal to the
+number of local inversions.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> A = [1,0,2]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> There is 1 global inversion, and 1 local inversion.
-</pre>
+    
+    
+    **Input:** A = [1,0,2]
+    **Output:** true
+    **Explanation:** There is 1 global inversion, and 1 local inversion.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> A = [1,2,0]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> There are 2 global inversions, and 1 local inversion.
-</pre>
+    
+    
+    **Input:** A = [1,2,0]
+    **Output:** false
+    **Explanation:** There are 2 global inversions, and 1 local inversion.
+    
 
-<p><strong>Note:</strong></p>
+**Note:**
 
-<ul>
-	<li><code>A</code> will be a permutation of <code>[0, 1, ..., A.length - 1]</code>.</li>
-	<li><code>A</code> will have length in range <code>[1, 5000]</code>.</li>
-	<li>The time limit for this problem has been reduced.</li>
-</ul>
+  * `A` will be a permutation of `[0, 1, ..., A.length - 1]`.
+  * `A` will have length in range `[1, 5000]`.
+  * The time limit for this problem has been reduced.
+
+
 Similar Questions:
 
 """

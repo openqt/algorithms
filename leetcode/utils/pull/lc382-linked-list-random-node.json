@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "reservoir-sampling", 
+        "__typename": "TopicTagNode", 
         "name": "Reservoir Sampling"
       }
     ], 

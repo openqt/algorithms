@@ -7,28 +7,31 @@ import (
 /*461. Hamming Distance
 https://leetcode.com/problems/hamming-distance/description/
 
-<p>The <a href="https://en.wikipedia.org/wiki/Hamming_distance" target="_blank">Hamming distance</a> between two integers is the number of positions at which the corresponding bits are different.</p>
+The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between
+two integers is the number of positions at which the corresponding bits are
+different.
 
-<p>Given two integers <code>x</code> and <code>y</code>, calculate the Hamming distance.</p>
+Given two integers `x` and `y`, calculate the Hamming distance.
 
-<p><b>Note:</b><br />
-0 &le; <code>x</code>, <code>y</code> &lt; 2<sup>31</sup>.
-</p>
+**Note:**  
+0  ≤ `x`, `y` < 231.
 
-<p><b>Example:</b>
-<pre>
-<b>Input:</b> x = 1, y = 4
+**Example:**
 
-<b>Output:</b> 2
+    
+    
+    **Input:** x = 1, y = 4
+    
+    **Output:** 2
+    
+    **Explanation:**
+    1   (0 0 0 1)
+    4   (0 1 0 0)
+            ↑   ↑
+    
+    The above arrows point to positions where the corresponding bits are different.
 
-<b>Explanation:</b>
-1   (0 0 0 1)
-4   (0 1 0 0)
-       &uarr;   &uarr;
 
-The above arrows point to positions where the corresponding bits are different.
-</pre>
-</p>
 Similar Questions:
   Number of 1 Bits (number-of-1-bits)
   Total Hamming Distance (total-hamming-distance)

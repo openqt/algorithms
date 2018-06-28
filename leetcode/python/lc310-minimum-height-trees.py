@@ -4,48 +4,57 @@ import unittest
 """310. Minimum Height Trees
 https://leetcode.com/problems/minimum-height-trees/description/
 
-<p>For a undirected graph with tree characteristics, we can choose any node as the root. The result graph is then a rooted tree. Among all possible rooted trees, those with minimum height are called minimum height trees (MHTs). Given such a graph, write a function to find all the MHTs and return a list of their root labels.</p>
+For a undirected graph with tree characteristics, we can choose any node as
+the root. The result graph is then a rooted tree. Among all possible rooted
+trees, those with minimum height are called minimum height trees (MHTs). Given
+such a graph, write a function to find all the MHTs and return a list of their
+root labels.
 
-<p><b>Format</b><br />
-The graph contains <code>n</code> nodes which are labeled from <code>0</code> to <code>n - 1</code>. You will be given the number <code>n</code> and a list of undirected <code>edges</code> (each edge is a pair of labels).</p>
+**Format**  
+The graph contains `n` nodes which are labeled from `0` to `n - 1`. You will
+be given the number `n` and a list of undirected `edges` (each edge is a pair
+of labels).
 
-<p>You can assume that no duplicate edges will appear in <code>edges</code>. Since all edges are undirected, <code>[0, 1]</code> is the same as <code>[1, 0]</code> and thus will not appear together in <code>edges</code>.</p>
+You can assume that no duplicate edges will appear in `edges`. Since all edges
+are undirected, `[0, 1]` is the same as `[1, 0]` and thus will not appear
+together in `edges`.
 
-<p><b>Example 1 :</b></p>
+**Example 1 :**
 
-<pre>
-<strong>Input:</strong> <code>n = 4</code>, <code>edges = [[1, 0], [1, 2], [1, 3]]</code>
+    
+    
+    **Input:** n = 4, edges = [[1, 0], [1, 2], [1, 3]]
+    
+            0
+            |
+            1
+           / \
+          2   3 
+    
+    **Output:** [1]
+    
 
-        0
-        |
-        1
-       / \
-      2   3 
+**Example 2 :**
 
-<strong>Output:</strong> <code>[1]</code>
-</pre>
+    
+    
+    **Input:** n = 6, edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]
+    
+         0  1  2
+          \ | /
+            3
+            |
+            4
+            |
+            5 
+    
+    **Output:** [3, 4]
 
-<p><b>Example 2 :</b></p>
+**Note** :
 
-<pre>
-<strong>Input:</strong> <code>n = 6</code>, <code>edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]</code>
+  * According to the [definition of tree on Wikipedia](https://en.wikipedia.org/wiki/Tree_\(graph_theory\)): "a tree is an undirected graph in which any two vertices are connected by _exactly_ one path. In other words, any connected graph without simple cycles is a tree. "
+  * The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
 
-     0  1  2
-      \ | /
-        3
-        |
-        4
-        |
-        5 
-
-<strong>Output:</strong> <code>[3, 4]</code></pre>
-
-<p><b>Note</b>:</p>
-
-<ul>
-	<li>According to the <a href="https://en.wikipedia.org/wiki/Tree_(graph_theory)" target="_blank">definition of tree on Wikipedia</a>: &ldquo;a tree is an undirected graph in which any two vertices are connected by <i>exactly</i> one path. In other words, any connected graph without simple cycles is a tree.&rdquo;</li>
-	<li>The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.</li>
-</ul>
 
 Similar Questions:
   Course Schedule (course-schedule)

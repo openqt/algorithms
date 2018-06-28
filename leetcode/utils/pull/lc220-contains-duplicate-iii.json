@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "binary-search-tree", 
+        "__typename": "TopicTagNode", 
         "name": "Binary Search Tree"
       }
     ], 

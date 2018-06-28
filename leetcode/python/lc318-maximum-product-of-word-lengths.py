@@ -4,29 +4,35 @@ import unittest
 """318. Maximum Product of Word Lengths
 https://leetcode.com/problems/maximum-product-of-word-lengths/description/
 
-<p>Given a string array <code>words</code>, find the maximum value of <code>length(word[i]) * length(word[j])</code> where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.</p>
+Given a string array `words`, find the maximum value of `length(word[i]) *
+length(word[j])` where the two words do not share common letters. You may
+assume that each word will contain only lower case letters. If no such two
+words exist, return 0.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> <code>[&quot;abcw&quot;,&quot;baz&quot;,&quot;foo&quot;,&quot;bar&quot;,&quot;xtfn&quot;,&quot;abcdef&quot;]</code>
-<b>Output: </b><code>16 
-<strong>Explanation: </strong></code>The two words can be <code>&quot;abcw&quot;, &quot;xtfn&quot;</code><span style="font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;">.</span></pre>
+    
+    
+    **Input:** ["abcw","baz","foo","bar","xtfn","abcdef"]
+    **Output:**16 
+    **Explanation:**The two words can be "abcw", "xtfn".
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> <code>[&quot;a&quot;,&quot;ab&quot;,&quot;abc&quot;,&quot;d&quot;,&quot;cd&quot;,&quot;bcd&quot;,&quot;abcd&quot;]</code>
-<b>Output: </b><code>4 
-<strong>Explanation: </strong></code>The two words can be <code>&quot;ab&quot;, &quot;cd&quot;</code><span style="font-family: sans-serif, Arial, Verdana, &quot;Trebuchet MS&quot;;">.</span></pre>
+    
+    
+    **Input:** ["a","ab","abc","d","cd","bcd","abcd"]
+    **Output:**4 
+    **Explanation:**The two words can be "ab", "cd".
 
-<p><b>Example 3:</b></p>
+**Example 3:**
 
-<pre>
-<b>Input:</b> <code>[&quot;a&quot;,&quot;aa&quot;,&quot;aaa&quot;,&quot;aaaa&quot;]</code>
-<b>Output: </b><code>0 
-<strong>Explanation: </strong></code>No such pair of words.
-</pre>
+    
+    
+    **Input:** ["a","aa","aaa","aaaa"]
+    **Output:**0 
+    **Explanation:**No such pair of words.
+
 
 Similar Questions:
 

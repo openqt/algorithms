@@ -4,42 +4,44 @@ import unittest
 """827. Making A Large Island
 https://leetcode.com/problems/making-a-large-island/description/
 
-<p>In a 2D grid of <code>0</code>s and <code>1</code>s, we change at most one <code>0</code> to a <code>1</code>.</p>
+In a 2D grid of `0`s and `1`s, we change at most one `0` to a `1`.
 
-<p>After, what is the size of the largest island?&nbsp;(An island is a 4-directionally connected group of <code>1</code>s).</p>
+After, what is the size of the largest island? (An island is a 4-directionally
+connected group of `1`s).
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>[[1, 0], [0, 1]]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> Change one 0 to 1 and connect two 1s, then we get an island with area = 3.
-</pre>
+    
+    
+    **Input:** [[1, 0], [0, 1]]
+    **Output:** 3
+    **Explanation:** Change one 0 to 1 and connect two 1s, then we get an island with area = 3.
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>[[1, 1], [1, 0]]
-<strong>Output:</strong> 4
-<strong>Explanation: </strong>Change the 0 to 1 and make the island bigger, only one island with area = 1.</pre>
+    
+    
+    **Input:** [[1, 1], [1, 0]]
+    **Output:** 4
+    **Explanation:** Change the 0 to 1 and make the island bigger, only one island with area = 1.
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input: </strong>[[1, 1], [1, 1]]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> Can&#39;t change any 0 to 1, only one island with area = 1.</pre>
+    
+    
+    **Input:** [[1, 1], [1, 1]]
+    **Output:** 4
+    **Explanation:** Can 't change any 0 to 1, only one island with area = 1.
 
-<p>&nbsp;</p>
 
-<p>Notes:</p>
 
-<ul>
-	<li><code>1 &lt;= grid.length = grid[0].length &lt;= 50</code>.</li>
-	<li><code>0 &lt;= grid[i][j] &lt;= 1</code>.</li>
-</ul>
+Notes:
 
-<p>&nbsp;</p>
+  * `1 <= grid.length = grid[0].length <= 50`.
+  * `0 <= grid[i][j] <= 1`.
+
+
 Similar Questions:
 
 """

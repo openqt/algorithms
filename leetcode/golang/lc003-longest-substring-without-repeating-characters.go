@@ -7,15 +7,20 @@ import (
 /*3. Longest Substring Without Repeating Characters
 https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
-<p>Given a string, find the length of the <b>longest substring</b> without repeating characters.</p>
+Given a string, find the length of the **longest substring** without repeating
+characters.
 
-<p><b>Examples:</b></p>
+**Examples:**
 
-<p>Given <code>"abcabcbb"</code>, the answer is <code>"abc"</code>, which the length is 3.</p>
+Given `"abcabcbb"`, the answer is `"abc"`, which the length is 3.
 
-<p>Given <code>"bbbbb"</code>, the answer is <code>"b"</code>, with the length of 1.</p>
+Given `"bbbbb"`, the answer is `"b"`, with the length of 1.
 
-<p>Given <code>"pwwkew"</code>, the answer is <code>"wke"</code>, with the length of 3. Note that the answer must be a <b>substring</b>, <code>"pwke"</code> is a <i>subsequence</i> and not a substring.</p>
+Given `"pwwkew"`, the answer is `"wke"`, with the length of 3. Note that the
+answer must be a **substring** , `"pwke"` is a _subsequence_ and not a
+substring.
+
+
 Similar Questions:
   Longest Substring with At Most Two Distinct Characters (longest-substring-with-at-most-two-distinct-characters)
 */

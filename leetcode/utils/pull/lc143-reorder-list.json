@@ -17,8 +17,8 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "__typename": "TopicTagNode", 
         "slug": "linked-list", 
+        "__typename": "TopicTagNode", 
         "name": "Linked List"
       }
     ], 

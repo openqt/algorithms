@@ -4,34 +4,33 @@ import unittest
 """219. Contains Duplicate II
 https://leetcode.com/problems/contains-duplicate-ii/description/
 
-<p>Given an array of integers and an integer <i>k</i>, find out whether there are two distinct indices <i>i</i> and <i>j</i> in the array such that <b>nums[i] = nums[j]</b> and the <b>absolute</b> difference between <i>i</i> and <i>j</i> is at most <i>k</i>.</p>
+Given an array of integers and an integer _k_ , find out whether there are two
+distinct indices _i_ and _j_ in the array such that **nums[i] = nums[j]** and
+the **absolute** difference between _i_ and _j_ is at most _k_.
 
-<div>
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>nums = <span id="example-input-1-1">[1,2,3,1]</span>, k = <span id="example-input-1-2">3</span>
-<strong>Output: </strong><span id="example-output-1">true</span>
-</pre>
+    
+    
+    **Input:** nums = [1,2,3,1], k = 3
+    **Output:** true
+    
 
-<div>
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>nums = <span id="example-input-2-1">[1,0,1,1]</span>, k = <span id="example-input-2-2">1</span>
-<strong>Output: </strong><span id="example-output-2">true</span>
-</pre>
+    
+    
+    **Input:** nums = [1,0,1,1], k = 1
+    **Output:** true
+    
 
-<div>
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input: </strong>nums = <span id="example-input-3-1">[1,2,3,1,2,3]</span>, k = <span id="example-input-3-2">2</span>
-<strong>Output: </strong><span id="example-output-3">false</span>
-</pre>
-</div>
-</div>
-</div>
+    
+    
+    **Input:** nums = [1,2,3,1,2,3], k = 2
+    **Output:** false
+
 
 Similar Questions:
   Contains Duplicate (contains-duplicate)

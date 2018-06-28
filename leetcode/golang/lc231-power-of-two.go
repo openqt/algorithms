@@ -7,28 +7,32 @@ import (
 /*231. Power of Two
 https://leetcode.com/problems/power-of-two/description/
 
-<p>Given an integer, write a function to determine if it is a power of two.</p>
+Given an integer, write a function to determine if it is a power of two.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> 1
-<strong>Output:</strong> true 
-<strong>Explanation: </strong>2<sup>0</sup>&nbsp;= 1
-</pre>
+    
+    
+    **Input:** 1
+    **Output:** true 
+    **Explanation:** 20 = 1
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> 16
-<strong>Output:</strong> true
-<strong>Explanation: </strong>2<sup>4</sup>&nbsp;= 16</pre>
+    
+    
+    **Input:** 16
+    **Output:** true
+    **Explanation:** 24 = 16
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input:</strong> 218
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** 218
+    **Output:** false
+
 
 Similar Questions:
   Number of 1 Bits (number-of-1-bits)

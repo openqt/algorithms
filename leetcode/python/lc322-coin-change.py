@@ -4,24 +4,30 @@ import unittest
 """322. Coin Change
 https://leetcode.com/problems/coin-change/description/
 
-<p>You are given coins of different denominations and a total amount of money <i>amount</i>. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return <code>-1</code>.</p>
+You are given coins of different denominations and a total amount of money
+_amount_. Write a function to compute the fewest number of coins that you need
+to make up that amount. If that amount of money cannot be made up by any
+combination of the coins, return `-1`.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>coins = <code>[1, 2, 5]</code>, amount = <code>11</code>
-<strong>Output: </strong><code>3</code> 
-<strong>Explanation:</strong> 11 = 5 + 5 + 1</pre>
+    
+    
+    **Input:** coins = [1, 2, 5], amount = 11
+    **Output:**3 
+    **Explanation:** 11 = 5 + 5 + 1
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>coins = <code>[2]</code>, amount = <code>3</code>
-<strong>Output: </strong>-1
-</pre>
+    
+    
+    **Input:** coins = [2], amount = 3
+    **Output:** -1
+    
 
-<p><b>Note</b>:<br />
-You may assume that you have an infinite number of each kind of coin.</p>
+**Note** :  
+You may assume that you have an infinite number of each kind of coin.
+
 
 Similar Questions:
 

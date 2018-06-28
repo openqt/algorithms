@@ -4,31 +4,34 @@ import unittest
 """81. Search in Rotated Sorted Array II
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/
 
-<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>
+Suppose an array sorted in ascending order is rotated at some pivot unknown to
+you beforehand.
 
-<p>(i.e., <code>[0,0,1,2,2,5,6]</code> might become <code>[2,5,6,0,0,1,2]</code>).</p>
+(i.e., `[0,0,1,2,2,5,6]` might become `[2,5,6,0,0,1,2]`).
 
-<p>You are given a target value to search. If found in the array return <code>true</code>, otherwise return <code>false</code>.</p>
+You are given a target value to search. If found in the array return `true`,
+otherwise return `false`.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> nums = [2<code>,5,6,0,0,1,2]</code>, target = 0
-<strong>Output:</strong> true
-</pre>
+    
+    
+    **Input:** nums = [2,5,6,0,0,1,2], target = 0
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> nums = [2<code>,5,6,0,0,1,2]</code>, target = 3
-<strong>Output:</strong> false</pre>
+    
+    
+    **Input:** nums = [2,5,6,0,0,1,2], target = 3
+    **Output:** false
 
-<p><strong>Follow up:</strong></p>
+**Follow up:**
 
-<ul>
-	<li>This is a follow up problem to&nbsp;<a href="/problems/search-in-rotated-sorted-array/description/">Search in Rotated Sorted Array</a>, where <code>nums</code> may contain duplicates.</li>
-	<li>Would this affect the run-time complexity? How and why?</li>
-</ul>
+  * This is a follow up problem to [Search in Rotated Sorted Array](/problems/search-in-rotated-sorted-array/description/), where `nums` may contain duplicates.
+  * Would this affect the run-time complexity? How and why?
+
 
 Similar Questions:
   Search in Rotated Sorted Array (search-in-rotated-sorted-array)

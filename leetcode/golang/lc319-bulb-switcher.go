@@ -7,21 +7,26 @@ import (
 /*319. Bulb Switcher
 https://leetcode.com/problems/bulb-switcher/description/
 
-<p>There are <i>n</i> bulbs that are initially off. You first turn on all the bulbs. Then, you turn off every second bulb. On the third round, you toggle every third bulb (turning on if it&#39;s off or turning off if it&#39;s on). For the <i>i</i>-th round, you toggle every <i>i</i> bulb. For the <i>n</i>-th round, you only toggle the last bulb. Find how many bulbs are on after <i>n</i> rounds.</p>
+There are _n_ bulbs that are initially off. You first turn on all the bulbs.
+Then, you turn off every second bulb. On the third round, you toggle every
+third bulb (turning on if it 's off or turning off if it's on). For the _i_
+-th round, you toggle every _i_ bulb. For the _n_ -th round, you only toggle
+the last bulb. Find how many bulbs are on after _n_ rounds.
 
-<p><b>Example:</b></p>
+**Example:**
 
-<pre>
-<strong>Input: </strong>3
-<strong>Output:</strong> 1 
-<strong>Explanation:</strong> 
-At first, the three bulbs are <b>[off, off, off]</b>.
-After first round, the three bulbs are <b>[on, on, on]</b>.
-After second round, the three bulbs are <b>[on, off, on]</b>.
-After third round, the three bulbs are <b>[on, off, off]</b>. 
+    
+    
+    **Input:** 3
+    **Output:** 1 
+    **Explanation:** 
+    At first, the three bulbs are **[off, off, off]**.
+    After first round, the three bulbs are **[on, on, on]**.
+    After second round, the three bulbs are **[on, off, on]**.
+    After third round, the three bulbs are **[on, off, off]**. 
+    
+    So you should return 1, because there is only one bulb is on.
 
-So you should return 1, because there is only one bulb is on.
-</pre>
 
 Similar Questions:
   Bulb Switcher II (bulb-switcher-ii)

@@ -4,64 +4,71 @@ import unittest
 """842. Split Array into Fibonacci Sequence
 https://leetcode.com/problems/split-array-into-fibonacci-sequence/description/
 
-<p>Given a string <code>S</code>&nbsp;of digits, such as <code>S = &quot;123456579&quot;</code>, we can split it into a <em>Fibonacci-like sequence</em>&nbsp;<code>[123, 456, 579].</code></p>
+Given a string `S` of digits, such as `S = "123456579"`, we can split it into
+a _Fibonacci-like sequence_  `[123, 456, 579].`
 
-<p>Formally, a Fibonacci-like sequence is a list&nbsp;<code>F</code> of non-negative integers such that:</p>
+Formally, a Fibonacci-like sequence is a list `F` of non-negative integers
+such that:
 
-<ul>
-	<li><code>0 &lt;= F[i] &lt;= 2^31 - 1</code>, (that is,&nbsp;each integer fits a 32-bit signed integer type);</li>
-	<li><code>F.length &gt;= 3</code>;</li>
-	<li>and<code> F[i] + F[i+1] = F[i+2] </code>for all <code>0 &lt;= i &lt; F.length - 2</code>.</li>
-</ul>
+  * `0 <= F[i] <= 2^31 - 1`, (that is, each integer fits a 32-bit signed integer type);
+  * `F.length >= 3`;
+  * and` F[i] + F[i+1] = F[i+2] `for all `0 <= i < F.length - 2`.
 
-<p>Also, note that when splitting the string into pieces, each piece must not have extra leading zeroes, except if the piece is the number 0 itself.</p>
+Also, note that when splitting the string into pieces, each piece must not
+have extra leading zeroes, except if the piece is the number 0 itself.
 
-<p>Return any Fibonacci-like sequence split from <code>S</code>, or return <code>[]</code> if it cannot be done.</p>
+Return any Fibonacci-like sequence split from `S`, or return `[]` if it cannot
+be done.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>&quot;123456579&quot;
-<strong>Output: </strong>[123,456,579]
-</pre>
+    
+    
+    **Input:** "123456579"
+    **Output:** [123,456,579]
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>&quot;11235813&quot;
-<strong>Output: </strong>[1,1,2,3,5,8,13]
-</pre>
+    
+    
+    **Input:** "11235813"
+    **Output:** [1,1,2,3,5,8,13]
+    
 
-<p><strong>Example 3:</strong></p>
+**Example 3:**
 
-<pre>
-<strong>Input: </strong>&quot;112358130&quot;
-<strong>Output: </strong>[]
-<strong>Explanation: </strong>The task is impossible.
-</pre>
+    
+    
+    **Input:** "112358130"
+    **Output:** []
+    **Explanation:** The task is impossible.
+    
 
-<p><strong>Example 4:</strong></p>
+**Example 4:**
 
-<pre>
-<strong>Input: </strong>&quot;0123&quot;
-<strong>Output: </strong>[]
-<strong>Explanation: </strong>Leading zeroes are not allowed, so &quot;01&quot;, &quot;2&quot;, &quot;3&quot; is not valid.
-</pre>
+    
+    
+    **Input:** "0123"
+    **Output:** []
+    **Explanation:** Leading zeroes are not allowed, so "01", "2", "3" is not valid.
+    
 
-<p><strong>Example 5:</strong></p>
+**Example 5:**
 
-<pre>
-<strong>Input: </strong>&quot;1101111&quot;
-<strong>Output: </strong>[110, 1, 111]
-<strong>Explanation: </strong>The output [11, 0, 11, 11] would also be accepted.
-</pre>
+    
+    
+    **Input:** "1101111"
+    **Output:** [110, 1, 111]
+    **Explanation:** The output [11, 0, 11, 11] would also be accepted.
+    
 
-<p><strong>Note: </strong></p>
+**Note:**
 
-<ol>
-	<li><code>1 &lt;= S.length&nbsp;&lt;= 200</code></li>
-	<li><code>S</code> contains only digits.</li>
-</ol>
+  1. `1 <= S.length <= 200`
+  2. `S` contains only digits.
+
+
 Similar Questions:
   Additive Number (additive-number)
 """

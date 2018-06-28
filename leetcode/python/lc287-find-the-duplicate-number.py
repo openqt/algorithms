@@ -4,29 +4,32 @@ import unittest
 """287. Find the Duplicate Number
 https://leetcode.com/problems/find-the-duplicate-number/description/
 
-<p>Given an array <i>nums</i> containing <i>n</i> + 1 integers where each integer is between 1 and <i>n</i> (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.</p>
+Given an array _nums_ containing _n_ \+ 1 integers where each integer is
+between 1 and _n_ (inclusive), prove that at least one duplicate number must
+exist. Assume that there is only one duplicate number, find the duplicate one.
 
-<p><b>Example 1:</b></p>
+**Example 1:**
 
-<pre>
-<b>Input:</b> <code>[1,3,4,2,2]</code>
-<b>Output:</b> 2
-</pre>
+    
+    
+    **Input:** [1,3,4,2,2]
+    **Output:** 2
+    
 
-<p><b>Example 2:</b></p>
+**Example 2:**
 
-<pre>
-<b>Input:</b> [3,1,3,4,2]
-<b>Output:</b> 3</pre>
+    
+    
+    **Input:** [3,1,3,4,2]
+    **Output:** 3
 
-<p><b>Note:</b></p>
+**Note:**
 
-<ol>
-	<li>You <b>must not</b> modify the array (assume the array is read only).</li>
-	<li>You must use only constant, <i>O</i>(1) extra space.</li>
-	<li>Your runtime complexity should be less than <em>O</em>(<em>n</em><sup>2</sup>).</li>
-	<li>There is only one duplicate number in the array, but it could be repeated more than once.</li>
-</ol>
+  1. You **must not** modify the array (assume the array is read only).
+  2. You must use only constant, _O_ (1) extra space.
+  3. Your runtime complexity should be less than _O_ ( _n_ 2).
+  4. There is only one duplicate number in the array, but it could be repeated more than once.
+
 
 Similar Questions:
   First Missing Positive (first-missing-positive)

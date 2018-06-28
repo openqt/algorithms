@@ -7,27 +7,30 @@ import (
 /*153. Find Minimum in Rotated Sorted Array
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
 
-<p>Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.</p>
+Suppose an array sorted in ascending order is rotated at some pivot unknown to
+you beforehand.
 
-<p>(i.e., &nbsp;<code>[0,1,2,4,5,6,7]</code>&nbsp;might become &nbsp;<code>[4,5,6,7,0,1,2]</code>).</p>
+(i.e.,  `[0,1,2,4,5,6,7]` might become  `[4,5,6,7,0,1,2]`).
 
-<p>Find the minimum element.</p>
+Find the minimum element.
 
-<p>You may assume no duplicate exists in the array.</p>
+You may assume no duplicate exists in the array.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input:</strong> [3,4,5,1,2] 
-<strong>Output:</strong> 1
-</pre>
+    
+    
+    **Input:** [3,4,5,1,2] 
+    **Output:** 1
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input:</strong> [4,5,6,7,0,1,2]
-<strong>Output:</strong> 0
-</pre>
+    
+    
+    **Input:** [4,5,6,7,0,1,2]
+    **Output:** 0
+
 
 Similar Questions:
   Search in Rotated Sorted Array (search-in-rotated-sorted-array)

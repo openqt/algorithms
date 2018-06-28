@@ -4,29 +4,31 @@ import unittest
 """295. Find Median from Data Stream
 https://leetcode.com/problems/find-median-from-data-stream/description/
 
-<p>Median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle value.</p>
+Median is the middle value in an ordered integer list. If the size of the list
+is even, there is no middle value. So the median is the mean of the two middle
+value.
+
 For example,
 
-<p><code>[2,3,4]</code>, the median is <code>3</code></p>
+`[2,3,4]`, the median is `3`
 
-<p><code>[2,3]</code>, the median is <code>(2 + 3) / 2 = 2.5</code></p>
+`[2,3]`, the median is `(2 + 3) / 2 = 2.5`
 
-<p>Design a data structure that supports the following two operations:</p>
+Design a data structure that supports the following two operations:
 
-<ul>
-	<li>void addNum(int num) - Add a integer number from the data stream to the data structure.</li>
-	<li>double findMedian() - Return the median of all elements so far.</li>
-</ul>
+  * void addNum(int num) - Add a integer number from the data stream to the data structure.
+  * double findMedian() - Return the median of all elements so far.
 
-<p><strong>Example:</strong></p>
+**Example:**
 
-<pre>
-addNum(1)
-addNum(2)
-findMedian() -&gt; 1.5
-addNum(3) 
-findMedian() -&gt; 2
-</pre>
+    
+    
+    addNum(1)
+    addNum(2)
+    findMedian() -> 1.5
+    addNum(3) 
+    findMedian() -> 2
+
 
 Similar Questions:
   Sliding Window Median (sliding-window-median)

@@ -4,35 +4,35 @@ import unittest
 """647. Palindromic Substrings
 https://leetcode.com/problems/palindromic-substrings/description/
 
-<p>
-Given a string, your task is to count how many palindromic substrings in this string.
-</p>
+Given a string, your task is to count how many palindromic substrings in this
+string.
 
-<p>
-The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters. 
-</p>
+The substrings with different start indexes or end indexes are counted as
+different substrings even they consist of same characters.
 
-<p><b>Example 1:</b><br />
-<pre>
-<b>Input:</b> "abc"
-<b>Output:</b> 3
-<b>Explanation:</b> Three palindromic strings: "a", "b", "c".
-</pre>
-</p>
+**Example 1:**  
 
-<p><b>Example 2:</b><br />
-<pre>
-<b>Input:</b> "aaa"
-<b>Output:</b> 6
-<b>Explanation:</b> Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
-</pre>
-</p>
+    
+    
+    **Input:** "abc"
+    **Output:** 3
+    **Explanation:** Three palindromic strings: "a", "b", "c".
+    
 
-<p><b>Note:</b><br>
-<ol>
-<li>The input string length won't exceed 1000.</li>
-</ol>
-</p>
+**Example 2:**  
+
+    
+    
+    **Input:** "aaa"
+    **Output:** 6
+    **Explanation:** Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+    
+
+**Note:**  
+
+  1. The input string length won't exceed 1000.
+
+
 Similar Questions:
   Longest Palindromic Substring (longest-palindromic-substring)
   Longest Palindromic Subsequence (longest-palindromic-subsequence)

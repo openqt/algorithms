@@ -4,32 +4,37 @@ import unittest
 """836. Rectangle Overlap
 https://leetcode.com/problems/rectangle-overlap/description/
 
-<p>A rectangle is&nbsp;represented as a&nbsp;list <code>[x1, y1, x2, y2]</code>, where&nbsp;<code>(x1, y1)</code>&nbsp;are the coordinates of its bottom-left corner, and <code>(x2,&nbsp;y2)</code>&nbsp;are the coordinates of its top-right corner.</p>
+A rectangle is represented as a list `[x1, y1, x2, y2]`, where `(x1, y1)` are
+the coordinates of its bottom-left corner, and `(x2, y2)` are the coordinates
+of its top-right corner.
 
-<p>Two rectangles overlap if the area of their intersection is positive.&nbsp; To be clear, two rectangles that only touch at the corner or edges do not overlap.</p>
+Two rectangles overlap if the area of their intersection is positive.  To be
+clear, two rectangles that only touch at the corner or edges do not overlap.
 
-<p>Given two (axis-aligned) rectangles, return whether&nbsp;they overlap.</p>
+Given two (axis-aligned) rectangles, return whether they overlap.
 
-<p><strong>Example 1:</strong></p>
+**Example 1:**
 
-<pre>
-<strong>Input: </strong>rec1 = [0,0,2,2], rec2 = [1,1,3,3]
-<strong>Output: </strong>true
-</pre>
+    
+    
+    **Input:** rec1 = [0,0,2,2], rec2 = [1,1,3,3]
+    **Output:** true
+    
 
-<p><strong>Example 2:</strong></p>
+**Example 2:**
 
-<pre>
-<strong>Input: </strong>rec1 = [0,0,1,1], rec2 = [1,0,2,1]
-<strong>Output: </strong>false
-</pre>
+    
+    
+    **Input:** rec1 = [0,0,1,1], rec2 = [1,0,2,1]
+    **Output:** false
+    
 
-<p><strong>Notes:</strong></p>
+**Notes:**
 
-<ol>
-	<li>Both rectangles <code>rec1</code> and <code>rec2</code> are lists of 4 integers.</li>
-	<li>All coordinates in rectangles will be between&nbsp;<code>-10^9 </code>and<code> 10^9</code>.</li>
-</ol>
+  1. Both rectangles `rec1` and `rec2` are lists of 4 integers.
+  2. All coordinates in rectangles will be between `-10^9 `and` 10^9`.
+
+
 Similar Questions:
   Rectangle Area (rectangle-area)
 """

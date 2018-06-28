@@ -17,15 +17,15 @@
     "topicTags": [
       {
         "translatedName": null, 
-        "slug": "tree", 
+        "__typename": "TopicTagNode", 
         "name": "Tree", 
-        "__typename": "TopicTagNode"
+        "slug": "tree"
       }, 
       {
         "translatedName": null, 
-        "slug": "depth-first-search", 
+        "__typename": "TopicTagNode", 
         "name": "Depth-first Search", 
-        "__typename": "TopicTagNode"
+        "slug": "depth-first-search"
       }
     ], 
     "content": "<p>Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.</p>\r\n\r\n<p><strong>Note:</strong>&nbsp;A leaf is a node with no children.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<p>Given the below binary tree and <code>sum = 22</code>,</p>\r\n\r\n<pre>\r\n      <strong>5</strong>\r\n     <strong>/</strong> \\\r\n    <strong>4</strong>   8\r\n   <strong>/</strong>   / \\\r\n  <strong>11</strong>  13  4\r\n /  <strong>\\</strong>      \\\r\n7    <strong>2</strong>      1\r\n</pre>\r\n\r\n<p>return true, as there exist a root-to-leaf path <code>5-&gt;4-&gt;11-&gt;2</code> which sum is 22.</p>\r\n", 
