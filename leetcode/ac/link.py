@@ -5,6 +5,7 @@ import unittest
 
 class ListNode(object):
     """Definition for singly-linked list."""
+
     def __init__(self, x):
         if isinstance(x, ListNode):
             self.val, self.next = x.val, x.next
@@ -115,6 +116,15 @@ class Test(unittest.TestCase):
 
 def to_node(seq):
     return LinkedList(seq).head
+
+
+def compare(l1, l2):
+    p1, p2 = l1, l2
+    while p1 and p2 and p1.val == p2.val:
+        p1 = p1.next
+        p2 = p2.next
+
+    return not p1 and not p2
 
 
 if __name__ == '__main__':
