@@ -53,17 +53,32 @@ Similar Questions:
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
+class Solution(unittest.TestCase):
     def findTarget(self, root, k):
         """
         :type root: TreeNode
         :type k: int
         :rtype: bool
         """
-        
+
+        def preorder(root):
+            if root:
+                vals.append(root.val)
+                preorder(root.left)
+                preorder(root.right)
+
+        vals = []
+        preorder(root)
+        for i in range(len(vals)):
+            for j in range(i + 1, len(vals)):
+                if vals[i] + vals[j] == k:
+                    return True
+        return False
 
     def test(self):
-        pass
+        from tree import BinaryTree
+        self.assertTrue(self.findTarget(BinaryTree([5, 3, 6, 2, 4, '#', 7]).root, 9))
+        self.assertFalse(self.findTarget(BinaryTree([5, 3, 6, 2, 4, '#', 7]).root, 28))
 
 
 if __name__ == "__main__":
