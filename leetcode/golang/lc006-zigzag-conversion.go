@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*6. ZigZag Conversion
@@ -57,5 +57,5 @@ func convert(s string, numRows int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

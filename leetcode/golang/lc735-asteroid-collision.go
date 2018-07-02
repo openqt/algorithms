@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*735. Asteroid Collision
@@ -76,5 +76,5 @@ func asteroidCollision(asteroids []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

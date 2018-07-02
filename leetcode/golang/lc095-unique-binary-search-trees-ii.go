@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*95. Unique Binary Search Trees II
@@ -50,5 +50,5 @@ func generateTrees(n int) []*TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

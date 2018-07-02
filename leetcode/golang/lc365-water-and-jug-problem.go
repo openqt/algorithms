@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*365. Water and Jug Problem
@@ -50,5 +50,5 @@ func canMeasureWater(x int, y int, z int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

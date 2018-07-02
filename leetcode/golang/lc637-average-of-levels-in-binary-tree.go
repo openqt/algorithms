@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*637. Average of Levels in Binary Tree
@@ -47,5 +47,5 @@ func averageOfLevels(root *TreeNode) []float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

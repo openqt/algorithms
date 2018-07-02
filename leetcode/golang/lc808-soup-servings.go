@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*808. Soup Servings
@@ -53,5 +53,5 @@ func soupServings(N int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

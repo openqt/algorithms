@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*793. Preimage Size of Factorial Zeroes Function
@@ -40,5 +40,5 @@ func preimageSizeFZF(K int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*368. Largest Divisible Subset
@@ -44,5 +44,5 @@ func largestDivisibleSubset(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

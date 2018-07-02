@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*775. Global and Local Inversions
@@ -52,5 +52,5 @@ func isIdealPermutation(A []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

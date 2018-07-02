@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*506. Relative Ranks
@@ -35,5 +35,5 @@ func findRelativeRanks(nums []int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

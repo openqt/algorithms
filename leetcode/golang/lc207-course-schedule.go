@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*207. Course Schedule
@@ -52,5 +52,5 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*201. Bitwise AND of Numbers Range
@@ -34,5 +34,5 @@ func rangeBitwiseAnd(m int, n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

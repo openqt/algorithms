@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*283. Move Zeroes
@@ -31,5 +31,5 @@ func moveZeroes(nums []int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

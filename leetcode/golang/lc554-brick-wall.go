@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*554. Brick Wall
@@ -52,5 +52,5 @@ func leastBricks(wall [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

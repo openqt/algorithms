@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*501. Find Mode in Binary Search Tree
@@ -53,5 +53,5 @@ func findMode(root *TreeNode) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*820. Short Encoding of Words
@@ -43,5 +43,5 @@ func minimumLengthEncoding(words []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

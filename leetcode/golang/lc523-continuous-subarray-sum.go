@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*523. Continuous Subarray Sum
@@ -44,5 +44,5 @@ func checkSubarraySum(nums []int, k int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

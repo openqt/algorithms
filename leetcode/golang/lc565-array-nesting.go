@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*565. Array Nesting
@@ -45,5 +45,5 @@ func arrayNesting(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

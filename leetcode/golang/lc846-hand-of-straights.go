@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*846. Hand of Straights
@@ -49,5 +49,5 @@ func isNStraightHand(hand []int, W int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

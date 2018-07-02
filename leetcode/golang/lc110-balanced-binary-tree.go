@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*110. Balanced Binary Tree
@@ -62,5 +62,5 @@ func isBalanced(root *TreeNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*84. Largest Rectangle in Histogram
@@ -38,5 +38,5 @@ func largestRectangleArea(heights []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

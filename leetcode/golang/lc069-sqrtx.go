@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*69. Sqrt(x)
@@ -42,5 +42,5 @@ func mySqrt(x int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

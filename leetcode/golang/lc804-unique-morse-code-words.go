@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*804. Unique Morse Code Words
@@ -57,5 +57,5 @@ func uniqueMorseRepresentations(words []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

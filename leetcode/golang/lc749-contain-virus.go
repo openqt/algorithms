@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*749. Contain Virus
@@ -86,5 +86,5 @@ func containVirus(grid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

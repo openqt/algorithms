@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*539. Minimum Time Difference
@@ -32,5 +32,5 @@ func findMinDifference(timePoints []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

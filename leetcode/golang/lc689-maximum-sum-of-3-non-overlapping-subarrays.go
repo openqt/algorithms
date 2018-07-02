@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*689. Maximum Sum of 3 Non-Overlapping Subarrays
@@ -42,5 +42,5 @@ func maxSumOfThreeSubarrays(nums []int, k int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

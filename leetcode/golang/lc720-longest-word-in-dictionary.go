@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*720. Longest Word in Dictionary
@@ -52,5 +52,5 @@ func longestWord(words []string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

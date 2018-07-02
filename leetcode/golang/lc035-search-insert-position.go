@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*35. Search Insert Position
@@ -53,5 +53,5 @@ func searchInsert(nums []int, target int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

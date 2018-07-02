@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*792. Number of Matching Subsequences
@@ -36,5 +36,5 @@ func numMatchingSubseq(S string, words []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

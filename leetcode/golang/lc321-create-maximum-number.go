@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*321. Create Maximum Number
@@ -57,5 +57,5 @@ func maxNumber(nums1 []int, nums2 []int, k int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

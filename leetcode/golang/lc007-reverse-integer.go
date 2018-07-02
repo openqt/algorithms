@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*7. Reverse Integer
@@ -48,5 +48,5 @@ func reverse(x int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

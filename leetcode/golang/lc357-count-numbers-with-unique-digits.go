@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*357. Count Numbers with Unique Digits
@@ -27,5 +27,5 @@ func countNumbersWithUniqueDigits(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

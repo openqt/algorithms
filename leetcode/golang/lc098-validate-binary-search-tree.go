@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*98. Validate Binary Search Tree
@@ -57,5 +57,5 @@ func isValidBST(root *TreeNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

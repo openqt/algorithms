@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*119. Pascal's Triangle II
@@ -37,5 +37,5 @@ func getRow(rowIndex int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

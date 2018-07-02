@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*836. Rectangle Overlap
@@ -46,5 +46,5 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

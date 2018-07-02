@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*483. Smallest Good Base
@@ -54,5 +54,5 @@ func smallestGoodBase(n string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

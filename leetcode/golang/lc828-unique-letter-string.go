@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*828. Unique Letter String
@@ -58,5 +58,5 @@ func uniqueLetterString(S string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

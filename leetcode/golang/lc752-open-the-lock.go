@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*752. Open the Lock
@@ -78,5 +78,5 @@ func openLock(deadends []string, target string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

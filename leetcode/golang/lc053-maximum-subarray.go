@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*53. Maximum Subarray
@@ -35,5 +35,5 @@ func maxSubArray(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

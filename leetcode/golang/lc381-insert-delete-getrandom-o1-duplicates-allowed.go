@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*381. Insert Delete GetRandom O(1) - Duplicates allowed
@@ -83,5 +83,5 @@ func (this *RandomizedCollection) GetRandom() int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

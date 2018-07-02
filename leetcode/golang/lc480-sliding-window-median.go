@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*480. Sliding Window Median
@@ -53,5 +53,5 @@ func medianSlidingWindow(nums []int, k int) []float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

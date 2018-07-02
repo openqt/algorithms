@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*821. Shortest Distance to a Character
@@ -35,5 +35,5 @@ func shortestToChar(S string, C byte) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

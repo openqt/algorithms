@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*166. Fraction to Recurring Decimal
@@ -44,5 +44,5 @@ func fractionToDecimal(numerator int, denominator int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

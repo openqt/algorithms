@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*174. Dungeon Game
@@ -55,5 +55,5 @@ func calculateMinimumHP(dungeon [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

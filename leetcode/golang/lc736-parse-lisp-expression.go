@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*736. Parse Lisp Expression
@@ -82,5 +82,5 @@ func evaluate(expression string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

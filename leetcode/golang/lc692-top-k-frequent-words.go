@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*692. Top K Frequent Words
@@ -51,5 +51,5 @@ func topKFrequent(words []string, k int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

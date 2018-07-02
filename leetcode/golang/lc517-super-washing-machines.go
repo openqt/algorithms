@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*517. Super Washing Machines
@@ -72,5 +72,5 @@ func findMinMoves(machines []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

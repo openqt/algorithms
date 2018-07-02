@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*205. Isomorphic Strings
@@ -50,5 +50,5 @@ func isIsomorphic(s string, t string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*466. Count The Repetitions
@@ -40,5 +40,5 @@ func getMaxRepetitions(s1 string, n1 int, s2 string, n2 int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

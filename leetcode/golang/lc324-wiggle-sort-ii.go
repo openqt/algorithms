@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*324. Wiggle Sort II
@@ -41,5 +41,5 @@ func wiggleSort(nums []int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

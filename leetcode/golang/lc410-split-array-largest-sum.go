@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*410. Split Array Largest Sum
@@ -42,5 +42,5 @@ func splitArray(nums []int, m int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

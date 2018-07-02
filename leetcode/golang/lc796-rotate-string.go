@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*796. Rotate String
@@ -38,5 +38,5 @@ func rotateString(A string, B string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

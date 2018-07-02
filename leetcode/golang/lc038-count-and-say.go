@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*38. Count and Say
@@ -52,5 +52,5 @@ func countAndSay(n int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

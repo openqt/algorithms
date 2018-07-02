@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*636. Exclusive Time of Functions
@@ -58,5 +58,5 @@ func exclusiveTime(n int, logs []string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*17. Letter Combinations of a Phone Number
@@ -40,5 +40,5 @@ func letterCombinations(digits string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*746. Min Cost Climbing Stairs
@@ -46,5 +46,5 @@ func minCostClimbingStairs(cost []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

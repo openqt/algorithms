@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*473. Matchsticks to Square
@@ -50,5 +50,5 @@ func makesquare(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

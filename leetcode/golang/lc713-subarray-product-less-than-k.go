@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*713. Subarray Product Less Than K
@@ -39,5 +39,5 @@ func numSubarrayProductLessThanK(nums []int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

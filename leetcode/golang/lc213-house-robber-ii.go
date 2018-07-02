@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*213. House Robber II
@@ -51,5 +51,5 @@ func rob(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

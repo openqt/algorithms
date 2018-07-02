@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*747. Largest Number At Least Twice of Others
@@ -51,5 +51,5 @@ func dominantIndex(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

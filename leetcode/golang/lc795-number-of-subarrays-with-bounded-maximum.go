@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*795. Number of Subarrays with Bounded Maximum
@@ -38,5 +38,5 @@ func numSubarrayBoundedMax(A []int, L int, R int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

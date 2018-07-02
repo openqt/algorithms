@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*652. Find Duplicate Subtrees
@@ -62,5 +62,5 @@ func findDuplicateSubtrees(root *TreeNode) []*TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

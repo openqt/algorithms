@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*287. Find the Duplicate Number
@@ -46,5 +46,5 @@ func findDuplicate(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

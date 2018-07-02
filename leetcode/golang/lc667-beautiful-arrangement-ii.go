@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*667. Beautiful Arrangement II
@@ -46,5 +46,5 @@ func constructArray(n int, k int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

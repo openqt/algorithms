@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*611. Valid Triangle Number
@@ -38,5 +38,5 @@ func triangleNumber(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*552. Student Attendance Record II
@@ -44,5 +44,5 @@ func checkRecord(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

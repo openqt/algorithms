@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*446. Arithmetic Slices II - Subsequence
@@ -70,5 +70,5 @@ func numberOfArithmeticSlices(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

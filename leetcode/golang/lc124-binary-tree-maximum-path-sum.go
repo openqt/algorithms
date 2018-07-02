@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*124. Binary Tree Maximum Path Sum
@@ -61,5 +61,5 @@ func maxPathSum(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

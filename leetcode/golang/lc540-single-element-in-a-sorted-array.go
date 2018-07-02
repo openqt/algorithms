@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*540. Single Element in a Sorted Array
@@ -38,5 +38,5 @@ func singleNonDuplicate(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

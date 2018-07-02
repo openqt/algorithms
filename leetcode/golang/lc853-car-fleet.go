@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*853. Car Fleet
@@ -61,5 +61,5 @@ func carFleet(target int, position []int, speed []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*815. Bus Routes
@@ -43,5 +43,5 @@ func numBusesToDestination(routes [][]int, S int, T int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*71. Simplify Path
@@ -30,5 +30,5 @@ func simplifyPath(path string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

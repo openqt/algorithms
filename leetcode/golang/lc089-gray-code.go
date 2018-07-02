@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*89. Gray Code
@@ -53,5 +53,5 @@ func grayCode(n int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

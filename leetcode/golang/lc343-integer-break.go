@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*343. Integer Break
@@ -30,5 +30,5 @@ func integerBreak(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

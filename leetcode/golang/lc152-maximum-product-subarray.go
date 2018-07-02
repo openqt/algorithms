@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*152. Maximum Product Subarray
@@ -40,5 +40,5 @@ func maxProduct(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

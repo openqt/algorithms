@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*777. Swap Adjacent in LR String
@@ -42,5 +42,5 @@ func canTransform(start string, end string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

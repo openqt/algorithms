@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*781. Rabbits in Forest
@@ -46,5 +46,5 @@ func numRabbits(answers []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

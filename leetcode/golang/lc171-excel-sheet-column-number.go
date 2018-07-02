@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*171. Excel Sheet Column Number
@@ -56,5 +56,5 @@ func titleToNumber(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

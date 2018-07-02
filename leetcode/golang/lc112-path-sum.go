@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*112. Path Sum
@@ -50,5 +50,5 @@ func hasPathSum(root *TreeNode, sum int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

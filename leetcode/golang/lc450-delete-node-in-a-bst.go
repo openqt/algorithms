@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*450. Delete Node in a BST
@@ -65,5 +65,5 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

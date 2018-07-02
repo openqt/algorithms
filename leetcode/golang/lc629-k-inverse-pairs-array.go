@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*629. K Inverse Pairs Array
@@ -49,5 +49,5 @@ func kInversePairs(n int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

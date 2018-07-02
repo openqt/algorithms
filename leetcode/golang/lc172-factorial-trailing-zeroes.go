@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*172. Factorial Trailing Zeroes
@@ -37,5 +37,5 @@ func trailingZeroes(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*541. Reverse String II
@@ -36,5 +36,5 @@ func reverseStr(s string, k int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

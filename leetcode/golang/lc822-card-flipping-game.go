@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*822. Card Flipping Game
@@ -49,5 +49,5 @@ func flipgame(fronts []int, backs []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

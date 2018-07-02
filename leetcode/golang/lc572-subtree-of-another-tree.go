@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*572. Subtree of Another Tree
@@ -79,5 +79,5 @@ func isSubtree(s *TreeNode, t *TreeNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

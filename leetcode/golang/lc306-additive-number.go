@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*306. Additive Number
@@ -50,5 +50,5 @@ func isAdditiveNumber(num string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

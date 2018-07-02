@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*728. Self Dividing Numbers
@@ -40,5 +40,5 @@ func selfDividingNumbers(left int, right int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*424. Longest Repeating Character Replacement
@@ -52,5 +52,5 @@ func characterReplacement(s string, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

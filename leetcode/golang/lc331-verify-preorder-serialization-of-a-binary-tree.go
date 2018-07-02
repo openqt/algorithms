@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*331. Verify Preorder Serialization of a Binary Tree
@@ -66,5 +66,5 @@ func isValidSerialization(preorder string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

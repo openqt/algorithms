@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*719. Find K-th Smallest Pair Distance
@@ -46,5 +46,5 @@ func smallestDistancePair(nums []int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

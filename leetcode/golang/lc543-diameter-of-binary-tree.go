@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*543. Diameter of Binary Tree
@@ -46,5 +46,5 @@ func diameterOfBinaryTree(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

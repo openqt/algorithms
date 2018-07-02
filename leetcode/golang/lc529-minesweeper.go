@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*529. Minesweeper
@@ -91,5 +91,5 @@ func updateBoard(board [][]byte, click []int) [][]byte {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

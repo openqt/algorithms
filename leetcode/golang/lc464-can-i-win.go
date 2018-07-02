@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*464. Can I Win
@@ -52,5 +52,5 @@ func canIWin(maxChoosableInteger int, desiredTotal int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

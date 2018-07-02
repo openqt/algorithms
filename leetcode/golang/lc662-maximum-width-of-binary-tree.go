@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*662. Maximum Width of Binary Tree
@@ -102,5 +102,5 @@ func widthOfBinaryTree(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

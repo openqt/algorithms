@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*120. Triangle
@@ -39,5 +39,5 @@ func minimumTotal(triangle [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

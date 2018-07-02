@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*114. Flatten Binary Tree to Linked List
@@ -53,5 +53,5 @@ func flatten(root *TreeNode)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

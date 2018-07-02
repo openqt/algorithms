@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*165. Compare Version Numbers
@@ -48,5 +48,5 @@ func compareVersion(version1 string, version2 string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

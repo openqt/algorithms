@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*31. Next Permutation
@@ -35,5 +35,5 @@ func nextPermutation(nums []int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

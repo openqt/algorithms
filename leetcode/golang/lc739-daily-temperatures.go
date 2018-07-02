@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*739. Daily Temperatures
@@ -27,5 +27,5 @@ func dailyTemperatures(temperatures []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

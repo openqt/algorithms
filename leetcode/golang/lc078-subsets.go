@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*78. Subsets
@@ -40,5 +40,5 @@ func subsets(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

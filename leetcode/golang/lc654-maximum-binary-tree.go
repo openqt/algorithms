@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*654. Maximum Binary Tree
@@ -54,5 +54,5 @@ func constructMaximumBinaryTree(nums []int) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

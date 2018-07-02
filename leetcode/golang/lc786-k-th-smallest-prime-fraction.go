@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*786. K-th Smallest Prime Fraction
@@ -44,5 +44,5 @@ func kthSmallestPrimeFraction(A []int, K int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

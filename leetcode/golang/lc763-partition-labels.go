@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*763. Partition Labels
@@ -37,5 +37,5 @@ func partitionLabels(S string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

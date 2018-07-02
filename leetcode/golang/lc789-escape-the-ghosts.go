@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*789. Escape The Ghosts
@@ -67,5 +67,5 @@ func escapeGhosts(ghosts [][]int, target []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

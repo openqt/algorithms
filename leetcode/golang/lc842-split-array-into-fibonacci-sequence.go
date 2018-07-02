@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*842. Split Array into Fibonacci Sequence
@@ -80,5 +80,5 @@ func splitIntoFibonacci(S string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

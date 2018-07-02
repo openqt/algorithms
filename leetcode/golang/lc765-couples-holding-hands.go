@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*765. Couples Holding Hands
@@ -53,5 +53,5 @@ func minSwapsCouples(row []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

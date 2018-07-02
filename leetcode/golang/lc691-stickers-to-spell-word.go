@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*691. Stickers to Spell Word
@@ -84,5 +84,5 @@ func minStickers(stickers []string, target string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*406. Queue Reconstruction by Height
@@ -37,5 +37,5 @@ func reconstructQueue(people [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*148. Sort List
@@ -43,5 +43,5 @@ func sortList(head *ListNode) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

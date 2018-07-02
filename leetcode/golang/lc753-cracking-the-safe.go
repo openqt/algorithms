@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*753. Cracking the Safe
@@ -52,5 +52,5 @@ func crackSafe(n int, k int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

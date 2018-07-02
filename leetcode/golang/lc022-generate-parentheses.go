@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*22. Generate Parentheses
@@ -32,5 +32,5 @@ func generateParenthesis(n int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

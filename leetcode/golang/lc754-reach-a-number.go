@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*754. Reach a Number
@@ -51,5 +51,5 @@ func reachNumber(target int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

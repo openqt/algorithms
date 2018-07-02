@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*587. Erect the Fence
@@ -58,5 +58,5 @@ func outerTrees(points []Point) []Point {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

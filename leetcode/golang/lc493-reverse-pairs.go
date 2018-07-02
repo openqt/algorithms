@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*493. Reverse Pairs
@@ -43,5 +43,5 @@ func reversePairs(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

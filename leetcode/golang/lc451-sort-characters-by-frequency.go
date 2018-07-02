@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*451. Sort Characters By Frequency
@@ -64,5 +64,5 @@ func frequencySort(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

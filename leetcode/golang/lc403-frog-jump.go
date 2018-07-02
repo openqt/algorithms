@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*403. Frog Jump
@@ -61,5 +61,5 @@ func canCross(stones []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

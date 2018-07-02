@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*279. Perfect Squares
@@ -36,5 +36,5 @@ func numSquares(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

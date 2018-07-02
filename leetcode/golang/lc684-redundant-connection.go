@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*684. Redundant Connection
@@ -72,5 +72,5 @@ func findRedundantConnection(edges [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

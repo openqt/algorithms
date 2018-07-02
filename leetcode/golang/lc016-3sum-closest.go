@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*16. 3Sum Closest
@@ -30,5 +30,5 @@ func threeSumClosest(nums []int, target int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

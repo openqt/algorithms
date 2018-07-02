@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*688. Knight Probability in Chessboard
@@ -51,5 +51,5 @@ func knightProbability(N int, K int, r int, c int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

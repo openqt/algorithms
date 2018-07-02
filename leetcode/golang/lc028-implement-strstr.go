@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*28. Implement strStr()
@@ -48,5 +48,5 @@ func strStr(haystack string, needle string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

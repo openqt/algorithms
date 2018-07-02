@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*438. Find All Anagrams in a String
@@ -55,5 +55,5 @@ func findAnagrams(s string, p string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

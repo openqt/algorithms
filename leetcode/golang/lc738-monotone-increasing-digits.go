@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*738. Monotone Increasing Digits
@@ -48,5 +48,5 @@ func monotoneIncreasingDigits(N int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

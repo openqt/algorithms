@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*633. Sum of Square Numbers
@@ -35,5 +35,5 @@ func judgeSquareSum(c int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

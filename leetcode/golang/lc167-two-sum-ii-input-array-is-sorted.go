@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*167. Two Sum II - Input array is sorted
@@ -36,5 +36,5 @@ func twoSum(numbers []int, target int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

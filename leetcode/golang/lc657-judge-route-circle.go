@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*657. Judge Route Circle
@@ -40,5 +40,5 @@ func judgeCircle(moves string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*481. Magical String
@@ -48,5 +48,5 @@ func magicalString(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*724. Find Pivot Index
@@ -54,5 +54,5 @@ func pivotIndex(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

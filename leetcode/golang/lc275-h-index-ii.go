@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*275. H-Index II
@@ -46,5 +46,5 @@ func hIndex(citations []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*62. Unique Paths
@@ -52,5 +52,5 @@ func uniquePaths(m int, n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

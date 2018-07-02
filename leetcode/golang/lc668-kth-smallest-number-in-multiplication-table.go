@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*668. Kth Smallest Number in Multiplication Table
@@ -60,5 +60,5 @@ func findKthNumber(m int, n int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*679. 24 Game
@@ -43,5 +43,5 @@ func judgePoint24(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

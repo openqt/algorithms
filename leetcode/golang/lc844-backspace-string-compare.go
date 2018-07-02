@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*844. Backspace String Compare
@@ -65,5 +65,5 @@ func backspaceCompare(S string, T string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

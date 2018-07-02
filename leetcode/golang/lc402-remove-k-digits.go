@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*402. Remove K Digits
@@ -53,5 +53,5 @@ func removeKdigits(num string, k int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

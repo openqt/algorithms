@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*576. Out of Boundary Paths
@@ -49,5 +49,5 @@ func findPaths(m int, n int, N int, i int, j int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

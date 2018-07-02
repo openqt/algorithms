@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*794. Valid Tic-Tac-Toe State
@@ -58,5 +58,5 @@ func validTicTacToe(board []string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

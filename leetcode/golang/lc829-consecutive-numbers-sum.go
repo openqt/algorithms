@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*829. Consecutive Numbers Sum
@@ -45,5 +45,5 @@ func consecutiveNumbersSum(N int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

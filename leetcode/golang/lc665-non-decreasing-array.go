@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*665. Non-decreasing Array
@@ -42,5 +42,5 @@ func checkPossibility(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

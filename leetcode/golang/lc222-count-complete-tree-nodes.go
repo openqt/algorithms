@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*222. Count Complete Tree Nodes
@@ -47,5 +47,5 @@ func countNodes(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

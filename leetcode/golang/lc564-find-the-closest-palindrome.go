@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*564. Find the Closest Palindrome
@@ -35,5 +35,5 @@ func nearestPalindromic(n string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*61. Rotate List
@@ -50,5 +50,5 @@ func rotateRight(head *ListNode, k int) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

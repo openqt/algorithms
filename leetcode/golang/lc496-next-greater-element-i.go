@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*496. Next Greater Element I
@@ -54,5 +54,5 @@ func nextGreaterElement(findNums []int, nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

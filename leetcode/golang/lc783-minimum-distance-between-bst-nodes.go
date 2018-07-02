@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*783. Minimum Distance Between BST Nodes
@@ -52,5 +52,5 @@ func minDiffInBST(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

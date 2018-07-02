@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*385. Mini Parser
@@ -78,5 +78,5 @@ func deserialize(s string) *NestedInteger {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

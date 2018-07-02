@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*209. Minimum Size Subarray Sum
@@ -35,5 +35,5 @@ func minSubArrayLen(s int, nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

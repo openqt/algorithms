@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*680. Valid Palindrome II
@@ -40,5 +40,5 @@ func validPalindrome(s string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

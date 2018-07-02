@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*60. Permutation Sequence
@@ -51,5 +51,5 @@ func getPermutation(n int, k int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*514. Freedom Trail
@@ -51,5 +51,5 @@ func findRotateSteps(ring string, key string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

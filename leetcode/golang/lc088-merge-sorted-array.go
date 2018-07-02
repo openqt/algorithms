@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*88. Merge Sorted Array
@@ -34,5 +34,5 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

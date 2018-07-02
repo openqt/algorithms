@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*491. Increasing Subsequences
@@ -34,5 +34,5 @@ func findSubsequences(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

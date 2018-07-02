@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*646. Maximum Length of Pair Chain
@@ -39,5 +39,5 @@ func findLongestChain(pairs [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

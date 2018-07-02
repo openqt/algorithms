@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*316. Remove Duplicate Letters
@@ -35,5 +35,5 @@ func removeDuplicateLetters(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

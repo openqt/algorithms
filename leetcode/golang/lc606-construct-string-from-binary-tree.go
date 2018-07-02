@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*606. Construct String from Binary Tree
@@ -66,5 +66,5 @@ func tree2str(t *TreeNode) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

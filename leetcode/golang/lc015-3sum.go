@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*15. 3Sum
@@ -39,5 +39,5 @@ func threeSum(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

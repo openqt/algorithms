@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*330. Patching Array
@@ -49,5 +49,5 @@ func minPatches(nums []int, n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

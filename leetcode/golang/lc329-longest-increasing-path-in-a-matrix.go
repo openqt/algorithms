@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*329. Longest Increasing Path in a Matrix
@@ -49,5 +49,5 @@ func longestIncreasingPath(matrix [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

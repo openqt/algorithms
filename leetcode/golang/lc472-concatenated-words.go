@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*472. Concatenated Words
@@ -42,5 +42,5 @@ func findAllConcatenatedWordsInADict(words []string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

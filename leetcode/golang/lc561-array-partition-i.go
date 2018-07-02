@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*561. Array Partition I
@@ -35,5 +35,5 @@ func arrayPairSum(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

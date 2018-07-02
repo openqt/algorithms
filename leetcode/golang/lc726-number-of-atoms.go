@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*726. Number of Atoms
@@ -77,5 +77,5 @@ func countOfAtoms(formula string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

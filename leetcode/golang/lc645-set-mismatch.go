@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*645. Set Mismatch
@@ -38,5 +38,5 @@ func findErrorNums(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

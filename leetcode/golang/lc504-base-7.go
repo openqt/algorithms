@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*504. Base 7
@@ -36,5 +36,5 @@ func convertToBase7(num int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

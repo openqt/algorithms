@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*782. Transform to Chessboard
@@ -60,5 +60,5 @@ func movesToChessboard(board [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

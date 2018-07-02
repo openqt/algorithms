@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*779. K-th Symbol in Grammar
@@ -50,5 +50,5 @@ func kthGrammar(N int, K int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

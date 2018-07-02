@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*315. Count of Smaller Numbers After Self
@@ -34,5 +34,5 @@ func countSmaller(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

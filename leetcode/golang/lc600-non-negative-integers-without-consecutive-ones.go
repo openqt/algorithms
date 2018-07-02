@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*600. Non-negative Integers without Consecutive Ones
@@ -41,5 +41,5 @@ func findIntegers(num int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

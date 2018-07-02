@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*347. Top K Frequent Elements
@@ -31,5 +31,5 @@ func topKFrequent(nums []int, k int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

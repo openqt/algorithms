@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*507. Perfect Number
@@ -33,5 +33,5 @@ func checkPerfectNumber(num int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

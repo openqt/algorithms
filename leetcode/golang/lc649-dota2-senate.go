@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*649. Dota2 Senate
@@ -73,5 +73,5 @@ func predictPartyVictory(senate string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

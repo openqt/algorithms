@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*42. Trapping Rain Water
@@ -34,5 +34,5 @@ func trap(height []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*441. Arranging Coins
@@ -53,5 +53,5 @@ func arrangeCoins(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

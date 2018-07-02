@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*423. Reconstruct Original Digits from English
@@ -42,5 +42,5 @@ func originalDigits(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

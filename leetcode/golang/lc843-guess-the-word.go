@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*843. Guess the Word
@@ -65,5 +65,5 @@ func findSecretWord(wordlist []string, master *Master) {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

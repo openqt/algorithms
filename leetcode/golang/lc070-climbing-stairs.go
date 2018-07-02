@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*70. Climbing Stairs
@@ -45,5 +45,5 @@ func climbStairs(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

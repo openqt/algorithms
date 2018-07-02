@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*856. Score of Parentheses
@@ -64,5 +64,5 @@ func scoreOfParentheses(S string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

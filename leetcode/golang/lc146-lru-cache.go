@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*146. LRU Cache
@@ -70,5 +70,5 @@ func (this *LRUCache) Put(key int, value int)  {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

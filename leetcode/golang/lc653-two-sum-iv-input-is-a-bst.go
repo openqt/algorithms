@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*653. Two Sum IV - Input is a BST
@@ -60,5 +60,5 @@ func findTarget(root *TreeNode, k int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

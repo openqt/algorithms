@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*367. Valid Perfect Square
@@ -42,5 +42,5 @@ func isPerfectSquare(num int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

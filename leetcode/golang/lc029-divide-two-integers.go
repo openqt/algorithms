@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*29. Divide Two Integers
@@ -43,5 +43,5 @@ func divide(dividend int, divisor int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

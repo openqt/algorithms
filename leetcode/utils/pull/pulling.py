@@ -10,8 +10,7 @@ import prettytable
 import requests
 import html2text
 
-
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARN)
 
 python_template = u'''# coding=utf-8
 import unittest
@@ -40,7 +39,7 @@ if __name__ == "__main__":
 golang_template = u'''package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*$id. $title
@@ -55,7 +54,7 @@ $related
 $code
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }
 '''
 
@@ -71,26 +70,15 @@ query getQuestionDetail($titleSlug: String!) {
     content
     translatedContent
     difficulty
-    stats
     allowDiscuss
     contributors
     similarQuestions
     mysqlSchemas
-    randomQuestionUrl
-    sessionId
     categoryTitle
-    submitUrl
-    interpretUrl
     codeDefinition
-    sampleTestCase
-    enableTestMode
     metaData
-    enableRunCode
-    enableSubmit
-    judgerAvailable
     infoVerified
     envInfo
-    urlManager
     article
     questionDetailUrl
     libraryUrl
@@ -98,20 +86,16 @@ query getQuestionDetail($titleSlug: String!) {
       name
       slug
       translatedName
-      __typename
     }
-    __typename
   }
-  subscribeUrl
   isPremium
-  loginUrl
 }"""
 
 
 class Question(object):
     def __init__(self, **kwargs):
-        self.filter = html2text.HTML2Text()
-        self.data = None
+        self.filter = html2text.HTML2Text()  # from html to markdown
+        self.data = None  # response origin json response
 
         stat = kwargs.get("stat")
         if stat:
@@ -120,10 +104,12 @@ class Question(object):
             self.slug = stat.get("question__title_slug")
         self.url = "https://leetcode.com/problems/{}/description/".format(self.slug)
 
-        self.paid = kwargs.get("paid_only", False)
-        self.content = None
-        self.related = None
-        self.codes = {}
+        self.paid = kwargs.get("paid_only", False)  # premium problems
+        self.content = None  # problem description
+        self.related = None  # related problem list
+        self.codes = {}  # code template for a problem
+
+        self.loaded = False  # the problem is load from file or download from internet
 
         difficulty = kwargs.get("difficulty")
         self.level = difficulty.get("level", 0)
@@ -134,13 +120,22 @@ class Question(object):
     def metaname(self):
         return self.name() + ".json"
 
-    def code(self, language="python"):
+    def code(self, language="python,golang"):
+        for lang in language.split(","):
+            self._code(lang)
+
+    def _code(self, language="python"):
+        if not self.data:
+            logging.info("No DATA")
+            return
+
         if language not in self.codes:
             print("Supported language: {}".format(self.codes.keys()))
             return
 
-        with open(self.metaname(), "w") as f:
-            json.dump(self.data, f, indent=2)
+        if not self.loaded:  # loaded json not write-back
+            with open(self.metaname(), "w") as f:
+                json.dump(self.data, f, indent=2)
 
         kwargs = {
             "id": self.qid,
@@ -178,13 +173,14 @@ class Question(object):
             self.related = []
             for sq in json.loads(question["similarQuestions"]):
                 self.related.append("{} ({})".format(sq["title"], sq["titleSlug"]))
-        except:
-            logging.error("{}, {}".format(self.title, self.url))
+        except Exception as exc:
+            logging.error("{}: {}, {}".format(exc, self.title, self.url))
 
     def load(self, filename):
         with open(filename) as f:
             self.sort(json.load(f))
-        print("Load {} OK".format(filename))
+        self.loaded = True
+        logging.debug("Load {} OK".format(filename))
 
 
 class LC(object):
@@ -199,7 +195,12 @@ class LC(object):
 
     def args(self):
         p = argparse.ArgumentParser()
-        p.add_argument("--lang", default="python", help="Generate specific language code, default is python")
+        p.add_argument("--lang", default="python,golang",
+                       help="Generate specific language code, default is python and golang")
+        p.add_argument("--reload", action="store_true",
+                       help="Load cached list and regenerate all problems")
+        p.add_argument("--noshow", action="store_true", help="Not show problems")
+        p.add_argument("--nocode", action="store_true", help="Not generate code")
         p.add_argument("problems", nargs="*", help="Problems' slug name")
         self.arg = p.parse_args()
 
@@ -239,8 +240,8 @@ class LC(object):
 
     def detail(self, q):
         if q.paid:
-            print("Ignoring paid question {}({})".format(q.title, q.slug))
-            return
+            logging.info("Ignoring paid question {}({})".format(q.title, q.slug))
+            return False
 
         if os.path.exists(q.metaname()):
             q.load(q.metaname())
@@ -261,17 +262,10 @@ class LC(object):
             resp.raise_for_status()
             q.sort(resp.json().get("data"))
             time.sleep(.5)
+        return True
 
 
-def main():
-    lc = LC()
-    lc.args()
-    # lc.list()
-
-    lc.load("leetcode.json")
-    # lc.show()
-    # lc.save("leetcode.json")
-
+def code_generation(lc):
     if lc.arg.problems:
         for slug in lc.arg.problems:
             q = lc.qm.get(slug)
@@ -282,8 +276,26 @@ def main():
                 print("Not found {}".format(slug))
     else:
         for q in lc.qa:
-            lc.detail(q)
-            q.code(lc.arg.lang)
+            if lc.detail(q) and lc.arg.reload or not q.loaded:
+                q.code(lc.arg.lang)
+
+
+def main():
+    lc = LC()
+    lc.args()
+
+    if lc.arg.reload:
+        lc.load("leetcode.json")
+
+    if not lc.data:
+        lc.list()
+        lc.save("leetcode.json")
+
+    if not lc.arg.noshow:
+        lc.show()
+
+    if not lc.arg.nocode:
+        code_generation(lc)
 
 
 if __name__ == "__main__":

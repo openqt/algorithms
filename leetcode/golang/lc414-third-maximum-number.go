@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*414. Third Maximum Number
@@ -53,5 +53,5 @@ func thirdMax(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

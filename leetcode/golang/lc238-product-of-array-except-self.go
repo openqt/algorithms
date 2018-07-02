@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*238. Product of Array Except Self
@@ -36,5 +36,5 @@ func productExceptSelf(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*67. Add Binary
@@ -37,5 +37,5 @@ func addBinary(a string, b string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

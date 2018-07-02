@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*421. Maximum XOR of Two Numbers in an Array
@@ -33,5 +33,5 @@ func findMaximumXOR(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*676. Implement Magic Dictionary
@@ -69,5 +69,5 @@ func (this *MagicDictionary) Search(word string) bool {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

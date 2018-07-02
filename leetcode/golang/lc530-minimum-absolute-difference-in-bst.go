@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*530. Minimum Absolute Difference in BST
@@ -49,5 +49,5 @@ func getMinimumDifference(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

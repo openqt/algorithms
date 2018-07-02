@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*831. Masking Personal Information
@@ -111,5 +111,5 @@ func maskPII(S string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

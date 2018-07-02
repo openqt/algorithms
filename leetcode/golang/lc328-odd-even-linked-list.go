@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*328. Odd Even Linked List
@@ -51,5 +51,5 @@ func oddEvenList(head *ListNode) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

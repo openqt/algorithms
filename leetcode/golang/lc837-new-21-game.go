@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*837. New 21 Game
@@ -59,5 +59,5 @@ func new21Game(N int, K int, W int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

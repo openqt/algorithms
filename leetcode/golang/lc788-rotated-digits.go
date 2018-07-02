@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*788. Rotated Digits
@@ -41,5 +41,5 @@ func rotatedDigits(N int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

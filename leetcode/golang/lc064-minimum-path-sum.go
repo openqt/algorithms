@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*64. Minimum Path Sum
@@ -36,5 +36,5 @@ func minPathSum(grid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

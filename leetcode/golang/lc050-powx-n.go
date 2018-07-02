@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*50. Pow(x, n)
@@ -51,5 +51,5 @@ func myPow(x float64, n int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

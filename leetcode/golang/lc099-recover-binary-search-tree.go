@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*99. Recover Binary Search Tree
@@ -75,5 +75,5 @@ func recoverTree(root *TreeNode)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

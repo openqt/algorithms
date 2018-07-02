@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*791. Custom Sort String
@@ -46,5 +46,5 @@ func customSortString(S string, T string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

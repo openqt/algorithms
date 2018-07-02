@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*389. Find the Difference
@@ -37,5 +37,5 @@ func findTheDifference(s string, t string) byte {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

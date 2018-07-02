@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*482. License Key Formatting
@@ -58,5 +58,5 @@ func licenseKeyFormatting(S string, K int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

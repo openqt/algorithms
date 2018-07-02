@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*1. Two Sum
@@ -36,5 +36,5 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

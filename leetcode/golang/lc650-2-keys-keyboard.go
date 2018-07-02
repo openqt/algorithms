@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*650. 2 Keys Keyboard
@@ -43,5 +43,5 @@ func minSteps(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

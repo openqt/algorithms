@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*678. Valid Parenthesis String
@@ -54,5 +54,5 @@ func checkValidString(s string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

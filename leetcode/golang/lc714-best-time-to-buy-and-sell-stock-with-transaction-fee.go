@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*714. Best Time to Buy and Sell Stock with Transaction Fee
@@ -47,5 +47,5 @@ func maxProfit(prices []int, fee int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

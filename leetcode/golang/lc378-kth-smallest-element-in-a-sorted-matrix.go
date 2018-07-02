@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*378. Kth Smallest Element in a Sorted Matrix
@@ -42,5 +42,5 @@ func kthSmallest(matrix [][]int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

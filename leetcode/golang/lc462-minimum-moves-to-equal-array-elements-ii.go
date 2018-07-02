@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*462. Minimum Moves to Equal Array Elements II
@@ -38,5 +38,5 @@ func minMoves2(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

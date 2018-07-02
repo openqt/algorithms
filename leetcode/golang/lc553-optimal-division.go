@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*553. Optimal Division
@@ -48,5 +48,5 @@ func optimalDivision(nums []int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

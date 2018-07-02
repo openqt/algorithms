@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*762. Prime Number of Set Bits in Binary Representation
@@ -57,5 +57,5 @@ func countPrimeSetBits(L int, R int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

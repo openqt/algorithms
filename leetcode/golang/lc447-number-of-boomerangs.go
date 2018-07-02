@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*447. Number of Boomerangs
@@ -38,5 +38,5 @@ func numberOfBoomerangs(points [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

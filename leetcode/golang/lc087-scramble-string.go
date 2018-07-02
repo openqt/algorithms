@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*87. Scramble String
@@ -85,5 +85,5 @@ func isScramble(s1 string, s2 string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

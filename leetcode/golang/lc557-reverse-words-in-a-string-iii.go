@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*557. Reverse Words in a String III
@@ -30,5 +30,5 @@ func reverseWords(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

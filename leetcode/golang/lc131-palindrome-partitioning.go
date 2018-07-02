@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*131. Palindrome Partitioning
@@ -32,5 +32,5 @@ func partition(s string) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

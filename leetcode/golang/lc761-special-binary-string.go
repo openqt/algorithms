@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*761. Special Binary String
@@ -45,5 +45,5 @@ func makeLargestSpecial(S string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

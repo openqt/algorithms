@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*456. 132 Pattern
@@ -55,5 +55,5 @@ func find132pattern(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

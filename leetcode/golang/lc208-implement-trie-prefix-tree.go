@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*208. Implement Trie (Prefix Tree)
@@ -73,5 +73,5 @@ func (this *Trie) StartsWith(prefix string) bool {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

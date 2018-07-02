@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*134. Gas Station
@@ -68,5 +68,5 @@ func canCompleteCircuit(gas []int, cost []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

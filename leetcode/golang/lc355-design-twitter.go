@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*355. Design Twitter
@@ -94,5 +94,5 @@ func (this *Twitter) Unfollow(followerId int, followeeId int)  {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

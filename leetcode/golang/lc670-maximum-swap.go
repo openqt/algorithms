@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*670. Maximum Swap
@@ -41,5 +41,5 @@ func maximumSwap(num int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

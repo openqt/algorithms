@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*682. Baseball Game
@@ -66,5 +66,5 @@ func calPoints(ops []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

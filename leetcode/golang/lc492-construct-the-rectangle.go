@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*492. Construct the Rectangle
@@ -48,5 +48,5 @@ func constructRectangle(area int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*717. 1-bit and 2-bit Characters
@@ -50,5 +50,5 @@ func isOneBitCharacter(bits []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

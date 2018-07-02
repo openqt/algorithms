@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*474. Ones and Zeroes
@@ -51,5 +51,5 @@ func findMaxForm(strs []string, m int, n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

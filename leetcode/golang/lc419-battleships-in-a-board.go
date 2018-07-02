@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*419. Battleships in a Board
@@ -51,5 +51,5 @@ func countBattleships(board [][]byte) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

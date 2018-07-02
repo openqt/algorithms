@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*785. Is Graph Bipartite?
@@ -64,5 +64,5 @@ func isBipartite(graph [][]int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

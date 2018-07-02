@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*769. Max Chunks To Make Sorted
@@ -50,5 +50,5 @@ func maxChunksToSorted(arr []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

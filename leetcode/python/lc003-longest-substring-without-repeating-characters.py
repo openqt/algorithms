@@ -23,16 +23,17 @@ Similar Questions:
 """
 
 
-class Solution(object):
+class Solution(unittest.TestCase):
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str
         :rtype: int
         """
-        
 
     def test(self):
-        pass
+        self.assertEqual(self.lengthOfLongestSubstring("abcabcbb"), 3)
+        self.assertEqual(self.lengthOfLongestSubstring("bbbbb"), 1)
+        self.assertEqual(self.lengthOfLongestSubstring("pwwkew"), 3)
 
 
 if __name__ == "__main__":

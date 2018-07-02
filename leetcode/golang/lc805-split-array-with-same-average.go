@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*805. Split Array With Same Average
@@ -36,5 +36,5 @@ func splitArraySameAverage(A []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

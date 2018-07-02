@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*546. Remove Boxes
@@ -51,5 +51,5 @@ func removeBoxes(boxes []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

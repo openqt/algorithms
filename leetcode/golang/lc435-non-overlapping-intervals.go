@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*435. Non-overlapping Intervals
@@ -63,5 +63,5 @@ func eraseOverlapIntervals(intervals []Interval) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

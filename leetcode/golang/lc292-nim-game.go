@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*292. Nim Game
@@ -35,5 +35,5 @@ func canWinNim(n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

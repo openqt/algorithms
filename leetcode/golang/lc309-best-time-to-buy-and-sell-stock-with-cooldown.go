@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*309. Best Time to Buy and Sell Stock with Cooldown
@@ -35,5 +35,5 @@ func maxProfit(prices []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

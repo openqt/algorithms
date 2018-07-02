@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*740. Delete and Earn
@@ -53,5 +53,5 @@ func deleteAndEarn(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

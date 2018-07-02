@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*807. Max Increase to Keep City Skyline
@@ -59,5 +59,5 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

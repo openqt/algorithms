@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*780. Reaching Points
@@ -46,5 +46,5 @@ func reachingPoints(sx int, sy int, tx int, ty int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

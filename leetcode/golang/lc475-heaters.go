@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*475. Heaters
@@ -50,5 +50,5 @@ func findRadius(houses []int, heaters []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

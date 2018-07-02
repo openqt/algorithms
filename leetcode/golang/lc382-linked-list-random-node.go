@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*382. Linked List Random Node
@@ -63,5 +63,5 @@ func (this *Solution) GetRandom() int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

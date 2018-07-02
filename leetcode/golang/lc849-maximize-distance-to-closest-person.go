@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*849. Maximize Distance to Closest Person
@@ -53,5 +53,5 @@ func maxDistToClosest(seats []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

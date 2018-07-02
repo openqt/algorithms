@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*664. Strange Printer
@@ -44,5 +44,5 @@ func strangePrinter(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

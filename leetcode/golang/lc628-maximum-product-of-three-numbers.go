@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*628. Maximum Product of Three Numbers
@@ -40,5 +40,5 @@ func maximumProduct(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

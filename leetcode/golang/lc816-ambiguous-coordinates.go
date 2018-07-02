@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*816. Ambiguous Coordinates
@@ -67,5 +67,5 @@ func ambiguousCoordinates(S string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

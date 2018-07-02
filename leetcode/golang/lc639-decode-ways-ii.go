@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*639. Decode Ways II
@@ -58,5 +58,5 @@ func numDecodings(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

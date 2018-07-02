@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*675. Cut Off Trees for Golf Event
@@ -76,5 +76,5 @@ func cutOffTree(forest [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

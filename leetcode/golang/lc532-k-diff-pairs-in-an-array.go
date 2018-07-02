@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*532. K-diff Pairs in an Array
@@ -55,5 +55,5 @@ func findPairs(nums []int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

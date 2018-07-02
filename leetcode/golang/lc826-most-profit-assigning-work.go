@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*826. Most Profit Assigning Work
@@ -45,5 +45,5 @@ func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

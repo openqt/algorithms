@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*468. Validate IP Address
@@ -76,5 +76,5 @@ func validIPAddress(IP string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

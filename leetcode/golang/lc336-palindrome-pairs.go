@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*336. Palindrome Pairs
@@ -35,5 +35,5 @@ func palindromePairs(words []string) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*840. Magic Squares In Grid
@@ -52,5 +52,5 @@ func numMagicSquaresInside(grid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

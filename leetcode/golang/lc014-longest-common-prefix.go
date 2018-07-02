@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*14. Longest Common Prefix
@@ -42,5 +42,5 @@ func longestCommonPrefix(strs []string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

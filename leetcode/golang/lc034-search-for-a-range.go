@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*34. Search for a Range
@@ -37,5 +37,5 @@ func searchRange(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

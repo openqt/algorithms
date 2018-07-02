@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*300. Longest Increasing Subsequence
@@ -38,5 +38,5 @@ func lengthOfLIS(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

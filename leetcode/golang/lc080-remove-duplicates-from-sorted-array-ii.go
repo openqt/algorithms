@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*80. Remove Duplicates from Sorted Array II
@@ -65,5 +65,5 @@ func removeDuplicates(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

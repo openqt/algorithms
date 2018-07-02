@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*96. Unique Binary Search Trees
@@ -33,5 +33,5 @@ func numTrees(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

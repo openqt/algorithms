@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*268. Missing Number
@@ -42,5 +42,5 @@ func missingNumber(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

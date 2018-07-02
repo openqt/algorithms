@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*395. Longest Substring with At Least K Repeating Characters
@@ -45,5 +45,5 @@ func longestSubstring(s string, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

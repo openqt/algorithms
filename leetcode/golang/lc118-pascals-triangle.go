@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*118. Pascal's Triangle
@@ -37,5 +37,5 @@ func generate(numRows int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

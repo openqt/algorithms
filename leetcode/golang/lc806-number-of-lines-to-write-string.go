@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*806. Number of Lines To Write String
@@ -63,5 +63,5 @@ func numberOfLines(widths []int, S string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

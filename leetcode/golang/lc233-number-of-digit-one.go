@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*233. Number of Digit One
@@ -27,5 +27,5 @@ func countDigitOne(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

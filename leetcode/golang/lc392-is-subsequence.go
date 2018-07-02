@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*392. Is Subsequence
@@ -47,5 +47,5 @@ func isSubsequence(s string, t string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

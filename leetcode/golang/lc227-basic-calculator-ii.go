@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*227. Basic Calculator II
@@ -52,5 +52,5 @@ func calculate(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

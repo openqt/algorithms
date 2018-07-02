@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*838. Push Dominoes
@@ -63,5 +63,5 @@ func pushDominoes(dominoes string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

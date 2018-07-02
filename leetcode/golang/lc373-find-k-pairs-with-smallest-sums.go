@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*373. Find K Pairs with Smallest Sums
@@ -66,5 +66,5 @@ func kSmallestPairs(nums1 []int, nums2 []int, k int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

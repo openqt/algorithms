@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*203. Remove Linked List Elements
@@ -33,5 +33,5 @@ func removeElements(head *ListNode, val int) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

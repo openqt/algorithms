@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*234. Palindrome Linked List
@@ -44,5 +44,5 @@ func isPalindrome(head *ListNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

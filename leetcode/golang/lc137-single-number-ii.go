@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*137. Single Number II
@@ -40,5 +40,5 @@ func singleNumber(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

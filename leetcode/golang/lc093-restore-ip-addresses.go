@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*93. Restore IP Addresses
@@ -26,5 +26,5 @@ func restoreIpAddresses(s string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

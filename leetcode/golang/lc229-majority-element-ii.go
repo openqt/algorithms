@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*229. Majority Element II
@@ -35,5 +35,5 @@ func majorityElement(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

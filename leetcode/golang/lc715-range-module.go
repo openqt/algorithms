@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*715. Range Module
@@ -75,5 +75,5 @@ func (this *RangeModule) RemoveRange(left int, right int)  {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

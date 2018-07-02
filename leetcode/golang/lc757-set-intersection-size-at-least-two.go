@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*757. Set Intersection Size At Least Two
@@ -50,5 +50,5 @@ func intersectionSizeTwo(intervals [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*476. Number Complement
@@ -41,5 +41,5 @@ func findComplement(num int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

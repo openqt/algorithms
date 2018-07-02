@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*542. 01 Matrix
@@ -65,5 +65,5 @@ func updateMatrix(matrix [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

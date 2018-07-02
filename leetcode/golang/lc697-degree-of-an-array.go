@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*697. Degree of an Array
@@ -48,5 +48,5 @@ func findShortestSubArray(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

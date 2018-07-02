@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*393. UTF-8 Validation
@@ -64,5 +64,5 @@ func validUtf8(data []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

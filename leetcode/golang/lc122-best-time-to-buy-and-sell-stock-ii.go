@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*122. Best Time to Buy and Sell Stock II
@@ -59,5 +59,5 @@ func maxProfit(prices []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

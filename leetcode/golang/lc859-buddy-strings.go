@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*859. Buddy Strings
@@ -69,5 +69,5 @@ func buddyStrings(A string, B string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

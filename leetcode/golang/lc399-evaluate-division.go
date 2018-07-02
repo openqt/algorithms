@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*399. Evaluate Division
@@ -42,5 +42,5 @@ func calcEquation(equations [][]string, values []float64, queries [][]string) []
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

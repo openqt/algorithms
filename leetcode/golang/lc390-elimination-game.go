@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*390. Elimination Game
@@ -42,5 +42,5 @@ func lastRemaining(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

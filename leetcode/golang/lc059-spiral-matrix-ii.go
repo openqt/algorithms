@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*59. Spiral Matrix II
@@ -31,5 +31,5 @@ func generateMatrix(n int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

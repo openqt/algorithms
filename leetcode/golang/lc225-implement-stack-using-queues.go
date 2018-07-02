@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*225. Implement Stack using Queues
@@ -81,5 +81,5 @@ func (this *MyStack) Empty() bool {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*187. Repeated DNA Sequences
@@ -31,5 +31,5 @@ func findRepeatedDnaSequences(s string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

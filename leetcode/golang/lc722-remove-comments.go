@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*722. Remove Comments
@@ -105,5 +105,5 @@ func removeComments(source []string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

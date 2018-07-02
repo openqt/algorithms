@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*383. Ransom Note
@@ -31,5 +31,5 @@ func canConstruct(ransomNote string, magazine string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

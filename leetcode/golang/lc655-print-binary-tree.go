@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*655. Print Binary Tree
@@ -83,5 +83,5 @@ func printTree(root *TreeNode) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

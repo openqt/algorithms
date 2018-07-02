@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*817. Linked List Components
@@ -62,5 +62,5 @@ func numComponents(head *ListNode, G []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

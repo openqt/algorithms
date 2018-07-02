@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*37. Sudoku Solver
@@ -40,5 +40,5 @@ func solveSudoku(board [][]byte)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

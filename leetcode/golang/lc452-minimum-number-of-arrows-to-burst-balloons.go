@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*452. Minimum Number of Arrows to Burst Balloons
@@ -42,5 +42,5 @@ func findMinArrowShots(points [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*57. Insert Interval
@@ -46,5 +46,5 @@ func insert(intervals []Interval, newInterval Interval) []Interval {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

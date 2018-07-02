@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*824. Goat Latin
@@ -63,5 +63,5 @@ func toGoatLatin(S string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

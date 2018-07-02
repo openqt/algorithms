@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*23. Merge k Sorted Lists
@@ -39,5 +39,5 @@ func mergeKLists(lists []*ListNode) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

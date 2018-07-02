@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*36. Valid Sudoku
@@ -77,5 +77,5 @@ func isValidSudoku(board [][]byte) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

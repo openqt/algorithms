@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*76. Minimum Window Substring
@@ -37,5 +37,5 @@ func minWindow(s string, t string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

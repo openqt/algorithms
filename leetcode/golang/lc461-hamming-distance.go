@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*461. Hamming Distance
@@ -41,5 +41,5 @@ func hammingDistance(x int, y int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

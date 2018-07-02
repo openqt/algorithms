@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*303. Range Sum Query - Immutable
@@ -54,5 +54,5 @@ func (this *NumArray) SumRange(i int, j int) int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

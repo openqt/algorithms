@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*718. Maximum Length of Repeated Subarray
@@ -36,5 +36,5 @@ func findLength(A []int, B []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

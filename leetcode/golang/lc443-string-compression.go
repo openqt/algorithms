@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*443. String Compression
@@ -85,5 +85,5 @@ func compress(chars []byte) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

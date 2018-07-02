@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*334. Increasing Triplet Subsequence
@@ -40,5 +40,5 @@ func increasingTriplet(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

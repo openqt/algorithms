@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*669. Trim a Binary Search Tree
@@ -70,5 +70,5 @@ func trimBST(root *TreeNode, L int, R int) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

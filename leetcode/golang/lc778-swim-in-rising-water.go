@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*778. Swim in Rising Water
@@ -64,5 +64,5 @@ func swimInWater(grid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

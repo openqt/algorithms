@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*648. Replace Words
@@ -45,5 +45,5 @@ func replaceWords(dict []string, sentence string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

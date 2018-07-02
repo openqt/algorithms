@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*46. Permutations
@@ -36,5 +36,5 @@ func permute(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*289. Game of Life
@@ -60,5 +60,5 @@ func gameOfLife(board [][]int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

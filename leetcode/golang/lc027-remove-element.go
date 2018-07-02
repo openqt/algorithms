@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*27. Remove Element
@@ -72,5 +72,5 @@ func removeElement(nums []int, val int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

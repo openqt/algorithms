@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*632. Smallest Range
@@ -42,5 +42,5 @@ func smallestRange(nums [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

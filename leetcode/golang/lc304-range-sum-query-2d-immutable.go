@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*304. Range Sum Query 2D - Immutable
@@ -65,5 +65,5 @@ func (this *NumMatrix) SumRegion(row1 int, col1 int, row2 int, col2 int) int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

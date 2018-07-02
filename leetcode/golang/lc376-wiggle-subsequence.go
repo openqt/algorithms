@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*376. Wiggle Subsequence
@@ -56,5 +56,5 @@ func wiggleMaxLength(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*149. Max Points on a Line
@@ -58,5 +58,5 @@ func maxPoints(points []Point) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

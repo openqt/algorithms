@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*21. Merge Two Sorted Lists
@@ -36,5 +36,5 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

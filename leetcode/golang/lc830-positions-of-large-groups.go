@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*830. Positions of Large Groups
@@ -58,5 +58,5 @@ func largeGroupPositions(S string) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*526. Beautiful Arrangement
@@ -50,5 +50,5 @@ func countArrangement(N int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

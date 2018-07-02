@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*75. Sort Colors
@@ -43,5 +43,5 @@ func sortColors(nums []int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

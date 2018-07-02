@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*848. Shifting Letters
@@ -46,5 +46,5 @@ func shiftingLetters(S string, shifts []int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

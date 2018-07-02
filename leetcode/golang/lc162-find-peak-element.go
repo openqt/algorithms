@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*162. Find Peak Element
@@ -48,5 +48,5 @@ func findPeakElement(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

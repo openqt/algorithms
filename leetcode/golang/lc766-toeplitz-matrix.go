@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*766. Toeplitz Matrix
@@ -65,5 +65,5 @@ func isToeplitzMatrix(matrix [][]int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

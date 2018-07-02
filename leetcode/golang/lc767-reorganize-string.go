@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*767. Reorganize String
@@ -43,5 +43,5 @@ func reorganizeString(S string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

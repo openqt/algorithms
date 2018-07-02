@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*48. Rotate Image
@@ -65,5 +65,5 @@ func rotate(matrix [][]int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

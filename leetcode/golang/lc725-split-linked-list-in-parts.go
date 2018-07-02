@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*725. Split Linked List in Parts
@@ -70,5 +70,5 @@ func splitListToParts(root *ListNode, k int) []*ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

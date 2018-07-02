@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*220. Contains Duplicate III
@@ -45,5 +45,5 @@ func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

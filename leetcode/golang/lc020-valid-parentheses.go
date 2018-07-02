@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*20. Valid Parentheses
@@ -67,5 +67,5 @@ func isValid(s string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

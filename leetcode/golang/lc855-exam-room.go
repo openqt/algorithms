@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*855. Exam Room
@@ -79,5 +79,5 @@ func (this *ExamRoom) Leave(p int)  {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

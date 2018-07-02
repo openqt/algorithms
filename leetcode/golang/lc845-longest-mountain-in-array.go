@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*845. Longest Mountain in Array
@@ -56,5 +56,5 @@ func longestMountain(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

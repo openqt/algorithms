@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*387. First Unique Character in a String
@@ -32,5 +32,5 @@ func firstUniqChar(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

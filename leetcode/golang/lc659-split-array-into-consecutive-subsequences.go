@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*659. Split Array into Consecutive Subsequences
@@ -57,5 +57,5 @@ func isPossible(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

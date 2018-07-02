@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*126. Word Ladder II
@@ -60,5 +60,5 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*211. Add and Search Word - Data structure design
@@ -71,5 +71,5 @@ func (this *WordDictionary) Search(word string) bool {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

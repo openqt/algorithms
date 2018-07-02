@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*677. Map Sum Pairs
@@ -60,5 +60,5 @@ func (this *MapSum) Sum(prefix string) int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

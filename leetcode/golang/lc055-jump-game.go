@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*55. Jump Game
@@ -42,5 +42,5 @@ func canJump(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

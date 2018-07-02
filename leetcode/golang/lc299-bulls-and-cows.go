@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*299. Bulls and Cows
@@ -54,5 +54,5 @@ func getHint(secret string, guess string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

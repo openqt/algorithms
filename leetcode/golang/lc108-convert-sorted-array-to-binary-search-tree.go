@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*108. Convert Sorted Array to Binary Search Tree
@@ -45,5 +45,5 @@ func sortedArrayToBST(nums []int) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*3. Longest Substring Without Repeating Characters
@@ -29,5 +29,5 @@ func lengthOfLongestSubstring(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

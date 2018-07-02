@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*599. Minimum Index Sum of Two Lists
@@ -52,5 +52,5 @@ func findRestaurant(list1 []string, list2 []string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

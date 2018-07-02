@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*313. Super Ugly Number
@@ -37,5 +37,5 @@ func nthSuperUglyNumber(n int, primes []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

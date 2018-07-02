@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*79. Word Search
@@ -37,5 +37,5 @@ func exist(board [][]byte, word string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

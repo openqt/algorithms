@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*432. All O`one Data Structure
@@ -65,5 +65,5 @@ func (this *AllOne) GetMinKey() string {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*440. K-th Smallest in Lexicographical Order
@@ -34,5 +34,5 @@ func findKthNumber(n int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

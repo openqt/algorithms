@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*834. Sum of Distances in Tree
@@ -43,5 +43,5 @@ func sumOfDistancesInTree(N int, edges [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*583. Delete Operation for Two Strings
@@ -35,5 +35,5 @@ func minDistance(word1 string, word2 string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

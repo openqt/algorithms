@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*605. Can Place Flowers
@@ -47,5 +47,5 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

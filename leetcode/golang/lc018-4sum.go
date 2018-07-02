@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*18. 4Sum
@@ -40,5 +40,5 @@ func fourSum(nums []int, target int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

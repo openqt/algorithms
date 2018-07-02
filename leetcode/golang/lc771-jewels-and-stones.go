@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*771. Jewels and Stones
@@ -46,5 +46,5 @@ func numJewelsInStones(J string, S string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*643. Maximum Average Subarray I
@@ -34,5 +34,5 @@ func findMaxAverage(nums []int, k int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

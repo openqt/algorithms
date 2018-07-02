@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*813. Largest Sum of Averages
@@ -45,5 +45,5 @@ func largestSumOfAverages(A []int, K int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

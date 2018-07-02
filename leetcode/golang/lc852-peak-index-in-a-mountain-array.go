@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*852. Peak Index in a Mountain Array
@@ -45,5 +45,5 @@ func peakIndexInMountainArray(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*630. Course Schedule III
@@ -44,5 +44,5 @@ func scheduleCourse(courses [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

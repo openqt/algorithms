@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*520. Detect Capital
@@ -47,5 +47,5 @@ func detectCapitalUse(word string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*72. Edit Distance
@@ -52,5 +52,5 @@ func minDistance(word1 string, word2 string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

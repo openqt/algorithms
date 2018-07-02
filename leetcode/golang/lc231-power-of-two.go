@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*231. Power of Two
@@ -44,5 +44,5 @@ func isPowerOfTwo(n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

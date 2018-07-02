@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*115. Distinct Subsequences
@@ -63,5 +63,5 @@ func numDistinct(s string, t string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

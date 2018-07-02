@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*310. Minimum Height Trees
@@ -68,5 +68,5 @@ func findMinHeightTrees(n int, edges [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

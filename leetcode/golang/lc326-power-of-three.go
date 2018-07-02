@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*326. Power of Three
@@ -51,5 +51,5 @@ func isPowerOfThree(n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

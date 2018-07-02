@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*448. Find All Numbers Disappeared in an Array
@@ -35,5 +35,5 @@ func findDisappearedNumbers(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*216. Combination Sum III
@@ -40,5 +40,5 @@ func combinationSum3(k int, n int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

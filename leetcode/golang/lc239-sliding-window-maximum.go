@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*239. Sliding Window Maximum
@@ -48,5 +48,5 @@ func maxSlidingWindow(nums []int, k int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

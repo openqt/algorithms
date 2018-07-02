@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*8. String to Integer (atoi)
@@ -84,5 +84,5 @@ func myAtoi(str string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

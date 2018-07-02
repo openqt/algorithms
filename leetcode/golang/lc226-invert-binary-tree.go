@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*226. Invert Binary Tree
@@ -56,5 +56,5 @@ func invertTree(root *TreeNode) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

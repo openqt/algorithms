@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*290. Word Pattern
@@ -54,5 +54,5 @@ func wordPattern(pattern string, str string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

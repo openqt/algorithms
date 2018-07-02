@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*773. Sliding Puzzle
@@ -67,5 +67,5 @@ func slidingPuzzle(board [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

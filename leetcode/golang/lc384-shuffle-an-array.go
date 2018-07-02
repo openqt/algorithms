@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*384. Shuffle an Array
@@ -60,5 +60,5 @@ func (this *Solution) Shuffle() []int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

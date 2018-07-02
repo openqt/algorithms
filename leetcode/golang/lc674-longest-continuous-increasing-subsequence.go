@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*674. Longest Continuous Increasing Subsequence
@@ -41,5 +41,5 @@ func findLengthOfLCIS(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

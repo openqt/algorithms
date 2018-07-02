@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*733. Flood Fill
@@ -51,5 +51,5 @@ func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

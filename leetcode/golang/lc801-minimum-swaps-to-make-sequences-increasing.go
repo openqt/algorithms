@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*801. Minimum Swaps To Make Sequences Increasing
@@ -45,5 +45,5 @@ func minSwap(A []int, B []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*814. Binary Tree Pruning
@@ -69,5 +69,5 @@ func pruneTree(root *TreeNode) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*82. Remove Duplicates from Sorted List II
@@ -41,5 +41,5 @@ func deleteDuplicates(head *ListNode) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

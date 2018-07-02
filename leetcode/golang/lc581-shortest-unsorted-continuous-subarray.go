@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*581. Shortest Unsorted Continuous Subarray
@@ -36,5 +36,5 @@ func findUnsortedSubarray(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

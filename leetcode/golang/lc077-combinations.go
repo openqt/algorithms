@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*77. Combinations
@@ -35,5 +35,5 @@ func combine(n int, k int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

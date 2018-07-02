@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*477. Total Hamming Distance
@@ -41,5 +41,5 @@ func totalHammingDistance(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*847. Shortest Path Visiting All Nodes
@@ -52,5 +52,5 @@ func shortestPathLength(graph [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*833. Find And Replace in String
@@ -63,5 +63,5 @@ func findReplaceString(S string, indexes []int, sources []string, targets []stri
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

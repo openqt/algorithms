@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*102. Binary Tree Level Order Traversal
@@ -53,5 +53,5 @@ func levelOrder(root *TreeNode) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

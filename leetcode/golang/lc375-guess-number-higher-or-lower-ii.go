@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*375. Guess Number Higher or Lower II
@@ -52,5 +52,5 @@ func getMoneyAmount(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

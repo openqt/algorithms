@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*401. Binary Watch
@@ -43,5 +43,5 @@ func readBinaryWatch(num int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

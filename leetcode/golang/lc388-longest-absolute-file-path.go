@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*388. Longest Absolute File Path
@@ -70,5 +70,5 @@ func lengthLongestPath(input string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

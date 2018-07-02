@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*698. Partition to K Equal Sum Subsets
@@ -34,5 +34,5 @@ func canPartitionKSubsets(nums []int, k int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

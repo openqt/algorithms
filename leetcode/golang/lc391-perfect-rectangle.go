@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*391. Perfect Rectangle
@@ -87,5 +87,5 @@ func isRectangleCover(rectangles [][]int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

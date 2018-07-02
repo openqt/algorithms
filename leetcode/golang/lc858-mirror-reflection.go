@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*858. Mirror Reflection
@@ -47,5 +47,5 @@ func mirrorReflection(p int, q int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

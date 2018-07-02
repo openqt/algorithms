@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*467. Unique Substrings in Wraparound String
@@ -55,5 +55,5 @@ func findSubstringInWraproundString(p string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

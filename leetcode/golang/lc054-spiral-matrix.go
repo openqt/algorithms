@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*54. Spiral Matrix
@@ -44,5 +44,5 @@ func spiralOrder(matrix [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

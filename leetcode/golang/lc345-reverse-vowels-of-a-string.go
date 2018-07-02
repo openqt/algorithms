@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*345. Reverse Vowels of a String
@@ -28,5 +28,5 @@ func reverseVowels(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*802. Find Eventual Safe States
@@ -49,5 +49,5 @@ func eventualSafeNodes(graph [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*436. Find Right Interval
@@ -73,5 +73,5 @@ func findRightInterval(intervals []Interval) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

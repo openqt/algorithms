@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*352. Data Stream as Disjoint Intervals
@@ -72,5 +72,5 @@ func (this *SummaryRanges) Getintervals() []Interval {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

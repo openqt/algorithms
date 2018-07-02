@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*377. Combination Sum IV
@@ -49,5 +49,5 @@ func combinationSum4(nums []int, target int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

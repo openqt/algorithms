@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*835. Image Overlap
@@ -46,5 +46,5 @@ func largestOverlap(A [][]int, B [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

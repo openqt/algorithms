@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*812. Largest Triangle Area
@@ -37,5 +37,5 @@ func largestTriangleArea(points [][]int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

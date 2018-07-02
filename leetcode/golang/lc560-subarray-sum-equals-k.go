@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*560. Subarray Sum Equals K
@@ -35,5 +35,5 @@ func subarraySum(nums []int, k int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

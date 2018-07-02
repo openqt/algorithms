@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*342. Power of Four
@@ -29,5 +29,5 @@ func isPowerOfFour(num int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

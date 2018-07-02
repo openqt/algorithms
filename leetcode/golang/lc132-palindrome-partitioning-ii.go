@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*132. Palindrome Partitioning II
@@ -29,5 +29,5 @@ func minCut(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

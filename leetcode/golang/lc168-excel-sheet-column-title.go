@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*168. Excel Sheet Column Title
@@ -56,5 +56,5 @@ func convertToTitle(n int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

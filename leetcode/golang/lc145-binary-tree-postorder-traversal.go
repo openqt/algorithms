@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*145. Binary Tree Postorder Traversal
@@ -42,5 +42,5 @@ func postorderTraversal(root *TreeNode) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*413. Arithmetic Slices
@@ -55,5 +55,5 @@ func numberOfArithmeticSlices(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

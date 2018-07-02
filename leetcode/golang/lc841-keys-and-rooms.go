@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*841. Keys and Rooms
@@ -58,5 +58,5 @@ func canVisitAllRooms(rooms [][]int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

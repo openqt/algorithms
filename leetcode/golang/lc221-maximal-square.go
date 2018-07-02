@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*221. Maximal Square
@@ -32,5 +32,5 @@ func maximalSquare(matrix [][]byte) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

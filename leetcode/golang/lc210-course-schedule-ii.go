@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*210. Course Schedule II
@@ -55,5 +55,5 @@ func findOrder(numCourses int, prerequisites [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

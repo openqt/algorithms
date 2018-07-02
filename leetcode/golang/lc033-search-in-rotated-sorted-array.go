@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*33. Search in Rotated Sorted Array
@@ -44,5 +44,5 @@ func search(nums []int, target int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

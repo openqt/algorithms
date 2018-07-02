@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*47. Permutations II
@@ -33,5 +33,5 @@ func permuteUnique(nums []int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

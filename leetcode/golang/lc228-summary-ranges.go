@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*228. Summary Ranges
@@ -37,5 +37,5 @@ func summaryRanges(nums []int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

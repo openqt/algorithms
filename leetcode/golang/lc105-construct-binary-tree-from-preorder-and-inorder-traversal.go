@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*105. Construct Binary Tree from Preorder and Inorder Traversal
@@ -46,5 +46,5 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

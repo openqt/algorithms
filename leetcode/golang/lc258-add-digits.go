@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*258. Add Digits
@@ -32,5 +32,5 @@ func addDigits(num int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

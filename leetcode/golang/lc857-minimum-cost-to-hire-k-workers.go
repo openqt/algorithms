@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*857. Minimum Cost to Hire K Workers
@@ -57,5 +57,5 @@ func mincostToHireWorkers(quality []int, wage []int, K int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*502. IPO
@@ -53,5 +53,5 @@ func findMaximizedCapital(k int, W int, Profits []int, Capital []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

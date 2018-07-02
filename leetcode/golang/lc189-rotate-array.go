@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*189. Rotate Array
@@ -48,5 +48,5 @@ func rotate(nums []int, k int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

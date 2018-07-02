@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*202. Happy Number
@@ -37,5 +37,5 @@ func isHappy(n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

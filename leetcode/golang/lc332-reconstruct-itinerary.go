@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*332. Reconstruct Itinerary
@@ -48,5 +48,5 @@ func findItinerary(tickets [][]string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*30. Substring with Concatenation of All Words
@@ -42,5 +42,5 @@ func findSubstring(s string, words []string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

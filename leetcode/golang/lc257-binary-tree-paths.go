@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*257. Binary Tree Paths
@@ -44,5 +44,5 @@ func binaryTreePaths(root *TreeNode) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

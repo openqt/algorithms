@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*494. Target Sum
@@ -46,5 +46,5 @@ func findTargetSumWays(nums []int, S int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

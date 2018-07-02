@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*218. The Skyline Problem
@@ -55,5 +55,5 @@ func getSkyline(buildings [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*693. Binary Number with Alternating Bits
@@ -58,5 +58,5 @@ func hasAlternatingBits(n int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

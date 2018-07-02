@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*819. Most Common Word
@@ -52,5 +52,5 @@ func mostCommonWord(paragraph string, banned []string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

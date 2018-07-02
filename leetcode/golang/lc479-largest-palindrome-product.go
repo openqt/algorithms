@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*479. Largest Palindrome Product
@@ -33,5 +33,5 @@ func largestPalindrome(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*784. Letter Case Permutation
@@ -38,5 +38,5 @@ func letterCasePermutation(S string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

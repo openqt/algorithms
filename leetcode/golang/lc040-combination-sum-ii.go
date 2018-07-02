@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*40. Combination Sum II
@@ -52,5 +52,5 @@ func combinationSum2(candidates []int, target int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

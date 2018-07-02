@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*591. Tag Validator
@@ -101,5 +101,5 @@ func isValid(code string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

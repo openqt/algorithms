@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*19. Remove Nth Node From End of List
@@ -43,5 +43,5 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

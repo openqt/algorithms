@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*854. K-Similar Strings
@@ -59,5 +59,5 @@ func kSimilarity(A string, B string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

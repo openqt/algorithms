@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*319. Bulb Switcher
@@ -36,5 +36,5 @@ func bulbSwitch(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

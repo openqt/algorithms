@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*371. Sum of Two Integers
@@ -26,5 +26,5 @@ func getSum(a int, b int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

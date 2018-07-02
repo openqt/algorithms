@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*743. Network Delay Time
@@ -32,5 +32,5 @@ func networkDelayTime(times [][]int, N int, K int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

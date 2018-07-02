@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*598. Range Addition II
@@ -60,5 +60,5 @@ func maxCount(m int, n int, ops [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*41. First Missing Positive
@@ -49,5 +49,5 @@ func firstMissingPositive(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

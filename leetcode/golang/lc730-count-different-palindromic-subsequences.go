@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*730. Count Different Palindromic Subsequences
@@ -55,5 +55,5 @@ func countPalindromicSubsequences(S string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

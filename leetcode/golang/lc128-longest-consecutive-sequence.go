@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*128. Longest Consecutive Sequence
@@ -29,5 +29,5 @@ func longestConsecutive(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

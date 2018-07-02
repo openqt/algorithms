@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*498. Diagonal Traverse
@@ -38,5 +38,5 @@ func findDiagonalOrder(matrix [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

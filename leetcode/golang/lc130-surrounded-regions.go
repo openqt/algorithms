@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*130. Surrounded Regions
@@ -51,5 +51,5 @@ func solve(board [][]byte)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

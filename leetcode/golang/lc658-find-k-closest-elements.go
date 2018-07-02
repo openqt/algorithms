@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*658. Find K Closest Elements
@@ -51,5 +51,5 @@ func findClosestElements(arr []int, k int, x int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

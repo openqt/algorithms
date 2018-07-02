@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*295. Find Median from Data Stream
@@ -65,5 +65,5 @@ func (this *MedianFinder) FindMedian() float64 {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

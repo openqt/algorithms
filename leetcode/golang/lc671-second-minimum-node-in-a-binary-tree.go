@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*671. Second Minimum Node In a Binary Tree
@@ -61,5 +61,5 @@ func findSecondMinimumValue(root *TreeNode) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

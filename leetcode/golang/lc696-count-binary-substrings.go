@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*696. Count Binary Substrings
@@ -50,5 +50,5 @@ func countBinarySubstrings(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

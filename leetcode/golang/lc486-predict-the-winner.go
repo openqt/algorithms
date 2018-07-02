@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*486. Predict the Winner
@@ -53,5 +53,5 @@ func PredictTheWinner(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

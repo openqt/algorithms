@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*242. Valid Anagram
@@ -44,5 +44,5 @@ func isAnagram(s string, t string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*101. Symmetric Tree
@@ -52,5 +52,5 @@ func isSymmetric(root *TreeNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

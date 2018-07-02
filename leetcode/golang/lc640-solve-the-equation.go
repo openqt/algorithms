@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*640. Solve the Equation
@@ -66,5 +66,5 @@ func solveEquation(equation string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

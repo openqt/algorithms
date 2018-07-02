@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*45. Jump Game II
@@ -37,5 +37,5 @@ func jump(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*525. Contiguous Array
@@ -39,5 +39,5 @@ func findMaxLength(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

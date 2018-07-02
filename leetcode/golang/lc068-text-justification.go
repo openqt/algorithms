@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*68. Text Justification
@@ -88,5 +88,5 @@ func fullJustify(words []string, maxWidth int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*73. Set Matrix Zeroes
@@ -61,5 +61,5 @@ func setZeroes(matrix [][]int)  {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

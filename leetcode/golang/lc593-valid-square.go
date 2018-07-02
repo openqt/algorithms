@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*593. Valid Square
@@ -36,5 +36,5 @@ func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

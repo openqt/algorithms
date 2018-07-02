@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*592. Fraction Addition and Subtraction
@@ -63,5 +63,5 @@ func fractionAddition(expression string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

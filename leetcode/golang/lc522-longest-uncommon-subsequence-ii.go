@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*522. Longest Uncommon Subsequence II
@@ -43,5 +43,5 @@ func findLUSlength(strs []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

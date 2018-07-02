@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*260. Single Number III
@@ -33,5 +33,5 @@ func singleNumber(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

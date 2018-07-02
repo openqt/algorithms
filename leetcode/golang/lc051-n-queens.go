@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*51. N-Queens
@@ -46,5 +46,5 @@ func solveNQueens(n int) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

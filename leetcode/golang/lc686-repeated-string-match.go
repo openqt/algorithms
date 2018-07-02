@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*686. Repeated String Match
@@ -28,5 +28,5 @@ func repeatedStringMatch(A string, B string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

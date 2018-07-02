@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*516. Longest Palindromic Subsequence
@@ -55,5 +55,5 @@ func longestPalindromeSubseq(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

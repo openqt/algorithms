@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*318. Maximum Product of Word Lengths
@@ -45,5 +45,5 @@ func maxProduct(words []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

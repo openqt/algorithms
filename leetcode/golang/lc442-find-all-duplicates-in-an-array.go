@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*442. Find All Duplicates in an Array
@@ -33,5 +33,5 @@ func findDuplicates(nums []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

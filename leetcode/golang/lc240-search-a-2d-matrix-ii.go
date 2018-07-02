@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*240. Search a 2D Matrix II
@@ -41,5 +41,5 @@ func searchMatrix(matrix [][]int, target int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

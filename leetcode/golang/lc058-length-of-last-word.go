@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*58. Length of Last Word
@@ -31,5 +31,5 @@ func lengthOfLastWord(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

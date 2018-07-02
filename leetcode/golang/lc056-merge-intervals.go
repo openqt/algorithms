@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*56. Merge Intervals
@@ -49,5 +49,5 @@ func merge(intervals []Interval) []Interval {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

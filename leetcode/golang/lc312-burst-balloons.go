@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*312. Burst Balloons
@@ -38,5 +38,5 @@ func maxCoins(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

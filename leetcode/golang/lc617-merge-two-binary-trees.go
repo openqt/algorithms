@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*617. Merge Two Binary Trees
@@ -53,5 +53,5 @@ func mergeTrees(t1 *TreeNode, t2 *TreeNode) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*397. Integer Replacement
@@ -52,5 +52,5 @@ func integerReplacement(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*63. Unique Paths II
@@ -48,5 +48,5 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

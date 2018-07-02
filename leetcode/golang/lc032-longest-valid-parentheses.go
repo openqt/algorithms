@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*32. Longest Valid Parentheses
@@ -36,5 +36,5 @@ func longestValidParentheses(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

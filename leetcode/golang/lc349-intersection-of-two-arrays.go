@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*349. Intersection of Two Arrays
@@ -26,5 +26,5 @@ func intersection(nums1 []int, nums2 []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

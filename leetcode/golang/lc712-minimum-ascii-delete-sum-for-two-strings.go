@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*712. Minimum ASCII Delete Sum for Two Strings
@@ -49,5 +49,5 @@ func minimumDeleteSum(s1 string, s2 string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

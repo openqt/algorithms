@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*204. Count Primes
@@ -28,5 +28,5 @@ func countPrimes(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

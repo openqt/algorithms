@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*241. Different Ways to Add Parentheses
@@ -44,5 +44,5 @@ func diffWaysToCompute(input string) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

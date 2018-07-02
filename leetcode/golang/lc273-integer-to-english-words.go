@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*273. Integer to English Words
@@ -49,5 +49,5 @@ func numberToWords(num int) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

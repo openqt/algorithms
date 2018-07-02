@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*103. Binary Tree Zigzag Level Order Traversal
@@ -50,5 +50,5 @@ func zigzagLevelOrder(root *TreeNode) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

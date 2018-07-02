@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*416. Partition Equal Subset Sum
@@ -46,5 +46,5 @@ func canPartition(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

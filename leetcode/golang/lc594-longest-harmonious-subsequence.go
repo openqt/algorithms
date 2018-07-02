@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*594. Longest Harmonious Subsequence
@@ -34,5 +34,5 @@ func findLHS(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

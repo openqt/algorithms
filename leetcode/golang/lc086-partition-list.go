@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*86. Partition List
@@ -36,5 +36,5 @@ func partition(head *ListNode, x int) *ListNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

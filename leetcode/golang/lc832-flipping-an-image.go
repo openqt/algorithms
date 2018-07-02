@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*832. Flipping an Image
@@ -50,5 +50,5 @@ func flipAndInvertImage(A [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*434. Number of Segments in a String
@@ -28,5 +28,5 @@ func countSegments(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

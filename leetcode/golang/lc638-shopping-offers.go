@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*638. Shopping Offers
@@ -65,5 +65,5 @@ func shoppingOffers(price []int, special [][]int, needs []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

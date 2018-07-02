@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*65. Valid Number
@@ -33,5 +33,5 @@ func isNumber(s string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

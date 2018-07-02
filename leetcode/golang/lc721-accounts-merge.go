@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*721. Accounts Merge
@@ -53,5 +53,5 @@ func accountsMerge(accounts [][]string) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

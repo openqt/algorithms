@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*4. Median of Two Sorted Arrays
@@ -41,5 +41,5 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

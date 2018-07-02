@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*798. Smallest Rotation with Highest Score
@@ -61,5 +61,5 @@ func bestRotation(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

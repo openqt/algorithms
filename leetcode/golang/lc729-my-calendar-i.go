@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*729. My Calendar I
@@ -69,5 +69,5 @@ func (this *MyCalendar) Book(start int, end int) bool {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

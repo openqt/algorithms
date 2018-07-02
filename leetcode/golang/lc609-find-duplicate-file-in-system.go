@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*609. Find Duplicate File in System
@@ -65,5 +65,5 @@ func findDuplicate(paths []string) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

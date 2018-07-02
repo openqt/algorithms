@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*100. Same Tree
@@ -67,5 +67,5 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

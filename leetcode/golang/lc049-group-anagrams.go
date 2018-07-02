@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*49. Group Anagrams
@@ -36,5 +36,5 @@ func groupAnagrams(strs []string) [][]string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

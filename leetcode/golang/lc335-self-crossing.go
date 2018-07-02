@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*335. Self Crossing
@@ -67,5 +67,5 @@ func isSelfCrossing(x []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

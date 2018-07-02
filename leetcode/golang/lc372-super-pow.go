@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*372. Super Pow
@@ -43,5 +43,5 @@ func superPow(a int, b []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

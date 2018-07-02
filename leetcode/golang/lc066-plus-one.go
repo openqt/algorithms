@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*66. Plus One
@@ -44,5 +44,5 @@ func plusOne(digits []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

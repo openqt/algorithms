@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*150. Evaluate Reverse Polish Notation
@@ -61,5 +61,5 @@ func evalRPN(tokens []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

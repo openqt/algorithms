@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*575. Distribute Candies
@@ -49,5 +49,5 @@ func distributeCandies(candies []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

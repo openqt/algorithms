@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*699. Falling Squares
@@ -98,5 +98,5 @@ func fallingSquares(positions [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*567. Permutation in String
@@ -43,5 +43,5 @@ func checkInclusion(s1 string, s2 string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

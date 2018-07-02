@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*398. Random Pick Index
@@ -54,5 +54,5 @@ func (this *Solution) Pick(target int) int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*420. Strong Password Checker
@@ -29,5 +29,5 @@ func strongPasswordChecker(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

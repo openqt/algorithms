@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*9. Palindrome Number
@@ -49,5 +49,5 @@ func isPalindrome(x int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

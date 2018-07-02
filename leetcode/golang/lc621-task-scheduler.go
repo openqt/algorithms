@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*621. Task Scheduler
@@ -43,5 +43,5 @@ func leastInterval(tasks []byte, n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

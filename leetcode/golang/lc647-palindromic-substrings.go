@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*647. Palindromic Substrings
@@ -46,5 +46,5 @@ func countSubstrings(s string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

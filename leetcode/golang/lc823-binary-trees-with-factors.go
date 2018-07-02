@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*823. Binary Trees With Factors
@@ -49,5 +49,5 @@ func numFactoredBinaryTrees(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

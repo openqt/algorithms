@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*756. Pyramid Transition Matrix
@@ -64,5 +64,5 @@ func pyramidTransition(bottom string, allowed []string) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

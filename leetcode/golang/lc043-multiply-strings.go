@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*43. Multiply Strings
@@ -44,5 +44,5 @@ func multiply(num1 string, num2 string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

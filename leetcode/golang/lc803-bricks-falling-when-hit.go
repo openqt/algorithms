@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*803. Bricks Falling When Hit
@@ -55,5 +55,5 @@ func hitBricks(grid [][]int, hits [][]int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

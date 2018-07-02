@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*851. Loud and Rich
@@ -63,5 +63,5 @@ func loudAndRich(richer [][]int, quiet []int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

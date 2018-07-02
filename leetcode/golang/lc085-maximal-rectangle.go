@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*85. Maximal Rectangle
@@ -33,5 +33,5 @@ func maximalRectangle(matrix [][]byte) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

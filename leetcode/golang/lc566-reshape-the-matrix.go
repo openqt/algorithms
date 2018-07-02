@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*566. Reshape the Matrix
@@ -65,5 +65,5 @@ func matrixReshape(nums [][]int, r int, c int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*538. Convert BST to Greater Tree
@@ -42,5 +42,5 @@ func convertBST(root *TreeNode) *TreeNode {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

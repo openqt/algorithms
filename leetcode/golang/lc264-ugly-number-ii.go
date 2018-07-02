@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*264. Ugly Number II
@@ -38,5 +38,5 @@ func nthUglyNumber(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

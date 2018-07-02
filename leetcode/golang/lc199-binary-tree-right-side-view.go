@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*199. Binary Tree Right Side View
@@ -41,5 +41,5 @@ func rightSideView(root *TreeNode) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

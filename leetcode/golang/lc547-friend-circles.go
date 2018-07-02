@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*547. Friend Circles
@@ -62,5 +62,5 @@ func findCircleNum(M [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

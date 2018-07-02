@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*744. Find Smallest Letter Greater Than Target
@@ -64,5 +64,5 @@ func nextGreatestLetter(letters []byte, target byte) byte {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

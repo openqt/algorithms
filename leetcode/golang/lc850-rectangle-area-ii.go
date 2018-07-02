@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*850. Rectangle Area II
@@ -52,5 +52,5 @@ func rectangleArea(rectangles [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

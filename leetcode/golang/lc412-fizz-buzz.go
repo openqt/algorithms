@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*412. Fizz Buzz
@@ -48,5 +48,5 @@ func fizzBuzz(n int) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

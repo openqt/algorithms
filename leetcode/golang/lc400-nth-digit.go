@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*400. Nth Digit
@@ -47,5 +47,5 @@ func findNthDigit(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

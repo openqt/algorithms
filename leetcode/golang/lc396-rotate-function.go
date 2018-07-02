@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*396. Rotate Function
@@ -41,5 +41,5 @@ func maxRotateFunction(A []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

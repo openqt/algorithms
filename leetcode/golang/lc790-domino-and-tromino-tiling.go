@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*790. Domino and Tromino Tiling
@@ -49,5 +49,5 @@ func numTilings(N int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

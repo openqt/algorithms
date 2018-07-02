@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*825. Friends Of Appropriate Ages
@@ -66,5 +66,5 @@ func numFriendRequests(ages []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

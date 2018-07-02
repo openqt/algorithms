@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*322. Coin Change
@@ -40,5 +40,5 @@ func coinChange(coins []int, amount int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

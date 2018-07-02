@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*154. Find Minimum in Rotated Sorted Array II
@@ -44,5 +44,5 @@ func findMin(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

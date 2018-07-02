@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*810. Chalkboard XOR Game
@@ -46,5 +46,5 @@ func xorGame(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

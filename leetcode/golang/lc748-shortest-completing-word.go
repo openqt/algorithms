@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*748. Shortest Completing Word
@@ -58,5 +58,5 @@ func shortestCompletingWord(licensePlate string, words []string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

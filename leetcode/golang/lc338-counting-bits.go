@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*338. Counting Bits
@@ -32,5 +32,5 @@ func countBits(num int) []int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

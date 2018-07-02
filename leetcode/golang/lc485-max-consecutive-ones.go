@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*485. Max Consecutive Ones
@@ -33,5 +33,5 @@ func findMaxConsecutiveOnes(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

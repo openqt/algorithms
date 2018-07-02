@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*52. N-Queens II
@@ -43,5 +43,5 @@ func totalNQueens(n int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*672. Bulb Switcher II
@@ -57,5 +57,5 @@ func flipLights(n int, m int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

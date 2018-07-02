@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*217. Contains Duplicate
@@ -43,5 +43,5 @@ func containsDuplicate(nums []int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

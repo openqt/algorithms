@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*745. Prefix and Suffix Search
@@ -57,5 +57,5 @@ func (this *WordFilter) F(prefix string, suffix string) int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

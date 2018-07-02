@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*799. Champagne Tower
@@ -61,5 +61,5 @@ func champagneTower(poured int, query_row int, query_glass int) float64 {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*394. Decode String
@@ -38,5 +38,5 @@ func decodeString(s string) string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

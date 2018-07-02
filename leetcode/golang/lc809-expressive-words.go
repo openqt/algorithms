@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*809. Expressive Words
@@ -54,5 +54,5 @@ func expressiveWords(S string, words []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

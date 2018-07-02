@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*155. Min Stack
@@ -74,5 +74,5 @@ func (this *MinStack) GetMin() int {
  */
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

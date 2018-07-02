@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*839. Similar String Groups
@@ -48,5 +48,5 @@ func numSimilarGroups(A []string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

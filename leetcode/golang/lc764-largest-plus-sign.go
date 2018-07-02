@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*764. Largest Plus Sign
@@ -95,5 +95,5 @@ func orderOfLargestPlusSign(N int, mines [][]int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

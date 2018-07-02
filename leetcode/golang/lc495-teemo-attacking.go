@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*495. Teemo Attacking
@@ -57,5 +57,5 @@ func findPoisonedDuration(timeSeries []int, duration int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

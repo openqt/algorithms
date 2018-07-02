@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*135. Candy
@@ -45,5 +45,5 @@ func candy(ratings []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

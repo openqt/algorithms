@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*301. Remove Invalid Parentheses
@@ -45,5 +45,5 @@ func removeInvalidParentheses(s string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

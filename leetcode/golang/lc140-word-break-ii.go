@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*140. Word Break II
@@ -60,5 +60,5 @@ func wordBreak(s string, wordDict []string) []string {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

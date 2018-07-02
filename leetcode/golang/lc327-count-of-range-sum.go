@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*327. Count of Range Sum
@@ -33,5 +33,5 @@ func countRangeSum(nums []int, lower int, upper int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

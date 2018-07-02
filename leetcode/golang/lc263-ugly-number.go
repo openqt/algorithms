@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*263. Ugly Number
@@ -54,5 +54,5 @@ func isUgly(num int) bool {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

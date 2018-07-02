@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*661. Image Smoother
@@ -44,5 +44,5 @@ func imageSmoother(M [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

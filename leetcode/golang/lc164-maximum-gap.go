@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*164. Maximum Gap
@@ -43,5 +43,5 @@ func maximumGap(nums []int) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

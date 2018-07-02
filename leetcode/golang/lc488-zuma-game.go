@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*488. Zuma Game
@@ -58,5 +58,5 @@ func findMinStep(board string, hand string) int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }

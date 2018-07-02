@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+    "fmt"
 )
 
 /*797. All Paths From Source to Target
@@ -40,5 +40,5 @@ func allPathsSourceTarget(graph [][]int) [][]int {
 }
 
 func main() {
-	fmt.Println()
+    fmt.Println()
 }
