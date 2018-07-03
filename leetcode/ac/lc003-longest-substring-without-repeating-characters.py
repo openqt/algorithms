@@ -29,11 +29,24 @@ class Solution(unittest.TestCase):
         :type s: str
         :rtype: int
         """
+        cache = {}
+        val, pos = 0, 0
+        while pos < len(s):
+            if s[pos] in cache:
+                pos = cache[s[pos]] + 1
+                val = max(val, len(cache))
+                cache.clear()
+            else:
+                cache[s[pos]] = pos
+                pos += 1
+        val = max(val, len(cache))
+        return val
 
     def test(self):
         self.assertEqual(self.lengthOfLongestSubstring("abcabcbb"), 3)
         self.assertEqual(self.lengthOfLongestSubstring("bbbbb"), 1)
         self.assertEqual(self.lengthOfLongestSubstring("pwwkew"), 3)
+        self.assertEqual(self.lengthOfLongestSubstring("c"), 1)
 
 
 if __name__ == "__main__":
