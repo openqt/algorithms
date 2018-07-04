@@ -35,17 +35,21 @@ Similar Questions:
 """
 
 
-class Solution(object):
+class Solution(unittest.TestCase):
     def findMedianSortedArrays(self, nums1, nums2):
         """
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: float
         """
-        
+        if (len(nums1) + len(nums2)) % 2 == 0:  # even
+            pass
+        else:  # odd
+            pass
 
     def test(self):
-        pass
+        self.assertEqual(self.findMedianSortedArrays([1, 3], [2]), 2.0)
+        self.assertEqual(self.findMedianSortedArrays([1, 2], [3, 4]), 2.5)
 
 
 if __name__ == "__main__":
