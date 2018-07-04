@@ -1,7 +1,7 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 /*1. Two Sum
@@ -32,9 +32,17 @@ Similar Questions:
   Two Sum IV - Input is a BST (two-sum-iv-input-is-a-bst)
 */
 func twoSum(nums []int, target int) []int {
-    
+	cache := make(map[int]int)
+	for n, i := range nums {
+		val := target - i
+		if pos, ok := cache[val]; ok {
+			return []int{pos, n}
+		}
+		cache[i] = n
+	}
+	return nil
 }
 
 func main() {
-    fmt.Println()
+	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
 }
