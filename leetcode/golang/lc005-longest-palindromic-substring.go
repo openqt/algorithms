@@ -35,7 +35,7 @@ Similar Questions:
   Palindromic Substrings (palindromic-substrings)
 */
 func longestPalindrome(s string) string {
-    
+
 }
 
 func main() {

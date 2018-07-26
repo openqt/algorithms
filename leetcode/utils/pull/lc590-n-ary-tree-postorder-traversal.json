@@ -1,0 +1,33 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "questionId": "776", 
+    "questionDetailUrl": "/problems/n-ary-tree-postorder-traversal/", 
+    "infoVerified": false, 
+    "questionFrontendId": "590", 
+    "questionTitleSlug": "n-ary-tree-postorder-traversal", 
+    "similarQuestions": "[{\"title\": \"Binary Tree Postorder Traversal\", \"titleSlug\": \"binary-tree-postorder-traversal\", \"difficulty\": \"Hard\", \"translatedTitle\": null}, {\"title\": \"N-ary Tree Level Order Traversal\", \"titleSlug\": \"n-ary-tree-level-order-traversal\", \"difficulty\": \"Easy\", \"translatedTitle\": null}, {\"title\": \"N-ary Tree Preorder Traversal\", \"titleSlug\": \"n-ary-tree-preorder-traversal\", \"difficulty\": \"Easy\", \"translatedTitle\": null}]", 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"], \"csharp\": [\"C#\", \"<p>Compiled with <code>mono 5.12.0</code> providing <a href=\\\"https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7\\\" target=\\\"_blank\\\">full support for C# 7</a>.</p>\\r\\n\\r\\n<p>Your code is compiled with debug flag enabled (<code>/debug</code>).</p>\"]}", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "name": "Tree", 
+        "slug": "tree"
+      }
+    ], 
+    "content": "<p>Given an n-ary tree, return the <i>postorder</i> traversal of its nodes&#39; values.</p>\r\n&nbsp;\r\n\r\n<p>For example, given a <code>3-ary</code> tree:</p>\r\n\r\n<p><img height=\"40%\" src=\"/static/images/problemset/NaryTreeExample.png\" width=\"40%\" /></p>\r\n&nbsp;\r\n\r\n<p>Return its postorder traversal as: <code>[5,6,3,2,4,1]</code>.</p>\r\n&nbsp;\r\n\r\n<p><b>Note:</b> Recursive solution is trivial, could you do it iteratively?</p>", 
+    "difficulty": "Easy", 
+    "libraryUrl": null, 
+    "questionTitle": "N-ary Tree Postorder Traversal", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\nclass Node {\\r\\npublic:\\r\\n    int val;\\r\\n    vector<Node*> children;\\r\\n\\r\\n    Node() {}\\r\\n\\r\\n    Node(int _val, vector<Node*> _children) {\\r\\n        val = _val;\\r\\n        children = _children;\\r\\n    }\\r\\n};\\r\\n*/\\r\\nclass Solution {\\r\\npublic:\\r\\n    vector<int> postorder(Node* root) {\\r\\n        \\r\\n    }\\r\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\nclass Node {\\r\\n    public int val;\\r\\n    public List<Node> children;\\r\\n\\r\\n    public Node() {}\\r\\n\\r\\n    public Node(int _val,List<Node> _children) {\\r\\n        val = _val;\\r\\n        children = _children;\\r\\n    }\\r\\n};\\r\\n*/\\r\\nclass Solution {\\r\\n    public List<Integer> postorder(Node root) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"\\\"\\\"\\\"\\r\\n# Definition for a Node.\\r\\nclass Node(object):\\r\\n    def __init__(self, val, children):\\r\\n        self.val = val\\r\\n        self.children = children\\r\\n\\\"\\\"\\\"\\r\\nclass Solution(object):\\r\\n    def postorder(self, root):\\r\\n        \\\"\\\"\\\"\\r\\n        :type root: Node\\r\\n        :rtype: List[int]\\r\\n        \\\"\\\"\\\"\"}, {\"value\": \"csharp\", \"text\": \"C#\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\npublic class Node {\\r\\n    public int val;\\r\\n    public IList<Node> children;\\r\\n\\r\\n    public Node(){}\\r\\n    public Node(int _val,IList<Node> _children) {\\r\\n        val = _val;\\r\\n        children = _children;\\r\\n}\\r\\n*/\\r\\npublic class Solution {\\r\\n    public IList<int> Postorder(Node root) {\\r\\n        \\r\\n    }\\r\\n}\"}]", 
+    "contributors": "[]", 
+    "categoryTitle": "Algorithms", 
+    "article": "{}", 
+    "allowDiscuss": true, 
+    "metaData": "{\r\n  \"name\": \"postorder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"Node\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<integer>\"\r\n  },\r\n  \"structures\": [\r\n    {\r\n      \"name\": \"Node\",\r\n      \"comment\": \"Definition for a Node.\",\r\n      \"members\": [\r\n        {\r\n          \"name\": \"val\",\r\n          \"type\": \"integer\"\r\n        },\r\n        {\r\n          \"name\": \"children\",\r\n          \"type\": \"list<Node>\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }
+}

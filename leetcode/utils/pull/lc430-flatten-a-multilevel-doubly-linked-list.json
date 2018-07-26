@@ -1,0 +1,38 @@
+{
+  "isCurrentUserAuthenticated": false, 
+  "isPremium": false, 
+  "question": {
+    "questionId": "766", 
+    "questionDetailUrl": "/problems/flatten-a-multilevel-doubly-linked-list/", 
+    "infoVerified": false, 
+    "questionFrontendId": "430", 
+    "questionTitleSlug": "flatten-a-multilevel-doubly-linked-list", 
+    "similarQuestions": "[{\"title\": \"Flatten Binary Tree to Linked List\", \"titleSlug\": \"flatten-binary-tree-to-linked-list\", \"difficulty\": \"Medium\", \"translatedTitle\": null}]", 
+    "translatedContent": null, 
+    "envInfo": "{\"cpp\": [\"C++\", \"<p>Compiled with <code>g++ 6.3</code> using the latest C++ 14 standard.</p>\\r\\n\\r\\n<p>Your code is compiled with level one optimization (<code>-O1</code>). <a href=\\\"https://github.com/google/sanitizers/wiki/AddressSanitizer\\\" target=\\\"_blank\\\">AddressSanitizer</a> is also enabled to help detect out-of-bounds and use-after-free bugs.</p>\\r\\n\\r\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"java\": [\"Java\", \"<p>Compiled with <code>java 1.8.0</code> taking advantage of the latest Java 8 features such as lambda expressions and stream API.</p>\\n\\n<p>Most standard library headers are already included automatically for your convenience.</p>\"], \"python\": [\"Python\", \"<p>Compiled with <code>python 2.7.12</code>.</p>\\n\\n<p>Most libraries are already imported automatically for your convenience, such as <a href=\\\"https://docs.python.org/2/library/array.html\\\" target=\\\"_blank\\\">array</a>, <a href=\\\"https://docs.python.org/2/library/bisect.html\\\" target=\\\"_blank\\\">bisect</a>, <a href=\\\"https://docs.python.org/2/library/collections.html\\\" target=\\\"_blank\\\">collections</a>. If you need more libraries, you can import it yourself.</p>\\n\\n<p>Note that Python 2.7 <a href=\\\"https://www.python.org/dev/peps/pep-0373/\\\" target=\\\"_blank\\\">will not be maintained past 2020</a>. For the latest Python, please choose Python3 instead.</p>\"], \"csharp\": [\"C#\", \"<p>Compiled with <code>mono 5.12.0</code> providing <a href=\\\"https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7\\\" target=\\\"_blank\\\">full support for C# 7</a>.</p>\\r\\n\\r\\n<p>Your code is compiled with debug flag enabled (<code>/debug</code>).</p>\"]}", 
+    "topicTags": [
+      {
+        "translatedName": null, 
+        "name": "Linked List", 
+        "slug": "linked-list"
+      }, 
+      {
+        "translatedName": null, 
+        "name": "Depth-first Search", 
+        "slug": "depth-first-search"
+      }
+    ], 
+    "content": "<p>You are given a doubly linked list which in addition to the next and previous pointers, it could have a child pointer, which may or may not point to a separate doubly linked list. These child lists may have one or more children of their own, and so on, to produce a multilevel data structure, as shown in the example below.</p>\r\n\r\n<p>Flatten the list so that all the nodes appear in a single-level, doubly linked list. You are given the head of the first level of the list.</p>\r\n\r\n<p><strong>Example:</strong></p>\r\n\r\n<pre>\r\n<strong>Input:</strong>\r\n 1---2---3---4---5---6--NULL\r\n         |\r\n         7---8---9---10--NULL\r\n             |\r\n             11--12--NULL\r\n\r\n<strong>Output:</strong>\r\n1-2-3-7-8-11-12-9-10-4-5-6-NULL\r\n</pre>\r\n\r\n<p><strong>Explanation for the above example:</strong></p>\r\n\r\n<p>Given the following multilevel doubly linked list:</p>\r\n\r\n<p><img src=\"/static/images/problemset/MultilevelLinkedList.png\" style=\"height:50%; width:50%\" /></p>\r\n\r\n<p>We should return the following flattened doubly linked list:</p>\r\n\r\n<p><img src=\"/static/images/problemset/MultilevelLinkedListFlattened.png\" style=\"height:90%; width:90%\" /></p>", 
+    "difficulty": "Medium", 
+    "libraryUrl": null, 
+    "questionTitle": "Flatten a Multilevel Doubly Linked List", 
+    "codeDefinition": "[{\"value\": \"cpp\", \"text\": \"C++\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\nclass Node {\\r\\npublic:\\r\\n    int val = NULL;\\r\\n    Node* prev = NULL;\\r\\n    Node* next = NULL;\\r\\n    Node* child = NULL;\\r\\n\\r\\n    Node() {}\\r\\n\\r\\n    Node(int _val, Node* _prev, Node* _next, Node* _child) {\\r\\n        val = _val;\\r\\n        prev = _prev;\\r\\n        next = _next;\\r\\n        child = _child;\\r\\n    }\\r\\n};\\r\\n*/\\r\\nclass Solution {\\r\\npublic:\\r\\n    Node* flatten(Node* head) {\\r\\n        \\r\\n    }\\r\\n};\"}, {\"value\": \"java\", \"text\": \"Java\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\nclass Node {\\r\\n    public int val;\\r\\n    public Node prev;\\r\\n    public Node next;\\r\\n    public Node child;\\r\\n\\r\\n    public Node() {}\\r\\n\\r\\n    public Node(int _val,Node _prev,Node _next,Node _child) {\\r\\n        val = _val;\\r\\n        prev = _prev;\\r\\n        next = _next;\\r\\n        child = _child;\\r\\n    }\\r\\n};\\r\\n*/\\r\\nclass Solution {\\r\\n    public Node flatten(Node head) {\\r\\n        \\r\\n    }\\r\\n}\"}, {\"value\": \"python\", \"text\": \"Python\", \"defaultCode\": \"\\\"\\\"\\\"\\r\\n# Definition for a Node.\\r\\nclass Node(object):\\r\\n    def __init__(self, val, prev, next, child):\\r\\n        self.val = val\\r\\n        self.prev = prev\\r\\n        self.next = next\\r\\n        self.child = child\\r\\n\\\"\\\"\\\"\\r\\nclass Solution(object):\\r\\n    def flatten(self, head):\\r\\n        \\\"\\\"\\\"\\r\\n        :type head: Node\\r\\n        :rtype: Node\\r\\n        \\\"\\\"\\\"\"}, {\"value\": \"csharp\", \"text\": \"C#\", \"defaultCode\": \"/*\\r\\n// Definition for a Node.\\r\\npublic class Node {\\r\\n    public int val;\\r\\n    public Node prev;\\r\\n    public Node next;\\r\\n    public Node child;\\r\\n\\r\\n    public Node(){}\\r\\n    public Node(int _val,Node _prev,Node _next,Node _child) {\\r\\n        val = _val;\\r\\n        prev = _prev;\\r\\n        next = _next;\\r\\n        child = _child;\\r\\n}\\r\\n*/\\r\\npublic class Solution {\\r\\n    public Node Flatten(Node head) {\\r\\n        \\r\\n    }\\r\\n}\"}]", 
+    "contributors": "[{\"username\": \"1337c0d3r\", \"profileUrl\": \"/1337c0d3r/\"}]", 
+    "categoryTitle": "Algorithms", 
+    "article": "{}", 
+    "allowDiscuss": true, 
+    "metaData": "{\r\n  \"name\": \"flatten\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"Node\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"Node\"\r\n  },\r\n  \"structures\": [\r\n    {\r\n      \"name\": \"Node\",\r\n      \"comment\": \"Definition for a Node.\",\r\n      \"members\": [\r\n        {\r\n          \"name\": \"val\",\r\n          \"type\": \"integer\"\r\n        },\r\n        {\r\n          \"name\": \"prev\",\r\n          \"type\": \"Node\"\r\n        },\r\n        {\r\n          \"name\": \"next\",\r\n          \"type\": \"Node\"\r\n        },\r\n        {\r\n          \"name\": \"child\",\r\n          \"type\": \"Node\"\r\n        }\r\n      ]\r\n    }\r\n  ]\r\n}", 
+    "mysqlSchemas": [], 
+    "translatedTitle": null
+  }
+}
