@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 /*1. Two Sum
 https://leetcode.com/problems/two-sum/description/
@@ -31,6 +29,16 @@ Similar Questions:
   Subarray Sum Equals K (subarray-sum-equals-k)
   Two Sum IV - Input is a BST (two-sum-iv-input-is-a-bst)
 */
+
+/* https://leetcode.com/articles/two-sum/
+
+Approach 3: One-pass Hash Table
+
+It turns out we can do it in one-pass. While we iterate and inserting elements into the table,
+we also look back to check if current element's complement already exists in the table.
+If it exists, we have found a solution and return immediately.
+
+ */
 func twoSum(nums []int, target int) []int {
 	cache := make(map[int]int)
 	for n, i := range nums {

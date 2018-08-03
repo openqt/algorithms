@@ -37,6 +37,13 @@ type ListNode struct {
     Next *ListNode
 }
 
+/* https://leetcode.com/articles/add-two-numbers/
+
+Approach 1: Elementary Math
+
+Keep track of the carry using a variable and simulate digits-by-digits sum starting from the head of list,
+which contains the least-significant digit.
+ */
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     head := ListNode{}
     p, carry := &head, 0
