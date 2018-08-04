@@ -39,17 +39,39 @@ Similar Questions:
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
-# def isBadVersion(version):
+def isBadVersion(version):
+    return False
 
-class Solution(object):
+
+class Solution(unittest.TestCase):
     def firstBadVersion(self, n):
         """
         :type n: int
         :rtype: int
         """
+        i, j = 1, n
+        while i < j:
+            m = int((j + i) / 2)
+            if isBadVersion(m):
+                j = m
+            else:
+                i = m + 1
+        return i
 
     def test(self):
-        pass
+        global isBadVersion
+
+        isBadVersion = lambda ver: ver >= 4
+        self.assertEqual(self.firstBadVersion(5), 4)
+
+        isBadVersion = lambda ver: ver >= 1
+        self.assertEqual(self.firstBadVersion(1), 1)
+
+        isBadVersion = lambda ver: ver >= 2
+        self.assertEqual(self.firstBadVersion(2), 2)
+
+        isBadVersion = lambda ver: ver >= 2
+        self.assertEqual(self.firstBadVersion(3), 2)
 
 
 if __name__ == "__main__":
