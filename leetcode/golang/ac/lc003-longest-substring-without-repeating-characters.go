@@ -48,7 +48,6 @@ func lengthOfLongestSubstring(s string) int {
         } else {
             delete(cache, s[i])
             i += 1
-
         }
     }
     return val
