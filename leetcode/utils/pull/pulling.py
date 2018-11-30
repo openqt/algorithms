@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding=utf-8
 import argparse
 import json
 import logging
@@ -71,7 +72,6 @@ query getQuestionDetail($titleSlug: String!) {
     translatedContent
     difficulty
     allowDiscuss
-    contributors
     similarQuestions
     mysqlSchemas
     categoryTitle
@@ -220,6 +220,10 @@ class LC(object):
             self.qa.append(q)
             self.qm[q.slug] = q
 
+            # 删除不重要的变量值
+            status['stat'].pop('total_acs')
+            status['stat'].pop('total_submitted')
+
     def show(self):
         pt = prettytable.PrettyTable(["ID", "Title", "Level", "Paid"])
         pt.align["Title"] = "l"
@@ -259,7 +263,10 @@ class LC(object):
             self.sess.headers["referer"] = q.url
             self.sess.headers["x-csrftoken"] = self.sess.cookies["csrftoken"]
             resp = self.sess.post("https://leetcode.com/graphql", json=body)
-            resp.raise_for_status()
+            if resp.status_code >= 400:
+                logging.error(resp.content)
+                resp.raise_for_status()
+
             q.sort(resp.json().get("data"))
             time.sleep(.5)
         return True
