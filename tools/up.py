@@ -26,12 +26,17 @@ class UpOneLevel(object):
     def __init__(self):
         pass
 
+    def show_exception(self):
+        etype, value, tb = sys.exc_info()
+        msg = traceback.format_exception(etype, value, tb)
+        print(" > ", msg[-1])
+
     def renfile(self, old, new):
         try:
             os.rename(old, new)
             return True
         except:
-            print("FAILED: %s => %s: %s" % (old, new, traceback.format_exc(0)))
+            self.show_exception()
         return False
 
     def upfiles(self, topdir):
@@ -40,22 +45,29 @@ class UpOneLevel(object):
         """
         topdir = path.normpath(topdir)  # 规范化路径以备后继处理
         upname = path.basename(topdir)  # 分解当前路径，提升用
+        print("In %s" % topdir)
 
         num = 0
-        for name in os.listdir(topdir):  # 遍历当前目录
-            oldfile = path.join(topdir, name)  # 合成全路径
-            if not path.isfile(oldfile):  # 非文件类型不处理
-                logging.info("Ignoring non-file: %s", oldfile)
-                continue
+        try:
+            for name in os.listdir(topdir):  # 遍历当前目录
+                oldfile = path.join(topdir, name)  # 合成全路径
+                if not path.isfile(oldfile):  # 非文件类型不处理
+                    logging.info("Ignoring non-file: %s", oldfile)
+                    continue
 
-            newname = "%s.%s" % (upname, name)
-            newfile = path.abspath(path.join(topdir, '..', newname))
-            print("%s => %s" % (oldfile, newfile))
+                newname = "%s.%s" % (upname, name)
+                newfile = path.abspath(path.join(topdir, '..', newname))
+                print("%s => %s" % (oldfile, newfile))
 
-            if self.renfile(oldfile, newfile):
-                num += 1
+                if self.renfile(oldfile, newfile):
+                    num += 1
+                logging.info("Up %s file(s) from %s.", num, topdir)
 
-        logging.info("Up %s file(s) from %s.", num, topdir)
+            print("Delete %s" % topdir)
+            os.rmdir(topdir)
+        except:
+            self.show_exception()
+
         return num
 
     def walk(self, path):
@@ -69,12 +81,11 @@ class UpOneLevel(object):
 
 def main():
     up = UpOneLevel()
-    logging.debug("In %s" % os.getcwd())
+    logging.debug("Current %s" % os.getcwd())
 
     # up.upfiles("/tmp/t/t")
     top = sys.argv[1]
     up.upfiles(top)
-    os.rmdir(top)
 
 
 if __name__ == '__main__':
