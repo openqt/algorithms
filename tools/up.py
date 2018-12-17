@@ -28,6 +28,13 @@ def Arg(*a, **ka):
     return _func
 
 
+def show_exception():
+    """显示简要的错误信息"""
+    etype, value, tb = sys.exc_info()
+    msg = traceback.format_exception(etype, value, tb)
+    print(" > ", msg[-1])
+
+
 class StepFiles(object):
     """ 找到所有的叶子节点并且做一次文件提升操作
 
@@ -40,12 +47,6 @@ class StepFiles(object):
     def __init__(self):
         pass
 
-    def __show_exception(self):
-        """显示简要的错误信息"""
-        etype, value, tb = sys.exc_info()
-        msg = traceback.format_exception(etype, value, tb)
-        print(" > ", msg[-1])
-
     def __renfile(self, old, new):
         """重命名文件，处理异常
         :param old: 原始文件名
@@ -56,7 +57,7 @@ class StepFiles(object):
             os.rename(old, new)
             return True
         except:
-            self.__show_exception()
+            show_exception()
         return False
 
     def upfiles(self, topdir):
@@ -70,25 +71,22 @@ class StepFiles(object):
         logging.debug("In %s" % topdir)
 
         num = 0
-        try:
-            for name in os.listdir(topdir):  # 遍历当前目录
-                oldfile = path.join(topdir, name)  # 合成全路径
-                if not path.isfile(oldfile):  # 非文件类型不处理
-                    logging.info("Ignoring non-file: %s", oldfile)
-                    continue
+        for name in os.listdir(topdir):  # 遍历当前目录
+            oldfile = path.join(topdir, name)  # 合成全路径
+            if not path.isfile(oldfile):  # 非文件类型不处理
+                logging.info("Ignoring non-file: %s", oldfile)
+                continue
 
-                newname = "%s.%s" % (upname, name)
-                newfile = path.abspath(path.join(topdir, '..', newname))
-                print("%s => %s" % (oldfile, newfile))  # 显示改名前后信息
+            newname = "%s.%s" % (upname, name)
+            newfile = path.abspath(path.join(topdir, '..', newname))
+            print("%s => %s" % (oldfile, newfile))  # 显示改名前后信息
 
-                if self.__renfile(oldfile, newfile):
-                    num += 1  # 改名成功记录一次
-                logging.info("Up %s file(s) from %s.", num, topdir)
+            if self.__renfile(oldfile, newfile):
+                num += 1  # 改名成功记录一次
+            logging.info("Up %s file(s) from %s.", num, topdir)
 
-            print("Delete %s" % topdir)
-            os.rmdir(topdir)
-        except:
-            self.__show_exception()
+        print("Delete %s" % topdir)
+        os.rmdir(topdir)
 
         return num
 
@@ -110,9 +108,12 @@ def up(topdir):
     """上移文件"""
     step = StepFiles()
     ok = False
-    for i in step.walk(topdir):
-        ok = True
-        step.upfiles(i)
+    try:
+        for i in step.walk(topdir):
+            ok = True
+            step.upfiles(i)
+    except:
+        show_exception()
     return ok
 
 
@@ -120,9 +121,12 @@ def down(topdir):
     """下移文件"""
     step = StepFiles()
     ok = False
-    for i in step.walk(topdir):
-        ok = True
-        step.downfiles(i)
+    try:
+        for i in step.walk(topdir):
+            ok = True
+            step.downfiles(i)
+    except:
+        show_exception()
     return ok
 
 
