@@ -3,25 +3,32 @@
 from __future__ import print_function
 
 import argparse
+import functools
 import logging
 import os
 import sys
 import traceback
 from os import path
 
-ap = argparse.ArgumentParser(description="Move files up/down folders")
-ap.add_argument("topdir", nargs="*", default=".", help="Top (root) path")
-
 logging.basicConfig(level=logging.WARN)
 
 
-def Arg(*a, **ka):
+def Arg(*args, **kwargs):
     """简化的参数配置"""
-    ap.add_argument(*a, **ka)
+    parser = getattr(Arg, 'parser', None)
+    if not parser:  # 将参数解析放到函数属性内
+        parser = argparse.ArgumentParser(description="ove files up/down folders")
+        parser.add_argument("topdir", nargs="*", default=".", help="Top (root) path")
+
+        Arg.parser = parser
 
     def _func(func):
-        def _args(*args, **kwargs):
-            return func(*args, **kwargs)
+        logging.debug("%s - %s, %s", func.__name__, args, kwargs)
+        parser.add_argument(*args, **kwargs)
+
+        @functools.wraps(func)
+        def _args(*_args, **_kwargs):
+            return func(*_args, **_kwargs)
 
         return _args
 
@@ -66,7 +73,7 @@ class StepFiles(object):
         :return: 成功改名的文件数量
 
         """
-        topdir = path.normpath(topdir)  # 规范化路径以备后继处理
+        topdir = path.abspath(topdir)  # 规范化路径以备后继处理
         upname = path.basename(topdir)  # 分解当前路径，提升用
         logging.debug("In %s" % topdir)
 
@@ -86,7 +93,7 @@ class StepFiles(object):
             logging.info("Up %s file(s) from %s.", num, topdir)
 
         print("Delete %s" % topdir)
-        os.rmdir(topdir)
+        os.rmdir(topdir)  # 会删除当前制定路径
 
         return num
 
@@ -136,7 +143,7 @@ def main(**kwargs):
     """主函数入口"""
     logging.debug("Current %s" % os.getcwd())
 
-    argv = ap.parse_args()
+    argv = Arg.parser.parse_args()
     print(argv)
 
     def _logic(func):
