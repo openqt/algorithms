@@ -4,6 +4,7 @@ from __future__ import print_function
 
 import argparse
 import functools
+import re
 
 
 def Arg(*args, **kwargs):
@@ -28,12 +29,18 @@ def Arg(*args, **kwargs):
 
 
 class IP(object):
-    def __init__(self, ip=None):
+    cidr_rule = re.compile(r'^\d+\.\d+\.\d+\.\d+/\d+$')
+    addr_rule = re.compile(r'^\d+\.\d+\.\d+\.\d+$')
+
+    def __init__(self, ip=None, mask=None):
         self._addr = bytearray(4)
         self._mask = bytearray(4)
 
         if ip:
-            self.addr, self.cidr = ip.split('/', 1)
+            if mask:
+                self.addr, self.mask = ip, mask
+            else:
+                self.addr, self.cidr = ip.split('/', 1)
 
     @property
     def cidr(self):
@@ -61,7 +68,16 @@ class IP(object):
 
     @property
     def mask(self):
+        """子网掩码表示"""
         return self.tostr(self._mask)
+
+    @mask.setter
+    def mask(self, s):
+        """子网掩码字符表示转为内部结构"""
+        if not IP.addr_rule.match(s):
+            return
+        for n, i in enumerate(s.split('.')):
+            self._mask[n] = int(i)
 
     @property
     def addr(self):
@@ -96,6 +112,7 @@ class IP(object):
                 self._addr[n] = i
 
     def binmask(self, data):
+        """二进制表示法"""
         s = ""
         for i in data:
             s += "{:08b} ".format(i)
@@ -103,6 +120,7 @@ class IP(object):
 
     @property
     def min_range(self):
+        """网络IP最小值"""
         val = []
         for i in range(4):
             val.append(self._addr[i] & self._mask[i])
@@ -110,6 +128,7 @@ class IP(object):
 
     @property
     def max_range(self):
+        """网络IP最大值"""
         val = []
         for i in range(4):
             addr = self._addr[i] & self._mask[i]
@@ -128,29 +147,25 @@ class IP(object):
         print()
 
         print("ADDR: %s" % self.binmask(self._addr))
-        print("MASK: %s" % self.binmask(self._mask))
+        print("MASK: %s" % self.binmask(self._mask).replace('0', '-'))
         print()
 
 
 @Arg("-a", "--auto", action='store_true', help="Calculate IP Address by local device")
-def main(**kwargs):
+def main():
     """主函数入口"""
     argv = Arg.parser.parse_args()
-    for ip in argv.ip:
-        a = IP(ip)
-        a.show()
+    if len(argv.ip) == 2 and not IP.cidr_rule.match(argv.ip[0]):
+        ip = IP(*argv.ip)
+        ip.show()
+        exit(0)
 
-    # a.ip = [192, 168, "0", "1"]
-    # a.cidr = 2
-    # a.show()
-    #
-    # a.ip = "192168172001"
-    # a.cidr = 21
-    # a.show()
-    #
-    # a.ip = 10174246005
-    # a.cidr = 21
-    # a.show()
+    for ip in argv.ip:
+        if IP.cidr_rule.match(ip):
+            ip = IP(ip)
+            ip.show()
+        else:
+            print("%s malformed." % ip)
 
 
 if __name__ == '__main__':
