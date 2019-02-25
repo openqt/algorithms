@@ -41,9 +41,16 @@ class Solution(object):
         :type root: Node
         :rtype: List[int]
         """
+        output = []
+        self._postorder(root, output)
+        return output
 
-    def test(self):
-        pass
+    def _postorder(self, node, output):
+        if node:
+            for child in node.children:
+                self._postorder(child, output)
+            output.append(node.val)
+
 
 
 if __name__ == "__main__":

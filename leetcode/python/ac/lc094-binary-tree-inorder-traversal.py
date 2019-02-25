@@ -47,10 +47,15 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        
+        output = []
+        self._inorder(root, output)
+        return output
 
-    def test(self):
-        pass
+    def _inorder(self, node, output):
+        if node:
+            self._inorder(node.left, output)
+            output.append(node.val)
+            self._inorder(node.right, output)
 
 
 if __name__ == "__main__":
