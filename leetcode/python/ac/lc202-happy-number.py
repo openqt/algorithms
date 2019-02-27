@@ -37,10 +37,25 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        
+        seq = set()
+        while True:
+            n = self._calc(n)
+            if n == 1: return True
+            if n in seq: return False
+            seq.add(n)
 
+    def _calc(self, n):
+        val = 0
+        while n > 0:
+            val += (n % 10)**2
+            n //= 10
+        return val
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.isHappy(19))
 
 
 if __name__ == "__main__":
