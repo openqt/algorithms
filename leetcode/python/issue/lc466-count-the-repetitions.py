@@ -43,10 +43,31 @@ class Solution(object):
         :type n2: int
         :rtype: int
         """
-        
+        v1 = s1 * n1
+        v2 = s2 * n2
+        total = 0
+        idx = 0
+        print(">")
+        for c in v1:
+            if idx < len(v2):
+                idx += int(c == v2[idx])
+            if idx >= len(v2):
+                total += 1
+                idx = 0
+        return total
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.getMaxRepetitions("acb", 4, "ab", 2), 2)
+
+    def test2(self):
+        s = Solution()
+        self.assertEqual(
+            s.getMaxRepetitions(
+                "phqghumeaylnlfdxfircvscxggbwkfnqduxwfnfozvsrtkjpre", 1000000,
+                "pggxr", 100), 10000)
 
 
 if __name__ == "__main__":

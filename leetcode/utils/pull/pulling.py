@@ -29,6 +29,7 @@ $related
 
 $code
 
+class T(unittest.TestCase):
     def test(self):
         pass
 
