@@ -59,6 +59,7 @@ class Solution(object):
         """
         
 
+class T(unittest.TestCase):
     def test(self):
         pass
 

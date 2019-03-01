@@ -56,11 +56,31 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        
+        low = []
+        total, profit = [], 0
+        for i in range(1, len(prices)):
+            if prices[i] >= prices[i-1]:
+                pass
+            else:
+                low.append(prices[i])
+                total.append(profit)
+                profit = 0
+        total.append(profit)
+        print(total)
+        return sum(sorted(total, reverse=True)[:2])
 
-    def test(self):
-        pass
 
+class T(unittest.TestCase):
+    def _test(self):
+        s = Solution()
+        self.assertEqual(s.maxProfit([]), 0)
+        self.assertEqual(s.maxProfit([3,3,5,0,0,3,1,4]), 6)
+        self.assertEqual(s.maxProfit([1,2,3,4,5]), 4)
+        self.assertEqual(s.maxProfit([7,6,4,3,1]), 0)
+
+    def test2(self):
+        s = Solution()
+        self.assertEqual(s.maxProfit([1,2,4,2,5,7,2,4,9,0]), 13)
 
 if __name__ == "__main__":
     unittest.main()

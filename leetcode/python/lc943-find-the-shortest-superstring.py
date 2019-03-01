@@ -46,10 +46,13 @@ class Solution(object):
         :type A: List[str]
         :rtype: str
         """
-        
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.shortestSuperstring(["alex", "loves", "leetcode"]), "alexlovesleetcode")
+        self.assertEqual(s.shortestSuperstring(["catg", "ctaagt", "gcta", "ttca", "atgcatc"]), "gctaagttcatgcatc")
 
 
 if __name__ == "__main__":

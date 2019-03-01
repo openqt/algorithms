@@ -50,10 +50,22 @@ class Solution(object):
         :type bits: List[int]
         :rtype: bool
         """
+        i, one = 0, False
+        while i < len(bits):
+            if bits[i] == 0:
+                i += 1
+                one = True
+            else:
+                i += 2
+                one = False
+        return one
         
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.isOneBitCharacter([1,0,0]))
+        self.assertFalse(s.isOneBitCharacter([1,1,1,0]))
 
 
 if __name__ == "__main__":

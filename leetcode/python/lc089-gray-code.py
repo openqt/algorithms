@@ -53,10 +53,22 @@ class Solution(object):
         :type n: int
         :rtype: List[int]
         """
-        
+        code, val = [0], 2**n-1
+        filter = {0}
+        for i in range(n**2):
+            if val not in filter:
+                code.append(val)
+                filter.add(val)
+            val = val ^ (val>>1)
+        return code
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.grayCode(0), [0])
+        # self.assertEqual(s.grayCode(2), [0, 1, 3, 2])
+        self.assertEqual(s.grayCode(3), [0,1,3,2,6,7,5,4])
 
 
 if __name__ == "__main__":
