@@ -40,10 +40,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        
 
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(self.eq(s.subsets([1, 2, 2]), [[2], [1], [1, 2, 2], [2, 2], [1, 2], []]))
+
+    def eq(self, a, b):
+        return set([str(i) for i in a]) == set([str(i) for i in b])
 
 
 if __name__ == "__main__":

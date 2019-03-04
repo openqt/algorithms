@@ -48,18 +48,25 @@ Similar Questions:
 
 
 class Solution(object):
-    def grayCode(self, n):
+    def grayCode1(self, n):
         """
         :type n: int
         :rtype: List[int]
         """
-        code, val = [0], 2**n-1
-        filter = {0}
-        for i in range(n**2):
-            if val not in filter:
-                code.append(val)
-                filter.add(val)
-            val = val ^ (val>>1)
+        code = [0]
+        for i in range(n):
+            mask = 1 << i
+            code.extend([i | mask for i in code[::-1]])
+        return code
+
+    def grayCode(self, n):
+        """Gray码的第n个数（从0算起）是n xor (n shr 1)
+        :type n: int
+        :rtype: List[int]
+        """
+        code = []
+        for i in range(2 ** n):
+            code.append(i ^ (i >> 1))
         return code
 
 
@@ -67,8 +74,8 @@ class T(unittest.TestCase):
     def test(self):
         s = Solution()
         self.assertEqual(s.grayCode(0), [0])
-        # self.assertEqual(s.grayCode(2), [0, 1, 3, 2])
-        self.assertEqual(s.grayCode(3), [0,1,3,2,6,7,5,4])
+        self.assertEqual(s.grayCode(2), [0, 1, 3, 2])
+        self.assertEqual(s.grayCode(3), [0, 1, 3, 2, 6, 7, 5, 4])
 
 
 if __name__ == "__main__":
