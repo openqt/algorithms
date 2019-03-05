@@ -40,7 +40,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-
+        combs = {str([]): []}
+        for n in nums:
+            vals = [i + [n] for i in combs.values()] + [[n]]
+            combs.update({str(i): i for i in vals})
+        return list(combs.values())
 
 
 class T(unittest.TestCase):
