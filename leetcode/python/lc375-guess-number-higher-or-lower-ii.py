@@ -44,7 +44,7 @@ Similar Questions:
   Can I Win (can-i-win)
   Find K Closest Elements (find-k-closest-elements)
 """
-
+import sys
 
 class Solution(object):
     def getMoneyAmount(self, n):
@@ -52,10 +52,20 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        
+        vals = [[sys.maxsize]*(n+1) for i in range(n)]
+        for n in range(1, n+1):
+            for v in reversed(range(n, len(vals))):
+                vals[n][v] = min()
 
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        # self.assertEqual(s.getMoneyAmount(1), 0)
+        # self.assertEqual(s.getMoneyAmount(2), 1)
+        self.assertEqual(s.getMoneyAmount(3), 2)
+        self.assertEqual(s.getMoneyAmount(10), 20)
 
 
 if __name__ == "__main__":

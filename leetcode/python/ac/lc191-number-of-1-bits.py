@@ -43,10 +43,19 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        val = 0
+        while n > 0:
+            val += 1
+            n &= n - 1
+        return val
         
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.hammingWeight(0b00000000000000000000000000001011), 3)
+        self.assertEqual(s.hammingWeight(0b00000000000000000000000010000000), 1)
+        self.assertEqual(s.hammingWeight(0b11111111111111111111111111111101), 31)
 
 
 if __name__ == "__main__":

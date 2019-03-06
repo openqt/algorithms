@@ -32,10 +32,16 @@ class Solution(object):
         :type num: int
         :rtype: List[int]
         """
-        
+        val = [0] * (num + 1)
+        for i in range(1, len(val)):
+            val[i] = val[i & (i - 1)] + 1
+        return val
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.countBits(5), [0, 1, 1, 2, 1, 2])
 
 
 if __name__ == "__main__":
