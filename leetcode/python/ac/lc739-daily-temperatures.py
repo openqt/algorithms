@@ -27,9 +27,22 @@ class Solution(object):
         :type temperatures: List[int]
         :rtype: List[int]
         """
+        val = [0] * len(temperatures)
+        stack = []
+        for n in range(len(temperatures)):
+            while stack and temperatures[n] > stack[-1][0]:
+                t = stack.pop()
+                val[t[1]] = n - t[1]
 
+            stack.append((temperatures[n], n))  # (temperature, position) pair
+        return val
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73]), [1, 1, 4, 2, 1, 1, 0, 0])
+        self.assertEqual(s.dailyTemperatures([68, 69, 71, 70, 69, 72, 69, 68, 70]), [1, 1, 3, 2, 1, 0, 2, 1, 0])
 
 
 if __name__ == "__main__":

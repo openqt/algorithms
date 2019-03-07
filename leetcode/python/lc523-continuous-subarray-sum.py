@@ -45,10 +45,15 @@ class Solution(object):
         :type k: int
         :rtype: bool
         """
-        
 
+
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.checkSubarraySum([23, 2, 4, 6, 7], k=6))
+        self.assertTrue(s.checkSubarraySum([23, 2, 4, 6, 7], k=42))
 
 
 if __name__ == "__main__":

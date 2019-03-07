@@ -34,10 +34,21 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        
+        nums = nums*2
+        vals = [-1]*len(nums)
+        stack = []
+        for n, i in enumerate(nums):
+            while stack and i > stack[-1][0]:
+                t = stack.pop()
+                vals[t[1]] = i
+            stack.append((i, n))
+        return vals[:len(vals)//2]
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.nextGreaterElements([1, 2, 1]), [2, -1, 2])
 
 
 if __name__ == "__main__":
