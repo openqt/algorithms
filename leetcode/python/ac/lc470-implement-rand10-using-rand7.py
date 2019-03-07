@@ -59,16 +59,21 @@ Similar Questions:
 # The rand7() API is already defined for you.
 # def rand7():
 # @return a random integer in the range 1 to 7
+def rand7() -> int:
+    pass
+
 
 class Solution(object):
     def rand10(self):
         """
         :rtype: int
         """
-        
+        return self._rand40() % 10 + 1
 
-    def test(self):
-        pass
+    def _rand40(self):
+        while True:
+            n = (rand7() - 1) * 7 + rand7()
+            if n <= 40: return n
 
 
 if __name__ == "__main__":

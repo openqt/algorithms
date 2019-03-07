@@ -47,10 +47,21 @@ class Solution(object):
         :type shifts: List[int]
         :rtype: str
         """
-        
+        s, n = "", sum(shifts)
+        for i in range(len(shifts)):
+            if i > 0:
+                n -= shifts[i-1]
+            s += self._shift(S[i], n)
+        return s
 
+    def _shift(self, c, n=1):
+        return chr((ord(c) - ord('a') + n) % 26 + ord('a'))
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.shiftingLetters("abc", [3, 5, 9]), "rpl")
 
 
 if __name__ == "__main__":
