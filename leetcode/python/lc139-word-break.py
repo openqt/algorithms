@@ -54,8 +54,12 @@ class Solution(object):
         """
         
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.wordBreak("leetcode", ["leet", "code"]))
+        self.assertTrue(s.wordBreak("applepenapple", ["apple", "pen"]))
+        self.assertFalse(s.wordBreak("catsandog", ["cats", "dog", "sand", "and", "cat"]))
 
 
 if __name__ == "__main__":

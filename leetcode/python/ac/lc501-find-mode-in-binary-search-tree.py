@@ -52,10 +52,17 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
-        
+        self.mem = {}
+        self._preorder(root)
+        if not self.mem: return []
+        n = max(self.mem.values())
+        return [i for i in self.mem if self.mem[i] == n]
 
-    def test(self):
-        pass
+    def _preorder(self, node):
+        if node:
+            self.mem[node.val] = self.mem.setdefault(node.val, 0) + 1
+            self._preorder(node.left)
+            self._preorder(node.right)
 
 
 if __name__ == "__main__":

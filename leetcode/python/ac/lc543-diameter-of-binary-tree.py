@@ -45,10 +45,27 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        
+        if root:
+            return max(self._depth(root.left) + self._depth(root.right),
+                       self.diameterOfBinaryTree(root.left),
+                       self.diameterOfBinaryTree(root.right))
+        return 0
 
+    def _depth(self, node):
+        if node:
+            return max(self._depth(node.left), self._depth(node.right)) + 1
+        return 0
+
+
+import tree
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.diameterOfBinaryTree(None), 0)
+        self.assertEqual(s.diameterOfBinaryTree(tree.BinaryTree("12345").root), 3)
+        self.assertEqual(s.diameterOfBinaryTree(tree.BinaryTree(
+            [4, -7, -3, None, None, -9, -3, 9, -7, -4, None, 6, None, -6, -6, None, None, 0, 6, 5,
+             None, 9, None, None, -1, -4, None, None, None, -2]).root), 8)
 
 
 if __name__ == "__main__":
