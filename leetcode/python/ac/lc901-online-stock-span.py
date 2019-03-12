@@ -54,22 +54,34 @@ Similar Questions:
 class StockSpanner(object):
 
     def __init__(self):
-        
+        self.prices = []  # 价格列表(值，重复次数)
 
     def next(self, price):
         """
         :type price: int
         :rtype: int
         """
-        
+        span = 1
+        while self.prices and self.prices[-1][0] <= price:
+            span += self.prices.pop()[1]
+        self.prices.append((price, span))
+        return span
 
 
 # Your StockSpanner object will be instantiated and called as such:
 # obj = StockSpanner()
 # param_1 = obj.next(price)
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = StockSpanner()
+        self.assertEqual(s.next(100), 1)
+        self.assertEqual(s.next(80), 1)
+        self.assertEqual(s.next(60), 1)
+        self.assertEqual(s.next(70), 2)
+        self.assertEqual(s.next(60), 1)
+        self.assertEqual(s.next(75), 4)
+        self.assertEqual(s.next(85), 6)
 
 
 if __name__ == "__main__":

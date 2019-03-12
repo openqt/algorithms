@@ -37,10 +37,27 @@ class Solution(object):
         :type k: int
         :rtype: str
         """
-        
+        l = list(s)
+        n = 0
+        while n + 2 * k < len(l):
+            self._reverse(l, n, n + k)
+            n += 2 * k
+        self._reverse(l, n, min(len(l), n + k))
+        return ''.join(l)
 
+    def _reverse(self, s, l, r):  # reverse in place
+        r -= 1
+        while l < r:
+            s[l], s[r] = s[r], s[l]
+            l += 1
+            r -= 1
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.reverseStr("a", 2), "a")
+        self.assertEqual(s.reverseStr("abcdefg", 2), "bacdfeg")
 
 
 if __name__ == "__main__":
