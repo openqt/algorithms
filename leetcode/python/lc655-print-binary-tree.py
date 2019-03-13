@@ -75,6 +75,7 @@ Similar Questions:
 #         self.val = x
 #         self.left = None
 #         self.right = None
+from collections import deque
 
 class Solution(object):
     def printTree(self, root):
@@ -82,10 +83,37 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[List[str]]
         """
-        
+        sa = deque([root])
+        levels = []
+        while sa:
+            levels.append([])
+            sb = deque()
+            while sa:
+                node = sa.popleft()
+                if node:
+                    levels[-1].append(node.val)
+                    if node.left: sb.append(node.left)
+                    if node.right: sb.append(node.right)
+            sa = sb
+        return levels
 
+
+from tree import BinaryTree
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.printTree(BinaryTree("12").root),
+                         [["", "1", ""],
+                          ["2", "", ""]])
+        self.assertEqual(s.printTree(BinaryTree("123#4").root),
+                         [["", "", "", "1", "", "", ""],
+                          ["", "2", "", "", "", "3", ""],
+                          ["", "", "4", "", "", "", ""]])
+        self.assertEqual(s.printTree(BinaryTree("1253###4").root),
+                         [["", "", "", "", "", "", "", "1", "", "", "", "", "", "", ""],
+                          ["", "", "", "2", "", "", "", "", "", "", "", "5", "", "", ""],
+                          ["", "3", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+                          ["4", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]])
 
 
 if __name__ == "__main__":

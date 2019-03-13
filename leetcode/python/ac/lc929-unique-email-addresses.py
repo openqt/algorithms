@@ -59,10 +59,28 @@ class Solution(object):
         :type emails: List[str]
         :rtype: int
         """
-        
+        emails = {self._realname(i) for i in emails}
+        return len(emails)
 
+    def _realname(self, email: str):
+        addr, n = '', 0
+        while email[n] not in ('@', '+'):
+            if email[n] != '.':
+                addr += email[n]
+            n += 1
+        while email[n] != '@':
+            n += 1
+
+        return addr + email[n:]
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.numUniqueEmails([
+            "test.email+alex@leetcode.com",
+            "test.e.mail+bob.cathy@leetcode.com",
+            "testemail+david@lee.tcode.com"]), 2)
 
 
 if __name__ == "__main__":

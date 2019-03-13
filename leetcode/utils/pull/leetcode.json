@@ -5,8 +5,148 @@
     {
       "status": null, 
       "stat": {
-        "question__title": "Grid Illumination", 
+        "question__title": "Construct Binary Search Tree from Preorder Traversal", 
         "is_new_question": true, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1008, 
+        "question__title_slug": "construct-binary-search-tree-from-preorder-traversal", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1050
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 2
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Minimum Domino Rotations For Equal Row", 
+        "is_new_question": true, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1007, 
+        "question__title_slug": "minimum-domino-rotations-for-equal-row", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1049
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 2
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Clumsy Factorial", 
+        "is_new_question": true, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1006, 
+        "question__title_slug": "clumsy-factorial", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1048
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 2
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Maximize Sum Of Array After K Negations", 
+        "is_new_question": true, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1005, 
+        "question__title_slug": "maximize-sum-of-array-after-k-negations", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1047
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 1
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Max Consecutive Ones III", 
+        "is_new_question": false, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1004, 
+        "question__title_slug": "max-consecutive-ones-iii", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1046
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 2
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Check If Word Is Valid After Substitutions", 
+        "is_new_question": false, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1003, 
+        "question__title_slug": "check-if-word-is-valid-after-substitutions", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1045
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 2
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Find Common Characters", 
+        "is_new_question": false, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1002, 
+        "question__title_slug": "find-common-characters", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1044
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 1
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
+        "question__title": "Grid Illumination", 
+        "is_new_question": false, 
         "question__article__slug": null, 
         "frontend_question_id": 1001, 
         "question__title_slug": "grid-illumination", 
@@ -25,8 +165,28 @@
     {
       "status": null, 
       "stat": {
+        "question__title": "Minimum Cost to Merge Stones", 
+        "is_new_question": false, 
+        "question__article__slug": null, 
+        "frontend_question_id": 1000, 
+        "question__title_slug": "minimum-cost-to-merge-stones", 
+        "question__article__live": null, 
+        "question__hide": false, 
+        "question_id": 1042
+      }, 
+      "is_favor": false, 
+      "paid_only": false, 
+      "difficulty": {
+        "level": 3
+      }, 
+      "frequency": 0, 
+      "progress": 0
+    }, 
+    {
+      "status": null, 
+      "stat": {
         "question__title": "Available Captures for Rook", 
-        "is_new_question": true, 
+        "is_new_question": false, 
         "question__article__slug": null, 
         "frontend_question_id": 999, 
         "question__title_slug": "available-captures-for-rook", 
@@ -46,7 +206,7 @@
       "status": null, 
       "stat": {
         "question__title": "Maximum Binary Tree II", 
-        "is_new_question": true, 
+        "is_new_question": false, 
         "question__article__slug": null, 
         "frontend_question_id": 998, 
         "question__title_slug": "maximum-binary-tree-ii", 
@@ -66,7 +226,7 @@
       "status": null, 
       "stat": {
         "question__title": "Find the Town Judge", 
-        "is_new_question": true, 
+        "is_new_question": false, 
         "question__article__slug": null, 
         "frontend_question_id": 997, 
         "question__title_slug": "find-the-town-judge", 
@@ -337,7 +497,7 @@
       "is_favor": false, 
       "paid_only": false, 
       "difficulty": {
-        "level": 1
+        "level": 2
       }, 
       "frequency": 0, 
       "progress": 0
@@ -557,7 +717,7 @@
       "is_favor": false, 
       "paid_only": false, 
       "difficulty": {
-        "level": 1
+        "level": 2
       }, 
       "frequency": 0, 
       "progress": 0
@@ -10297,7 +10457,7 @@
       "is_favor": false, 
       "paid_only": false, 
       "difficulty": {
-        "level": 1
+        "level": 3
       }, 
       "frequency": 0, 
       "progress": 0
@@ -12347,10 +12507,10 @@
       "stat": {
         "question__title": "Intersection of Two Arrays", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "intersection-of-two-arrays", 
         "frontend_question_id": 349, 
         "question__title_slug": "intersection-of-two-arrays", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 349
       }, 
@@ -14307,10 +14467,10 @@
       "stat": {
         "question__title": "Count Univalue Subtrees", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "count-univalue-subtrees", 
         "frontend_question_id": 250, 
         "question__title_slug": "count-univalue-subtrees", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 250
       }, 
@@ -14527,10 +14687,10 @@
       "stat": {
         "question__title": "Sliding Window Maximum", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "sliding-window-maximum", 
         "frontend_question_id": 239, 
         "question__title_slug": "sliding-window-maximum", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 239
       }, 
@@ -16067,10 +16227,10 @@
       "stat": {
         "question__title": "LRU Cache", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "lru-cache", 
         "frontend_question_id": 146, 
         "question__title_slug": "lru-cache", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 146
       }, 
@@ -16307,10 +16467,10 @@
       "stat": {
         "question__title": "Gas Station", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "gas-station", 
         "frontend_question_id": 134, 
         "question__title_slug": "gas-station", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 134
       }, 
@@ -16987,10 +17147,10 @@
       "stat": {
         "question__title": "Same Tree", 
         "is_new_question": false, 
-        "question__article__slug": null, 
+        "question__article__slug": "same-tree", 
         "frontend_question_id": 100, 
         "question__title_slug": "same-tree", 
-        "question__article__live": null, 
+        "question__article__live": true, 
         "question__hide": false, 
         "question_id": 100
       }, 
@@ -18989,5 +19149,5 @@
   "num_solved": 0, 
   "ac_hard": 0, 
   "user_name": "", 
-  "num_total": 949
+  "num_total": 957
 }

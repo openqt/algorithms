@@ -53,25 +53,24 @@ data structure.
 Similar Questions:
 
 """
+import collections
 
 
 class FreqStack(object):
 
     def __init__(self):
-        
+        collections.Counter
 
     def push(self, x):
         """
         :type x: int
         :rtype: void
         """
-        
 
     def pop(self):
         """
         :rtype: int
         """
-        
 
 
 # Your FreqStack object will be instantiated and called as such:
@@ -79,8 +78,15 @@ class FreqStack(object):
 # obj.push(x)
 # param_2 = obj.pop()
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = FreqStack()
+        for i in (5, 7, 5, 7, 4):
+            s.push(i)
+        self.assertEqual(s.pop(), 5)
+        self.assertEqual(s.pop(), 7)
+        self.assertEqual(s.pop(), 5)
+        self.assertEqual(s.pop(), 4)
 
 
 if __name__ == "__main__":

@@ -47,10 +47,14 @@ class Solution(object):
         :type S: str
         :rtype: int
         """
-        
+        return sum([1 for i in S if i in set(J)])
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.numJewelsInStones("aA", "aAAbbbb"), 3)
+        self.assertEqual(s.numJewelsInStones("z", "ZZ"), 0)
 
 
 if __name__ == "__main__":
