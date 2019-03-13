@@ -1,0 +1,16 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+"""388. Distinct Lines
+https://projecteuler.net/problem=388
+
+Consider all lattice points (a,b,c) with 0 ≤ a,b,c ≤ N.
+
+From the origin O(0,0,0) all lines are drawn to the other lattice points.  
+Let D(N) be the number of _distinct_ such lines.
+
+You are given that D(1 000 000) = 831909254469114121.
+
+Find D(10 10). Give as your answer the first nine digits followed by the last
+nine digits.
+"""
