@@ -36,7 +36,8 @@ impossible, return `-1`.
     
     **Input:** stones = [3,2,4,1], K = 3
     **Output:** -1
-    **Explanation:** After any merge operation, there are 2 piles left, and we can't merge anymore.  So the task is impossible.
+    **Explanation:** After any merge operation, there are 2 piles left, 
+    and we can't merge anymore.  So the task is impossible.
     
 
 **Example 3:**
@@ -56,7 +57,7 @@ impossible, return `-1`.
 
 **Note:**
 
-  * ` 1 <= stones.length <= 30`
+  * `1 <= stones.length <= 30`
   * `2 <= K <= 30`
   * `1 <= stones[i] <= 100`
 
@@ -73,10 +74,18 @@ class Solution(object):
         :type K: int
         :rtype: int
         """
+        if len(stones) % K + 1 != K:
+            return -1
+
+        cache = [0] * (sum(stones) + 1)
+
 
 class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.mergeStones([3, 2, 4, 1], 2), 20)
+        self.assertEqual(s.mergeStones([3, 2, 4, 1], 3), -1)
+        self.assertEqual(s.mergeStones([3, 5, 1, 2, 6], 3), 25)
 
 
 if __name__ == "__main__":
