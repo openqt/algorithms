@@ -52,7 +52,8 @@ def Q2_8():
         print(Fraction(1, n) + Fraction(1, n + 2))
 
 
-run("Q2_4()")
-run("Q2_6()")
-run("Q2_7()")
-Q2_8()
+if __name__ == '__main__':
+    run("Q2_4()")
+    run("Q2_6()")
+    run("Q2_7()")
+    Q2_8()

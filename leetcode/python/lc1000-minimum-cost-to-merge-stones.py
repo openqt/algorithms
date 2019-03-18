@@ -74,15 +74,29 @@ class Solution(object):
         :type K: int
         :rtype: int
         """
-        if len(stones) % K + 1 != K:
-            return -1
+        # if len(stones) % K + 1 != K:
+        #     return -1
+        val = 0
+        while len(stones) >= K:
+            v, pos = self._min_k(stones, K)
+            val += v
+            stones = stones[:pos] + [v] + stones[pos+K:]
+            # print(stones)
+        return val if len(stones) == 1 else -1
 
-        cache = [0] * (sum(stones) + 1)
+    def _min_k(self, stones, K):
+        val, pos = sum(stones[:K]), 0
+        for i in range(1, len(stones)-K+1):
+            t = sum(stones[i:i+K])
+            if t < val:
+                val, pos = t, i
+        return val, pos
 
 
 class T(unittest.TestCase):
     def test(self):
         s = Solution()
+        self.assertEqual(s.mergeStones([6, 4, 4, 6], 2), 40)
         self.assertEqual(s.mergeStones([3, 2, 4, 1], 2), 20)
         self.assertEqual(s.mergeStones([3, 2, 4, 1], 3), -1)
         self.assertEqual(s.mergeStones([3, 5, 1, 2, 6], 3), 25)

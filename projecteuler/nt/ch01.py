@@ -35,4 +35,6 @@ def Q1_1(loop=3):
             sn = next(sng)
 
 
-run("Q1_1(4)")
+if __name__ == '__main__':
+    run("Q1_1(4)")
+    import turtle
