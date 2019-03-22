@@ -57,10 +57,23 @@ class Solution(object):
         :type words: List[str]
         :rtype: int
         """
-        
+        self.CODE = [
+            ".-", "-...", "-.-.", "-..", ".",
+            "..-.", "--.", "....", "..", ".---",
+            "-.-", ".-..", "--", "-.", "---",
+            ".--.", "--.-", ".-.", "...", "-",
+            "..-", "...-", ".--", "-..-", "-.--", "--.."]
+        cache = {self._trans(i) for i in words}
+        return len(cache)
 
+    def _trans(self, w):
+        return ''.join(self.CODE[ord(i) - ord('a')] for i in w)
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.uniqueMorseRepresentations(["gin", "zen", "gig", "msg"]), 2)
 
 
 if __name__ == "__main__":

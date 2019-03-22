@@ -52,9 +52,24 @@ def Q5_6():
         print(i, len_3plus1(i))
 
 
+class B(object):
+    """this is aa"""
+    pass
+
+class A(object):
+    aa = B()
+    """new aa """
+
+    bb = B()
+
 if __name__ == '__main__':
-    Q5_1()
-    Q5_2()
-    Q5_4()
-    Q5_5()
-    Q5_6()
+    t = A()
+    print(t.aa.__doc__)
+    print(t.bb.__doc__)
+
+
+    # Q5_1()
+    # Q5_2()
+    # Q5_4()
+    # Q5_5()
+    # Q5_6()

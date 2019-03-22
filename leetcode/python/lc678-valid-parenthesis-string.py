@@ -54,10 +54,32 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        
+        return self._check(0., s)
 
+    def _check(self, stack, s):
+        for n, i in enumerate(s):
+            if i == '(':
+                stack += 1
+            elif i == ')':
+                stack -= 1
+                if stack < 0:
+                    return False
+            else:  # *
+                return self._check(stack-1, s[n+1:]) or self._check(stack, s[n+1:]) or self._check(stack+1, s[n+1:])
+        return stack == 0
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertFalse(s.checkValidString(")("))
+
+        self.assertTrue(s.checkValidString("()"))
+        self.assertTrue(s.checkValidString("(*)"))
+        self.assertTrue(s.checkValidString("(*))"))
+
+        # self.assertFalse(s.checkValidString("(())((())()()(*)(*()(())())())()()((()())((()))(*"))
+        self.assertFalse(s.checkValidString("(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())"))
 
 
 if __name__ == "__main__":
