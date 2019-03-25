@@ -40,10 +40,26 @@ class Solution(object):
         :type moves: str
         :rtype: bool
         """
-        
+        x = y = 0
+        for c in moves:
+            if c == "U":
+                y += 1
+            elif c == "D":
+                y -= 1
+            elif c == "L":
+                x -= 1
+            elif c == "R":
+                x += 1
+            else:
+                pass
+        return (x, y) == (0, 0)
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.judgeCircle("UD"))
+        self.assertFalse(s.judgeCircle("LL"))
 
 
 if __name__ == "__main__":

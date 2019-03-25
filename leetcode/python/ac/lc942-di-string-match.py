@@ -57,10 +57,24 @@ class Solution(object):
         :type S: str
         :rtype: List[int]
         """
-        
+        i, j, A = 0, len(S), []
+        for c in S:
+            if c == 'I':
+                A.append(i)
+                i += 1
+            else:
+                A.append(j)
+                j -= 1
+        A.append(i)
+        return A
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.diStringMatch("IDID"), [0, 4, 1, 3, 2])
+        self.assertEqual(s.diStringMatch("III"), [0, 1, 2, 3])
+        self.assertEqual(s.diStringMatch("DDI"), [3, 2, 0, 1])
 
 
 if __name__ == "__main__":

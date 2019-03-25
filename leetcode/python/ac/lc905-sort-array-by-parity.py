@@ -39,10 +39,20 @@ class Solution(object):
         :type A: List[int]
         :rtype: List[int]
         """
-        
+        i, j = 0, len(A) - 1
+        while i < j:
+            while i < j and A[i] % 2 == 0:
+                i += 1
+            while i < j and A[j] % 2 == 1:
+                j -= 1
+            A[i], A[j] = A[j], A[i]
+        return A
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.sortArrayByParity([3, 1, 2, 4]), [4, 2, 1, 3])
 
 
 if __name__ == "__main__":

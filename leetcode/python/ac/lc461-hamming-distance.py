@@ -42,10 +42,18 @@ class Solution(object):
         :type y: int
         :rtype: int
         """
-        
+        d = 0
+        while x > 0 or y > 0:
+            d += (x & 1) ^ (y & 1)
+            x >>= 1
+            y >>= 1
+        return d
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.hammingDistance(1, 4), 2)
 
 
 if __name__ == "__main__":
