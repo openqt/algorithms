@@ -35,15 +35,7 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        self.mem = {}
-        return self._sg(n) > 0
-
-    def _sg(self, n):
-        if n not in self.mem:
-            if n <= 0: return 1
-            if n <= 3: return 0
-            self.mem[n] = self.canWinNim(n-1) ^ self.canWinNim(n-2) ^ self.canWinNim(n-3)
-        return self.mem[n]
+        return n % 4 != 0
 
 
 class T(unittest.TestCase):

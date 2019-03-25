@@ -35,10 +35,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
+        nums.sort()
+        return sum(nums[i] for i in range(0, len(nums), 2))
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.arrayPairSum([1, 4, 3, 2]), 4)
 
 
 if __name__ == "__main__":
