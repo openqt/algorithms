@@ -72,10 +72,25 @@ class Solution(object):
         :type A: List[str]
         :rtype: int
         """
-        
+        D = 0
+        for i in zip(*A):
+            if not self._inc(i):
+                D += 1
+        return D
 
+    def _inc(self, A):
+        for i in range(len(A)-1):
+            if A[i+1] < A[i]:
+                return False
+        return True
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.minDeletionSize(["cba", "daf", "ghi"]), 1)
+        self.assertEqual(s.minDeletionSize(["a", "b"]), 0)
+        self.assertEqual(s.minDeletionSize(["zyx", "wvu", "tsr"]), 3)
 
 
 if __name__ == "__main__":

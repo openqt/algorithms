@@ -15,7 +15,7 @@ until now.
 Any ping with time in `[t - 3000, t]` will count, including the current ping.
 
 It is guaranteed that every call to `ping` uses a strictly larger value of `t`
-than before.
+than before.  
 
 
 
@@ -39,26 +39,36 @@ Similar Questions:
 
 """
 
+from collections import deque
+
 
 class RecentCounter(object):
 
     def __init__(self):
-        
+        self.t = deque()
 
     def ping(self, t):
         """
         :type t: int
         :rtype: int
         """
-        
+        self.t.append(t)
+        while t - self.t[0] > 3000:
+            self.t.popleft()
+        return len(self.t)
 
 
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = RecentCounter()
+        self.assertEqual(s.ping(1), 1)
+        self.assertEqual(s.ping(100), 2)
+        self.assertEqual(s.ping(3001), 3)
+        self.assertEqual(s.ping(3002), 3)
 
 
 if __name__ == "__main__":
