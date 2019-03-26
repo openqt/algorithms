@@ -42,9 +42,24 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
+        a, b = 0, num
+        while a <= b:
+            m = (b + a) // 2
+            if m * m > num:
+                b = m - 1
+            elif m * m < num:
+                a = m + 1
+            else:
+                return True
+        return False
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.isPerfectSquare(1))
+        self.assertTrue(s.isPerfectSquare(16))
+        self.assertFalse(s.isPerfectSquare(14))
 
 
 if __name__ == "__main__":

@@ -37,15 +37,18 @@ class Node(object):
         self.val = val
         self.children = children
 """
+
 class Solution(object):
     def maxDepth(self, root):
         """
         :type root: Node
         :rtype: int
         """
-
-    def test(self):
-        pass
+        if root:
+            if root.children:
+                return max(self.maxDepth(i) for i in root.children) + 1
+            return 1
+        return 0
 
 
 if __name__ == "__main__":

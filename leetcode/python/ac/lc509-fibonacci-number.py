@@ -65,10 +65,18 @@ class Solution(object):
         :type N: int
         :rtype: int
         """
-        
+        if N <= 1: return N
+        a, b = 0, 1
+        for i in range(N - 1):
+            a, b = b, a + b
+        return b
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.fib(2), 1)
+        self.assertEqual(s.fib(4), 3)
 
 
 if __name__ == "__main__":

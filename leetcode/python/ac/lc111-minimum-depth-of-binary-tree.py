@@ -45,10 +45,14 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        
-
-    def test(self):
-        pass
+        if root:
+            if root.left and root.right:
+                return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
+            elif root.left:
+                return self.minDepth(root.left) + 1
+            else:
+                return self.minDepth(root.right) + 1
+        return 0
 
 
 if __name__ == "__main__":

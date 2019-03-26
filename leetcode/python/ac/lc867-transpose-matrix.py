@@ -46,10 +46,16 @@ class Solution(object):
         :type A: List[List[int]]
         :rtype: List[List[int]]
         """
-        
+        return zip(*A)
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(list(s.transpose([[1, 2, 3], [4, 5, 6], [7, 8, 9]])),
+                         [(1, 4, 7), (2, 5, 8), (3, 6, 9)])
+        self.assertEqual(list(s.transpose([[1, 2, 3], [4, 5, 6]])),
+                         [(1, 4), (2, 5), (3, 6)])
 
 
 if __name__ == "__main__":

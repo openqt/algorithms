@@ -27,7 +27,6 @@ Similar Questions:
   N-ary Tree Postorder Traversal (n-ary-tree-postorder-traversal)
 """
 
-
 """
 # Definition for a Node.
 class Node(object):
@@ -35,15 +34,27 @@ class Node(object):
         self.val = val
         self.children = children
 """
+
+
 class Solution(object):
+    def __init__(self):
+        self.val = []
+
     def preorder(self, root):
         """
         :type root: Node
         :rtype: List[int]
         """
+        val = []
+        self._dfs(root, val)
+        return val
 
-    def test(self):
-        pass
+    def _dfs(self, node, l: list):
+        if node:
+            l.append(node.val)
+            if node.children:
+                for i in node.children:
+                    self._dfs(i, l)
 
 
 if __name__ == "__main__":

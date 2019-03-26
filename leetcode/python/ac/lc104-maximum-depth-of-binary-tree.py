@@ -45,10 +45,9 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        
-
-    def test(self):
-        pass
+        if root:
+            return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
+        return 0
 
 
 if __name__ == "__main__":

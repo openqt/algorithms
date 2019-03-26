@@ -35,10 +35,19 @@ class Solution(object):
         :type c: int
         :rtype: bool
         """
-        
+        vals = {i * i for i in range(int(c ** .5)+1)}
+        for i in vals:
+            if (c - i) in vals:
+                return True
+        return False
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.judgeSquareSum(5))
+        self.assertFalse(s.judgeSquareSum(3))
+        self.assertTrue(s.judgeSquareSum(4))
 
 
 if __name__ == "__main__":
