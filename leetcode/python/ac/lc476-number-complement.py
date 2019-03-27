@@ -41,10 +41,20 @@ class Solution(object):
         :type num: int
         :rtype: int
         """
-        
+        n, c = num, 0
+        while n > 0:
+            n >>= 1
+            c += 1
 
+        mask = 0xffffffff >> (32-c)
+        return num ^ mask
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.findComplement(5), 2)
+        self.assertEqual(s.findComplement(1), 0)
 
 
 if __name__ == "__main__":

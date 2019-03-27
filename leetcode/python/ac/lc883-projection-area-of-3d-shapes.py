@@ -84,10 +84,20 @@ class Solution(object):
         :type grid: List[List[int]]
         :rtype: int
         """
-        
+        xy = sum(len([j for j in i if j > 0]) for i in grid)
+        xz = sum(max(i) for i in grid)
+        yz = sum(max(i) for i in zip(*grid))
+        return xy + xz + yz
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.projectionArea([[2]]), 5)
+        self.assertEqual(s.projectionArea([[1, 2], [3, 4]]), 17)
+        self.assertEqual(s.projectionArea([[1, 0], [0, 2]]), 8)
+        self.assertEqual(s.projectionArea([[1, 1, 1], [1, 0, 1], [1, 1, 1]]), 14)
+        self.assertEqual(s.projectionArea([[2, 2, 2], [2, 1, 2], [2, 2, 2]]), 21)
 
 
 if __name__ == "__main__":

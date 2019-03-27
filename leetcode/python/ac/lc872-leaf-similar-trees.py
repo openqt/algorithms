@@ -44,10 +44,18 @@ class Solution(object):
         :type root2: TreeNode
         :rtype: bool
         """
-        
+        l, r = [], []
+        self._similar(root1, l)
+        self._similar(root2, r)
+        return l == r
 
-    def test(self):
-        pass
+    def _similar(self, node, leaf: list):
+        if node:
+            if not (node.left or node.right):
+                leaf.append(node.val)
+            else:
+                self._similar(node.left, leaf)
+                self._similar(node.right, leaf)
 
 
 if __name__ == "__main__":

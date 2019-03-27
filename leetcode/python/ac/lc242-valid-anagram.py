@@ -45,10 +45,14 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+        return sorted(s) == sorted(t)
         
 
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertTrue(s.isAnagram("anagram", "nagaram"))
+        self.assertFalse(s.isAnagram("rat", "car"))
 
 
 if __name__ == "__main__":

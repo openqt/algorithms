@@ -36,10 +36,26 @@ class Solution(object):
         :type C: str
         :rtype: List[int]
         """
-        
+        val = [0] * len(S)
+        v = len(S)
+        for n, c in enumerate(S):
+            v = 0 if c == C else v + 1
+            val[n] = v
 
+        v = len(S)
+        for i in range(n, -1, -1):
+            v = 0 if S[i] == C else v + 1
+            val[i] = min(val[i], v)
+
+        return val
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.shortestToChar("aaab", 'b'), [3,2,1,0])
+        self.assertEqual(s.shortestToChar("loveleetcode", 'e'),
+                         [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0])
 
 
 if __name__ == "__main__":
