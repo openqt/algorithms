@@ -55,10 +55,14 @@ class Solution(object):
         :type queries: List[List[int]]
         :rtype: List[int]
         """
-        
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.sumEvenAfterQueries(
+            [1, 2, 3, 4], [[1, 0], [-3, 1], [-4, 0], [2, 3]]),
+            [8, 6, 2, 4])
 
 
 if __name__ == "__main__":

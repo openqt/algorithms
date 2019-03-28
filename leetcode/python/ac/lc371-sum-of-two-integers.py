@@ -27,10 +27,17 @@ class Solution(object):
         :type b: int
         :rtype: int
         """
-        
+        while b != 0:
+            a, b = (a ^ b) & 0xffffffff, ((a & b) << 1) & 0xffffffff
+        return a if a <= 0x7fffffff else ~(a ^ 0xffffffff)
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.getSum(-12, -8), -20)
+        self.assertEqual(s.getSum(-1, 1), 0)
+        self.assertEqual(s.getSum(1, 2), 3)
 
 
 if __name__ == "__main__":
