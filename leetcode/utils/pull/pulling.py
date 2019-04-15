@@ -148,14 +148,14 @@ class Question(object):
         }
 
         if language == "python":
-            text = Template(python_template).substitute(**kwargs).encode("utf-8")
+            text = Template(python_template).substitute(**kwargs)
 
             filename = self.name() + ".py"
             with open(filename, "w") as f:
                 f.write(text)
             print("{} generated".format(filename))
         elif language == "golang":
-            text = Template(golang_template).substitute(**kwargs).encode("utf-8")
+            text = Template(golang_template).substitute(**kwargs)
 
             filename = self.name() + ".go"
             with open(filename, "w") as f:

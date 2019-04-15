@@ -1,10 +1,7 @@
-package main
+# coding=utf-8
+import unittest
 
-import (
-    "fmt"
-)
-
-/*973. K Closest Points to Origin
+"""973. K Closest Points to Origin
 https://leetcode.com/problems/k-closest-points-to-origin/description/
 
 We have a list of `points` on the plane.  Find the `K` closest points to the
@@ -52,11 +49,22 @@ Similar Questions:
   Kth Largest Element in an Array (kth-largest-element-in-an-array)
   Top K Frequent Elements (top-k-frequent-elements)
   Top K Frequent Words (top-k-frequent-words)
-*/
-func kClosest(points [][]int, K int) [][]int {
-    
-}
+"""
 
-func main() {
-    fmt.Println()
-}
+
+class Solution(object):
+    def kClosest(self, points, K):
+        """
+        :type points: List[List[int]]
+        :type K: int
+        :rtype: List[List[int]]
+        """
+        
+
+class T(unittest.TestCase):
+    def test(self):
+        pass
+
+
+if __name__ == "__main__":
+    unittest.main()
