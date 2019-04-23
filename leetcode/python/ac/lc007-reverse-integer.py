@@ -48,15 +48,31 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        neg = False
+        val = 0
         if x < 0:
-            neg = True
+            minus = True
             x = -x
+        else:
+            minus = False
+
+        while x != 0:
+            val = val * 10 + x % 10
+            x //= 10
+
+        if val > 2**31:
+            val = 0
+
+        if minus:
+            val = -val
+        return val
 
         
-
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.reverse(123), 321)
+        self.assertEqual(s.reverse(-123), -321)
+        self.assertEqual(s.reverse(120), 21)
 
 
 if __name__ == "__main__":

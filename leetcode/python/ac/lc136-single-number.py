@@ -43,10 +43,20 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
+        val = set()
+        for i in nums:
+            if i in val:
+                val.remove(i)
+            else:
+                val.add(i)
+        return val.pop()
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.singleNumber([2, 2, 1]), 1)
+        self.assertEqual(s.singleNumber([4, 1, 2, 1, 2]), 4)
 
 
 if __name__ == "__main__":

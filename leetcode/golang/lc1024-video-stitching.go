@@ -1,7 +1,10 @@
-# coding=utf-8
-import unittest
+package main
 
-"""1024. Video Stitching
+import (
+    "fmt"
+)
+
+/*1024. Video Stitching
 https://leetcode.com/problems/video-stitching/description/
 
 You are given a series of video clips from a sporting event that lasted `T`
@@ -72,21 +75,11 @@ impossible, return `-1`.
 
 Similar Questions:
 
-"""
+*/
+func videoStitching(clips [][]int, T int) int {
+    
+}
 
-
-class Solution(object):
-    def videoStitching(self, clips, T):
-        """
-        :type clips: List[List[int]]
-        :type T: int
-        :rtype: int
-        """
-
-class T(unittest.TestCase):
-    def test(self):
-        pass
-
-
-if __name__ == "__main__":
-    unittest.main()
+func main() {
+    fmt.Println()
+}
