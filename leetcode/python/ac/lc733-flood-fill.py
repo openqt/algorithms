@@ -54,10 +54,28 @@ class Solution(object):
         :type newColor: int
         :rtype: List[List[int]]
         """
-        
+        S, C = {(sr, sc)}, image[sr][sc]  # points stack and old color
+        if C == newColor: return image
+        while S:
+            row, col = S.pop()
+            image[row][col] = newColor
 
+            if row > 0 and image[row - 1][col] == C:
+                S.add((row - 1, col))
+            if row < len(image) - 1 and image[row + 1][col] == C:
+                S.add((row + 1, col))
+            if col > 0 and image[row][col - 1] == C:
+                S.add((row, col - 1))
+            if col < len(image[0]) - 1 and image[row][col + 1] == C:
+                S.add((row, col + 1))
+        return image
+
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.floodFill([[1, 1, 1], [1, 1, 0], [1, 0, 1]], 1, 1, 2), [[2, 2, 2], [2, 2, 0], [2, 0, 1]])
+        self.assertEqual(s.floodFill([[0, 0, 0], [0, 0, 0]], 0, 0, 2), [[2, 2, 2], [2, 2, 2]])
 
 
 if __name__ == "__main__":

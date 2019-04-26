@@ -39,10 +39,24 @@ class Solution(object):
         :type grid: List[List[int]]
         :rtype: int
         """
-        
+        S = set()
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if grid[row][col] == 1:
+                    S.add((row, col))
+        P = 0
+        for (r, c) in S:
+            P += 4
+            for i in [(r-1, c), (r+1, c), (r, c-1), (r, c+1)]:
+                if i in S:
+                    P -= 1
+        return P
 
+
+class T(unittest.TestCase):
     def test(self):
-        pass
+        s = Solution()
+        self.assertEqual(s.islandPerimeter([[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1, 0, 0]]), 16)
 
 
 if __name__ == "__main__":
